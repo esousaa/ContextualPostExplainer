@@ -76,6 +76,8 @@ def _boost(post: PostData, evidence: Evidence) -> float:
         score += 0.05
     if len(evidence.content) >= 1000:
         score += 0.03
+    if evidence.provider_result_count > 1 or len(evidence.providers) > 1:
+        score += 0.07
     if evidence.url and matches_post_link(post, evidence.url.unicode_string()):
         score += 0.1
     return score

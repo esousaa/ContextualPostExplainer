@@ -94,7 +94,7 @@ export function ExplainerPage() {
             value={url}
           />
           <PostPreview post={response?.post ?? null} />
-          {explainer.status === "loading" && <LoadingState />}
+          {explainer.status === "loading" && <LoadingState progress={explainer.progress} />}
           {explainer.status === "idle" && <EmptyState />}
           {explainer.status === "error" && <ErrorState error={explainer.error} onRetry={handleRetry} />}
         </aside>

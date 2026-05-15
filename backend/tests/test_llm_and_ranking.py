@@ -363,3 +363,8 @@ async def test_explanation_generator_removes_unrepaired_critical_bullets() -> No
     assert explanation.bullets == []
     assert explanation.confidence == "low"
     assert explanation.warnings[0].code == "CRITICAL_BULLETS_REMOVED"
+    assert "citations did not match the claim type" in explanation.warnings[0].message
+    assert (
+        "confirmed factual claims were supported only by social"
+        in explanation.warnings[0].message
+    )

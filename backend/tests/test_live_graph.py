@@ -49,6 +49,9 @@ class FakeSourceFetcher:
             content="Reliable source content that supports three explanatory bullets.",
             source_type="web",
             provider=result.provider,
+            providers=result.providers or [result.provider],
+            provider_queries=result.provider_queries,
+            provider_result_count=result.provider_result_count,
             query=result.query,
             canonical_url=result.canonical_url,
         )
@@ -194,6 +197,50 @@ async def test_live_explanation_flow_runs_end_to_end_with_fakes() -> None:
     assert len(response.explanation) == 3
     assert response.sources[0].id == "s1"
     assert response.confidence == "medium"
+
+
+@pytest.mark.asyncio
+async def test_live_explanation_flow_emits_progress_events() -> None:
+    events = []
+
+    async def progress_callback(event):
+        events.append(event)
+
+    async def rank_evidence(state: ExplanationState) -> list[RankedEvidence]:
+        return [
+            RankedEvidence(**source.model_dump(mode="json"), relevance_score=0.9)
+            for source in state.get("evidence", [])
+            if source.id == "s1"
+        ]
+
+    async def generate_explanation(state: ExplanationState) -> Explanation:
+        return await FakeLLMClient().generate_explanation(
+            state["post"],
+            state.get("ranked_evidence", []),
+        )
+
+    flow = LiveExplanationFlow(
+        settings=_settings(),
+        post_fetcher=FakePostFetcher(),
+        search_provider=FakeSearchProvider([_search_result()]),
+        source_fetcher=FakeSourceFetcher(),
+        llm_client=FakeLLMClient(),
+        rank_evidence=rank_evidence,
+        generate_explanation=generate_explanation,
+        progress_callback=progress_callback,
+    )
+
+    await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
+
+    assert events[0]["type"] == "run_started"
+    assert any(event["type"] == "node_started" for event in events)
+    assert any(
+        event["type"] == "node_completed"
+        and event["node_name"] == "fetch_source_pages"
+        and event["step"] == "Reading sources"
+        for event in events
+    )
+    assert events[-1]["status"] == "completed"
 
 
 @pytest.mark.asyncio

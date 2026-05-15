@@ -1,3 +1,6 @@
+from collections.abc import Awaitable, Callable
+from typing import Any
+
 from app.adapters.bluesky.post_fetcher import BlueskyPostFetcher
 from app.adapters.http.source_fetcher import HttpSourceFetcher
 from app.adapters.openai.embedding_client import OpenAIEmbeddingClient
@@ -17,11 +20,19 @@ class LiveExplanationService:
     def __init__(self, settings: Settings) -> None:
         self._settings = settings
 
-    async def explain_url(self, url: str, include_debug: bool = False) -> ExplanationResponse:
-        flow = self._build_flow()
+    async def explain_url(
+        self,
+        url: str,
+        include_debug: bool = False,
+        progress_callback: Callable[[dict[str, Any]], Awaitable[None]] | None = None,
+    ) -> ExplanationResponse:
+        flow = self._build_flow(progress_callback=progress_callback)
         return await flow.run(url=url, include_debug=include_debug)
 
-    def _build_flow(self) -> LiveExplanationFlow:
+    def _build_flow(
+        self,
+        progress_callback: Callable[[dict[str, Any]], Awaitable[None]] | None = None,
+    ) -> LiveExplanationFlow:
         llm_client = OpenAILLMClient(
             api_key=self._settings.openai_api_key,
             generation_model=self._settings.openai_generation_model,
@@ -57,4 +68,5 @@ class LiveExplanationService:
             generate_explanation=generate_explanation,
             image_analyzer=image_analyzer,
             run_recorder=LocalRunRecorder(),
+            progress_callback=progress_callback,
         )

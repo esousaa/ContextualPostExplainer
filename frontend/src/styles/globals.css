@@ -598,10 +598,77 @@ h3 {
   background: var(--surface);
   color: var(--ink);
   border: 1px solid var(--line);
+  align-items: center;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
 }
 
-.pipeline-step svg {
+.pipeline-step.completed {
+  background: var(--green-soft);
+  border-color: rgba(8, 127, 115, 0.28);
+}
+
+.pipeline-step.completed > span:last-child {
   color: var(--green);
+  font-weight: 850;
+}
+
+.pipeline-step.active {
+  border-color: rgba(8, 127, 115, 0.34);
+}
+
+.pipeline-step.pending {
+  color: var(--muted);
+}
+
+.pipeline-step.failed {
+  background: var(--coral-soft);
+  border-color: rgba(207, 73, 45, 0.3);
+}
+
+.pipeline-step-copy {
+  display: grid;
+  gap: 2px;
+}
+
+.pipeline-step-copy small {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.pipeline-icon {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+}
+
+.pipeline-icon.completed {
+  border-color: var(--green);
+  background: var(--green);
+  color: #ffffff;
+}
+
+.pipeline-icon.active {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.pipeline-icon.failed {
+  border-color: var(--coral);
+  background: var(--coral);
+  color: #ffffff;
+}
+
+.pipeline-icon svg {
+  color: currentColor;
 }
 
 .error-state > svg,

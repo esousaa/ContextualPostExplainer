@@ -1,0 +1,900 @@
+{
+  "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+  "mode": "live",
+  "generated_at": "2026-05-15T21:55:52.447753+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T21:55:10.343350+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:10.343457+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T21:55:10.343838+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:10.343941+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T21:55:10.344371+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:11.502135+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1157
+    },
+    {
+      "timestamp": "2026-05-15T21:55:11.502652+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:25.582710+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 12246
+    },
+    {
+      "timestamp": "2026-05-15T21:55:25.583252+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:28.047345+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2464
+    },
+    {
+      "timestamp": "2026-05-15T21:55:28.047850+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:34.061610+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6013
+    },
+    {
+      "timestamp": "2026-05-15T21:55:34.062252+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:45.814217+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 11751
+    },
+    {
+      "timestamp": "2026-05-15T21:55:45.814759+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:48.747251+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1054
+    },
+    {
+      "timestamp": "2026-05-15T21:55:48.747722+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.443983+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3696
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.444541+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.444634+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.444981+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.445046+00:00",
+      "event": "node_completed",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T21:55:52.445313+00:00",
+      "event": "node_started",
+      "run_id": "run_2237bfe6a7d04bb1abdec226b12c83e0",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+  "queries": [
+    "France solar panel parking law 2026",
+    "Comparison of US and EU solar energy initiatives",
+    "Impact of solar panels on parking lots and heat islands",
+    "China EU solar panel manufacturing and import policies"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 40,
+    "search_results_by_provider": {
+      "brave": 20,
+      "tavily": 20
+    },
+    "search_provider_overlap": [
+      {
+        "canonical_url": "https://sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "France solar panel parking law 2026"
+          ],
+          "tavily": [
+            "France solar panel parking law 2026"
+          ]
+        },
+        "titles": [
+          "France requires Solar Panels for all Large Parking Lots — Sustaira"
+        ]
+      },
+      {
+        "canonical_url": "https://pv-tech.org/how-investment-trends-us-residential-solar-compare-europe",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Comparison of US and EU solar energy initiatives"
+          ],
+          "tavily": [
+            "Comparison of US and EU solar energy initiatives"
+          ]
+        },
+        "titles": [
+          "How investment trends in US residential solar compare to Europe",
+          "How investment trends in US residential solar compare to Europe - PV Tech"
+        ]
+      },
+      {
+        "canonical_url": "https://lasvegasweekly.com/news/2024/jul/25/solar-panels-parking-lots-fight-heat-island",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Impact of solar panels on parking lots and heat islands"
+          ],
+          "tavily": [
+            "Impact of solar panels on parking lots and heat islands"
+          ]
+        },
+        "titles": [
+          "Solar panels over parking lots can help fight the urban heat island ...",
+          "Solar panels over parking lots can help fight the urban heat island effect - Las Vegas Weekly"
+        ]
+      },
+      {
+        "canonical_url": "https://reddit.com/r/solar/comments/18qpbzv/will_solar_panels_increase_the_asphalt_island",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Impact of solar panels on parking lots and heat islands"
+          ],
+          "tavily": [
+            "Impact of solar panels on parking lots and heat islands"
+          ]
+        },
+        "titles": [
+          "Will Solar Panels Increase the Asphalt Island Effect? - Reddit",
+          "r/solar on Reddit: Will Solar Panels Increase the Asphalt Island Effect?"
+        ]
+      },
+      {
+        "canonical_url": "https://bruegel.org/policy-brief/smarter-european-union-industrial-policy-solar-panels",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "China EU solar panel manufacturing and import policies"
+          ],
+          "tavily": [
+            "China EU solar panel manufacturing and import policies"
+          ]
+        },
+        "titles": [
+          "Smarter European Union industrial policy for solar panels"
+        ]
+      },
+      {
+        "canonical_url": "https://sciencedirect.com/science/article/pii/S0301421525002964",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "China EU solar panel manufacturing and import policies"
+          ],
+          "tavily": [
+            "China EU solar panel manufacturing and import policies"
+          ]
+        },
+        "titles": [
+          "Protectionism's adverse impact on renewable energy deployment: evidence from the European Union's import duties on China-made photovoltaic panels - ScienceDirect"
+        ]
+      }
+    ],
+    "search_provider_overlap_count": 6,
+    "search_results_discarded": [
+      {
+        "id": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots"
+      },
+      {
+        "id": "https://www.pv-tech.org/how-investment-trends-us-residential-solar-compare-europe/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.pv-tech.org/how-investment-trends-us-residential-solar-compare-europe/"
+      },
+      {
+        "id": "https://lasvegasweekly.com/news/2024/jul/25/solar-panels-parking-lots-fight-heat-island/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://lasvegasweekly.com/news/2024/jul/25/solar-panels-parking-lots-fight-heat-island/"
+      },
+      {
+        "id": "https://www.reddit.com/r/solar/comments/18qpbzv/will_solar_panels_increase_the_asphalt_island/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.reddit.com/r/solar/comments/18qpbzv/will_solar_panels_increase_the_asphalt_island/"
+      },
+      {
+        "id": "https://www.bruegel.org/policy-brief/smarter-european-union-industrial-policy-solar-panels",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.bruegel.org/policy-brief/smarter-european-union-industrial-policy-solar-panels"
+      },
+      {
+        "id": "https://www.sciencedirect.com/science/article/pii/S0301421525002964",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.sciencedirect.com/science/article/pii/S0301421525002964"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.estg.eu/en-gb/information-resources/blog/france-turns-green-on-the-car-park-are-you-ready-for-the-loi-aper-boom",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/thebetterindia/posts/what-if-every-parking-lot-could-power-a-neighbourhoodfrance-just-took-a-bold-ste/1195763615928906/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DDj7XygoIkz/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.pv-tech.org/how-investment-trends-us-residential-solar-compare-europe/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_386ace0586fd",
+        "title": "Energy transition: new obligations on the integration of photovoltaic and charging stations - Bird & Bird",
+        "url": "https://www.twobirds.com/en/insights/2024/france/energy-transition-new-obligations-on-the-integration-of-photovoltaic-and-charging-stations#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_ff1684a9a28e",
+        "title": "Why Not Cover Ugly Parking Lots With Solar Panels? | WIRED",
+        "url": "https://www.wired.com/story/france-solar-panels-parking-lots/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0e172fa0a346",
+        "title": "France requires Solar Panels for all Large Parking Lots — Sustaira",
+        "url": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_97fff4c35cc4",
+        "title": "Powering up: the EU and solar energy",
+        "url": "https://www.socialeurope.eu/powering-up-the-eu-and-solar-energy#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "brave": 3,
+      "tavily": 1
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 3,
+      "brave": 2,
+      "tavily": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+      "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we d",
+      "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?\nVisual description: The image shows a parking lot with solar panels installed as a roof. It is a sunny day with a clear sky, and there are a few cars parked beneath the solar panels. The panels provide shade over the parking spaces.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8120340736150569
+    },
+    {
+      "id": "src_bdbd6e2c7d40",
+      "title": "France: New Provisions on Parking Lot PV Requirement",
+      "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+      "snippet": "The provision also sets deadlines: <strong>Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026</strong>, those between 1,500 to 10,000 square meters by July 1, 2028.",
+      "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "intersolar.de",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6772735766187926
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6752093995529561
+    },
+    {
+      "id": "src_5ff135a1af04",
+      "title": "France Issues New Rules Mandating Solar Installation in Parking Lots",
+      "url": "https://www.linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc#",
+      "snippet": "Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters",
+      "content": "The French government has issued Decree 2024-1023, which mandates the installation of solar installations on parking lots with a surface area of more than 1,500 square meters. The new regulation details how to calculate the surface area subject to the rules, outlines exemption criteria and sets fines for non-compliance. Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters and 10,000 square meters have until July 2, 2028 to complete the installation. The new regulations require that at least 50 percent of a parking lot (including driveways) be covered with awnings or green canopies, and will impose an annual fine of 40,000 euros ($42,160) for non-compliance until it is resolved. In addition, the ordinance amends the planning permission for ground-mounted solar installations and renewable energy canopies. Exemptions apply to parking lots where the installation of solar installations is not possible due to technical constraints such as soil composition or slope, and sites with a high risk of natural, technical or civil security, or where dangerous goods are handled, are also excluded.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc",
+      "published_at": "2025-05-21T00:00:00",
+      "publisher": "linkedin.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6671183800898491
+    },
+    {
+      "id": "src_18827976cf32",
+      "title": "France rules on mandatory solar for car parks",
+      "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+      "snippet": "This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, <strong>lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026</strong>. For lots between 1,500 and 10,000 ...",
+      "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+      "published_at": "2025-10-28T00:00:00",
+      "publisher": "pveurope.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6355368368185971
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.5956868275699743
+    },
+    {
+      "id": "src_fc368f3956f9",
+      "title": "How do Europe and the US compare on clean tech?",
+      "url": "https://www.bruegel.org/newsletter/how-do-europe-and-us-compare-clean-tech#",
+      "snippet": "For manufacturing, <strong>the US has greater solar panel production capacity than the EU</strong>, while the EU leads in terms of wind turbine and electric vehicle production. Both have similar manufacturing capacities for batteries.",
+      "content": "As the world moves beyond fossil fuels, clean technologies will shape new economic and energy systems. To assess the relative positions of the United States and European Union, we must evaluate both deployment and manufacturing. The EU leads the US on deployment, being home to more wind turbines, solar panels, hydrogen electrolysers, batteries and electric vehicles. Meanwhile, China has deployed more than the combined sum of the EU and US. For manufacturing, the US has greater solar panel production capacity than the EU, while the EU leads in terms of wind turbine and electric vehicle production. Both have similar manufacturing capacities for batteries. Deployment is crucial for decarbonisation, energy security and affordable energy – both the EU and US (though this may change under President Trump) increasingly wish to boost domestic manufacturing of clean technologies to counter perceived overdependence on imports, and as a way to boost domestic economic growth. To do so, the US passed the Inflation Reduction Act (IRA) in 2022, providing large subsidies for manufacturing projects. This has been crucial in turbo-charging investments – battery manufacturing investments have grown from $2 billion to $12 billion quarterly. The translation of these investments into future capacities and jobs is threatened by the current US administration’s attempts to repeal the IRA. Meanwhile, the EU has set a target to manufacture 40% of its clean tech demand domestically. A permissive state aid regime and targeted use of revenues from the EU's carbon market are being used to support domestic manufacturing projects. Crucially, the EU is also leveraging the power of its large domestic market. Emission standards for newly registered vehicles have driven large investments into electric vehicle manufacturing – keeping pace even with US investments supported by IRA subsidies. Read the four-part Analysis series co-authored by Bruegel and Rhodium Group.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Comparison of US and EU solar energy initiatives"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Comparison of US and EU solar energy initiatives",
+      "canonical_url": "https://bruegel.org/newsletter/how-do-europe-and-us-compare-clean-tech",
+      "published_at": "2025-06-10T00:00:00",
+      "publisher": "bruegel.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5608654908484305
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+      "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we d",
+      "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?\nVisual description: The image shows a parking lot with solar panels installed as a roof. It is a sunny day with a clear sky, and there are a few cars parked beneath the solar panels. The panels provide shade over the parking spaces.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8120340736150569
+    },
+    {
+      "id": "src_bdbd6e2c7d40",
+      "title": "France: New Provisions on Parking Lot PV Requirement",
+      "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+      "snippet": "The provision also sets deadlines: <strong>Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026</strong>, those between 1,500 to 10,000 square meters by July 1, 2028.",
+      "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "intersolar.de",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6772735766187926
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6752093995529561
+    },
+    {
+      "id": "src_5ff135a1af04",
+      "title": "France Issues New Rules Mandating Solar Installation in Parking Lots",
+      "url": "https://www.linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc#",
+      "snippet": "Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters",
+      "content": "The French government has issued Decree 2024-1023, which mandates the installation of solar installations on parking lots with a surface area of more than 1,500 square meters. The new regulation details how to calculate the surface area subject to the rules, outlines exemption criteria and sets fines for non-compliance. Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters and 10,000 square meters have until July 2, 2028 to complete the installation. The new regulations require that at least 50 percent of a parking lot (including driveways) be covered with awnings or green canopies, and will impose an annual fine of 40,000 euros ($42,160) for non-compliance until it is resolved. In addition, the ordinance amends the planning permission for ground-mounted solar installations and renewable energy canopies. Exemptions apply to parking lots where the installation of solar installations is not possible due to technical constraints such as soil composition or slope, and sites with a high risk of natural, technical or civil security, or where dangerous goods are handled, are also excluded.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc",
+      "published_at": "2025-05-21T00:00:00",
+      "publisher": "linkedin.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6671183800898491
+    },
+    {
+      "id": "src_18827976cf32",
+      "title": "France rules on mandatory solar for car parks",
+      "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+      "snippet": "This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, <strong>lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026</strong>. For lots between 1,500 and 10,000 ...",
+      "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "France solar panel parking law 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France solar panel parking law 2026",
+      "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+      "published_at": "2025-10-28T00:00:00",
+      "publisher": "pveurope.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6355368368185971
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.5956868275699743
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "platform": "bluesky",
+      "author": {
+        "handle": "intruder1500stevie.bsky.social",
+        "display_name": "Stevie P",
+        "did": "did:plc:sy42rj4nkl372n6mqlmvm2j2"
+      },
+      "text": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "created_at": "2026-05-15T08:03:57.317000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+          "alt_text": null,
+          "ocr_text": "France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?",
+          "description": "The image shows a parking lot with solar panels installed as a roof. It is a sunny day with a clear sky, and there are a few cars parked beneath the solar panels. The panels provide shade over the parking spaces.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍"
+    },
+    "explanation": [
+      {
+        "text": "France has implemented a law requiring solar panels on parking lots with more than 80 spaces, aiming to equate the energy produced to 10 nuclear reactors, while also reducing heat islands and providing shade.",
+        "source_ids": [
+          "image_1",
+          "src_bdbd6e2c7d40",
+          "src_5ff135a1af04"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The French government's decree mandates that parking lots over 1,500 square meters must have at least 50% of their area covered with solar installations by 2026 for larger lots and 2028 for smaller ones. Non-compliance could result in fines.",
+        "source_ids": [
+          "src_5ff135a1af04",
+          "src_18827976cf32"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The post author criticizes the US for not adopting similar solar initiatives for parking lots, suggesting a reliance on coal and concerns over the origin of solar hardware manufacturing.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "medium",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+        "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we d",
+        "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?\nVisual description: The image shows a parking lot with solar panels installed as a roof. It is a sunny day with a clear sky, and there are a few cars parked beneath the solar panels. The panels provide shade over the parking spaces.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "src_bdbd6e2c7d40",
+        "title": "France: New Provisions on Parking Lot PV Requirement",
+        "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+        "snippet": "The provision also sets deadlines: <strong>Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026</strong>, those between 1,500 to 10,000 square meters by July 1, 2028.",
+        "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "France solar panel parking law 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "France solar panel parking law 2026",
+        "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "intersolar.de",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @intruder1500stevie.bsky.social",
+        "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+        "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_5ff135a1af04",
+        "title": "France Issues New Rules Mandating Solar Installation in Parking Lots",
+        "url": "https://www.linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc#",
+        "snippet": "Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters",
+        "content": "The French government has issued Decree 2024-1023, which mandates the installation of solar installations on parking lots with a surface area of more than 1,500 square meters. The new regulation details how to calculate the surface area subject to the rules, outlines exemption criteria and sets fines for non-compliance. Parking lots with more than 10,000 square meters must install solar carports by July 1, 2026, while parking lots between 1,500 square meters and 10,000 square meters have until July 2, 2028 to complete the installation. The new regulations require that at least 50 percent of a parking lot (including driveways) be covered with awnings or green canopies, and will impose an annual fine of 40,000 euros ($42,160) for non-compliance until it is resolved. In addition, the ordinance amends the planning permission for ground-mounted solar installations and renewable energy canopies. Exemptions apply to parking lots where the installation of solar installations is not possible due to technical constraints such as soil composition or slope, and sites with a high risk of natural, technical or civil security, or where dangerous goods are handled, are also excluded.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "France solar panel parking law 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "France solar panel parking law 2026",
+        "canonical_url": "https://linkedin.com/pulse/france-issues-new-rules-mandating-solar-installation-parking-louise-v9lnc",
+        "published_at": "2025-05-21T00:00:00",
+        "publisher": "linkedin.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_18827976cf32",
+        "title": "France rules on mandatory solar for car parks",
+        "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+        "snippet": "This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, <strong>lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026</strong>. For lots between 1,500 and 10,000 ...",
+        "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "France solar panel parking law 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "France solar panel parking law 2026",
+        "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+        "published_at": "2025-10-28T00:00:00",
+        "publisher": "pveurope.eu",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+        "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+        "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+        "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 38410
+  }
+}

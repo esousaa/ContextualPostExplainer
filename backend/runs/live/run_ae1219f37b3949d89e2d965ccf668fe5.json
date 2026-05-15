@@ -1,0 +1,492 @@
+{
+  "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+  "mode": "live",
+  "generated_at": "2026-05-15T23:41:42.538376+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T23:40:52.646739+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T23:40:52.646887+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:40:52.647619+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T23:40:52.647762+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:40:52.648451+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T23:40:54.013393+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1364
+    },
+    {
+      "timestamp": "2026-05-15T23:40:54.014250+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T23:40:57.533469+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3519
+    },
+    {
+      "timestamp": "2026-05-15T23:40:57.534472+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T23:40:59.003561+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1469
+    },
+    {
+      "timestamp": "2026-05-15T23:40:59.004292+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:04.274838+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5270
+    },
+    {
+      "timestamp": "2026-05-15T23:41:04.275566+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:36.090286+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 31814
+    },
+    {
+      "timestamp": "2026-05-15T23:41:36.091832+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:36.663850+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 571
+    },
+    {
+      "timestamp": "2026-05-15T23:41:36.664865+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.533280+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5868
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.534162+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.534284+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.534961+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.535053+00:00",
+      "event": "node_completed",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:41:42.535606+00:00",
+      "event": "node_started",
+      "run_id": "run_ae1219f37b3949d89e2d965ccf668fe5",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+  "queries": [
+    "Nathaniel Munday Sheffield councillor suspension",
+    "Sheffield councillor social media Nazi scandal",
+    "UK Reform Party allegations Nazi connections",
+    "Global rise of nationalist populist movements 2026"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 19,
+    "search_results_by_provider": {
+      "tavily": 19
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.facebook.com/sheffieldstar/posts/-breaking-sheffield-reform-uk-councillor-nathaniel-menday-suspended-after-subhum/1421729780000722/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.facebook.com/sheffieldstar/posts/sheffield-reform-uk-councillor-nathaniel-menday-suspended-after-subhuman-undercl/1421735766666790/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/sheffieldstar/posts/sheffield-reform-uk-councillor-nathaniel-menday-suspended-after-subhuman-undercl/1421735766666790/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://folgerpedia.folger.edu/mediawiki/media/images_pedia_folgerpedia_mw/archive/e/ea/20170624184943%21ECDbD_Subject_Indexes.pdf",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "http://www.msn.com/en-gb/news/uknews/sheffield-councillor-calls-for-code-of-conduct-investigation-into-new-reform-uk-councillor-s-pro-nazi-views/ar-AA23ca8n?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.pressreader.com/uk/yorkshire-post/20260514/281788520692000?srsltid=AfmBOopucvu50kn8Vsn_76CrnZpU7Kw0H2-hvJTnBRjZ_Sp-rF3DKGPP",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYSWIsaqv-b/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/thenationalnewspaperscotland/posts/latest-a-reform-uk-candidate-has-been-found-to-have-called-nazis-real-visionarie/1589446863183104/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.thenational.scot/news/26045880.reform-uk-candidate-found-called-nazis-real-visionaries/",
+        "reason": "external_provider_error",
+        "message": "Source page timed out."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_1d925b8ab455",
+        "title": "[PDF] tesaSS - Memorial Hall Library",
+        "url": "https://mhl.org/sites/default/files/newspapers/LAM-1875-09.pdf#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_41380454d490",
+        "title": "Reform councillor suspended over Nazi swastika flag and Hitler posts",
+        "url": "https://www.thelondoneconomic.com/politics/reform-councillor-suspended-over-nazi-swastika-flag-and-hitler-posts-406189/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_dbc6dd20ef88",
+        "title": "Sheffield Reform UK councillor 'brought party into disrepute'",
+        "url": "https://www.bbc.com/news/articles/cd0pd27kzgzo#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_04381cb76a79",
+        "title": "Reform UK candidate said Nazis were 'real visionaries' - The Times",
+        "url": "https://www.thetimes.com/uk/politics/article/reform-uk-local-election-candidates-vetting-sjq0g0lj5#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_15508cafe0bc",
+        "title": "Labour's 'racist' & 'Nazi' smears against Farage and Reform voters ...",
+        "url": "https://www.youtube.com/watch?v=FjkF5q5Pr6E#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+      "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 •",
+      "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 • 13 May 26 • 8,892 Views\nVisual description: The image is a collage containing text and several photos. It includes a headline about the suspension of a Sheffield councillor due to controversial social media posts. The collage features a man in a suit, a large Nazi flag with a swastika, a book cover of \"Mein Kampf,\" and various social media posts insinuating associations with Nazi imagery and ideologies.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7833995039407968
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in publ",
+      "content": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public.\n\nIt’s a global reich wing power grab -a very well funded one",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7812303817280272
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "Well, colour me surprised...",
+      "content": "Well, colour me surprised...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.45581619843210336
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+      "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 •",
+      "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 • 13 May 26 • 8,892 Views\nVisual description: The image is a collage containing text and several photos. It includes a headline about the suspension of a Sheffield councillor due to controversial social media posts. The collage features a man in a suit, a large Nazi flag with a swastika, a book cover of \"Mein Kampf,\" and various social media posts insinuating associations with Nazi imagery and ideologies.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7833995039407968
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "Well, colour me surprised...",
+      "content": "Well, colour me surprised...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.45581619843210336
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "onemoregoodman.bsky.social",
+        "display_name": "Lord Jeffrey of Nottingham #FBPE 🇬🇧 🇪🇺 🇬🇱",
+        "did": "did:plc:csjeq4nrwvdrtu5ryuycejvn"
+      },
+      "text": "Well, colour me surprised...",
+      "created_at": "2026-05-15T07:19:42.264000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+          "alt_text": null,
+          "ocr_text": "Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 • 13 May 26 • 8,892 Views",
+          "description": "The image is a collage containing text and several photos. It includes a headline about the suspension of a Sheffield councillor due to controversial social media posts. The collage features a man in a suit, a large Nazi flag with a swastika, a book cover of \"Mein Kampf,\" and various social media posts insinuating associations with Nazi imagery and ideologies.",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public.\n\nIt’s a global reich wing power grab -a very well funded one"
+    },
+    "explanation": [
+      {
+        "text": "Nathaniel Munday, a newly elected Sheffield councillor, has been suspended by the Reform party after controversial social media posts were discovered, featuring Nazi imagery, including a Nazi flag and Adolf Hitler's book 'Mein Kampf'.",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source is an image observation, thus the factual reliability depends on the accuracy of the image content.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The original post implies a critical view of the Reform party, suggesting the term 'Reform' is a code for 'Nazi', reflecting skepticism about the party's political stance.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The post suggests that nationalist populists in Sweden, similar to those associated with the Reform party in the UK, allegedly hide Nazi affiliations, raising concerns about a 'reich wing' power grab.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+        "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 •",
+        "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Munday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\n18:46 • 13 May 26 • 8,892 Views\nVisual description: The image is a collage containing text and several photos. It includes a headline about the suspension of a Sheffield councillor due to controversial social media posts. The collage features a man in a suit, a large Nazi flag with a swastika, a book cover of \"Mein Kampf,\" and various social media posts insinuating associations with Nazi imagery and ideologies.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "onemoregoodman.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @onemoregoodman.bsky.social",
+        "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+        "snippet": "Well, colour me surprised...",
+        "content": "Well, colour me surprised...",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "onemoregoodman.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 49889
+  }
+}

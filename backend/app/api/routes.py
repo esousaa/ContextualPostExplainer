@@ -1,12 +1,20 @@
+import asyncio
+import json
+from datetime import UTC, datetime
 from typing import Any
 
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
+from starlette.responses import StreamingResponse
 
 from app.api.dependencies import get_live_explanation_service
 from app.application.live_explanation_service import LiveExplanationService
 from app.config import get_settings
+from app.domain.errors import DomainError
 from app.domain.models import ExplanationResponse
+
+STREAM_DONE = object()
+HEARTBEAT_INTERVAL_SECONDS = 5.0
 
 router = APIRouter(prefix="/api")
 LIVE_SERVICE_DEPENDENCY = Depends(get_live_explanation_service)
@@ -61,9 +69,102 @@ async def explain(
     )
 
 
+@router.post("/explain/stream")
+async def explain_stream(
+    request: ExplainRequest,
+    service: LiveExplanationService = LIVE_SERVICE_DEPENDENCY,
+) -> StreamingResponse:
+    queue: asyncio.Queue[tuple[str, Any] | object] = asyncio.Queue()
+
+    async def progress_callback(event: dict[str, Any]) -> None:
+        await queue.put(("progress", event))
+
+    async def run_flow() -> None:
+        try:
+            response = await service.explain_url(
+                url=request.url,
+                include_debug=request.include_debug,
+                progress_callback=progress_callback,
+            )
+            await queue.put(("result", response.model_dump(mode="json")))
+        except DomainError as exc:
+            await queue.put(
+                (
+                    "error",
+                    {
+                        "error": exc.error_code,
+                        "message": exc.message,
+                        "status": int(exc.status_code),
+                    },
+                )
+            )
+        except Exception:
+            await queue.put(
+                (
+                    "error",
+                    {
+                        "error": "unexpected_error",
+                        "message": "Unexpected backend error while streaming the live analysis.",
+                        "status": 500,
+                    },
+                )
+            )
+        finally:
+            await queue.put(STREAM_DONE)
+
+    async def event_stream():
+        task = asyncio.create_task(run_flow())
+        last_progress: dict[str, Any] | None = None
+
+        try:
+            while True:
+                try:
+                    item = await asyncio.wait_for(queue.get(), HEARTBEAT_INTERVAL_SECONDS)
+                except TimeoutError:
+                    yield _format_sse("progress", _heartbeat_event(last_progress))
+                    continue
+
+                if item is STREAM_DONE:
+                    break
+
+                event_name, payload = item
+                if event_name == "progress":
+                    last_progress = payload
+                yield _format_sse(event_name, payload)
+        finally:
+            if not task.done():
+                task.cancel()
+
+    return StreamingResponse(
+        event_stream(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+
 def _live_search_is_configured(settings: Any) -> bool:
     try:
         settings.require_live_search_provider()
     except Exception:
         return False
     return True
+
+
+def _format_sse(event_name: str, payload: Any) -> str:
+    data = json.dumps(payload, ensure_ascii=False)
+    return f"event: {event_name}\ndata: {data}\n\n"
+
+
+def _heartbeat_event(last_progress: dict[str, Any] | None) -> dict[str, Any]:
+    return {
+        "type": "heartbeat",
+        "run_id": last_progress.get("run_id") if last_progress else None,
+        "status": "active",
+        "node_name": last_progress.get("node_name") if last_progress else None,
+        "step": last_progress.get("step") if last_progress else "Fetching post",
+        "message": "Live analysis is still running.",
+        "timestamp": datetime.now(UTC).isoformat(),
+    }

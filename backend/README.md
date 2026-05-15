@@ -67,6 +67,30 @@ Para a POC, use `SEARCH_PROVIDER=tavily` como caminho seguro. Como o acesso grat
 
 `composite` usa todas as chaves configuradas (`BRAVE_API_KEY`, `TAVILY_API_KEY`), executa providers em paralelo, mescla resultados e deixa a deduplicação/reranking escolher as melhores fontes.
 
+Em modo `composite`, os artifacts em `runs/live/` incluem métricas P2 para
+comparação entre providers:
+
+- `search_results_by_provider`;
+- `search_provider_overlap`;
+- `search_provider_overlap_count`;
+- `ranked_sources_by_provider`;
+- `ranked_multi_provider_source_count`;
+- `cited_sources_by_provider`;
+- `cited_multi_provider_source_count`.
+
+Para comparar manualmente:
+
+```bash
+SEARCH_PROVIDER=tavily make backend-run
+SEARCH_PROVIDER=brave make backend-run
+SEARCH_PROVIDER=composite make backend-run
+```
+
+Execute a mesma URL nos três modos e compare os artifacts gerados. Fontes
+retornadas por mais de um provider preservam `providers`, `provider_queries` e
+`provider_result_count`; o ranking aplica um pequeno boost para essa
+convergência, sem tratar isso como prova factual.
+
 ## Eval
 
 ```bash

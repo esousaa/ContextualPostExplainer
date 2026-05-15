@@ -2,6 +2,40 @@ export type Confidence = "high" | "medium" | "low";
 
 export type WarningSeverity = "info" | "warning";
 
+export type PipelineStepName =
+  | "Fetching post"
+  | "Analyzing media"
+  | "Searching context"
+  | "Reading sources"
+  | "Ranking evidence"
+  | "Generating explanation";
+
+export type PipelineStepStatus = "pending" | "active" | "completed" | "failed";
+
+export type LiveProgressEvent = {
+  type: "run_started" | "node_started" | "node_completed" | "heartbeat";
+  run_id: string | null;
+  status: "active" | "completed";
+  node_name: string | null;
+  step: PipelineStepName;
+  message: string;
+  timestamp: string;
+  duration_ms?: number;
+};
+
+export type LiveProgressState = {
+  events: LiveProgressEvent[];
+  activeStep: PipelineStepName | null;
+  completedSteps: PipelineStepName[];
+  failedStep: PipelineStepName | null;
+};
+
+export type LiveErrorEvent = {
+  error: string;
+  message: string;
+  status: number | null;
+};
+
 export type ValidationWarning = {
   severity: WarningSeverity;
   code: string;
@@ -66,6 +100,9 @@ export type Evidence = {
   content: string;
   source_type: SourceType;
   provider: string | null;
+  providers: string[];
+  provider_queries: Record<string, string[]>;
+  provider_result_count: number;
   query: string | null;
   canonical_url: string | null;
   published_at: string | null;

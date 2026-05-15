@@ -57,7 +57,7 @@ export function SourcePanel({ highlightedSourceIds, selectedSourceIds, sources }
                 <SourceRoleBadge category={source.source_category} role={source.source_role} />
                 <div className="source-meta">
                   {host && <span>{host}</span>}
-                  {source.provider && <span>{source.provider}</span>}
+                  <ProviderSummary source={source} />
                   {typeof source.relevance_score === "number" && (
                     <span>{source.relevance_score.toFixed(2)} relevance</span>
                   )}
@@ -68,6 +68,18 @@ export function SourcePanel({ highlightedSourceIds, selectedSourceIds, sources }
         </div>
       )}
     </section>
+  );
+}
+
+function ProviderSummary({ source }: { source: Evidence }) {
+  const providers = source.providers.length > 0 ? source.providers : providerList(source.provider);
+  if (providers.length === 0) return null;
+
+  return (
+    <span>
+      {providers.join(" + ")}
+      {source.provider_result_count > 1 && ` · ${source.provider_result_count} providers`}
+    </span>
   );
 }
 
@@ -118,4 +130,12 @@ function extractSection(content: string, startLabel: string, endLabel?: string) 
   const valueStart = start + startToken.length;
   const end = endLabel ? content.indexOf(`${endLabel}:`, valueStart) : -1;
   return content.slice(valueStart, end === -1 ? undefined : end).trim();
+}
+
+function providerList(provider: string | null) {
+  if (!provider) return [];
+  return provider
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
 }

@@ -75,6 +75,9 @@ class PostData(BaseModel):
 
 class SearchResult(BaseModel):
     provider: str
+    providers: list[str] = Field(default_factory=list)
+    provider_queries: dict[str, list[str]] = Field(default_factory=dict)
+    provider_result_count: int = Field(default=1, ge=1)
     query: str
     title: str
     url: HttpUrl
@@ -91,6 +94,9 @@ class Evidence(BaseModel):
     content: str
     source_type: Literal["web", "social", "thread", "fixture", "image"]
     provider: str | None = None
+    providers: list[str] = Field(default_factory=list)
+    provider_queries: dict[str, list[str]] = Field(default_factory=dict)
+    provider_result_count: int = Field(default=1, ge=1)
     query: str | None = None
     canonical_url: HttpUrl | None = None
     published_at: datetime | None = None

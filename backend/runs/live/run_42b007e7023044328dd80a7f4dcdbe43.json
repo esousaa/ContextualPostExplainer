@@ -1,0 +1,605 @@
+{
+  "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+  "mode": "live",
+  "generated_at": "2026-05-15T23:14:20.136373+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T23:13:52.660277+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T23:13:52.660516+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:13:52.660989+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T23:13:52.661177+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:13:52.661621+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T23:13:53.850395+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1188
+    },
+    {
+      "timestamp": "2026-05-15T23:13:53.850979+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T23:13:53.851126+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:13:53.851566+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T23:13:55.619244+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1767
+    },
+    {
+      "timestamp": "2026-05-15T23:13:55.619808+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:01.405112+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5785
+    },
+    {
+      "timestamp": "2026-05-15T23:14:01.405812+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:08.955293+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7549
+    },
+    {
+      "timestamp": "2026-05-15T23:14:08.956040+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:10.474761+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1518
+    },
+    {
+      "timestamp": "2026-05-15T23:14:10.475429+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.126827+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 9651
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.127428+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.127575+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.127956+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.128045+00:00",
+      "event": "node_completed",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T23:14:20.128360+00:00",
+      "event": "node_started",
+      "run_id": "run_42b007e7023044328dd80a7f4dcdbe43",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+  "queries": [
+    "DOJ suing DC Bar over 2020 election lawyers",
+    "Trump's DOJ actions towards DC Bar discipline",
+    "Robert Reich statements on DOJ and Trump 2026",
+    "Role of DOJ and Attorney General in serving the president"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [
+      {
+        "id": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-doj-files-suit-against-the-d-c-bar-tries-to-protect-key-lawyer-in-2020-plot",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html"
+      },
+      {
+        "id": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules/"
+      },
+      {
+        "id": "https://www.washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar/"
+      },
+      {
+        "id": "https://www.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.nytimes.com/2026/05/13/us/doj-lawsuit-dc-bar-trump.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/RBReich/posts/we-cant-wait-until-2026-to-stop-trumps-lawlessness-the-time-for-action-is-now/1219241239569321/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/RBReich/posts/we-must-use-words-that-accurately-describe-who-trump-and-his-lackeys-really-are-/1521479206012188/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://robertreich.substack.com/p/is-this-the-shittiest-supreme-court",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://robertreich.substack.com/p/what-planet-is-trump-now-on-the-saturday",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_7aaa53a5565d",
+        "title": "Our Plan to Resist Trump in 2026 | Robert Reich | 36 comments",
+        "url": "https://www.linkedin.com/posts/robert-reich-6339b569_our-plan-to-resist-trump-in-2026-activity-7411791062391918593-J4pL#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_ccde598cf087",
+        "title": "United States Attorney General - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/United_States_Attorney_General#",
+        "reason": "stale_for_event"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @rbreich.bsky.social",
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "snippet": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+      "content": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "rbreich.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8349882463724416
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @rbreich.bsky.social",
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "snippet": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "content": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "rbreich.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8342418953164958
+    },
+    {
+      "id": "src_1e44a0adb7f1",
+      "title": "Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot",
+      "url": "https://www.yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html#",
+      "snippet": "# Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW.",
+      "content": "Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. But bar associations are another matter entirely. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The New York Times reported: The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The suit was filed by Todd Blanche, the acting attorney general, and Stanley E. Woodward Jr., the No. 3 official at the Justice Department. In accompanying statements, Mr. Blanche accused the D.C. Bar of acting as a “blatantly partisan arm of leftist causes.” The same lawsuit goes so far as to say lawyers who work for the administration should necessarily be considered above scrutiny by legal ethics officials. In case that weren’t quite enough, Benjamin Weiss at CourtHouse News noticed the same lawsuit against the D.C. Bar references the Supreme Court’s ruling that extended immunity to presidential “official acts,” suggesting Blanche and his team believe lawyers in Trump’s employ are also protected from punishments. Time will tell what, if anything, comes of the case, but the fact that Blanche is pursuing such a case at all is a timely reminder that this guy really wants to be nominated for attorney general. His unsubtle moves in recent weeks includes: indicting people the president doesn’t like, advocating firing squads as a method of federal execution, releasing absurd reports critical of the Biden administration while gratuitously slamming Joe Biden himself and intervening in support of Trump’s ballroom crusade, which includes lobbying congressional Republicans to approve $1 billion in taxpayer money. It’s hard to say whether Blanche, who used to work as a Trump defense attorney, is nailing the audition, but the president did say earlier this week, “We have a man who’s doing a great job, I’ll tell you. I knew it because he kept me out of jail for years. Acting Attorney General, Todd Blanche, he kept me out of jail.” The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW. This article was originally published on ms.now",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7468937975486131
+    },
+    {
+      "id": "src_0f0226785ddb",
+      "title": "DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules - Above the Law",
+      "url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules/#",
+      "snippet": "# DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules. Bar discipline is only accountability left for Trump lawyers, and the DOJ wants to nip that in the bud. Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys.",
+      "content": "Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. Trump will pardon his legal enablers for any crimes involved in, say, packing up innocent people and shipping them to El Salvador. His Federalist Society-approved appellate courts stand by to rob district courts of the inherent authority to police contempt. Trump v. United States may even eliminate whatever liability remains by allowing Trump lawyers to claim their ethical lapses constitute “official acts.” If you can use SEAL Team 6 to kill political opponents, you can definitely write a memo suggesting government lawyers tell federal judges to fuck themselves. All that remains is the individual lawyer’s license. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. Nothing can make Trump’s lawyers respect the law, but the local bar can keep an ethical reprobate from practicing law going forward and continuing to hold themselves out to the public as an ethically compliant counselor. They must be professionally sanctioned, if not disbarred. Local authorities have mostly abdicated this responsibility so far, preferring not to get involved. But the mere threat that Trump lawyers may face professional consequences for their actions prompted the Department of Justice to concoct a new rule to strip local bars of their statutory authority to regulate the ethics of government lawyers. Now, the DOJ has brought a lawsuit against the D.C. Bar to intimidate and chill any licensing authority that might consider holding government lawyers to the same standard as the rest of us. As federal borrowing caps tighten financing options for law students, one organization is stepping in to negotiate the terms they can't secure alone. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys. The nominal hook is the ongoing disciplinary proceeding against Jeff Clark, the former Assistant Attorney General whose “Georgia Proof of Concept” letter remains one of the more lurid artifacts of the post-2020 effort to nullify an election. But the lawsuit is really forward looking — a direct threat to any professional regulator that they should look the other way when they come across misconduct by government attorneys, if they know what’s good for them. The complaint’s central legal theory is that disciplining a former federal official for misconduct committed during federal service “regulates” the Executive Branch in violation of the Supremacy Clause. As the DOJ puts it: Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General. To permit these proceedings is to allow state bar authorities to control the Executive Branch. That is not the law. The new generation of AI-related legal issues are inherently cross-disciplinary, implicating corporate law, intellectual property, data privacy, employment, corporate governance and regulatory compliance. It is, in fact, the law. The McDade-Murtha Amendment explicitly guarantees local bar authorities have jurisdiction over government lawyers committing misconduct in their borders. Beyond that, a license is not a right and a lawyer’s privilege to practice is always subject to staying within the rules of the profession. Advice that violates ethical obligations is not legal advice. Just as “with all due respect” doesn’t bless you unloading whatever insu",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "abovethelaw.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6876654463345288
+    },
+    {
+      "id": "src_6d24069d55ba",
+      "title": "Justice Department sues DC’s attorney disciplinary authorities for recommending a Trump ally be disbarred | CNN Politics",
+      "url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board#",
+      "snippet": "FILE - Former Justice Department official Jeffrey Clark speaks during the Conservative Political Action Conference, CPAC 2024, at the National Harbor, in Oxon Hill, Md. The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.”. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct.",
+      "content": "The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.” The Justice Department’s lawsuit comes as the Trump administration has taken a renewed interest in the 2020 election, narrowing in on Georgia — where Trump has claimed the election was rigged. For example, the Justice Department has subpoenaed Fulton County — home of Atlanta — for 2020 election workers’ personal information. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct. The letter Clark wrote, but never sent, urged the Georgia state legislature to investigate election “irregularities” and, if necessary, appoint electors themselves that go against the results of the popular vote. The letter was meant to be a “proof of concept” that would eventually be sent to several states. A majority of the board — which examines attorney discipline cases but does not have the final say the local courts have on law licenses in the district — recommended disbarment. Clark is still an attorney in good standing in the DC bar, according to bar records. The Justice Department argued in its Wednesday lawsuit, “Defendants are punishing Mr. Clark because he tried to persuade his superiors within the Department of Justice that they should issue a draft letter that he felt reflected the actual law and facts about the 2020 election.” “But D.C. disciplinary authorities may not punish a United States official for disagreeing with a superior or coworker or for sharing an opinion just because those disciplinary authorities disagree with it,” the lawsuit adds. It goes on to claim that such disciplinary actions will set a chilling precedent. “Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General,” the lawsuit says. Clark said in a social media post on X that the lawsuit “is an important step to vindicate the separation of powers.” CNN has reached out to Clark for further comment. In its July 2025 recommendation, the DC Board on Professional Responsibility argued that lawyers should have “the highest standard of professional conduct. At a minimum, they must be honest.” Clark “should be disbarred as a consequence,” the board wrote, adding that it would send a message that his behavior would not be tolerated. The board’s recommendation was then sent to the DC Court of Appeals for a final decision. At the time of the board’s recommendation, Clark served as the acting administrator of the White House Office of Management and Budget’s Office of Information and Regulatory Affairs. He is now a vice president at Oversight Project, a conservative watchdog group. Clark recently appeared as a lawyer in federal court in an ongoing public records cases seeking the release of audio recordings of former President Joe Biden speaking to a ghost writer. The lawsuit also comes as the Justice Department has increased its pushback on the self-policing traditions of the legal industry in Trump’s second term. The administration last year attempted to undermine some lawyers’ ability to represent clients at major law firms that Trump disliked, and this year, the department attempted to change a rule to help ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6738559271267648
+    },
+    {
+      "id": "src_e1be361675ac",
+      "title": "DOJ challenges efforts to sanction Trump administration lawyers",
+      "url": "https://www.wbaltv.com/article/doj-lawsuit-sanction-trump-administration-lawyers/71305722#",
+      "snippet": "An email seeking comment to the D.C. Bar's Board on Professional Responsibility, among the defendants named in the complaint, did not receive an immediate response.The complaint chiefly concerns the ethics case against Jeffrey Clark, a senior lawyer in the first Trump administration Justice Department who was deeply engaged in legal efforts to undo the results of the 2020 election that President Donald Trump lost to Democrat Joe Biden.A disciplinary panel hasrecommended that Clark be stripped of his law license, but the lawsuit seeks to bring an end to those proceedings, calling them \"unlawful\" and tainted by politicization.Clark, who has denied any wrongdoing, applauded the lawsuit on X on Wednesday evening, saying, \"This is an important step to vindicate the separation of powers.\"In an attempt to bolster its claims of bias in the disciplinary process, the Justice Department asserted that bar authorities had treated Clark more harshly than a former FBI lawyer, Kevin Clinesmith, who pleaded guilty to doctoring an email during the investigation into ties between Russia and Trump's 2016 campaign.The lawsuit also backs Ed Martin, an ardent Trump loyalist who now serves as the Justice Department's pardon attorney.",
+      "content": "In new lawsuit, Justice Department challenges efforts to sanction Trump administration lawyers The Justice Department is challenging efforts to sanction attorneys from the first and second Trump administrations, asserting in a lawsuit that the District of Columbia Bar is unfairly playing politics with the legal disciplinary process. The lawsuit represents a direct challenge to the authority of the office that enforces ethics standards for attorneys in the nation's capital, where several high-profile investigations of Trump-allied lawyers are playing out. \"The D.C. Bar will no longer be permitted to probe sensitive executive branch deliberations and target executive branch officials with whom they happen to politically disagree, and federal attorneys will once again be free to share their candid legal advice with their bosses and colleagues,\" Associate Attorney General Stanley Woodward, a top Justice Department official, said in a statement. The lawsuit was filed Wednesday in federal court in Washington. An email seeking comment to the D.C. Bar's Board on Professional Responsibility, among the defendants named in the complaint, did not receive an immediate response. The complaint chiefly concerns the ethics case against Jeffrey Clark, a senior lawyer in the first Trump administration Justice Department who was deeply engaged in legal efforts to undo the results of the 2020 election that President Donald Trump lost to Democrat Joe Biden. A disciplinary panel hasrecommended that Clark be stripped of his law license, but the lawsuit seeks to bring an end to those proceedings, calling them \"unlawful\" and tainted by politicization. Clark, who has denied any wrongdoing, applauded the lawsuit on X on Wednesday evening, saying, \"This is an important step to vindicate the separation of powers.\" In an attempt to bolster its claims of bias in the disciplinary process, the Justice Department asserted that bar authorities had treated Clark more harshly than a former FBI lawyer, Kevin Clinesmith, who pleaded guilty to doctoring an email during the investigation into ties between Russia and Trump's 2016 campaign. The lawsuit also backs Ed Martin, an ardent Trump loyalist who now serves as the Justice Department's pardon attorney. The Office of Disciplinary Counsel accused Martin in March of professional misconduct for a threatening letter that he sent to Georgetown Law School's dean last year, when Martin was the top federal prosecutor for Washington. Martin was the interim U.S. Attorney for the District of Columbia when he warned the Georgetown dean that his office wouldn't hire the private school's students if it didn't eliminate diversity, equity and inclusion programs. \"The Office of Disciplinary Counsel and the Board on Professional Responsibility, as D.C. institutions, have no authority to decide whether a federal government attorney — no less the interim U.S. Attorney for the District of Columbia — is upholding his oath of office or whether his official acts comport with the Constitution,\" the lawsuit states. The Justice Department last week filed what's known as a statement of interest in support of Martin, who had earlier complained about \"uneven behavior\" by the disciplinary counsel who filed the ethics charges against him.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump's DOJ actions towards DC Bar discipline",
+      "canonical_url": "https://wbaltv.com/article/doj-lawsuit-sanction-trump-administration-lawyers/71305722",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "wbaltv.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6437071045930728
+    },
+    {
+      "id": "src_4812c3810310",
+      "title": "Justice Department sues D.C. Bar - The Washington Post",
+      "url": "https://www.washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar/#",
+      "snippet": "# DOJ sues D.C. Bar, escalating fight over discipline for Trump administration attorneys. The suit is part of an effort by the Trump administration to push back on ethics investigations into federal government lawyers. Make us preferred on Google. U.S. acting attorney general Todd Blanche speaks to reporters earlier this month. The Trump administration is suing the D.C. Bar Association over its recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump.",
+      "content": "The Trump administration is suing D.C.’s attorney discipline authorities over a recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump. Democracy Dies in Darkness",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "washingtonpost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6321982394131879
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @rbreich.bsky.social",
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "snippet": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+      "content": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "rbreich.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8349882463724416
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @rbreich.bsky.social",
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "snippet": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "content": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "rbreich.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8342418953164958
+    },
+    {
+      "id": "src_1e44a0adb7f1",
+      "title": "Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot",
+      "url": "https://www.yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html#",
+      "snippet": "# Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW.",
+      "content": "Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. But bar associations are another matter entirely. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The New York Times reported: The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The suit was filed by Todd Blanche, the acting attorney general, and Stanley E. Woodward Jr., the No. 3 official at the Justice Department. In accompanying statements, Mr. Blanche accused the D.C. Bar of acting as a “blatantly partisan arm of leftist causes.” The same lawsuit goes so far as to say lawyers who work for the administration should necessarily be considered above scrutiny by legal ethics officials. In case that weren’t quite enough, Benjamin Weiss at CourtHouse News noticed the same lawsuit against the D.C. Bar references the Supreme Court’s ruling that extended immunity to presidential “official acts,” suggesting Blanche and his team believe lawyers in Trump’s employ are also protected from punishments. Time will tell what, if anything, comes of the case, but the fact that Blanche is pursuing such a case at all is a timely reminder that this guy really wants to be nominated for attorney general. His unsubtle moves in recent weeks includes: indicting people the president doesn’t like, advocating firing squads as a method of federal execution, releasing absurd reports critical of the Biden administration while gratuitously slamming Joe Biden himself and intervening in support of Trump’s ballroom crusade, which includes lobbying congressional Republicans to approve $1 billion in taxpayer money. It’s hard to say whether Blanche, who used to work as a Trump defense attorney, is nailing the audition, but the president did say earlier this week, “We have a man who’s doing a great job, I’ll tell you. I knew it because he kept me out of jail for years. Acting Attorney General, Todd Blanche, he kept me out of jail.” The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW. This article was originally published on ms.now",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7468937975486131
+    },
+    {
+      "id": "src_0f0226785ddb",
+      "title": "DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules - Above the Law",
+      "url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules/#",
+      "snippet": "# DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules. Bar discipline is only accountability left for Trump lawyers, and the DOJ wants to nip that in the bud. Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys.",
+      "content": "Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. Trump will pardon his legal enablers for any crimes involved in, say, packing up innocent people and shipping them to El Salvador. His Federalist Society-approved appellate courts stand by to rob district courts of the inherent authority to police contempt. Trump v. United States may even eliminate whatever liability remains by allowing Trump lawyers to claim their ethical lapses constitute “official acts.” If you can use SEAL Team 6 to kill political opponents, you can definitely write a memo suggesting government lawyers tell federal judges to fuck themselves. All that remains is the individual lawyer’s license. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. Nothing can make Trump’s lawyers respect the law, but the local bar can keep an ethical reprobate from practicing law going forward and continuing to hold themselves out to the public as an ethically compliant counselor. They must be professionally sanctioned, if not disbarred. Local authorities have mostly abdicated this responsibility so far, preferring not to get involved. But the mere threat that Trump lawyers may face professional consequences for their actions prompted the Department of Justice to concoct a new rule to strip local bars of their statutory authority to regulate the ethics of government lawyers. Now, the DOJ has brought a lawsuit against the D.C. Bar to intimidate and chill any licensing authority that might consider holding government lawyers to the same standard as the rest of us. As federal borrowing caps tighten financing options for law students, one organization is stepping in to negotiate the terms they can't secure alone. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys. The nominal hook is the ongoing disciplinary proceeding against Jeff Clark, the former Assistant Attorney General whose “Georgia Proof of Concept” letter remains one of the more lurid artifacts of the post-2020 effort to nullify an election. But the lawsuit is really forward looking — a direct threat to any professional regulator that they should look the other way when they come across misconduct by government attorneys, if they know what’s good for them. The complaint’s central legal theory is that disciplining a former federal official for misconduct committed during federal service “regulates” the Executive Branch in violation of the Supremacy Clause. As the DOJ puts it: Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General. To permit these proceedings is to allow state bar authorities to control the Executive Branch. That is not the law. The new generation of AI-related legal issues are inherently cross-disciplinary, implicating corporate law, intellectual property, data privacy, employment, corporate governance and regulatory compliance. It is, in fact, the law. The McDade-Murtha Amendment explicitly guarantees local bar authorities have jurisdiction over government lawyers committing misconduct in their borders. Beyond that, a license is not a right and a lawyer’s privilege to practice is always subject to staying within the rules of the profession. Advice that violates ethical obligations is not legal advice. Just as “with all due respect” doesn’t bless you unloading whatever insu",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "abovethelaw.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6876654463345288
+    },
+    {
+      "id": "src_6d24069d55ba",
+      "title": "Justice Department sues DC’s attorney disciplinary authorities for recommending a Trump ally be disbarred | CNN Politics",
+      "url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board#",
+      "snippet": "FILE - Former Justice Department official Jeffrey Clark speaks during the Conservative Political Action Conference, CPAC 2024, at the National Harbor, in Oxon Hill, Md. The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.”. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct.",
+      "content": "The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.” The Justice Department’s lawsuit comes as the Trump administration has taken a renewed interest in the 2020 election, narrowing in on Georgia — where Trump has claimed the election was rigged. For example, the Justice Department has subpoenaed Fulton County — home of Atlanta — for 2020 election workers’ personal information. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct. The letter Clark wrote, but never sent, urged the Georgia state legislature to investigate election “irregularities” and, if necessary, appoint electors themselves that go against the results of the popular vote. The letter was meant to be a “proof of concept” that would eventually be sent to several states. A majority of the board — which examines attorney discipline cases but does not have the final say the local courts have on law licenses in the district — recommended disbarment. Clark is still an attorney in good standing in the DC bar, according to bar records. The Justice Department argued in its Wednesday lawsuit, “Defendants are punishing Mr. Clark because he tried to persuade his superiors within the Department of Justice that they should issue a draft letter that he felt reflected the actual law and facts about the 2020 election.” “But D.C. disciplinary authorities may not punish a United States official for disagreeing with a superior or coworker or for sharing an opinion just because those disciplinary authorities disagree with it,” the lawsuit adds. It goes on to claim that such disciplinary actions will set a chilling precedent. “Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General,” the lawsuit says. Clark said in a social media post on X that the lawsuit “is an important step to vindicate the separation of powers.” CNN has reached out to Clark for further comment. In its July 2025 recommendation, the DC Board on Professional Responsibility argued that lawyers should have “the highest standard of professional conduct. At a minimum, they must be honest.” Clark “should be disbarred as a consequence,” the board wrote, adding that it would send a message that his behavior would not be tolerated. The board’s recommendation was then sent to the DC Court of Appeals for a final decision. At the time of the board’s recommendation, Clark served as the acting administrator of the White House Office of Management and Budget’s Office of Information and Regulatory Affairs. He is now a vice president at Oversight Project, a conservative watchdog group. Clark recently appeared as a lawyer in federal court in an ongoing public records cases seeking the release of audio recordings of former President Joe Biden speaking to a ghost writer. The lawsuit also comes as the Justice Department has increased its pushback on the self-policing traditions of the legal industry in Trump’s second term. The administration last year attempted to undermine some lawyers’ ability to represent clients at major law firms that Trump disliked, and this year, the department attempted to change a rule to help ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ suing DC Bar over 2020 election lawyers",
+      "canonical_url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6738559271267648
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "platform": "bluesky",
+      "author": {
+        "handle": "rbreich.bsky.social",
+        "display_name": "Robert Reich",
+        "did": "did:plc:4u3hwe3p7oy3hoy3amlw7rp2"
+      },
+      "text": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "created_at": "2026-05-14T22:30:10.439606Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more."
+    },
+    "explanation": [
+      {
+        "text": "The Department of Justice (DOJ) has filed a lawsuit against the Washington, DC Bar's disciplinary authorities following their efforts to disbar Jeffrey Clark, a Trump ally, due to his actions related to the 2020 election.",
+        "source_ids": [
+          "src_6d24069d55ba",
+          "src_1e44a0adb7f1",
+          "src_0f0226785ddb"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Jeffrey Clark, a former assistant attorney general, is facing potential disbarment for attempting to draft a letter that cast doubt on the 2020 election results despite being advised against it by DOJ leadership.",
+        "source_ids": [
+          "src_6d24069d55ba",
+          "src_1e44a0adb7f1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Some critics, including the author of the post, perceive the DOJ's actions as a strategy to protect Trump-associated lawyers and challenge ethical oversight.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "medium",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @rbreich.bsky.social",
+        "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+        "snippet": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+        "content": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\n🤬\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "rbreich.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @rbreich.bsky.social",
+        "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+        "snippet": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+        "content": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "rbreich.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_1e44a0adb7f1",
+        "title": "Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot",
+        "url": "https://www.yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html#",
+        "snippet": "# Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW.",
+        "content": "Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. But bar associations are another matter entirely. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The New York Times reported: The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The suit was filed by Todd Blanche, the acting attorney general, and Stanley E. Woodward Jr., the No. 3 official at the Justice Department. In accompanying statements, Mr. Blanche accused the D.C. Bar of acting as a “blatantly partisan arm of leftist causes.” The same lawsuit goes so far as to say lawyers who work for the administration should necessarily be considered above scrutiny by legal ethics officials. In case that weren’t quite enough, Benjamin Weiss at CourtHouse News noticed the same lawsuit against the D.C. Bar references the Supreme Court’s ruling that extended immunity to presidential “official acts,” suggesting Blanche and his team believe lawyers in Trump’s employ are also protected from punishments. Time will tell what, if anything, comes of the case, but the fact that Blanche is pursuing such a case at all is a timely reminder that this guy really wants to be nominated for attorney general. His unsubtle moves in recent weeks includes: indicting people the president doesn’t like, advocating firing squads as a method of federal execution, releasing absurd reports critical of the Biden administration while gratuitously slamming Joe Biden himself and intervening in support of Trump’s ballroom crusade, which includes lobbying congressional Republicans to approve $1 billion in taxpayer money. It’s hard to say whether Blanche, who used to work as a Trump defense attorney, is nailing the audition, but the president did say earlier this week, “We have a man who’s doing a great job, I’ll tell you. I knew it because he kept me out of jail for years. Acting Attorney General, Todd Blanche, he kept me out of jail.” The post Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot appeared first on MS NOW. This article was originally published on ms.now",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ suing DC Bar over 2020 election lawyers",
+        "canonical_url": "https://yahoo.com/news/articles/trump-doj-files-suit-against-181951182.html",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_0f0226785ddb",
+        "title": "DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules - Above the Law",
+        "url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules/#",
+        "snippet": "# DOJ Sues D.C. Bar For Holding Trump Lawyers To Ethical Rules. Bar discipline is only accountability left for Trump lawyers, and the DOJ wants to nip that in the bud. Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys.",
+        "content": "Law licensing authorities provide the only avenue of accountability left for Trump administration lawyers lying to courts, disregarding court orders, or actively plotting coups. Trump will pardon his legal enablers for any crimes involved in, say, packing up innocent people and shipping them to El Salvador. His Federalist Society-approved appellate courts stand by to rob district courts of the inherent authority to police contempt. Trump v. United States may even eliminate whatever liability remains by allowing Trump lawyers to claim their ethical lapses constitute “official acts.” If you can use SEAL Team 6 to kill political opponents, you can definitely write a memo suggesting government lawyers tell federal judges to fuck themselves. All that remains is the individual lawyer’s license. It’s the privilege to practice, bestowed by jurisdictions with the caveat that lawyers must abide by the ethical rules of the profession. Nothing can make Trump’s lawyers respect the law, but the local bar can keep an ethical reprobate from practicing law going forward and continuing to hold themselves out to the public as an ethically compliant counselor. They must be professionally sanctioned, if not disbarred. Local authorities have mostly abdicated this responsibility so far, preferring not to get involved. But the mere threat that Trump lawyers may face professional consequences for their actions prompted the Department of Justice to concoct a new rule to strip local bars of their statutory authority to regulate the ethics of government lawyers. Now, the DOJ has brought a lawsuit against the D.C. Bar to intimidate and chill any licensing authority that might consider holding government lawyers to the same standard as the rest of us. As federal borrowing caps tighten financing options for law students, one organization is stepping in to negotiate the terms they can't secure alone. The Justice Department filed a lawsuit Wednesday against the D.C. Office of Disciplinary Counsel, the D.C. Board on Professional Responsibility, the D.C. Court of Appeals, and the whole District itself — essentially any entity in the capital that might be in a position to take a lawyer’s license away — on the theory that the bar disciplinary process violates the Supremacy Clause and Article II when applied to former DOJ attorneys. The nominal hook is the ongoing disciplinary proceeding against Jeff Clark, the former Assistant Attorney General whose “Georgia Proof of Concept” letter remains one of the more lurid artifacts of the post-2020 effort to nullify an election. But the lawsuit is really forward looking — a direct threat to any professional regulator that they should look the other way when they come across misconduct by government attorneys, if they know what’s good for them. The complaint’s central legal theory is that disciplining a former federal official for misconduct committed during federal service “regulates” the Executive Branch in violation of the Supremacy Clause. As the DOJ puts it: Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General. To permit these proceedings is to allow state bar authorities to control the Executive Branch. That is not the law. The new generation of AI-related legal issues are inherently cross-disciplinary, implicating corporate law, intellectual property, data privacy, employment, corporate governance and regulatory compliance. It is, in fact, the law. The McDade-Murtha Amendment explicitly guarantees local bar authorities have jurisdiction over government lawyers committing misconduct in their borders. Beyond that, a license is not a right and a lawyer’s privilege to practice is always subject to staying within the rules of the profession. Advice that violates ethical obligations is not legal advice. Just as “with all due respect” doesn’t bless you unloading whatever insu",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ suing DC Bar over 2020 election lawyers",
+        "canonical_url": "https://abovethelaw.com/2026/05/doj-sues-d-c-bar-for-holding-trump-lawyers-to-ethical-rules",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "abovethelaw.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_6d24069d55ba",
+        "title": "Justice Department sues DC’s attorney disciplinary authorities for recommending a Trump ally be disbarred | CNN Politics",
+        "url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board#",
+        "snippet": "FILE - Former Justice Department official Jeffrey Clark speaks during the Conservative Political Action Conference, CPAC 2024, at the National Harbor, in Oxon Hill, Md. The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.”. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct.",
+        "content": "The Justice Department has filed a lawsuit against Washington, DC’s attorney disciplinary authorities following their recommendation to disbar Jeffrey Clark, a longtime ally of Donald Trump, over his efforts to “cast doubt” on the 2020 election results in support of the president. The lawsuit against DC’s Office of Disciplinary Counsel, Board on Professional Responsibility, Court of Appeals, related authorities and the city itself argues that Clark — who in 2020 was an assistant attorney general — should not be disciplined over “internal Executive Branch deliberations.” The Justice Department’s lawsuit comes as the Trump administration has taken a renewed interest in the 2020 election, narrowing in on Georgia — where Trump has claimed the election was rigged. For example, the Justice Department has subpoenaed Fulton County — home of Atlanta — for 2020 election workers’ personal information. In its July 2025 recommendation to disbar Clark, the DC Board on Professional Responsibility wrote that after the 2020 election, he “urged Justice Department leadership to issue a letter he had drafted that cast doubt on the election results” despite being told by department leadership his theory was not correct. The letter Clark wrote, but never sent, urged the Georgia state legislature to investigate election “irregularities” and, if necessary, appoint electors themselves that go against the results of the popular vote. The letter was meant to be a “proof of concept” that would eventually be sent to several states. A majority of the board — which examines attorney discipline cases but does not have the final say the local courts have on law licenses in the district — recommended disbarment. Clark is still an attorney in good standing in the DC bar, according to bar records. The Justice Department argued in its Wednesday lawsuit, “Defendants are punishing Mr. Clark because he tried to persuade his superiors within the Department of Justice that they should issue a draft letter that he felt reflected the actual law and facts about the 2020 election.” “But D.C. disciplinary authorities may not punish a United States official for disagreeing with a superior or coworker or for sharing an opinion just because those disciplinary authorities disagree with it,” the lawsuit adds. It goes on to claim that such disciplinary actions will set a chilling precedent. “Weaponizing state bar discipline against Executive Branch attorneys in this way chills them from giving candid legal advice to others in the Executive Branch, including the President and Attorney General,” the lawsuit says. Clark said in a social media post on X that the lawsuit “is an important step to vindicate the separation of powers.” CNN has reached out to Clark for further comment. In its July 2025 recommendation, the DC Board on Professional Responsibility argued that lawyers should have “the highest standard of professional conduct. At a minimum, they must be honest.” Clark “should be disbarred as a consequence,” the board wrote, adding that it would send a message that his behavior would not be tolerated. The board’s recommendation was then sent to the DC Court of Appeals for a final decision. At the time of the board’s recommendation, Clark served as the acting administrator of the White House Office of Management and Budget’s Office of Information and Regulatory Affairs. He is now a vice president at Oversight Project, a conservative watchdog group. Clark recently appeared as a lawyer in federal court in an ongoing public records cases seeking the release of audio recordings of former President Joe Biden speaking to a ghost writer. The lawsuit also comes as the Justice Department has increased its pushback on the self-policing traditions of the legal industry in Trump’s second term. The administration last year attempted to undermine some lawyers’ ability to represent clients at major law firms that Trump disliked, and this year, the department attempted to change a rule to help ",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ suing DC Bar over 2020 election lawyers",
+        "canonical_url": "https://edition.cnn.com/2026/05/14/politics/doj-sues-dc-disciplinary-board",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "edition.cnn.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 27469
+  }
+}

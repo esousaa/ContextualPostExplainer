@@ -54,10 +54,7 @@ function mockFetchSuccess(input: RequestInfo | URL) {
   }
 
   return Promise.resolve(
-    new Response(JSON.stringify(mockExplanationResponse), {
-      status: 200,
-      headers: { "Content-Type": "application/json" }
-    })
+    sseResponse([`event: result\ndata: ${JSON.stringify(mockExplanationResponse)}\n\n`])
   );
 }
 
@@ -86,5 +83,21 @@ function mockFetchConfigError(input: RequestInfo | URL) {
       }),
       { status: 400, headers: { "Content-Type": "application/json" } }
     )
+  );
+}
+
+function sseResponse(chunks: string[]): Response {
+  const encoder = new TextEncoder();
+  return new Response(
+    new ReadableStream({
+      start(controller) {
+        chunks.forEach((chunk) => controller.enqueue(encoder.encode(chunk)));
+        controller.close();
+      }
+    }),
+    {
+      status: 200,
+      headers: { "Content-Type": "text/event-stream" }
+    }
   );
 }

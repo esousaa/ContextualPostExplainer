@@ -7,6 +7,24 @@ from app.domain.validation import (
 )
 from app.ports.llm_client import LLMClient
 
+CRITICAL_WARNING_EXPLANATIONS = {
+    "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST": (
+        "author interpretation was not cited to the original post"
+    ),
+    "OFFICIAL_POSITION_WITHOUT_PRIMARY_SOURCE": (
+        "official-position claims lacked an official, primary, court, or recognized news source"
+    ),
+    "PUBLIC_REACTION_WITHOUT_SOCIAL_SOURCE": (
+        "public-reaction claims were not cited to thread or social sources"
+    ),
+    "SENSITIVE_CLAIM_WITHOUT_STRONG_SOURCE": (
+        "sensitive factual claims lacked official, court, fact-checking, or recognized news support"
+    ),
+    "SOCIAL_ONLY_CONFIRMED_FACT": (
+        "confirmed factual claims were supported only by social or thread sources"
+    ),
+}
+
 
 class ExplanationGenerator:
     def __init__(
@@ -163,14 +181,7 @@ def _remove_critical_bullets(
     bullets = [
         bullet for index, bullet in enumerate(explanation.bullets) if index not in critical_indices
     ]
-    warning = ValidationWarning(
-        severity="warning",
-        code="CRITICAL_BULLETS_REMOVED",
-        message=(
-            "Unsupported bullets were removed because they failed citation "
-            "compatibility checks."
-        ),
-    )
+    warning = _critical_bullets_removed_warning(warnings)
 
     if len(bullets) < 3:
         return Explanation(
@@ -198,4 +209,30 @@ def _empty_after_failed_repair() -> Explanation:
             "The generated explanation failed citation validation after repair.",
             "No explanatory bullets were generated to avoid unsupported claims.",
         ],
+    )
+
+
+def _critical_bullets_removed_warning(warnings: list[ValidationWarning]) -> ValidationWarning:
+    critical_reasons = [
+        CRITICAL_WARNING_EXPLANATIONS[warning.code]
+        for warning in warnings
+        if warning.code in CRITICAL_WARNING_EXPLANATIONS
+    ]
+    unique_reasons = list(dict.fromkeys(critical_reasons))
+
+    if not unique_reasons:
+        message = (
+            "Unsupported bullets were removed because their citations did not match "
+            "the claim type."
+        )
+    else:
+        message = (
+            "Unsupported bullets were removed because their citations did not match "
+            f"the claim type: {'; '.join(unique_reasons)}."
+        )
+
+    return ValidationWarning(
+        severity="warning",
+        code="CRITICAL_BULLETS_REMOVED",
+        message=message,
     )

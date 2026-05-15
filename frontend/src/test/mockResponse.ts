@@ -59,6 +59,9 @@ export const mockExplanationResponse: ExplanationResponse = {
       content: "The DOJ is acting as Trump's personal attorney.",
       source_type: "thread",
       provider: "bluesky",
+      providers: ["bluesky"],
+      provider_queries: {},
+      provider_result_count: 1,
       query: null,
       canonical_url: null,
       published_at: "2026-05-14T12:00:00Z",
@@ -75,6 +78,11 @@ export const mockExplanationResponse: ExplanationResponse = {
       content: "The lawsuit challenges efforts to sanction Trump administration lawyers.",
       source_type: "web",
       provider: "tavily",
+      providers: ["tavily"],
+      provider_queries: {
+        tavily: ["Trump DOJ DC Bar lawsuit"]
+      },
+      provider_result_count: 1,
       query: "Trump DOJ DC Bar lawsuit",
       canonical_url: "https://example.com/doj-dc-bar",
       published_at: "2026-05-14T10:00:00Z",

@@ -1,5 +1,7 @@
 import time
 from collections.abc import Awaitable, Callable
+from datetime import UTC, datetime
+from typing import Any
 from uuid import uuid4
 
 import structlog
@@ -8,6 +10,11 @@ from langgraph.graph import END, StateGraph
 from app.adapters.bluesky.url_parser import parse_bluesky_post_url
 from app.adapters.http.source_fetcher import fetch_source_pages
 from app.application.image_context import build_image_evidence
+from app.application.provider_diagnostics import (
+    multi_provider_source_count,
+    provider_counts_for_sources,
+    search_provider_diagnostics,
+)
 from app.application.query_planning import augment_live_queries
 from app.application.source_classification import classify_evidence
 from app.application.source_quality import evaluate_source_quality
@@ -33,6 +40,24 @@ from app.ports.source_fetcher import SourceFetcher
 logger = structlog.get_logger(__name__)
 
 NodeFn = Callable[[ExplanationState], Awaitable[dict[str, object]]]
+ProgressCallback = Callable[[dict[str, Any]], Awaitable[None]]
+
+LIVE_NODE_STEPS = {
+    "validate_live_config": "Fetching post",
+    "parse_post_url": "Fetching post",
+    "fetch_bluesky_post_thread": "Fetching post",
+    "analyze_images_optional": "Analyzing media",
+    "decompose_queries": "Searching context",
+    "search_web_context": "Searching context",
+    "fetch_source_pages": "Reading sources",
+    "rank_evidence": "Ranking evidence",
+    "generate_explanation": "Generating explanation",
+    "validate_citations": "Generating explanation",
+    "repair_once_if_needed": "Generating explanation",
+    "finalize_response": "Generating explanation",
+}
+
+LIVE_NODE_ORDER = tuple(LIVE_NODE_STEPS)
 
 
 class LiveExplanationFlow:
@@ -53,6 +78,7 @@ class LiveExplanationFlow:
         ],
         image_analyzer: ImageAnalyzer | None = None,
         run_recorder: RunRecorder | None = None,
+        progress_callback: ProgressCallback | None = None,
     ) -> None:
         self._settings = settings
         self._post_fetcher = post_fetcher
@@ -64,6 +90,7 @@ class LiveExplanationFlow:
         self._image_analyzer = image_analyzer
         self._citation_validator = CitationValidator()
         self._run_recorder = run_recorder
+        self._progress_callback = progress_callback
         self._tracer = get_tracer()
         self._graph = self._build_graph()
 
@@ -77,6 +104,16 @@ class LiveExplanationFlow:
             "warnings": [],
             "metrics": {},
         }
+        await self._emit_progress(
+            {
+                "type": "run_started",
+                "run_id": state["run_id"],
+                "status": "active",
+                "node_name": None,
+                "step": "Fetching post",
+                "message": "Live analysis started.",
+            }
+        )
         result = await self._graph.ainvoke(state)
         return result["response"]
 
@@ -113,6 +150,7 @@ class LiveExplanationFlow:
             logger.info("node_started", **event)
             if self._run_recorder:
                 await self._run_recorder.record_event({"event": "node_started", **event})
+            await self._emit_node_progress("node_started", event, "active")
 
             with self._tracer.start_as_current_span(f"live.{node_name}"):
                 result = await node_fn(state)
@@ -122,9 +160,44 @@ class LiveExplanationFlow:
             logger.info("node_completed", **completed)
             if self._run_recorder:
                 await self._run_recorder.record_event({"event": "node_completed", **completed})
+            await self._emit_node_progress(
+                "node_completed",
+                completed,
+                _completed_node_status(node_name),
+            )
             return result
 
         return wrapped
+
+    async def _emit_node_progress(
+        self,
+        event_type: str,
+        event: dict[str, object],
+        status: str,
+    ) -> None:
+        node_name = str(event["node_name"])
+        step = LIVE_NODE_STEPS[node_name]
+        payload = {
+            "type": event_type,
+            "run_id": event["run_id"],
+            "status": status,
+            "node_name": node_name,
+            "step": step,
+            "message": _progress_message(step, event_type, status),
+        }
+        if "duration_ms" in event:
+            payload["duration_ms"] = event["duration_ms"]
+        await self._emit_progress(payload)
+
+    async def _emit_progress(self, payload: dict[str, Any]) -> None:
+        if not self._progress_callback:
+            return
+        await self._progress_callback(
+            {
+                "timestamp": datetime.now(UTC).isoformat(),
+                **payload,
+            }
+        )
 
     async def _validate_live_config(self, _state: ExplanationState) -> dict[str, object]:
         self._settings.require_live_search_provider()
@@ -188,6 +261,7 @@ class LiveExplanationFlow:
             **state.get("metrics", {}),
             "search_results_received": len(results),
             "search_results_by_provider": _provider_counts(results),
+            **search_provider_diagnostics(results),
             "search_results_discarded": [discard.__dict__ for discard in discards],
         }
         return {"search_results": kept, "metrics": metrics}
@@ -223,6 +297,8 @@ class LiveExplanationFlow:
         metrics = {
             **state.get("metrics", {}),
             "ranking_discards": ranking_discards,
+            "ranked_sources_by_provider": provider_counts_for_sources(ranked),
+            "ranked_multi_provider_source_count": multi_provider_source_count(ranked),
         }
         return {"ranked_evidence": ranked, "metrics": metrics}
 
@@ -266,13 +342,18 @@ class LiveExplanationFlow:
             execution_time_ms=execution_time_ms,
         )
         if self._run_recorder:
+            metrics = {
+                **state.get("metrics", {}),
+                "cited_sources_by_provider": provider_counts_for_sources(cited_sources),
+                "cited_multi_provider_source_count": multi_provider_source_count(cited_sources),
+            }
             await self._run_recorder.write_run(
                 "live",
                 state["run_id"],
                 {
                     "input_url": state["input_url"],
                     "queries": state.get("queries", []),
-                    "metrics": state.get("metrics", {}),
+                    "metrics": metrics,
                     "sources": [source.model_dump(mode="json") for source in ranked_sources],
                     "cited_sources": [
                         source.model_dump(mode="json") for source in cited_sources
@@ -345,3 +426,22 @@ def _provider_counts(results: list[SearchResult]) -> dict[str, int]:
     for result in results:
         counts[result.provider] = counts.get(result.provider, 0) + 1
     return counts
+
+
+def _completed_node_status(node_name: str) -> str:
+    node_index = LIVE_NODE_ORDER.index(node_name)
+    next_index = node_index + 1
+    if next_index >= len(LIVE_NODE_ORDER):
+        return "completed"
+
+    current_step = LIVE_NODE_STEPS[node_name]
+    next_step = LIVE_NODE_STEPS[LIVE_NODE_ORDER[next_index]]
+    return "completed" if current_step != next_step else "active"
+
+
+def _progress_message(step: str, event_type: str, status: str) -> str:
+    if event_type == "node_started":
+        return f"{step} started."
+    if status == "completed":
+        return f"{step} completed."
+    return f"{step} is still running."
