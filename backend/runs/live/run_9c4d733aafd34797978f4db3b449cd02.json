@@ -1,0 +1,509 @@
+{
+  "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+  "mode": "live",
+  "generated_at": "2026-05-15T16:58:45.321471+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T16:58:16.388472+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:16.388668+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T16:58:16.389007+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:16.389148+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T16:58:16.389435+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:17.388680+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 999
+    },
+    {
+      "timestamp": "2026-05-15T16:58:17.389152+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:17.389247+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T16:58:17.389569+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:19.299766+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1910
+    },
+    {
+      "timestamp": "2026-05-15T16:58:19.300245+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:25.698503+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6398
+    },
+    {
+      "timestamp": "2026-05-15T16:58:25.699005+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:36.587261+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 10888
+    },
+    {
+      "timestamp": "2026-05-15T16:58:36.587769+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:37.040572+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 452
+    },
+    {
+      "timestamp": "2026-05-15T16:58:37.041029+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.317290+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 7182
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.317811+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.317927+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.318259+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.318336+00:00",
+      "event": "node_completed",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T16:58:45.318598+00:00",
+      "event": "node_started",
+      "run_id": "run_9c4d733aafd34797978f4db3b449cd02",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+  "queries": [
+    "Flávio Bolsonaro 'Pega ladrão' protest Rio de Janeiro",
+    "Flávio Bolsonaro event at QG da PM Rio May 2026",
+    "Flávio Bolsonaro public reaction Brazil May 2026",
+    "QG da PM Rio de Janeiro protests May 2026"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [
+      {
+        "id": "https://www.instagram.com/reel/DYXIMfLFYM9/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.facebook.com/tmcnewsbr/videos/fl%C3%A1vio-bolsonaro-chega-ao-qg-da-pm-do-rio-sob-protestos-ap%C3%B3s-%C3%A1udio-vazadoa-chega/3094773484244126/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.instagram.com/reel/DW6sjF-EUTa/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYXNpmgkskS/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXhsq5zx8pE/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DVW0vFkgdvy/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_4e2053832334",
+        "title": "🚨 RIO DE JANEIRO E A CRISE SEM FIM Durante o TMC ...",
+        "url": "https://www.facebook.com/tmcnewsbr/videos/-rio-de-janeiro-e-a-crise-sem-fim-durante-o-tmc-360-joana-treptow-e-felipe-bueno/992261489957138/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_8d3f050453f7",
+        "title": "FLÁVIO BOLSONARO CHEGA AO QG DA PM DO RIO ...",
+        "url": "https://www.facebook.com/tmcnewsbr/videos/fl%C3%A1vio-bolsonaro-chega-ao-qg-da-pm-do-rio-sob-protestos-ap%C3%B3s-%C3%A1udio-vazadoa-chega/3094773484244126/#",
+        "reason": "stale_for_event"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky thread by @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro\n\n🤭\n\nVergonhoso.\n\nNo QG da PM do Rio de Janeiro... Cara...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9428782944236014
+    },
+    {
+      "id": "src_ed9c42a2fe93",
+      "title": "Flávio Bolsonaro é alvo de protesto no Rio após ... - TMC",
+      "url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master/#",
+      "snippet": "Grupo exibia cartazes contra o filho do ex-presidente Jair Bolsonaro e gritavam \"pega ladrão\" e \"bandido\". Confira na íntegra.",
+      "content": "A chegada do senador Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos, nesta sexta-feira (15/05). Enquanto era recepcionado na unidade, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam “pega ladrão” e “bandido”. Um grupo também exibia cartazes contra o filho do ex-presidente Jair Bolsonaro. Flávio cumpre agenda no Centro da capital fluminense após a divulgação de áudios em que o senador solicita verbas milionárias ao banqueiro Daniel Vorcaro para financiar um filme sobre o pai. Logo depois, em vídeo publicado nas redes sociais, ele admitiu o pedido de recurso e a relação com Vorcaro, mas destacou que se tratava de uma questão privada. O pré-candidato à presidência está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. Por Thiago Pimentel",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro 'Pega ladrão' protest Rio de Janeiro",
+      "canonical_url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "tmc.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7194147631508505
+    },
+    {
+      "id": "src_dce4dd588027",
+      "title": "Success and controversy at Flávio Bolsonaro's event in SC",
+      "url": "https://www.youtube.com/watch?v=-Yzfv8DMVGw#",
+      "snippet": "Success and controversy at Flávio Bolsonaro's event in SC - Prisco's commentary (May 11, 2026). Auto-dubbed. 2.1K views · 2 days ago. #Notícias",
+      "content": "Sucesso e polêmica no evento de Flávio Bolsonaro em SC - Comentário Prisco (11/05/26) - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro event at QG da PM Rio May 2026",
+      "canonical_url": "https://youtube.com/watch?v=-Yzfv8DMVGw",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.47998910358621516
+    },
+    {
+      "id": "src_be0db6a61d9a",
+      "title": "‘It’s not just Flávio’: is surname-dropping son downplaying Bolsonaro connection? | Brazil | The Guardian",
+      "url": "https://www.theguardian.com/world/2026/apr/03/flavio-is-surname-dropping-son-downplaying-bolsonaro-connection#",
+      "snippet": "Many Brazilians believe there is a ploy to free the younger Bolsonaro from baggage of his father’s name to return the family to power. But when the Brazilian senator took to the stage at a conservative conference in Grapevine, Texas, last weekend it was only his forename that was on people’s lips. The Flávio in question is Flávio Bolsonaro, the oldest son of the disgraced former president Jair Bolsonaro, who is under house arrest after receiving a 27-year jail sentence for trying to overturn the result of the 2022 election. As the younger Bolsonaro seeks to catapult his family back to the pinnacle of Brazilian politics in this year’s contest, many believe he is intentionally downplaying his parentage in an attempt to shake off the baggage of a name many associate with anti-democratic tendencies and a coronavirus catastrophe that killed hundreds of thousands of people.",
+      "content": "He possesses one of the most famous family names in Latin American politics. But when the Brazilian senator took to the stage at a conservative conference in Grapevine, Texas, last weekend it was only his forename that was on people’s lips. “Flávio! Flávio! Flávio!” the audience shouted as the 44-year-old politician announced he would run for president in order to fight the “radical environmental and woke” agendas he claims have made Brazil awful again. “Let me look you in the eyes and tell you: we will win,” the surname-less senator said in halting English, read from a teleprompter machine. The Flávio in question is Flávio Bolsonaro, the oldest son of the disgraced former president Jair Bolsonaro, who is under house arrest after receiving a 27-year jail sentence for trying to overturn the result of the 2022 election. As the younger Bolsonaro seeks to catapult his family back to the pinnacle of Brazilian politics in this year’s contest, many believe he is intentionally downplaying his parentage in an attempt to shake off the baggage of a name many associate with anti-democratic tendencies and a coronavirus catastrophe that killed hundreds of thousands of people. Political analysts have detected a deliberate strategy to reposition the rightwing politician in voters’ minds by casting him as a supposedly moderate “Flávio”, rather than a key member of the Bolsonaro clan. A campaign jingle played at one recent rally and broadcast on the candidate’s social networks refers to Bolsonaro’s firstborn as simply “Zero Um” (Number One) and Flávio, without citing his family name. Controversially, many Brazilian newspapers have adopted the same style, repeatedly calling the politician only “Flávio” in headlines – something leftwing opponents consider a cynical attempt to camouflage the politician’s hard-right roots. One social media satirist, the journalist Gilberto Porcidonio, took a poke at the Bolsonarian marketing strategy on Threads, joking: – Are you going to vote for Flávio? – Which Flávio? – The one whose surname they got rid of to make him electable! Fabiana Moraes, a columnist for Intercept Brasil who wrote recently about Bolsonaro’s disappearing last name, believed the move was designed to help Bolsonaro sidestep the hugely negative views millions of Brazilians still hold of his father. Moraes saw many reasons for that dislike, including Jair Bolsonaro’s misogyny and the failed coup he plotted after losing 2022’s election to his leftwing rival Luiz Inácio Lula da Silva. But perhaps the biggest cause was Jair Bolsonaro’s bungled response to coronavirus, which killed more than 800,000 Brazilians, and his delay in buying vaccines. “Brazil was exposed to such an unthinkable level of suffering [during Covid] … and I think this still reverberates,” Moraes said. Flávio Bolsonaro has not entirely abandoned his surname, which many conservatives still revere. Jair Bolsonaro won 58m votes in the 2022 election, losing to Lula by only 2m. Polls suggest the 2026 vote could be similarly close. “It’s unquestionable that [this surname] is still a real asset – but at the same time it’s also the mirror opposite,” said Moraes, who believed the tactic was aimed at attracting voters who were neither progressives, nor diehard Bolsonaro fans. Moraes feared Brazil’s version of Wall Street, Faria Lima, and parts of the mainstream media had already bought into Flávio Bolsonaro’s attempt to portray himself as a moderate, by playing down his roots and even using gender-neutral language in contrast to his father’s notorious homophobia. She was unconvinced by claims newspaper editors were using “Flávio” in their headlines because it was three letters shorter than Bolsonaro. “Jair is much shorter than Flávio and that wasn’t the name that appeared in the headlines [when he was president], was it?” Moraes said. Supporters of President Lula, whom Flávio Bolsonaro looks set to challenge in October’s vote, have cottoned on to the rightwinger’s rebranding effort. In r",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro public reaction Brazil May 2026",
+      "canonical_url": "https://theguardian.com/world/2026/apr/03/flavio-is-surname-dropping-son-downplaying-bolsonaro-connection",
+      "published_at": "2026-04-03T00:00:00",
+      "publisher": "theguardian.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.44468100054100324
+    },
+    {
+      "id": "src_abc26be53128",
+      "title": "Senator Flavio Bolsonaro Addresses CPAC 2026 - 03/28/26",
+      "url": "https://www.youtube.com/watch?v=SgXE-mVcCTQ#",
+      "snippet": "Senator Flavio Bolsonaro Addresses CPAC 2026. March 28, 2026 Join this channel to get access to perks:",
+      "content": "FULL SPEECH: Senator Flavio Bolsonaro Addresses CPAC 2026 - 03/28/26 - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro event at QG da PM Rio May 2026",
+      "canonical_url": "https://youtube.com/watch?v=SgXE-mVcCTQ",
+      "published_at": "2026-03-28T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.44379132342199124
+    },
+    {
+      "id": "src_e41f8ba547a4",
+      "title": "Analysis: Flávio Bolsonaro controversy shakes market confidence",
+      "url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml#",
+      "snippet": "Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets.",
+      "content": "Analysis: Flávio Bolsonaro controversy shakes market confidence Domestic assets deteriorate after The Intercept Brasil reports on ties between presidential hopeful and Banco Master’s Daniel Vorcaro Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets. The prevailing view is that Flávio’s connection with Vorcaro significantly reduces his chances of winning the presidential election. If Flávio does not withdraw his candidacy, which these sources currently see as the most likely scenario, market prices will need to adjust to reflect a much higher probability that President Luiz Inácio Lula da Silva, of the Workers’ Party, will be reelected. That is exactly what happened on Wednesday. ‘Candidacy is over’ Many participants believe Flávio’s candidacy is effectively over after The Intercept Brasil revealed such direct messages to Vorcaro. “I found the audio to Vorcaro very strong. The chance it kills the candidacy is very high,” one person said. “Vorcaro is toxic, and Flávio calling him ‘big brother’? Asking for that much money for a film? I think it’s over for him,” said a fund manager at a major local asset manager. With Flávio out of the race, in the view of one market group, names seen as closer to the political center, such as former Minas Gerais Governor Romeu Zema, could gain ground in the election and reach the runoff. In the medium term, that scenario would be even better received by the market, which saw Flávio as the worst option on the right. The shift in the political chessboard was also immediately reflected on betting sites. On Polymarket, early Wednesday evening, President Lula’s chances of winning rose to 45% from 40%; Flávio’s fell to 27% from 43%; and Romeu Zema’s jumped to 9% from 3.6%. Limited opening for a third way More skeptical investors, however, still see the odds of a third-way candidate as limited. “It increases the chance of a third way a little, but only modestly. Whoever votes for Flávio or Lula will not change their vote because of an audio like this. We are mature enough to remember that much worse has happened to both sides, and those two sides are still there,” another fund manager said. In any case, the news is expected to leave a few more scars on a domestic market that had already been carrying wounds since the start of the war in Iran and the aggressive repricing of the yield curve seen in March. “A 2% depreciation in a currency that had only been strengthening and a 30-basis-point increase in a yield curve that already had no cuts priced in hurts,” said a player at a major asset manager. This article was translated from Valor Econômico using an artificial intelligence tool under the supervision of the Valor International editorial team to ensure accuracy, clarity, and adherence to our editorial standards. Read our Editorial Principles.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro public reaction Brazil May 2026",
+      "canonical_url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "valorinternational.globo.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.41935167921865746
+    },
+    {
+      "id": "src_c12ecec5348d",
+      "title": "At an event in the US, Flávio Bolsonaro calls for elections ... - YouTube",
+      "url": "https://www.youtube.com/watch?v=7yTyEgYtBvM#",
+      "snippet": "O senador Flávio Bolsonaro (PL-RJ) pediu pressão diplomática para que as eleições de 2026 no Brasil tenham \"valores de origem americana\".",
+      "content": "Em evento nos EUA, Flávio Bolsonaro pede que eleições no Brasil sigam \"valores americanos\" - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro public reaction Brazil May 2026",
+      "canonical_url": "https://youtube.com/watch?v=7yTyEgYtBvM",
+      "published_at": "2026-03-29T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4134559788741555
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky thread by @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro\n\n🤭\n\nVergonhoso.\n\nNo QG da PM do Rio de Janeiro... Cara...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9428782944236014
+    },
+    {
+      "id": "src_ed9c42a2fe93",
+      "title": "Flávio Bolsonaro é alvo de protesto no Rio após ... - TMC",
+      "url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master/#",
+      "snippet": "Grupo exibia cartazes contra o filho do ex-presidente Jair Bolsonaro e gritavam \"pega ladrão\" e \"bandido\". Confira na íntegra.",
+      "content": "A chegada do senador Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos, nesta sexta-feira (15/05). Enquanto era recepcionado na unidade, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam “pega ladrão” e “bandido”. Um grupo também exibia cartazes contra o filho do ex-presidente Jair Bolsonaro. Flávio cumpre agenda no Centro da capital fluminense após a divulgação de áudios em que o senador solicita verbas milionárias ao banqueiro Daniel Vorcaro para financiar um filme sobre o pai. Logo depois, em vídeo publicado nas redes sociais, ele admitiu o pedido de recurso e a relação com Vorcaro, mas destacou que se tratava de uma questão privada. O pré-candidato à presidência está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. Por Thiago Pimentel",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro 'Pega ladrão' protest Rio de Janeiro",
+      "canonical_url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "tmc.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7194147631508505
+    },
+    {
+      "id": "src_e41f8ba547a4",
+      "title": "Analysis: Flávio Bolsonaro controversy shakes market confidence",
+      "url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml#",
+      "snippet": "Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets.",
+      "content": "Analysis: Flávio Bolsonaro controversy shakes market confidence Domestic assets deteriorate after The Intercept Brasil reports on ties between presidential hopeful and Banco Master’s Daniel Vorcaro Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets. The prevailing view is that Flávio’s connection with Vorcaro significantly reduces his chances of winning the presidential election. If Flávio does not withdraw his candidacy, which these sources currently see as the most likely scenario, market prices will need to adjust to reflect a much higher probability that President Luiz Inácio Lula da Silva, of the Workers’ Party, will be reelected. That is exactly what happened on Wednesday. ‘Candidacy is over’ Many participants believe Flávio’s candidacy is effectively over after The Intercept Brasil revealed such direct messages to Vorcaro. “I found the audio to Vorcaro very strong. The chance it kills the candidacy is very high,” one person said. “Vorcaro is toxic, and Flávio calling him ‘big brother’? Asking for that much money for a film? I think it’s over for him,” said a fund manager at a major local asset manager. With Flávio out of the race, in the view of one market group, names seen as closer to the political center, such as former Minas Gerais Governor Romeu Zema, could gain ground in the election and reach the runoff. In the medium term, that scenario would be even better received by the market, which saw Flávio as the worst option on the right. The shift in the political chessboard was also immediately reflected on betting sites. On Polymarket, early Wednesday evening, President Lula’s chances of winning rose to 45% from 40%; Flávio’s fell to 27% from 43%; and Romeu Zema’s jumped to 9% from 3.6%. Limited opening for a third way More skeptical investors, however, still see the odds of a third-way candidate as limited. “It increases the chance of a third way a little, but only modestly. Whoever votes for Flávio or Lula will not change their vote because of an audio like this. We are mature enough to remember that much worse has happened to both sides, and those two sides are still there,” another fund manager said. In any case, the news is expected to leave a few more scars on a domestic market that had already been carrying wounds since the start of the war in Iran and the aggressive repricing of the yield curve seen in March. “A 2% depreciation in a currency that had only been strengthening and a 30-basis-point increase in a yield curve that already had no cuts priced in hurts,” said a player at a major asset manager. This article was translated from Valor Econômico using an artificial intelligence tool under the supervision of the Valor International editorial team to ensure accuracy, clarity, and adherence to our editorial standards. Read our Editorial Principles.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Flávio Bolsonaro public reaction Brazil May 2026",
+      "canonical_url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "valorinternational.globo.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.41935167921865746
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "platform": "bluesky",
+      "author": {
+        "handle": "romulobdias.bsky.social",
+        "display_name": "Romulo Dias",
+        "did": "did:plc:xn5cja2cotnc5niqdamxayki"
+      },
+      "text": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "created_at": "2026-05-15T16:12:11.250000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "🤭\n\nVergonhoso.\n\nNo QG da PM do Rio de Janeiro... Cara..."
+    },
+    "explanation": [
+      {
+        "text": "Senator Flávio Bolsonaro faced protests during his arrival at the Police Military HQ in Rio de Janeiro, where attendees shouted phrases like \"pega ladrão\" and \"bandido.\" This event occurred amid a backdrop of controversy due to leaked audio involving Bolsonaro requesting financial support from a banker, Daniel Vorcaro.",
+        "source_ids": [
+          "src_ed9c42a2fe93"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The protests at the event represent public backlash against Flávio Bolsonaro, reflecting ongoing scrutiny and criticism tied to his political actions and associations.",
+        "source_ids": [
+          "thread_original",
+          "src_ed9c42a2fe93"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": []
+      },
+      {
+        "text": "The audio involving Flávio Bolsonaro and Daniel Vorcaro discussing large financial requests has drawn negative attention, potentially impacting Bolsonaro's political prospects amid calls for accountability.",
+        "source_ids": [
+          "src_ed9c42a2fe93",
+          "src_e41f8ba547a4"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky thread by @romulobdias.bsky.social",
+        "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+        "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+        "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro\n\n🤭\n\nVergonhoso.\n\nNo QG da PM do Rio de Janeiro... Cara...",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "romulobdias.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_ed9c42a2fe93",
+        "title": "Flávio Bolsonaro é alvo de protesto no Rio após ... - TMC",
+        "url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master/#",
+        "snippet": "Grupo exibia cartazes contra o filho do ex-presidente Jair Bolsonaro e gritavam \"pega ladrão\" e \"bandido\". Confira na íntegra.",
+        "content": "A chegada do senador Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos, nesta sexta-feira (15/05). Enquanto era recepcionado na unidade, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam “pega ladrão” e “bandido”. Um grupo também exibia cartazes contra o filho do ex-presidente Jair Bolsonaro. Flávio cumpre agenda no Centro da capital fluminense após a divulgação de áudios em que o senador solicita verbas milionárias ao banqueiro Daniel Vorcaro para financiar um filme sobre o pai. Logo depois, em vídeo publicado nas redes sociais, ele admitiu o pedido de recurso e a relação com Vorcaro, mas destacou que se tratava de uma questão privada. O pré-candidato à presidência está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. Por Thiago Pimentel",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Flávio Bolsonaro 'Pega ladrão' protest Rio de Janeiro",
+        "canonical_url": "https://tmc.com.br/politica/flavio-bolsonaro-e-alvo-de-protesto-no-rio-apos-divulgacao-de-audio-com-ex-dono-do-master",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "tmc.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_e41f8ba547a4",
+        "title": "Analysis: Flávio Bolsonaro controversy shakes market confidence",
+        "url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml#",
+        "snippet": "Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets.",
+        "content": "Analysis: Flávio Bolsonaro controversy shakes market confidence Domestic assets deteriorate after The Intercept Brasil reports on ties between presidential hopeful and Banco Master’s Daniel Vorcaro Beneath the surface of a local market that had been proving resilient to the oil shock, there was a political factor being widely discussed behind the scenes on Faria Lima, São Paulo’s financial district. Flávio Bolsonaro’s improvement in opinion polls had been cited as a secondary but relevant factor supporting expectations of a shift in economic policy in 2027 and, by extension, asset prices. Flávio, a senator from the Liberal Party and Jair Bolsonaro’s eldest son, is a presidential hopeful. The possible link between Flávio and Daniel Vorcaro, of Banco Master, caught part of the financial market off guard and brought the election race back to the center of attention, in an environment that had been driven almost entirely by geopolitical news. Market participants consulted by Intraday, Valor’s financial markets blog, believe Wednesday (13)’s new political development is, at least in the short term, a very negative factor for the performance of domestic assets. The prevailing view is that Flávio’s connection with Vorcaro significantly reduces his chances of winning the presidential election. If Flávio does not withdraw his candidacy, which these sources currently see as the most likely scenario, market prices will need to adjust to reflect a much higher probability that President Luiz Inácio Lula da Silva, of the Workers’ Party, will be reelected. That is exactly what happened on Wednesday. ‘Candidacy is over’ Many participants believe Flávio’s candidacy is effectively over after The Intercept Brasil revealed such direct messages to Vorcaro. “I found the audio to Vorcaro very strong. The chance it kills the candidacy is very high,” one person said. “Vorcaro is toxic, and Flávio calling him ‘big brother’? Asking for that much money for a film? I think it’s over for him,” said a fund manager at a major local asset manager. With Flávio out of the race, in the view of one market group, names seen as closer to the political center, such as former Minas Gerais Governor Romeu Zema, could gain ground in the election and reach the runoff. In the medium term, that scenario would be even better received by the market, which saw Flávio as the worst option on the right. The shift in the political chessboard was also immediately reflected on betting sites. On Polymarket, early Wednesday evening, President Lula’s chances of winning rose to 45% from 40%; Flávio’s fell to 27% from 43%; and Romeu Zema’s jumped to 9% from 3.6%. Limited opening for a third way More skeptical investors, however, still see the odds of a third-way candidate as limited. “It increases the chance of a third way a little, but only modestly. Whoever votes for Flávio or Lula will not change their vote because of an audio like this. We are mature enough to remember that much worse has happened to both sides, and those two sides are still there,” another fund manager said. In any case, the news is expected to leave a few more scars on a domestic market that had already been carrying wounds since the start of the war in Iran and the aggressive repricing of the yield curve seen in March. “A 2% depreciation in a currency that had only been strengthening and a 30-basis-point increase in a yield curve that already had no cuts priced in hurts,” said a player at a major asset manager. This article was translated from Valor Econômico using an artificial intelligence tool under the supervision of the Valor International editorial team to ensure accuracy, clarity, and adherence to our editorial standards. Read our Editorial Principles.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Flávio Bolsonaro public reaction Brazil May 2026",
+        "canonical_url": "https://valorinternational.globo.com/politics/news/2026/05/14/analysis-flavio-bolsonaro-controversy-shakes-market-confidence.ghtml",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "valorinternational.globo.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 27836
+  }
+}

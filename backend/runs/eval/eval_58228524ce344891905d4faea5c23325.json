@@ -1,0 +1,203 @@
+{
+  "run_id": "eval_58228524ce344891905d4faea5c23325",
+  "mode": "eval",
+  "generated_at": "2026-05-15T20:07:11.961267+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T20:07:06.230722+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_eval_case"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.230822+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_eval_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.231129+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_fixture_post"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.238259+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_fixture_post",
+      "duration_ms": 7
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.238737+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.244462+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence",
+      "duration_ms": 5
+    },
+    {
+      "timestamp": "2026-05-15T20:07:06.244888+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:07.678729+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "rank_evidence",
+      "duration_ms": 1433
+    },
+    {
+      "timestamp": "2026-05-15T20:07:07.679213+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.932359+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "generate_explanation",
+      "duration_ms": 4253
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.932886+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.932963+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933248+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933303+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933549+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "judge_groundedness"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933597+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "judge_groundedness",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933841+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "score_case"
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.933918+00:00",
+      "event": "node_completed",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "score_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:07:11.934201+00:00",
+      "event": "node_started",
+      "run_id": "eval_58228524ce344891905d4faea5c23325",
+      "mode": "eval",
+      "node_name": "persist_eval_result"
+    }
+  ],
+  "case_id": "tc03_external_link",
+  "metrics": {
+    "fact_coverage": 0.0,
+    "citation_coverage": 1.0,
+    "hallucination_penalty": 0.0,
+    "groundedness": null,
+    "usefulness": 2.5
+  },
+  "source_count": 1,
+  "groundedness": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "Insufficient evidence to generate a reliable explanation.",
+      "bullet_index": null
+    },
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "The generated explanation failed citation validation after repair.",
+      "bullet_index": null
+    },
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "No explanatory bullets were generated to avoid unsupported claims.",
+      "bullet_index": null
+    }
+  ],
+  "explanation": {
+    "bullets": [],
+    "confidence": "low",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "Insufficient evidence to generate a reliable explanation.",
+        "bullet_index": null
+      },
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "The generated explanation failed citation validation after repair.",
+        "bullet_index": null
+      },
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "No explanatory bullets were generated to avoid unsupported claims.",
+        "bullet_index": null
+      }
+    ]
+  }
+}

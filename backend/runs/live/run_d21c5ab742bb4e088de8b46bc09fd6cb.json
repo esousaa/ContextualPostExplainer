@@ -1,0 +1,393 @@
+{
+  "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+  "mode": "live",
+  "generated_at": "2026-05-15T20:30:03.623267+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T20:29:22.373458+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:22.373587+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:29:22.373975+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:22.374101+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:29:22.374448+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:23.544088+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1169
+    },
+    {
+      "timestamp": "2026-05-15T20:29:23.544623+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:37.083060+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 11905
+    },
+    {
+      "timestamp": "2026-05-15T20:29:37.083679+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:38.681297+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1597
+    },
+    {
+      "timestamp": "2026-05-15T20:29:38.681837+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:44.439245+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5757
+    },
+    {
+      "timestamp": "2026-05-15T20:29:44.439817+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:54.807488+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 10367
+    },
+    {
+      "timestamp": "2026-05-15T20:29:54.816616+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T20:29:55.493139+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 676
+    },
+    {
+      "timestamp": "2026-05-15T20:29:55.493668+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.602776+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 6450
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.603282+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.603394+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.603730+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.603811+00:00",
+      "event": "node_completed",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T20:30:03.604078+00:00",
+      "event": "node_started",
+      "run_id": "run_d21c5ab742bb4e088de8b46bc09fd6cb",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+  "queries": [
+    "Donald Trump apology fund January 6 criminals",
+    "$1.7 billion fund for January 6 Capitol riot participants",
+    "Republican party involvement January 6 Capitol attack",
+    "Ashli Babbitt settlement family payout"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [
+      {
+        "id": "https://oversightdemocrats.house.gov/news/press-releases/president-trumps-pardons-stick-taxpayers-bill-january-6-attack-oversight",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://oversightdemocrats.house.gov/news/press-releases/president-trumps-pardons-stick-taxpayers-bill-january-6-attack-oversight"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/LagunaBeachDemocraticClub/posts/trump-is-moving-to-create-a-17-billion-taxpayer-funded-handpicked-panel-to-provi/2133646564206359/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYVm9lcsVys/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/OccupyDemocrats/posts/breaking-trump-gets-busted-plotting-to-give-17-billion-in-taxpayer-dollars-to-hi/1518454793719423/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_35072878410d",
+        "title": "President Trump’s Pardons Stick Taxpayers With the Bill for January 6 Attack; Oversight Democrats Want to Know How Much | The U.S. House Committee on Oversight",
+        "url": "https://oversightdemocrats.house.gov/news/press-releases/president-trumps-pardons-stick-taxpayers-bill-january-6-attack-oversight#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_77e7ede53e1d",
+        "title": "Jan. 6ers already got pardoned. Will they get their money back too?",
+        "url": "https://www.youtube.com/watch?v=ZXjVR3RWWVE#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_610708c64a09",
+        "title": "January 6 rioters: Understanding their charges and convictions | CNN Politics",
+        "url": "https://edition.cnn.com/2025/01/26/politics/january-6-rioters-charges-convictions-dg#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_9e5a0f5f80ff",
+        "title": "Trump Justifies J6 Pardons With Misinformation - FactCheck.org",
+        "url": "https://www.factcheck.org/2025/01/trump-justifies-j6-pardons-with-misinformation/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_cab9d0224e5c",
+        "title": "Trump Wants To Set Up $1.7B Fund To Pay Jan. 6 Rioters - HuffPost",
+        "url": "https://www.huffpost.com/entry/trump-lawsuit-irs-jan-6-settlement_n_6a0749b7e4b098065be99de5#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_89149abf4ca8",
+        "title": "Republican response to the January 6 Capitol attack divides party",
+        "url": "https://www.theguardian.com/us-news/2023/mar/13/republican-response-january-6-capitol-attack-divides-party#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_6110b4f0fad7",
+        "title": "January 6th Committee - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/January_6th_Committee#",
+        "reason": "missing_event_anchor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "Republican Political Party sponsored Jan 06 resulting in 5 deaths, over 100 police injured. Property damage estimated to be $2.7 billion, including expenses incurred by Capitol Police, District of Columbia, & federal agencies, & security upgrades. $5MIL to Ashli Babbit (they had recruited) Family.\n\n",
+      "content": "Republican Political Party sponsored Jan 06 resulting in 5 deaths, over 100 police injured. Property damage estimated to be $2.7 billion, including expenses incurred by Capitol Police, District of Columbia, & federal agencies, & security upgrades. $5MIL to Ashli Babbit (they had recruited) Family.\n\nAll 1483 pardoned now become Rich!\nRingleaders get $10 million\nEach\nSoldiers get $500-$800k\nEach.\nTime to break out the \npitchforks!\n\nIt’s not disgusting. It’s treason. \nIt’s abominable. \nHe’s rewarding his private army of terrorists.\nChange your laws, electoral system, Supreme Court.\n\nAnd he will keep doing this until he is stopped.\n\nAmerikkka is about money and nothing else, we all now see.\n\nSo, this fits.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8097428964443889
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+      "snippet": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan\n6 criminals into MILLIONAIRES.\nWith your tax dollars.\nThe people who smeared feces on\nthe Capitol walls...\n...hunted Mike Pence through the\nhalls of Congress...\n...assaulted cops.\nHe’s creating a $1.7 ",
+      "content": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan\n6 criminals into MILLIONAIRES.\nWith your tax dollars.\nThe people who smeared feces on\nthe Capitol walls...\n...hunted Mike Pence through the\nhalls of Congress...\n...assaulted cops.\nHe’s creating a $1.7 billion\napology fund for them.\nDisgusting.\nVisual description: The image shows a screenshot of a social media post by Miles Taylor. The post criticizes Donald Trump, claiming he is financially benefiting individuals associated with the January 6 events through taxpayer money. The post mentions actions by these individuals and describes the creation of a substantial fund.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7531386336370999
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "content": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7081503997876888
+    },
+    {
+      "id": "src_f5fdad8c6911",
+      "title": "Pardon of January 6 United States Capitol attack defendants - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants#",
+      "snippet": "Bush * Barack Obama * Joe Biden * Donald Trump   + first term     - pardon of Joe Arpaio   + second term     - pardon of January 6 United States Capitol attack defendants |. On January 20, 2025, during the first day of his second term, United States president Donald Trump granted blanket clemency to all people, nearly 1,600, convicted of or awaiting trial or sentencing for offenses related to the January 6 United States Capitol attack that occurred near the end of his first presidential term. On January 20, 2025, Trump issued a proclamation titled \"Granting Pardons and Commutation of Sentences for Certain Offenses Relating to the Events at or Near the United States Capitol on January 6, 2021\". \"Jan. 6 rioters convicted for role in Capitol attack speak out against Trump's pardons\".",
+      "content": "On January 20, 2025, during the first day of his second term, United States president Donald Trump granted blanket clemency to all people, nearly 1,600, convicted of or awaiting trial or sentencing for offenses related to the January 6 United States Capitol attack that occurred near the end of his first presidential term. Most of them received full pardons, while the sentences of 14 members of the Oath Keepers and the Proud Boys were commuted. More than 600 rioters had been convicted of or pleaded guilty to assault of or obstructing law enforcement officers and 170 of using a deadly weapon.[1] In the aftermath of his 2020 presidential election loss to Joe Biden, Trump repeatedly made false claims that widespread electoral fraud had occurred and that only he himself had legitimately won the election. Although most resulting lawsuits were either dismissed or ruled against by numerous courts,[2][3][4] Trump nonetheless conspired with his campaign team to submit documents in several states (all of which had been won by Biden) which falsely claimed to be legitimate electoral certificates for President Trump and Vice President Mike Pence.[5] After the submission of these documents, the Trump campaign intended that the presiding officer of the United States Senate, either President of the Senate Pence or President pro tempore Chuck Grassley, would claim to have the unilateral power to reject electors during the January 6, 2021, vote counting session; the presiding officer would reject all electors from the several states in which the Trump campaign had submitted false documents, leaving 232 votes for Trump and 222 for Biden, thereby overturning the election results in favor of Trump.[6][7][8] The plans for January 6 failed to come to fruition after Pence refused to follow the campaign's proposals.[9][10] Trump nevertheless urged his supporters on January 6, 2021, to march to the Capitol while the joint session of Congress was assembled there to count electoral votes and formalize Biden's victory, culminating with hundreds storming the building and interrupting the electoral vote count.[11] By the end of 2021, 725 people had been charged with federal crimes.[12][13] That number rose to 1,000 by the second anniversary of the attack,[12] to 1,200 by the third anniversary (three-quarters of whom had by then been found guilty)[14][15] and to 1,500 before the fourth anniversary.[16] The Justice Department documented assaults on over 140 police officers and property damage exceeding US$2.8 million to the Capitol building and grounds. Approximately 170 defendants had been accused of using deadly or dangerous weapons against law enforcement officers, including fire extinguishers and bear spray.[17] Throughout the Biden administration, Trump characterized the January 6 defendants as \"political prisoners\" and \"hostages.\"[17] He promoted a revisionist history of the event by downplaying the severity of the violence and spreading conspiracy theories.[18][19] House Republicans also spread a fringe conspiracy that the FBI orchestrated the attack.[20] On January 29, 2022, when over 760 people had been charged,[12] Trump said at a Texas rally that he would be inclined to pardon the rioters if reelected in 2024,[21] which he repeated at a Tennessee rally in June 2022.[22] In November, four days before the midterm elections, he said: \"Let them all go now!\"[23] On May 10, 2023, he said he would be \"inclined to pardon many of them\" while hedging by saying \"a couple of them, probably, they got out of control\".[24] On September 15, 2023, he said in an interview that aired two days later: \"I'm going to look at them, and I certainly might [pardon them] if I think it's appropriate.\"[25] Then-representative Adam Schiff, who served on the House committee that investigated the attack and was the lead manager during Trump's first impeachment trial, told MSNBC in February 2022 that Trump's offer of pardons suggested that he \"condoned\" the violence.[26] Representat",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Donald Trump apology fund January 6 criminals",
+      "canonical_url": "https://en.wikipedia.org/wiki/Pardon_of_January_6_United_States_Capitol_attack_defendants",
+      "published_at": "2025-01-21T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6195387644302117
+    },
+    {
+      "id": "src_f7e74ffe63ef",
+      "title": "January 6 U.S. Capitol Attack | Background, Events, Criminal Charges, & Facts | Britannica",
+      "url": "https://www.britannica.com/event/January-6-U-S-Capitol-attack#",
+      "snippet": "January 6, 2021, attack on the U.S. Capitol   Gadsden flag at the January 6 U.S. Capitol attack   Hawley's iconic moment. January 6 attack on the U.S. Capitol by Trump supporters  Protestors with Trump signs and American flags outside the U.S. Capitol. January 6 attack on the U.S. Capitol by Trump supporters. January 6 U.S. Capitol attack. January 6 U.S. Capitol attack summary. January 6 attack on the U.S. Capitol by Trump supportersSupporters of Donald Trump during an attack on the U.S. Capitol, Washington, D.C., January 6, 2021. On January 6, 2021, the U.S. Capitol was attacked by a mob of supporters of Republican Pres. On January 6, 2021, a large crowd of Donald Trump’s supporters stormed the U.S. Capitol in Washington, D.C. to disrupt the certification of the 2020 presidential election results. On January 6, 2021, a mob of Donald Trump’s supporters attacked the U.S. Capitol Building while Congress was in session to certify the results of the 2020 presidential election.",
+      "content": "Please select which sections you would like to print: verifiedCite While every effort has been made to follow citation style rules, there may be some discrepancies. Please refer to the appropriate style manual or other sources if you have any questions. On January 6, 2021, the U.S. Capitol was attacked by a mob of supporters of Republican Pres. Donald Trump, disrupting a joint session of Congress convened to certify the results of the 2020 presidential election, which Trump lost to his Democratic opponent, Joe Biden. At a rally held near the White House, Trump repeated false claims about the election and encouraged the crowd to march to the Capitol. The ensuing attack, during which rioters vandalized and looted the interior, resulted in property damage of approximately $1.5 million. The Capitol was cleared of rioters about four hours after they first entered the building, and Congress resumed its tabulation of electoral votes, certifying Biden as the winner. Why actions did the crowd take that day? On January 6, 2021, a large crowd of Donald Trump’s supporters stormed the U.S. Capitol in Washington, D.C. to disrupt the certification of the 2020 presidential election results. The mob pushed through fences at the Capitol grounds’ perimeter, overwhelming police officers. Some rioters beat officers with weapons, sprayed them with chemical irritants, or crushed them in the surging crowd. The rioters shattered windows to enter the Capitol, vandalized and looted the interior, ransacked offices, and searched for lawmakers and then-Vice President Mike Pence. The Capitol was cleared at approximately 6 p.m., about four hours after the rioters entered the building. How did government officials and police respond to the riot? On January 6, 2021, a mob of Donald Trump’s supporters attacked the U.S. Capitol Building while Congress was in session to certify the results of the 2020 presidential election. The Capitol Police and the Metropolitan Police Department were overwhelmed as rioters breached barriers, vandalized the building, and assaulted officers. Reinforcements were summoned, and the governors of Virginia and Maryland dispatched National Guard units and state troopers to help secure the Capitol. However, due to bureaucratic delays, the District of Columbia National Guard wasn’t mobilized until three hours after the attack began. The Capitol was secured around 6 p.m., four hours after the initial breach.. What were the consequences for those involved in the attack? The January 6, 2021, U.S. Capitol attack had significant consequences for those involved. Protester Ashli Babbitt was shot and killed by police officers as she tried to breach the House chamber. Three other protesters also died, two of natural causes and one in a stampede. Five police officers involved in the protection of the Capitol on January 6 died in the aftermath of the attacks. Participants faced a range of criminal charges, from trespassing to seditious conspiracy, leading to numerous arrests and prosecutions. Members of extremist groups including the Proud Boys and Oath Keepers received lengthy prison sentences for their roles in planning and carrying out the attack. For example, Proud Boys leader Enrique Tarrio was sentenced to 22 years in prison, and Oath Keepers leader Stewart Rhodes received 18 years. In January 2025, shortly after returning to office, Pres. Donald Trump issued full pardons to individuals convicted of offenses related to the attack, commuted the sentences of others, and ordered the dismissal of remaining indictments. How did the January 6 attack impact U.S. government and society? The January 6, 2021, attack on the U.S. Capitol disrupted the certification of the 2020 presidential election, which Joe Biden won. A mob of supporters of Pres. Donald Trump stormed the Capitol, aiming to prevent the legitimate president-elect from assuming office. This event was widely regarded as an insurrection and an act of domestic terrorism. The attack led to the",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Republican party involvement January 6 Capitol attack",
+      "canonical_url": "https://britannica.com/event/January-6-U-S-Capitol-attack",
+      "published_at": "2026-04-15T00:00:00",
+      "publisher": "britannica.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6070755284299413
+    }
+  ],
+  "cited_sources": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "platform": "bluesky",
+      "author": {
+        "handle": "raywoodson5.bsky.social",
+        "display_name": "Ray Woodson",
+        "did": "did:plc:ytk3lrsq5cxm2ukumwq2id5k"
+      },
+      "text": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "created_at": "2026-05-15T19:28:00.576000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+          "alt_text": null,
+          "ocr_text": "Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan\n6 criminals into MILLIONAIRES.\nWith your tax dollars.\nThe people who smeared feces on\nthe Capitol walls...\n...hunted Mike Pence through the\nhalls of Congress...\n...assaulted cops.\nHe’s creating a $1.7 billion\napology fund for them.\nDisgusting.",
+          "description": "The image shows a screenshot of a social media post by Miles Taylor. The post criticizes Donald Trump, claiming he is financially benefiting individuals associated with the January 6 events through taxpayer money. The post mentions actions by these individuals and describes the creation of a substantial fund.",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Republican Political Party sponsored Jan 06 resulting in 5 deaths, over 100 police injured. Property damage estimated to be $2.7 billion, including expenses incurred by Capitol Police, District of Columbia, & federal agencies, & security upgrades. $5MIL to Ashli Babbit (they had recruited) Family.\n\nAll 1483 pardoned now become Rich!\nRingleaders get $10 million\nEach\nSoldiers get $500-$800k\nEach.\nTime to break out the \npitchforks!\n\nIt’s not disgusting. It’s treason. \nIt’s abominable. \nHe’s rewarding his private army of terrorists.\nChange your laws, electoral system, Supreme Court.\n\nAnd he will keep doing this until he is stopped.\n\nAmerikkka is about money and nothing else, we all now see.\n\nSo, this fits."
+    },
+    "explanation": [],
+    "sources": [],
+    "confidence": "low",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 37940
+  }
+}

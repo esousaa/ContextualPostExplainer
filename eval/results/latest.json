@@ -1,0 +1,323 @@
+{
+  "dataset": "../eval/dataset.yaml",
+  "generated_at": "2026-05-15T20:09:34.626428+00:00",
+  "case_count": 11,
+  "averages": {
+    "fact_coverage": 0.182,
+    "citation_coverage": 1.0,
+    "hallucination_penalty": 0.0,
+    "groundedness": 0.833,
+    "usefulness": 2.757
+  },
+  "cases": [
+    {
+      "id": "tc01_public_launch",
+      "description": "Post sobre lançamento público de produto",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "medium",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient sources to substantiate additional claims beyond the post announcement.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc02_thread_reply",
+      "description": "Reply que depende do contexto do thread",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "high",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient sources to meet the requirement of 3 to 5 supported contextual bullets.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc03_external_link",
+      "description": "Post com link externo",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc04_quote_post",
+      "description": "Quote-post com referência técnica",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "medium",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "The provided source does not offer sufficient detailed support for the claims.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc05_image_alt",
+      "description": "Post com imagem e alt text",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "low",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient evidence to generate a reliable explanation.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "The generated explanation failed citation validation after repair.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "No explanatory bullets were generated to avoid unsupported claims.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc06_ambiguous_reference",
+      "description": "Referência ambígua que exige contexto",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "high",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "The provided sources are insufficient to fully interpret the metaphor used in the post.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc07_factual_claim",
+      "description": "Afirmação factual com fonte pública",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "low",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient evidence to generate a reliable explanation.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "The generated explanation failed citation validation after repair.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "No explanatory bullets were generated to avoid unsupported claims.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc08_low_evidence",
+      "description": "Post com pouca evidência externa",
+      "metrics": {
+        "fact_coverage": 1.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 3.0
+      },
+      "bullet_count": 0,
+      "confidence": "low",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient evidence to generate a reliable explanation.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "No explanatory bullets were generated to avoid unsupported claims.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 0
+    },
+    {
+      "id": "tc09_recent_event",
+      "description": "Evento recente com contexto público",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "low",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "Insufficient evidence to generate a reliable explanation.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "The generated explanation failed citation validation after repair.",
+          "bullet_index": null
+        },
+        {
+          "severity": "warning",
+          "code": "GENERAL_WARNING",
+          "message": "No explanatory bullets were generated to avoid unsupported claims.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 1
+    },
+    {
+      "id": "tc10_multi_reference",
+      "description": "Post com múltiplas referências",
+      "metrics": {
+        "fact_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": null,
+        "usefulness": 2.5
+      },
+      "bullet_count": 0,
+      "confidence": "low",
+      "warnings": [
+        {
+          "severity": "warning",
+          "code": "CRITICAL_BULLETS_REMOVED",
+          "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
+          "bullet_index": null
+        }
+      ],
+      "groundedness": [],
+      "source_count": 2
+    },
+    {
+      "id": "tc11_groundedness_supported",
+      "description": "Caso P1 com evidência suficiente para groundedness",
+      "metrics": {
+        "fact_coverage": 1.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": 0.833,
+        "usefulness": 4.83
+      },
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
+        {
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source describes the Rapid Canvas public beta's functionality, confirming the inclusion of post URL ingestion, cited bullet generation, and evaluation reporting, which aligns with the bullet's claims.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source mentions that the evaluation flow of Rapid Canvas includes metrics like fact coverage, citation coverage, and groundedness, which supports the general idea of the bullet. However, it does not explicitly distinguish these metrics from live search functionalities, which slightly undermines the specificity of the bullet's claim.",
+          "source_ids": [
+            "s2"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source explicitly states that the evaluation report records citation coverage and groundedness, allowing reviewers to verify that generated bullets are supported by cited sources, which directly aligns with the bullet's claim.",
+          "source_ids": [
+            "s1"
+          ]
+        }
+      ],
+      "source_count": 2
+    }
+  ]
+}

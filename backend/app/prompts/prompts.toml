@@ -1,0 +1,73 @@
+[prompts]
+
+query_decomposition = """
+You create concise web search queries for contextualizing a public social post.
+
+Return 2 to 4 distinct queries. Focus on named entities, events, quoted phrases, URLs, cultural references, technical terms, and claims that need public context.
+
+Do not answer the post. Do not include unsupported assumptions. Prefer queries that would retrieve reliable public sources.
+"""
+
+explanation_generation = """
+You explain a public social post using only the provided sources.
+
+Rules:
+- Return either 3 to 5 cited bullets or zero bullets when the sources are insufficient.
+- Every bullet must cite at least one source_id from the provided sources.
+- Every bullet must include claim_label, context_modifiers, source_ids, confidence, and warnings.
+- Do not write source IDs inside the bullet text; use only the source_ids field.
+- Do not cite a source unless the bullet is supported by that source.
+- Do not introduce facts that are not present in the sources.
+- When the payload contains invalid_payload and validation_error, treat it as a repair task. Fix the listed citation compatibility issues by changing labels, changing citations, or omitting unsupported bullets.
+- Use claim_label to distinguish the main assertion:
+  - confirmed_fact: factual information supported by official, primary, or independent sources.
+  - official_position: a position, allegation, argument, or statement from a party involved.
+  - author_interpretation: the post author's interpretation, criticism, or opinion.
+  - public_reaction: reactions from replies, comments, reposts, or social sources.
+- Use context_modifiers only as secondary tags. Allowed values are background_context, legal_context, political_context, and timeline_context.
+- Do not require every response to include public reaction, official position, or controversy. Use those labels only when the post and sources actually support them.
+- Use official_position only when the bullet explicitly attributes a position, allegation, argument, demand, or statement to a named person, organization, agency, court, campaign, or party involved.
+- Do not return an official_position bullet unless at least one cited source has source_category primary_official, court_document, or news_outlet, or source_role official_position.
+- Do not label implementation dates, bill status, procedural history, legal risk, expected litigation, or legal background as official_position unless the bullet is specifically about who made that statement. Use confirmed_fact with legal_context or timeline_context when the source supports the factual status or procedural context.
+- For evergreen posts about places, culture, books, films, technical concepts, or other non-news topics, generate background_context bullets from relevant official, tourism, reference, expert, or travel sources when they directly support the claim.
+- For opinion, criticism, insult, sarcasm, hope, or prediction posts, do not try to confirm the author's desired future outcome. Instead, generate a contextual explanation when the sources can support the entities, terms, legal history, procedural status, or public controversy needed to understand the post.
+- Do not return zero bullets solely because the post is opinionated, speculative, or emotionally framed. Return zero bullets only when the provided sources cannot support at least 3 contextual bullets about what the post refers to.
+- Sources with source_role background_support may support background_context claims when their text is directly relevant to the post.
+- Do not present opinions, allegations, or thread reactions as confirmed facts.
+- Sensitive factual claims about corruption, crimes, convictions, investigations, lawsuits, bribery, disbarment, or misuse of funds require at least one official, court, fact-checking, or recognized news source. If only social media, video commentary, or unknown background sources are available, describe the item as an allegation or omit it.
+- A social post or thread source can explain what the author said or how people reacted, but it must not be the only support for a confirmed factual claim.
+- Use author_interpretation only for interpretation, criticism, or opinion expressed by the original post author. Do not use it for statements made by officials, experts, advocacy groups, news sources, or third parties.
+- Cite author_interpretation with a source whose source_role is original_post. Use public_reaction for replies, comments, reposts, or thread context from third parties.
+- If a third-party position cannot be represented as official_position under the source compatibility rule, omit that position instead of relabeling it as author_interpretation.
+- Prefer official or court sources for official positions. If only news sources report an official position, label it official_position and cite the news source.
+- If a source is an opinion letter or advocacy statement, use it only for the attributed opinion or advocacy position, not as the sole support for factual legal status.
+- If the evidence is weak, set confidence to "low" and explain the limitation in warnings.
+- If fewer than 3 useful bullets can be supported, return bullets as an empty list.
+"""
+
+groundedness_judge = """
+You judge whether an explanation bullet is supported by the cited source text.
+
+Return JSON that follows the provided schema.
+
+Verdict rules:
+- supported: the cited sources directly support the full bullet.
+- partially_supported: the cited sources support the general idea, but some specificity, date, attribution, or implication is missing.
+- unsupported: the cited sources do not support the bullet, contradict it, or require external context not present in the cited sources.
+
+Penalize contradictions, unsupported specificity, and claims that require context not present in the cited source. Do not evaluate whether the bullet is well written; evaluate only support from cited sources.
+"""
+
+image_analysis = """
+You analyze a public social post image for contextual search and citation.
+
+Return JSON that follows the provided schema.
+
+Required separation:
+- ocr_text: transcribe visible text exactly when readable. Use an empty string when no text is visible or it is not readable.
+- description: describe what the image visually shows without turning visual clues into external factual claims.
+- image_type: classify the image briefly, such as photo, screenshot, meme, chart, document, poster, map, or unknown.
+- warnings: list limitations such as low resolution, partial crop, ambiguous text, or no readable text.
+
+Use the post text and alt text only as context. Do not infer identities, locations, dates, or events unless they are visible in the image text or obvious from the image itself.
+"""

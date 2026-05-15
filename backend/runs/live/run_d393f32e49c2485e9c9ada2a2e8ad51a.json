@@ -1,0 +1,608 @@
+{
+  "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+  "mode": "live",
+  "generated_at": "2026-05-15T17:45:39.099474+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T17:45:13.899211+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:13.899354+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:45:13.899725+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:13.899849+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:45:13.900183+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:14.744583+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 844
+    },
+    {
+      "timestamp": "2026-05-15T17:45:14.745099+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:14.745216+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:45:14.745646+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:16.852879+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2107
+    },
+    {
+      "timestamp": "2026-05-15T17:45:16.853455+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:25.365607+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 8512
+    },
+    {
+      "timestamp": "2026-05-15T17:45:25.366408+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:35.100653+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 8382
+    },
+    {
+      "timestamp": "2026-05-15T17:45:35.101267+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:35.828516+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 727
+    },
+    {
+      "timestamp": "2026-05-15T17:45:35.829034+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.090839+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3261
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.091357+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.091499+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.091965+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.092057+00:00",
+      "event": "node_completed",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:45:39.092351+00:00",
+      "event": "node_started",
+      "run_id": "run_d393f32e49c2485e9c9ada2a2e8ad51a",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+  "queries": [
+    "MV Hondius positive test American passenger 2026",
+    "NBC News report on MV Hondius COVID cases",
+    "41 possible hantavirus exposures US 2026",
+    "University of Nebraska Medical Center MV Hondius update"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [
+      {
+        "id": "https://frencuio.com/article/hantavirus-outbreak-air-ambulance-lands-in-amsterdam-mv-hondius-cruise-ship-update",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://tourismologic.com/article/hantavirus-outbreak-air-ambulance-lands-in-amsterdam-mv-hondius-cruise-ship-update"
+      },
+      {
+        "id": "https://travelmarketreport.com/cruises/articles/mv-hondius-sails-for-canary-islands-amid-deadly-hantavirus-outbreak-and-evacuations",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.travelmarketreport.com/cruises/articles/mv-hondius-sails-for-canary-islands-amid-deadly-hantavirus-outbreak-and-evacuations"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.nytimes.com/2026/05/11/world/hantavirus-outbreak-cruise-ship-passengers.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/CaymanMarlRoad/posts/an-american-passenger-returning-to-the-us-from-the-hantavirus-stricken-mv-hondiu/1034145369135153/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/news.now.go/videos/17-americans-from-the-mv-hondius-cruise-ship-landed-in-omaha-one-tested-positive/4354195714793770/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/NBCNews/posts/all-18-us-passengers-who-were-on-the-mv-hondius-cruise-ship-remain-in-federal-qu/1354639946527867/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/NBCNews/posts/the-sole-american-who-returned-a-positive-test-aboard-the-mv-hondius-has-since-t/1355587266433135/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_86e1995ec18c",
+        "title": "CDC says 41 people being monitored for hantavirus in US - Yahoo",
+        "url": "https://www.yahoo.com/news/articles/cdc-says-41-people-being-182652416.html#",
+        "reason": "missing_event_anchor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if ",
+      "content": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin\n\nHere’s hoping that NBC is thorough, professional and deeply inquisitive in verifying the facts in this story.\n\nHere’s hoping that medical professionals are honoring their Hippocratic oaths. (I have much less trust in medical administrations.)\n\nWe shall see.\n\nDidn't that doctor in Portland just test positive?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9339237407620251
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7449172421536249
+    },
+    {
+      "id": "src_dc3e3bd7f3c8",
+      "title": "1 American returning from hantavirus-stricken cruise showing symptoms, another postive: HHS",
+      "url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs/#",
+      "snippet": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. An image collage containing 2 images, Image 1 shows The MV Hondius cruise ship leaves the port of Granadilla de Abona after a hantavirus outbreak onboard on May 11, 2026, Image 2 shows Passengers with hantavirus arrive in Omaha, Nebraska after flying from Spain on May 11, 2026. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said.",
+      "content": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. The flight landed in Nebraska around 2:30 a.m. Monday. One of the passengers has tested “mildly PCR positive” for Andes virus — which has already claimed the lives of three passengers aboard the ship and sickened several others. The other passenger is exhibiting mild symptoms. It is not yet known whether they have been tested for the rodent-borne virus. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said. Upon arrival at each facility, each passenger will undergo a clinical assessment and receive the appropriate care and support based on their condition. The World Health Organization has recommended a 42-day isolation period for the passengers of the ill-fated vessel. A staggering 38% of those who get respiratory symptoms from the disease die, according to the CDC. This is a developing story. Please check back for updates.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius positive test American passenger 2026",
+      "canonical_url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs",
+      "published_at": "2026-05-10T00:00:00",
+      "publisher": "nypost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6637782723301615
+    },
+    {
+      "id": "src_0fae91245c3c",
+      "title": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus | Georgia Public Broadcasting",
+      "url": "https://www.gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus#",
+      "snippet": "## Featured Specials and Programs. ## Support GPB. # U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus. Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC.",
+      "content": "Section Branding Primary Content Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. The Dutch-flagged cruise ship departed from southern Argentina on April 1, and followed an itinerary across the South Atlantic with multiple stops in remote islands. Three of the passengers have died since the outbreak began. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. Two American passengers continued on to Atlanta — a couple, one of whom is showing symptoms —where they are staying in biocontainment in a specialized facility at Emory University, a U.S. health official said at a press conference Monday. Also on Monday, a French woman tested positive for hantavirus, French Health Minister Stephanie Rist said. That brings the case count for the hantavirus outbreak to at least nine, including three deaths, according to the World Health Organization on Monday. What's ahead for the 18 American passengers After landing at the Offutt Air Force Base near Omaha, most passengers headed to the National Quarantine Unit at the University of Nebraska Medical Center for an initial evaluation, according to the Centers for Disease Control and Prevention. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC. The 18 U.S. passengers — including one dual U.S.-British citizen — are among the total of nearly 150 people who were on the ship from 23 different countries. They've endured in the midst of a hantavirus outbreak which has caused at least eight cases, including three deaths, according to the World Health Organization. The returning Americans had been isolating in their cruise cabins. They will now be monitored for several more weeks, U.S. health officials said in a media call on Saturday. Most of the passengers are arriving at America's only federally funded quarantine unit, which also received cruise passengers from a different outbreak — the Diamond Princess Cruise, in early 2020 — which was one of the first known superspreading events of the COVID-19 pandemic. Unlike COVID, which was a novel pathogenic strain when it emerged, scientists have been studying hantaviruses — and specifically the Andes variant which caused this outbreak — for decades. \"We do know that you can get small clusters of disease, but in 30 years we've never seen any large outbreaks,\" says Khan, \"so this is unlikely to become a pandemic.\" This strain of hantavirus can be deadly, but it isn't considered to be very contagious between people. It tends to take prolonged, close contact with someone who's showing symptoms, U.S health officials say. So far, most of the U.S. passengers are well. But symptoms can take up to 42 days after exposure to show up, according to the CDC. \"It's appropriate to be cautious,\" Khan says, \"To monitor these people for 42 days [to make sure] they don't get sick. And if they do get sick during those 42 days, to make sure to put them into isolation.\" Health officials said the U.S. passengers would all be assessed clinically upon arrival. They suggested that some passengers could continue monitoring at home, with daily check-ins from their health departments. Seven U.S. passengers who had left the cruise ship earlier are being monitored in several states, including Texas, California, Georgia and Virginia. Public health experts have been raising alarms over what they consider to be a muted public response by the U.S. governme",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius positive test American passenger 2026",
+      "canonical_url": "https://gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "gpb.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6448778290615743
+    },
+    {
+      "id": "src_ff5e34b94ce6",
+      "title": "Covid-19 cruise passengers recall painful memories amid hantavirus outbreak",
+      "url": "https://www.nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826#",
+      "snippet": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time.",
+      "content": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The ship is currently on a multiday journey from Cape Verde, off the coast of western Africa, to the Canary Islands. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. The ship should reach the Spanish-controlled islands on Sunday, with evacuations expected to begin on Monday. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. The confirmed case turned a birthday celebration for Bill Smedley’s wife into a nightmare of fear and isolation, and abruptly halted Rachel and Tyler Torres’ honeymoon plans. “It sort of brought back terrible memories that we had, because we had no idea the significance of what was happening to us,” Smedley, 72, of Dillsburg, Pennsylvania, said in a phone interview Wednesday. Smedley said his cruise on the Diamond Princess, where more than 700 people were infected and several others died, was “pretty devastating.” He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. The Andes strain of the hantavirus can be spread person-to-person and is typically found in parts of Argentina, including where the cruise ship departed on April 1. Unlike Covid-19, the strain doesn’t spread easily through casual contact, an infectious disease specialist at the National Institute for Communicable Diseases in South Africa told NBC News. Fatality rates, however, can be as high as 50% because it tends to affect organs like the lungs and kidneys. Some cases may initially present with vague symptoms that progress to respiratory issues. Dr. Pablo Vial, an infectious disease doctor who studies hantavirus at the Institute of Sciences and Innovation in Medicine in Santiago, Chile, told NBC News that some patients with the Andes strain can deteriorate within hours. Bill and his wife, Colette Smedley, boarded their ship in January 2020 for a 28-day cruise to celebrate Colette’s birthday. The beginning of the trip went smoothly, with visits to Japan, Vietnam, Hong Kong and Taiwan. But about two weeks into their vacation, someone tested positive for Covid. “They didn’t let us off the ship that Monday morning like we were supposed to depart,” Bill Smedley recalled. “And that Tuesday, they said, ‘Stay in your room and don’t come out.’” As more passengers tested positive, the ship implemented strict safety protocols and everyone went on lockdown. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time. “Everybody was terrified,” he said. “The look on their faces. Nobody would talk to each other; we were in gloves and masks and everything like that.” Rachel and Tyler Torres, of Shreveport, Louisiana, were also on that cruise to celebrate their honeymoon. Tyler said three times a day, the staff would leave trays of food on the floor outside of the guest room doors. “The general rule was that they would drop the tray at your door, but you weren’t allowed to open your door until they had walked away to minimize contact,” he said. Rachel said staff would also stand in the hallways to “make sure that everybody kept quarantine within our rooms.” Rachel said she tried to distract herself by watching movies and calling family and friends back home. Tyler started blogging about their experience. The couple flew back to the United States on Feb. 17, 2020, nearly a month after boarding the Diamond Princess. Like fellow passengers, including the Smedleys, they had to quar",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "NBC News report on MV Hondius COVID cases",
+      "canonical_url": "https://nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826",
+      "published_at": "2026-05-09T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5598349581078108
+    },
+    {
+      "id": "src_ab128b070dd8",
+      "title": "Map shows which US states have reported hantavirus exposures",
+      "url": "https://www.reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007/#",
+      "snippet": "During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not",
+      "content": "41 people being monitored for hantavirus exposure. See map of states. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: - 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia - 7 passengers who had left the ship returned home before the outbreak was identified - People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "41 possible hantavirus exposures US 2026",
+      "canonical_url": "https://reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "reporter-times.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5359960776980763
+    },
+    {
+      "id": "src_6fdfb29bfdae",
+      "title": "Officials hold news conference on quarantine of U.S. hantavirus ...",
+      "url": "https://www.youtube.com/watch?v=GI7wwoidD8k#",
+      "snippet": "NBC News. New. 9.7K views · 40:41 · Go to ... Deadly Andes Hantavirus Outbreak on MV Hondius Cruise Ship: Possible Human to Human Transmission.",
+      "content": "Officials hold news conference on quarantine of U.S. hantavirus cruise ship passengers: LIVE - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "NBC News report on MV Hondius COVID cases",
+      "canonical_url": "https://youtube.com/watch?v=GI7wwoidD8k",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.48763142233478507
+    },
+    {
+      "id": "src_381416bc1df3",
+      "title": "Could the hantavirus cruise ship outbreak lead to a pandemic? – NBC New York",
+      "url": "https://www.nbcnewyork.com/news/national-international/could-the-hantavirus-cruise-ship-outbreak-lead-to-a-pandemic-experts-explain-the-risk-level/6499694/#",
+      "snippet": "# Could the hantavirus cruise ship outbreak lead to a pandemic? ## An outbreak of hantavirus has killed three on a cruise ship. What to know about the Andes strain, how it spreads and symptoms. Hantavirus, a rare but deadly virus carried by rodents, has killed three people and infected at least eight amid an ongoing outbreak on a cruise ship, prompting concerns about a possible pandemic and comparisons to COVID-19. While hantavirus is dangerous, all of the experts TODAY.com spoke with stress that this outbreak situation is not similar to COVID-19, both due to the type of virus involved and ongoing containment efforts. Additionally, the strain of the virus involved in the cruise ship outbreak is even more uncommon, according to experts. On May 4, the WHO confirmed a cluster of hantavirus cases among passengers on the MV Hondius. ## What is the Andes strain of hantavirus?",
+      "content": "Hantavirus, a rare but deadly virus carried by rodents, has killed three people and infected at least eight amid an ongoing outbreak on a cruise ship, prompting concerns about a possible pandemic and comparisons to COVID-19. While hantavirus is dangerous, all of the experts TODAY.com spoke with stress that this outbreak situation is not similar to COVID-19, both due to the type of virus involved and ongoing containment efforts. “While this is a serious incident, (the World Health Organization) assesses the public health risk as low,” WHO chief Dr. Tedros Adhanom Ghebreyesus said in a press briefing on May 7. The MV Hondius had been stuck off the coast of Cabo Verde while officials scrambled to find a port to accept the hantavirus-stricken ship. The vessel is now heading to the Canary Islands, where it will dock in three to four days. In the meantime, officials are investigating how the ultra-rare virus made its way onto the luxury cruise ship and spread among passengers. Hantaviruses are a group viruses that can cause severe disease and death in humans. They're not new, but outbreaks of hantavirus are very uncommon, Dr. Carla McWilliams, chair of the division of infectious diseases at the Cleveland Clinic in Florida, tells TODAY.com. Additionally, the strain of the virus involved in the cruise ship outbreak is even more uncommon, according to experts. Here's what to know about the outbreak: 2026 hantavirus cruise ship outbreak On May 4, the WHO confirmed a cluster of hantavirus cases among passengers on the MV Hondius. Among the nearly 150 people aboard, eight suspected or confirmed cases of hantavirus have been identified so far, including three deaths. Three of the sick passengers have been medically evacuated to the Netherlands. One patient is critically ill and being treated in an intensive care unit in South Africa, where laboratory testing first confirmed the cruise ship outbreak was hantavirus. The newest case was identified in Switzerland in a man who left the Hondius voyage early and flew home, before the outbreak was identified. The cruise originally departed from Ushuaia, Argentina, on April 1 and made stops in Antarctica and several remote islands in the South Atlantic. It was in the waters of St. Helena island when passengers began falling ill and the first person died. On April 24, some 30 passengers disembarked in St. Helena after the death onboard, about a week before hantavirus was detected, cruise operator Oceanwide Expeditions said in a statement. These include several passengers from the United States. Authorities in Georgia, Arizona, California, Texas and Virginia have confirmed they are monitoring residents who where on the ship and have since returned home. So far, none are showing symptoms, NBC News reported. As officials race to investigate the deadly outbreak, the WHO announced that the virus may have spread from person-to-person through a rare strain called the Andes virus. What is the Andes strain of hantavirus? At least 20 strains of hantavirus are known to cause disease in humans, Kari Moore Debbink, Ph.D, a professor of Molecular Microbiology and Immunology at the Johns Hopkins Bloomberg School of Public Health, tells TODAY.com. Most hantaviruses spread to people through contact with infected mice and rats or their feces, urine or saliva, often by inhaling aerosolized droppings, per the U.S. Centers for Disease Control and Prevention. \"That's the normal route in almost all cases,\" says Debbink. Andes hantavirus, which is found in South America, mainly in Argentina and Chile, is unique in that it’s the only species known to cause human-to-human transmission, Dr. Mara Jana Broadhurst, pathologist and member of College of American Pathologists’ Microbiology Committee, tells TODAY.com. It spreads primarily to humans from the pygmy rice rat, but can also transmit between people through close, prolonged contact. “The precise mechanism of transmission between people has not been definitively established",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "NBC News report on MV Hondius COVID cases",
+      "canonical_url": "https://nbcnewyork.com/news/national-international/could-the-hantavirus-cruise-ship-outbreak-lead-to-a-pandemic-experts-explain-the-risk-level/6499694",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "nbcnewyork.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4772663658917107
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7449172421536249
+    },
+    {
+      "id": "src_dc3e3bd7f3c8",
+      "title": "1 American returning from hantavirus-stricken cruise showing symptoms, another postive: HHS",
+      "url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs/#",
+      "snippet": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. An image collage containing 2 images, Image 1 shows The MV Hondius cruise ship leaves the port of Granadilla de Abona after a hantavirus outbreak onboard on May 11, 2026, Image 2 shows Passengers with hantavirus arrive in Omaha, Nebraska after flying from Spain on May 11, 2026. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said.",
+      "content": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. The flight landed in Nebraska around 2:30 a.m. Monday. One of the passengers has tested “mildly PCR positive” for Andes virus — which has already claimed the lives of three passengers aboard the ship and sickened several others. The other passenger is exhibiting mild symptoms. It is not yet known whether they have been tested for the rodent-borne virus. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said. Upon arrival at each facility, each passenger will undergo a clinical assessment and receive the appropriate care and support based on their condition. The World Health Organization has recommended a 42-day isolation period for the passengers of the ill-fated vessel. A staggering 38% of those who get respiratory symptoms from the disease die, according to the CDC. This is a developing story. Please check back for updates.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius positive test American passenger 2026",
+      "canonical_url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs",
+      "published_at": "2026-05-10T00:00:00",
+      "publisher": "nypost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6637782723301615
+    },
+    {
+      "id": "src_0fae91245c3c",
+      "title": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus | Georgia Public Broadcasting",
+      "url": "https://www.gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus#",
+      "snippet": "## Featured Specials and Programs. ## Support GPB. # U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus. Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC.",
+      "content": "Section Branding Primary Content Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. The Dutch-flagged cruise ship departed from southern Argentina on April 1, and followed an itinerary across the South Atlantic with multiple stops in remote islands. Three of the passengers have died since the outbreak began. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. Two American passengers continued on to Atlanta — a couple, one of whom is showing symptoms —where they are staying in biocontainment in a specialized facility at Emory University, a U.S. health official said at a press conference Monday. Also on Monday, a French woman tested positive for hantavirus, French Health Minister Stephanie Rist said. That brings the case count for the hantavirus outbreak to at least nine, including three deaths, according to the World Health Organization on Monday. What's ahead for the 18 American passengers After landing at the Offutt Air Force Base near Omaha, most passengers headed to the National Quarantine Unit at the University of Nebraska Medical Center for an initial evaluation, according to the Centers for Disease Control and Prevention. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC. The 18 U.S. passengers — including one dual U.S.-British citizen — are among the total of nearly 150 people who were on the ship from 23 different countries. They've endured in the midst of a hantavirus outbreak which has caused at least eight cases, including three deaths, according to the World Health Organization. The returning Americans had been isolating in their cruise cabins. They will now be monitored for several more weeks, U.S. health officials said in a media call on Saturday. Most of the passengers are arriving at America's only federally funded quarantine unit, which also received cruise passengers from a different outbreak — the Diamond Princess Cruise, in early 2020 — which was one of the first known superspreading events of the COVID-19 pandemic. Unlike COVID, which was a novel pathogenic strain when it emerged, scientists have been studying hantaviruses — and specifically the Andes variant which caused this outbreak — for decades. \"We do know that you can get small clusters of disease, but in 30 years we've never seen any large outbreaks,\" says Khan, \"so this is unlikely to become a pandemic.\" This strain of hantavirus can be deadly, but it isn't considered to be very contagious between people. It tends to take prolonged, close contact with someone who's showing symptoms, U.S health officials say. So far, most of the U.S. passengers are well. But symptoms can take up to 42 days after exposure to show up, according to the CDC. \"It's appropriate to be cautious,\" Khan says, \"To monitor these people for 42 days [to make sure] they don't get sick. And if they do get sick during those 42 days, to make sure to put them into isolation.\" Health officials said the U.S. passengers would all be assessed clinically upon arrival. They suggested that some passengers could continue monitoring at home, with daily check-ins from their health departments. Seven U.S. passengers who had left the cruise ship earlier are being monitored in several states, including Texas, California, Georgia and Virginia. Public health experts have been raising alarms over what they consider to be a muted public response by the U.S. governme",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius positive test American passenger 2026",
+      "canonical_url": "https://gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "gpb.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6448778290615743
+    },
+    {
+      "id": "src_ff5e34b94ce6",
+      "title": "Covid-19 cruise passengers recall painful memories amid hantavirus outbreak",
+      "url": "https://www.nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826#",
+      "snippet": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time.",
+      "content": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The ship is currently on a multiday journey from Cape Verde, off the coast of western Africa, to the Canary Islands. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. The ship should reach the Spanish-controlled islands on Sunday, with evacuations expected to begin on Monday. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. The confirmed case turned a birthday celebration for Bill Smedley’s wife into a nightmare of fear and isolation, and abruptly halted Rachel and Tyler Torres’ honeymoon plans. “It sort of brought back terrible memories that we had, because we had no idea the significance of what was happening to us,” Smedley, 72, of Dillsburg, Pennsylvania, said in a phone interview Wednesday. Smedley said his cruise on the Diamond Princess, where more than 700 people were infected and several others died, was “pretty devastating.” He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. The Andes strain of the hantavirus can be spread person-to-person and is typically found in parts of Argentina, including where the cruise ship departed on April 1. Unlike Covid-19, the strain doesn’t spread easily through casual contact, an infectious disease specialist at the National Institute for Communicable Diseases in South Africa told NBC News. Fatality rates, however, can be as high as 50% because it tends to affect organs like the lungs and kidneys. Some cases may initially present with vague symptoms that progress to respiratory issues. Dr. Pablo Vial, an infectious disease doctor who studies hantavirus at the Institute of Sciences and Innovation in Medicine in Santiago, Chile, told NBC News that some patients with the Andes strain can deteriorate within hours. Bill and his wife, Colette Smedley, boarded their ship in January 2020 for a 28-day cruise to celebrate Colette’s birthday. The beginning of the trip went smoothly, with visits to Japan, Vietnam, Hong Kong and Taiwan. But about two weeks into their vacation, someone tested positive for Covid. “They didn’t let us off the ship that Monday morning like we were supposed to depart,” Bill Smedley recalled. “And that Tuesday, they said, ‘Stay in your room and don’t come out.’” As more passengers tested positive, the ship implemented strict safety protocols and everyone went on lockdown. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time. “Everybody was terrified,” he said. “The look on their faces. Nobody would talk to each other; we were in gloves and masks and everything like that.” Rachel and Tyler Torres, of Shreveport, Louisiana, were also on that cruise to celebrate their honeymoon. Tyler said three times a day, the staff would leave trays of food on the floor outside of the guest room doors. “The general rule was that they would drop the tray at your door, but you weren’t allowed to open your door until they had walked away to minimize contact,” he said. Rachel said staff would also stand in the hallways to “make sure that everybody kept quarantine within our rooms.” Rachel said she tried to distract herself by watching movies and calling family and friends back home. Tyler started blogging about their experience. The couple flew back to the United States on Feb. 17, 2020, nearly a month after boarding the Diamond Princess. Like fellow passengers, including the Smedleys, they had to quar",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "NBC News report on MV Hondius COVID cases",
+      "canonical_url": "https://nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826",
+      "published_at": "2026-05-09T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5598349581078108
+    },
+    {
+      "id": "src_ab128b070dd8",
+      "title": "Map shows which US states have reported hantavirus exposures",
+      "url": "https://www.reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007/#",
+      "snippet": "During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not",
+      "content": "41 people being monitored for hantavirus exposure. See map of states. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: - 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia - 7 passengers who had left the ship returned home before the outbreak was identified - People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "41 possible hantavirus exposures US 2026",
+      "canonical_url": "https://reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "reporter-times.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5359960776980763
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "SOCIAL_ONLY_CONFIRMED_FACT",
+      "message": "Confirmed factual claim is supported only by social media or thread sources.",
+      "bullet_index": 0
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "nbcnews.com",
+        "display_name": "NBC News",
+        "did": "did:plc:wmho6q2uiyktkam3jsvrms3s"
+      },
+      "text": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "created_at": "2026-05-15T12:56:21.453000Z",
+      "images": [],
+      "links": [
+        "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin\n\nHere’s hoping that NBC is thorough, professional and deeply inquisitive in verifying the facts in this story.\n\nHere’s hoping that medical professionals are honoring their Hippocratic oaths. (I have much less trust in medical administrations.)\n\nWe shall see.\n\nDidn't that doctor in Portland just test positive?"
+    },
+    "explanation": [
+      {
+        "text": "The sole American who initially tested positive aboard the MV Hondius has now tested negative three times, reducing the total reported cases to 10.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The MV Hondius cruise ship experienced a hantavirus outbreak that led to three passenger deaths and several confirmed cases, including a confirmed case reported by the University of Nebraska Medical Center.",
+        "source_ids": [
+          "src_dc3e3bd7f3c8",
+          "src_0fae91245c3c",
+          "src_ff5e34b94ce6"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "A total of 41 Americans are being monitored for possible hantavirus exposure, including passengers repatriated to health facilities in the United States.",
+        "source_ids": [
+          "src_ab128b070dd8",
+          "src_0fae91245c3c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @nbcnews.com",
+        "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+        "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "nbcnews.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_dc3e3bd7f3c8",
+        "title": "1 American returning from hantavirus-stricken cruise showing symptoms, another postive: HHS",
+        "url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs/#",
+        "snippet": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. An image collage containing 2 images, Image 1 shows The MV Hondius cruise ship leaves the port of Granadilla de Abona after a hantavirus outbreak onboard on May 11, 2026, Image 2 shows Passengers with hantavirus arrive in Omaha, Nebraska after flying from Spain on May 11, 2026. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said.",
+        "content": "An American passenger returning to the US from the hantavirus-stricken MV Hondius cruise ship has tested positive for the deadly virus, while a second is showing mild symptoms, health officials said. The two passengers traveled inside biocontainment units during a repatriation flight to bring all 17 US passengers from the luxury cruise liner to the National Quarantine Unit at the University of Nebraska Medical Center, the Department of Health and Human Services announced on Sunday evening. The flight landed in Nebraska around 2:30 a.m. Monday. One of the passengers has tested “mildly PCR positive” for Andes virus — which has already claimed the lives of three passengers aboard the ship and sickened several others. The other passenger is exhibiting mild symptoms. It is not yet known whether they have been tested for the rodent-borne virus. “As of now, the airlift will transport passengers to the ASPR Regional Emerging Special Pathogen Treatment Center (RESPTC) at the University of Nebraska Medical Center/Nebraska Medicine in Omaha, Nebraska before taking the passenger with mild symptoms to a second RESPTC at its final destination,” the HHS said. Upon arrival at each facility, each passenger will undergo a clinical assessment and receive the appropriate care and support based on their condition. The World Health Organization has recommended a 42-day isolation period for the passengers of the ill-fated vessel. A staggering 38% of those who get respiratory symptoms from the disease die, according to the CDC. This is a developing story. Please check back for updates.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "MV Hondius positive test American passenger 2026",
+        "canonical_url": "https://nypost.com/2026/05/10/us-news/1-american-returning-from-hantavirus-stricken-cruise-showing-symptoms-another-postive-hhs",
+        "published_at": "2026-05-10T00:00:00",
+        "publisher": "nypost.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_0fae91245c3c",
+        "title": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus | Georgia Public Broadcasting",
+        "url": "https://www.gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus#",
+        "snippet": "## Featured Specials and Programs. ## Support GPB. # U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus. Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC.",
+        "content": "Section Branding Primary Content Eighteen U.S. cruise passengers returned to the U.S. early Monday, after weeks aboard the MV Hondius, the cruise ship at the center of a deadly hantavirus outbreak, U.S. health officials confirmed. The Americans disembarked the cruise in the Canary Islands on Sunday and boarded a medical repatriation flight, arranged by the U.S. government, bound for Nebraska. The Dutch-flagged cruise ship departed from southern Argentina on April 1, and followed an itinerary across the South Atlantic with multiple stops in remote islands. Three of the passengers have died since the outbreak began. Sixteen of the U.S. passengers remain in Nebraska, including one passenger who tested \"mildly\" positive for hantavirus and is staying in biocontainment at the University of Nebraska Medical Center. Two American passengers continued on to Atlanta — a couple, one of whom is showing symptoms —where they are staying in biocontainment in a specialized facility at Emory University, a U.S. health official said at a press conference Monday. Also on Monday, a French woman tested positive for hantavirus, French Health Minister Stephanie Rist said. That brings the case count for the hantavirus outbreak to at least nine, including three deaths, according to the World Health Organization on Monday. What's ahead for the 18 American passengers After landing at the Offutt Air Force Base near Omaha, most passengers headed to the National Quarantine Unit at the University of Nebraska Medical Center for an initial evaluation, according to the Centers for Disease Control and Prevention. \"For the passengers getting off the ship, I'd say, 'Welcome to Nebraska.' You are coming to the premier facility in the United States, if not the world, to take care of you,\" says Dr. Ali Khan, dean of the College of Public Health at UNMC. The 18 U.S. passengers — including one dual U.S.-British citizen — are among the total of nearly 150 people who were on the ship from 23 different countries. They've endured in the midst of a hantavirus outbreak which has caused at least eight cases, including three deaths, according to the World Health Organization. The returning Americans had been isolating in their cruise cabins. They will now be monitored for several more weeks, U.S. health officials said in a media call on Saturday. Most of the passengers are arriving at America's only federally funded quarantine unit, which also received cruise passengers from a different outbreak — the Diamond Princess Cruise, in early 2020 — which was one of the first known superspreading events of the COVID-19 pandemic. Unlike COVID, which was a novel pathogenic strain when it emerged, scientists have been studying hantaviruses — and specifically the Andes variant which caused this outbreak — for decades. \"We do know that you can get small clusters of disease, but in 30 years we've never seen any large outbreaks,\" says Khan, \"so this is unlikely to become a pandemic.\" This strain of hantavirus can be deadly, but it isn't considered to be very contagious between people. It tends to take prolonged, close contact with someone who's showing symptoms, U.S health officials say. So far, most of the U.S. passengers are well. But symptoms can take up to 42 days after exposure to show up, according to the CDC. \"It's appropriate to be cautious,\" Khan says, \"To monitor these people for 42 days [to make sure] they don't get sick. And if they do get sick during those 42 days, to make sure to put them into isolation.\" Health officials said the U.S. passengers would all be assessed clinically upon arrival. They suggested that some passengers could continue monitoring at home, with daily check-ins from their health departments. Seven U.S. passengers who had left the cruise ship earlier are being monitored in several states, including Texas, California, Georgia and Virginia. Public health experts have been raising alarms over what they consider to be a muted public response by the U.S. governme",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "MV Hondius positive test American passenger 2026",
+        "canonical_url": "https://gpb.org/news/2026/05/11/us-cruise-passengers-arrive-in-the-us-after-one-tests-positive-for-hantavirus",
+        "published_at": "2026-05-11T00:00:00",
+        "publisher": "gpb.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_ff5e34b94ce6",
+        "title": "Covid-19 cruise passengers recall painful memories amid hantavirus outbreak",
+        "url": "https://www.nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826#",
+        "snippet": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time.",
+        "content": "The recent coverage of a cruise ship hit with a deadly hantavirus outbreak is painfully familiar to cruisers who spent days and weeks trapped in their cabins at the start of the Covid-19 pandemic in 2020. Three passengers from the MV Hondius have died, two of whom had confirmed cases of the Andes strain of the hantavirus and one with a probable case. The ship is currently on a multiday journey from Cape Verde, off the coast of western Africa, to the Canary Islands. The U.S. State Department said Friday that it is arranging a flight for the 17 American passengers to be brought to a quarantine facility in Nebraska. The ship should reach the Spanish-controlled islands on Sunday, with evacuations expected to begin on Monday. Like the Hondius, the Diamond Princess was just a few weeks into its January 2020 voyage when a passenger tested positive for the coronavirus. The confirmed case turned a birthday celebration for Bill Smedley’s wife into a nightmare of fear and isolation, and abruptly halted Rachel and Tyler Torres’ honeymoon plans. “It sort of brought back terrible memories that we had, because we had no idea the significance of what was happening to us,” Smedley, 72, of Dillsburg, Pennsylvania, said in a phone interview Wednesday. Smedley said his cruise on the Diamond Princess, where more than 700 people were infected and several others died, was “pretty devastating.” He said he’s sympathetic to the people on the Hondius because he knows exactly what they are going through. The Andes strain of the hantavirus can be spread person-to-person and is typically found in parts of Argentina, including where the cruise ship departed on April 1. Unlike Covid-19, the strain doesn’t spread easily through casual contact, an infectious disease specialist at the National Institute for Communicable Diseases in South Africa told NBC News. Fatality rates, however, can be as high as 50% because it tends to affect organs like the lungs and kidneys. Some cases may initially present with vague symptoms that progress to respiratory issues. Dr. Pablo Vial, an infectious disease doctor who studies hantavirus at the Institute of Sciences and Innovation in Medicine in Santiago, Chile, told NBC News that some patients with the Andes strain can deteriorate within hours. Bill and his wife, Colette Smedley, boarded their ship in January 2020 for a 28-day cruise to celebrate Colette’s birthday. The beginning of the trip went smoothly, with visits to Japan, Vietnam, Hong Kong and Taiwan. But about two weeks into their vacation, someone tested positive for Covid. “They didn’t let us off the ship that Monday morning like we were supposed to depart,” Bill Smedley recalled. “And that Tuesday, they said, ‘Stay in your room and don’t come out.’” As more passengers tested positive, the ship implemented strict safety protocols and everyone went on lockdown. He said he and his wife spent about three days confined to their cabin before they were allowed out in small groups onto the deck for an hour at a time. “Everybody was terrified,” he said. “The look on their faces. Nobody would talk to each other; we were in gloves and masks and everything like that.” Rachel and Tyler Torres, of Shreveport, Louisiana, were also on that cruise to celebrate their honeymoon. Tyler said three times a day, the staff would leave trays of food on the floor outside of the guest room doors. “The general rule was that they would drop the tray at your door, but you weren’t allowed to open your door until they had walked away to minimize contact,” he said. Rachel said staff would also stand in the hallways to “make sure that everybody kept quarantine within our rooms.” Rachel said she tried to distract herself by watching movies and calling family and friends back home. Tyler started blogging about their experience. The couple flew back to the United States on Feb. 17, 2020, nearly a month after boarding the Diamond Princess. Like fellow passengers, including the Smedleys, they had to quar",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "NBC News report on MV Hondius COVID cases",
+        "canonical_url": "https://nbcnews.com/news/us-news/covid-19-cruise-passengers-recall-painful-memories-hantavirus-outbreak-rcna343826",
+        "published_at": "2026-05-09T00:00:00",
+        "publisher": "nbcnews.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_ab128b070dd8",
+        "title": "Map shows which US states have reported hantavirus exposures",
+        "url": "https://www.reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007/#",
+        "snippet": "During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not",
+        "content": "41 people being monitored for hantavirus exposure. See map of states. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: - 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia - 7 passengers who had left the ship returned home before the outbreak was identified - People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "41 possible hantavirus exposures US 2026",
+        "canonical_url": "https://reporter-times.com/story/news/health/2026/05/14/hantavirus-map-united-states/90079010007",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "reporter-times.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "SOCIAL_ONLY_CONFIRMED_FACT",
+        "message": "Confirmed factual claim is supported only by social media or thread sources.",
+        "bullet_index": 0
+      }
+    ],
+    "execution_time_ms": 23842
+  }
+}

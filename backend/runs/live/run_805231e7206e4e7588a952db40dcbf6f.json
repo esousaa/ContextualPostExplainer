@@ -1,0 +1,434 @@
+{
+  "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+  "mode": "live",
+  "generated_at": "2026-05-15T10:58:50.259078+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T10:58:26.034754+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.034895+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.035236+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.035343+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.035848+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.966595+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 930
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.967026+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.967119+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T10:58:26.967444+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:34.338619+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 7371
+    },
+    {
+      "timestamp": "2026-05-15T10:58:34.339266+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:39.668526+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5329
+    },
+    {
+      "timestamp": "2026-05-15T10:58:39.669037+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:47.473972+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7804
+    },
+    {
+      "timestamp": "2026-05-15T10:58:47.474530+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:48.031333+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 556
+    },
+    {
+      "timestamp": "2026-05-15T10:58:48.031844+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.255275+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 2223
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.255794+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.255913+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.256265+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.256337+00:00",
+      "event": "node_completed",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T10:58:50.256610+00:00",
+      "event": "node_started",
+      "run_id": "run_805231e7206e4e7588a952db40dcbf6f",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+  "queries": [
+    "DOJ lawsuit against DC Bar 2026",
+    "Trump DOJ 2020 election lawyers discipline",
+    "Attorney General serving president vs American people",
+    "DOJ role in serving American public"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.washingtonexaminer.com/news/justice/4567774/doj-dc-bar-weaponizing-discipline/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.washingtontimes.com/news/2026/may/13/doj-sues-stop-dc-bar-disbarring-jeffrey-clark-trump-2020-election/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.politico.com/news/2024/01/19/dc-trump-2020-election-lawyers-00136667",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://kansasreflector.com/2024/06/08/trumps-lawyers-in-suits-claiming-he-won-in-2020-are-getting-punished-for-abusing-courts/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.wsj.com/us-news/law/trump-2020-election-lawsuits-lead-to-requests-to-discipline-lawyers-11620568801",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.quora.com/Does-the-Attorney-General-of-the-United-States-represent-the-people",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": []
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky thread by @rbreich.bsky.social",
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "snippet": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "content": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?\n\nWeapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.\n\nI do. I also remember a time when giving aid and comfort to our enemies (Putin, for instance) was considered treason under the Constitution, and there were severe penalties for that crime. This whole administration seems hell-bent on destroying the very Constitution they swore to protect.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "relevance_score": 0.978906125042788
+    },
+    {
+      "id": "src_451a1696e73c",
+      "title": "Trump's DOJ files suit against the DC Bar, tries to protect ...",
+      "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-doj-files-suit-against-the-d-c-bar-tries-to-protect-key-lawyer-in-2020-plot#",
+      "snippet": "## Featured Shows. ## More Shows. ## MS NOW Tv. ## Follow MS NOW. ## Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot. # MaddowBlog. That Todd Blanche is even pursuing such a case is a reminder that this guy really wants to be attorney general. Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. Acting Attorney General, Todd Blanche, he kept me out of jail.”. Steve Benen is a producer for \"The Rachel Maddow Show,\" the editor of MaddowBlog and an MS NOW political contributor. He's also the bestselling author of \"Ministry of Truth: Democracy, Reality, and the Republicans' War on the Recent Past.\".",
+      "content": "Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. But bar associations are another matter entirely. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The New York Times reported: The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The suit was filed by Todd Blanche, the acting attorney general, and Stanley E. Woodward Jr., the No. 3 official at the Justice Department. In accompanying statements, Mr. Blanche accused the D.C. Bar of acting as a “blatantly partisan arm of leftist causes.” The same lawsuit goes so far as to say lawyers who work for the administration should necessarily be considered above scrutiny by legal ethics officials.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump DOJ 2020 election lawyers discipline",
+      "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/trumps-doj-files-suit-against-the-d-c-bar-tries-to-protect-key-lawyer-in-2020-plot",
+      "relevance_score": 0.7145113418273469
+    },
+    {
+      "id": "src_1c6891a39a53",
+      "title": "Justice Department Files Complaint Against D.C. Bar Disciplinary ...",
+      "url": "https://www.justice.gov/opa/pr/justice-department-files-complaint-against-dc-bar-disciplinary-authorities-over-their#",
+      "snippet": "An official website of the United States government. A **.gov** website belongs to an official government organization in the United States. Department of Justice Logo Office Of Public Affairs. # Justice Department Files Complaint Against D.C. Bar Disciplinary Authorities Over Their Weaponization of the Bar Disciplinary Process Against Federal Government Attorneys. Fox III, the D.C. Office of Disciplinary Counsel, and the D.C. Court of Appeals Board on Professional Responsibility over their improper use of bar discipline to regulate the official actions of Federal Government attorneys. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” said Associate Attorney General Stanley Woodward. Just last week, the Justice Department filed a statement of interest in support of former interim United States Attorney Ed Martin, who is seeking to have the D.C. Bar’s unlawful prosecution of him heard in a neutral Federal tribunal.",
+      "content": "Related Content Press Release The Justice Department today filed a complaint against D.C. Disciplinary Counsel Hamilton P. Fox III, the D.C. Office of Disciplinary Counsel, and the D.C. Court of Appeals Board on Professional Responsibility over their improper use of bar discipline to regulate the official actions of Federal Government attorneys. The filing advances President Donald J. Trump’s Executive Order Ending the Weaponization of the Federal Government and Presidential Memorandum on Preventing Abuses of the Legal System and the Federal Courts. Specifically, the complaint seeks to nullify the D.C. Bar’s unlawful prosecution of former Assistant Attorney General Jeff Clark based on internal deliberations relating to potential fraud in the 2020 Presidential Election, which remains the subject of litigation nearly six years later. \"As our complaint and history make clear, the DC Bar has long acted as a blatantly partisan arm of leftist causes. No more,” said Acting Attorney General Todd Blanche. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” said Associate Attorney General Stanley Woodward. “The D.C. Bar will no longer be permitted to probe sensitive Executive Branch deliberations and target Executive Branch officials with whom they happen to politically disagree, and Federal attorneys will once again be free to share their candid legal advice with their bosses and colleagues.” Just last week, the Justice Department filed a statement of interest in support of former interim United States Attorney Ed Martin, who is seeking to have the D.C. Bar’s unlawful prosecution of him heard in a neutral Federal tribunal. As three former Attorneys General recently recognized, the D.C. Bar’s efforts to discipline Justice Department attorneys “for making recommendations, factual assertions, and providing legal advice during confidential internal agency deliberations on law enforcement and sensitive public policy” are “improper and constitutionally impermissible.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ lawsuit against DC Bar 2026",
+      "canonical_url": "https://justice.gov/opa/pr/justice-department-files-complaint-against-dc-bar-disciplinary-authorities-over-their",
+      "relevance_score": 0.6518591859238384
+    },
+    {
+      "id": "src_4812c3810310",
+      "title": "DOJ lawsuit escalates fight over discipline for Trump administration ...",
+      "url": "https://www.washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar/#",
+      "snippet": "# DOJ sues D.C. Bar, escalating fight over discipline for Trump administration attorneys. The suit is part of an effort by the Trump administration to push back on ethics investigations into federal government lawyers. Make us preferred on Google. U.S. acting attorney general Todd Blanche speaks to reporters earlier this month. The Trump administration is suing the D.C. Bar Association over its recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump.",
+      "content": "The Trump administration is suing D.C.’s attorney discipline authorities over a recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump. Democracy Dies in Darkness",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ lawsuit against DC Bar 2026",
+      "canonical_url": "https://washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar",
+      "relevance_score": 0.6500582878731117
+    },
+    {
+      "id": "src_52ef3f7c85be",
+      "title": "Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says",
+      "url": "https://www.abajournal.com/news/article/trumps-election-subversion-co-conspirators-included-doj-official-4-other-lawyers-indictment-says#",
+      "snippet": "## Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says. *The Aug. 1 indictment against former President Donald Trump alleges that he spread lies that election fraud changed the outcome of the 2020 election and he actually won. A former U.S. Department of Justice official and four other lawyers were co-conspirators in former President Donald Trump’s effort to subvert 2020 election results and hold on to power, according to the federal indictment unsealed Tuesday. The Aug. 1 indictment does not name the DOJ official, four other lawyers and political consultant said to be co-conspirators, but details suggest that they include Trump lawyer Rudy Giuliani and then-Chapman University law professor John Eastman, report the New York Times, the Washington Post and Reuters. The indictment alleges that Trump spread lies that election fraud changed the outcome of the 2020 election and he actually won.",
+      "content": "Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says A former U.S. Department of Justice official and four other lawyers were co-conspirators in former President Donald Trump’s effort to subvert 2020 election results and hold on to power, according to the federal indictment unsealed Tuesday. The Aug. 1 indictment does not name the DOJ official, four other lawyers and political consultant said to be co-conspirators, but details suggest that they include Trump lawyer Rudy Giuliani and then-Chapman University law professor John Eastman, report the New York Times, the Washington Post and Reuters. The indictment alleges that Trump spread lies that election fraud changed the outcome of the 2020 election and he actually won. Trump knew that his claims were untrue, the indictment says, but he repeated them “to make his knowingly false claims appear legitimate, create an intense national atmosphere of mistrust and anger, and erode public faith in the administration of the election.” Trump had a First Amendment right to make his false claims and to challenge election results through legitimate means, such as recounts and lawsuits. But Trump also pursued unlawful means to subvert the results, the indictment says. The New York Times posted an annotated version of the four-count indictment. It alleges that Trump: - Conspired to defraud the United States by using false election-fraud claims to obstruct the counting and certification of election results. - Conspired to obstruct an official proceeding—the certification of the electoral vote. - Obstructed and attempted to obstruct an official proceedings—the certification of the vote. - Engaged in a civil rights conspiracy by seeking to interfere with the right to have one’s vote counted. The Washington Post, the New York Times and Reuters said these are the possible attorney co-conspirators: - The indictment says Co-Conspirator 1 is a lawyer who was “willing to spread knowingly false claims and pursue strategies that [Trump’s] 2020 reelection campaign attorneys would not.” The attorney may be Giuliani, who oversaw Trump’s election-fraud challenges. A spokesperson for Giuliani told the Washington Post that the indictment criminalizes the act of “daring to ask questions about the 2020 election results.” The spokesperson said every fact possessed by Giuliani “establishes the good-faith basis President Donald Trump had for the actions he took” during the period covered by the indictment. A lawyer for Giuliani told the New York Times that the indictment amounted to election interference and “eviscerates the First Amendment.” - The indictment says Co-Conspirator 2 is a lawyer who “devised and attempted to implement a strategy to leverage the vice president’s ceremonial role overseeing the certification proceeding to obstruct the certification of the presidential election.” The attorney may be Eastman. Eastman’s lawyer said in a statement to the Washington Post and Reuters the indictment “relies on a misleading presentation of the record to contrive criminal charges against presidential candidate Trump and to cast ominous aspersions on his close advisers.” Eastman won’t engage in plea bargaining if invited to do so, the lawyer said. - The indictment says Co-Conspirator 3 is a lawyer who made unfounded claims of election fraud that Trump privately acknowledged as sounding “crazy.” The attorney may be Sidney Powell, who claimed that voting machines had been hacked and urged Trump to seize voting machines. Powell has said in depositions she thinks that her fraud claims will be proven true. Her lawyer declined to comment to the Washington Post. - The indictment says Co-Conspirator 4 is a DOJ official who “attempted to use the Justice Department to open sham election crime investigations and influence state legislatures with knowingly false claims of election fraud.” The attorney may be Jeffrey Clark, whom Trump had considered naming acting U.S. attorney gen",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump DOJ 2020 election lawyers discipline",
+      "canonical_url": "https://abajournal.com/news/article/trumps-election-subversion-co-conspirators-included-doj-official-4-other-lawyers-indictment-says",
+      "relevance_score": 0.6304040264157883
+    },
+    {
+      "id": "src_b65800ba5a60",
+      "title": "DOJ Sues DC Bar for Disciplining Officials, Cites Ed Martin Charges - The Hoya",
+      "url": "https://thehoya.com/news/doj-sues-dc-bar-for-disciplining-officials-cites-ed-martin-charges/#",
+      "snippet": "The Department of Justice filed a lawsuit disputing local authorities' ability to discipline federal officials, including a former attorney who demanded the Georgetown University Law Center terminate its DEI programs. The U.S. Department of Justice (DOJ) sued Washington, D.C.’s legal disciplinary body May 13 for its efforts to penalize federal officials, including a former attorney who demanded Georgetown University Law Center eliminate its diversity, equity and inclusion (DEI) programs. The lawsuit alleges that the Office of Disciplinary Counsel for the D.C. Bar, which licenses and regulates attorneys, does not have the authority to discipline federal officials. “The Office of Disciplinary Counsel and the Board on Professional Responsibility, as D.C. institutions, have no authority to decide whether a Federal Government attorney — no less the interim U.S. Attorney for the District of Columbia — is upholding his Oath of Office or whether his official acts comport with the Constitution,” the lawsuit reads.",
+      "content": "The U.S. Department of Justice (DOJ) sued Washington, D.C.’s legal disciplinary body May 13 for its efforts to penalize federal officials, including a former attorney who demanded Georgetown University Law Center eliminate its diversity, equity and inclusion (DEI) programs. The lawsuit alleges that the Office of Disciplinary Counsel for the D.C. Bar, which licenses and regulates attorneys, does not have the authority to discipline federal officials. The lawsuit centers on the organization’s attempt to disbar Jeffrey Clark (LAW ’95), a former federal lawyer who challenged President Donald Trump’s 2020 electoral loss, but also defends Ed Martin, a former interim U.S. Attorney for the District of Columbia who faces disciplinary proceedings. The D.C. Bar accused Martin of violating the First and Fifth Amendments by telling William Treanor, then Georgetown Law’s dean, in March 2025 that his office would stop hiring Law Center students unless Treanor ended DEI programs and curricula, which Treanor then refused to do. Last month, Martin responded to the charges by asking to move the proceedings to federal court and claiming immunity based on his status as a federal official, an argument the DOJ’s lawsuit echoes. Stanley Woodward, the associate attorney general, said the D.C. Bar has instrumentalized its disciplinary authority to investigate and target Republican federal officials. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” Woodward said in a press release. “The D.C. Bar will no longer be permitted to probe sensitive Executive Branch deliberations and target Executive Branch officials with whom they happen to politically disagree, and Federal attorneys will once again be free to share their candid legal advice with their bosses and colleagues.” The D.C. Bar did not immediately respond to a request for comment. In his early 2025 letter, Martin said the university must amend its DEI language and programming before his office would resume hiring Georgetown Law graduates. “At this time, you should know that no applicant for our fellows program, our summer internship, or employment in our office who is a student or affiliated with a law school or university that continues to teach and utilize DEI will be considered,” Martin wrote. In his response, Treanor said Martin violated Georgetown Law’s constitutional rights as both an academic and religious institution. “Given the First Amendment’s protection of a university’s freedom to determine its own curriculum and how to deliver it, the constitutional violation behind this threat is clear, as is the attack on the University’s mission as a Jesuit and Catholic institution,” Treanor wrote. The DOJ’s current lawsuit says the D.C. Bar lacks the jurisdiction to review Martin’s actions because the federal government supersedes local District offices. “The Office of Disciplinary Counsel and the Board on Professional Responsibility, as D.C. institutions, have no authority to decide whether a Federal Government attorney — no less the interim U.S. Attorney for the District of Columbia — is upholding his Oath of Office or whether his official acts comport with the Constitution,” the lawsuit reads. The lawsuit claims the D.C. Bar is unconstitutionally exerting authority over federal officials by “unlawfully regulating and discriminating against the Federal Government and interfering with Executive Branch functions.” The DOJ also connected federal officials’ actions to the president’s partial legal immunity, saying that government lawyers working for Trump fall under his sphere of protection. “The President’s constitutionally required immunity would provide little protection if Executive Branch attorneys could be targeted for internal Executive Branch deliberations,” the lawsuit reads.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "DOJ lawsuit against DC Bar 2026",
+      "canonical_url": "https://thehoya.com/news/doj-sues-dc-bar-for-disciplining-officials-cites-ed-martin-charges",
+      "relevance_score": 0.6226436953190091
+    },
+    {
+      "id": "src_0ccb3f580bc4",
+      "title": "not the president. Attorney General Barr can't be trusted. - Facebook",
+      "url": "https://www.facebook.com/hakeem.jeffries/posts/the-job-of-an-elected-official-is-to-serve-the-american-people-not-the-president/10156380815491909/#",
+      "snippet": "The job of an elected official is to serve the American people — not the president. Attorney General Barr can't be trusted.",
+      "content": "Hakeem Jeffries - The job of an elected official is to...",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Attorney General serving president vs American people",
+      "canonical_url": "https://facebook.com/hakeem.jeffries/posts/the-job-of-an-elected-official-is-to-serve-the-american-people-not-the-president/10156380815491909",
+      "relevance_score": 0.4493458589828557
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+      "platform": "bluesky",
+      "author": {
+        "handle": "rbreich.bsky.social",
+        "display_name": "Robert Reich",
+        "did": "did:plc:4u3hwe3p7oy3hoy3amlw7rp2"
+      },
+      "text": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+      "created_at": "2026-05-14T22:30:10.439606Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Weapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.\n\nI do. I also remember a time when giving aid and comfort to our enemies (Putin, for instance) was considered treason under the Constitution, and there were severe penalties for that crime. This whole administration seems hell-bent on destroying the very Constitution they swore to protect."
+    },
+    "explanation": [
+      {
+        "text": "The DOJ, under Trump, is suing the DC Bar for disciplining lawyers involved in efforts to overturn the 2020 election results. The lawsuit is filed against the DC Bar's actions against Jeffrey Clark, a Trump administration lawyer.",
+        "source_ids": [
+          "src_451a1696e73c",
+          "src_1c6891a39a53"
+        ]
+      },
+      {
+        "text": "The lawsuit claims that the DC Bar's disciplinary actions are politically motivated and exceed their authority, suggesting the Bar has become a partisan entity targeting federal officials aligned with Trump.",
+        "source_ids": [
+          "src_1c6891a39a53"
+        ]
+      },
+      {
+        "text": "The DOJ argues that federal government attorneys should not be subjected to state-level disciplinary processes, asserting these are internal executive branch matters.",
+        "source_ids": [
+          "src_b65800ba5a60"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky thread by @rbreich.bsky.social",
+        "url": "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v",
+        "snippet": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?",
+        "content": "Trump's DOJ is now suing the DC Bar for disciplining top lawyers who tried to help Trump overturn the 2020 election.\n\nAnyone else remember when the DOJ and Attorney General were supposed to serve the American people, not serve as the president's personal attorney?\n\nWeapnized DoJ and FBI and FCC....to work for Trump not the American people\n\nJan 6 ringleaders de-facto pardon Thread: bsky.app/profile/idio...\n\nI still think it's funny that so many people think Trump is leaving office before he dies.\n\nThe DOJ is Trump’s personal consigliere team. Nothing more.\n\nI do. I also remember a time when giving aid and comfort to our enemies (Putin, for instance) was considered treason under the Constitution, and there were severe penalties for that crime. This whole administration seems hell-bent on destroying the very Constitution they swore to protect.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null
+      },
+      {
+        "id": "src_451a1696e73c",
+        "title": "Trump's DOJ files suit against the DC Bar, tries to protect ...",
+        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-doj-files-suit-against-the-d-c-bar-tries-to-protect-key-lawyer-in-2020-plot#",
+        "snippet": "## Featured Shows. ## More Shows. ## MS NOW Tv. ## Follow MS NOW. ## Trump’s DOJ files suit against the DC Bar, tries to protect key lawyer in 2020 plot. # MaddowBlog. That Todd Blanche is even pursuing such a case is a reminder that this guy really wants to be attorney general. Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. Acting Attorney General, Todd Blanche, he kept me out of jail.”. Steve Benen is a producer for \"The Rachel Maddow Show,\" the editor of MaddowBlog and an MS NOW political contributor. He's also the bestselling author of \"Ministry of Truth: Democracy, Reality, and the Republicans' War on the Recent Past.\".",
+        "content": "Those looking for accountability for those who plotted against the 2020 presidential election have limited options. Donald Trump’s Justice Department, for example, certainly won’t punish lawyers who tried to overturn the will of the voters, and congressional Republicans won’t take an interest in holding them responsible, either. But bar associations are another matter entirely. In fact, Jeffrey Clark, a key figure in Trump’s 2020 crusade to remain in the White House, is facing possible disbarment in the nation’s capital as a result of an investigation from the District of Columbia Bar. It’s against this backdrop that Trump’s DOJ this week filed a lawsuit against the D.C. Bar — not because it did something wrong, but because of its efforts to discipline Trump administration lawyers, including Clark. The New York Times reported: The lawsuit defends Jeffrey Clark, a government lawyer in the first Trump administration who sought to undo the results of the 2020 presidential race, and Ed Martin, a current senior Justice Department official. The suit was filed by Todd Blanche, the acting attorney general, and Stanley E. Woodward Jr., the No. 3 official at the Justice Department. In accompanying statements, Mr. Blanche accused the D.C. Bar of acting as a “blatantly partisan arm of leftist causes.” The same lawsuit goes so far as to say lawyers who work for the administration should necessarily be considered above scrutiny by legal ethics officials.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump DOJ 2020 election lawyers discipline",
+        "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/trumps-doj-files-suit-against-the-d-c-bar-tries-to-protect-key-lawyer-in-2020-plot"
+      },
+      {
+        "id": "src_1c6891a39a53",
+        "title": "Justice Department Files Complaint Against D.C. Bar Disciplinary ...",
+        "url": "https://www.justice.gov/opa/pr/justice-department-files-complaint-against-dc-bar-disciplinary-authorities-over-their#",
+        "snippet": "An official website of the United States government. A **.gov** website belongs to an official government organization in the United States. Department of Justice Logo Office Of Public Affairs. # Justice Department Files Complaint Against D.C. Bar Disciplinary Authorities Over Their Weaponization of the Bar Disciplinary Process Against Federal Government Attorneys. Fox III, the D.C. Office of Disciplinary Counsel, and the D.C. Court of Appeals Board on Professional Responsibility over their improper use of bar discipline to regulate the official actions of Federal Government attorneys. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” said Associate Attorney General Stanley Woodward. Just last week, the Justice Department filed a statement of interest in support of former interim United States Attorney Ed Martin, who is seeking to have the D.C. Bar’s unlawful prosecution of him heard in a neutral Federal tribunal.",
+        "content": "Related Content Press Release The Justice Department today filed a complaint against D.C. Disciplinary Counsel Hamilton P. Fox III, the D.C. Office of Disciplinary Counsel, and the D.C. Court of Appeals Board on Professional Responsibility over their improper use of bar discipline to regulate the official actions of Federal Government attorneys. The filing advances President Donald J. Trump’s Executive Order Ending the Weaponization of the Federal Government and Presidential Memorandum on Preventing Abuses of the Legal System and the Federal Courts. Specifically, the complaint seeks to nullify the D.C. Bar’s unlawful prosecution of former Assistant Attorney General Jeff Clark based on internal deliberations relating to potential fraud in the 2020 Presidential Election, which remains the subject of litigation nearly six years later. \"As our complaint and history make clear, the DC Bar has long acted as a blatantly partisan arm of leftist causes. No more,” said Acting Attorney General Todd Blanche. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” said Associate Attorney General Stanley Woodward. “The D.C. Bar will no longer be permitted to probe sensitive Executive Branch deliberations and target Executive Branch officials with whom they happen to politically disagree, and Federal attorneys will once again be free to share their candid legal advice with their bosses and colleagues.” Just last week, the Justice Department filed a statement of interest in support of former interim United States Attorney Ed Martin, who is seeking to have the D.C. Bar’s unlawful prosecution of him heard in a neutral Federal tribunal. As three former Attorneys General recently recognized, the D.C. Bar’s efforts to discipline Justice Department attorneys “for making recommendations, factual assertions, and providing legal advice during confidential internal agency deliberations on law enforcement and sensitive public policy” are “improper and constitutionally impermissible.”",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ lawsuit against DC Bar 2026",
+        "canonical_url": "https://justice.gov/opa/pr/justice-department-files-complaint-against-dc-bar-disciplinary-authorities-over-their"
+      },
+      {
+        "id": "src_4812c3810310",
+        "title": "DOJ lawsuit escalates fight over discipline for Trump administration ...",
+        "url": "https://www.washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar/#",
+        "snippet": "# DOJ sues D.C. Bar, escalating fight over discipline for Trump administration attorneys. The suit is part of an effort by the Trump administration to push back on ethics investigations into federal government lawyers. Make us preferred on Google. U.S. acting attorney general Todd Blanche speaks to reporters earlier this month. The Trump administration is suing the D.C. Bar Association over its recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump.",
+        "content": "The Trump administration is suing D.C.’s attorney discipline authorities over a recommendation to disbar Jeffrey Clark, a former Justice Department official who was found to have violated legal ethics in his efforts to overturn the 2020 presidential election in favor of Donald Trump. Democracy Dies in Darkness",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ lawsuit against DC Bar 2026",
+        "canonical_url": "https://washingtonpost.com/national-security/2026/05/14/justice-department-sues-dc-bar"
+      },
+      {
+        "id": "src_52ef3f7c85be",
+        "title": "Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says",
+        "url": "https://www.abajournal.com/news/article/trumps-election-subversion-co-conspirators-included-doj-official-4-other-lawyers-indictment-says#",
+        "snippet": "## Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says. *The Aug. 1 indictment against former President Donald Trump alleges that he spread lies that election fraud changed the outcome of the 2020 election and he actually won. A former U.S. Department of Justice official and four other lawyers were co-conspirators in former President Donald Trump’s effort to subvert 2020 election results and hold on to power, according to the federal indictment unsealed Tuesday. The Aug. 1 indictment does not name the DOJ official, four other lawyers and political consultant said to be co-conspirators, but details suggest that they include Trump lawyer Rudy Giuliani and then-Chapman University law professor John Eastman, report the New York Times, the Washington Post and Reuters. The indictment alleges that Trump spread lies that election fraud changed the outcome of the 2020 election and he actually won.",
+        "content": "Trump’s election-subversion co-conspirators included DOJ official, 4 other lawyers, indictment says A former U.S. Department of Justice official and four other lawyers were co-conspirators in former President Donald Trump’s effort to subvert 2020 election results and hold on to power, according to the federal indictment unsealed Tuesday. The Aug. 1 indictment does not name the DOJ official, four other lawyers and political consultant said to be co-conspirators, but details suggest that they include Trump lawyer Rudy Giuliani and then-Chapman University law professor John Eastman, report the New York Times, the Washington Post and Reuters. The indictment alleges that Trump spread lies that election fraud changed the outcome of the 2020 election and he actually won. Trump knew that his claims were untrue, the indictment says, but he repeated them “to make his knowingly false claims appear legitimate, create an intense national atmosphere of mistrust and anger, and erode public faith in the administration of the election.” Trump had a First Amendment right to make his false claims and to challenge election results through legitimate means, such as recounts and lawsuits. But Trump also pursued unlawful means to subvert the results, the indictment says. The New York Times posted an annotated version of the four-count indictment. It alleges that Trump: - Conspired to defraud the United States by using false election-fraud claims to obstruct the counting and certification of election results. - Conspired to obstruct an official proceeding—the certification of the electoral vote. - Obstructed and attempted to obstruct an official proceedings—the certification of the vote. - Engaged in a civil rights conspiracy by seeking to interfere with the right to have one’s vote counted. The Washington Post, the New York Times and Reuters said these are the possible attorney co-conspirators: - The indictment says Co-Conspirator 1 is a lawyer who was “willing to spread knowingly false claims and pursue strategies that [Trump’s] 2020 reelection campaign attorneys would not.” The attorney may be Giuliani, who oversaw Trump’s election-fraud challenges. A spokesperson for Giuliani told the Washington Post that the indictment criminalizes the act of “daring to ask questions about the 2020 election results.” The spokesperson said every fact possessed by Giuliani “establishes the good-faith basis President Donald Trump had for the actions he took” during the period covered by the indictment. A lawyer for Giuliani told the New York Times that the indictment amounted to election interference and “eviscerates the First Amendment.” - The indictment says Co-Conspirator 2 is a lawyer who “devised and attempted to implement a strategy to leverage the vice president’s ceremonial role overseeing the certification proceeding to obstruct the certification of the presidential election.” The attorney may be Eastman. Eastman’s lawyer said in a statement to the Washington Post and Reuters the indictment “relies on a misleading presentation of the record to contrive criminal charges against presidential candidate Trump and to cast ominous aspersions on his close advisers.” Eastman won’t engage in plea bargaining if invited to do so, the lawyer said. - The indictment says Co-Conspirator 3 is a lawyer who made unfounded claims of election fraud that Trump privately acknowledged as sounding “crazy.” The attorney may be Sidney Powell, who claimed that voting machines had been hacked and urged Trump to seize voting machines. Powell has said in depositions she thinks that her fraud claims will be proven true. Her lawyer declined to comment to the Washington Post. - The indictment says Co-Conspirator 4 is a DOJ official who “attempted to use the Justice Department to open sham election crime investigations and influence state legislatures with knowingly false claims of election fraud.” The attorney may be Jeffrey Clark, whom Trump had considered naming acting U.S. attorney gen",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump DOJ 2020 election lawyers discipline",
+        "canonical_url": "https://abajournal.com/news/article/trumps-election-subversion-co-conspirators-included-doj-official-4-other-lawyers-indictment-says"
+      },
+      {
+        "id": "src_b65800ba5a60",
+        "title": "DOJ Sues DC Bar for Disciplining Officials, Cites Ed Martin Charges - The Hoya",
+        "url": "https://thehoya.com/news/doj-sues-dc-bar-for-disciplining-officials-cites-ed-martin-charges/#",
+        "snippet": "The Department of Justice filed a lawsuit disputing local authorities' ability to discipline federal officials, including a former attorney who demanded the Georgetown University Law Center terminate its DEI programs. The U.S. Department of Justice (DOJ) sued Washington, D.C.’s legal disciplinary body May 13 for its efforts to penalize federal officials, including a former attorney who demanded Georgetown University Law Center eliminate its diversity, equity and inclusion (DEI) programs. The lawsuit alleges that the Office of Disciplinary Counsel for the D.C. Bar, which licenses and regulates attorneys, does not have the authority to discipline federal officials. “The Office of Disciplinary Counsel and the Board on Professional Responsibility, as D.C. institutions, have no authority to decide whether a Federal Government attorney — no less the interim U.S. Attorney for the District of Columbia — is upholding his Oath of Office or whether his official acts comport with the Constitution,” the lawsuit reads.",
+        "content": "The U.S. Department of Justice (DOJ) sued Washington, D.C.’s legal disciplinary body May 13 for its efforts to penalize federal officials, including a former attorney who demanded Georgetown University Law Center eliminate its diversity, equity and inclusion (DEI) programs. The lawsuit alleges that the Office of Disciplinary Counsel for the D.C. Bar, which licenses and regulates attorneys, does not have the authority to discipline federal officials. The lawsuit centers on the organization’s attempt to disbar Jeffrey Clark (LAW ’95), a former federal lawyer who challenged President Donald Trump’s 2020 electoral loss, but also defends Ed Martin, a former interim U.S. Attorney for the District of Columbia who faces disciplinary proceedings. The D.C. Bar accused Martin of violating the First and Fifth Amendments by telling William Treanor, then Georgetown Law’s dean, in March 2025 that his office would stop hiring Law Center students unless Treanor ended DEI programs and curricula, which Treanor then refused to do. Last month, Martin responded to the charges by asking to move the proceedings to federal court and claiming immunity based on his status as a federal official, an argument the DOJ’s lawsuit echoes. Stanley Woodward, the associate attorney general, said the D.C. Bar has instrumentalized its disciplinary authority to investigate and target Republican federal officials. “President Trump promised to put an end to the weaponization of the legal process, and today’s lawsuit against the D.C. Bar makes good on that promise,” Woodward said in a press release. “The D.C. Bar will no longer be permitted to probe sensitive Executive Branch deliberations and target Executive Branch officials with whom they happen to politically disagree, and Federal attorneys will once again be free to share their candid legal advice with their bosses and colleagues.” The D.C. Bar did not immediately respond to a request for comment. In his early 2025 letter, Martin said the university must amend its DEI language and programming before his office would resume hiring Georgetown Law graduates. “At this time, you should know that no applicant for our fellows program, our summer internship, or employment in our office who is a student or affiliated with a law school or university that continues to teach and utilize DEI will be considered,” Martin wrote. In his response, Treanor said Martin violated Georgetown Law’s constitutional rights as both an academic and religious institution. “Given the First Amendment’s protection of a university’s freedom to determine its own curriculum and how to deliver it, the constitutional violation behind this threat is clear, as is the attack on the University’s mission as a Jesuit and Catholic institution,” Treanor wrote. The DOJ’s current lawsuit says the D.C. Bar lacks the jurisdiction to review Martin’s actions because the federal government supersedes local District offices. “The Office of Disciplinary Counsel and the Board on Professional Responsibility, as D.C. institutions, have no authority to decide whether a Federal Government attorney — no less the interim U.S. Attorney for the District of Columbia — is upholding his Oath of Office or whether his official acts comport with the Constitution,” the lawsuit reads. The lawsuit claims the D.C. Bar is unconstitutionally exerting authority over federal officials by “unlawfully regulating and discriminating against the Federal Government and interfering with Executive Branch functions.” The DOJ also connected federal officials’ actions to the president’s partial legal immunity, saying that government lawyers working for Trump fall under his sphere of protection. “The President’s constitutionally required immunity would provide little protection if Executive Branch attorneys could be targeted for internal Executive Branch deliberations,” the lawsuit reads.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "DOJ lawsuit against DC Bar 2026",
+        "canonical_url": "https://thehoya.com/news/doj-sues-dc-bar-for-disciplining-officials-cites-ed-martin-charges"
+      },
+      {
+        "id": "src_0ccb3f580bc4",
+        "title": "not the president. Attorney General Barr can't be trusted. - Facebook",
+        "url": "https://www.facebook.com/hakeem.jeffries/posts/the-job-of-an-elected-official-is-to-serve-the-american-people-not-the-president/10156380815491909/#",
+        "snippet": "The job of an elected official is to serve the American people — not the president. Attorney General Barr can't be trusted.",
+        "content": "Hakeem Jeffries - The job of an elected official is to...",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Attorney General serving president vs American people",
+        "canonical_url": "https://facebook.com/hakeem.jeffries/posts/the-job-of-an-elected-official-is-to-serve-the-american-people-not-the-president/10156380815491909"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [],
+    "execution_time_ms": 24238
+  }
+}

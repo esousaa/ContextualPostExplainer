@@ -1,0 +1,540 @@
+{
+  "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+  "mode": "live",
+  "generated_at": "2026-05-15T17:40:50.889570+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T17:40:21.654590+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:21.654798+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:40:21.655216+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:21.655347+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:40:21.655847+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:22.577196+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 921
+    },
+    {
+      "timestamp": "2026-05-15T17:40:22.577917+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:22.578051+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:40:22.578434+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:27.802512+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 5224
+    },
+    {
+      "timestamp": "2026-05-15T17:40:27.803112+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:36.320470+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7200
+    },
+    {
+      "timestamp": "2026-05-15T17:40:36.320948+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:43.726060+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7405
+    },
+    {
+      "timestamp": "2026-05-15T17:40:43.726560+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:44.502769+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 776
+    },
+    {
+      "timestamp": "2026-05-15T17:40:44.503254+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.885690+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 6382
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.886238+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.886356+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.886687+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.886762+00:00",
+      "event": "node_completed",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:40:50.887003+00:00",
+      "event": "node_started",
+      "run_id": "run_997e4fffd18044b1ba7ba3c602c69aa6",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+  "queries": [
+    "Ricky Davila comments on Trump criminal allegations",
+    "Trump administration crimes United States",
+    "Kamala Harris potential presidency impact on Trump",
+    "AIPAC influence in US politics during Trump era"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.threads.com/@rickydavila",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@mcdavidtracy/post/DXtjvGZjsoo/you-know-really-no-one-wants-to-listen-to-you-this-morning-you-are-such-a-cry",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/TheRickyDavila?lang=en",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.jstor.org/stable/j.ctvvh86cv",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.lawfaremedia.org/projects-series/archived-projects/the-trump-trials",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://ballotpedia.org/Kamala_Harris_and_Donald_Trump_on_the_issues,_2020-2024",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": []
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky thread by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.\n\nIt will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9364520933703048
+    },
+    {
+      "id": "src_94e211bad188",
+      "title": "Trump's 88 criminal charges and where they stand - CREW",
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+      "snippet": "The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective courts of jurisdiction, charges, whether or not gag orders have been imposed on Trump and expected trial dates. | Judge Merchan imposed a gag order in March 2024, in advance of the April trial date, that bars Trump from publicly commenting on court staff and prosecution lawyers other than Manhattan District Attorney Alvin Bragg if the comments are meant to significantly interfere with their work in the case. Trump | District Court for the District of Columbia | Conspiracy to Defraud the United States (18 USC §371); Conspiracy to Obstruct an Official Proceeding (18 USC §1512(k)); Obstruction of and Attempt to Obstruct an Official Proceeding (18 USC §1512(c)(2), 2); Conspiracy Against Rights (18 USC §241) | The charges relate to Trump's attempts to overturn the results of the 2020 election, culminating in the deadly attack on the U.S. Capitol on January 6, 2021.",
+      "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump administration crimes United States",
+      "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+      "published_at": "2024-06-04T00:00:00",
+      "publisher": "citizensforethics.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5846572188119527
+    },
+    {
+      "id": "src_3396994a16ec",
+      "title": "Trump on the Criminal Legal System | American Civil Liberties Union",
+      "url": "https://www.aclu.org/trump-on-the-criminal-legal-system#",
+      "snippet": "# Trump on the Criminal Legal System. A second Trump administration threatens to accelerate mass incarceration, further dehumanize people in our criminal legal system, engage in a death penalty “killing spree,” and reverse many reforms gained over the last two decades. First, with respect to the federal system, Trump will seek to double down on the failed policies of the past: encouraging brutal policing practices, pursuing extreme sentences, and expanding the use of the death penalty. For this reason, much of the ACLU’s work on criminal justice is focused on the state and community level. Trump is likely to roll back hard-fought reforms to federal and state law enforcement, pursue extreme sentences, reincarcerate people currently under home confinement, exacerbate horrendous conditions in overcrowded jails and prisons, and expand the use of the death penalty. We will continue to advocate for changes to the criminal legal system in Congress and oppose any federal legislation that threatens civil liberties under any administration, including a second Trump administration.",
+      "content": "Trump on the Criminal Legal System Intro A second Trump administration threatens to accelerate mass incarceration, further dehumanize people in our criminal legal system, engage in a death penalty “killing spree,” and reverse many reforms gained over the last two decades. Trump’s proposals are dangerous on two levels. First, with respect to the federal system, Trump will seek to double down on the failed policies of the past: encouraging brutal policing practices, pursuing extreme sentences, and expanding the use of the death penalty. Second, Trump’s racist and extremist rhetoric may embolden states that have previously embraced reform to return to failed crime policies, fueling mass incarceration and widening racial inequality. While Trump will have a singular impact on the federal system, ultimately, many of his plans will have a trickle-down effect in states, cities, and localities. State and local governments control most of the substantive parts of state criminal legal systems, including policing, prosecution, sentencing, and conditions in prisons and jails. Today, there are over 1.6 million people in state and local jails and prisons, compared to just over 200,000 in federal jails and prisons. For this reason, much of the ACLU’s work on criminal justice is focused on the state and community level. Even without direct control of state criminal legal systems, the president can play an important role in setting the tone for policy. According to Trump’s campaign, “There is no higher priority than quickly restoring law and order and public safety in America.” Mirroring former President Richard Nixon’s calls for “law and order” during his 1968 campaign, Trump’s tough-on-crime rhetoric can be seen as a “shorthand message promising repression of the Black Community.” In this memo, we describe how the ACLU will oppose the specific threats that Trump poses to the federal legal system. Trump is likely to roll back hard-fought reforms to federal and state law enforcement, pursue extreme sentences, reincarcerate people currently under home confinement, exacerbate horrendous conditions in overcrowded jails and prisons, and expand the use of the death penalty. Through litigation, congressional action, and state and local advocacy, we will combat these efforts. At the same time, we will continue to work to transform the criminal legal system and advance proven solutions. For example, we are challenging the use of law enforcement to respond to mental health emergencies in Washington County, Oregon and Washington, DC; we have put the death penalty on trial in Kansas and North Carolina; and we are challenging the Phoenix Police Department’s abuse of unhoused people. If Trump is re-elected, this critical criminal legal reform work becomes all the more urgent. The ACLU stands at the ready to wield litigation, advocacy, and community mobilization to combat a second Trump administration’s attempts to exacerbate inequities in our criminal legal system and continue the critical work of building safe communities. Overall Response Courts Litigation will play a critical role in our fight against Trump’s attempt to reinvigorate the politics of mass incarceration. We will use the courts to halt the Trump administration’s likely attempt to carry out one of the largest — if not the largest — carceral events in our nation’s history: the senseless return to prison of nearly 3,000 individuals released on federal home confinement during the pandemic. Doing so would violate both Congress’s clear purpose in authorizing those releases under the CARES Act, and the fundamental constitutional right to due process before being deprived of liberty. We will also meet any efforts by Trump to expand the use of the federal death penalty. In the last six months of his presidency, Trump’s administration carried out an unprecedented killing spree in which 13 federal prisoners were executed, despite troubling evidence of the torturous methods of execution used and importa",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump administration crimes United States",
+      "canonical_url": "https://aclu.org/trump-on-the-criminal-legal-system",
+      "published_at": "2024-09-20T00:00:00",
+      "publisher": "aclu.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5528608451542558
+    },
+    {
+      "id": "src_6a1614c48d25",
+      "title": "Indictments against Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+      "snippet": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges and the other",
+      "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump administration crimes United States",
+      "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+      "published_at": "2023-03-31T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5279832432180276
+    },
+    {
+      "id": "src_5e47f89afe62",
+      "title": "Harris vs Trump - Democrats Abroad",
+      "url": "https://www.democratsabroad.org/341101/harris_vs_trump#",
+      "snippet": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and",
+      "content": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and approaches to governance. Harris is more policy-driven, collaborative, and focused on social justice, equity, and climate action. Trump, on the other hand, is known for his populist, combative style, prioritizing deregulation, nationalism, and disrupting the status quo. These contrasts reflect broader ideological divides in American politics and offer voters distinct choices depending on their values and priorities. Comparing Kamala Harris to Donald Trump highlights significant contrasts in their political views, leadership styles, experience, and public personas. Here’s a comparison across key areas: 1. Leadership Experience: - Kamala Harris: - Background: Harris has served as Vice President since 2021, Senator from California (2017-2021), Attorney General of California (2011-2017), and District Attorney of San Francisco (2004-2011). Her experience spans executive roles in law enforcement, legislative work in the Senate, and now, serving at the highest level of national government. - Approach to Governance: Harris is known for her collaborative style, focusing on building coalitions within her party and across different stakeholders. Her leadership emphasizes social justice, equity, and policy-driven initiatives. - Donald Trump: - Background: Trump served as President from 2017 to 2021. Before entering politics, he was a businessman and television personality. Trump had no prior government or military experience before his presidency, which he leveraged as an outsider appealing to voters disillusioned with the political establishment. - Approach to Governance: Trump’s leadership style is characterized by a strong, top-down approach, often prioritizing loyalty and taking a combative stance against opponents. His presidency was marked by frequent use of executive orders, a focus on deregulation, and a confrontational approach to both domestic and foreign policy. 2. Policy Positions: - Kamala Harris: - Social Justice: Harris has focused on criminal justice reform, civil rights, and expanding voting rights. She co-sponsored the George Floyd Justice in Policing Act and advocates for addressing systemic racism. - Healthcare: Harris supports expanding access to affordable healthcare, protecting the Affordable Care Act (ACA), and addressing health disparities. - Climate Change: Harris is a strong proponent of aggressive climate action, including transitioning to clean energy and addressing environmental justice issues impacting marginalized communities. - Economic Policy: Harris supports progressive taxation, affordable housing, and investing in infrastructure, education, and green jobs. - Donald Trump: - Social Policy: Trump focused on law-and-order messaging, opposing large-scale police reform efforts. He rolled back various civil rights protections during his presidency, particularly in areas like LGBTQ+ rights and voting rights. - Healthcare: Trump’s administration attempted to repeal the ACA, though it ultimately failed. His healthcare policies focused on deregulation and reducing government involvement in healthcare markets. - Climate Change: Trump withdrew the U.S. from the Paris Climate Agreement and rolled back numerous environmental regulations, prioritizing energy independence and fossil fuel production over climate action. - Economic Policy: Trump’s economic agenda focused on tax cuts (notably the 2017 Tax Cuts and Jobs Act), deregulation, and trade protectionism, including tariffs on China. 3. Public Persona and Communication Style: - Kamala Harris: - Tone: Harris is known for being measured, detail-oriented, and deliberate in her communication. She frequently highlights her work on social justice, equality, and uplifting marginalized communities. Harris tends to emphasize unity and coalition-building in her messaging. - Public Perception: Harris is seen as a pragmatic",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris potential presidency impact on Trump",
+      "canonical_url": "https://democratsabroad.org/341101/harris_vs_trump",
+      "published_at": "2024-08-26T00:00:00",
+      "publisher": "democratsabroad.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4532575952451734
+    },
+    {
+      "id": "src_79158ef322ca",
+      "title": "Ricky Davila - Post by @therickydavila.bsky.social — Bluesky",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mkas2mdx2s2a#",
+      "snippet": "The MAGA regime have dropped their frivolous criminal investigation against Federal Reserve Chair Jerome Powell.",
+      "content": "This is a heavily interactive web application, and JavaScript is required. Simple HTML interfaces are possible, but that is not what this is. Post Ricky Davila therickydavila.bsky.social did:plc:2qhershy6nk2cs5gm5zbii2r The MAGA regime have dropped their frivolous criminal investigation against Federal Reserve Chair Jerome Powell. They were never going to successfully charge him with a crime since he committed no crime, it was a sham from the beginning. 2026-04-24T14:58:58.256Z",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Ricky Davila comments on Trump criminal allegations",
+      "canonical_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mkas2mdx2s2a",
+      "published_at": "2026-04-24T00:00:00",
+      "publisher": "bsky.app",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.32184958801145724
+    },
+    {
+      "id": "src_3f4267666108",
+      "title": "Post by @therickydavila.bsky.social — Bluesky",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3ml4wgvzofs2r#",
+      "snippet": "The FBI under the control of drunkard MAGA lunatic Kash Patel was too busy with a full fledged fake criminal investigation against James",
+      "content": "This is a heavily interactive web application, and JavaScript is required. Simple HTML interfaces are possible, but that is not what this is. Post Ricky Davila therickydavila.bsky.social did:plc:2qhershy6nk2cs5gm5zbii2r The FBI under the control of drunkard MAGA lunatic Kash Patel was too busy with a full fledged fake criminal investigation against James Comey regarding a photo of seashells instead of finding Nancy Guthrie who has been missing for over 90 days. That says it all. 2026-05-05T19:31:58.979Z",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Ricky Davila comments on Trump criminal allegations",
+      "canonical_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3ml4wgvzofs2r",
+      "published_at": "2026-05-05T00:00:00",
+      "publisher": "bsky.app",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.30611039376401666
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky thread by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.\n\nIt will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9364520933703048
+    },
+    {
+      "id": "src_94e211bad188",
+      "title": "Trump's 88 criminal charges and where they stand - CREW",
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+      "snippet": "The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective courts of jurisdiction, charges, whether or not gag orders have been imposed on Trump and expected trial dates. | Judge Merchan imposed a gag order in March 2024, in advance of the April trial date, that bars Trump from publicly commenting on court staff and prosecution lawyers other than Manhattan District Attorney Alvin Bragg if the comments are meant to significantly interfere with their work in the case. Trump | District Court for the District of Columbia | Conspiracy to Defraud the United States (18 USC §371); Conspiracy to Obstruct an Official Proceeding (18 USC §1512(k)); Obstruction of and Attempt to Obstruct an Official Proceeding (18 USC §1512(c)(2), 2); Conspiracy Against Rights (18 USC §241) | The charges relate to Trump's attempts to overturn the results of the 2020 election, culminating in the deadly attack on the U.S. Capitol on January 6, 2021.",
+      "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump administration crimes United States",
+      "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+      "published_at": "2024-06-04T00:00:00",
+      "publisher": "citizensforethics.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5846572188119527
+    },
+    {
+      "id": "src_6a1614c48d25",
+      "title": "Indictments against Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+      "snippet": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges and the other",
+      "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump administration crimes United States",
+      "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+      "published_at": "2023-03-31T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5279832432180276
+    },
+    {
+      "id": "src_5e47f89afe62",
+      "title": "Harris vs Trump - Democrats Abroad",
+      "url": "https://www.democratsabroad.org/341101/harris_vs_trump#",
+      "snippet": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and",
+      "content": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and approaches to governance. Harris is more policy-driven, collaborative, and focused on social justice, equity, and climate action. Trump, on the other hand, is known for his populist, combative style, prioritizing deregulation, nationalism, and disrupting the status quo. These contrasts reflect broader ideological divides in American politics and offer voters distinct choices depending on their values and priorities. Comparing Kamala Harris to Donald Trump highlights significant contrasts in their political views, leadership styles, experience, and public personas. Here’s a comparison across key areas: 1. Leadership Experience: - Kamala Harris: - Background: Harris has served as Vice President since 2021, Senator from California (2017-2021), Attorney General of California (2011-2017), and District Attorney of San Francisco (2004-2011). Her experience spans executive roles in law enforcement, legislative work in the Senate, and now, serving at the highest level of national government. - Approach to Governance: Harris is known for her collaborative style, focusing on building coalitions within her party and across different stakeholders. Her leadership emphasizes social justice, equity, and policy-driven initiatives. - Donald Trump: - Background: Trump served as President from 2017 to 2021. Before entering politics, he was a businessman and television personality. Trump had no prior government or military experience before his presidency, which he leveraged as an outsider appealing to voters disillusioned with the political establishment. - Approach to Governance: Trump’s leadership style is characterized by a strong, top-down approach, often prioritizing loyalty and taking a combative stance against opponents. His presidency was marked by frequent use of executive orders, a focus on deregulation, and a confrontational approach to both domestic and foreign policy. 2. Policy Positions: - Kamala Harris: - Social Justice: Harris has focused on criminal justice reform, civil rights, and expanding voting rights. She co-sponsored the George Floyd Justice in Policing Act and advocates for addressing systemic racism. - Healthcare: Harris supports expanding access to affordable healthcare, protecting the Affordable Care Act (ACA), and addressing health disparities. - Climate Change: Harris is a strong proponent of aggressive climate action, including transitioning to clean energy and addressing environmental justice issues impacting marginalized communities. - Economic Policy: Harris supports progressive taxation, affordable housing, and investing in infrastructure, education, and green jobs. - Donald Trump: - Social Policy: Trump focused on law-and-order messaging, opposing large-scale police reform efforts. He rolled back various civil rights protections during his presidency, particularly in areas like LGBTQ+ rights and voting rights. - Healthcare: Trump’s administration attempted to repeal the ACA, though it ultimately failed. His healthcare policies focused on deregulation and reducing government involvement in healthcare markets. - Climate Change: Trump withdrew the U.S. from the Paris Climate Agreement and rolled back numerous environmental regulations, prioritizing energy independence and fossil fuel production over climate action. - Economic Policy: Trump’s economic agenda focused on tax cuts (notably the 2017 Tax Cuts and Jobs Act), deregulation, and trade protectionism, including tariffs on China. 3. Public Persona and Communication Style: - Kamala Harris: - Tone: Harris is known for being measured, detail-oriented, and deliberate in her communication. She frequently highlights her work on social justice, equality, and uplifting marginalized communities. Harris tends to emphasize unity and coalition-building in her messaging. - Public Perception: Harris is seen as a pragmatic",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris potential presidency impact on Trump",
+      "canonical_url": "https://democratsabroad.org/341101/harris_vs_trump",
+      "published_at": "2024-08-26T00:00:00",
+      "publisher": "democratsabroad.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4532575952451734
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "platform": "bluesky",
+      "author": {
+        "handle": "therickydavila.bsky.social",
+        "display_name": "Ricky Davila",
+        "did": "did:plc:2qhershy6nk2cs5gm5zbii2r"
+      },
+      "text": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "created_at": "2026-05-15T15:20:16.463000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait."
+    },
+    "explanation": [
+      {
+        "text": "The post by Ricky Davila expresses a desire to see Donald Trump and his associates arrested, convicted, and imprisoned for crimes against the United States.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Donald Trump has faced numerous criminal charges, including 88 criminal offenses across four cases related to election interference and falsifying business records.",
+        "source_ids": [
+          "src_94e211bad188",
+          "src_6a1614c48d25"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The thread highlights a belief that political figures often escape accountability due to systemic issues like financial influence from groups like AIPAC and oligarchs, and predicts ongoing corruption.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": []
+      },
+      {
+        "text": "In comparisons, Kamala Harris is noted for her collaborative and policy-driven approach, contrasting with Trump's confrontational style and focus on deregulation and nationalism.",
+        "source_ids": [
+          "src_5e47f89afe62"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky thread by @therickydavila.bsky.social",
+        "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+        "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.\n\nIt will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "therickydavila.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_94e211bad188",
+        "title": "Trump's 88 criminal charges and where they stand - CREW",
+        "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+        "snippet": "The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective courts of jurisdiction, charges, whether or not gag orders have been imposed on Trump and expected trial dates. | Judge Merchan imposed a gag order in March 2024, in advance of the April trial date, that bars Trump from publicly commenting on court staff and prosecution lawyers other than Manhattan District Attorney Alvin Bragg if the comments are meant to significantly interfere with their work in the case. Trump | District Court for the District of Columbia | Conspiracy to Defraud the United States (18 USC §371); Conspiracy to Obstruct an Official Proceeding (18 USC §1512(k)); Obstruction of and Attempt to Obstruct an Official Proceeding (18 USC §1512(c)(2), 2); Conspiracy Against Rights (18 USC §241) | The charges relate to Trump's attempts to overturn the results of the 2020 election, culminating in the deadly attack on the U.S. Capitol on January 6, 2021.",
+        "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump administration crimes United States",
+        "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+        "published_at": "2024-06-04T00:00:00",
+        "publisher": "citizensforethics.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_6a1614c48d25",
+        "title": "Indictments against Donald Trump - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+        "snippet": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges and the other",
+        "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump administration crimes United States",
+        "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+        "published_at": "2023-03-31T00:00:00",
+        "publisher": "en.wikipedia.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_5e47f89afe62",
+        "title": "Harris vs Trump - Democrats Abroad",
+        "url": "https://www.democratsabroad.org/341101/harris_vs_trump#",
+        "snippet": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and",
+        "content": "A comparison between Kamala Harris and Donald Trump reveals stark differences in their leadership experience, policy priorities, communication styles, and approaches to governance. Harris is more policy-driven, collaborative, and focused on social justice, equity, and climate action. Trump, on the other hand, is known for his populist, combative style, prioritizing deregulation, nationalism, and disrupting the status quo. These contrasts reflect broader ideological divides in American politics and offer voters distinct choices depending on their values and priorities. Comparing Kamala Harris to Donald Trump highlights significant contrasts in their political views, leadership styles, experience, and public personas. Here’s a comparison across key areas: 1. Leadership Experience: - Kamala Harris: - Background: Harris has served as Vice President since 2021, Senator from California (2017-2021), Attorney General of California (2011-2017), and District Attorney of San Francisco (2004-2011). Her experience spans executive roles in law enforcement, legislative work in the Senate, and now, serving at the highest level of national government. - Approach to Governance: Harris is known for her collaborative style, focusing on building coalitions within her party and across different stakeholders. Her leadership emphasizes social justice, equity, and policy-driven initiatives. - Donald Trump: - Background: Trump served as President from 2017 to 2021. Before entering politics, he was a businessman and television personality. Trump had no prior government or military experience before his presidency, which he leveraged as an outsider appealing to voters disillusioned with the political establishment. - Approach to Governance: Trump’s leadership style is characterized by a strong, top-down approach, often prioritizing loyalty and taking a combative stance against opponents. His presidency was marked by frequent use of executive orders, a focus on deregulation, and a confrontational approach to both domestic and foreign policy. 2. Policy Positions: - Kamala Harris: - Social Justice: Harris has focused on criminal justice reform, civil rights, and expanding voting rights. She co-sponsored the George Floyd Justice in Policing Act and advocates for addressing systemic racism. - Healthcare: Harris supports expanding access to affordable healthcare, protecting the Affordable Care Act (ACA), and addressing health disparities. - Climate Change: Harris is a strong proponent of aggressive climate action, including transitioning to clean energy and addressing environmental justice issues impacting marginalized communities. - Economic Policy: Harris supports progressive taxation, affordable housing, and investing in infrastructure, education, and green jobs. - Donald Trump: - Social Policy: Trump focused on law-and-order messaging, opposing large-scale police reform efforts. He rolled back various civil rights protections during his presidency, particularly in areas like LGBTQ+ rights and voting rights. - Healthcare: Trump’s administration attempted to repeal the ACA, though it ultimately failed. His healthcare policies focused on deregulation and reducing government involvement in healthcare markets. - Climate Change: Trump withdrew the U.S. from the Paris Climate Agreement and rolled back numerous environmental regulations, prioritizing energy independence and fossil fuel production over climate action. - Economic Policy: Trump’s economic agenda focused on tax cuts (notably the 2017 Tax Cuts and Jobs Act), deregulation, and trade protectionism, including tariffs on China. 3. Public Persona and Communication Style: - Kamala Harris: - Tone: Harris is known for being measured, detail-oriented, and deliberate in her communication. She frequently highlights her work on social justice, equality, and uplifting marginalized communities. Harris tends to emphasize unity and coalition-building in her messaging. - Public Perception: Harris is seen as a pragmatic",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Kamala Harris potential presidency impact on Trump",
+        "canonical_url": "https://democratsabroad.org/341101/harris_vs_trump",
+        "published_at": "2024-08-26T00:00:00",
+        "publisher": "democratsabroad.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 27929
+  }
+}

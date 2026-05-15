@@ -1,0 +1,568 @@
+{
+  "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+  "mode": "live",
+  "generated_at": "2026-05-15T17:47:12.863202+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T17:46:41.998467+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:41.998663+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:46:41.999043+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:41.999139+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:46:41.999522+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:43.160759+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1161
+    },
+    {
+      "timestamp": "2026-05-15T17:46:43.161241+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:43.161346+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:46:43.161672+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:48.129845+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 4968
+    },
+    {
+      "timestamp": "2026-05-15T17:46:48.130624+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T17:46:56.497697+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 8367
+    },
+    {
+      "timestamp": "2026-05-15T17:46:56.498184+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T17:47:06.963444+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 10465
+    },
+    {
+      "timestamp": "2026-05-15T17:47:06.963970+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T17:47:07.611301+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 647
+    },
+    {
+      "timestamp": "2026-05-15T17:47:07.611792+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.860168+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5248
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.860674+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.860809+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.861123+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.861200+00:00",
+      "event": "node_completed",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:47:12.861439+00:00",
+      "event": "node_started",
+      "run_id": "run_dd38ad26195843b98bc7b945c66520f2",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+  "queries": [
+    "Looking criminal charges conviction",
+    "Looking legal cases status",
+    "Trump criminal charges conviction",
+    "Trump legal cases status",
+    "Ricky Davila social media posts about Trump",
+    "Crimes and legal issues involving Trump 2026"
+  ],
+  "metrics": {
+    "search_results_received": 30,
+    "search_results_by_provider": {
+      "tavily": 30
+    },
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.andrewkarpfcriminallaw.com/the-difference-between-a-criminal-charge-and-conviction/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.findlaw.com/criminal/criminal-charges/view-all-criminal-charges.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.avvo.com/legal-answers/what-kind-of-conviction-will-i-be-look-at-and-woul-5450908.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://law.justia.com/cases/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.courtlistener.com/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_4a434419d51c",
+        "title": "Case Status: Legal Client Engagement Software Portal for Law Firms",
+        "url": "https://www.casestatus.com/#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not",
+      "content": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8227618720474343
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6755219792355223
+    },
+    {
+      "id": "src_4cdbc63ec4ab",
+      "title": "Here's what all 34 felony counts in Trump's hush money trial mean : NPR",
+      "url": "https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts#",
+      "snippet": "### Law. # Trump is found guilty on 34 felony counts. Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. Former President Donald Trump sits in Manhattan Criminal Court in New York, on May 20, 2024. ### Politics. ### 4 takeaways from the historic felony conviction of Donald Trump. Former President Donald Trump sits at the defendant's table Thursday inside the courthouse at Manhattan Criminal Court in New York City. ### Legal experts say Trump's conviction is unlikely to lead to a prison sentence. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts:. ###### Read & Listen.",
+      "content": "Trump is found guilty on 34 felony counts. Read the counts here Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts: Loading...",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.4566736629808668
+    },
+    {
+      "id": "src_3383281a4054",
+      "title": "Trump convicted on all 34 criminal charges in New York hush money trial",
+      "url": "https://www.youtube.com/watch?v=S5QG7G8v5e4#",
+      "snippet": "Trump convicted on all 34 criminal charges in New York hush money trial\nPBS NewsHour\n5270000 subscribers\n1718 likes\n75376 views\n30 May 2024\nDonald Trump was found guilty on all 34 criminal charges against him in a New York courtroom. He becomes the first former president charged, and now convicted, of a felony. The case stemmed from Trump falsifying business records to cover up hush money payments to adult film actress Stormy Daniels ahead of the 2016 presidential election. William Brangham reports.\n\nSubscribe:\nNewsletters: https://www.pbs.org/newshour/subscribe\nPBS NewsHour podcasts: https://www.pbs.org/newshour/podcasts\n\nStream your PBS favorites with the PBS app: https://to.pbs.org/2Jb8twG\nFind more from PBS NewsHour at https://www.pbs.org/newshour\nSubscribe to our YouTube channel: https://bit.ly/2HfsCD6\n\nFollow us:\nTikTok: https://www.tiktok.com/@pbsnews\nTwitter: http://www.twitter.com/newshour\nInstagram: http://www.instagram.com/newshour\nFacebook: http://www.pbs.org/newshour",
+      "content": "Trump convicted on all 34 criminal charges in New York hush money trial - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://youtube.com/watch?v=S5QG7G8v5e4",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.38011537047526933
+    },
+    {
+      "id": "src_7bb3c0d2c05a",
+      "title": "Criminal Charges in Washington State | The Process",
+      "url": "https://knausslawfirm.com/criminal-defense/criminal-charges-in-washington-state#",
+      "snippet": "# Criminal Charges in Washington State. * Home  The DUI Process in Washington. * Criminal Defense  The DUI Process in Washington. Being charged with a crime in Washington doesn’t mean you’ve been convicted. The only thing being charged means is that the State of Washington – make no mistake, by the way, the government charges and prosecutes people - believes it has enough evidence to try. A criminal charge is not a conclusion; it’s the beginning of a story that still has to be told and told correctly. For many people, the moment they hear they’re being investigated or charged is the first time they realize how fast the system moves and how slow it is to listen. What matters now is not explaining — it’s acting strategically, understanding the process, and protecting yourself before the story hardens into the State’s version of events. ## Understanding Criminal Charges in Washington. A criminal charge is simply an accusation filed by the State of Washington.",
+      "content": "Understanding Criminal Charges in Washington A criminal charge is simply an accusation filed by the State of Washington. It begins when law enforcement submits a report to the prosecutor’s office, which then decides whether to file formal charges. Once that happens, the system engages — with deadlines, hearings, and consequences that most people don’t see coming until it’s too late. Washington classifies crimes by severity. Misdemeanors are the lowest level, punishable by up to 90 days in jail. Gross misdemeanors can mean up to a year in jail and higher fines. Felonies are more serious and can lead to prison time. But what most people miss is that the label doesn’t always match the facts — many cases filed as felonies end up reduced or dismissed when challenged correctly. After charges are filed, your first appearance is called an arraignment. That’s where you’re officially told what the State claims you did and enter a plea of guilty or not guilty. From there, both sides begin discovery — exchanging evidence, reports, and video. This stage, though procedural, is where good defense work changes outcomes: by spotting what’s missing, what’s misstated, and what doesn’t add up. The Real Consequences The direct penalties — jail, fines, probation — are only part of what’s at stake. A criminal charge can ripple through nearly every corner of your life. Even before trial, you may face job suspension, loss of security clearance, professional licensing issues, travel restrictions, or immigration complications. Friends and family can become cautious or distant. The damage often starts long before any verdict. This is why early, careful strategy matters. The system isn’t built to pause while you gather yourself — it keeps moving. Without an experienced defense, that movement works against you. Knauss Law steps in to slow it down, correct the narrative, and make sure what’s said about you in those first few filings don’t become the permanent version of events. What to Do If You’re Arrested or Told You’re Under Investigation When you’re arrested or even told you’re under investigation, what happens in the next few minutes can decide the shape of the entire case. People often try to talk their way out, cooperate too freely, or assume that politeness will help. It doesn’t and it never will. What helps is strategy. Here’s what to do immediately: - Stay calm. Don’t argue or explain. The less said, the better. - Ask for a lawyer — early and clearly. Once you ask, questioning should stop. - Stay silent. Even small talk can be used later as “inconsistency.” - A Write down what happened. Preserve names, times, and details while they’re fresh. - Call Knauss Law. Early contact allows us to protect your rights before the prosecutor even sees the full file. The sooner you bring counsel into the process; the better chance we have to prevent a bad assumption from becoming a charge — or a charge from becoming a conviction. What Not to Do Most people don’t make big mistakes; they make small ones at the wrong time. Texting a friend, replying to a detective, or venting online can all seem harmless in the moment, but each one gives the State more to work with. Avoid these common traps: - Don’t assume you can “clear things up” by talking to investigators. - Don’t text, call, or email anyone about your case. Every message can be evidence. - Don’t post about it — even vague or “funny” references are traceable. - Don’t ignore paperwork or court dates. Missed appearances create new problems. - Don’t take advice from friends, coworkers, or the internet. Criminal defense is not DIY. The prosecution’s file often grows because people keep adding to it. The silence of a well-advised client is one of the strongest defenses there are. Why Early Legal Strategy Changes Everything Criminal defense isn’t about reacting — it’s about positioning. Once a case is filed, prosecutors already have a story they believe. Your defense isn’t just evidence; it’s the process of showing t",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Looking criminal charges conviction",
+      "canonical_url": "https://knausslawfirm.com/criminal-defense/criminal-charges-in-washington-state",
+      "published_at": "2026-01-01T00:00:00",
+      "publisher": "knausslawfirm.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.30928631332584633
+    },
+    {
+      "id": "src_d1bc0a65d255",
+      "title": "Types of Criminal Charges and What They Mean for Your Case",
+      "url": "https://amicuslawpc.com/blog/types-of-criminal-charges-and-what-they-mean-for-your-case/#",
+      "snippet": "Felony charges vary widely in terms of severity and sentencing. They can include: Drug possession or trafficking. Criminal sexual conduct.",
+      "content": "Whether you’ve been arrested or you’re under investigation, understanding the type of charge filed against you is a critical step in preparing a strong criminal defense. In Minnesota, criminal charges fall into three main categories: petty misdemeanors, misdemeanors (including gross misdemeanors), and felonies. Each level of offense carries its own set of potential penalties, procedures, and implications for your future. Understanding the difference can help you make more informed decisions as your case progresses. At Amicus Law, we’ve seen how overwhelming it can be when someone is facing criminal charges for the first time. The legal process in Minnesota doesn’t make things easy, and the outcome of your case can carry life-changing consequences. Our job is to help our Minnesota clients understand what they’re up against and fight for the best possible outcome. Criminal defense in Minnesota isn’t just about knowing the law—it’s about learning how the legal system operates and how prosecutors approach each case. Minor Offenses with Lingering Consequences Petty misdemeanors are the lowest level of offense under Minnesota law. These are not considered crimes, and they don’t carry jail time. Instead, a person found guilty of a petty misdemeanor may be required to pay a fine, which can’t exceed $300. Common petty misdemeanors include: Speeding Driving with a broken taillight Possessing a small amount of marijuana (under certain circumstances) Littering While petty misdemeanors may seem insignificant, they can still impact your life. Traffic violations can raise your insurance premiums, and any interaction with law enforcement can follow you. Even without jail time, it's important to treat petty misdemeanors seriously. A criminal defense strategy should focus on reducing the charge or getting it dismissed altogether. Crimes That Can Lead to Jail and Fines Misdemeanors in Minnesota are crimes that carry more serious consequences than petty offenses. A standard misdemeanor conviction can result in up to 90 days in jail, a fine of up to $1,000, or both. Examples include: Disorderly conduct Driving without a valid license Theft of property valued under $500 First-time DWI offenses (in many cases) Even though these are considered lower-level crimes, the penalties can be severe—especially if the court imposes probation terms, mandatory counseling, or community service. Misdemeanors can also appear on background checks, potentially affecting employment, housing, and educational opportunities. From a criminal defense standpoint, we aim to challenge evidence, negotiate lesser charges, or advocate for alternative sentencing options like diversion programs when appropriate. Avoiding a conviction should always be the goal; however, when that isn’t possible, we strive for outcomes that minimize long-term harm. A Step Closer to Felony Territory Gross misdemeanors occupy a middle ground between standard misdemeanors and felonies. These charges carry a maximum sentence of up to one year in jail and a fine of up to $3,000. While still not classified as felonies, gross misdemeanors can have serious consequences. Charges in this category often include: Second-time DWI offenses Certain domestic assault charges Violating a restraining order Theft involving property worth between $500 and $1,000 Gross misdemeanors require careful attention. In addition to jail time and fines, they can lead to probation conditions that are burdensome and invasive. A criminal defense attorney must evaluate not just the evidence, but the prosecutorial approach and the judge’s tendencies. At Amicus Law, we regularly work to reduce gross misdemeanor charges to standard misdemeanors or argue for stays of adjudication. We don’t just look at the charge—we look at your goals and how to protect your record, reputation, and rights. Long-Term Impact and Life-Altering Penalties Felony charges represent the most serious category of criminal offenses in Minnesota. A felony is defined ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Looking criminal charges conviction",
+      "canonical_url": "https://amicuslawpc.com/blog/types-of-criminal-charges-and-what-they-mean-for-your-case",
+      "published_at": "2025-06-03T00:00:00",
+      "publisher": "amicuslawpc.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.20429805189516748
+    },
+    {
+      "id": "src_ed746f3480ea",
+      "title": "Checking Your Case Status Online | USCIS",
+      "url": "https://www.uscis.gov/tools/checking-your-case-status-online#",
+      "snippet": "A **.gov** website belongs to an official government organization in the United States. A locked padlock     ) or **https://** means you've safely connected to the .gov website. ### Family Based Forms. ### Humanitarian Based Forms. ## Forms. ### How to Apply for a Green Card. You only have to access USCIS’ Case Status Online directly through uscis.gov. The Case Status Online landing page shows other quick reference online tools, such as how to change your address online, how to submit an inquiry about your case (e-Request), case processing times and how to locate a USCIS office. To check your case status using our online tool, you have to have your case receipt number. When entering your receipt number, you should omit dashes (”-“), but you can include all other characters, including asterisks (“\\*”) if they are listed on your notice as part of the receipt number. Remember to try the other online tools on the homepage or create an account with USCIS at my.uscis.gov. An official website of the U.S. Department of Homeland Security.",
+      "content": "Checking Your Case Status Online We are often asked how to verify the case status. It is a very simple process. You can verify your case status online from your home or office, even from your cell phone! You only have to access USCIS’ Case Status Online directly through uscis.gov. The Case Status Online landing page shows other quick reference online tools, such as how to change your address online, how to submit an inquiry about your case (e-Request), case processing times and how to locate a USCIS office. To check your case status using our online tool, you have to have your case receipt number. This receipt number is a unique 13-character identifier that USCIS provides for each application or petition it receives, and it’s used to identify and track its cases. The receipt number consists of three letters followed by 10 numbers. For example, the letters can be EAC, WAC, LIN, SRC, NBC, MSC or IOE. You can find it on notices of action USCIS has sent you. Case Status Online landing page. We encourage you to read USCIS privacy act statement, which appears under the “check status” button, before checking your case status. When entering your receipt number, you should omit dashes (”-“), but you can include all other characters, including asterisks (“*”) if they are listed on your notice as part of the receipt number. Enter your receipt number. Omit the dashes, but include all other characters including asterisks if they are listed on your notice as part of the receipt number. The online system will show the last action taken on your case and will let you know the next steps, if applicable. We also provide helpful reminders to keep your address current and how to submit inquiries. The system will show your case status and let you know next steps. If you want to check an additional case now is the time to do so by entering a new receipt number in “Enter Another Receipt Number” field. Remember to try the other online tools on the homepage or create an account with USCIS at my.uscis.gov. The personalized account allows you to receive your most recent case updates including up to the last five actions on your case, simplifies case management, and access to your electronically filed applications. It is free and easy to use! If you still have questions or concerns on any information you can check our website at uscis.gov or call the USCIS Contact Center at 1-800-375-5283.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Looking legal cases status",
+      "canonical_url": "https://uscis.gov/tools/checking-your-case-status-online",
+      "published_at": "2020-08-25T00:00:00",
+      "publisher": "uscis.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.1642395519913397
+    },
+    {
+      "id": "src_d7b8da5a023f",
+      "title": "Check Your Case Status by Case Number a Practical Guide",
+      "url": "https://casepulse.com/case-status-by-case-number/#",
+      "snippet": "Learn how to check your case status by case number using court records or a client portal. Get real-world tips for tracking your legal case.",
+      "content": "Once you have your case number, you have the most direct key to unlocking updates on your legal matter. Think of it as a unique tracking ID that opens doors to two very different sources of information: public court records and your law firm's private client portal. Each path gives you a distinct view of what’s happening with your case. Where to Find Your Case Status Information Trying to get a straightforward update on your legal case can sometimes feel like navigating a maze. The good news is that your case number cuts right through the confusion. Let's break down the two main ways you can use it to find out where things stand. Whether you need to see official court filings or just want a clear summary from your legal team, knowing where to look is the first and most important step. Public Court Dockets vs. Private Firm Portals The first route, and the more traditional one, is searching public court websites. These are the official government portals that maintain the case docket, the formal, minute by minute record of all proceedings. Here, you'll find the raw data: filing dates, motions, and judicial orders straight from the source. The second method involves using a private client portal provided by your law firm. Many modern firms use platforms like CasePulse to give clients a secure, 24/7 window into their case. This isn't just raw data; it’s a curated look at your case's progress, updated directly by your legal team. A simple way to think about it: Public dockets give you the official, unfiltered court record. A client portal gives you that same information, but with your lawyer's context and explanation, making it much easier to understand what it all means for you. This flowchart can help you decide which path makes the most sense for your search. As you can see, your case number is the starting point. From there, you can choose between digging into official court sites or logging into your firm's dedicated portal for a more guided update. Quick Comparison of Case Status Methods Here is a quick look at the main ways to find your case status with a case number. Ultimately, both methods are valuable. Public dockets provide the official record, while a client portal offers convenience and expert interpretation. Searching Public Court Dockets and Records When you need to know exactly what’s happening in a legal matter, the public court record is your source of truth. Most court proceedings are, by design, public information. The official record of every document filed and every action taken is kept on what’s called a case docket. Looking up your case status by case number this way means you’re getting the information straight from the source. Your first move is to pinpoint the right courthouse website, since this all depends on where the case was originally filed. - Federal Cases: For matters in U.S. District Courts, your search will almost certainly lead you to the Public Access to Court Electronic Records (PACER) system. - State Cases: Every state maintains its own judicial website, which includes a search portal for its superior, circuit, or district court records. - Local Cases: Don’t forget about county and municipal courts. These often have their own separate websites, typically managed by the county clerk’s office. Navigating Government Court Websites Let’s be real, government websites aren't always paragons of user friendly design. You might have to click around a bit to find what you're looking for, but you're generally hunting for a section labeled \"case search,\" \"docket search,\" or \"public records.\" Once you've landed on the search page, you should see a field for the docket or case number. This is where precision is everything. You need to enter the number exactly as it appears on your documents, including all letters, dashes, and any other formatting. A single misplaced character is the most common reason a search comes up empty. If you're curious about the nitty gritty of how these records are kept, you can",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Looking legal cases status",
+      "canonical_url": "https://casepulse.com/case-status-by-case-number",
+      "published_at": "2026-04-08T00:00:00",
+      "publisher": "casepulse.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.13186370548347842
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not",
+      "content": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8227618720474343
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6755219792355223
+    },
+    {
+      "id": "src_4cdbc63ec4ab",
+      "title": "Here's what all 34 felony counts in Trump's hush money trial mean : NPR",
+      "url": "https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts#",
+      "snippet": "### Law. # Trump is found guilty on 34 felony counts. Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. Former President Donald Trump sits in Manhattan Criminal Court in New York, on May 20, 2024. ### Politics. ### 4 takeaways from the historic felony conviction of Donald Trump. Former President Donald Trump sits at the defendant's table Thursday inside the courthouse at Manhattan Criminal Court in New York City. ### Legal experts say Trump's conviction is unlikely to lead to a prison sentence. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts:. ###### Read & Listen.",
+      "content": "Trump is found guilty on 34 felony counts. Read the counts here Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts: Loading...",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.4566736629808668
+    },
+    {
+      "id": "src_3383281a4054",
+      "title": "Trump convicted on all 34 criminal charges in New York hush money trial",
+      "url": "https://www.youtube.com/watch?v=S5QG7G8v5e4#",
+      "snippet": "Trump convicted on all 34 criminal charges in New York hush money trial\nPBS NewsHour\n5270000 subscribers\n1718 likes\n75376 views\n30 May 2024\nDonald Trump was found guilty on all 34 criminal charges against him in a New York courtroom. He becomes the first former president charged, and now convicted, of a felony. The case stemmed from Trump falsifying business records to cover up hush money payments to adult film actress Stormy Daniels ahead of the 2016 presidential election. William Brangham reports.\n\nSubscribe:\nNewsletters: https://www.pbs.org/newshour/subscribe\nPBS NewsHour podcasts: https://www.pbs.org/newshour/podcasts\n\nStream your PBS favorites with the PBS app: https://to.pbs.org/2Jb8twG\nFind more from PBS NewsHour at https://www.pbs.org/newshour\nSubscribe to our YouTube channel: https://bit.ly/2HfsCD6\n\nFollow us:\nTikTok: https://www.tiktok.com/@pbsnews\nTwitter: http://www.twitter.com/newshour\nInstagram: http://www.instagram.com/newshour\nFacebook: http://www.pbs.org/newshour",
+      "content": "Trump convicted on all 34 criminal charges in New York hush money trial - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://youtube.com/watch?v=S5QG7G8v5e4",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.38011537047526933
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "platform": "bluesky",
+      "author": {
+        "handle": "therickydavila.bsky.social",
+        "display_name": "Ricky Davila",
+        "did": "did:plc:2qhershy6nk2cs5gm5zbii2r"
+      },
+      "text": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "created_at": "2026-05-15T15:20:16.463000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait."
+    },
+    "explanation": [
+      {
+        "text": "The post expresses anticipation for the day when the actions of former President Donald Trump and his associates are only discussed in terms of their arrests, convictions, and imprisonments for alleged crimes against the United States. This reflects the author's hope for accountability.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Donald Trump was convicted on 34 felony counts related to falsifying business records to conceal a hush money payment. This marks the first time a former U.S. president has been convicted of criminal charges.",
+        "source_ids": [
+          "src_4cdbc63ec4ab",
+          "src_3383281a4054"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Some public reactions in the thread reflect a mix of skepticism and pessimism regarding political accountability in the United States, suggesting that many officials avoid consequences, and systemic corruption persists.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The reactions may not represent broad public opinion.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The conviction of Donald Trump on felony charges is linked to allegations of him falsifying business records to influence the 2016 election.",
+        "source_ids": [
+          "src_4cdbc63ec4ab",
+          "src_3383281a4054"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @therickydavila.bsky.social",
+        "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+        "snippet": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not",
+        "content": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "therickydavila.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @therickydavila.bsky.social",
+        "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+        "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "therickydavila.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_4cdbc63ec4ab",
+        "title": "Here's what all 34 felony counts in Trump's hush money trial mean : NPR",
+        "url": "https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts#",
+        "snippet": "### Law. # Trump is found guilty on 34 felony counts. Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. Former President Donald Trump sits in Manhattan Criminal Court in New York, on May 20, 2024. ### Politics. ### 4 takeaways from the historic felony conviction of Donald Trump. Former President Donald Trump sits at the defendant's table Thursday inside the courthouse at Manhattan Criminal Court in New York City. ### Legal experts say Trump's conviction is unlikely to lead to a prison sentence. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts:. ###### Read & Listen.",
+        "content": "Trump is found guilty on 34 felony counts. Read the counts here Jurors in the New York criminal trial against former President Donald Trump have convicted him of 34 felony counts of falsified business records. This is the first time a former or sitting U.S. president has been convicted of criminal charges. The jurors said they unanimously agreed that Trump falsified business records to conceal a $130,000 hush money payment to adult film star Stormy Daniels to influence the outcome of the 2016 election. Here are the details of those 34 felony counts: Loading...",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts",
+        "published_at": "2024-05-30T00:00:00",
+        "publisher": "npr.org",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_3383281a4054",
+        "title": "Trump convicted on all 34 criminal charges in New York hush money trial",
+        "url": "https://www.youtube.com/watch?v=S5QG7G8v5e4#",
+        "snippet": "Trump convicted on all 34 criminal charges in New York hush money trial\nPBS NewsHour\n5270000 subscribers\n1718 likes\n75376 views\n30 May 2024\nDonald Trump was found guilty on all 34 criminal charges against him in a New York courtroom. He becomes the first former president charged, and now convicted, of a felony. The case stemmed from Trump falsifying business records to cover up hush money payments to adult film actress Stormy Daniels ahead of the 2016 presidential election. William Brangham reports.\n\nSubscribe:\nNewsletters: https://www.pbs.org/newshour/subscribe\nPBS NewsHour podcasts: https://www.pbs.org/newshour/podcasts\n\nStream your PBS favorites with the PBS app: https://to.pbs.org/2Jb8twG\nFind more from PBS NewsHour at https://www.pbs.org/newshour\nSubscribe to our YouTube channel: https://bit.ly/2HfsCD6\n\nFollow us:\nTikTok: https://www.tiktok.com/@pbsnews\nTwitter: http://www.twitter.com/newshour\nInstagram: http://www.instagram.com/newshour\nFacebook: http://www.pbs.org/newshour",
+        "content": "Trump convicted on all 34 criminal charges in New York hush money trial - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://youtube.com/watch?v=S5QG7G8v5e4",
+        "published_at": "2024-05-30T00:00:00",
+        "publisher": "youtube.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 30875
+  }
+}

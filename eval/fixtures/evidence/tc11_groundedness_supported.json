@@ -1,0 +1,18 @@
+[
+  {
+    "id": "s1",
+    "title": "Rapid Canvas public beta notes",
+    "url": "https://example.com/rapid-canvas-public-beta",
+    "snippet": "Rapid Canvas public beta includes post URL ingestion, cited bullets, and evaluation reporting.",
+    "content": "The announcement describes Rapid Canvas as a public beta for contextual social post explanation. The beta accepts a public post URL as input and extracts the post context before searching for supporting public sources. The output is designed as three to five explanatory bullets with source citations. The evaluation report records citation coverage and groundedness so reviewers can inspect whether generated bullets are supported by cited sources. The beta does not require a private vector database; context is retrieved through configured search tools and ranked in memory.",
+    "source_type": "fixture"
+  },
+  {
+    "id": "s2",
+    "title": "Rapid Canvas evaluation notes",
+    "url": "https://example.com/rapid-canvas-eval",
+    "snippet": "The eval flow separates fixtures from live search and records quality metrics.",
+    "content": "The eval flow is separate from live mode and uses local fixtures instead of Bluesky, Tavily, Brave, or live web pages. Its metrics include fact coverage, citation coverage, hallucination penalty, usefulness, and P1 groundedness. Groundedness is assessed per bullet against the cited source text and is persisted in local eval artifacts.",
+    "source_type": "fixture"
+  }
+]

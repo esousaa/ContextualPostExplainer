@@ -1,0 +1,616 @@
+{
+  "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+  "mode": "live",
+  "generated_at": "2026-05-15T18:27:58.394304+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T18:27:29.319453+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:29.319661+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:27:29.320008+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:29.320117+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:27:29.320423+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:30.127121+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 806
+    },
+    {
+      "timestamp": "2026-05-15T18:27:30.127611+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:30.127714+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:27:30.128109+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:31.309787+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1181
+    },
+    {
+      "timestamp": "2026-05-15T18:27:31.310293+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:39.760963+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6981
+    },
+    {
+      "timestamp": "2026-05-15T18:27:39.761457+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:50.016337+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 10254
+    },
+    {
+      "timestamp": "2026-05-15T18:27:50.016951+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:50.820308+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 803
+    },
+    {
+      "timestamp": "2026-05-15T18:27:50.820812+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.383434+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 7562
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.383980+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.384120+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.384706+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.384790+00:00",
+      "event": "node_completed",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:27:58.385076+00:00",
+      "event": "node_started",
+      "run_id": "run_b8c6c7c5df354d4cae804ba786726661",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+  "queries": [
+    "MV Hondius cruise ship COVID-19 cases 2026",
+    "University of Nebraska Medical MV Hondius COVID-19",
+    "NBC News MV Hondius COVID-19 report 2026",
+    "Dr. Oz involvement in COVID-19 response Trump administration"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/evacuation-passengers-virus-hit-cruise-ship-be-completed-monday-2026-05-11/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYR1jZQjUlr/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/ABCNews/posts/fifteen-passengers-from-the-mv-hondius-were-welcomed-to-the-university-of-nebras/1401810451805831/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/NBCNews/posts/the-sole-american-who-returned-a-positive-test-aboard-the-mv-hondius-has-since-t/1355587266433135/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_67075a0ac841",
+        "title": "2026 Multi-country Andes Strain Hantavirus Outbreak Associated with a Cruise Ship • KDHE, KS",
+        "url": "https://www.kdhe.ks.gov/m/newsflash/home/detail/1937#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_5cf6c0796eb9",
+        "title": "Cruise ship at center of suspected deadly hantavirus outbreak refused permission to dock",
+        "url": "https://www.nbcnews.com/health/health-news/hantavirus-cruise-ship-docking-cape-verde-hondius-who-rcna343415#",
+        "reason": "missing_event_anchor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if ",
+      "content": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin\n\nHere’s hoping that NBC is thorough, professional and deeply inquisitive in verifying the facts in this story.\n\nHere’s hoping that medical professionals are honoring their Hippocratic oaths. (I have much less trust in medical administrations.)\n\nWe shall see.\n\nDidn't that doctor in Portland just test positive?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9339237407620251
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7449172421536249
+    },
+    {
+      "id": "src_90481185f94e",
+      "title": "Doctor isolated in Nebraska after helping passengers with hantavirus | AP News",
+      "url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad#",
+      "snippet": "# Doctor who helped ship take care of passengers with hantavirus is isolated in Nebraska medical unit. The hantavirus-stricken cruise ship MV Hondius is seen at anchor at the port of Granadilla in Tenerife, Canary Islands, Spain, Monday, May 11, 2026. Nebraska Medicine's Davis Global Center is seen on Sunday, May 10,2026 in Omaha, Neb. where American passengers from the hantavirus-stricken cruise ship will quarantine. An oncologist traveling on the cruise ship at the center of a hantavirus outbreak says he’s the lone American isolated at a special biocontainment unit in Nebraska. While 15 other Americans are being monitored at the National Quarantine Unit at the University of Nebraska Medical Center in Omaha, Kornfeld was the only one taken to a separate unit after a nasal swab he took on the ship tested positive for the virus. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days.",
+      "content": "Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit An oncologist traveling on the cruise ship at the center of a hantavirus outbreak has been cleared to leave a special biocontainment unit in Nebraska, where he was the lone American placed in isolation after he helped care for fellow passengers who became sick on board. Dr. Stephen Kornfeld of Bend, Oregon, was among more than 120 passengers and crew evacuated from the ship and flown to different countries to enter quarantine. Kornfeld was brought to the University of Nebraska Medical Center in Omaha with 15 other Americans, but he was the only one taken to an isolated biocontainment unit after a nasal swab he took on the ship produced inconclusive results about whether he had the virus. On Wednesday, the hospital announced that Kornfeld will now join the 15 other Americans who were taken for monitoring at the National Quarantine Unit, instead of the biocontainment unit, according to hospital spokesperson Kayla Thomas. Kornfeld appeared on CNN’s “Erin Burnett OutFront” on a video call from his hospital room Tuesday, saying, “I feel wonderful, 100%.” He said there was a period on the ship when he came down with flu-like symptoms including night sweats, chills and fatigue but he said he has no symptoms now. The World Health Organization said Wednesday that a total of 11 hantavirus cases linked to the cruise have been reported worldwide, including three deaths. Eight cases have been confirmed by laboratory tests. Kornfeld said a nasal swab he took on the ship was later tested twice in the Netherlands. One result came back negative, the other positive. Earlier this week, he was awaiting results from a new test taken when he returned to the U.S. “The initial test that we received was from abroad and it was inconclusive in its results,” Dr. David Fitter of the U.S. Centers for Disease Control and Prevention told reporters Wednesday. In addition to the passengers taken to Nebraska, two other Americans are being monitored at the serious communicable disease unit at Emory University Hospital in Atlanta. Health authorities say it is the first hantavirus outbreak on a cruise ship. While there is no cure or vaccine for hantavirus, the WHO says early detection and treatment improves survival rates. Public health officials say the risk to the general public from the cruise ship outbreak is low. Hantavirus usually spreads from rodent droppings and is not easily transmitted between people, though the Andes virus detected on the Hondius may be able to spread between people in rare cases. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days. Kornfeld described his quarters at the biocontainment unit in Nebraska as a hospital room with a comfortable bed. “It’s a little weird being in here by myself,” he said before he was cleared to leave. “But the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "apnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.660553433212481
+    },
+    {
+      "id": "src_c64b7a6e8cea",
+      "title": "CDC Provides Update on Hantavirus Outbreak Linked to M/V ...",
+      "url": "https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#",
+      "snippet": "[Skip directly to site content](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content)[Skip directly to search](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#cdc-search__input). [Here's how you know](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#gov-notice). [CDC Newsroom](https://www.cdc.gov/media/index.html). [For Everyone](https://www.cdc.gov/media/index.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). *   [View all](https://www.cdc.gov/media/site.html#gen). [Home](https://www.cdc.gov/media/index.html). [_search_](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [CDC Newsroom](https://www.cdc.gov/media/index.html) Menu. *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [CDC Newsroom](https://www.cdc.gov/media/index.html). [Releases](https://www.cdc.gov/media/releases/index.html)[Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html)[View Menu](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). [Sources](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content-sources)[Print](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#print)[Share](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#share). [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html)[](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html \"Share to Facebook\")[LinkedIn](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to LinkedIn\")[Twitter](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to Twitter\")[Syndicate](https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent \"Embed this Page\"). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). ## [CDC Newsroom](https://www.cdc.gov/media/index.html). [View All](https://www.cdc.gov/media/site.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#languages). [Languages](https://www.cdc.gov/other/other-languages/index.html). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Português](https://www.cdc.gov/other/language-assistance.html#Portuguese). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#archive). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-languages). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-archive). [](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html# \"Go to top\").",
+      "content": "The U.S. government is actively monitoring and responding to a hantavirus outbreak linked to the M/V Hondius cruise ship. At this time, the risk to the American public remains extremely low. CDC developed health guidance for impacted American passengers, which was delivered by the U.S. Department of State. CDC's premier infectious disease experts are continuing to work closely with international partners to develop consistent monitoring guidance. This guidance will be distributed today, in addition to resources targeted for state and local health departments. The U.S. government's top priority is the safe repatriation of American passengers. These individuals are planned to be evacuated on a U.S. government medical repatriation flight to Offutt Air Force Base in Omaha, Nebraska, where they will be transported to the National Quarantine Center at the University of Nebraska, Omaha. The CDC deployed a team of epidemiologists and medical professionals to the Canary Islands, where the M/V Hondius is expected to dock. The team will conduct an exposure risk assessment for each American passenger and provide recommendations for the level of monitoring required. An additional CDC team will deploy to Offutt AFB to support public health assessment of returning passengers.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "cdc.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6494437199440276
+    },
+    {
+      "id": "src_baf401054408",
+      "title": "16 MV Hondius passengers arrive at UNMC",
+      "url": "https://www.3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc#",
+      "snippet": "(KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test.",
+      "content": "CENTRAL OMAHA, Neb. (KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. - 16 MV Hondius passengers arrived at UNMC Monday; one tested positive for hantavirus and is in the Bio Containment Unit. - The remaining 15 passengers are being monitored in the National Quarantine Unit, the only federally funded unit of its kind in the U.S. - This strain of hantavirus has a 42-day incubation period; none of the passengers are currently experiencing symptoms. BROADCAST TRANSCRIPT: 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. Medical experts say none of the passengers are currently experiencing symptoms, but staff will provide ongoing monitoring. This strain of hantavirus has a 42-day incubation period, and it is possible the passengers could be asked to remain quarantined for that entire length of time. Passengers will have access to exercise equipment and will be able to make calls to family and friends. Angela Hewlett, medical director of the Nebraska Biocontainment Unit, described the quarantine facility. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. The unit has expanded in recent years as it has received more national acclaim. In 2018, the Department of Health and Human Services Administration for Strategic Preparedness and Response awarded the facility a $20 million grant. That money has paid for the growth of facilities and programs. Two units are now in the spotlight: the National Quarantine Unit, where healthcare providers complete quarterly training in specialized infection prevention, and the Bio Containment Unit, where infected patients receive care. The Bio Containment Unit was activated in 2014 during the Ebola outbreak and was called upon again in 2020 for COVID-19. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test. Jeffrey Gold, president of the University of Nebraska System, addressed the precautions being taken. \"We can guarantee that every single precaution that can be taken to keep our communities and our staff healthy, and of course to keep these passengers healthy will be taken,\" Gold said. Doctors say everyone at the facility will be there for at least a few more days. Each person will have a specialized monitoring and care plan that doctors develop based on their unique history and needs. This story was reported on-air by a journalist and has been converted to this platform with the assistance of AI. Our editorial team verifies all reporting on all platforms for fairness and accuracy.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "3newsnow.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6234032953009746
+    },
+    {
+      "id": "src_610401016cd1",
+      "title": "Nebraska health officials clear passenger to move to quarantine unit",
+      "url": "https://www.ketv.com/article/nebraska-health-officials-update-hantavirus/71299704#",
+      "snippet": "All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.",
+      "content": "BUT IT IS BLOCKING TRAFFIC, SO EXPECT DELAYS. A CRISIS SITUATION THERE RIGHT NOW. MORE BREAKING NEWS. ALL 16 PASSENGERS FROM THE MV HONDIUS ARE NOW BEING MONITORED IN THE NATIONAL QUARANTINE UNIT. ERIN OMAHA. INITIALLY, ONE PATIENT WAS TAKEN TO THE BIOCONTAINMENT UNIT. NEBRASKA MEDICINE SAYS THEY HAVE BEEN MEDICALLY CLEARED. OMAHA’S NEWS LEADER SPOKE WITH A LOCAL DOCTOR WHO SAYS THEY WILL CONTINUE TO DO DAILY CHECK INS. THE MOMENT SOMEONE ENTERS THAT AREA TO HOW ANYTHING EXITS TO MINIMIZE THE RISK OF ANY TRANSMISSION. AND NOW WE’VE ACTIVATED MULTIPLE TIMES. THE TEAM TRAINS REGULARLY TO MAKE SURE EVERYONE HAS THE SKILLS, MAKING SURE EVERYTHING IS WORKING CORRECTLY. YOU CAN SEE MORE OF MY INTERVIEW WITH DOCTOR COQUARD ON THIS Nebraska health officials say passenger initially taken to biocontainment unit medically cleared to move to quarantine unit Updated: 10:10 PM CDT May 13, 2026 Editorial Standards All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.Watch: Hantavirus cruise passenger speaks on quarantine at UNMCInitially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands.PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirusSince then, he has been medically cleared to move to the quarantine unit.READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meetMake sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search.NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand | OMAHA, Neb. — All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha. Watch: Hantavirus cruise passenger speaks on quarantine at UNMC Initially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands. PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirus Since then, he has been medically cleared to move to the quarantine unit. READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meet Make sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search. NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand |",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://ketv.com/article/nebraska-health-officials-update-hantavirus/71299704",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "ketv.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6222324903517397
+    },
+    {
+      "id": "src_870db8bbe7f5",
+      "title": "Hantavirus-hit cruise ship arrives in Tenerife, passengers expected to return home | CNN",
+      "url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl#",
+      "snippet": "Security and health officials operate at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. A security officer operates at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. The cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. A passenger stands on a balcony of the Dutch flagged hantavirus-stricken cruise ship MV Hondius as it arrives to the industrial port of Granadilla de Abona on the island of Tenerife in Spain's Canary Islands to commence evacuation of passengers and most crew members on May 10, 2026.",
+      "content": "EDITOR’S NOTE: For the latest updates on this story, follow our live coverage here. All of the passengers of the MV Hondius and some of its crew have been evacuated from the hantavirus-hit cruise ship, as authorities continue to test people and monitor symptoms of the rare virus that has triggered an international health response. Passengers were seen being ferried from the MV Hondius, anchored at the Port of Granadilla near the Spanish island of Tenerife, to the island on Sunday after the ship arrived earlier in the day carrying 147 people. Evacuations involved 94 passengers of 19 nationalities, according to Spanish health authorities. The last of the passengers left the ship on Monday, some waving goodbye to the vessel before heading to their evacuation flights after more than five weeks at sea. A total number of 122 individuals were repatriated to their home countries and the Netherlands, including 35 crew members and 87 guests, according to the tour operator Oceanwide Expeditions. One of the 17 American passengers who was evacuated from the ship Sunday tested “mildly” positive for the Andes strain of the virus on a PCR test, while a second is showing mild symptoms, the US Department of Health and Human Services said. Spanish authorities have ruled the “mildly” positive case out, calling it inconclusive. A French woman who was on board the MV Hondius has also tested positive for hantavirus and is being treated in a specialist hospital, French Health Minister Stephanie Rist told French radio station France Inter Monday. The passenger began exhibiting symptoms during her return to France and tested positive upon arrival. Her health deteriorated overnight, Rist said. Experts have sought to assuage fears of a new pandemic, with WHO chief Tedros Adhanom Ghebreyesus stressing the virus is “not another Covid-19” and the risk to the public remains low. The WHO director general said that he expected “more cases” to emerge among passengers due to the six to eight-week incubation period of the virus. However, he stressed that all passengers were in “good hands” with access to excellent medical care now they had disembarked the ship. There have been nine reported cases and seven confirmed cases of hantavirus in the outbreak so far, according to the World Health Organization (WHO). The US passengers landed early Monday in Nebraska, home to the National Quarantine Unit. The passenger who tested positive and the symptomatic passenger traveled in the plane’s biocontainment units “out of an abundance of caution,” HHS said. In a Monday statement, the Spanish Ministry of Health said that while US authorities had classified one of the passengers as a “weak” positive, European health officials said the test was inconclusive. It said the symptomatic American passenger “developed a mild cough on May 6” that resolved a day later. “The doctors did not consider classifying the individual as a probable case,” it said. CNN has reached out to HHS for more information. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. local time. After coming ashore, passengers filed onto waiting buses to be taken to the airport. From there, they were evacuated to their home countries. The carefully managed repatriation operation involving multiple nations went “according to plan,” García told a news conference at the port on Sunday. Since the vessel departed Argentina last month, the deaths of three people have been linked to hantavirus -–– a rare disease typically caused by exposure to infected rodents’ urine or feces –– while others have been evacuated from the ship for medical treatment. In a video message posted Monday, the ship’s captain Jan Dobrogowski called the past few weeks “extremely challenging” and thanked his crew for the “courage and the selfless resolve that they showed time and again in the most difficult moments.” Dobrogowski said he was touched b",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl",
+      "published_at": "2026-05-10T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5993288987953035
+    },
+    {
+      "id": "src_3737cd90b98e",
+      "title": "Andes hantavirus outbreak in cruise ship, 15 May 2026 - ECDC",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#",
+      "snippet": "[Skip to main content](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#main-content). [Other sites](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#). *   [ECDC](https://www.ecdc.europa.eu/en/home). [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en). [Close](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#wtEtransModal \"Close this window\"). ### [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). *   [Related public health topics](https://www.ecdc.europa.eu/en/all-topics). *   [COVID-19](https://www.ecdc.europa.eu/en/covid-19). *   [Mpox](https://www.ecdc.europa.eu/en/mpox). *   [One Health](https://www.ecdc.europa.eu/en/one-health). *   [Publications and data](https://www.ecdc.europa.eu/en/publications-data). ### [Publications and data](https://www.ecdc.europa.eu/en/publications-data). *   [Dashboards and databases](https://www.ecdc.europa.eu/en/data). *   [Epidemiological updates](https://www.ecdc.europa.eu/en/publications-data/monitoring/epidemiological-updates). ### [Training and tools](https://www.ecdc.europa.eu/en/data-tools). *   [Training programmes](https://www.ecdc.europa.eu/en/training). *   [EpiPulse - the European surveillance portal for infectious diseases](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases). ### [Learning Portal](https://www.ecdc.europa.eu/en/publications-data/learning-portal). ### [About ECDC](https://www.ecdc.europa.eu/en/about-ecdc). *   [Who we are](https://www.ecdc.europa.eu/en/about-us/ecdcs-organisational-structure \"ECDC's mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.\"). 1.   [Home](https://www.ecdc.europa.eu/en). 2.   [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). 3.   [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). 4.   [Surveillance and updates](https://www.ecdc.europa.eu/en/hantavirus-infection/surveillance-and-disease-data). [Questions and answers on the hantavirus outbreak in a cruise ship](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/questions-answers-outbreak). [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). [Rapid Scientific Advice on the management of passengers - In the context of the Andes virus outbreak on the cruise ship MV Hondius](https://www.ecdc.europa.eu/en/publications-data/rapid-scientific-advice-management-passengers-context-andes-virus-outbreak-cruise). [Key questions about Andes hantavirus outbreak](https://www.ecdc.europa.eu/en/publications-data/key-questions-about-andes-hantavirus-outbreak). *   [Personal data protection](https://www.ecdc.europa.eu/en/personal-data-protection). *   [Cookies](https://www.ecdc.europa.eu/en/cookie-policy). *   [Accessibility](https://www.ecdc.europa.eu/en/accessibility). *   [Sitemap](https://www.ecdc.europa.eu/en/sitemap).",
+      "content": "Andes hantavirus outbreak in cruise ship, 15 May 2026 This page is updated once daily, including on weekends. This is a rapidly evolving situation and all data reflect the situation as of 14:00 on the date of publication. ECDC was notified on 2 May 2026 of a cluster of severe respiratory illness on MV Hondius, a Dutch-flagged cruise ship with passengers and crew from 23 countries, including nine EU/EEA countries. The virus has been identified as Andes hantavirus. As of 15 May, a total of eleven cases have been reported, including eight confirmed, two probable, and one inconclusive. No new cases or deaths have been reported since the previous update. The risk to the EU/EEA general population remains very low. Key information Latest updates Notes *A suspected case is a person who has been on or visited the same transport (e.g. ship or plane) where a confirmed or probable Andes hantavirus (ANDV) case was present, OR has been in contact with a passenger or crew member of the MV Hondius since 5 April, AND has a fever (currently or recently), plus at least one of the following symptoms: - muscle aches - chills - headache - stomach problems (such as nausea, vomiting, diarrhoea, or abdominal pain) - breathing problems (such as cough, shortness of breath, chest pain, or difficulty breathing) **A probable case is a person who has the symptoms listed above, and is known to have been in contact with a confirmed or probable ANDV case ***A confirmed case is a person who meets the suspected or probable case definition, and has a laboratory test that confirms ANDV infection (PCR or antibody test) **** An inconclusive case means awaiting further laboratory investigations. Non-case: A non-case is a person who was initially considered a suspected or probable case, but tests negative for ANDV using laboratory tests (PCR or antibody test).",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "ecdc.europa.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5078909033503596
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_90481185f94e",
+      "title": "Doctor isolated in Nebraska after helping passengers with hantavirus | AP News",
+      "url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad#",
+      "snippet": "# Doctor who helped ship take care of passengers with hantavirus is isolated in Nebraska medical unit. The hantavirus-stricken cruise ship MV Hondius is seen at anchor at the port of Granadilla in Tenerife, Canary Islands, Spain, Monday, May 11, 2026. Nebraska Medicine's Davis Global Center is seen on Sunday, May 10,2026 in Omaha, Neb. where American passengers from the hantavirus-stricken cruise ship will quarantine. An oncologist traveling on the cruise ship at the center of a hantavirus outbreak says he’s the lone American isolated at a special biocontainment unit in Nebraska. While 15 other Americans are being monitored at the National Quarantine Unit at the University of Nebraska Medical Center in Omaha, Kornfeld was the only one taken to a separate unit after a nasal swab he took on the ship tested positive for the virus. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days.",
+      "content": "Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit An oncologist traveling on the cruise ship at the center of a hantavirus outbreak has been cleared to leave a special biocontainment unit in Nebraska, where he was the lone American placed in isolation after he helped care for fellow passengers who became sick on board. Dr. Stephen Kornfeld of Bend, Oregon, was among more than 120 passengers and crew evacuated from the ship and flown to different countries to enter quarantine. Kornfeld was brought to the University of Nebraska Medical Center in Omaha with 15 other Americans, but he was the only one taken to an isolated biocontainment unit after a nasal swab he took on the ship produced inconclusive results about whether he had the virus. On Wednesday, the hospital announced that Kornfeld will now join the 15 other Americans who were taken for monitoring at the National Quarantine Unit, instead of the biocontainment unit, according to hospital spokesperson Kayla Thomas. Kornfeld appeared on CNN’s “Erin Burnett OutFront” on a video call from his hospital room Tuesday, saying, “I feel wonderful, 100%.” He said there was a period on the ship when he came down with flu-like symptoms including night sweats, chills and fatigue but he said he has no symptoms now. The World Health Organization said Wednesday that a total of 11 hantavirus cases linked to the cruise have been reported worldwide, including three deaths. Eight cases have been confirmed by laboratory tests. Kornfeld said a nasal swab he took on the ship was later tested twice in the Netherlands. One result came back negative, the other positive. Earlier this week, he was awaiting results from a new test taken when he returned to the U.S. “The initial test that we received was from abroad and it was inconclusive in its results,” Dr. David Fitter of the U.S. Centers for Disease Control and Prevention told reporters Wednesday. In addition to the passengers taken to Nebraska, two other Americans are being monitored at the serious communicable disease unit at Emory University Hospital in Atlanta. Health authorities say it is the first hantavirus outbreak on a cruise ship. While there is no cure or vaccine for hantavirus, the WHO says early detection and treatment improves survival rates. Public health officials say the risk to the general public from the cruise ship outbreak is low. Hantavirus usually spreads from rodent droppings and is not easily transmitted between people, though the Andes virus detected on the Hondius may be able to spread between people in rare cases. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days. Kornfeld described his quarters at the biocontainment unit in Nebraska as a hospital room with a comfortable bed. “It’s a little weird being in here by myself,” he said before he was cleared to leave. “But the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "apnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.660553433212481
+    },
+    {
+      "id": "src_c64b7a6e8cea",
+      "title": "CDC Provides Update on Hantavirus Outbreak Linked to M/V ...",
+      "url": "https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#",
+      "snippet": "[Skip directly to site content](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content)[Skip directly to search](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#cdc-search__input). [Here's how you know](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#gov-notice). [CDC Newsroom](https://www.cdc.gov/media/index.html). [For Everyone](https://www.cdc.gov/media/index.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). *   [View all](https://www.cdc.gov/media/site.html#gen). [Home](https://www.cdc.gov/media/index.html). [_search_](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [CDC Newsroom](https://www.cdc.gov/media/index.html) Menu. *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [CDC Newsroom](https://www.cdc.gov/media/index.html). [Releases](https://www.cdc.gov/media/releases/index.html)[Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html)[View Menu](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). [Sources](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content-sources)[Print](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#print)[Share](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#share). [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html)[](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html \"Share to Facebook\")[LinkedIn](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to LinkedIn\")[Twitter](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to Twitter\")[Syndicate](https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent \"Embed this Page\"). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). ## [CDC Newsroom](https://www.cdc.gov/media/index.html). [View All](https://www.cdc.gov/media/site.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#languages). [Languages](https://www.cdc.gov/other/other-languages/index.html). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Português](https://www.cdc.gov/other/language-assistance.html#Portuguese). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#archive). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-languages). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-archive). [](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html# \"Go to top\").",
+      "content": "The U.S. government is actively monitoring and responding to a hantavirus outbreak linked to the M/V Hondius cruise ship. At this time, the risk to the American public remains extremely low. CDC developed health guidance for impacted American passengers, which was delivered by the U.S. Department of State. CDC's premier infectious disease experts are continuing to work closely with international partners to develop consistent monitoring guidance. This guidance will be distributed today, in addition to resources targeted for state and local health departments. The U.S. government's top priority is the safe repatriation of American passengers. These individuals are planned to be evacuated on a U.S. government medical repatriation flight to Offutt Air Force Base in Omaha, Nebraska, where they will be transported to the National Quarantine Center at the University of Nebraska, Omaha. The CDC deployed a team of epidemiologists and medical professionals to the Canary Islands, where the M/V Hondius is expected to dock. The team will conduct an exposure risk assessment for each American passenger and provide recommendations for the level of monitoring required. An additional CDC team will deploy to Offutt AFB to support public health assessment of returning passengers.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "cdc.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6494437199440276
+    },
+    {
+      "id": "src_baf401054408",
+      "title": "16 MV Hondius passengers arrive at UNMC",
+      "url": "https://www.3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc#",
+      "snippet": "(KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test.",
+      "content": "CENTRAL OMAHA, Neb. (KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. - 16 MV Hondius passengers arrived at UNMC Monday; one tested positive for hantavirus and is in the Bio Containment Unit. - The remaining 15 passengers are being monitored in the National Quarantine Unit, the only federally funded unit of its kind in the U.S. - This strain of hantavirus has a 42-day incubation period; none of the passengers are currently experiencing symptoms. BROADCAST TRANSCRIPT: 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. Medical experts say none of the passengers are currently experiencing symptoms, but staff will provide ongoing monitoring. This strain of hantavirus has a 42-day incubation period, and it is possible the passengers could be asked to remain quarantined for that entire length of time. Passengers will have access to exercise equipment and will be able to make calls to family and friends. Angela Hewlett, medical director of the Nebraska Biocontainment Unit, described the quarantine facility. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. The unit has expanded in recent years as it has received more national acclaim. In 2018, the Department of Health and Human Services Administration for Strategic Preparedness and Response awarded the facility a $20 million grant. That money has paid for the growth of facilities and programs. Two units are now in the spotlight: the National Quarantine Unit, where healthcare providers complete quarterly training in specialized infection prevention, and the Bio Containment Unit, where infected patients receive care. The Bio Containment Unit was activated in 2014 during the Ebola outbreak and was called upon again in 2020 for COVID-19. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test. Jeffrey Gold, president of the University of Nebraska System, addressed the precautions being taken. \"We can guarantee that every single precaution that can be taken to keep our communities and our staff healthy, and of course to keep these passengers healthy will be taken,\" Gold said. Doctors say everyone at the facility will be there for at least a few more days. Each person will have a specialized monitoring and care plan that doctors develop based on their unique history and needs. This story was reported on-air by a journalist and has been converted to this platform with the assistance of AI. Our editorial team verifies all reporting on all platforms for fairness and accuracy.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "3newsnow.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6234032953009746
+    },
+    {
+      "id": "src_610401016cd1",
+      "title": "Nebraska health officials clear passenger to move to quarantine unit",
+      "url": "https://www.ketv.com/article/nebraska-health-officials-update-hantavirus/71299704#",
+      "snippet": "All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.",
+      "content": "BUT IT IS BLOCKING TRAFFIC, SO EXPECT DELAYS. A CRISIS SITUATION THERE RIGHT NOW. MORE BREAKING NEWS. ALL 16 PASSENGERS FROM THE MV HONDIUS ARE NOW BEING MONITORED IN THE NATIONAL QUARANTINE UNIT. ERIN OMAHA. INITIALLY, ONE PATIENT WAS TAKEN TO THE BIOCONTAINMENT UNIT. NEBRASKA MEDICINE SAYS THEY HAVE BEEN MEDICALLY CLEARED. OMAHA’S NEWS LEADER SPOKE WITH A LOCAL DOCTOR WHO SAYS THEY WILL CONTINUE TO DO DAILY CHECK INS. THE MOMENT SOMEONE ENTERS THAT AREA TO HOW ANYTHING EXITS TO MINIMIZE THE RISK OF ANY TRANSMISSION. AND NOW WE’VE ACTIVATED MULTIPLE TIMES. THE TEAM TRAINS REGULARLY TO MAKE SURE EVERYONE HAS THE SKILLS, MAKING SURE EVERYTHING IS WORKING CORRECTLY. YOU CAN SEE MORE OF MY INTERVIEW WITH DOCTOR COQUARD ON THIS Nebraska health officials say passenger initially taken to biocontainment unit medically cleared to move to quarantine unit Updated: 10:10 PM CDT May 13, 2026 Editorial Standards All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.Watch: Hantavirus cruise passenger speaks on quarantine at UNMCInitially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands.PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirusSince then, he has been medically cleared to move to the quarantine unit.READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meetMake sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search.NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand | OMAHA, Neb. — All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha. Watch: Hantavirus cruise passenger speaks on quarantine at UNMC Initially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands. PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirus Since then, he has been medically cleared to move to the quarantine unit. READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meet Make sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search. NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand |",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "University of Nebraska Medical MV Hondius COVID-19",
+      "canonical_url": "https://ketv.com/article/nebraska-health-officials-update-hantavirus/71299704",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "ketv.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6222324903517397
+    },
+    {
+      "id": "src_870db8bbe7f5",
+      "title": "Hantavirus-hit cruise ship arrives in Tenerife, passengers expected to return home | CNN",
+      "url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl#",
+      "snippet": "Security and health officials operate at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. A security officer operates at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. The cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. A passenger stands on a balcony of the Dutch flagged hantavirus-stricken cruise ship MV Hondius as it arrives to the industrial port of Granadilla de Abona on the island of Tenerife in Spain's Canary Islands to commence evacuation of passengers and most crew members on May 10, 2026.",
+      "content": "EDITOR’S NOTE: For the latest updates on this story, follow our live coverage here. All of the passengers of the MV Hondius and some of its crew have been evacuated from the hantavirus-hit cruise ship, as authorities continue to test people and monitor symptoms of the rare virus that has triggered an international health response. Passengers were seen being ferried from the MV Hondius, anchored at the Port of Granadilla near the Spanish island of Tenerife, to the island on Sunday after the ship arrived earlier in the day carrying 147 people. Evacuations involved 94 passengers of 19 nationalities, according to Spanish health authorities. The last of the passengers left the ship on Monday, some waving goodbye to the vessel before heading to their evacuation flights after more than five weeks at sea. A total number of 122 individuals were repatriated to their home countries and the Netherlands, including 35 crew members and 87 guests, according to the tour operator Oceanwide Expeditions. One of the 17 American passengers who was evacuated from the ship Sunday tested “mildly” positive for the Andes strain of the virus on a PCR test, while a second is showing mild symptoms, the US Department of Health and Human Services said. Spanish authorities have ruled the “mildly” positive case out, calling it inconclusive. A French woman who was on board the MV Hondius has also tested positive for hantavirus and is being treated in a specialist hospital, French Health Minister Stephanie Rist told French radio station France Inter Monday. The passenger began exhibiting symptoms during her return to France and tested positive upon arrival. Her health deteriorated overnight, Rist said. Experts have sought to assuage fears of a new pandemic, with WHO chief Tedros Adhanom Ghebreyesus stressing the virus is “not another Covid-19” and the risk to the public remains low. The WHO director general said that he expected “more cases” to emerge among passengers due to the six to eight-week incubation period of the virus. However, he stressed that all passengers were in “good hands” with access to excellent medical care now they had disembarked the ship. There have been nine reported cases and seven confirmed cases of hantavirus in the outbreak so far, according to the World Health Organization (WHO). The US passengers landed early Monday in Nebraska, home to the National Quarantine Unit. The passenger who tested positive and the symptomatic passenger traveled in the plane’s biocontainment units “out of an abundance of caution,” HHS said. In a Monday statement, the Spanish Ministry of Health said that while US authorities had classified one of the passengers as a “weak” positive, European health officials said the test was inconclusive. It said the symptomatic American passenger “developed a mild cough on May 6” that resolved a day later. “The doctors did not consider classifying the individual as a probable case,” it said. CNN has reached out to HHS for more information. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. local time. After coming ashore, passengers filed onto waiting buses to be taken to the airport. From there, they were evacuated to their home countries. The carefully managed repatriation operation involving multiple nations went “according to plan,” García told a news conference at the port on Sunday. Since the vessel departed Argentina last month, the deaths of three people have been linked to hantavirus -–– a rare disease typically caused by exposure to infected rodents’ urine or feces –– while others have been evacuated from the ship for medical treatment. In a video message posted Monday, the ship’s captain Jan Dobrogowski called the past few weeks “extremely challenging” and thanked his crew for the “courage and the selfless resolve that they showed time and again in the most difficult moments.” Dobrogowski said he was touched b",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl",
+      "published_at": "2026-05-10T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5993288987953035
+    },
+    {
+      "id": "src_3737cd90b98e",
+      "title": "Andes hantavirus outbreak in cruise ship, 15 May 2026 - ECDC",
+      "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#",
+      "snippet": "[Skip to main content](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#main-content). [Other sites](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#). *   [ECDC](https://www.ecdc.europa.eu/en/home). [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en). [Close](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#wtEtransModal \"Close this window\"). ### [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). *   [Related public health topics](https://www.ecdc.europa.eu/en/all-topics). *   [COVID-19](https://www.ecdc.europa.eu/en/covid-19). *   [Mpox](https://www.ecdc.europa.eu/en/mpox). *   [One Health](https://www.ecdc.europa.eu/en/one-health). *   [Publications and data](https://www.ecdc.europa.eu/en/publications-data). ### [Publications and data](https://www.ecdc.europa.eu/en/publications-data). *   [Dashboards and databases](https://www.ecdc.europa.eu/en/data). *   [Epidemiological updates](https://www.ecdc.europa.eu/en/publications-data/monitoring/epidemiological-updates). ### [Training and tools](https://www.ecdc.europa.eu/en/data-tools). *   [Training programmes](https://www.ecdc.europa.eu/en/training). *   [EpiPulse - the European surveillance portal for infectious diseases](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases). ### [Learning Portal](https://www.ecdc.europa.eu/en/publications-data/learning-portal). ### [About ECDC](https://www.ecdc.europa.eu/en/about-ecdc). *   [Who we are](https://www.ecdc.europa.eu/en/about-us/ecdcs-organisational-structure \"ECDC's mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.\"). 1.   [Home](https://www.ecdc.europa.eu/en). 2.   [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). 3.   [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). 4.   [Surveillance and updates](https://www.ecdc.europa.eu/en/hantavirus-infection/surveillance-and-disease-data). [Questions and answers on the hantavirus outbreak in a cruise ship](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/questions-answers-outbreak). [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). [Rapid Scientific Advice on the management of passengers - In the context of the Andes virus outbreak on the cruise ship MV Hondius](https://www.ecdc.europa.eu/en/publications-data/rapid-scientific-advice-management-passengers-context-andes-virus-outbreak-cruise). [Key questions about Andes hantavirus outbreak](https://www.ecdc.europa.eu/en/publications-data/key-questions-about-andes-hantavirus-outbreak). *   [Personal data protection](https://www.ecdc.europa.eu/en/personal-data-protection). *   [Cookies](https://www.ecdc.europa.eu/en/cookie-policy). *   [Accessibility](https://www.ecdc.europa.eu/en/accessibility). *   [Sitemap](https://www.ecdc.europa.eu/en/sitemap).",
+      "content": "Andes hantavirus outbreak in cruise ship, 15 May 2026 This page is updated once daily, including on weekends. This is a rapidly evolving situation and all data reflect the situation as of 14:00 on the date of publication. ECDC was notified on 2 May 2026 of a cluster of severe respiratory illness on MV Hondius, a Dutch-flagged cruise ship with passengers and crew from 23 countries, including nine EU/EEA countries. The virus has been identified as Andes hantavirus. As of 15 May, a total of eleven cases have been reported, including eight confirmed, two probable, and one inconclusive. No new cases or deaths have been reported since the previous update. The risk to the EU/EEA general population remains very low. Key information Latest updates Notes *A suspected case is a person who has been on or visited the same transport (e.g. ship or plane) where a confirmed or probable Andes hantavirus (ANDV) case was present, OR has been in contact with a passenger or crew member of the MV Hondius since 5 April, AND has a fever (currently or recently), plus at least one of the following symptoms: - muscle aches - chills - headache - stomach problems (such as nausea, vomiting, diarrhoea, or abdominal pain) - breathing problems (such as cough, shortness of breath, chest pain, or difficulty breathing) **A probable case is a person who has the symptoms listed above, and is known to have been in contact with a confirmed or probable ANDV case ***A confirmed case is a person who meets the suspected or probable case definition, and has a laboratory test that confirms ANDV infection (PCR or antibody test) **** An inconclusive case means awaiting further laboratory investigations. Non-case: A non-case is a person who was initially considered a suspected or probable case, but tests negative for ANDV using laboratory tests (PCR or antibody test).",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "MV Hondius cruise ship COVID-19 cases 2026",
+      "canonical_url": "https://ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "ecdc.europa.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5078909033503596
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "nbcnews.com",
+        "display_name": "NBC News",
+        "did": "did:plc:wmho6q2uiyktkam3jsvrms3s"
+      },
+      "text": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "created_at": "2026-05-15T12:56:21.453000Z",
+      "images": [],
+      "links": [
+        "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "6 weeks of quarantaine, I hope?\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin\n\nHere’s hoping that NBC is thorough, professional and deeply inquisitive in verifying the facts in this story.\n\nHere’s hoping that medical professionals are honoring their Hippocratic oaths. (I have much less trust in medical administrations.)\n\nWe shall see.\n\nDidn't that doctor in Portland just test positive?"
+    },
+    "explanation": [
+      {
+        "text": "Dr. Stephen Kornfeld, the American passenger who initially tested positive for hantavirus on the MV Hondius, has since tested negative three times and is now moved from the biocontainment to the quarantine unit in Nebraska.",
+        "source_ids": [
+          "src_90481185f94e",
+          "src_610401016cd1",
+          "src_baf401054408"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The MV Hondius, a Dutch-flagged cruise ship, was linked to an outbreak of the Andes strain of hantavirus, with a total of 11 cases confirmed globally, including 3 deaths.",
+        "source_ids": [
+          "src_870db8bbe7f5",
+          "src_3737cd90b98e"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": []
+      },
+      {
+        "text": "The Centers for Disease Control and Prevention (CDC) reported that the risk to the American public from the hantavirus outbreak aboard the MV Hondius remains low, and they are actively monitoring the situation.",
+        "source_ids": [
+          "src_c64b7a6e8cea",
+          "src_90481185f94e"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_90481185f94e",
+        "title": "Doctor isolated in Nebraska after helping passengers with hantavirus | AP News",
+        "url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad#",
+        "snippet": "# Doctor who helped ship take care of passengers with hantavirus is isolated in Nebraska medical unit. The hantavirus-stricken cruise ship MV Hondius is seen at anchor at the port of Granadilla in Tenerife, Canary Islands, Spain, Monday, May 11, 2026. Nebraska Medicine's Davis Global Center is seen on Sunday, May 10,2026 in Omaha, Neb. where American passengers from the hantavirus-stricken cruise ship will quarantine. An oncologist traveling on the cruise ship at the center of a hantavirus outbreak says he’s the lone American isolated at a special biocontainment unit in Nebraska. While 15 other Americans are being monitored at the National Quarantine Unit at the University of Nebraska Medical Center in Omaha, Kornfeld was the only one taken to a separate unit after a nasal swab he took on the ship tested positive for the virus. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days.",
+        "content": "Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit Doctor on ship who helped care for passengers with hantavirus leaves medical isolation unit An oncologist traveling on the cruise ship at the center of a hantavirus outbreak has been cleared to leave a special biocontainment unit in Nebraska, where he was the lone American placed in isolation after he helped care for fellow passengers who became sick on board. Dr. Stephen Kornfeld of Bend, Oregon, was among more than 120 passengers and crew evacuated from the ship and flown to different countries to enter quarantine. Kornfeld was brought to the University of Nebraska Medical Center in Omaha with 15 other Americans, but he was the only one taken to an isolated biocontainment unit after a nasal swab he took on the ship produced inconclusive results about whether he had the virus. On Wednesday, the hospital announced that Kornfeld will now join the 15 other Americans who were taken for monitoring at the National Quarantine Unit, instead of the biocontainment unit, according to hospital spokesperson Kayla Thomas. Kornfeld appeared on CNN’s “Erin Burnett OutFront” on a video call from his hospital room Tuesday, saying, “I feel wonderful, 100%.” He said there was a period on the ship when he came down with flu-like symptoms including night sweats, chills and fatigue but he said he has no symptoms now. The World Health Organization said Wednesday that a total of 11 hantavirus cases linked to the cruise have been reported worldwide, including three deaths. Eight cases have been confirmed by laboratory tests. Kornfeld said a nasal swab he took on the ship was later tested twice in the Netherlands. One result came back negative, the other positive. Earlier this week, he was awaiting results from a new test taken when he returned to the U.S. “The initial test that we received was from abroad and it was inconclusive in its results,” Dr. David Fitter of the U.S. Centers for Disease Control and Prevention told reporters Wednesday. In addition to the passengers taken to Nebraska, two other Americans are being monitored at the serious communicable disease unit at Emory University Hospital in Atlanta. Health authorities say it is the first hantavirus outbreak on a cruise ship. While there is no cure or vaccine for hantavirus, the WHO says early detection and treatment improves survival rates. Public health officials say the risk to the general public from the cruise ship outbreak is low. Hantavirus usually spreads from rodent droppings and is not easily transmitted between people, though the Andes virus detected on the Hondius may be able to spread between people in rare cases. The WHO is recommending that passengers and crew from the cruise ship stay in quarantine, either at home or other facilities, for 42 days. Kornfeld described his quarters at the biocontainment unit in Nebraska as a hospital room with a comfortable bed. “It’s a little weird being in here by myself,” he said before he was cleared to leave. “But the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.”",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "University of Nebraska Medical MV Hondius COVID-19",
+        "canonical_url": "https://apnews.com/article/hantavirus-hondius-cruise-ship-doctor-nebraska-isolation-72daa0e1ff672c8c22b6851f4c5e3cad",
+        "published_at": "2026-05-13T00:00:00",
+        "publisher": "apnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_c64b7a6e8cea",
+        "title": "CDC Provides Update on Hantavirus Outbreak Linked to M/V ...",
+        "url": "https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#",
+        "snippet": "[Skip directly to site content](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content)[Skip directly to search](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#cdc-search__input). [Here's how you know](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#gov-notice). [CDC Newsroom](https://www.cdc.gov/media/index.html). [For Everyone](https://www.cdc.gov/media/index.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). *   [View all](https://www.cdc.gov/media/site.html#gen). [Home](https://www.cdc.gov/media/index.html). [_search_](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [CDC Newsroom](https://www.cdc.gov/media/index.html) Menu. *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [CDC Newsroom](https://www.cdc.gov/media/index.html). [Releases](https://www.cdc.gov/media/releases/index.html)[Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html)[View Menu](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). [Sources](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#content-sources)[Print](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#print)[Share](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#share). [](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html)[](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship)[](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#). [Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html \"Share to Facebook\")[LinkedIn](https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&title=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to LinkedIn\")[Twitter](http://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov%2Fmedia%2Freleases%2F2026%2F2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html&text=CDC%20Provides%20Update%20on%20Hantavirus%20Outbreak%20Linked%20to%20M%2FV%C2%A0Hondius%C2%A0Cruise%20Ship \"Share to Twitter\")[Syndicate](https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent \"Embed this Page\"). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Statement on the M/V Hondius Cruise Ship](https://www.cdc.gov/media/releases/2026-hantavirus-confirmed-cruise-ship.html). Take steps to protect your flocks and families.](https://www.cdc.gov/media/releases/2026/2026-cdc-announces-salmonella-outbreak-in-13-states-linked-to-backyard-poultry-take-steps-to-protect.html). ## [CDC Newsroom](https://www.cdc.gov/media/index.html). [View All](https://www.cdc.gov/media/site.html). *   [Releases](https://www.cdc.gov/media/releases/index.html). *   [Contact Media Relations](https://www.cdc.gov/media/contact-us/index.html). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#languages). [Languages](https://www.cdc.gov/other/other-languages/index.html). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Português](https://www.cdc.gov/other/language-assistance.html#Portuguese). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#archive). [Contact Us](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-contactUs). [About CDC](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-aboutCDC). [Policies](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-policies). [Languages](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-languages). *   [Español](https://www.cdc.gov/other/language-assistance.html#Spanish). *   [한국어](https://www.cdc.gov/other/language-assistance.html#Korean). *   [Français](https://www.cdc.gov/other/language-assistance.html#French). *   [Polski](https://www.cdc.gov/other/language-assistance.html#Polish). *   [Italiano](https://www.cdc.gov/other/language-assistance.html#Italian). *   [Deutsch](https://www.cdc.gov/other/language-assistance.html#German). *   [日本語](https://www.cdc.gov/other/language-assistance.html#Japanese). *   [فارسی](https://www.cdc.gov/other/language-assistance.html#Farsi). *   [English](https://www.cdc.gov/other/language-assistance.html#English). [Archive](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html#mobile-footer-archive). [](https://www.cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html# \"Go to top\").",
+        "content": "The U.S. government is actively monitoring and responding to a hantavirus outbreak linked to the M/V Hondius cruise ship. At this time, the risk to the American public remains extremely low. CDC developed health guidance for impacted American passengers, which was delivered by the U.S. Department of State. CDC's premier infectious disease experts are continuing to work closely with international partners to develop consistent monitoring guidance. This guidance will be distributed today, in addition to resources targeted for state and local health departments. The U.S. government's top priority is the safe repatriation of American passengers. These individuals are planned to be evacuated on a U.S. government medical repatriation flight to Offutt Air Force Base in Omaha, Nebraska, where they will be transported to the National Quarantine Center at the University of Nebraska, Omaha. The CDC deployed a team of epidemiologists and medical professionals to the Canary Islands, where the M/V Hondius is expected to dock. The team will conduct an exposure risk assessment for each American passenger and provide recommendations for the level of monitoring required. An additional CDC team will deploy to Offutt AFB to support public health assessment of returning passengers.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "MV Hondius cruise ship COVID-19 cases 2026",
+        "canonical_url": "https://cdc.gov/media/releases/2026/2026-cdc-provides-update-on-hantavirus-outbreak-linked-to-m-v-hondius-cruise-ship.html",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "cdc.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "src_baf401054408",
+        "title": "16 MV Hondius passengers arrive at UNMC",
+        "url": "https://www.3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc#",
+        "snippet": "(KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test.",
+        "content": "CENTRAL OMAHA, Neb. (KMTV) – One passenger is being held in the Bio Containment Unit while 15 others are monitored in the National Quarantine Unit on the UNMC campus. - 16 MV Hondius passengers arrived at UNMC Monday; one tested positive for hantavirus and is in the Bio Containment Unit. - The remaining 15 passengers are being monitored in the National Quarantine Unit, the only federally funded unit of its kind in the U.S. - This strain of hantavirus has a 42-day incubation period; none of the passengers are currently experiencing symptoms. BROADCAST TRANSCRIPT: 16 passengers from the MV Hondius arrived at the University of Nebraska Medical Center campus early Monday morning. One passenger tested positive for hantavirus and is being held in the Bio Containment Unit. The remaining 15 passengers are being monitored in the National Quarantine Unit. Medical experts say none of the passengers are currently experiencing symptoms, but staff will provide ongoing monitoring. This strain of hantavirus has a 42-day incubation period, and it is possible the passengers could be asked to remain quarantined for that entire length of time. Passengers will have access to exercise equipment and will be able to make calls to family and friends. Angela Hewlett, medical director of the Nebraska Biocontainment Unit, described the quarantine facility. \"Our quarantine unit is designed for well individuals that need to be monitored, it is not a patient care space, it is much more like a hotel than a patient care space, we don't have the typical things you would see in a hospital room, it's much more comfortable,\" Hewlett said. The 20-bed National Quarantine Unit is the only federally funded unit in the U.S. and is a part of the National Quarantine Center. The unit has expanded in recent years as it has received more national acclaim. In 2018, the Department of Health and Human Services Administration for Strategic Preparedness and Response awarded the facility a $20 million grant. That money has paid for the growth of facilities and programs. Two units are now in the spotlight: the National Quarantine Unit, where healthcare providers complete quarterly training in specialized infection prevention, and the Bio Containment Unit, where infected patients receive care. The Bio Containment Unit was activated in 2014 during the Ebola outbreak and was called upon again in 2020 for COVID-19. Doctors say the passenger being held in the Bio Containment Unit is doing well and is not currently experiencing any symptoms despite the positive test. Jeffrey Gold, president of the University of Nebraska System, addressed the precautions being taken. \"We can guarantee that every single precaution that can be taken to keep our communities and our staff healthy, and of course to keep these passengers healthy will be taken,\" Gold said. Doctors say everyone at the facility will be there for at least a few more days. Each person will have a specialized monitoring and care plan that doctors develop based on their unique history and needs. This story was reported on-air by a journalist and has been converted to this platform with the assistance of AI. Our editorial team verifies all reporting on all platforms for fairness and accuracy.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "University of Nebraska Medical MV Hondius COVID-19",
+        "canonical_url": "https://3newsnow.com/central-omaha/16-mv-hondius-passengers-arrive-at-unmc",
+        "published_at": "2026-05-11T00:00:00",
+        "publisher": "3newsnow.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_610401016cd1",
+        "title": "Nebraska health officials clear passenger to move to quarantine unit",
+        "url": "https://www.ketv.com/article/nebraska-health-officials-update-hantavirus/71299704#",
+        "snippet": "All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.",
+        "content": "BUT IT IS BLOCKING TRAFFIC, SO EXPECT DELAYS. A CRISIS SITUATION THERE RIGHT NOW. MORE BREAKING NEWS. ALL 16 PASSENGERS FROM THE MV HONDIUS ARE NOW BEING MONITORED IN THE NATIONAL QUARANTINE UNIT. ERIN OMAHA. INITIALLY, ONE PATIENT WAS TAKEN TO THE BIOCONTAINMENT UNIT. NEBRASKA MEDICINE SAYS THEY HAVE BEEN MEDICALLY CLEARED. OMAHA’S NEWS LEADER SPOKE WITH A LOCAL DOCTOR WHO SAYS THEY WILL CONTINUE TO DO DAILY CHECK INS. THE MOMENT SOMEONE ENTERS THAT AREA TO HOW ANYTHING EXITS TO MINIMIZE THE RISK OF ANY TRANSMISSION. AND NOW WE’VE ACTIVATED MULTIPLE TIMES. THE TEAM TRAINS REGULARLY TO MAKE SURE EVERYONE HAS THE SKILLS, MAKING SURE EVERYTHING IS WORKING CORRECTLY. YOU CAN SEE MORE OF MY INTERVIEW WITH DOCTOR COQUARD ON THIS Nebraska health officials say passenger initially taken to biocontainment unit medically cleared to move to quarantine unit Updated: 10:10 PM CDT May 13, 2026 Editorial Standards All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha.Watch: Hantavirus cruise passenger speaks on quarantine at UNMCInitially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands.PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirusSince then, he has been medically cleared to move to the quarantine unit.READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meetMake sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search.NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand | OMAHA, Neb. — All 16 passengers from the MV Hondius are now under quarantine at the Davis Global Center in Omaha. Watch: Hantavirus cruise passenger speaks on quarantine at UNMC Initially, one person was taken to the biocontainment unit in Nebraska following their arrival from the Canary Islands. PREVIOUS COVERAGE: Doctor in Omaha isolation says he’s being monitored after testing positive for hantavirus Since then, he has been medically cleared to move to the quarantine unit. READ MORE: American passengers exposed to hantavirus have the option to leave quarantine, requirements they need to meet Make sure you can always see the latest news, weather, sports and more from KETV NewsWatch 7 on Google search. NAVIGATE: Home | Weather | Local News | National | Sports | Newscasts on demand |",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "University of Nebraska Medical MV Hondius COVID-19",
+        "canonical_url": "https://ketv.com/article/nebraska-health-officials-update-hantavirus/71299704",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "ketv.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_870db8bbe7f5",
+        "title": "Hantavirus-hit cruise ship arrives in Tenerife, passengers expected to return home | CNN",
+        "url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl#",
+        "snippet": "Security and health officials operate at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. A security officer operates at the port of Granadilla de Abona following the arrival of the cruise ship MV Hondius after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. The cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife, Spain, on May 10, 2026. A passenger stands on a balcony of the Dutch flagged hantavirus-stricken cruise ship MV Hondius as it arrives to the industrial port of Granadilla de Abona on the island of Tenerife in Spain's Canary Islands to commence evacuation of passengers and most crew members on May 10, 2026.",
+        "content": "EDITOR’S NOTE: For the latest updates on this story, follow our live coverage here. All of the passengers of the MV Hondius and some of its crew have been evacuated from the hantavirus-hit cruise ship, as authorities continue to test people and monitor symptoms of the rare virus that has triggered an international health response. Passengers were seen being ferried from the MV Hondius, anchored at the Port of Granadilla near the Spanish island of Tenerife, to the island on Sunday after the ship arrived earlier in the day carrying 147 people. Evacuations involved 94 passengers of 19 nationalities, according to Spanish health authorities. The last of the passengers left the ship on Monday, some waving goodbye to the vessel before heading to their evacuation flights after more than five weeks at sea. A total number of 122 individuals were repatriated to their home countries and the Netherlands, including 35 crew members and 87 guests, according to the tour operator Oceanwide Expeditions. One of the 17 American passengers who was evacuated from the ship Sunday tested “mildly” positive for the Andes strain of the virus on a PCR test, while a second is showing mild symptoms, the US Department of Health and Human Services said. Spanish authorities have ruled the “mildly” positive case out, calling it inconclusive. A French woman who was on board the MV Hondius has also tested positive for hantavirus and is being treated in a specialist hospital, French Health Minister Stephanie Rist told French radio station France Inter Monday. The passenger began exhibiting symptoms during her return to France and tested positive upon arrival. Her health deteriorated overnight, Rist said. Experts have sought to assuage fears of a new pandemic, with WHO chief Tedros Adhanom Ghebreyesus stressing the virus is “not another Covid-19” and the risk to the public remains low. The WHO director general said that he expected “more cases” to emerge among passengers due to the six to eight-week incubation period of the virus. However, he stressed that all passengers were in “good hands” with access to excellent medical care now they had disembarked the ship. There have been nine reported cases and seven confirmed cases of hantavirus in the outbreak so far, according to the World Health Organization (WHO). The US passengers landed early Monday in Nebraska, home to the National Quarantine Unit. The passenger who tested positive and the symptomatic passenger traveled in the plane’s biocontainment units “out of an abundance of caution,” HHS said. In a Monday statement, the Spanish Ministry of Health said that while US authorities had classified one of the passengers as a “weak” positive, European health officials said the test was inconclusive. It said the symptomatic American passenger “developed a mild cough on May 6” that resolved a day later. “The doctors did not consider classifying the individual as a probable case,” it said. CNN has reached out to HHS for more information. Prior to disembarking, medical teams boarded the ship to run tests on passengers and crew, Spain’s health minister Mónica García said shortly before 8 a.m. local time. After coming ashore, passengers filed onto waiting buses to be taken to the airport. From there, they were evacuated to their home countries. The carefully managed repatriation operation involving multiple nations went “according to plan,” García told a news conference at the port on Sunday. Since the vessel departed Argentina last month, the deaths of three people have been linked to hantavirus -–– a rare disease typically caused by exposure to infected rodents’ urine or feces –– while others have been evacuated from the ship for medical treatment. In a video message posted Monday, the ship’s captain Jan Dobrogowski called the past few weeks “extremely challenging” and thanked his crew for the “courage and the selfless resolve that they showed time and again in the most difficult moments.” Dobrogowski said he was touched b",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "MV Hondius cruise ship COVID-19 cases 2026",
+        "canonical_url": "https://edition.cnn.com/2026/05/10/europe/hantavirus-cruise-ship-tenerife-arrive-hnk-intl",
+        "published_at": "2026-05-10T00:00:00",
+        "publisher": "edition.cnn.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_3737cd90b98e",
+        "title": "Andes hantavirus outbreak in cruise ship, 15 May 2026 - ECDC",
+        "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#",
+        "snippet": "[Skip to main content](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#main-content). [Other sites](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#). *   [ECDC](https://www.ecdc.europa.eu/en/home). [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en). [Close](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak#wtEtransModal \"Close this window\"). ### [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). *   [Related public health topics](https://www.ecdc.europa.eu/en/all-topics). *   [COVID-19](https://www.ecdc.europa.eu/en/covid-19). *   [Mpox](https://www.ecdc.europa.eu/en/mpox). *   [One Health](https://www.ecdc.europa.eu/en/one-health). *   [Publications and data](https://www.ecdc.europa.eu/en/publications-data). ### [Publications and data](https://www.ecdc.europa.eu/en/publications-data). *   [Dashboards and databases](https://www.ecdc.europa.eu/en/data). *   [Epidemiological updates](https://www.ecdc.europa.eu/en/publications-data/monitoring/epidemiological-updates). ### [Training and tools](https://www.ecdc.europa.eu/en/data-tools). *   [Training programmes](https://www.ecdc.europa.eu/en/training). *   [EpiPulse - the European surveillance portal for infectious diseases](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases). ### [Learning Portal](https://www.ecdc.europa.eu/en/publications-data/learning-portal). ### [About ECDC](https://www.ecdc.europa.eu/en/about-ecdc). *   [Who we are](https://www.ecdc.europa.eu/en/about-us/ecdcs-organisational-structure \"ECDC's mission is to identify, assess and communicate current and emerging threats to human health posed by infectious diseases.\"). 1.   [Home](https://www.ecdc.europa.eu/en). 2.   [Infectious disease topics](https://www.ecdc.europa.eu/en/all-topics). 3.   [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). 4.   [Surveillance and updates](https://www.ecdc.europa.eu/en/hantavirus-infection/surveillance-and-disease-data). [Questions and answers on the hantavirus outbreak in a cruise ship](https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/questions-answers-outbreak). [Hantavirus infection](https://www.ecdc.europa.eu/en/hantavirus-infection). [Rapid Scientific Advice on the management of passengers - In the context of the Andes virus outbreak on the cruise ship MV Hondius](https://www.ecdc.europa.eu/en/publications-data/rapid-scientific-advice-management-passengers-context-andes-virus-outbreak-cruise). [Key questions about Andes hantavirus outbreak](https://www.ecdc.europa.eu/en/publications-data/key-questions-about-andes-hantavirus-outbreak). *   [Personal data protection](https://www.ecdc.europa.eu/en/personal-data-protection). *   [Cookies](https://www.ecdc.europa.eu/en/cookie-policy). *   [Accessibility](https://www.ecdc.europa.eu/en/accessibility). *   [Sitemap](https://www.ecdc.europa.eu/en/sitemap).",
+        "content": "Andes hantavirus outbreak in cruise ship, 15 May 2026 This page is updated once daily, including on weekends. This is a rapidly evolving situation and all data reflect the situation as of 14:00 on the date of publication. ECDC was notified on 2 May 2026 of a cluster of severe respiratory illness on MV Hondius, a Dutch-flagged cruise ship with passengers and crew from 23 countries, including nine EU/EEA countries. The virus has been identified as Andes hantavirus. As of 15 May, a total of eleven cases have been reported, including eight confirmed, two probable, and one inconclusive. No new cases or deaths have been reported since the previous update. The risk to the EU/EEA general population remains very low. Key information Latest updates Notes *A suspected case is a person who has been on or visited the same transport (e.g. ship or plane) where a confirmed or probable Andes hantavirus (ANDV) case was present, OR has been in contact with a passenger or crew member of the MV Hondius since 5 April, AND has a fever (currently or recently), plus at least one of the following symptoms: - muscle aches - chills - headache - stomach problems (such as nausea, vomiting, diarrhoea, or abdominal pain) - breathing problems (such as cough, shortness of breath, chest pain, or difficulty breathing) **A probable case is a person who has the symptoms listed above, and is known to have been in contact with a confirmed or probable ANDV case ***A confirmed case is a person who meets the suspected or probable case definition, and has a laboratory test that confirms ANDV infection (PCR or antibody test) **** An inconclusive case means awaiting further laboratory investigations. Non-case: A non-case is a person who was initially considered a suspected or probable case, but tests negative for ANDV using laboratory tests (PCR or antibody test).",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "MV Hondius cruise ship COVID-19 cases 2026",
+        "canonical_url": "https://ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "ecdc.europa.eu",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 27597
+  }
+}

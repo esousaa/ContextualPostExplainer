@@ -1,0 +1,131 @@
+cases:
+  - id: tc01_public_launch
+    description: "Post sobre lançamento público de produto"
+    post_fixture: fixtures/posts/tc01_public_launch.json
+    evidence_fixture: fixtures/evidence/tc01_public_launch.json
+    must_include_facts:
+      - "The post references a public launch"
+      - "The launch introduced a hosted canvas workflow"
+    must_not_claim:
+      - "The launch was cancelled"
+    minimum_sources: 1
+    tags: [product, launch]
+
+  - id: tc02_thread_reply
+    description: "Reply que depende do contexto do thread"
+    post_fixture: fixtures/posts/tc02_thread_reply.json
+    evidence_fixture: fixtures/evidence/tc02_thread_reply.json
+    must_include_facts:
+      - "The reply responds to a benchmark discussion"
+      - "The source explains the benchmark context"
+    must_not_claim:
+      - "The benchmark is private"
+    minimum_sources: 1
+    tags: [thread, benchmark]
+
+  - id: tc03_external_link
+    description: "Post com link externo"
+    post_fixture: fixtures/posts/tc03_external_link.json
+    evidence_fixture: fixtures/evidence/tc03_external_link.json
+    must_include_facts:
+      - "The linked article discusses retrieval augmented generation"
+      - "The post points readers to an external article"
+    must_not_claim:
+      - "The article is a legal filing"
+    minimum_sources: 1
+    tags: [link, rag]
+
+  - id: tc04_quote_post
+    description: "Quote-post com referência técnica"
+    post_fixture: fixtures/posts/tc04_quote_post.json
+    evidence_fixture: fixtures/evidence/tc04_quote_post.json
+    must_include_facts:
+      - "The quoted post discusses open model releases"
+      - "The context is about model availability"
+    must_not_claim:
+      - "The model is proprietary only"
+    minimum_sources: 1
+    tags: [quote, models]
+
+  - id: tc05_image_alt
+    description: "Post com imagem e alt text"
+    post_fixture: fixtures/posts/tc05_image_alt.json
+    evidence_fixture: fixtures/evidence/tc05_image_alt.json
+    must_include_facts:
+      - "The image alt text describes a dashboard"
+      - "The source explains dashboard observability"
+    must_not_claim:
+      - "The image contains medical records"
+    minimum_sources: 1
+    tags: [image, observability]
+
+  - id: tc06_ambiguous_reference
+    description: "Referência ambígua que exige contexto"
+    post_fixture: fixtures/posts/tc06_ambiguous_reference.json
+    evidence_fixture: fixtures/evidence/tc06_ambiguous_reference.json
+    must_include_facts:
+      - "The reference can mean a software release train"
+      - "The evidence narrows the interpretation to deployment planning"
+    must_not_claim:
+      - "The post is about rail transport policy"
+    minimum_sources: 1
+    tags: [ambiguous, deployment]
+
+  - id: tc07_factual_claim
+    description: "Afirmação factual com fonte pública"
+    post_fixture: fixtures/posts/tc07_factual_claim.json
+    evidence_fixture: fixtures/evidence/tc07_factual_claim.json
+    must_include_facts:
+      - "The claim concerns API rate limits"
+      - "The source lists current rate limit behavior"
+    must_not_claim:
+      - "There are no rate limits"
+    minimum_sources: 1
+    tags: [factual, api]
+
+  - id: tc08_low_evidence
+    description: "Post com pouca evidência externa"
+    post_fixture: fixtures/posts/tc08_low_evidence.json
+    evidence_fixture: fixtures/evidence/tc08_low_evidence.json
+    must_include_facts: []
+    must_not_claim:
+      - "The private joke has a confirmed public origin"
+    minimum_sources: 0
+    tags: [low_evidence]
+
+  - id: tc09_recent_event
+    description: "Evento recente com contexto público"
+    post_fixture: fixtures/posts/tc09_recent_event.json
+    evidence_fixture: fixtures/evidence/tc09_recent_event.json
+    must_include_facts:
+      - "The event is described as a public beta"
+      - "The source explains the beta timeline"
+    must_not_claim:
+      - "The beta ended last year"
+    minimum_sources: 1
+    tags: [recent, beta]
+
+  - id: tc10_multi_reference
+    description: "Post com múltiplas referências"
+    post_fixture: fixtures/posts/tc10_multi_reference.json
+    evidence_fixture: fixtures/evidence/tc10_multi_reference.json
+    must_include_facts:
+      - "The post combines design systems and agent tooling"
+      - "The sources provide separate context for both references"
+    must_not_claim:
+      - "The post announces a cryptocurrency"
+    minimum_sources: 2
+    tags: [multi_reference, agents]
+
+  - id: tc11_groundedness_supported
+    description: "Caso P1 com evidência suficiente para groundedness"
+    post_fixture: fixtures/posts/tc11_groundedness_supported.json
+    evidence_fixture: fixtures/evidence/tc11_groundedness_supported.json
+    must_include_facts:
+      - "The announcement describes Rapid Canvas as a public beta"
+      - "The beta includes post URL ingestion"
+      - "The evaluation report records citation coverage and groundedness"
+    must_not_claim:
+      - "The beta requires a private vector database"
+    minimum_sources: 1
+    tags: [p1, groundedness]

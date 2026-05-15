@@ -1,0 +1,585 @@
+{
+  "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+  "mode": "live",
+  "generated_at": "2026-05-15T18:32:22.986580+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T18:31:55.113428+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.113617+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.113997+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.114128+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.114573+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.988621+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 874
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.989095+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.989198+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:31:55.989543+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:02.148216+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 6158
+    },
+    {
+      "timestamp": "2026-05-15T18:32:02.148847+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:09.716332+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6062
+    },
+    {
+      "timestamp": "2026-05-15T18:32:09.717002+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:17.967886+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 8250
+    },
+    {
+      "timestamp": "2026-05-15T18:32:17.968384+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:18.595577+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 627
+    },
+    {
+      "timestamp": "2026-05-15T18:32:18.596049+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.983692+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 4387
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.984152+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.984303+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.984649+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.984720+00:00",
+      "event": "node_completed",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T18:32:22.984956+00:00",
+      "event": "node_started",
+      "run_id": "run_2b2b405e31e7412fab9e9b7ee2299264",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/luisnassif.bsky.social/post/3mlvoq5kps22m",
+  "queries": [
+    "Dino investigação uso de emendas filme Bolsonaro",
+    "STF sigilo apuração desvio recursos Dark Horse",
+    "Luís Nassif Dino investigação emendas Bolsonaro",
+    "Dark Horse filme financiamento público Bolsonaro"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [
+      {
+        "id": "https://www.jornaldocomercio.com/politica/2026/05/1248761-no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.html",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm"
+      },
+      {
+        "id": "https://www.folhape.com.br/politica/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para/487589/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm"
+      },
+      {
+        "id": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.instagram.com/p/DWPIpopETmL/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYXKvZXgffa/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/JornalGGN/status/2055314805087449372",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/luisnassif/status/1819307201271337079",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/BlogDaCidadania/posts/dino-pgr-e-moraes-peitam-pl-m%C3%ADdia-e-mendon%C3%A7apgr-e-dino-denunciam-bolsonaristas-l/1480106160141136/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_dedae487e79e",
+        "title": "CONGRESSO REAGE À DECISÃO DE DINO POR ...",
+        "url": "https://www.youtube.com/watch?v=HRuSOYaNmsY#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_dd12217caffe",
+        "title": "FLÁVIO DINO REJEITA PEDIDOS DO GOVERNO SOBRE ...",
+        "url": "https://www.youtube.com/watch?v=21pmhQanenk#",
+        "reason": "missing_event_anchor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_a6bb19d64904",
+      "title": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro",
+      "url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/#",
+      "snippet": "Ministro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"",
+      "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), decidiu nesta sexta-feira (15) instaurar uma investigação sigilosa para apurar o suposto direcionamento de emendas parlamentares para a produção de um filme sobre a trajetória de Jair Bolsonaro (PL). A medida separa as suspeitas de irregularidades envolvendo o longa-metragem do processo principal que discute a transparência das “emendas Pix” na Corte. A decisão fundamenta-se em denúncias apresentadas pela deputada federal Tabata Amaral (PSB-SP), que aponta o uso de recursos públicos para fins de marketing eleitoral. Segundo a parlamentar, um grupo de empresas com estruturas compartilhadas e comando unificado teria recebido cerca de R$ 2,6 milhões em emendas de deputados do PL. O montante teria irrigado produtoras ligadas ao projeto cinematográfico após triangulações financeiras. O suposto esquema de triangulação A denúncia detalha que parlamentares como Alexandre Ramagem (PL-RJ), Carla Zambelli (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) enviaram recursos a empresas que funcionam em um mesmo endereço. Posteriormente, essas mesmas companhias teriam prestado serviços de marketing eleitoral aos deputados ou estariam vinculadas à produção do filme. O deputado Mário Frias (PL-SP), ex-secretário de Cultura e um dos produtores do longa, é citado como peça central no imbróglio. Ele teria realizado aportes a empresas do grupo e, na sequência, contratado serviços de campanha de outras firmas relacionadas. Até o momento, Frias foi o único dos parlamentares intimados que não se manifestou formalmente ao STF sobre o caso. Contradições sobre o financiamento A abertura do inquérito ocorre em um momento de desgaste para a pré-candidatura do senador Flávio Bolsonaro (PL-RJ) à Presidência. Recentemente, o senador admitiu ter solicitado R$ 134 milhões ao empresário Daniel Vorcaro, dono do Banco Master, para financiar a obra. Embora tenha negado inicialmente a informação revelada pelo The Intercept, Flávio recuou, alegando que a busca por investimento privado é legítima. A defesa da família Bolsonaro e de Mário Frias sustenta que a produção, intitulada “Dark Horse”, prescinde de verba estatal. “‘Dark Horse’ é uma superprodução em padrão hollywoodiano, com 100% de capital privado, ator de primeira linha, além de diretor e roteirista de renome internacional”, declarou o Frias. Os deputados citados negam qualquer irregularidade. Contudo, as investigações do STF agora buscam rastrear se houve desvio de finalidade e descumprimento das normas de rastreabilidade impostas pela Corte para a execução de emendas parlamentares.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "STF sigilo apuração desvio recursos Dark Horse",
+      "canonical_url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "jornalggn.com.br",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.9610344936335862
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @luisnassif.bsky.social",
+      "url": "https://bsky.app/profile/luisnassif.bsky.social/post/3mlvoq5kps22m",
+      "snippet": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro\n\nMinistro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"\n\njornalggn.com.br/justica-2/di...",
+      "content": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro\n\nMinistro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"\n\njornalggn.com.br/justica-2/di...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "luisnassif.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9239410301918735
+    },
+    {
+      "id": "src_ff8dc11e44fb",
+      "title": "No STF, Dino abre novo processo para apurar desvio de emendas ...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm#",
+      "snippet": "... Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo",
+      "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira, 15, a abertura de um novo processo para investigar a suspeita de envio de emendas parlamentares para custear o filme Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo nível 3, tem como base petições dos deputados Pastor Henrique Vieira (PSOL-RJ) e Tabata Amaral (PSB-SP). Em março, Dino pediu explicações da Câmara sobre o envio de emendas parlamentares para organizações ligadas à Karina Ferreira Gama, produtora do filme Dark Horse. Tabata apontou um \"ecossistema de pessoas jurídicas interconectadas\", sob o comando da roteirista. \"Tal configuração estabelece um 'grupo econômico por coordenação' que, na prática, pode estar constituindo-se como um óbice à rastreabilidade dos recursos públicos\", sustentou. O despacho que determinou o desmembramento da apuração foi proferido na mesma semana em que o site The Intercept Brasil relevou que o senador Flávio Bolsonaro (PL-RJ) negociou com o banqueiro Daniel Vorcaro um financiamento de R$ 134 milhões para financiar o filme. Segundo Dino, o desmembramento é para \"melhor organização dos atos processuais e delimitação do objeto da presente ação de controle abstrato\". A ação original, relatada por Dino, é a que trata sobre o controle de transparência e rastreabilidade das emendas parlamentares. Veja também Deixe seu comentário O autor da mensagem, e não o UOL, é o responsável pelo comentário. Leia as Regras de Uso do UOL.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "STF sigilo apuração desvio recursos Dark Horse",
+      "canonical_url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "noticias.uol.com.br",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.8604935545347943
+    },
+    {
+      "id": "src_7dc6ccec4360",
+      "title": "Dino pede explicações sobre emendas a produtora de filme de Bolsonaro",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/03/23/dino-pede-explicacoes-sobre-emendas-para-produtora-de-filme-sobre-bolsonaro.ghtm#",
+      "snippet": "# Dino pede explicações sobre emendas para produtora de filme sobre Bolsonaro. O ministro Flávio Dino, do STF (Supremo Tribunal Federal), intimou a Cmara dos Deputados e três parlamentares do PL a prestarem esclarecimentos sobre supostas irregularidades no uso de emendas para financiar um filme sobre o ex-presidente Jair Bolsonaro (PL). **Dino deu 5 dias para que a Cmara e os deputados federais Mário Frias (SP), Bia Kicis (DF) e Marcos Pollon (MS) apresentem explicações.** O ministro atendeu pedido feito pela deputada federal Tabata Amaral (PSB-SP), no mbito da ADPF (Arguição de Descumprimento de Preceito Fundamental) 854, que visa garantir transparência, rastreabilidade e moralidade na execução das emendas parlamentares. **A empresária é ainda sócia do Instituto Conhecer Brasil, que recebeu mais de R$ 100 milhões da prefeitura de São Paulo.** O contrato visa fornecimento de internet Wi-Fi em comunidades de baixa renda da cidade no último ano, segundo reportagem do Intercept Brasil. O autor da mensagem, e não o UOL, é o responsável pelo comentário.",
+      "content": "Resumo O ministro Flávio Dino, do STF (Supremo Tribunal Federal), intimou a Câmara dos Deputados e três parlamentares do PL a prestarem esclarecimentos sobre supostas irregularidades no uso de emendas para financiar um filme sobre o ex-presidente Jair Bolsonaro (PL). O que aconteceu Dino deu 5 dias para que a Câmara e os deputados federais Mário Frias (SP), Bia Kicis (DF) e Marcos Pollon (MS) apresentem explicações. O ministro atendeu pedido feito pela deputada federal Tabata Amaral (PSB-SP), no âmbito da ADPF (Arguição de Descumprimento de Preceito Fundamental) 854, que visa garantir transparência, rastreabilidade e moralidade na execução das emendas parlamentares. Tabata diz que há suspeita de que \"emendas Pix\" indicadas pelos deputados estariam financiando a cinebiografia \"Dark Horse\", sobre a vida de Bolsonaro. Ao STF, a deputada apontou a existência de um \"ecossistema\" de empresas interconectadas sob o comando de Karina Ferreira da Gama. Karina é dona da Go Up Entertainment, produtora do filme. Ela também é presidente da Academia Nacional de Cultura (ANC), empresa que já recebeu R$ 2,6 milhões para produção de uma série sobre \"heróis nacionais\", enviados por Pollon e Kicis, além dos ex-deputados federais Alexandre Ramagem e Carla Zambelli. A empresária é ainda sócia do Instituto Conhecer Brasil, que recebeu mais de R$ 100 milhões da prefeitura de São Paulo. O contrato visa fornecimento de internet Wi-Fi em comunidades de baixa renda da cidade no último ano, segundo reportagem do Intercept Brasil. Tal configuração estabelece um 'grupo econômico por coordenação' que, na prática, pode estar constituindo-se como um óbice à rastreabilidade dos recursos públicos Tabata Amaral, em ofício encaminhado ao STF Segundo Tabata, as entidades têm recebido \"emendas pix\" de parlamentares que são clientes de serviços de marketing eleitoral prestados por empresas do mesmo conglomerado. O despacho cita o exemplo de Mário Frias, a quem a Conhecer Brasil Assessoria prestou serviços na campanha para deputado federal em 2022. Tabata aponta existência de possível \"duto de recurso\" que desafia diretrizes de transparência do STF, \"misturando o erário com interesses privados e eleitorais\". Segundo a deputada, é preciso \"rigorosa fiscalização\" para impedir o \"desvio de finalidade\" dos recursos. O UOL procurou Bia Kicis e Mario Frias e tenta localizar o contato de Marcos Pollon para comentar o assunto. O espaço segue aberto para manifestação. Veja também Deixe seu comentário O autor da mensagem, e não o UOL, é o responsável pelo comentário. Leia as Regras de Uso do UOL.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Dino investigação uso de emendas filme Bolsonaro",
+      "canonical_url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/03/23/dino-pede-explicacoes-sobre-emendas-para-produtora-de-filme-sobre-bolsonaro.ghtm",
+      "published_at": "2026-03-23T00:00:00",
+      "publisher": "noticias.uol.com.br",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7622042535766047
+    },
+    {
+      "id": "src_6cb60ff98054",
+      "title": "STF apura emendas para produtora de filme sobre Bolsonaro",
+      "url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro/#",
+      "snippet": "Ministro Flávio Dino cobra esclarecimentos de Mário Frias sobre repasses a entidades ligadas à produtora de Dark Horse, filme sobre Jair Bolsonaro. Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra *Dark Horse*. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal Federal analise o mérito social e econômico do projeto beneficiado, o qual reflete o compromisso deste mandato com a promoção da cultura e da história nacional brasileira”, alega a deputada, reconhecendo que, com sua emenda, além de fomentar o setor audiovisual, tomou “uma decisão política pautada pela potencialidade de geração de valor para a sociedade, especialmente no campo da educação e da economia criativa”.",
+      "content": "Por Alex Rodrigues – Agência Brasil Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra Dark Horse. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). Tabata acusa Frias de ter destinado ao menos R$ 2 milhões à organização não governamental (ONG) Academia Nacional de Cultura (ANC), presidida pela empresária Karina Ferreira da Gama. Karina também está à frente de outras entidades e empresas, como o Instituto Conhecer Brasil (ICB) e a Go Up Entertainment, responsável por produzir o filme biográfico sobre Bolsonaro, previsto para estrear nos cinemas brasileiros em meados de setembro, semanas antes do primeiro turno das eleições. Segundo os autos da Arguição de Descumprimento de Preceito Fundamental (ADPF) nº 854, a oficial de Justiça Federal encarregada de intimar Frias esteve no gabinete do deputado, na Câmara dos Deputados, em Brasília, em ao menos três ocasiões entre março e abril. Em todas as vezes, foi atendida por assessores parlamentares que informaram que Frias estaria em São Paulo, em compromissos de campanha, e que não demonstraram “interesse em informar a agenda do parlamentar”. Emendas A denúncia apresentada por Tabata Amaral foi motivada por uma reportagem de dezembro de 2025, do site The Intercept Brasil. Segundo a publicação, a Academia Nacional de Cultura foi contemplada com R$ 2,6 milhões oriundos de emendas parlamentares destinadas por deputados federais filiados ao Partido Liberal (PL), sigla do ex-presidente Bolsonaro. Além de Frias, são citados os deputados Bia Kicis e Marcos Pollon. A partir da reportagem, Tabata sugere a formação de um grupo econômico composto por diferentes empresas e entidades atuando sob um comando único. Ela defende que isso poderia dificultar a rastreabilidade da execução da verba pública e estar indiretamente financiando produções cinematográficas de cunho ideológico. Também intimados por Dino, Bia e Pollon entregaram ao ministro seus esclarecimentos dentro do prazo estipulado. O deputado admitiu ter destinado R$ 1 milhão para a Secretaria de Cultura do Estado de São Paulo viabilizar, por intermédio da Go Up Entertainment, “a produção da série documental intitulada Heróis Nacionais – Filhos do Brasil que não se rendem”. Contudo, segundo o deputado, devido à “incapacidade da entidade beneficiária de cumprir requisito técnico essencial”, o projeto não avançou e ele redirecionou os recursos para a área da saúde, “especificamente em favor do Hospital de Amor de Barretos” (SP). “A inexistência de execução afasta, por completo, qualquer hipótese de desvio de finalidade ou irregularidade material na aplicação de recursos públicos”, sustenta Pollon. Decisão política Bia Kicis também admitiu ter destinado R$ 150 mil em recursos públicos para a realização da série Heróis Nacionais, citada por Pollon. E, assim como o deputado, pondera que a indicação não foi executada A deputada classifica a petição de Tabata Amaral como “maldosa” por, “indevidamente”, associar sua emenda “a supostas irregularidades e desvios de finalidade”, não havendo “qualquer conexão entre a emenda [parlamentar] e a obra cinematográfica Dark Horse”. “A tentativa de realizar uma amálgama entre projetos distintos, apenas por envolverem a mesma produtora ou temas de espectro conservador, constitui um erro metodológico e jurídico grave”, argumenta a deputada. Bia Kicis refuta a “leviana alegação” de que ajudou a custear, com dinheiro público, um filme sobre Jair Bolsonaro. “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Dino investigação uso de emendas filme Bolsonaro",
+      "canonical_url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "iclnoticias.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7194638506775728
+    },
+    {
+      "id": "src_b81ccb6f80bd",
+      "title": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro",
+      "url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml#",
+      "snippet": "# Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro. ## O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. O ministro do Supremo Tribunal Federal (STF), Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares. Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro. O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos.",
+      "content": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro Política Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. Por Rany Veloso — Brasília 23/03/2026 11h53 Atualizado 23/03/2026 Facebook Twitter Whatsapp Linkedin Flávio Dino, ministro do STF — Foto: Rosinei Coutinho/STF O ministro do Supremo Tribunal Federal (STF) , Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares . A decisão atende a uma denúncia da deputada federal Tabata Amaral. PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Prazo para declarar o Imposto de Renda começa nesta segunda (23) Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. ✅ Clique aqui para seguir o canal da CBN no WhatsApp Apenas a Academia Nacional de Cultura teria recebido R$ 2,6 milhões de deputados do PL. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro . Ouça o Panorama CBN: Áudio vazado faz Mendonça marcar reunião com PF; investigação rastreia dinheiro de Vorcaro; Anvisa decide sobre Ypê 15/5/2026 27min O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos 14/5/2026 24min Reações às conversas entre Flavio Bolsonaro e Vorcaro; cálculo político da crise da oposição; reunião entre Trump e Xi 14/5/2026 30min Ligação de Flávio Bolsonaro com Banco Master, subsídio à gasolina e Paulinho da Costa na Calçada da Fama 13/5/2026 25min Fim da ‘taxa das blusinhas’; reação ao veto da carne bovina brasileira pela UE; análise da Anvisa sobre a Ypê 13/5/2026 25min Ver todos os episódios Mais recente Próxima PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Zico sobre Copa do Mundo de 2026: 'Brasil não está numa distância grande de França e Espanha' Relator da Lei da Dosimetria rebate Flávio Bolsonaro e nega acordo com STF Brasil registra primeira morte por hantavírus em 2026; caso não está ligado a cruzeiro Onde assistir a Corinthians x São Paulo pelo Brasileirão e aos outros jogos deste domingo (10) Moraes suspende aplicação da Lei da Dosimetria até que STF analise ações que questionam a norma Mais da CBN Xi Jinping deve visitar EUA no outono do hemisfério norte, diz mídia estatal chinesa Líderes defendem reabertura do Estreito de Ormuz, mantêm trégua tarifária e anunciam avanços em compras de soja, aviões e petróleo. Há 23 minutos Mundo Ypê anuncia reembolso após Anvisa manter proibição de 24 produtos; veja como solicitar Para fazer o pedido é necessário preencher um formulário no site da fabricante. Há 40 minutos Brasil Titãs levam turnê de 'Cabeça Dinossauro' ao Festival de Inverno Rio 2026 Noite terá ainda Capital Inicial, Charlie Brown Jr. e Ira!; programação na Marina da Glória também reúne Ludmilla, Luísa Sonza, Seu Jorge, Marcelo D2, Belo, Nando Reis, Anavitoria, Criolo, Marina Lina e Ana Carolina Há 1 hora Cultura Agenda Cultural SP: fim de semana tem shows, musical sobre princesa Diana e festival coreano Confira o cronograma cultural. Há 1 hora Agenda Cultural São Paulo Flávio nega irregularidades ao buscar recursos com Vorcaro para financiar filme sobre Bolsonaro Flávio também disse que o projeto foi bancado exclusivamente com dinheiro privado e negou ter obrigação de comunicar aliados políticos sobre a relação com o empresário.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Dino investigação uso de emendas filme Bolsonaro",
+      "canonical_url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml",
+      "published_at": "2026-03-23T00:00:00",
+      "publisher": "cbn.globo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7012090528054568
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @luisnassif.bsky.social",
+      "url": "https://bsky.app/profile/luisnassif.bsky.social/post/3mlvoq5kps22m",
+      "snippet": "#PraTodosVerem TODOS ladrões! #eleições #Eleições2026 #Voto2026 #reels #tbt #trending  #veja",
+      "content": "#PraTodosVerem TODOS ladrões! #eleições #Eleições2026 #Voto2026 #reels #tbt #trending  #veja",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "luisnassif.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.552831947649841
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_a6bb19d64904",
+      "title": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro",
+      "url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/#",
+      "snippet": "Ministro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"",
+      "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), decidiu nesta sexta-feira (15) instaurar uma investigação sigilosa para apurar o suposto direcionamento de emendas parlamentares para a produção de um filme sobre a trajetória de Jair Bolsonaro (PL). A medida separa as suspeitas de irregularidades envolvendo o longa-metragem do processo principal que discute a transparência das “emendas Pix” na Corte. A decisão fundamenta-se em denúncias apresentadas pela deputada federal Tabata Amaral (PSB-SP), que aponta o uso de recursos públicos para fins de marketing eleitoral. Segundo a parlamentar, um grupo de empresas com estruturas compartilhadas e comando unificado teria recebido cerca de R$ 2,6 milhões em emendas de deputados do PL. O montante teria irrigado produtoras ligadas ao projeto cinematográfico após triangulações financeiras. O suposto esquema de triangulação A denúncia detalha que parlamentares como Alexandre Ramagem (PL-RJ), Carla Zambelli (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) enviaram recursos a empresas que funcionam em um mesmo endereço. Posteriormente, essas mesmas companhias teriam prestado serviços de marketing eleitoral aos deputados ou estariam vinculadas à produção do filme. O deputado Mário Frias (PL-SP), ex-secretário de Cultura e um dos produtores do longa, é citado como peça central no imbróglio. Ele teria realizado aportes a empresas do grupo e, na sequência, contratado serviços de campanha de outras firmas relacionadas. Até o momento, Frias foi o único dos parlamentares intimados que não se manifestou formalmente ao STF sobre o caso. Contradições sobre o financiamento A abertura do inquérito ocorre em um momento de desgaste para a pré-candidatura do senador Flávio Bolsonaro (PL-RJ) à Presidência. Recentemente, o senador admitiu ter solicitado R$ 134 milhões ao empresário Daniel Vorcaro, dono do Banco Master, para financiar a obra. Embora tenha negado inicialmente a informação revelada pelo The Intercept, Flávio recuou, alegando que a busca por investimento privado é legítima. A defesa da família Bolsonaro e de Mário Frias sustenta que a produção, intitulada “Dark Horse”, prescinde de verba estatal. “‘Dark Horse’ é uma superprodução em padrão hollywoodiano, com 100% de capital privado, ator de primeira linha, além de diretor e roteirista de renome internacional”, declarou o Frias. Os deputados citados negam qualquer irregularidade. Contudo, as investigações do STF agora buscam rastrear se houve desvio de finalidade e descumprimento das normas de rastreabilidade impostas pela Corte para a execução de emendas parlamentares.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "STF sigilo apuração desvio recursos Dark Horse",
+      "canonical_url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "jornalggn.com.br",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.9610344936335862
+    },
+    {
+      "id": "src_ff8dc11e44fb",
+      "title": "No STF, Dino abre novo processo para apurar desvio de emendas ...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm#",
+      "snippet": "... Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo",
+      "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira, 15, a abertura de um novo processo para investigar a suspeita de envio de emendas parlamentares para custear o filme Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo nível 3, tem como base petições dos deputados Pastor Henrique Vieira (PSOL-RJ) e Tabata Amaral (PSB-SP). Em março, Dino pediu explicações da Câmara sobre o envio de emendas parlamentares para organizações ligadas à Karina Ferreira Gama, produtora do filme Dark Horse. Tabata apontou um \"ecossistema de pessoas jurídicas interconectadas\", sob o comando da roteirista. \"Tal configuração estabelece um 'grupo econômico por coordenação' que, na prática, pode estar constituindo-se como um óbice à rastreabilidade dos recursos públicos\", sustentou. O despacho que determinou o desmembramento da apuração foi proferido na mesma semana em que o site The Intercept Brasil relevou que o senador Flávio Bolsonaro (PL-RJ) negociou com o banqueiro Daniel Vorcaro um financiamento de R$ 134 milhões para financiar o filme. Segundo Dino, o desmembramento é para \"melhor organização dos atos processuais e delimitação do objeto da presente ação de controle abstrato\". A ação original, relatada por Dino, é a que trata sobre o controle de transparência e rastreabilidade das emendas parlamentares. Veja também Deixe seu comentário O autor da mensagem, e não o UOL, é o responsável pelo comentário. Leia as Regras de Uso do UOL.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "STF sigilo apuração desvio recursos Dark Horse",
+      "canonical_url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "noticias.uol.com.br",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.8604935545347943
+    },
+    {
+      "id": "src_6cb60ff98054",
+      "title": "STF apura emendas para produtora de filme sobre Bolsonaro",
+      "url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro/#",
+      "snippet": "Ministro Flávio Dino cobra esclarecimentos de Mário Frias sobre repasses a entidades ligadas à produtora de Dark Horse, filme sobre Jair Bolsonaro. Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra *Dark Horse*. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal Federal analise o mérito social e econômico do projeto beneficiado, o qual reflete o compromisso deste mandato com a promoção da cultura e da história nacional brasileira”, alega a deputada, reconhecendo que, com sua emenda, além de fomentar o setor audiovisual, tomou “uma decisão política pautada pela potencialidade de geração de valor para a sociedade, especialmente no campo da educação e da economia criativa”.",
+      "content": "Por Alex Rodrigues – Agência Brasil Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra Dark Horse. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). Tabata acusa Frias de ter destinado ao menos R$ 2 milhões à organização não governamental (ONG) Academia Nacional de Cultura (ANC), presidida pela empresária Karina Ferreira da Gama. Karina também está à frente de outras entidades e empresas, como o Instituto Conhecer Brasil (ICB) e a Go Up Entertainment, responsável por produzir o filme biográfico sobre Bolsonaro, previsto para estrear nos cinemas brasileiros em meados de setembro, semanas antes do primeiro turno das eleições. Segundo os autos da Arguição de Descumprimento de Preceito Fundamental (ADPF) nº 854, a oficial de Justiça Federal encarregada de intimar Frias esteve no gabinete do deputado, na Câmara dos Deputados, em Brasília, em ao menos três ocasiões entre março e abril. Em todas as vezes, foi atendida por assessores parlamentares que informaram que Frias estaria em São Paulo, em compromissos de campanha, e que não demonstraram “interesse em informar a agenda do parlamentar”. Emendas A denúncia apresentada por Tabata Amaral foi motivada por uma reportagem de dezembro de 2025, do site The Intercept Brasil. Segundo a publicação, a Academia Nacional de Cultura foi contemplada com R$ 2,6 milhões oriundos de emendas parlamentares destinadas por deputados federais filiados ao Partido Liberal (PL), sigla do ex-presidente Bolsonaro. Além de Frias, são citados os deputados Bia Kicis e Marcos Pollon. A partir da reportagem, Tabata sugere a formação de um grupo econômico composto por diferentes empresas e entidades atuando sob um comando único. Ela defende que isso poderia dificultar a rastreabilidade da execução da verba pública e estar indiretamente financiando produções cinematográficas de cunho ideológico. Também intimados por Dino, Bia e Pollon entregaram ao ministro seus esclarecimentos dentro do prazo estipulado. O deputado admitiu ter destinado R$ 1 milhão para a Secretaria de Cultura do Estado de São Paulo viabilizar, por intermédio da Go Up Entertainment, “a produção da série documental intitulada Heróis Nacionais – Filhos do Brasil que não se rendem”. Contudo, segundo o deputado, devido à “incapacidade da entidade beneficiária de cumprir requisito técnico essencial”, o projeto não avançou e ele redirecionou os recursos para a área da saúde, “especificamente em favor do Hospital de Amor de Barretos” (SP). “A inexistência de execução afasta, por completo, qualquer hipótese de desvio de finalidade ou irregularidade material na aplicação de recursos públicos”, sustenta Pollon. Decisão política Bia Kicis também admitiu ter destinado R$ 150 mil em recursos públicos para a realização da série Heróis Nacionais, citada por Pollon. E, assim como o deputado, pondera que a indicação não foi executada A deputada classifica a petição de Tabata Amaral como “maldosa” por, “indevidamente”, associar sua emenda “a supostas irregularidades e desvios de finalidade”, não havendo “qualquer conexão entre a emenda [parlamentar] e a obra cinematográfica Dark Horse”. “A tentativa de realizar uma amálgama entre projetos distintos, apenas por envolverem a mesma produtora ou temas de espectro conservador, constitui um erro metodológico e jurídico grave”, argumenta a deputada. Bia Kicis refuta a “leviana alegação” de que ajudou a custear, com dinheiro público, um filme sobre Jair Bolsonaro. “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal ",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Dino investigação uso de emendas filme Bolsonaro",
+      "canonical_url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "iclnoticias.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7194638506775728
+    },
+    {
+      "id": "src_b81ccb6f80bd",
+      "title": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro",
+      "url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml#",
+      "snippet": "# Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro. ## O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. O ministro do Supremo Tribunal Federal (STF), Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares. Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro. O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos.",
+      "content": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro Política Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. Por Rany Veloso — Brasília 23/03/2026 11h53 Atualizado 23/03/2026 Facebook Twitter Whatsapp Linkedin Flávio Dino, ministro do STF — Foto: Rosinei Coutinho/STF O ministro do Supremo Tribunal Federal (STF) , Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares . A decisão atende a uma denúncia da deputada federal Tabata Amaral. PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Prazo para declarar o Imposto de Renda começa nesta segunda (23) Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. ✅ Clique aqui para seguir o canal da CBN no WhatsApp Apenas a Academia Nacional de Cultura teria recebido R$ 2,6 milhões de deputados do PL. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro . Ouça o Panorama CBN: Áudio vazado faz Mendonça marcar reunião com PF; investigação rastreia dinheiro de Vorcaro; Anvisa decide sobre Ypê 15/5/2026 27min O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos 14/5/2026 24min Reações às conversas entre Flavio Bolsonaro e Vorcaro; cálculo político da crise da oposição; reunião entre Trump e Xi 14/5/2026 30min Ligação de Flávio Bolsonaro com Banco Master, subsídio à gasolina e Paulinho da Costa na Calçada da Fama 13/5/2026 25min Fim da ‘taxa das blusinhas’; reação ao veto da carne bovina brasileira pela UE; análise da Anvisa sobre a Ypê 13/5/2026 25min Ver todos os episódios Mais recente Próxima PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Zico sobre Copa do Mundo de 2026: 'Brasil não está numa distância grande de França e Espanha' Relator da Lei da Dosimetria rebate Flávio Bolsonaro e nega acordo com STF Brasil registra primeira morte por hantavírus em 2026; caso não está ligado a cruzeiro Onde assistir a Corinthians x São Paulo pelo Brasileirão e aos outros jogos deste domingo (10) Moraes suspende aplicação da Lei da Dosimetria até que STF analise ações que questionam a norma Mais da CBN Xi Jinping deve visitar EUA no outono do hemisfério norte, diz mídia estatal chinesa Líderes defendem reabertura do Estreito de Ormuz, mantêm trégua tarifária e anunciam avanços em compras de soja, aviões e petróleo. Há 23 minutos Mundo Ypê anuncia reembolso após Anvisa manter proibição de 24 produtos; veja como solicitar Para fazer o pedido é necessário preencher um formulário no site da fabricante. Há 40 minutos Brasil Titãs levam turnê de 'Cabeça Dinossauro' ao Festival de Inverno Rio 2026 Noite terá ainda Capital Inicial, Charlie Brown Jr. e Ira!; programação na Marina da Glória também reúne Ludmilla, Luísa Sonza, Seu Jorge, Marcelo D2, Belo, Nando Reis, Anavitoria, Criolo, Marina Lina e Ana Carolina Há 1 hora Cultura Agenda Cultural SP: fim de semana tem shows, musical sobre princesa Diana e festival coreano Confira o cronograma cultural. Há 1 hora Agenda Cultural São Paulo Flávio nega irregularidades ao buscar recursos com Vorcaro para financiar filme sobre Bolsonaro Flávio também disse que o projeto foi bancado exclusivamente com dinheiro privado e negou ter obrigação de comunicar aliados políticos sobre a relação com o empresário.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Dino investigação uso de emendas filme Bolsonaro",
+      "canonical_url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml",
+      "published_at": "2026-03-23T00:00:00",
+      "publisher": "cbn.globo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7012090528054568
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "info",
+      "code": "OFFICIAL_POSITION_VIA_NEWS",
+      "message": "Official position is supported by a news outlet report rather than a primary source.",
+      "bullet_index": 3
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/luisnassif.bsky.social/post/3mlvoq5kps22m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "luisnassif.bsky.social",
+        "display_name": "Luís Nassif",
+        "did": "did:plc:4z3zpztpn35miubx3exja4uh"
+      },
+      "text": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro\n\nMinistro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"\n\njornalggn.com.br/justica-2/di...",
+      "created_at": "2026-05-15T15:50:31.776000Z",
+      "images": [],
+      "links": [
+        "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "#PraTodosVerem TODOS ladrões! #eleições #Eleições2026 #Voto2026 #reels #tbt #trending  #veja"
+    },
+    "explanation": [
+      {
+        "text": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), iniciou uma investigação sigilosa para averiguar o suposto uso indevido de emendas parlamentares para financiar o filme \"Dark Horse\", que é sobre Jair Bolsonaro.",
+        "source_ids": [
+          "src_a6bb19d64904",
+          "src_ff8dc11e44fb"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "A investigação foi motivada por denúncias apresentadas pela deputada federal Tabata Amaral, alegando que recursos públicos teriam sido desviados através de triangulações financeiras entre empresas interligadas para beneficiar a produção cinematográfica.",
+        "source_ids": [
+          "src_6cb60ff98054",
+          "src_b81ccb6f80bd"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "O processo envolve suspeitas de que emendas parlamentares, conhecidas como \"emendas Pix\", foram utilizadas por deputados do Partido Liberal (PL) para financiar indiretamente o filme, elevando questões sobre a transparência e rastreabilidade desses recursos.",
+        "source_ids": [
+          "src_6cb60ff98054",
+          "src_b81ccb6f80bd"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Flávio Bolsonaro teria solicitado R$ 134 milhões ao empresário Daniel Vorcaro para financiar o filme, mas posteriormente alegou que a produção seria financiada totalmente por capital privado.",
+        "source_ids": [
+          "src_ff8dc11e44fb",
+          "src_a6bb19d64904"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_a6bb19d64904",
+        "title": "Dino abre investigação sobre uso de emendas em filme de Bolsonaro",
+        "url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro/#",
+        "snippet": "Ministro do STF determina sigilo em apuração sobre suposto desvio de recursos públicos para financiar a produção \"Dark Horse\"",
+        "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), decidiu nesta sexta-feira (15) instaurar uma investigação sigilosa para apurar o suposto direcionamento de emendas parlamentares para a produção de um filme sobre a trajetória de Jair Bolsonaro (PL). A medida separa as suspeitas de irregularidades envolvendo o longa-metragem do processo principal que discute a transparência das “emendas Pix” na Corte. A decisão fundamenta-se em denúncias apresentadas pela deputada federal Tabata Amaral (PSB-SP), que aponta o uso de recursos públicos para fins de marketing eleitoral. Segundo a parlamentar, um grupo de empresas com estruturas compartilhadas e comando unificado teria recebido cerca de R$ 2,6 milhões em emendas de deputados do PL. O montante teria irrigado produtoras ligadas ao projeto cinematográfico após triangulações financeiras. O suposto esquema de triangulação A denúncia detalha que parlamentares como Alexandre Ramagem (PL-RJ), Carla Zambelli (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) enviaram recursos a empresas que funcionam em um mesmo endereço. Posteriormente, essas mesmas companhias teriam prestado serviços de marketing eleitoral aos deputados ou estariam vinculadas à produção do filme. O deputado Mário Frias (PL-SP), ex-secretário de Cultura e um dos produtores do longa, é citado como peça central no imbróglio. Ele teria realizado aportes a empresas do grupo e, na sequência, contratado serviços de campanha de outras firmas relacionadas. Até o momento, Frias foi o único dos parlamentares intimados que não se manifestou formalmente ao STF sobre o caso. Contradições sobre o financiamento A abertura do inquérito ocorre em um momento de desgaste para a pré-candidatura do senador Flávio Bolsonaro (PL-RJ) à Presidência. Recentemente, o senador admitiu ter solicitado R$ 134 milhões ao empresário Daniel Vorcaro, dono do Banco Master, para financiar a obra. Embora tenha negado inicialmente a informação revelada pelo The Intercept, Flávio recuou, alegando que a busca por investimento privado é legítima. A defesa da família Bolsonaro e de Mário Frias sustenta que a produção, intitulada “Dark Horse”, prescinde de verba estatal. “‘Dark Horse’ é uma superprodução em padrão hollywoodiano, com 100% de capital privado, ator de primeira linha, além de diretor e roteirista de renome internacional”, declarou o Frias. Os deputados citados negam qualquer irregularidade. Contudo, as investigações do STF agora buscam rastrear se houve desvio de finalidade e descumprimento das normas de rastreabilidade impostas pela Corte para a execução de emendas parlamentares.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "STF sigilo apuração desvio recursos Dark Horse",
+        "canonical_url": "https://jornalggn.com.br/justica-2/dino-abre-investigacao-sobre-uso-de-emendas-em-filme-de-bolsonaro",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "jornalggn.com.br",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_ff8dc11e44fb",
+        "title": "No STF, Dino abre novo processo para apurar desvio de emendas ...",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm#",
+        "snippet": "... Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo",
+        "content": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira, 15, a abertura de um novo processo para investigar a suspeita de envio de emendas parlamentares para custear o filme Dark Horse, inspirado na trajetória do ex-presidente da República Jair Bolsonaro (PL). A apuração, ainda em caráter preliminar e com sigilo nível 3, tem como base petições dos deputados Pastor Henrique Vieira (PSOL-RJ) e Tabata Amaral (PSB-SP). Em março, Dino pediu explicações da Câmara sobre o envio de emendas parlamentares para organizações ligadas à Karina Ferreira Gama, produtora do filme Dark Horse. Tabata apontou um \"ecossistema de pessoas jurídicas interconectadas\", sob o comando da roteirista. \"Tal configuração estabelece um 'grupo econômico por coordenação' que, na prática, pode estar constituindo-se como um óbice à rastreabilidade dos recursos públicos\", sustentou. O despacho que determinou o desmembramento da apuração foi proferido na mesma semana em que o site The Intercept Brasil relevou que o senador Flávio Bolsonaro (PL-RJ) negociou com o banqueiro Daniel Vorcaro um financiamento de R$ 134 milhões para financiar o filme. Segundo Dino, o desmembramento é para \"melhor organização dos atos processuais e delimitação do objeto da presente ação de controle abstrato\". A ação original, relatada por Dino, é a que trata sobre o controle de transparência e rastreabilidade das emendas parlamentares. Veja também Deixe seu comentário O autor da mensagem, e não o UOL, é o responsável pelo comentário. Leia as Regras de Uso do UOL.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "STF sigilo apuração desvio recursos Dark Horse",
+        "canonical_url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/05/15/no-stf-dino-abre-novo-processo-para-apurar-desvio-de-emendas-para-filme-de-bolsonaro.htm",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "noticias.uol.com.br",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_6cb60ff98054",
+        "title": "STF apura emendas para produtora de filme sobre Bolsonaro",
+        "url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro/#",
+        "snippet": "Ministro Flávio Dino cobra esclarecimentos de Mário Frias sobre repasses a entidades ligadas à produtora de Dark Horse, filme sobre Jair Bolsonaro. Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra *Dark Horse*. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal Federal analise o mérito social e econômico do projeto beneficiado, o qual reflete o compromisso deste mandato com a promoção da cultura e da história nacional brasileira”, alega a deputada, reconhecendo que, com sua emenda, além de fomentar o setor audiovisual, tomou “uma decisão política pautada pela potencialidade de geração de valor para a sociedade, especialmente no campo da educação e da economia criativa”.",
+        "content": "Por Alex Rodrigues – Agência Brasil Há mais de um mês, oficiais de justiça tentam cumprir uma determinação do ministro Flávio Dino, do Supremo Tribunal Federal (STF), e intimar o deputado federal Mário Frias (PL-SP) a prestar esclarecimentos sobre supostas irregularidades na destinação de emendas parlamentares a empresas da produtora artística responsável pelo filme sobre a vida do ex-presidente Jair Bolsonaro, a obra Dark Horse. Em 21 de março, o ministro Flávio Dino deu cinco dias para o parlamentar responder à denúncia da também deputada federal Tabata Amaral (PSB-SP). Tabata acusa Frias de ter destinado ao menos R$ 2 milhões à organização não governamental (ONG) Academia Nacional de Cultura (ANC), presidida pela empresária Karina Ferreira da Gama. Karina também está à frente de outras entidades e empresas, como o Instituto Conhecer Brasil (ICB) e a Go Up Entertainment, responsável por produzir o filme biográfico sobre Bolsonaro, previsto para estrear nos cinemas brasileiros em meados de setembro, semanas antes do primeiro turno das eleições. Segundo os autos da Arguição de Descumprimento de Preceito Fundamental (ADPF) nº 854, a oficial de Justiça Federal encarregada de intimar Frias esteve no gabinete do deputado, na Câmara dos Deputados, em Brasília, em ao menos três ocasiões entre março e abril. Em todas as vezes, foi atendida por assessores parlamentares que informaram que Frias estaria em São Paulo, em compromissos de campanha, e que não demonstraram “interesse em informar a agenda do parlamentar”. Emendas A denúncia apresentada por Tabata Amaral foi motivada por uma reportagem de dezembro de 2025, do site The Intercept Brasil. Segundo a publicação, a Academia Nacional de Cultura foi contemplada com R$ 2,6 milhões oriundos de emendas parlamentares destinadas por deputados federais filiados ao Partido Liberal (PL), sigla do ex-presidente Bolsonaro. Além de Frias, são citados os deputados Bia Kicis e Marcos Pollon. A partir da reportagem, Tabata sugere a formação de um grupo econômico composto por diferentes empresas e entidades atuando sob um comando único. Ela defende que isso poderia dificultar a rastreabilidade da execução da verba pública e estar indiretamente financiando produções cinematográficas de cunho ideológico. Também intimados por Dino, Bia e Pollon entregaram ao ministro seus esclarecimentos dentro do prazo estipulado. O deputado admitiu ter destinado R$ 1 milhão para a Secretaria de Cultura do Estado de São Paulo viabilizar, por intermédio da Go Up Entertainment, “a produção da série documental intitulada Heróis Nacionais – Filhos do Brasil que não se rendem”. Contudo, segundo o deputado, devido à “incapacidade da entidade beneficiária de cumprir requisito técnico essencial”, o projeto não avançou e ele redirecionou os recursos para a área da saúde, “especificamente em favor do Hospital de Amor de Barretos” (SP). “A inexistência de execução afasta, por completo, qualquer hipótese de desvio de finalidade ou irregularidade material na aplicação de recursos públicos”, sustenta Pollon. Decisão política Bia Kicis também admitiu ter destinado R$ 150 mil em recursos públicos para a realização da série Heróis Nacionais, citada por Pollon. E, assim como o deputado, pondera que a indicação não foi executada A deputada classifica a petição de Tabata Amaral como “maldosa” por, “indevidamente”, associar sua emenda “a supostas irregularidades e desvios de finalidade”, não havendo “qualquer conexão entre a emenda [parlamentar] e a obra cinematográfica Dark Horse”. “A tentativa de realizar uma amálgama entre projetos distintos, apenas por envolverem a mesma produtora ou temas de espectro conservador, constitui um erro metodológico e jurídico grave”, argumenta a deputada. Bia Kicis refuta a “leviana alegação” de que ajudou a custear, com dinheiro público, um filme sobre Jair Bolsonaro. “A despeito da tentativa de criminalizar a indicação orçamentária realizada por esta parlamentar, é fundamental que este Supremo Tribunal ",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Dino investigação uso de emendas filme Bolsonaro",
+        "canonical_url": "https://iclnoticias.com.br/stf-apura-emendas-produtora-filme-bolsonaro",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "iclnoticias.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_b81ccb6f80bd",
+        "title": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro",
+        "url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml#",
+        "snippet": "# Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro. ## O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. O ministro do Supremo Tribunal Federal (STF), Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares. Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro. O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos.",
+        "content": "Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro Política Dino dá prazo para deputados explicarem emendas a filme sobre Bolsonaro O Advogado-Geral da Câmara e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon precisam prestar esclarecimentos sobre supostas irregularidades. Por Rany Veloso — Brasília 23/03/2026 11h53 Atualizado 23/03/2026 Facebook Twitter Whatsapp Linkedin Flávio Dino, ministro do STF — Foto: Rosinei Coutinho/STF O ministro do Supremo Tribunal Federal (STF) , Flávio Dino, deu um prazo de cinco dias úteis para que o Advogado-Geral da Câmara dos Deputados e os deputados federais Mário Frias, Bia Kicis e Marcos Pollon prestem esclarecimentos sobre supostas irregularidades no repasse de emendas parlamentares . A decisão atende a uma denúncia da deputada federal Tabata Amaral. PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Prazo para declarar o Imposto de Renda começa nesta segunda (23) Segundo a parlamentar, há um esquema envolvendo recursos públicos por meio de emendas do tipo \"Pix\", que estariam sendo direcionadas a um grupo de ONGs e empresas comandadas pela mesma pessoa, Karina Ferreira da Gama. ✅ Clique aqui para seguir o canal da CBN no WhatsApp Apenas a Academia Nacional de Cultura teria recebido R$ 2,6 milhões de deputados do PL. A denúncia de possível desvio de finalidade aponta que empresas desse mesmo grupo atuaram no marketing eleitoral de políticos e que o dinheiro público pode estar financiando, de forma indireta, a produtora privada do filme \"Dark Horse\", uma cinebiografia do ex-presidente Jair Bolsonaro . Ouça o Panorama CBN: Áudio vazado faz Mendonça marcar reunião com PF; investigação rastreia dinheiro de Vorcaro; Anvisa decide sobre Ypê 15/5/2026 27min O destino do dinheiro de Vorcaro, Lula e Tarcísio falam sobre Flávio e o envolvimento de policiais e milicianos 14/5/2026 24min Reações às conversas entre Flavio Bolsonaro e Vorcaro; cálculo político da crise da oposição; reunião entre Trump e Xi 14/5/2026 30min Ligação de Flávio Bolsonaro com Banco Master, subsídio à gasolina e Paulinho da Costa na Calçada da Fama 13/5/2026 25min Fim da ‘taxa das blusinhas’; reação ao veto da carne bovina brasileira pela UE; análise da Anvisa sobre a Ypê 13/5/2026 25min Ver todos os episódios Mais recente Próxima PGR se manifesta a favor de prisão domiciliar para Jair Bolsonaro Zico sobre Copa do Mundo de 2026: 'Brasil não está numa distância grande de França e Espanha' Relator da Lei da Dosimetria rebate Flávio Bolsonaro e nega acordo com STF Brasil registra primeira morte por hantavírus em 2026; caso não está ligado a cruzeiro Onde assistir a Corinthians x São Paulo pelo Brasileirão e aos outros jogos deste domingo (10) Moraes suspende aplicação da Lei da Dosimetria até que STF analise ações que questionam a norma Mais da CBN Xi Jinping deve visitar EUA no outono do hemisfério norte, diz mídia estatal chinesa Líderes defendem reabertura do Estreito de Ormuz, mantêm trégua tarifária e anunciam avanços em compras de soja, aviões e petróleo. Há 23 minutos Mundo Ypê anuncia reembolso após Anvisa manter proibição de 24 produtos; veja como solicitar Para fazer o pedido é necessário preencher um formulário no site da fabricante. Há 40 minutos Brasil Titãs levam turnê de 'Cabeça Dinossauro' ao Festival de Inverno Rio 2026 Noite terá ainda Capital Inicial, Charlie Brown Jr. e Ira!; programação na Marina da Glória também reúne Ludmilla, Luísa Sonza, Seu Jorge, Marcelo D2, Belo, Nando Reis, Anavitoria, Criolo, Marina Lina e Ana Carolina Há 1 hora Cultura Agenda Cultural SP: fim de semana tem shows, musical sobre princesa Diana e festival coreano Confira o cronograma cultural. Há 1 hora Agenda Cultural São Paulo Flávio nega irregularidades ao buscar recursos com Vorcaro para financiar filme sobre Bolsonaro Flávio também disse que o projeto foi bancado exclusivamente com dinheiro privado e negou ter obrigação de comunicar aliados políticos sobre a relação com o empresário.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Dino investigação uso de emendas filme Bolsonaro",
+        "canonical_url": "https://cbn.globo.com/politica/noticia/2026/03/23/dino-da-cinco-dias-para-deputados-do-pl-explicarem-repasses-de-emendas-parlamentares.ghtml",
+        "published_at": "2026-03-23T00:00:00",
+        "publisher": "cbn.globo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [
+      {
+        "severity": "info",
+        "code": "OFFICIAL_POSITION_VIA_NEWS",
+        "message": "Official position is supported by a news outlet report rather than a primary source.",
+        "bullet_index": 3
+      }
+    ],
+    "execution_time_ms": 26380
+  }
+}

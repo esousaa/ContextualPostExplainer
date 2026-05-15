@@ -1,0 +1,572 @@
+{
+  "run_id": "run_7cb22594f323410384965992e4362f63",
+  "mode": "live",
+  "generated_at": "2026-05-15T17:51:53.541301+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-15T17:51:23.280871+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:23.281011+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:51:23.281340+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:23.281475+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:51:23.281782+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:24.862396+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1580
+    },
+    {
+      "timestamp": "2026-05-15T17:51:24.862872+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:24.862974+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:51:24.863296+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:26.404933+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1541
+    },
+    {
+      "timestamp": "2026-05-15T17:51:26.405692+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:32.971870+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6566
+    },
+    {
+      "timestamp": "2026-05-15T17:51:32.972555+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:46.423255+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 12019
+    },
+    {
+      "timestamp": "2026-05-15T17:51:46.423861+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:47.285719+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 861
+    },
+    {
+      "timestamp": "2026-05-15T17:51:47.286209+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.537755+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 6251
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.538251+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.538377+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.538702+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.538777+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-15T17:51:53.539006+00:00",
+      "event": "node_started",
+      "run_id": "run_7cb22594f323410384965992e4362f63",
+      "mode": "live",
+      "node_name": "finalize_response"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+  "queries": [
+    "Kamala Harris Senate voting record vs Bernie Sanders",
+    "Kamala Harris progressive priorities Senate",
+    "Kamala Harris accusations of hypocrisy progressive",
+    "Liz Cheney and Kamala Harris campaign appearance"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://x.com/RemakingManhood/status/1883637277085315412",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.washingtontimes.com/news/2024/jul/28/kamala-harris-had-more-leftist-voting-record-in-se/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://politics.stackexchange.com/questions/56345/does-kamala-harris-vote-with-trumps-position-less-often-than-bernie-sanders",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/MikeJohnsonLA04/posts/kamala-harris-was-rated-more-liberal-than-bernie-sanders-in-the-senateeven-he-kn/1055776249252856/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_7ce336d2c7f6",
+        "title": "Rep. Pramila Jayapal: Kamala Harris's Agenda Is 'Progressive'",
+        "url": "https://www.youtube.com/watch?v=Y_Y1h3YZeik#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_d45ed77ba707",
+        "title": "5 of Harris' more progressive proposals from her 2020 White House ...",
+        "url": "https://www.wral.com/story/harris-has-championed-more-progressive-ideas-than-biden/21537101/#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.831527069398181
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Just making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?\n\nYes, very progressive!\nAnyway here's Liz (\"Democrats Kill Babies\") Cheney making an appearance before campaigning with Bestie Harris.  youtu.be/gEjAejXvSpE?...\n\nI think we all know the real prob",
+      "content": "Just making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?\n\nYes, very progressive!\nAnyway here's Liz (\"Democrats Kill Babies\") Cheney making an appearance before campaigning with Bestie Harris.  youtu.be/gEjAejXvSpE?...\n\nI think we all know the real problem was the color of her skin, her sex, and her funny sounding laugh.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7724343752957309
+    },
+    {
+      "id": "src_78887bff0f77",
+      "title": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in ...",
+      "url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing#",
+      "snippet": "Sen. Bernie Sanders said Sunday he believes Vice President Kamala Harris is trying to be 'pragmatic' with her policy positions.",
+      "content": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in policy stances WASHINGTON (TND) — Sen. Bernie Sanders, I-Vt., on Sunday said Vice President Kamala Harris is still progressive despite changes in her policy positions. The senator explained in an NBC News interview he feels Harris is still liberal even though she does not sit where he does on the political spectrum. He pointed to her positions on a tax credit for families with young children, building more affordable housing units and supporting labor unions as evidence she is progressive. The vice president has proposed a $6,000 tax break for parents of kids younger than a year old, creating 3 million new homes and pushing through Congress the Protecting the Right to Organize Act, which would expand protections for unionizing workers. So yes, her views are not mine, but I do consider her a progressive,” Sen. Sanders said. He argued that Harris has tried to be \"pragmatic\" with her policy positions, some of which have changed since her first White House bid in 2019. She is no longer campaigning on granting all Americans Medicare coverage nor a ban on fracking. “I don’t think she’s abandoning her ideals,” the senator added. “I think she’s trying to be pragmatic and doing what she thinks is right in order to win the election.” READ MORE | Harris, Trump in dead heat ahead of first debate, NYT/Siena poll finds Sen. Sanders argued that Harris can win the White House if she campaigns on some policies he supports. “I think on issues like expanding Medicare, by expanding social security and lifting the cap on taxable income that the rich put in ... the need to raise the minimum wage from a starvation seven-and-a-quarter minimum wage to a living wage, I think if you campaign on those issues – raising taxes on billionaires – you know what? She’s gonna win, and I think she can win big,” the senator said. Harris’s platform featured on her campaign website centers on “building up the middle class,” restoring some reproductive protections, improving public safety and strengthening alliances. Have questions, concerns or tips? Send them to Ray at rjlewis@sbgtv.com",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris progressive priorities Senate",
+      "canonical_url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing",
+      "published_at": "2024-09-09T00:00:00",
+      "publisher": "mynbc15.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.737611663323311
+    },
+    {
+      "id": "src_33b33f9ce4d1",
+      "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record ...",
+      "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+      "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer",
+      "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris Senate voting record vs Bernie Sanders",
+      "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+      "published_at": "2020-08-11T00:00:00",
+      "publisher": "newsweek.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7016506997529757
+    },
+    {
+      "id": "src_1ef1c58e319d",
+      "title": "The hypocrisy of Kamala Harris - Why Evolution Is True",
+      "url": "https://whyevolutionistrue.com/2019/08/12/the-hypocrisy-of-kamala-harris/#",
+      "snippet": "To me, this is hypocrisy on Harris's part. It was a cheap shot for Harris to go after Biden in that way, even though other Democrats, in their",
+      "content": "What goes around comes around, and Kamala Harris is the latest roost for the chickens she loosed. I was turned off by Harris during the first Democratic debate, largely because she wielded identity politics in her attack on Joe Biden and criticized him for talking about his interactions with Southern racist senators, when he was working to promote integration. She was lying in wait for him, and too eager to promote her own “marginalization”. Here are some of the things she said to and about Biden in that debate: Kamala Harris: 04:29 I will say also that in this campaign we’ve also heard … I’m going to now direct this at Vice President Biden. I do not believe you are a racist. I agree with you when you commit yourself to the importance of finding common ground. Kamala Harris: 04:47 I also believe … It’s personal. It was actually hurtful to hear you talk about the reputations of two United States senators who built their reputations and career on the segregation of race in this country. Kamala Harris: 05:06 It was not only that but you also worked with them to oppose busing. There was a little girl in California who was part of the second class to integrate her public schools. She was bused to school every day. That little girl was me. Here’s what Biden said about the segregationists at a fund-raiser before the debate (from the NYT): At the event, Mr. Biden noted that he served with the late Senators James O. Eastland of Mississippi and Herman Talmadge of Georgia, both Democrats who were staunch opponents of desegregation. Mr. Eastland was the powerful chair of the Senate Judiciary Committee when Mr. Biden entered the chamber in 1973. “I was in a caucus with James O. Eastland,” said Mr. Biden, 76, slipping briefly into a Southern accent, according to a pool report from the fund-raiser. “He never called me ‘boy,’ he always called me ‘son.’” “Well guess what?” Mr. Biden continued. “At least there was some civility. We got things done. We didn’t agree on much of anything. We got things done. We got it finished. But today you look at the other side and you’re the enemy. Not the opposition, the enemy. We don’t talk to each other anymore.” Granted, it was unwise of Biden to bring up the “boy” issue, a racist epithet patronizingly applied to all black men in the segregationist South, and I don’t even see why it’s relevant. But Biden’s point—that we have to try to work with even the most odious of our opponents to get legislation passed, even if they won’t yield—is worth making. I bring this up because a reader sent me a link to an essay in Essence about Shirley Chisholm, the nation’s first black congresswoman and a tireless fighter for civil rights. It appeared in February of last year. Click on the screenshot: The author is none other than. . . Kamala Harris. And in that essay you’ll see these words. Shirley Chisholm had the guts to oppose the Vietnam War. The guts to run for president in 1972, as the first Black woman to seek the nomination of a major American political party. The guts to reach across the aisle and see that we have more in common than what separates us, whether that was working with Republican Senator Bob Dole to create the food stamp program or visiting George Wallace, her racist presidential rival, in the hospital after he had been shot in a failed assassination attempt. This is perilously close to what she was criticizing Biden for. “Reaching across the aisle”, visiting the odious segregationist George Wallace in the hospital: these demonstrate Chisholm’s empathy and attempt to connect with her opponents, even racist opponents, for the good of the country. For Harris to say that “we have more in common than what separates us”—referring to both Bob Dole and the far more noxious George Wallace—show the kind of conciliatory spirit in Chisholm that Harris decried in Biden. To me, this is hypocrisy on Harris’s part. It was a cheap shot for Harris to go after Biden in that way, even though other Democrats, in their woke",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris accusations of hypocrisy progressive",
+      "canonical_url": "https://whyevolutionistrue.com/2019/08/12/the-hypocrisy-of-kamala-harris",
+      "published_at": "2019-08-12T00:00:00",
+      "publisher": "whyevolutionistrue.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6994843719022019
+    },
+    {
+      "id": "src_6f156164f1a3",
+      "title": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?",
+      "url": "https://www.trtworld.com/article/18187322#",
+      "snippet": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?Her murky record as a central figure in San Francisco's criminal justice system makes",
+      "content": "Kamala Harris, a likely US presidential candidate, has long faced criticism for her controversial record as a prosecutor and attorney general before rising to prominence in American politics. Critics consider her a hypocrite, claiming she enjoys the \"progressive liberal\" label while having taken rigid positions that oppose liberal reforms. Throughout her law career, Harris often resisted criminal justice reforms. As San Francisco's district attorney between 2004 and 2011 and later as the state's attorney general, she either opposed or remained silent on reforms, raising concerns among progressives. Most notably, she fought “tooth and nail” to uphold wrongful convictions despite evidence of official misconduct, including evidence tampering and false testimony by prosecutors. In 2010, Harris faced criticism for withholding information about a police lab technician accused of sabotaging work and stealing drugs. A memo revealed her office knew of the technician's misconduct but failed to inform defence lawyers, leading a judge to condemn Harris for systemic violations of constitutional rights. Harris contested the ruling, citing a conflict of interest due to the judge's husband's public stance on evidence disclosure. She lost the case, resulting in the dismissal of over 600 cases handled by the corrupt technician. Harris also supported state legislation which sought to criminally prosecute parents of those children who skipped elementary school. The legislation was disproportionately affecting low-income Black people, who often lack means and resources to ensure their children attend school throughout the year. As attorney general, she made another move that shocked progressives – she appealed a federal judge's 2014 ruling declaring the death penalty unconstitutional, arguing it undermined court protections for defendants. In 2014, Harris declined to take a position on Proposition 47, which reduced certain low-level felonies to misdemeanours, and laughed when asked about supporting marijuana legalisation for recreational use. She opposed a bill requiring her office to investigate police shootings and statewide standards for body-worn cameras, drawing criticism from reformers including the ACLU and San Francisco's public defender. Harris's record in wrongful conviction cases is particularly troubling. In 2015, her office defended the conviction of George Gage, an electrician with no criminal record accused of sexually abusing his stepdaughter. Despite discovering that the prosecutor had withheld potentially exculpatory evidence, Harris's office argued that Gage had not properly raised the issue in lower courts. The appellate judges sent the case to mediation, but Harris refused to dismiss it, and Gage remains in prison serving a 70-year sentence. Harris also fought to keep Daniel Larsen in prison despite evidence of his innocence and argued on technical grounds to uphold his conviction. In the case of Johnny Baca, she defended a conviction based on false testimony, relenting only after national attention embarrassed her office. She initially opposed advanced DNA testing for death row inmate Kevin Cooper, reversing her position following a New York Times exposé. Critics argue Harris's actions as a prosecutor often prioritised legal technicalities over justice. Her career in the American justice system stands in contrast with her carefully crafted image of being a progressive liberal, willing to take up the causes that affect Black people and other minorities. Around the same time, a decade ago, while Harris broadly supported the use of body-worn cameras by police officers, she believed each police jurisdiction should have the flexibility to set its own standards for footage usage, retention periods, and public release protocols.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris accusations of hypocrisy progressive",
+      "canonical_url": "https://trtworld.com/article/18187322",
+      "published_at": "2024-07-24T00:00:00",
+      "publisher": "trtworld.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6922671099976797
+    },
+    {
+      "id": "src_d5247fa1fb34",
+      "title": "As Harris shifts to the center, progressives hold their fire — for now",
+      "url": "https://www.washingtonpost.com/politics/2024/10/02/kamala-harris-liberal-progressive-bernie-sanders-policy/#",
+      "snippet": "Progressive elected leaders and activists have had a warm relationship with President Joe Biden and are still building trust with his vice",
+      "content": "“She does her thing and had her portfolio. Most of my efforts have been with President Biden,” Sen. Bernie Sanders (I-Vt.) said of Vice President Kamala Harris. (John Bazemore/AP) Donald Trump describes Kamala Harris as the most “radical left” person to run for president, a “Comrade Kamala” who wants to raise taxes to fund a liberal agenda. But the most progressive members of Congress — many of whom served alongside Harris when she was in the Senate — paint a very different picture of the vice president.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris progressive priorities Senate",
+      "canonical_url": "https://washingtonpost.com/politics/2024/10/02/kamala-harris-liberal-progressive-bernie-sanders-policy",
+      "published_at": "2024-10-02T00:00:00",
+      "publisher": "washingtonpost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6910944145042869
+    },
+    {
+      "id": "src_3d897100930f",
+      "title": "Kamala Harris's On-and-Off Progressivism | The Princeton Tory",
+      "url": "https://www.theprincetontory.com/kamala-harriss-on-and-off-progressivism/#",
+      "snippet": "Most members of Congress, including former California Senator Kamala Harris, often draft legislation that serves as a signal to some of",
+      "content": "Most members of Congress, including former California Senator Kamala Harris, often draft legislation that serves as a signal to some of their constituents and donors, rather than as a genuine effort to pass meaningful laws. Kamala Harris introduced 132 bills and resolutions during her four-year tenure as a senator. However, many of her bills, including S. 4 (repealing Trump’s tax cuts) and S. 1095 (allowing illegal immigrants to work for members of Congress), were overtly partisan and lacked any realistic chance of becoming law. Introducing these bills was a strategic choice, aimed at portraying herself as a progressive champion. Only three bills Harris introduced became law. Despite the very progressive nature of most of Harris’s bills, she’s not, as I’ll explain, the “progressive Democrat” she often claims – or rather claimed – to be. Kamala Harris got her start in politics in Alameda County (Northern California) as a Deputy District Attorney in 1990. Eight years later, Terence Hallinan, the San Francisco District Attorney, recruited Harris to serve as the Managing Attorney of the Career Criminal Unit. Harris focused her efforts on prosecuting gang members and violent criminals. Harris also expanded rehabilitation programs to give criminals a second chance. In 2003, Harris ran against Hallinan to be San Francisco’s District Attorney. Harris’s campaign revolved around increasing conviction rates, getting tough on crime, and improving relations with police unions while also implementing progressive policies such as rehabilitation, ending the War on Drugs, and ending the death penalty. She blended popular centrist positions with popular progressive positions to win by double-digits against Hallinan. Harris’s strategy worked, as she was able to win over part of Hallinan’s progressive base and also simultaneously win over moderates and conservatives in San Francisco. In 2010, Harris ran to be California Attorney General and defeated the popular Republican District Attorney of Los Angeles by 0.85%. Harris was expected to lose, but she pulled off an upset victory. Part of her victory can be attributed to moderating her positions and aligning herself with the national Democratic party, which was a lot more moderate than the San Francisco Democratic party. As I previously noted, Harris lacks consistent principles and aligns herself with whatever is perceived to be popular at the moment. When comparing her tenure as San Francisco’s DA to her tenure as California’s Attorney General, Harris completely reversed her position on the death penalty, the War on Drugs, and criminal justice reform. For example, Harris campaigned on opposing the death penalty and initially opposed seeking the death penalty for a gang member who killed a police officer in 2004. Harris’s position set off protests in San Francisco, an appeal from California Senator Dianne Feinstein to seek the death penalty, and a demand from California Senator Barbara Boxer that the Justice Department or California Attorney General take over the case. Harris stuck to her principles and mostly opposed the death penalty throughout her tenure as San Francisco’s DA, even for mass murderers and terrorists. After Harris became California’s Attorney General, she reversed her position on the death penalty and successfully appealed a federal judge’s decision declaring California’s death penalty unconstitutional. As San Francisco’s DA, she also criticized President Reagan’s War on Drugs and failed to utilize federal funding to pursue the War on Drugs, only to completely reverse her position when she became Attorney General. In this new role, Harris made fighting the drug cartels and locking up nonviolent drug offenders one of her top priorities. In fact, Harris locked up so many people that the United States Supreme Court intervened, but Harris remained defiant and kept people locked up past their terms. Being tough on crime is one thing, but locking up people past their jail terms so the s",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris progressive priorities Senate",
+      "canonical_url": "https://theprincetontory.com/kamala-harriss-on-and-off-progressivism",
+      "published_at": "2024-11-04T00:00:00",
+      "publisher": "theprincetontory.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.649129753174719
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.831527069398181
+    },
+    {
+      "id": "src_78887bff0f77",
+      "title": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in ...",
+      "url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing#",
+      "snippet": "Sen. Bernie Sanders said Sunday he believes Vice President Kamala Harris is trying to be 'pragmatic' with her policy positions.",
+      "content": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in policy stances WASHINGTON (TND) — Sen. Bernie Sanders, I-Vt., on Sunday said Vice President Kamala Harris is still progressive despite changes in her policy positions. The senator explained in an NBC News interview he feels Harris is still liberal even though she does not sit where he does on the political spectrum. He pointed to her positions on a tax credit for families with young children, building more affordable housing units and supporting labor unions as evidence she is progressive. The vice president has proposed a $6,000 tax break for parents of kids younger than a year old, creating 3 million new homes and pushing through Congress the Protecting the Right to Organize Act, which would expand protections for unionizing workers. So yes, her views are not mine, but I do consider her a progressive,” Sen. Sanders said. He argued that Harris has tried to be \"pragmatic\" with her policy positions, some of which have changed since her first White House bid in 2019. She is no longer campaigning on granting all Americans Medicare coverage nor a ban on fracking. “I don’t think she’s abandoning her ideals,” the senator added. “I think she’s trying to be pragmatic and doing what she thinks is right in order to win the election.” READ MORE | Harris, Trump in dead heat ahead of first debate, NYT/Siena poll finds Sen. Sanders argued that Harris can win the White House if she campaigns on some policies he supports. “I think on issues like expanding Medicare, by expanding social security and lifting the cap on taxable income that the rich put in ... the need to raise the minimum wage from a starvation seven-and-a-quarter minimum wage to a living wage, I think if you campaign on those issues – raising taxes on billionaires – you know what? She’s gonna win, and I think she can win big,” the senator said. Harris’s platform featured on her campaign website centers on “building up the middle class,” restoring some reproductive protections, improving public safety and strengthening alliances. Have questions, concerns or tips? Send them to Ray at rjlewis@sbgtv.com",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris progressive priorities Senate",
+      "canonical_url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing",
+      "published_at": "2024-09-09T00:00:00",
+      "publisher": "mynbc15.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.737611663323311
+    },
+    {
+      "id": "src_33b33f9ce4d1",
+      "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record ...",
+      "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+      "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer",
+      "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris Senate voting record vs Bernie Sanders",
+      "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+      "published_at": "2020-08-11T00:00:00",
+      "publisher": "newsweek.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7016506997529757
+    },
+    {
+      "id": "src_6f156164f1a3",
+      "title": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?",
+      "url": "https://www.trtworld.com/article/18187322#",
+      "snippet": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?Her murky record as a central figure in San Francisco's criminal justice system makes",
+      "content": "Kamala Harris, a likely US presidential candidate, has long faced criticism for her controversial record as a prosecutor and attorney general before rising to prominence in American politics. Critics consider her a hypocrite, claiming she enjoys the \"progressive liberal\" label while having taken rigid positions that oppose liberal reforms. Throughout her law career, Harris often resisted criminal justice reforms. As San Francisco's district attorney between 2004 and 2011 and later as the state's attorney general, she either opposed or remained silent on reforms, raising concerns among progressives. Most notably, she fought “tooth and nail” to uphold wrongful convictions despite evidence of official misconduct, including evidence tampering and false testimony by prosecutors. In 2010, Harris faced criticism for withholding information about a police lab technician accused of sabotaging work and stealing drugs. A memo revealed her office knew of the technician's misconduct but failed to inform defence lawyers, leading a judge to condemn Harris for systemic violations of constitutional rights. Harris contested the ruling, citing a conflict of interest due to the judge's husband's public stance on evidence disclosure. She lost the case, resulting in the dismissal of over 600 cases handled by the corrupt technician. Harris also supported state legislation which sought to criminally prosecute parents of those children who skipped elementary school. The legislation was disproportionately affecting low-income Black people, who often lack means and resources to ensure their children attend school throughout the year. As attorney general, she made another move that shocked progressives – she appealed a federal judge's 2014 ruling declaring the death penalty unconstitutional, arguing it undermined court protections for defendants. In 2014, Harris declined to take a position on Proposition 47, which reduced certain low-level felonies to misdemeanours, and laughed when asked about supporting marijuana legalisation for recreational use. She opposed a bill requiring her office to investigate police shootings and statewide standards for body-worn cameras, drawing criticism from reformers including the ACLU and San Francisco's public defender. Harris's record in wrongful conviction cases is particularly troubling. In 2015, her office defended the conviction of George Gage, an electrician with no criminal record accused of sexually abusing his stepdaughter. Despite discovering that the prosecutor had withheld potentially exculpatory evidence, Harris's office argued that Gage had not properly raised the issue in lower courts. The appellate judges sent the case to mediation, but Harris refused to dismiss it, and Gage remains in prison serving a 70-year sentence. Harris also fought to keep Daniel Larsen in prison despite evidence of his innocence and argued on technical grounds to uphold his conviction. In the case of Johnny Baca, she defended a conviction based on false testimony, relenting only after national attention embarrassed her office. She initially opposed advanced DNA testing for death row inmate Kevin Cooper, reversing her position following a New York Times exposé. Critics argue Harris's actions as a prosecutor often prioritised legal technicalities over justice. Her career in the American justice system stands in contrast with her carefully crafted image of being a progressive liberal, willing to take up the causes that affect Black people and other minorities. Around the same time, a decade ago, while Harris broadly supported the use of body-worn cameras by police officers, she believed each police jurisdiction should have the flexibility to set its own standards for footage usage, retention periods, and public release protocols.",
+      "source_type": "web",
+      "provider": "tavily",
+      "query": "Kamala Harris accusations of hypocrisy progressive",
+      "canonical_url": "https://trtworld.com/article/18187322",
+      "published_at": "2024-07-24T00:00:00",
+      "publisher": "trtworld.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6922671099976797
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "OFFICIAL_POSITION_WITHOUT_PRIMARY_SOURCE",
+      "message": "Official position is not supported by an official source, primary document, or recognized news outlet.",
+      "bullet_index": 2
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "santiagomayer.com",
+        "display_name": "Santiago Mayer",
+        "did": "did:plc:svj5xlrdsy7lyljls4kmaqmg"
+      },
+      "text": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "created_at": "2026-05-15T12:27:28.994000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Just making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?\n\nYes, very progressive!\nAnyway here's Liz (\"Democrats Kill Babies\") Cheney making an appearance before campaigning with Bestie Harris.  youtu.be/gEjAejXvSpE?...\n\nI think we all know the real problem was the color of her skin, her sex, and her funny sounding laugh."
+    },
+    "explanation": [
+      {
+        "text": "According to a ranking by GovTrack.us, Kamala Harris was identified as having a more liberal voting record in the Senate compared to Bernie Sanders. This score is based on her legislative behavior, which showed a higher alignment with progressive policies.",
+        "source_ids": [
+          "src_33b33f9ce4d1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Santiago Mayer, the original post's author, claims that Kamala Harris's progressive voting record in the Senate contradicts accusations of her being hypocritical when discussing progressive priorities.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [],
+        "confidence": "medium",
+        "warnings": []
+      },
+      {
+        "text": "Bernie Sanders acknowledged Kamala Harris as maintaining progressive stances despite some policy shifts towards pragmatism. Sanders pointed to her support for labor unions and affordable housing as evidence of her progressive agenda.",
+        "source_ids": [
+          "src_78887bff0f77"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": []
+      },
+      {
+        "text": "Harris's role as a prosecutor and attorney general in California has attracted criticism from some progressives who see her past positions on criminal justice as conflicting with the progressive label.",
+        "source_ids": [
+          "src_6f156164f1a3"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @santiagomayer.com",
+        "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+        "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "santiagomayer.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_78887bff0f77",
+        "title": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in ...",
+        "url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing#",
+        "snippet": "Sen. Bernie Sanders said Sunday he believes Vice President Kamala Harris is trying to be 'pragmatic' with her policy positions.",
+        "content": "Bernie Sanders says Kamala Harris 'progressive' despite shifts in policy stances WASHINGTON (TND) — Sen. Bernie Sanders, I-Vt., on Sunday said Vice President Kamala Harris is still progressive despite changes in her policy positions. The senator explained in an NBC News interview he feels Harris is still liberal even though she does not sit where he does on the political spectrum. He pointed to her positions on a tax credit for families with young children, building more affordable housing units and supporting labor unions as evidence she is progressive. The vice president has proposed a $6,000 tax break for parents of kids younger than a year old, creating 3 million new homes and pushing through Congress the Protecting the Right to Organize Act, which would expand protections for unionizing workers. So yes, her views are not mine, but I do consider her a progressive,” Sen. Sanders said. He argued that Harris has tried to be \"pragmatic\" with her policy positions, some of which have changed since her first White House bid in 2019. She is no longer campaigning on granting all Americans Medicare coverage nor a ban on fracking. “I don’t think she’s abandoning her ideals,” the senator added. “I think she’s trying to be pragmatic and doing what she thinks is right in order to win the election.” READ MORE | Harris, Trump in dead heat ahead of first debate, NYT/Siena poll finds Sen. Sanders argued that Harris can win the White House if she campaigns on some policies he supports. “I think on issues like expanding Medicare, by expanding social security and lifting the cap on taxable income that the rich put in ... the need to raise the minimum wage from a starvation seven-and-a-quarter minimum wage to a living wage, I think if you campaign on those issues – raising taxes on billionaires – you know what? She’s gonna win, and I think she can win big,” the senator said. Harris’s platform featured on her campaign website centers on “building up the middle class,” restoring some reproductive protections, improving public safety and strengthening alliances. Have questions, concerns or tips? Send them to Ray at rjlewis@sbgtv.com",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Kamala Harris progressive priorities Senate",
+        "canonical_url": "https://mynbc15.com/news/nation-world/bernie-sanders-says-kamala-harris-progressive-despite-shifts-in-policy-stances-politics-2024-election-donald-trump-abc-presidential-debate-the-pro-act-tax-break-affordable-housing",
+        "published_at": "2024-09-09T00:00:00",
+        "publisher": "mynbc15.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_33b33f9ce4d1",
+        "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record ...",
+        "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+        "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer",
+        "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Kamala Harris Senate voting record vs Bernie Sanders",
+        "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+        "published_at": "2020-08-11T00:00:00",
+        "publisher": "newsweek.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_6f156164f1a3",
+        "title": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?",
+        "url": "https://www.trtworld.com/article/18187322#",
+        "snippet": "Kamala Harris: Is she a hypocrite dressed as a 'progressive liberal'?Her murky record as a central figure in San Francisco's criminal justice system makes",
+        "content": "Kamala Harris, a likely US presidential candidate, has long faced criticism for her controversial record as a prosecutor and attorney general before rising to prominence in American politics. Critics consider her a hypocrite, claiming she enjoys the \"progressive liberal\" label while having taken rigid positions that oppose liberal reforms. Throughout her law career, Harris often resisted criminal justice reforms. As San Francisco's district attorney between 2004 and 2011 and later as the state's attorney general, she either opposed or remained silent on reforms, raising concerns among progressives. Most notably, she fought “tooth and nail” to uphold wrongful convictions despite evidence of official misconduct, including evidence tampering and false testimony by prosecutors. In 2010, Harris faced criticism for withholding information about a police lab technician accused of sabotaging work and stealing drugs. A memo revealed her office knew of the technician's misconduct but failed to inform defence lawyers, leading a judge to condemn Harris for systemic violations of constitutional rights. Harris contested the ruling, citing a conflict of interest due to the judge's husband's public stance on evidence disclosure. She lost the case, resulting in the dismissal of over 600 cases handled by the corrupt technician. Harris also supported state legislation which sought to criminally prosecute parents of those children who skipped elementary school. The legislation was disproportionately affecting low-income Black people, who often lack means and resources to ensure their children attend school throughout the year. As attorney general, she made another move that shocked progressives – she appealed a federal judge's 2014 ruling declaring the death penalty unconstitutional, arguing it undermined court protections for defendants. In 2014, Harris declined to take a position on Proposition 47, which reduced certain low-level felonies to misdemeanours, and laughed when asked about supporting marijuana legalisation for recreational use. She opposed a bill requiring her office to investigate police shootings and statewide standards for body-worn cameras, drawing criticism from reformers including the ACLU and San Francisco's public defender. Harris's record in wrongful conviction cases is particularly troubling. In 2015, her office defended the conviction of George Gage, an electrician with no criminal record accused of sexually abusing his stepdaughter. Despite discovering that the prosecutor had withheld potentially exculpatory evidence, Harris's office argued that Gage had not properly raised the issue in lower courts. The appellate judges sent the case to mediation, but Harris refused to dismiss it, and Gage remains in prison serving a 70-year sentence. Harris also fought to keep Daniel Larsen in prison despite evidence of his innocence and argued on technical grounds to uphold his conviction. In the case of Johnny Baca, she defended a conviction based on false testimony, relenting only after national attention embarrassed her office. She initially opposed advanced DNA testing for death row inmate Kevin Cooper, reversing her position following a New York Times exposé. Critics argue Harris's actions as a prosecutor often prioritised legal technicalities over justice. Her career in the American justice system stands in contrast with her carefully crafted image of being a progressive liberal, willing to take up the causes that affect Black people and other minorities. Around the same time, a decade ago, while Harris broadly supported the use of body-worn cameras by police officers, she believed each police jurisdiction should have the flexibility to set its own standards for footage usage, retention periods, and public release protocols.",
+        "source_type": "web",
+        "provider": "tavily",
+        "query": "Kamala Harris accusations of hypocrisy progressive",
+        "canonical_url": "https://trtworld.com/article/18187322",
+        "published_at": "2024-07-24T00:00:00",
+        "publisher": "trtworld.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "OFFICIAL_POSITION_WITHOUT_PRIMARY_SOURCE",
+        "message": "Official position is not supported by an official source, primary document, or recognized news outlet.",
+        "bullet_index": 2
+      }
+    ],
+    "execution_time_ms": 28828
+  }
+}
