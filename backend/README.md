@@ -29,6 +29,7 @@ Endpoints:
 - `GET /api/health`
 - `GET /api/config/status`
 - `POST /api/explain`
+- `POST /api/explain/stream`
 
 Exemplo:
 
@@ -50,6 +51,7 @@ O live usa duas camadas complementares:
 
 - `source_quality`: filtra fontes sem texto útil, antigas demais para o evento ou sem âncoras dinâmicas extraídas do post.
 - `CitationValidator`: valida se a fonte citada é adequada para o tipo de afirmação do bullet.
+- `repair_once_if_needed`: faz uma tentativa de correção via LLM quando o contrato de citação falha e remove bullets incompatíveis se a correção não resolver.
 
 Cada fonte recebe `source_category` e `source_role`. Cada bullet recebe `claim_label`, `context_modifiers`, `confidence` e `warnings`.
 
@@ -138,7 +140,8 @@ Saídas:
 O eval P1 inclui `groundedness`: cada bullet é avaliado contra as fontes
 citadas pelo `OPENAI_JUDGE_MODEL` e recebe verdict `supported`,
 `partially_supported` ou `unsupported`. Essa checagem é métrica de avaliação,
-não substitui o `CitationValidator` estrutural do runtime.
+não substitui o `CitationValidator` do runtime, que valida estrutura e
+compatibilidade entre tipo de claim e tipo de fonte.
 
 ## Imagens
 

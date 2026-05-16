@@ -56,6 +56,7 @@ class EvalExplanationService:
             evidence_provider=FixtureEvidenceProvider(base_dir),
             rank_evidence=rank_evidence,
             generate_explanation=generate_explanation,
+            llm_client=llm_client,
             groundedness_judge=groundedness_judge,
             run_recorder=LocalRunRecorder(),
         )

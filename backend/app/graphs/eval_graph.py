@@ -10,9 +10,14 @@ from app.adapters.eval.fixture_post_provider import FixturePostProvider
 from app.domain.models import EvalCase, Evidence, Explanation, RankedEvidence
 from app.domain.validation import CitationValidator
 from app.eval.metrics import score_eval_case
+from app.graphs.citation_repair import (
+    repair_citation_contract_once,
+    validate_citation_contract,
+)
 from app.graphs.state import ExplanationState
 from app.observability.tracing import get_tracer
 from app.ports.groundedness_judge import GroundednessJudge
+from app.ports.llm_client import LLMClient
 from app.ports.run_recorder import RunRecorder
 
 logger = structlog.get_logger(__name__)
@@ -27,6 +32,7 @@ class EvalExplanationFlow:
         evidence_provider: FixtureEvidenceProvider,
         rank_evidence: Callable[[ExplanationState], Awaitable[list[RankedEvidence]]],
         generate_explanation: Callable[[ExplanationState], Awaitable[Explanation]],
+        llm_client: LLMClient | None = None,
         groundedness_judge: GroundednessJudge | None = None,
         run_recorder: RunRecorder | None = None,
     ) -> None:
@@ -34,6 +40,7 @@ class EvalExplanationFlow:
         self._evidence_provider = evidence_provider
         self._rank_evidence = rank_evidence
         self._generate_explanation = generate_explanation
+        self._llm_client = llm_client
         self._groundedness_judge = groundedness_judge
         self._citation_validator = CitationValidator()
         self._run_recorder = run_recorder
@@ -115,26 +122,26 @@ class EvalExplanationFlow:
         return {"explanation": await self._generate_explanation(state)}
 
     async def _validate_citations_node(self, state: ExplanationState) -> dict[str, object]:
-        validation_warnings = self._citation_validator.validate(
-            state["explanation"].bullets,
+        return validate_citation_contract(
+            state["explanation"],
             list(state.get("ranked_evidence", [])),
+            self._citation_validator,
         )
-        if not validation_warnings:
-            return {}
-        new_warnings = [
-            warning
-            for warning in validation_warnings
-            if warning not in state["explanation"].warnings
-        ]
-        if not new_warnings:
-            return {}
-        explanation = state["explanation"].model_copy(
-            update={"warnings": [*state["explanation"].warnings, *new_warnings]}
-        )
-        return {"explanation": explanation}
 
-    async def _repair_once_if_needed_node(self, _state: ExplanationState) -> dict[str, object]:
-        return {}
+    async def _repair_once_if_needed_node(self, state: ExplanationState) -> dict[str, object]:
+        if not state.get("needs_repair"):
+            return {}
+        if not self._llm_client:
+            raise RuntimeError("Eval citation repair requires an LLM client.")
+        return await repair_citation_contract_once(
+            post=state["post"],
+            evidence=list(state.get("ranked_evidence", [])),
+            explanation=state["explanation"],
+            validation_error=state.get("validation_error"),
+            validation_warnings=list(state.get("validation_warnings", [])),
+            llm_client=self._llm_client,
+            citation_validator=self._citation_validator,
+        )
 
     async def _judge_groundedness_node(self, state: ExplanationState) -> dict[str, object]:
         if not self._groundedness_judge or not state["explanation"].bullets:
@@ -170,8 +177,7 @@ class EvalExplanationFlow:
                         for item in state.get("groundedness_assessments", [])
                     ],
                     "warnings": [
-                        warning.model_dump(mode="json")
-                        for warning in state["explanation"].warnings
+                        warning.model_dump(mode="json") for warning in state["explanation"].warnings
                     ],
                     "explanation": state["explanation"].model_dump(mode="json"),
                 },

@@ -4,8 +4,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from pydantic import SecretStr
+
 from app.observability.redaction import redact_text
 from app.ports.run_recorder import RunRecorder
+
+SENSITIVE_KEY_PARTS = ("api_key", "token", "secret", "password", "authorization")
 
 
 class LocalRunRecorder(RunRecorder):
@@ -37,11 +41,26 @@ class LocalRunRecorder(RunRecorder):
         )
 
 
-def _redact(value: Any) -> Any:
+def _redact(value: Any, key: str | None = None) -> Any:
+    if key and _is_sensitive_key(key):
+        return _redacted_secret_value(value)
+    if isinstance(value, SecretStr):
+        return "[REDACTED]"
     if isinstance(value, str):
         return redact_text(value)
     if isinstance(value, list):
         return [_redact(item) for item in value]
     if isinstance(value, dict):
-        return {key: _redact(item) for key, item in value.items()}
+        return {item_key: _redact(item, str(item_key)) for item_key, item in value.items()}
     return value
+
+
+def _is_sensitive_key(key: str) -> bool:
+    normalized = key.casefold()
+    return any(part in normalized for part in SENSITIVE_KEY_PARTS)
+
+
+def _redacted_secret_value(value: Any) -> Any:
+    if value in (None, ""):
+        return value
+    return "[REDACTED]"

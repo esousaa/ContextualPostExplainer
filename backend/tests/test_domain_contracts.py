@@ -131,6 +131,21 @@ def test_thread_source_can_be_cited_without_url() -> None:
     validator.validate(bullets=[make_bullet("thread_1") for _ in range(3)], sources=[source])
 
 
+@pytest.mark.parametrize("source_type", ["fixture", "image"])
+def test_local_context_sources_can_be_cited_without_url(source_type: str) -> None:
+    validator = CitationValidator()
+    source = Evidence(
+        id="local_1",
+        title="Local context",
+        url=None,
+        snippet="Local snippet.",
+        content="Local content.",
+        source_type=source_type,
+    )
+
+    validator.validate(bullets=[make_bullet("local_1") for _ in range(3)], sources=[source])
+
+
 def test_citation_validator_warns_when_confirmed_fact_uses_only_social_source() -> None:
     validator = CitationValidator()
     bullets = [

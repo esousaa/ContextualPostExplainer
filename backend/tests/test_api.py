@@ -72,7 +72,10 @@ def test_health_does_not_require_runtime_configuration(client: TestClient) -> No
     response = client.get("/api/health")
 
     assert response.status_code == 200
-    assert response.json() == {"status": "ok"}
+    payload = response.json()
+    assert payload["status"] == "ok"
+    assert payload["service"] == "contextual-post-explainer-api"
+    assert payload["version"]
 
 
 def test_config_status_reports_invalid_configuration(
@@ -88,6 +91,21 @@ def test_config_status_reports_invalid_configuration(
 
     assert response.status_code == 200
     assert response.json()["status"] == "invalid"
+
+
+def test_config_status_reports_live_readiness(client: TestClient, monkeypatch) -> None:
+    for key, value in REQUIRED_ENV.items():
+        monkeypatch.setenv(key, value)
+    monkeypatch.setenv("SEARCH_PROVIDER", "brave")
+    monkeypatch.setenv("BRAVE_API_KEY", "test-brave-key")
+
+    response = client.get("/api/config/status")
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["status"] == "ready"
+    assert payload["live_search"]["configured"] is True
+    assert payload["diagnostics"]["live_mode_ready"] is True
 
 
 def test_explain_requires_live_search_provider(
@@ -318,8 +336,7 @@ def test_analysis_api_uses_env_models_for_legacy_runs(
 
     assert response.status_code == 200
     assert response.json()["llm_aggregates"][0]["key"] == (
-        "gen=gpt-4o | judge=gpt-4o-mini | "
-        "embed=text-embedding-3-small | vision=gpt-4o"
+        "gen=gpt-4o | judge=gpt-4o-mini | embed=text-embedding-3-small | vision=gpt-4o"
     )
 
 
@@ -415,9 +432,7 @@ def _write_run_fixture(
                 "thread_text": None,
             },
             "explanation": (
-                [{"text": "One.", "source_ids": ["s1"]}]
-                if explanation is None
-                else explanation
+                [{"text": "One.", "source_ids": ["s1"]}] if explanation is None else explanation
             ),
             "sources": [{"id": "s1"}],
             "confidence": "high",

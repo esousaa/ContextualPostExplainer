@@ -11,7 +11,7 @@ from langgraph.graph import END, StateGraph
 
 from app.adapters.bluesky.url_parser import parse_bluesky_post_url
 from app.adapters.http.source_fetcher import fetch_source_pages
-from app.application.image_context import build_image_evidence
+from app.application.image_evidence_builder import build_image_evidence
 from app.application.provider_diagnostics import (
     multi_provider_source_count,
     provider_counts_for_sources,
@@ -31,6 +31,10 @@ from app.domain.models import (
     SearchResult,
 )
 from app.domain.validation import CitationValidator
+from app.graphs.citation_repair import (
+    repair_citation_contract_once,
+    validate_citation_contract,
+)
 from app.graphs.state import ExplanationState
 from app.observability.tracing import get_tracer
 from app.ports.image_analyzer import ImageAnalyzer
@@ -316,26 +320,35 @@ class LiveExplanationFlow:
         return {"explanation": explanation}
 
     async def _validate_citations_node(self, state: ExplanationState) -> dict[str, object]:
-        validation_warnings = self._citation_validator.validate(
-            state["explanation"].bullets,
+        result = validate_citation_contract(
+            state["explanation"],
             list(state.get("ranked_evidence", [])),
+            self._citation_validator,
         )
-        if not validation_warnings:
-            return {}
-        new_warnings = [
-            warning
-            for warning in validation_warnings
-            if warning not in state["explanation"].warnings
-        ]
-        if not new_warnings:
-            return {}
-        explanation = state["explanation"].model_copy(
-            update={"warnings": [*state["explanation"].warnings, *new_warnings]}
-        )
-        return {"explanation": explanation}
+        metrics = {
+            **state.get("metrics", {}),
+            "citation_repair_needed": bool(result.get("needs_repair")),
+        }
+        return {**result, "metrics": metrics}
 
-    async def _repair_once_if_needed_node(self, _state: ExplanationState) -> dict[str, object]:
-        return {}
+    async def _repair_once_if_needed_node(self, state: ExplanationState) -> dict[str, object]:
+        result = await repair_citation_contract_once(
+            post=state["post"],
+            evidence=list(state.get("ranked_evidence", [])),
+            explanation=state["explanation"],
+            validation_error=state.get("validation_error"),
+            validation_warnings=list(state.get("validation_warnings", [])),
+            llm_client=self._llm_client,
+            citation_validator=self._citation_validator,
+        )
+        if not result:
+            return {}
+        metrics = {
+            **state.get("metrics", {}),
+            "citation_repair_attempted": True,
+            "citation_repair_left_bullets": bool(result["explanation"].bullets),
+        }
+        return {**result, "metrics": metrics}
 
     async def _finalize_response(self, state: ExplanationState) -> dict[str, object]:
         explanation = state["explanation"]
@@ -374,12 +387,8 @@ class LiveExplanationFlow:
                     "queries": state.get("queries", []),
                     "metrics": metrics,
                     "sources": [source.model_dump(mode="json") for source in ranked_sources],
-                    "cited_sources": [
-                        source.model_dump(mode="json") for source in cited_sources
-                    ],
-                    "warnings": [
-                        warning.model_dump(mode="json") for warning in response.warnings
-                    ],
+                    "cited_sources": [source.model_dump(mode="json") for source in cited_sources],
+                    "warnings": [warning.model_dump(mode="json") for warning in response.warnings],
                     "response": response.model_dump(mode="json"),
                 },
             )
@@ -451,11 +460,7 @@ def _cited_sources(
     explanation: Explanation,
     ranked_sources: list[RankedEvidence],
 ) -> list[RankedEvidence]:
-    cited_ids = {
-        source_id
-        for bullet in explanation.bullets
-        for source_id in bullet.source_ids
-    }
+    cited_ids = {source_id for bullet in explanation.bullets for source_id in bullet.source_ids}
     return [source for source in ranked_sources if source.id in cited_ids]
 
 

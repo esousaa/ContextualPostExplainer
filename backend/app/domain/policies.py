@@ -3,6 +3,7 @@ from app.domain.models import Evidence, ExplanationBullet
 
 MIN_EXPLANATION_BULLETS = 3
 MAX_EXPLANATION_BULLETS = 5
+CITABLE_SOURCE_TYPES_WITHOUT_URL = {"thread", "fixture", "image"}
 
 
 def validate_explanation_size(bullets: list[ExplanationBullet]) -> None:
@@ -31,5 +32,5 @@ def validate_source_references(
 
 def validate_citable_sources(sources: list[Evidence]) -> None:
     for source in sources:
-        if source.url is None and source.source_type != "thread":
+        if source.url is None and source.source_type not in CITABLE_SOURCE_TYPES_WITHOUT_URL:
             raise CitationValidationError(f"Source {source.id} is not citable.")

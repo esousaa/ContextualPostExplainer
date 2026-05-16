@@ -33,11 +33,7 @@ def build_image_evidence(post: PostData) -> list[Evidence]:
 def image_context_text(post: PostData) -> str:
     parts: list[str] = []
     for image in post.images:
-        parts.extend(
-            part
-            for part in [image.alt_text, image.ocr_text, image.description]
-            if part
-        )
+        parts.extend(part for part in [image.alt_text, image.ocr_text, image.description] if part)
     return "\n\n".join(parts)
 
 

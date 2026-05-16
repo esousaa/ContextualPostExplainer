@@ -10,6 +10,7 @@ from app.domain.models import (
     PostData,
     RankedEvidence,
     SearchResult,
+    ValidationWarning,
 )
 
 
@@ -30,7 +31,9 @@ class ExplanationState(TypedDict, total=False):
     ranked_evidence: list[RankedEvidence]
     explanation: Explanation
     response: ExplanationResponse
-    validation_errors: list[str]
+    validation_error: str | None
+    validation_warnings: list[ValidationWarning]
+    needs_repair: bool
     warnings: list[str]
     metrics: dict[str, object]
     eval_case: EvalCase

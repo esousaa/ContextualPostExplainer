@@ -1,7 +1,7 @@
 import re
 from dataclasses import dataclass
 
-from app.application.image_context import image_context_text
+from app.application.image_evidence_builder import image_context_text
 from app.domain.deduplication import canonicalize_url
 from app.domain.models import Evidence, PostData
 
@@ -19,9 +19,7 @@ EVENT_SIGNAL_PATTERN = re.compile(
     r")\b|\b20\d{2}\b",
     re.IGNORECASE,
 )
-LEGISLATIVE_ID_PATTERN = re.compile(
-    r"\b(?:SB|HB|AB|HR|S|H\.R\.)\s*[-.]?\s*\d+[A-Za-z]?\b"
-)
+LEGISLATIVE_ID_PATTERN = re.compile(r"\b(?:SB|HB|AB|HR|S|H\.R\.)\s*[-.]?\s*\d+[A-Za-z]?\b")
 ENTITY_PHRASE_PATTERN = re.compile(
     r"\b(?:[A-Z]{2,}|[A-Z][a-z]+)(?:['’]s)?"
     r"(?:\s+(?:[A-Z]{2,}|[A-Z][a-z]+)(?:['’]s)?)+\b"

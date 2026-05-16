@@ -9,6 +9,11 @@ from app.adapters.openai.llm_client import OpenAILLMClient
 from app.application.explanation_generator import ExplanationGenerator
 from app.application.ranking import EvidenceRanker
 from app.domain.models import Evidence, Explanation, ExplanationBullet, PostAuthor, PostData
+from app.domain.validation import CitationValidator
+from app.graphs.citation_repair import (
+    repair_citation_contract_once,
+    validate_citation_contract,
+)
 
 LONG_CONTEXT = (
     "Useful public context about the same event with enough extractable article text "
@@ -302,10 +307,7 @@ async def test_evidence_ranker_filters_low_quality_web_sources() -> None:
         [
             _evidence(
                 "fresh",
-                (
-                    "The Department of Justice sued the DC Bar in a current matter. "
-                    f"{LONG_CONTEXT}"
-                ),
+                (f"The Department of Justice sued the DC Bar in a current matter. {LONG_CONTEXT}"),
                 published_at=datetime(2026, 5, 14, tzinfo=UTC),
             ),
             _evidence("short", "Too short to support a generated explanation."),
@@ -340,31 +342,75 @@ async def test_evidence_ranker_truncates_embedding_inputs() -> None:
 
 
 @pytest.mark.asyncio
-async def test_explanation_generator_repairs_once_after_validation_failure() -> None:
+async def test_explanation_generator_returns_raw_generation_for_graph_validation() -> None:
     generator = ExplanationGenerator(RepairingLLMClient())
 
     explanation = await generator.generate(_post(), [_evidence()])
 
+    assert len(explanation.bullets) == 1
+    assert explanation.bullets[0].source_ids == ["missing"]
+
+
+@pytest.mark.asyncio
+async def test_citation_repair_repairs_once_after_validation_failure() -> None:
+    llm_client = RepairingLLMClient()
+    raw = await llm_client.generate_explanation(_post(), [_evidence()])
+    validation = validate_citation_contract(raw, [_evidence()], CitationValidator())
+
+    repaired = await repair_citation_contract_once(
+        post=_post(),
+        evidence=[_evidence()],
+        explanation=raw,
+        validation_error=validation["validation_error"],
+        validation_warnings=validation["validation_warnings"],
+        llm_client=llm_client,
+        citation_validator=CitationValidator(),
+    )
+
+    explanation = repaired["explanation"]
     assert len(explanation.bullets) == 3
     assert explanation.confidence == "medium"
 
 
 @pytest.mark.asyncio
-async def test_explanation_generator_returns_empty_when_repair_fails() -> None:
-    generator = ExplanationGenerator(InvalidRepairLLMClient())
+async def test_citation_repair_returns_empty_when_repair_fails() -> None:
+    llm_client = InvalidRepairLLMClient()
+    raw = await llm_client.generate_explanation(_post(), [_evidence()])
+    validation = validate_citation_contract(raw, [_evidence()], CitationValidator())
 
-    explanation = await generator.generate(_post(), [_evidence()])
+    repaired = await repair_citation_contract_once(
+        post=_post(),
+        evidence=[_evidence()],
+        explanation=raw,
+        validation_error=validation["validation_error"],
+        validation_warnings=validation["validation_warnings"],
+        llm_client=llm_client,
+        citation_validator=CitationValidator(),
+    )
 
+    explanation = repaired["explanation"]
     assert explanation.bullets == []
     assert explanation.confidence == "low"
 
 
 @pytest.mark.asyncio
-async def test_explanation_generator_repairs_semantic_warning_once() -> None:
-    generator = ExplanationGenerator(SemanticRepairLLMClient())
+async def test_citation_repair_repairs_semantic_warning_once() -> None:
+    llm_client = SemanticRepairLLMClient()
+    evidence = [_thread_source(), _evidence()]
+    raw = await llm_client.generate_explanation(_post(), evidence)
+    validation = validate_citation_contract(raw, evidence, CitationValidator())
 
-    explanation = await generator.generate(_post(), [_thread_source(), _evidence()])
+    repaired = await repair_citation_contract_once(
+        post=_post(),
+        evidence=evidence,
+        explanation=raw,
+        validation_error=validation["validation_error"],
+        validation_warnings=validation["validation_warnings"],
+        llm_client=llm_client,
+        citation_validator=CitationValidator(),
+    )
 
+    explanation = repaired["explanation"]
     assert len(explanation.bullets) == 3
     assert explanation.confidence == "medium"
     assert {bullet.claim_label for bullet in explanation.bullets} == {
@@ -375,16 +421,27 @@ async def test_explanation_generator_repairs_semantic_warning_once() -> None:
 
 
 @pytest.mark.asyncio
-async def test_explanation_generator_removes_unrepaired_critical_bullets() -> None:
-    generator = ExplanationGenerator(UnrepairedCriticalLLMClient())
+async def test_citation_repair_removes_unrepaired_critical_bullets() -> None:
+    llm_client = UnrepairedCriticalLLMClient()
+    evidence = [_thread_source(), _evidence()]
+    raw = await llm_client.generate_explanation(_post(), evidence)
+    validation = validate_citation_contract(raw, evidence, CitationValidator())
 
-    explanation = await generator.generate(_post(), [_thread_source(), _evidence()])
+    repaired = await repair_citation_contract_once(
+        post=_post(),
+        evidence=evidence,
+        explanation=raw,
+        validation_error=validation["validation_error"],
+        validation_warnings=validation["validation_warnings"],
+        llm_client=llm_client,
+        citation_validator=CitationValidator(),
+    )
 
+    explanation = repaired["explanation"]
     assert explanation.bullets == []
     assert explanation.confidence == "low"
     assert explanation.warnings[0].code == "CRITICAL_BULLETS_REMOVED"
     assert "citations did not match the claim type" in explanation.warnings[0].message
     assert (
-        "confirmed factual claims were supported only by social"
-        in explanation.warnings[0].message
+        "confirmed factual claims were supported only by social" in explanation.warnings[0].message
     )

@@ -1,7 +1,10 @@
 import pytest
 from pydantic import SecretStr
 
-from app.application.image_context import build_image_evidence, image_context_text
+from app.application.image_evidence_builder import (
+    build_image_evidence,
+    image_context_text,
+)
 from app.config import Settings
 from app.domain.models import (
     Evidence,
@@ -78,6 +81,34 @@ class FakeLLMClient:
 
     async def repair_explanation(self, **_kwargs) -> Explanation:
         raise AssertionError("repair should not be called")
+
+
+class RepairingLLMClient(FakeLLMClient):
+    def __init__(self) -> None:
+        self.repair_calls = 0
+
+    async def generate_explanation(
+        self,
+        _post: PostData,
+        _evidence: list[Evidence],
+    ) -> Explanation:
+        return Explanation(
+            bullets=[ExplanationBullet(text="Invalid citation.", source_ids=["missing"])],
+            confidence="low",
+            warnings=[],
+        )
+
+    async def repair_explanation(self, **_kwargs) -> Explanation:
+        self.repair_calls += 1
+        return Explanation(
+            bullets=[
+                ExplanationBullet(text="Repaired context one.", source_ids=["s1"]),
+                ExplanationBullet(text="Repaired context two.", source_ids=["s1"]),
+                ExplanationBullet(text="Repaired context three.", source_ids=["s1"]),
+            ],
+            confidence="medium",
+            warnings=[],
+        )
 
 
 class FakeImageAnalyzer:
@@ -215,6 +246,40 @@ async def test_live_explanation_flow_runs_end_to_end_with_fakes() -> None:
 
 
 @pytest.mark.asyncio
+async def test_live_explanation_flow_repairs_citations_in_repair_node() -> None:
+    llm_client = RepairingLLMClient()
+
+    async def rank_evidence(state: ExplanationState) -> list[RankedEvidence]:
+        return [
+            RankedEvidence(**source.model_dump(mode="json"), relevance_score=0.9)
+            for source in state.get("evidence", [])
+            if source.id == "s1"
+        ]
+
+    async def generate_explanation(state: ExplanationState) -> Explanation:
+        return await llm_client.generate_explanation(
+            state["post"],
+            state.get("ranked_evidence", []),
+        )
+
+    flow = LiveExplanationFlow(
+        settings=_settings(),
+        post_fetcher=FakePostFetcher(),
+        search_provider=FakeSearchProvider([_search_result()]),
+        source_fetcher=FakeSourceFetcher(),
+        llm_client=llm_client,
+        rank_evidence=rank_evidence,
+        generate_explanation=generate_explanation,
+    )
+
+    response = await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
+
+    assert llm_client.repair_calls == 1
+    assert len(response.explanation) == 3
+    assert response.confidence == "medium"
+
+
+@pytest.mark.asyncio
 async def test_live_explanation_flow_emits_progress_events() -> None:
     events = []
 
@@ -308,9 +373,7 @@ async def test_live_explanation_flow_adds_image_analysis_before_query_planning()
                 update={
                     "text": "",
                     "images": [
-                        ImageContext(
-                            url="https://cdn.bsky.app/img/feed_fullsize/plain/image.jpeg"
-                        )
+                        ImageContext(url="https://cdn.bsky.app/img/feed_fullsize/plain/image.jpeg")
                     ],
                 }
             )

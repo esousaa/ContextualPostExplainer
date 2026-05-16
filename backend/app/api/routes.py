@@ -1,6 +1,7 @@
 import asyncio
 import json
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Any, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query
@@ -17,6 +18,8 @@ from app.observability.run_store import LocalRunStore, RunDetail, RunSummary
 
 STREAM_DONE = object()
 HEARTBEAT_INTERVAL_SECONDS = 5.0
+API_SERVICE_NAME = "contextual-post-explainer-api"
+API_VERSION = "0.1.0"
 
 router = APIRouter(prefix="/api")
 LIVE_SERVICE_DEPENDENCY = Depends(get_live_explanation_service)
@@ -33,7 +36,11 @@ class RunListResponse(BaseModel):
 
 @router.get("/health")
 async def health() -> dict[str, str]:
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "service": API_SERVICE_NAME,
+        "version": API_VERSION,
+    }
 
 
 @router.get("/config/status")
@@ -46,8 +53,11 @@ async def config_status() -> dict[str, Any]:
             "error": str(exc),
         }
 
+    live_configured = _live_search_is_configured(settings)
+    eval_fixture_dir_exists = _eval_fixture_dir_exists(settings.eval_fixture_dir)
+
     return {
-        "status": "ok",
+        "status": "ready" if live_configured else "degraded",
         "openai": {
             "generation_model": settings.openai_generation_model,
             "judge_model": settings.openai_judge_model,
@@ -56,10 +66,15 @@ async def config_status() -> dict[str, Any]:
         },
         "live_search": {
             "provider": settings.search_provider,
-            "configured": _live_search_is_configured(settings),
+            "configured": live_configured,
         },
         "eval": {
             "fixture_dir": str(settings.eval_fixture_dir),
+            "configured": eval_fixture_dir_exists,
+        },
+        "diagnostics": {
+            "live_mode_ready": live_configured,
+            "eval_mode_ready": eval_fixture_dir_exists,
         },
     }
 
@@ -183,6 +198,15 @@ def _live_search_is_configured(settings: Any) -> bool:
     except Exception:
         return False
     return True
+
+
+def _eval_fixture_dir_exists(path: Path) -> bool:
+    if path.exists():
+        return True
+    if path.is_absolute():
+        return False
+    repo_root = Path(__file__).resolve().parents[3]
+    return (repo_root / path).exists()
 
 
 def _analysis_default_config() -> dict[str, str | None]:

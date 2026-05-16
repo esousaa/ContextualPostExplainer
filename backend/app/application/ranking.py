@@ -2,7 +2,7 @@ from math import isfinite
 
 import numpy as np
 
-from app.application.image_context import image_context_text
+from app.application.image_evidence_builder import image_context_text
 from app.application.source_quality import evaluate_source_quality, matches_post_link
 from app.domain.models import Evidence, PostData, RankedEvidence
 from app.ports.embedding_client import EmbeddingClient

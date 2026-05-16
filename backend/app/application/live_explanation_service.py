@@ -4,8 +4,8 @@ from typing import Any
 from app.adapters.bluesky.post_fetcher import BlueskyPostFetcher
 from app.adapters.http.source_fetcher import HttpSourceFetcher
 from app.adapters.openai.embedding_client import OpenAIEmbeddingClient
-from app.adapters.openai.image_analyzer import OpenAIImageAnalyzer
 from app.adapters.openai.llm_client import OpenAILLMClient
+from app.adapters.openai.vision_image_analyzer import OpenAIImageAnalyzer
 from app.adapters.search.registry import get_live_search_provider
 from app.application.explanation_generator import ExplanationGenerator
 from app.application.ranking import EvidenceRanker

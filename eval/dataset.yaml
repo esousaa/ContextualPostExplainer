@@ -129,3 +129,15 @@ cases:
       - "The beta requires a private vector database"
     minimum_sources: 1
     tags: [p1, groundedness]
+
+  - id: tc12_image_text_extraction
+    description: "Caso P1 com texto extraído de imagem"
+    post_fixture: fixtures/posts/tc12_image_text_extraction.json
+    evidence_fixture: fixtures/evidence/tc12_image_text_extraction.json
+    must_include_facts:
+      - "The screenshot says the launch checklist is complete"
+      - "The visible text mentions post ingestion, image OCR, and cited bullets"
+    must_not_claim:
+      - "The screenshot proves the feature is deployed in production"
+    minimum_sources: 1
+    tags: [p1, image, ocr]

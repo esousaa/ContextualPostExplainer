@@ -1,13 +1,11 @@
 import re
 
-from app.application.image_context import image_context_text
+from app.application.image_evidence_builder import image_context_text
 from app.domain.models import PostData
 
 MAX_LIVE_QUERIES = 6
 IGNORED_NAME_TOKENS = {"If", "Looking", "This", "United", "States"}
-LEGISLATIVE_ID_PATTERN = re.compile(
-    r"\b(?:SB|HB|AB|HR|S|H\.R\.)\s*[-.]?\s*\d+[A-Za-z]?\b"
-)
+LEGISLATIVE_ID_PATTERN = re.compile(r"\b(?:SB|HB|AB|HR|S|H\.R\.)\s*[-.]?\s*\d+[A-Za-z]?\b")
 SIGNED_INTO_LAW_PATTERN = re.compile(
     r"\b(signed\s+into\s+law|enacted|became\s+law)\b",
     re.IGNORECASE,

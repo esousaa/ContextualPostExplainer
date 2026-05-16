@@ -32,6 +32,7 @@ def score_eval_case(
 
 
 def _coverage(expected: list[str], text: str) -> float:
+    """Score deterministic lexical coverage; semantic support is judged separately."""
     if not expected:
         return 1.0
 
@@ -73,10 +74,7 @@ def _usefulness(
 ) -> float:
     if groundedness is None:
         score = (
-            1.0
-            + (fact_coverage * 2.5)
-            + (citation_coverage * 1.5)
-            - (hallucination_penalty * 2.0)
+            1.0 + (fact_coverage * 2.5) + (citation_coverage * 1.5) - (hallucination_penalty * 2.0)
         )
         return max(1.0, min(5.0, round(score, 2)))
 
