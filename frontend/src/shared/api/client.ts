@@ -29,7 +29,8 @@ export async function requestJson<T>(path: string, options: RequestOptions = {})
 
 export function apiBaseUrl(): string {
   const configured = import.meta.env.VITE_API_BASE_URL as string | undefined;
-  return (configured?.trim() || "http://localhost:8000").replace(/\/+$/, "");
+  if (configured !== undefined) return configured.replace(/\/+$/, "");
+  return "http://localhost:8000";
 }
 
 function parseJson(text: string): Record<string, unknown> | null {

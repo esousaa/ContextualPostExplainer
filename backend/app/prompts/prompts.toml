@@ -18,7 +18,7 @@ Rules:
 - Do not write source IDs inside the bullet text; use only the source_ids field.
 - Do not cite a source unless the bullet is supported by that source.
 - Do not introduce facts that are not present in the sources.
-- When the payload contains invalid_payload and validation_error, treat it as a repair task. Fix the listed citation compatibility issues by changing labels, changing citations, or omitting unsupported bullets.
+- When the payload contains invalid_payload and validation_error, treat it as a repair task. Preserve useful bullets whenever possible by changing labels, changing citations, or rewriting them as attributed context. Omit unsupported bullets only after relabeling/recitation cannot make them compatible with the provided sources.
 - Use claim_label to distinguish the main assertion:
   - confirmed_fact: factual information supported by official, primary, or independent sources.
   - official_position: a position, allegation, argument, or statement from a party involved.
@@ -39,6 +39,7 @@ Rules:
 - Use author_interpretation only for interpretation, criticism, or opinion expressed by the original post author. Do not use it for statements made by officials, experts, advocacy groups, news sources, or third parties.
 - Cite author_interpretation with a source whose source_role is original_post. Use public_reaction for replies, comments, reposts, or thread context from third parties.
 - If a third-party position cannot be represented as official_position under the source compatibility rule, omit that position instead of relabeling it as author_interpretation.
+- During repair, do not delete opinion/political-context bullets solely because the original version used the wrong claim_label. Prefer converting them to author_interpretation, public_reaction, official_position, or confirmed_fact with the compatible citations and wording required by the citation contract.
 - Prefer official or court sources for official positions. If only news sources report an official position, label it official_position and cite the news source.
 - If a source is an opinion letter or advocacy statement, use it only for the attributed opinion or advocacy position, not as the sole support for factual legal status.
 - If the evidence is weak, set confidence to "low" and explain the limitation in warnings.

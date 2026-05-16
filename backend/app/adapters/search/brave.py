@@ -1,11 +1,11 @@
 from typing import Any
-from urllib.parse import urlparse, urlunparse
 
 import httpx
 import structlog
 from pydantic import SecretStr
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
+from app.domain.deduplication import canonicalize_url
 from app.domain.errors import ExternalProviderError
 from app.domain.models import SearchResult
 from app.ports.search_provider import SearchProvider
@@ -114,7 +114,7 @@ def _normalize_results(
                 url=url,
                 snippet=snippet,
                 rank=len(results) + 1,
-                canonical_url=_canonicalize_url(url),
+                canonical_url=canonicalize_url(url),
             )
         except ValueError:
             logger.warning("brave_search_result_discarded", reason="invalid_url", url=url)
@@ -123,16 +123,6 @@ def _normalize_results(
         results.append(result)
 
     return results
-
-
-def _canonicalize_url(url: str) -> str:
-    parsed = urlparse(url)
-    host = parsed.netloc.lower()
-    if host.startswith("www."):
-        host = host[4:]
-
-    path = parsed.path.rstrip("/") or "/"
-    return urlunparse((parsed.scheme.lower(), host, path, "", parsed.query, ""))
 
 
 def _string(value: Any) -> str:

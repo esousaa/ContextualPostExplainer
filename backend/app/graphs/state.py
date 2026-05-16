@@ -34,6 +34,7 @@ class ExplanationState(TypedDict, total=False):
     validation_error: str | None
     validation_warnings: list[ValidationWarning]
     needs_repair: bool
+    citation_repair_audit: dict[str, object]
     warnings: list[str]
     metrics: dict[str, object]
     eval_case: EvalCase

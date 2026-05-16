@@ -15,6 +15,8 @@ def test_parse_bluesky_post_url() -> None:
     "url",
     [
         "https://example.com/profile/mayor.nyc.gov/post/3mltw7fmlak2y",
+        "https://bsky.app.evil.com/profile/mayor.nyc.gov/post/3mltw7fmlak2y",
+        "ftp://bsky.app/profile/mayor.nyc.gov/post/3mltw7fmlak2y",
         "https://bsky.app/profile/mayor.nyc.gov",
         "https://bsky.app/profile/mayor.nyc.gov/feed/3mltw7fmlak2y",
     ],

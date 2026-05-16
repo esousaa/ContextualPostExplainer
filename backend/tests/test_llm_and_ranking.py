@@ -1,3 +1,4 @@
+import json
 from datetime import UTC, datetime
 from types import SimpleNamespace
 
@@ -156,6 +157,44 @@ class UnrepairedCriticalLLMClient(SemanticRepairLLMClient):
         return await self.generate_explanation(_kwargs["post"], _kwargs["evidence"])
 
 
+class OpinionRepairLLMClient(SemanticRepairLLMClient):
+    async def generate_explanation(
+        self,
+        _post: PostData,
+        _evidence: list[Evidence],
+    ) -> Explanation:
+        return Explanation(
+            bullets=[
+                ExplanationBullet(
+                    text="The post says the official committed crimes.",
+                    source_ids=["thread_original"],
+                    claim_label="confirmed_fact",
+                    warnings=["This reflects the author's opinion, not confirmed information."],
+                )
+                for _ in range(3)
+            ],
+            confidence="medium",
+            warnings=[],
+        )
+
+    async def repair_explanation(self, **_kwargs) -> Explanation:
+        return Explanation(
+            bullets=[
+                ExplanationBullet(
+                    text="The author frames the official as criminal and expresses criticism.",
+                    source_ids=["thread_original"],
+                    claim_label="author_interpretation",
+                    warnings=[
+                        "This summarizes the author's framing and does not verify the accusation."
+                    ],
+                )
+                for _ in range(3)
+            ],
+            confidence="medium",
+            warnings=[],
+        )
+
+
 def _post() -> PostData:
     return PostData(
         url="https://bsky.app/profile/example.bsky.social/post/abc",
@@ -259,6 +298,59 @@ async def test_openai_llm_client_generates_explanation_schema() -> None:
     assert explanation.bullets[0].source_ids == ["s1"]
     assert explanation.bullets[1].claim_label == "official_position"
     assert explanation.bullets[2].warnings[0].code == "GENERAL_WARNING"
+
+
+@pytest.mark.asyncio
+async def test_openai_llm_client_repair_instruction_prioritizes_preservation() -> None:
+    output = """
+    {
+      "bullets": [
+        {
+          "text": "One.",
+          "claim_label": "author_interpretation",
+          "context_modifiers": ["political_context"],
+          "source_ids": ["thread_original"],
+          "confidence": "medium",
+          "warnings": []
+        },
+        {
+          "text": "Two.",
+          "claim_label": "author_interpretation",
+          "context_modifiers": ["political_context"],
+          "source_ids": ["thread_original"],
+          "confidence": "medium",
+          "warnings": []
+        },
+        {
+          "text": "Three.",
+          "claim_label": "author_interpretation",
+          "context_modifiers": ["political_context"],
+          "source_ids": ["thread_original"],
+          "confidence": "medium",
+          "warnings": []
+        }
+      ],
+      "confidence": "medium",
+      "warnings": []
+    }
+    """
+    fake_client = FakeOpenAIClient(output_text=output)
+    llm = OpenAILLMClient(
+        api_key=SecretStr("test-openai-key"),
+        generation_model="gpt-4o",
+        client=fake_client,
+    )
+
+    await llm.repair_explanation(
+        post=_post(),
+        evidence=[_thread_source()],
+        invalid_payload='{"bullets":[]}',
+        validation_error="SOCIAL_ONLY_CONFIRMED_FACT",
+    )
+
+    payload = json.loads(fake_client.responses.calls[0]["input"])
+    assert "Preserve useful explanatory bullets" in payload["repair_instruction"]
+    assert "Omit a bullet only when no compatible source" in payload["repair_instruction"]
 
 
 @pytest.mark.asyncio
@@ -370,6 +462,9 @@ async def test_citation_repair_repairs_once_after_validation_failure() -> None:
     explanation = repaired["explanation"]
     assert len(explanation.bullets) == 3
     assert explanation.confidence == "medium"
+    assert repaired["citation_repair_audit"]["outcome"] == "repaired"
+    assert len(repaired["citation_repair_audit"]["input_bullets"]) == 1
+    assert repaired["citation_repair_audit"]["removed_bullets"] == []
 
 
 @pytest.mark.asyncio
@@ -391,6 +486,8 @@ async def test_citation_repair_returns_empty_when_repair_fails() -> None:
     explanation = repaired["explanation"]
     assert explanation.bullets == []
     assert explanation.confidence == "low"
+    assert repaired["citation_repair_audit"]["outcome"] == "failed_validation"
+    assert repaired["citation_repair_audit"]["input_bullets"][0]["source_ids"] == ["missing"]
 
 
 @pytest.mark.asyncio
@@ -418,6 +515,33 @@ async def test_citation_repair_repairs_semantic_warning_once() -> None:
         "confirmed_fact",
     }
     assert explanation.warnings == []
+    assert repaired["citation_repair_audit"]["outcome"] == "repaired"
+    assert repaired["citation_repair_audit"]["removed_bullets"] == []
+
+
+@pytest.mark.asyncio
+async def test_citation_repair_preserves_opinion_bullets_by_reclassification() -> None:
+    llm_client = OpinionRepairLLMClient()
+    evidence = [_thread_source()]
+    raw = await llm_client.generate_explanation(_post(), evidence)
+    validation = validate_citation_contract(raw, evidence, CitationValidator())
+
+    repaired = await repair_citation_contract_once(
+        post=_post(),
+        evidence=evidence,
+        explanation=raw,
+        validation_error=validation["validation_error"],
+        validation_warnings=validation["validation_warnings"],
+        llm_client=llm_client,
+        citation_validator=CitationValidator(),
+    )
+
+    explanation = repaired["explanation"]
+    assert len(explanation.bullets) == 3
+    assert {bullet.claim_label for bullet in explanation.bullets} == {"author_interpretation"}
+    assert repaired["citation_repair_audit"]["outcome"] == "repaired"
+    assert repaired["citation_repair_audit"]["removed_bullets"] == []
+    assert repaired["citation_repair_audit"]["targeted_bullet_indexes"] == [0, 1, 2]
 
 
 @pytest.mark.asyncio
@@ -445,3 +569,5 @@ async def test_citation_repair_removes_unrepaired_critical_bullets() -> None:
     assert (
         "confirmed factual claims were supported only by social" in explanation.warnings[0].message
     )
+    assert repaired["citation_repair_audit"]["outcome"] == "hardened"
+    assert len(repaired["citation_repair_audit"]["removed_bullets"]) == 3

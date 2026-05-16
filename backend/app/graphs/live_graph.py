@@ -1,3 +1,4 @@
+import asyncio
 import time
 from collections.abc import Awaitable, Callable
 from datetime import UTC, datetime
@@ -189,7 +190,7 @@ class LiveExplanationFlow:
         status: str,
     ) -> None:
         node_name = str(event["node_name"])
-        step = LIVE_NODE_STEPS[node_name]
+        step = LIVE_NODE_STEPS.get(node_name, "Processing")
         payload = {
             "type": event_type,
             "run_id": event["run_id"],
@@ -244,8 +245,8 @@ class LiveExplanationFlow:
             }
         try:
             analyzed_post = await self._image_analyzer.analyze(post)
-        except Exception:
-            logger.warning("image_analysis_failed", run_id=state["run_id"])
+        except Exception as exc:
+            logger.warning("image_analysis_failed", run_id=state["run_id"], error=str(exc))
             return {
                 "image_sources": build_image_evidence(post),
                 "metrics": {**metrics, "image_analysis_failed": True},
@@ -265,9 +266,23 @@ class LiveExplanationFlow:
         return {"queries": queries}
 
     async def _search_web_context(self, state: ExplanationState) -> dict[str, object]:
+        search_tasks = [
+            self._search_provider.search(query, max_results=5) for query in state["queries"]
+        ]
+        per_query = await asyncio.gather(*search_tasks, return_exceptions=True)
         results: list[SearchResult] = []
-        for query in state["queries"]:
-            results.extend(await self._search_provider.search(query, max_results=5))
+        search_errors: list[dict[str, str]] = []
+        for query, query_result in zip(state["queries"], per_query, strict=False):
+            if isinstance(query_result, Exception):
+                logger.warning(
+                    "search_query_failed",
+                    run_id=state["run_id"],
+                    query=query,
+                    error=str(query_result),
+                )
+                search_errors.append({"query": query, "error": str(query_result)})
+                continue
+            results.extend(query_result)
 
         kept, discards = deduplicate_search_results(results)
         metrics = {
@@ -277,6 +292,8 @@ class LiveExplanationFlow:
             **search_provider_diagnostics(results),
             "search_results_discarded": [discard.__dict__ for discard in discards],
         }
+        if search_errors:
+            metrics["search_errors"] = search_errors
         return {"search_results": kept, "metrics": metrics}
 
     async def _fetch_source_pages(self, state: ExplanationState) -> dict[str, object]:
@@ -376,21 +393,24 @@ class LiveExplanationFlow:
                 "cited_sources_by_provider": provider_counts_for_sources(cited_sources),
                 "cited_multi_provider_source_count": multi_provider_source_count(cited_sources),
             }
+            payload = {
+                "input_url": state["input_url"],
+                "status": "completed" if response.explanation else "no_explanation",
+                **config,
+                "config": config,
+                "queries": state.get("queries", []),
+                "metrics": metrics,
+                "sources": [source.model_dump(mode="json") for source in ranked_sources],
+                "cited_sources": [source.model_dump(mode="json") for source in cited_sources],
+                "warnings": [warning.model_dump(mode="json") for warning in response.warnings],
+                "response": response.model_dump(mode="json"),
+            }
+            if "citation_repair_audit" in state:
+                payload["citation_repair_audit"] = state["citation_repair_audit"]
             await self._run_recorder.write_run(
                 "live",
                 state["run_id"],
-                {
-                    "input_url": state["input_url"],
-                    "status": "completed" if response.explanation else "no_explanation",
-                    **config,
-                    "config": config,
-                    "queries": state.get("queries", []),
-                    "metrics": metrics,
-                    "sources": [source.model_dump(mode="json") for source in ranked_sources],
-                    "cited_sources": [source.model_dump(mode="json") for source in cited_sources],
-                    "warnings": [warning.model_dump(mode="json") for warning in response.warnings],
-                    "response": response.model_dump(mode="json"),
-                },
+                payload,
             )
 
     async def _record_failed_run(self, state: ExplanationState, exc: Exception) -> None:

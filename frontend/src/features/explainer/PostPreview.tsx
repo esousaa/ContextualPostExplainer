@@ -2,6 +2,7 @@ import { CalendarDays, ExternalLink, Image as ImageIcon, Link as LinkIcon } from
 
 import { Badge } from "../../shared/components/Badge";
 import { formatDate } from "../../shared/utils/date";
+import { safeExternalUrl } from "../../shared/utils/url";
 import type { PostData } from "./types";
 
 type PostPreviewProps = {
@@ -22,6 +23,7 @@ export function PostPreview({ post }: PostPreviewProps) {
   }
 
   const displayName = post.author.display_name || post.author.handle;
+  const originalPostUrl = safeExternalUrl(post.url);
 
   return (
     <section className="post-preview" aria-label="Post preview">
@@ -30,9 +32,11 @@ export function PostPreview({ post }: PostPreviewProps) {
         <div className="post-meta">
           <strong>{displayName}</strong>
           <span>@{post.author.handle}</span>
-          <a href={post.url} rel="noreferrer" target="_blank" title="Open original post">
-            <ExternalLink size={15} />
-          </a>
+          {originalPostUrl && (
+            <a href={originalPostUrl} rel="noreferrer" target="_blank" title="Open original post">
+              <ExternalLink size={15} />
+            </a>
+          )}
         </div>
         <p>{post.text}</p>
         <div className="post-facts">
@@ -52,20 +56,23 @@ export function PostPreview({ post }: PostPreviewProps) {
         </div>
         {post.images.length > 0 && (
           <div className="image-list">
-            {post.images.map((image, index) => (
-              <figure key={`${image.url ?? "image"}-${index}`}>
-                {image.url && <img alt={image.alt_text ?? image.description ?? ""} src={image.url} />}
-                <figcaption>
-                  {image.image_type && <span className="image-type">{image.image_type}</span>}
-                  {image.alt_text && <ImageTextBlock label="Alt text" text={image.alt_text} />}
-                  {image.ocr_text && <ImageTextBlock label="Extracted text" text={image.ocr_text} />}
-                  {image.description && (
-                    <ImageTextBlock label="Visual description" text={image.description} />
-                  )}
-                  {!image.alt_text && !image.ocr_text && !image.description && "Image without alt text."}
-                </figcaption>
-              </figure>
-            ))}
+            {post.images.map((image, index) => {
+              const imageUrl = safeExternalUrl(image.url);
+              return (
+                <figure key={`${image.url ?? "image"}-${index}`}>
+                  {imageUrl && <img alt={image.alt_text ?? image.description ?? ""} src={imageUrl} />}
+                  <figcaption>
+                    {image.image_type && <span className="image-type">{image.image_type}</span>}
+                    {image.alt_text && <ImageTextBlock label="Alt text" text={image.alt_text} />}
+                    {image.ocr_text && <ImageTextBlock label="Extracted text" text={image.ocr_text} />}
+                    {image.description && (
+                      <ImageTextBlock label="Visual description" text={image.description} />
+                    )}
+                    {!image.alt_text && !image.ocr_text && !image.description && "Image without alt text."}
+                  </figcaption>
+                </figure>
+              );
+            })}
           </div>
         )}
       </div>

@@ -5,14 +5,15 @@ from pathlib import Path
 from typing import Any, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from starlette.responses import StreamingResponse
 
+from app.adapters.bluesky.url_parser import parse_bluesky_post_url
 from app.analysis.run_analysis import AnalysisOverview, LocalAnalysisStore
 from app.api.dependencies import get_live_explanation_service
 from app.application.live_explanation_service import LiveExplanationService
-from app.config import Settings, get_settings
-from app.domain.errors import DomainError
+from app.config import get_settings
+from app.domain.errors import DomainError, UnsupportedPlatformError
 from app.domain.models import ExplanationResponse
 from app.observability.run_store import LocalRunStore, RunDetail, RunSummary
 
@@ -26,8 +27,17 @@ LIVE_SERVICE_DEPENDENCY = Depends(get_live_explanation_service)
 
 
 class ExplainRequest(BaseModel):
-    url: str = Field(min_length=1)
+    url: str = Field(min_length=1, max_length=2048)
     include_debug: bool = False
+
+    @field_validator("url")
+    @classmethod
+    def must_be_bluesky_url(cls, v: str) -> str:
+        try:
+            parse_bluesky_post_url(v)
+        except UnsupportedPlatformError as exc:
+            raise ValueError("URL must be a Bluesky post URL (bsky.app).") from exc
+        return v
 
 
 class RunListResponse(BaseModel):
@@ -79,15 +89,21 @@ async def config_status() -> dict[str, Any]:
     }
 
 
+EXPLAIN_TIMEOUT_SECONDS = 120.0
+
+
 @router.post("/explain", response_model=ExplanationResponse)
 async def explain(
     request: ExplainRequest,
     service: LiveExplanationService = LIVE_SERVICE_DEPENDENCY,
 ) -> ExplanationResponse:
-    return await service.explain_url(
-        url=request.url,
-        include_debug=request.include_debug,
-    )
+    try:
+        return await asyncio.wait_for(
+            service.explain_url(url=request.url, include_debug=request.include_debug),
+            timeout=EXPLAIN_TIMEOUT_SECONDS,
+        )
+    except TimeoutError as exc:
+        raise HTTPException(status_code=504, detail="Request timed out.") from exc
 
 
 @router.post("/explain/stream")
@@ -155,6 +171,10 @@ async def explain_stream(
         finally:
             if not task.done():
                 task.cancel()
+                try:
+                    await task
+                except (asyncio.CancelledError, Exception):
+                    pass
 
     return StreamingResponse(
         event_stream(),
@@ -189,7 +209,7 @@ async def get_run(
 async def get_analysis_overview(
     limit: int = Query(default=200, ge=1, le=500),
 ) -> AnalysisOverview:
-    return LocalAnalysisStore(default_config=_analysis_default_config()).overview(limit=limit)
+    return LocalAnalysisStore().overview(limit=limit)
 
 
 def _live_search_is_configured(settings: Any) -> bool:
@@ -207,23 +227,6 @@ def _eval_fixture_dir_exists(path: Path) -> bool:
         return False
     repo_root = Path(__file__).resolve().parents[3]
     return (repo_root / path).exists()
-
-
-def _analysis_default_config() -> dict[str, str | None]:
-    try:
-        settings = get_settings()
-    except Exception:
-        return {}
-    return _settings_config(settings)
-
-
-def _settings_config(settings: Settings) -> dict[str, str | None]:
-    return {
-        "openai_generation_model": settings.openai_generation_model,
-        "openai_judge_model": settings.openai_judge_model,
-        "openai_embedding_model": settings.openai_embedding_model,
-        "openai_vision_model": settings.openai_vision_model,
-    }
 
 
 def _format_sse(event_name: str, payload: Any) -> str:

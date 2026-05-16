@@ -4,5 +4,26 @@ services:
       context: ./backend
     env_file:
       - .env
+    environment:
+      BACKEND_CORS_ORIGINS: '["http://localhost:${APP_FRONTEND_PORT:-5173}","http://127.0.0.1:${APP_FRONTEND_PORT:-5173}"]'
     ports:
-      - "8000:8000"
+      - "${APP_BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./backend/runs:/app/runs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')\""]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "${APP_FRONTEND_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

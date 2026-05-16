@@ -15,7 +15,7 @@ def parse_bluesky_post_url(url: str) -> BlueskyPostRef:
     host = parsed.netloc.lower()
     parts = [part for part in parsed.path.split("/") if part]
 
-    if host != "bsky.app" or len(parts) != 4:
+    if parsed.scheme not in {"http", "https"} or host != "bsky.app" or len(parts) != 4:
         raise UnsupportedPlatformError("Only public Bluesky post URLs are supported.")
 
     if parts[0] != "profile" or parts[2] != "post":

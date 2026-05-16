@@ -1,0 +1,829 @@
+{
+  "run_id": "run_ff67aa38af934754b98aba351135c68a",
+  "mode": "live",
+  "generated_at": "2026-05-16T11:17:27.749758+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T11:17:02.747643+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:02.747804+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:17:02.748810+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:02.749869+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 1
+    },
+    {
+      "timestamp": "2026-05-16T11:17:02.750770+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:03.475708+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 724
+    },
+    {
+      "timestamp": "2026-05-16T11:17:03.476510+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:03.476632+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:17:03.477303+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:12.297050+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 7209
+    },
+    {
+      "timestamp": "2026-05-16T11:17:12.297975+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:14.136601+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 1838
+    },
+    {
+      "timestamp": "2026-05-16T11:17:14.137402+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:21.520246+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7382
+    },
+    {
+      "timestamp": "2026-05-16T11:17:21.521285+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:22.332222+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 810
+    },
+    {
+      "timestamp": "2026-05-16T11:17:22.333006+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.739636+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5406
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.740463+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.740701+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.741396+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.741495+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.742126+00:00",
+      "event": "node_started",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T11:17:27.742256+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff67aa38af934754b98aba351135c68a",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+  "comparison_group_id": "manual_live",
+  "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+    "comparison_group_id": "manual_live",
+    "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1"
+  },
+  "queries": [
+    "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+    "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+    "reports of Trump social media posts depicting Obamas as apes fact-check",
+    "AI-generated image of Donald Trump as Jesus Christ social media controversy Natalie Harp"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/newrepublic/posts/through-twilight-hour-shifts-president-trumps-executive-assistant-natalie-harp-s/1399531132219823/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYYOQ6VzyFX/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/newrepublic/photos/through-twilight-hour-shifts-president-trumps-executive-assistant-natalie-harp-s/1399531085553161/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/WSJForero/status/2054633726479372412",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/DashDeCosta/status/2054640735798940002",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/groups/729619353853337/posts/3463757220439523/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.nytimes.com/2026/02/07/business/trump-truth-social-fake-post-obamas.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_377cbad96e33",
+        "title": "Trump refuses to apologize over racist meme of the Obamas : NPR",
+        "url": "https://www.npr.org/2026/02/06/nx-s1-5704281/trump-posts-racist-meme-of-the-obamas-then-deletes-it#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "ranked_multi_provider_source_count": 0,
+    "citation_repair_needed": false,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @newrepublic.com",
+      "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+      "snippet": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+      "content": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "newrepublic.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9547000033303914
+    },
+    {
+      "id": "src_28901819b4c2",
+      "title": "Natalie Harp: Young Woman Fueling Trump’s Wild Midnight Sprees Is Exposed",
+      "url": "https://www.thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed/#",
+      "snippet": "His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+      "content": "Members of President Donald Trump’s inner circle are secretly fed up with the aide who is enabling his unhinged late-night Truth Social rampages. Most nights, the president fires off dozens of posts attacking his political enemies, amplifying conspiracy theories, spreading AI-slop videos and images, and boosting offensive content from obscure MAGA accounts on X and his own Truth Social platform. But despite the odd hours, Trump isn’t doing it all alone, according to a new report in the Wall Street Journal. His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. She then logs onto the president’s account and posts batches of Trump-approved messages. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The process has frustrated some White House officials because Harp doesn’t share her proposed posts with the chief of staff’s office, communications aides, or national-security officials, sources told the Journal. Instead, she says she works for Trump and only listens to him. In a statement to the Journal, White House Communications Director Steven Cheung said, “We don’t discuss internal deliberations of how the process works, but no other social-media tool has been more effective than Truth.” The platform allows Trump to “offer” his unfiltered and direct thoughts to the American people, without the biased media taking him out of context,” he added. The Daily Beast has also reached out for comment. An analysis by the Journal found that Trump has posted a staggering 8,800 times since returning to office. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+      "canonical_url": "https://thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "thedailybeast.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8012835702430694
+    },
+    {
+      "id": "src_675f075e0d43",
+      "title": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree – Firstpost",
+      "url": "https://www.firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html#",
+      "snippet": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree \"Meet Natalie Harp, Trump's aide behind his midnight social media posting spree\"). ## Natalie Harp, 34, is an executive assistant to US President Donald Trump. She is said to have put up some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. Natalie Harp serves as Special Assistant to the President and Executive Assistant to the President, assisting Donald Trump closely, including with his social media activity.",
+      "content": "US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. She is said to be behind some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. But who is Harp? What do we know about her? Let’s take a closer look. Who is she? Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. She was appointed to the post on January 20, 2025. Harp was born in 1991. She did a BA at Point Loma Nazarene University, followed by an MBA at the Liberty University School of Business in 2015. According to The Independent, Trump invited Harp to speak at the 2020 Republican National Convention. During her speech, Harp, a bone cancer survivor, claimed Trump saved her life and compared him to Jimmy Stewart’s character in “It’s a Wonderful Life.” “I wouldn’t be alive today if it wasn’t for you,” Harp said. However, experts told The Washington Post that Harp’s claims don’t line up with the timeline of her treatment. They said Trump’s healthcare policy likely had little to no impact on Harp being cured of bone cancer. Harp has been working for Trump since around 2022. She earlier worked as a host on the far-right One America News Network. Harp previously worked as an assistant to Trump at the Save America Super PAC. She was also part of the Donald J Trump for President 2024 Super PAC, where she worked as a research advisor and assistant to Trump. According to The New York Times, Harp is a constant presence at Trump’s side and has even written him letters outlining her loyalty to him. “You are all that matters to me,” she wrote. When Trump was playing golf in Scotland, she ran behind his cart to keep him updated on good news about him, including posts on social media. In the run-up to the 2024 election, Harp was given the nickname the “human printer”. This is because she incessantly followed Trump around with a portable printer and a battery pack in order to give him information in printouts. Harp is also said to be a bad influence when it comes to Trump. Colleagues have said that she gets much of her information from The Gateway Pundit, a conspiracy website that parrots right-wing talking points. Truth Social account poster According to The Wall Street Journal, it is Harp who puts together a handy guide of screenshots for Trump from social media. This could be anything from people praising Trump to people airing conspiracy theories and slamming Democrats and Trump’s opponents. While Trump compiles the content to be put out via printouts, it is Harp who logs into the President’s Truth Social account and posts them. Harp often does this late at night, on weekends or even over the holidays. This is no mean feat, given that, according to the Journal, Trump has put up over 8,000 posts since returning to the Oval Office. However, the White House told the newspaper that Trump himself also puts up posts on his Truth Social account. The aforementioned posts portraying the Obamas as monkeys and Trump as Jesus were reportedly put up by Harp at Trump’s behest. The White House earlier blamed an ‘unnamed staffer’ with access to the Truth Social account for the posts. The newspaper reported that Harp does not show the posts to other staffers before approaching Trump, leaving them frustrated. Asked for comment about the posts, White House Communications Director Steven Cheung told the WSJ, “We don’t discuss internal deliberations of how the process works, but no other social media tool has been more effective than Truth.” He added, “Truth Social has never been hotter, and it’s because President Trump offers his unfiltered and direct thoughts to the American",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+      "canonical_url": "https://firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "firstpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7711647986579381
+    },
+    {
+      "id": "src_b40f19b5c6e1",
+      "title": "Trump deletes video meme showing Barack, Michelle Obama as apes",
+      "url": "https://www.usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007/#",
+      "snippet": "They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and",
+      "content": "Trump deletes video meme showing Barack, Michelle Obama as apes WASHINGTON — President Donald Trump shared a clip of former President Barack Obama and first lady Michelle Obama appearing as apes in a late-night Truth Social post on Feb. 5 before taking it down the following day amid bipartisan pushback. The roughly minute-long video centered on footage discussing unsubstantiated voter fraud allegations in the 2020 presidential election before briefly flipping to the clip of the Obamas. The image of the Obamas, which appeared to have been generated by artificial intelligence, showed the bodies of two apes whose faces have been replaced by that of the former president and first lady. They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and said it is from a meme depicting Trump and the Obamas as characters from the Lion King. Trump does not appear in the video, which he posted just before midnight on Feb. 5 with no accompanying text. But by noon ET on Feb. 6 ‒ after the post had been up about 12 hours ‒ the White House deleted it. Trump told reporters aboard Air Force One on Feb. 6 he only looked at the first part of the video and didn't see the part featuring the Obamas. Trump said he gave the video to someone else on his staff to post and \"somebody slipped and missed a very small part.\" Trump said he had no plans to apologize, however. \"I didn't make a mistake. I looked at the beginning of it and it was fine,\" the president said as flew from Washington to his Mar-a-Lago resort in Florida. Earlier in the day, a White House official told USA TODAY that a White House staffer had erroneously made the post and that it was taken down. Trump personally ordered the post be removed, a second White House official said. The video was among more than 60 posts and reposts from Trump's Truth Social account made during a rapid flurry of activity that started at 10:36 p.m. ET on Feb. 5 and ended 12:25 a.m. ET. Yet a close Trump ally, who spoke on the condition of anonymity, said the president had no knowledge of the post and that a staffer let Trump down. A small group of trusted White House officials have access to the president's social media accounts. A 2024 documentary, \"Art of the Surge: The Donald Trump Comeback,\" showed Trump dictating to Natalie Harp, executive assistant to the president, what to write in one of his Truth Social posts. Dan Scavino, White House deputy chief of staff, is also believed to have access. In the original meme that the White House referred to, Trump's head is superimposed on the body of a lion. Faces of other politicians, including former President Joe Biden, California Gov. Gavin Newsom, House Minority Leader Hakeem Jeffries and U.S. Rep Alexandria Ocasio-Cortez, also appear superimposed on animals in the original video. \"This is from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King. Please stop the fake outrage and report on something today that actually matters to the American public,\" White House press secretary Karoline Leavitt said in a statement prior to the post being removed. USA TODAY has reached out to the Obamas for comment. Social media denounces Trump's racist post of Obamas Many on social media quickly denounced the portrayal as racist, and lawmakers on both sides of the aisle criticized the post and called on the president to apologize. U.S. Sen. Tim Scott, R-South Carolina, the chair of the National Republican Senatorial Committee, said he was \"praying it was fake because it’s the most racist thing I’ve seen out of this White House. The President should remove it.\" U.S. Sen. Roger Wicker, R-Mississippi, said the post was \"totally unacceptable\" and called on the president to apologize. \"Even if this was a Lion King meme, a reasonable person sees the racist context to this. The White House should do what anyone does when they make a mis",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+      "canonical_url": "https://usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007",
+      "published_at": "2026-02-06T00:00:00",
+      "publisher": "usatoday.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5622957154677412
+    },
+    {
+      "id": "src_2533f7f1bfaa",
+      "title": "Anger in White House over now-deleted Obamas post | Semafor",
+      "url": "https://www.semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post#",
+      "snippet": "... Trump's Truth Social account that depicted Barack and Michelle Obama as apes — an error that's sparked internal questions and rare",
+      "content": "The News White House staffers are privately venting frustrations over a now-deleted post on President Donald Trump’s Truth Social account that depicted Barack and Michelle Obama as apes — an error that’s sparked internal questions and rare condemnation from the president’s own party. One person with direct knowledge of the situation told Semafor that Trump “had not seen the video before it got posted” and was not happy when he learned of the situation. Aides are “pretty pissed off” at the debacle, this person added, including at the person responsible for posting the video. The identity of that person is still unclear, as well as whether he or she might face further discipline for what a White House official said was an “erroneously” posted video containing the clip of the former president and first lady. Posted at 11:44 p.m. Thursday night in the midst of a rapid fire of additional Truth posts, the video detailed a conspiracy about voting machines before ending with the clip in question. It drew quick rebukes from several high-profile Republicans. Senate GOP campaign chief Tim Scott of South Carolina, the party’s only Black senator, called it “the most racist thing I’ve seen out of this White House,” while Sen. Roger Wicker, R-Miss., deemed it “totally unacceptable.” Before the post was deleted, White House press secretary Karoline Leavitt criticized “fake outrage” over the post, telling news outlets that it was “from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King.” “You can’t attempt to clean up the mess by continuing to make it messier,” a person close to the White House told Semafor. A short list of individuals are believed to have access to the president’s Truth Social account, including White House deputy chief of staff Dan Scavino and one of the president’s most devoted aides, Natalie Harp. The person with knowledge of the situation said Scavino was not responsible for the post but did not identify the culpable individual. The White House did not immediately return a request for comment on whether Harp was behind the post. While Harp frequently posts on Trump’s account, she’s known to do so with his approval. Know More Wicker and Scott were not the only elected Republicans to condemn the video clip for its portrayal of the Obamas. Sens. Pete Ricketts of Nebraska and Susan Collins of Maine spoke out against it on social media, as well as Reps. Mike Lawler of New York and Mike Turner of Ohio. The White House has not apologized for the post, as Wicker and Turner urged. Trump has drawn criticism for his social media posts multiple times since resuming office last year, including a post last year that depicted him dropping feces on progressive “No Kings” protesters and another profanity-laced post last year that portrayed Democratic leaders with stereotypical Mexican garb.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+      "canonical_url": "https://semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post",
+      "published_at": "2026-02-06T00:00:00",
+      "publisher": "semafor.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5035291715525544
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @newrepublic.com",
+      "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+      "snippet": "So fire her.",
+      "content": "So fire her.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "newrepublic.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.42618409614541575
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @newrepublic.com",
+      "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+      "snippet": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+      "content": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "newrepublic.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9547000033303914
+    },
+    {
+      "id": "src_28901819b4c2",
+      "title": "Natalie Harp: Young Woman Fueling Trump’s Wild Midnight Sprees Is Exposed",
+      "url": "https://www.thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed/#",
+      "snippet": "His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+      "content": "Members of President Donald Trump’s inner circle are secretly fed up with the aide who is enabling his unhinged late-night Truth Social rampages. Most nights, the president fires off dozens of posts attacking his political enemies, amplifying conspiracy theories, spreading AI-slop videos and images, and boosting offensive content from obscure MAGA accounts on X and his own Truth Social platform. But despite the odd hours, Trump isn’t doing it all alone, according to a new report in the Wall Street Journal. His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. She then logs onto the president’s account and posts batches of Trump-approved messages. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The process has frustrated some White House officials because Harp doesn’t share her proposed posts with the chief of staff’s office, communications aides, or national-security officials, sources told the Journal. Instead, she says she works for Trump and only listens to him. In a statement to the Journal, White House Communications Director Steven Cheung said, “We don’t discuss internal deliberations of how the process works, but no other social-media tool has been more effective than Truth.” The platform allows Trump to “offer” his unfiltered and direct thoughts to the American people, without the biased media taking him out of context,” he added. The Daily Beast has also reached out for comment. An analysis by the Journal found that Trump has posted a staggering 8,800 times since returning to office. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+      "canonical_url": "https://thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "thedailybeast.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8012835702430694
+    },
+    {
+      "id": "src_675f075e0d43",
+      "title": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree – Firstpost",
+      "url": "https://www.firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html#",
+      "snippet": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree \"Meet Natalie Harp, Trump's aide behind his midnight social media posting spree\"). ## Natalie Harp, 34, is an executive assistant to US President Donald Trump. She is said to have put up some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. Natalie Harp serves as Special Assistant to the President and Executive Assistant to the President, assisting Donald Trump closely, including with his social media activity.",
+      "content": "US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. She is said to be behind some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. But who is Harp? What do we know about her? Let’s take a closer look. Who is she? Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. She was appointed to the post on January 20, 2025. Harp was born in 1991. She did a BA at Point Loma Nazarene University, followed by an MBA at the Liberty University School of Business in 2015. According to The Independent, Trump invited Harp to speak at the 2020 Republican National Convention. During her speech, Harp, a bone cancer survivor, claimed Trump saved her life and compared him to Jimmy Stewart’s character in “It’s a Wonderful Life.” “I wouldn’t be alive today if it wasn’t for you,” Harp said. However, experts told The Washington Post that Harp’s claims don’t line up with the timeline of her treatment. They said Trump’s healthcare policy likely had little to no impact on Harp being cured of bone cancer. Harp has been working for Trump since around 2022. She earlier worked as a host on the far-right One America News Network. Harp previously worked as an assistant to Trump at the Save America Super PAC. She was also part of the Donald J Trump for President 2024 Super PAC, where she worked as a research advisor and assistant to Trump. According to The New York Times, Harp is a constant presence at Trump’s side and has even written him letters outlining her loyalty to him. “You are all that matters to me,” she wrote. When Trump was playing golf in Scotland, she ran behind his cart to keep him updated on good news about him, including posts on social media. In the run-up to the 2024 election, Harp was given the nickname the “human printer”. This is because she incessantly followed Trump around with a portable printer and a battery pack in order to give him information in printouts. Harp is also said to be a bad influence when it comes to Trump. Colleagues have said that she gets much of her information from The Gateway Pundit, a conspiracy website that parrots right-wing talking points. Truth Social account poster According to The Wall Street Journal, it is Harp who puts together a handy guide of screenshots for Trump from social media. This could be anything from people praising Trump to people airing conspiracy theories and slamming Democrats and Trump’s opponents. While Trump compiles the content to be put out via printouts, it is Harp who logs into the President’s Truth Social account and posts them. Harp often does this late at night, on weekends or even over the holidays. This is no mean feat, given that, according to the Journal, Trump has put up over 8,000 posts since returning to the Oval Office. However, the White House told the newspaper that Trump himself also puts up posts on his Truth Social account. The aforementioned posts portraying the Obamas as monkeys and Trump as Jesus were reportedly put up by Harp at Trump’s behest. The White House earlier blamed an ‘unnamed staffer’ with access to the Truth Social account for the posts. The newspaper reported that Harp does not show the posts to other staffers before approaching Trump, leaving them frustrated. Asked for comment about the posts, White House Communications Director Steven Cheung told the WSJ, “We don’t discuss internal deliberations of how the process works, but no other social media tool has been more effective than Truth.” He added, “Truth Social has never been hotter, and it’s because President Trump offers his unfiltered and direct thoughts to the American",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+      "canonical_url": "https://firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "firstpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7711647986579381
+    },
+    {
+      "id": "src_b40f19b5c6e1",
+      "title": "Trump deletes video meme showing Barack, Michelle Obama as apes",
+      "url": "https://www.usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007/#",
+      "snippet": "They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and",
+      "content": "Trump deletes video meme showing Barack, Michelle Obama as apes WASHINGTON — President Donald Trump shared a clip of former President Barack Obama and first lady Michelle Obama appearing as apes in a late-night Truth Social post on Feb. 5 before taking it down the following day amid bipartisan pushback. The roughly minute-long video centered on footage discussing unsubstantiated voter fraud allegations in the 2020 presidential election before briefly flipping to the clip of the Obamas. The image of the Obamas, which appeared to have been generated by artificial intelligence, showed the bodies of two apes whose faces have been replaced by that of the former president and first lady. They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and said it is from a meme depicting Trump and the Obamas as characters from the Lion King. Trump does not appear in the video, which he posted just before midnight on Feb. 5 with no accompanying text. But by noon ET on Feb. 6 ‒ after the post had been up about 12 hours ‒ the White House deleted it. Trump told reporters aboard Air Force One on Feb. 6 he only looked at the first part of the video and didn't see the part featuring the Obamas. Trump said he gave the video to someone else on his staff to post and \"somebody slipped and missed a very small part.\" Trump said he had no plans to apologize, however. \"I didn't make a mistake. I looked at the beginning of it and it was fine,\" the president said as flew from Washington to his Mar-a-Lago resort in Florida. Earlier in the day, a White House official told USA TODAY that a White House staffer had erroneously made the post and that it was taken down. Trump personally ordered the post be removed, a second White House official said. The video was among more than 60 posts and reposts from Trump's Truth Social account made during a rapid flurry of activity that started at 10:36 p.m. ET on Feb. 5 and ended 12:25 a.m. ET. Yet a close Trump ally, who spoke on the condition of anonymity, said the president had no knowledge of the post and that a staffer let Trump down. A small group of trusted White House officials have access to the president's social media accounts. A 2024 documentary, \"Art of the Surge: The Donald Trump Comeback,\" showed Trump dictating to Natalie Harp, executive assistant to the president, what to write in one of his Truth Social posts. Dan Scavino, White House deputy chief of staff, is also believed to have access. In the original meme that the White House referred to, Trump's head is superimposed on the body of a lion. Faces of other politicians, including former President Joe Biden, California Gov. Gavin Newsom, House Minority Leader Hakeem Jeffries and U.S. Rep Alexandria Ocasio-Cortez, also appear superimposed on animals in the original video. \"This is from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King. Please stop the fake outrage and report on something today that actually matters to the American public,\" White House press secretary Karoline Leavitt said in a statement prior to the post being removed. USA TODAY has reached out to the Obamas for comment. Social media denounces Trump's racist post of Obamas Many on social media quickly denounced the portrayal as racist, and lawmakers on both sides of the aisle criticized the post and called on the president to apologize. U.S. Sen. Tim Scott, R-South Carolina, the chair of the National Republican Senatorial Committee, said he was \"praying it was fake because it’s the most racist thing I’ve seen out of this White House. The President should remove it.\" U.S. Sen. Roger Wicker, R-Mississippi, said the post was \"totally unacceptable\" and called on the president to apologize. \"Even if this was a Lion King meme, a reasonable person sees the racist context to this. The White House should do what anyone does when they make a mis",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+      "canonical_url": "https://usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007",
+      "published_at": "2026-02-06T00:00:00",
+      "publisher": "usatoday.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5622957154677412
+    },
+    {
+      "id": "src_2533f7f1bfaa",
+      "title": "Anger in White House over now-deleted Obamas post | Semafor",
+      "url": "https://www.semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post#",
+      "snippet": "... Trump's Truth Social account that depicted Barack and Michelle Obama as apes — an error that's sparked internal questions and rare",
+      "content": "The News White House staffers are privately venting frustrations over a now-deleted post on President Donald Trump’s Truth Social account that depicted Barack and Michelle Obama as apes — an error that’s sparked internal questions and rare condemnation from the president’s own party. One person with direct knowledge of the situation told Semafor that Trump “had not seen the video before it got posted” and was not happy when he learned of the situation. Aides are “pretty pissed off” at the debacle, this person added, including at the person responsible for posting the video. The identity of that person is still unclear, as well as whether he or she might face further discipline for what a White House official said was an “erroneously” posted video containing the clip of the former president and first lady. Posted at 11:44 p.m. Thursday night in the midst of a rapid fire of additional Truth posts, the video detailed a conspiracy about voting machines before ending with the clip in question. It drew quick rebukes from several high-profile Republicans. Senate GOP campaign chief Tim Scott of South Carolina, the party’s only Black senator, called it “the most racist thing I’ve seen out of this White House,” while Sen. Roger Wicker, R-Miss., deemed it “totally unacceptable.” Before the post was deleted, White House press secretary Karoline Leavitt criticized “fake outrage” over the post, telling news outlets that it was “from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King.” “You can’t attempt to clean up the mess by continuing to make it messier,” a person close to the White House told Semafor. A short list of individuals are believed to have access to the president’s Truth Social account, including White House deputy chief of staff Dan Scavino and one of the president’s most devoted aides, Natalie Harp. The person with knowledge of the situation said Scavino was not responsible for the post but did not identify the culpable individual. The White House did not immediately return a request for comment on whether Harp was behind the post. While Harp frequently posts on Trump’s account, she’s known to do so with his approval. Know More Wicker and Scott were not the only elected Republicans to condemn the video clip for its portrayal of the Obamas. Sens. Pete Ricketts of Nebraska and Susan Collins of Maine spoke out against it on social media, as well as Reps. Mike Lawler of New York and Mike Turner of Ohio. The White House has not apologized for the post, as Wicker and Turner urged. Trump has drawn criticism for his social media posts multiple times since resuming office last year, including a post last year that depicted him dropping feces on progressive “No Kings” protesters and another profanity-laced post last year that portrayed Democratic leaders with stereotypical Mexican garb.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+      "canonical_url": "https://semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post",
+      "published_at": "2026-02-06T00:00:00",
+      "publisher": "semafor.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5035291715525544
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @newrepublic.com",
+      "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+      "snippet": "So fire her.",
+      "content": "So fire her.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "newrepublic.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.42618409614541575
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+      "platform": "bluesky",
+      "author": {
+        "handle": "newrepublic.com",
+        "display_name": "The New Republic",
+        "did": "did:plc:g6zrpwmibpkb6nkfweuns3mr"
+      },
+      "text": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+      "created_at": "2026-05-16T11:12:17.745785Z",
+      "images": [],
+      "links": [
+        "https://trib.al/bdJZ8g5"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "So fire her."
+    },
+    "explanation": [
+      {
+        "text": "The post is summarizing reporting that President Donald Trump’s executive assistant Natalie Harp prepares stacks of printed‑out social media drafts for Trump during late‑night or “twilight-hour” periods and then posts Trump‑approved messages on his Truth Social account, including recycling content from other accounts.",
+        "source_ids": [
+          "src_28901819b4c2",
+          "src_675f075e0d43",
+          "thread_original"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Descriptions of Harp’s workflow are based on accounts reported by news outlets citing unnamed sources rather than official White House documentation.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Multiple reports attribute to Harp a central role in some of Trump’s most incendiary or controversial Truth Social content, including a racist video depicting Barack and Michelle Obama as apes and an AI‑generated image portraying Trump as Jesus Christ, which were later removed from his account.",
+        "source_ids": [
+          "src_28901819b4c2",
+          "src_675f075e0d43",
+          "src_b40f19b5c6e1",
+          "thread_original"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "News reports rely partly on unnamed sources; while they consistently link Harp to these posts, the White House has not publicly confirmed her authorship.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The specific video showing Barack and Michelle Obama as apes was posted from Trump’s Truth Social account late at night on February 5, 2026, and deleted about 12 hours later after bipartisan criticism that the post was racist, with some Republican lawmakers publicly calling it “totally unacceptable” and urging Trump to apologize.",
+        "source_ids": [
+          "src_b40f19b5c6e1",
+          "src_2533f7f1bfaa"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "While the timing and reactions are well documented, the identity of the staffer who actually posted the video has not been officially confirmed.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Inside the White House, the fallout from the Obamas‑as‑apes post reportedly caused anger and frustration; a small group of aides, including Natalie Harp, are believed to have access to Trump’s Truth Social account, and Harp is known to post there frequently with his approval, though reporters note that it remains unclear who posted that particular video.",
+        "source_ids": [
+          "src_2533f7f1bfaa",
+          "src_28901819b4c2",
+          "src_675f075e0d43"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context",
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Accounts of internal anger and access lists are based on anonymous sources; no official disciplinary action or definitive attribution for the post has been publicly documented.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The short follow‑up line in the Bluesky thread, “So fire her,” reflects the author’s opinion that Harp should lose her job over her role in managing Trump’s late‑night social media posts and in facilitating offensive or inflammatory content.",
+        "source_ids": [
+          "thread_context",
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet explains the post author’s perspective rather than endorsing any employment action or making a factual claim about Harp’s current status.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @newrepublic.com",
+        "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+        "snippet": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+        "content": "Through twilight-hour shifts, President Trump’s executive assistant Natalie Harp supplies the president with stacks of printed-out drafts and awaits his approval before hitting post. Her work has included posts of the Obamas as apes and an AI-generated image of Trump as Jesus Christ. trib.al/bdJZ8g5",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "newrepublic.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_28901819b4c2",
+        "title": "Natalie Harp: Young Woman Fueling Trump’s Wild Midnight Sprees Is Exposed",
+        "url": "https://www.thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed/#",
+        "snippet": "His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+        "content": "Members of President Donald Trump’s inner circle are secretly fed up with the aide who is enabling his unhinged late-night Truth Social rampages. Most nights, the president fires off dozens of posts attacking his political enemies, amplifying conspiracy theories, spreading AI-slop videos and images, and boosting offensive content from obscure MAGA accounts on X and his own Truth Social platform. But despite the odd hours, Trump isn’t doing it all alone, according to a new report in the Wall Street Journal. His executive assistant Natalie Harp is the driving force behind some of his most incendiary content, including a racist video that depicted Barack and Michelle Obama as apes, and an AI-generated image of Trump as Jesus Christ, both of which Trump later took down. Harp, who is in her mid-30s, brings the president stacks of printed-out drafts of social media posts—many of them recycling content from other accounts—for Trump to approve, sources told the Journal. She then logs onto the president’s account and posts batches of Trump-approved messages. The president also posts some messages himself, and at a minimum he personally approves everything that goes on his account, according to the Journal. The process has frustrated some White House officials because Harp doesn’t share her proposed posts with the chief of staff’s office, communications aides, or national-security officials, sources told the Journal. Instead, she says she works for Trump and only listens to him. In a statement to the Journal, White House Communications Director Steven Cheung said, “We don’t discuss internal deliberations of how the process works, but no other social-media tool has been more effective than Truth.” The platform allows Trump to “offer” his unfiltered and direct thoughts to the American people, without the biased media taking him out of context,” he added. The Daily Beast has also reached out for comment. An analysis by the Journal found that Trump has posted a staggering 8,800 times since returning to office. The 79-year-old president, who has a habit of falling asleep during official White House events, has also gone on Truth Social blitzes involving at least a dozen posts shared between 8 p.m. and 6 a.m. EST a total of 44 times since last January. Earlier this month, the Daily Beast found that given the president’s volume of Truth Social posts published between 9 p.m. and 6 a.m., there were only five days in April when Trump could have gotten a full night’s sleep.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+        "canonical_url": "https://thedailybeast.com/natalie-harp-young-woman-fueling-trumps-wild-midnight-sprees-is-exposed",
+        "published_at": "2026-05-13T00:00:00",
+        "publisher": "thedailybeast.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_675f075e0d43",
+        "title": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree – Firstpost",
+        "url": "https://www.firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html#",
+        "snippet": "Meet Natalie Harp, Trump's aide behind his midnight social media posting spree \"Meet Natalie Harp, Trump's aide behind his midnight social media posting spree\"). ## Natalie Harp, 34, is an executive assistant to US President Donald Trump. She is said to have put up some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. Natalie Harp serves as Special Assistant to the President and Executive Assistant to the President, assisting Donald Trump closely, including with his social media activity.",
+        "content": "US President Donald Trump has often been criticised for his late-night posting sprees on social media. Now, reports are emerging that Trump is being assisted by Natalie Harp, a long-time aide, with his ‘after-hours’ social media posts. Harp, 34, is an executive assistant to the US President. She is said to be behind some of Trump’s most controversial posts, including one that depicted former President Barack Obama and his wife Michelle as apes and an AI-generated image of Trump as Jesus Christ. But who is Harp? What do we know about her? Let’s take a closer look. Who is she? Harp’s official title in the White House is Special Assistant to the President and Executive Assistant to the President. She was appointed to the post on January 20, 2025. Harp was born in 1991. She did a BA at Point Loma Nazarene University, followed by an MBA at the Liberty University School of Business in 2015. According to The Independent, Trump invited Harp to speak at the 2020 Republican National Convention. During her speech, Harp, a bone cancer survivor, claimed Trump saved her life and compared him to Jimmy Stewart’s character in “It’s a Wonderful Life.” “I wouldn’t be alive today if it wasn’t for you,” Harp said. However, experts told The Washington Post that Harp’s claims don’t line up with the timeline of her treatment. They said Trump’s healthcare policy likely had little to no impact on Harp being cured of bone cancer. Harp has been working for Trump since around 2022. She earlier worked as a host on the far-right One America News Network. Harp previously worked as an assistant to Trump at the Save America Super PAC. She was also part of the Donald J Trump for President 2024 Super PAC, where she worked as a research advisor and assistant to Trump. According to The New York Times, Harp is a constant presence at Trump’s side and has even written him letters outlining her loyalty to him. “You are all that matters to me,” she wrote. When Trump was playing golf in Scotland, she ran behind his cart to keep him updated on good news about him, including posts on social media. In the run-up to the 2024 election, Harp was given the nickname the “human printer”. This is because she incessantly followed Trump around with a portable printer and a battery pack in order to give him information in printouts. Harp is also said to be a bad influence when it comes to Trump. Colleagues have said that she gets much of her information from The Gateway Pundit, a conspiracy website that parrots right-wing talking points. Truth Social account poster According to The Wall Street Journal, it is Harp who puts together a handy guide of screenshots for Trump from social media. This could be anything from people praising Trump to people airing conspiracy theories and slamming Democrats and Trump’s opponents. While Trump compiles the content to be put out via printouts, it is Harp who logs into the President’s Truth Social account and posts them. Harp often does this late at night, on weekends or even over the holidays. This is no mean feat, given that, according to the Journal, Trump has put up over 8,000 posts since returning to the Oval Office. However, the White House told the newspaper that Trump himself also puts up posts on his Truth Social account. The aforementioned posts portraying the Obamas as monkeys and Trump as Jesus were reportedly put up by Harp at Trump’s behest. The White House earlier blamed an ‘unnamed staffer’ with access to the Truth Social account for the posts. The newspaper reported that Harp does not show the posts to other staffers before approaching Trump, leaving them frustrated. Asked for comment about the posts, White House Communications Director Steven Cheung told the WSJ, “We don’t discuss internal deliberations of how the process works, but no other social media tool has been more effective than Truth.” He added, “Truth Social has never been hotter, and it’s because President Trump offers his unfiltered and direct thoughts to the American",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Natalie Harp\" executive assistant managing Trump social media twilight-hour shifts",
+        "canonical_url": "https://firstpost.com/explainers/meet-natalie-harp-trumps-aide-behind-his-midnight-social-media-posting-spree-14011289.html",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "firstpost.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_b40f19b5c6e1",
+        "title": "Trump deletes video meme showing Barack, Michelle Obama as apes",
+        "url": "https://www.usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007/#",
+        "snippet": "They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and",
+        "content": "Trump deletes video meme showing Barack, Michelle Obama as apes WASHINGTON — President Donald Trump shared a clip of former President Barack Obama and first lady Michelle Obama appearing as apes in a late-night Truth Social post on Feb. 5 before taking it down the following day amid bipartisan pushback. The roughly minute-long video centered on footage discussing unsubstantiated voter fraud allegations in the 2020 presidential election before briefly flipping to the clip of the Obamas. The image of the Obamas, which appeared to have been generated by artificial intelligence, showed the bodies of two apes whose faces have been replaced by that of the former president and first lady. They appeared to be in a jungle with apes flying in the background. The White House initially dismissed criticism that the video was racist, and said it is from a meme depicting Trump and the Obamas as characters from the Lion King. Trump does not appear in the video, which he posted just before midnight on Feb. 5 with no accompanying text. But by noon ET on Feb. 6 ‒ after the post had been up about 12 hours ‒ the White House deleted it. Trump told reporters aboard Air Force One on Feb. 6 he only looked at the first part of the video and didn't see the part featuring the Obamas. Trump said he gave the video to someone else on his staff to post and \"somebody slipped and missed a very small part.\" Trump said he had no plans to apologize, however. \"I didn't make a mistake. I looked at the beginning of it and it was fine,\" the president said as flew from Washington to his Mar-a-Lago resort in Florida. Earlier in the day, a White House official told USA TODAY that a White House staffer had erroneously made the post and that it was taken down. Trump personally ordered the post be removed, a second White House official said. The video was among more than 60 posts and reposts from Trump's Truth Social account made during a rapid flurry of activity that started at 10:36 p.m. ET on Feb. 5 and ended 12:25 a.m. ET. Yet a close Trump ally, who spoke on the condition of anonymity, said the president had no knowledge of the post and that a staffer let Trump down. A small group of trusted White House officials have access to the president's social media accounts. A 2024 documentary, \"Art of the Surge: The Donald Trump Comeback,\" showed Trump dictating to Natalie Harp, executive assistant to the president, what to write in one of his Truth Social posts. Dan Scavino, White House deputy chief of staff, is also believed to have access. In the original meme that the White House referred to, Trump's head is superimposed on the body of a lion. Faces of other politicians, including former President Joe Biden, California Gov. Gavin Newsom, House Minority Leader Hakeem Jeffries and U.S. Rep Alexandria Ocasio-Cortez, also appear superimposed on animals in the original video. \"This is from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King. Please stop the fake outrage and report on something today that actually matters to the American public,\" White House press secretary Karoline Leavitt said in a statement prior to the post being removed. USA TODAY has reached out to the Obamas for comment. Social media denounces Trump's racist post of Obamas Many on social media quickly denounced the portrayal as racist, and lawmakers on both sides of the aisle criticized the post and called on the president to apologize. U.S. Sen. Tim Scott, R-South Carolina, the chair of the National Republican Senatorial Committee, said he was \"praying it was fake because it’s the most racist thing I’ve seen out of this White House. The President should remove it.\" U.S. Sen. Roger Wicker, R-Mississippi, said the post was \"totally unacceptable\" and called on the president to apologize. \"Even if this was a Lion King meme, a reasonable person sees the racist context to this. The White House should do what anyone does when they make a mis",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+        "canonical_url": "https://usatoday.com/story/news/politics/2026/02/06/trump-barack-michelle-obama-ape-video/88544109007",
+        "published_at": "2026-02-06T00:00:00",
+        "publisher": "usatoday.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_2533f7f1bfaa",
+        "title": "Anger in White House over now-deleted Obamas post | Semafor",
+        "url": "https://www.semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post#",
+        "snippet": "... Trump's Truth Social account that depicted Barack and Michelle Obama as apes — an error that's sparked internal questions and rare",
+        "content": "The News White House staffers are privately venting frustrations over a now-deleted post on President Donald Trump’s Truth Social account that depicted Barack and Michelle Obama as apes — an error that’s sparked internal questions and rare condemnation from the president’s own party. One person with direct knowledge of the situation told Semafor that Trump “had not seen the video before it got posted” and was not happy when he learned of the situation. Aides are “pretty pissed off” at the debacle, this person added, including at the person responsible for posting the video. The identity of that person is still unclear, as well as whether he or she might face further discipline for what a White House official said was an “erroneously” posted video containing the clip of the former president and first lady. Posted at 11:44 p.m. Thursday night in the midst of a rapid fire of additional Truth posts, the video detailed a conspiracy about voting machines before ending with the clip in question. It drew quick rebukes from several high-profile Republicans. Senate GOP campaign chief Tim Scott of South Carolina, the party’s only Black senator, called it “the most racist thing I’ve seen out of this White House,” while Sen. Roger Wicker, R-Miss., deemed it “totally unacceptable.” Before the post was deleted, White House press secretary Karoline Leavitt criticized “fake outrage” over the post, telling news outlets that it was “from an internet meme video depicting President Trump as the King of the Jungle and Democrats as characters from the Lion King.” “You can’t attempt to clean up the mess by continuing to make it messier,” a person close to the White House told Semafor. A short list of individuals are believed to have access to the president’s Truth Social account, including White House deputy chief of staff Dan Scavino and one of the president’s most devoted aides, Natalie Harp. The person with knowledge of the situation said Scavino was not responsible for the post but did not identify the culpable individual. The White House did not immediately return a request for comment on whether Harp was behind the post. While Harp frequently posts on Trump’s account, she’s known to do so with his approval. Know More Wicker and Scott were not the only elected Republicans to condemn the video clip for its portrayal of the Obamas. Sens. Pete Ricketts of Nebraska and Susan Collins of Maine spoke out against it on social media, as well as Reps. Mike Lawler of New York and Mike Turner of Ohio. The White House has not apologized for the post, as Wicker and Turner urged. Trump has drawn criticism for his social media posts multiple times since resuming office last year, including a post last year that depicted him dropping feces on progressive “No Kings” protesters and another profanity-laced post last year that portrayed Democratic leaders with stereotypical Mexican garb.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New Republic article trib.al/bdJZ8g5 Natalie Harp Trump posts Obamas as apes AI-generated Jesus image",
+        "canonical_url": "https://semafor.com/article/02/06/2026/anger-in-white-house-over-now-deleted-obamas-post",
+        "published_at": "2026-02-06T00:00:00",
+        "publisher": "semafor.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @newrepublic.com",
+        "url": "https://bsky.app/profile/newrepublic.com/post/3mlxpnkggn72t",
+        "snippet": "So fire her.",
+        "content": "So fire her.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "newrepublic.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 23407
+  }
+}

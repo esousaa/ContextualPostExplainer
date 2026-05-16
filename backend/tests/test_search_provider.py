@@ -70,7 +70,7 @@ async def test_brave_search_provider_returns_normalized_results() -> None:
     assert results[0].query == "example query"
     assert results[0].rank == 1
     assert results[0].canonical_url is not None
-    assert results[0].canonical_url.unicode_string() == "https://example.com/article?utm_source=x"
+    assert results[0].canonical_url.unicode_string() == "https://example.com/article"
 
 
 @pytest.mark.asyncio

@@ -3,7 +3,7 @@ from app.domain.models import Evidence, ExplanationBullet
 
 MIN_EXPLANATION_BULLETS = 3
 MAX_EXPLANATION_BULLETS = 5
-CITABLE_SOURCE_TYPES_WITHOUT_URL = {"thread", "fixture", "image"}
+CITABLE_SOURCE_TYPES_WITHOUT_URL = {"thread", "social", "fixture", "image"}
 
 
 def validate_explanation_size(bullets: list[ExplanationBullet]) -> None:

@@ -1,4 +1,18 @@
-.PHONY: backend-run backend-test backend-lint backend-format frontend-run frontend-test frontend-lint frontend-build eval
+.PHONY: setup-local setup-docker deploy-start up down backend-run backend-test backend-lint backend-format frontend-run frontend-test frontend-lint frontend-build eval
+
+setup-local:
+	./scripts/setup-local.sh
+
+setup-docker:
+	./scripts/setup-docker.sh
+
+deploy-start: setup-local up
+
+up:
+	./scripts/app-up.sh
+
+down:
+	./scripts/app-down.sh
 
 backend-run:
 	cd backend && uv run uvicorn app.main:app --reload --port 8000

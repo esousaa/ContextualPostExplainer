@@ -151,6 +151,26 @@ def test_explain_uses_live_service_when_live_config_is_valid(
     assert response.json()["confidence"] == "low"
 
 
+def test_explain_rejects_urls_that_do_not_match_bluesky_post_contract(
+    client: TestClient,
+    monkeypatch,
+) -> None:
+    for key, value in REQUIRED_ENV.items():
+        monkeypatch.setenv(key, value)
+    monkeypatch.setenv("SEARCH_PROVIDER", "brave")
+    monkeypatch.setenv("BRAVE_API_KEY", "test-brave-key")
+
+    for url in (
+        "https://evil.com/?next=bsky.app/profile/example.bsky.social/post/abc",
+        "https://bsky.app.evil.com/profile/example.bsky.social/post/abc",
+        "https://bsky.app/profile/example.bsky.social/feed/abc",
+    ):
+        response = client.post("/api/explain", json={"url": url})
+
+        assert response.status_code == 422
+        assert "Bluesky post URL" in response.text
+
+
 def test_explain_stream_returns_sse_events(client: TestClient, monkeypatch) -> None:
     for key, value in REQUIRED_ENV.items():
         monkeypatch.setenv(key, value)
@@ -316,7 +336,7 @@ def test_analysis_api_aggregates_provider_and_url_behavior(
     assert comparison["bullet_counts"] == [0, 1]
 
 
-def test_analysis_api_uses_env_models_for_legacy_runs(
+def test_analysis_api_keeps_legacy_runs_without_model_metadata_unknown(
     client: TestClient,
     monkeypatch,
     tmp_path: Path,
@@ -336,7 +356,7 @@ def test_analysis_api_uses_env_models_for_legacy_runs(
 
     assert response.status_code == 200
     assert response.json()["llm_aggregates"][0]["key"] == (
-        "gen=gpt-4o | judge=gpt-4o-mini | embed=text-embedding-3-small | vision=gpt-4o"
+        "gen=unknown | judge=unknown | embed=unknown | vision=unknown"
     )
 
 

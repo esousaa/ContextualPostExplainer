@@ -35,6 +35,7 @@ type MetricCardData = {
 export function AnalysisPage({ onNavigate }: AnalysisPageProps) {
   const [overview, setOverview] = useState<AnalysisOverview | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -47,7 +48,8 @@ export function AnalysisPage({ onNavigate }: AnalysisPageProps) {
         if (!isAbortError(unknownError)) {
           setError(normalizeApiError(unknownError).message);
         }
-      });
+      })
+      .finally(() => setIsLoading(false));
     return () => controller.abort();
   }, []);
 
@@ -84,7 +86,8 @@ export function AnalysisPage({ onNavigate }: AnalysisPageProps) {
       </header>
 
       {error ? <p className="error-inline analysis-error">{error}</p> : null}
-      {!overview && !error ? <EmptyAnalysisState /> : null}
+      {isLoading ? <LoadingAnalysisState /> : null}
+      {!isLoading && !overview && !error ? <EmptyAnalysisState /> : null}
       {overview ? (
         <>
           <section className="analysis-summary-grid">
@@ -125,12 +128,22 @@ export function AnalysisPage({ onNavigate }: AnalysisPageProps) {
   );
 }
 
+function LoadingAnalysisState() {
+  return (
+    <section className="panel analysis-empty" aria-live="polite" aria-busy="true">
+      <Database size={24} />
+      <h2>Loading comparative artifacts…</h2>
+      <p className="muted">Reading local run artifacts.</p>
+    </section>
+  );
+}
+
 function EmptyAnalysisState() {
   return (
     <section className="panel analysis-empty">
       <Database size={24} />
-      <h2>Loading comparative artifacts</h2>
-      <p className="muted">The Analysis page reads local run artifacts and summarizes provider and model behavior.</p>
+      <h2>No runs found</h2>
+      <p className="muted">Run the explainer at least once to populate the Analysis page.</p>
     </section>
   );
 }
@@ -483,7 +496,7 @@ function bestBy(
 ): AnalysisAggregate | null {
   const candidates = aggregates.filter((item) => metric(item) !== null);
   if (candidates.length === 0) return null;
-  return candidates.sort((left, right) => {
+  return [...candidates].sort((left, right) => {
     const leftValue = metric(left) ?? 0;
     const rightValue = metric(right) ?? 0;
     return direction === "asc" ? leftValue - rightValue : rightValue - leftValue;

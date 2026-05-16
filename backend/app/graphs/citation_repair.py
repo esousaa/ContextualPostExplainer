@@ -68,6 +68,11 @@ async def repair_citation_contract_once(
     if not validation_error and not has_critical_warnings(validation_warnings):
         return {}
 
+    audit = _base_repair_audit(
+        explanation=explanation,
+        validation_error=validation_error,
+        validation_warnings=validation_warnings,
+    )
     repaired = await llm_client.repair_explanation(
         post=post,
         evidence=evidence,
@@ -77,8 +82,16 @@ async def repair_citation_contract_once(
 
     try:
         repaired_warnings = citation_validator.validate(repaired.bullets, evidence)
-    except CitationValidationError:
-        return _failed_repair_result()
+    except CitationValidationError as exc:
+        return _failed_repair_result(
+            audit={
+                **audit,
+                "outcome": "failed_validation",
+                "repair_validation_error": exc.message,
+                "repaired_bullets": _bullet_payloads(repaired),
+                "removed_bullets": [],
+            }
+        )
 
     if not has_critical_warnings(repaired_warnings):
         return {
@@ -86,19 +99,45 @@ async def repair_citation_contract_once(
             "needs_repair": False,
             "validation_error": None,
             "validation_warnings": repaired_warnings,
+            "citation_repair_audit": {
+                **audit,
+                "outcome": "repaired",
+                "repaired_bullets": _bullet_payloads(repaired),
+                "remaining_validation_warnings": _warning_payloads(repaired_warnings),
+                "removed_bullets": [],
+            },
         }
 
+    removed_bullets = _critical_bullet_payloads(repaired, repaired_warnings)
     hardened = _remove_critical_bullets(repaired, repaired_warnings)
     try:
         hardened_warnings = citation_validator.validate(hardened.bullets, evidence)
-    except CitationValidationError:
-        return _failed_repair_result()
+    except CitationValidationError as exc:
+        return _failed_repair_result(
+            audit={
+                **audit,
+                "outcome": "failed_after_hardening",
+                "repair_validation_error": exc.message,
+                "repaired_bullets": _bullet_payloads(repaired),
+                "remaining_critical_warnings": _warning_payloads(repaired_warnings),
+                "removed_bullets": removed_bullets,
+            }
+        )
 
     return {
         "explanation": _with_validation_warnings(hardened, hardened_warnings),
         "needs_repair": False,
         "validation_error": None,
         "validation_warnings": hardened_warnings,
+        "citation_repair_audit": {
+            **audit,
+            "outcome": "hardened",
+            "repaired_bullets": _bullet_payloads(repaired),
+            "remaining_critical_warnings": _warning_payloads(repaired_warnings),
+            "removed_bullets": removed_bullets,
+            "final_bullets": _bullet_payloads(hardened),
+            "final_validation_warnings": _warning_payloads(hardened_warnings),
+        },
     }
 
 
@@ -158,7 +197,7 @@ def _remove_critical_bullets(
     )
 
 
-def _failed_repair_result() -> dict[str, object]:
+def _failed_repair_result(audit: dict[str, object]) -> dict[str, object]:
     return {
         "explanation": Explanation(
             bullets=[],
@@ -172,6 +211,7 @@ def _failed_repair_result() -> dict[str, object]:
         "needs_repair": False,
         "validation_error": None,
         "validation_warnings": [],
+        "citation_repair_audit": audit,
     }
 
 
@@ -190,4 +230,60 @@ def _critical_bullets_removed_warning(warnings: list[ValidationWarning]) -> Vali
         severity="warning",
         code="CRITICAL_BULLETS_REMOVED",
         message=message,
+    )
+
+
+def _base_repair_audit(
+    explanation: Explanation,
+    validation_error: str | None,
+    validation_warnings: list[ValidationWarning],
+) -> dict[str, object]:
+    return {
+        "attempted": True,
+        "validation_error": validation_error,
+        "validation_warnings": _warning_payloads(validation_warnings),
+        "targeted_bullet_indexes": _warning_indexes(validation_warnings),
+        "input_bullets": _bullet_payloads(explanation),
+    }
+
+
+def _critical_bullet_payloads(
+    explanation: Explanation,
+    warnings: list[ValidationWarning],
+) -> list[dict[str, object]]:
+    critical_indexes = {
+        warning.bullet_index
+        for warning in warnings
+        if warning.code in CRITICAL_WARNING_CODES and warning.bullet_index is not None
+    }
+    return [
+        _bullet_payload(index, bullet)
+        for index, bullet in enumerate(explanation.bullets)
+        if index in critical_indexes
+    ]
+
+
+def _bullet_payloads(explanation: Explanation) -> list[dict[str, object]]:
+    return [_bullet_payload(index, bullet) for index, bullet in enumerate(explanation.bullets)]
+
+
+def _bullet_payload(index: int, bullet) -> dict[str, object]:
+    return {
+        "index": index,
+        "text": bullet.text,
+        "claim_label": bullet.claim_label,
+        "context_modifiers": bullet.context_modifiers,
+        "source_ids": bullet.source_ids,
+        "confidence": bullet.confidence,
+        "warnings": _warning_payloads(bullet.warnings),
+    }
+
+
+def _warning_payloads(warnings: list[ValidationWarning]) -> list[dict[str, object]]:
+    return [warning.model_dump(mode="json") for warning in warnings]
+
+
+def _warning_indexes(warnings: list[ValidationWarning]) -> list[int]:
+    return sorted(
+        {warning.bullet_index for warning in warnings if warning.bullet_index is not None}
     )

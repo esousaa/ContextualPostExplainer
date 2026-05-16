@@ -20,6 +20,37 @@ Copie `.env.example` para `.env` na raiz do projeto e preencha as chaves.
 
 ## Rodar API
 
+Para subir backend e frontend via Docker a partir da raiz do repositório:
+
+```bash
+make setup-docker
+make up
+make down
+```
+
+Para subir localmente:
+
+```bash
+make setup-local
+make up
+make down
+```
+
+`make up` e `make down` usam o modo salvo em `.run/deploy_mode`, criado por `make setup-docker` ou `make setup-local`.
+
+No modo Docker, o Compose monta `./backend/runs` em `/app/runs`, então os artifacts já clonados ficam disponíveis para Observability/Analysis e novos runs gerados no container são persistidos na pasta local `backend/runs`.
+
+As portas locais são configuráveis no `.env`:
+
+```env
+APP_BACKEND_PORT=8000
+APP_FRONTEND_PORT=5173
+```
+
+Altere esses valores se houver conflito de porta na máquina de avaliação.
+
+Para rodar apenas a API em foreground:
+
 ```bash
 make backend-run
 ```
@@ -51,7 +82,11 @@ O live usa duas camadas complementares:
 
 - `source_quality`: filtra fontes sem texto útil, antigas demais para o evento ou sem âncoras dinâmicas extraídas do post.
 - `CitationValidator`: valida se a fonte citada é adequada para o tipo de afirmação do bullet.
-- `repair_once_if_needed`: faz uma tentativa de correção via LLM quando o contrato de citação falha e remove bullets incompatíveis se a correção não resolver.
+- `repair_once_if_needed`: faz uma tentativa de correção via LLM quando o contrato de citação falha, prioriza preservar bullets úteis por reclassificação/recitação e remove bullets incompatíveis apenas quando a correção não resolver.
+
+Quando o repair roda, o artifact em `runs/live/{run_id}.json` ou
+`runs/eval/{run_id}.json` inclui `citation_repair_audit` com os bullets enviados
+ao repair, warnings que motivaram a correção, bullets removidos e outcome final.
 
 Cada fonte recebe `source_category` e `source_role`. Cada bullet recebe `claim_label`, `context_modifiers`, `confidence` e `warnings`.
 
@@ -69,7 +104,7 @@ Para a POC, use `SEARCH_PROVIDER=tavily` como caminho seguro. Como o acesso grat
 
 `composite` usa todas as chaves configuradas (`BRAVE_API_KEY`, `TAVILY_API_KEY`), executa providers em paralelo, mescla resultados e deixa a deduplicação/reranking escolher as melhores fontes.
 
-Em modo `composite`, os artifacts em `runs/live/` incluem métricas P2 para
+Em modo `composite`, os artifacts em `runs/live/` incluem métricas para
 comparação entre providers:
 
 - `search_results_by_provider`;
@@ -137,7 +172,7 @@ Saídas:
 - `eval/results/latest.md`
 - `runs/eval/{run_id}.json`
 
-O eval P1 inclui `groundedness`: cada bullet é avaliado contra as fontes
+O eval inclui `groundedness`: cada bullet é avaliado contra as fontes
 citadas pelo `OPENAI_JUDGE_MODEL` e recebe verdict `supported`,
 `partially_supported` ou `unsupported`. Essa checagem é métrica de avaliação,
 não substitui o `CitationValidator` do runtime, que valida estrutura e

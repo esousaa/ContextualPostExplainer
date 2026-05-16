@@ -1,3 +1,5 @@
+import asyncio
+
 import httpx
 import pytest
 import respx
@@ -20,6 +22,17 @@ def _search_result(url: str, rank: int = 1, title: str = "Title") -> SearchResul
         url=url,
         snippet="Snippet",
         rank=rank,
+    )
+
+
+def _evidence(url: str, source_id: str = "src_test") -> Evidence:
+    return Evidence(
+        id=source_id,
+        title="Title",
+        url=url,
+        snippet="Snippet",
+        content="Useful source content with enough detail for downstream citation checks.",
+        source_type="web",
     )
 
 
@@ -207,3 +220,53 @@ async def test_fetch_source_pages_keeps_successful_sources_when_one_fails() -> N
     assert len(evidence) == 1
     assert len(discards) == 1
     assert discards[0]["url"] == failed_url
+
+
+@pytest.mark.asyncio
+async def test_fetch_source_pages_discards_unexpected_source_errors() -> None:
+    class UnexpectedFailureFetcher:
+        async def fetch(self, result: SearchResult) -> Evidence:
+            if "bad" in result.url.unicode_string():
+                raise RuntimeError("parser failed")
+            return _evidence(result.url.unicode_string())
+
+    evidence, discards = await fetch_source_pages(
+        UnexpectedFailureFetcher(),
+        [
+            _search_result("https://example.com/good", rank=1),
+            _search_result("https://example.com/bad", rank=2),
+        ],
+    )
+
+    assert len(evidence) == 1
+    assert discards == [
+        {
+            "url": "https://example.com/bad",
+            "reason": "unexpected_error",
+            "message": "Could not fetch source page.",
+        }
+    ]
+
+
+@pytest.mark.asyncio
+async def test_fetch_source_pages_limits_concurrent_fetches() -> None:
+    class CountingFetcher:
+        def __init__(self) -> None:
+            self.active = 0
+            self.max_active = 0
+
+        async def fetch(self, result: SearchResult) -> Evidence:
+            self.active += 1
+            self.max_active = max(self.max_active, self.active)
+            await asyncio.sleep(0.01)
+            self.active -= 1
+            return _evidence(result.url.unicode_string(), source_id=result.url.host or "src")
+
+    fetcher = CountingFetcher()
+    results = [_search_result(f"https://example.com/{index}", rank=index + 1) for index in range(8)]
+
+    evidence, discards = await fetch_source_pages(fetcher, results, max_concurrency=3)
+
+    assert len(evidence) == 8
+    assert discards == []
+    assert fetcher.max_active <= 3

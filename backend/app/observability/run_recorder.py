@@ -1,3 +1,4 @@
+import asyncio
 import json
 from collections import defaultdict
 from datetime import UTC, datetime
@@ -27,7 +28,7 @@ class LocalRunRecorder(RunRecorder):
 
     async def write_run(self, mode: str, run_id: str, payload: dict[str, Any]) -> None:
         directory = self._base_dir / mode
-        directory.mkdir(parents=True, exist_ok=True)
+        await asyncio.to_thread(directory.mkdir, parents=True, exist_ok=True)
         document = {
             "run_id": run_id,
             "mode": mode,
@@ -35,9 +36,9 @@ class LocalRunRecorder(RunRecorder):
             "events": self._events.get(run_id, []),
             **_redact(payload),
         }
-        (directory / f"{run_id}.json").write_text(
-            json.dumps(document, ensure_ascii=False, indent=2),
-            encoding="utf-8",
+        content = json.dumps(document, ensure_ascii=False, indent=2)
+        await asyncio.to_thread(
+            (directory / f"{run_id}.json").write_text, content, encoding="utf-8"
         )
 
 

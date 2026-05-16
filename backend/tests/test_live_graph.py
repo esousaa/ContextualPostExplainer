@@ -42,6 +42,13 @@ class FakeSearchProvider:
         return [result.model_copy(update={"query": query}) for result in self.results[:max_results]]
 
 
+class PartiallyFailingSearchProvider(FakeSearchProvider):
+    async def search(self, query: str, max_results: int = 5) -> list[SearchResult]:
+        if "source" in query:
+            raise RuntimeError("search provider timeout")
+        return await super().search(query, max_results=max_results)
+
+
 class FakeSourceFetcher:
     async def fetch(self, result: SearchResult) -> Evidence:
         return Evidence(
@@ -246,8 +253,44 @@ async def test_live_explanation_flow_runs_end_to_end_with_fakes() -> None:
 
 
 @pytest.mark.asyncio
+async def test_live_explanation_flow_keeps_partial_search_results_when_one_query_fails() -> None:
+    async def rank_evidence(state: ExplanationState) -> list[RankedEvidence]:
+        return [
+            RankedEvidence(**source.model_dump(mode="json"), relevance_score=0.9)
+            for source in state.get("evidence", [])
+            if source.id == "s1"
+        ]
+
+    async def generate_explanation(state: ExplanationState) -> Explanation:
+        return await FakeLLMClient().generate_explanation(
+            state["post"],
+            state.get("ranked_evidence", []),
+        )
+
+    recorder = CapturingRunRecorder()
+    flow = LiveExplanationFlow(
+        settings=_settings(),
+        post_fetcher=FakePostFetcher(),
+        search_provider=PartiallyFailingSearchProvider([_search_result()]),
+        source_fetcher=FakeSourceFetcher(),
+        llm_client=FakeLLMClient(),
+        rank_evidence=rank_evidence,
+        generate_explanation=generate_explanation,
+        run_recorder=recorder,
+    )
+
+    response = await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
+
+    assert len(response.explanation) == 3
+    assert recorder.runs[0][2]["metrics"]["search_errors"] == [
+        {"query": "public topic source", "error": "search provider timeout"}
+    ]
+
+
+@pytest.mark.asyncio
 async def test_live_explanation_flow_repairs_citations_in_repair_node() -> None:
     llm_client = RepairingLLMClient()
+    recorder = CapturingRunRecorder()
 
     async def rank_evidence(state: ExplanationState) -> list[RankedEvidence]:
         return [
@@ -270,6 +313,7 @@ async def test_live_explanation_flow_repairs_citations_in_repair_node() -> None:
         llm_client=llm_client,
         rank_evidence=rank_evidence,
         generate_explanation=generate_explanation,
+        run_recorder=recorder,
     )
 
     response = await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
@@ -277,6 +321,10 @@ async def test_live_explanation_flow_repairs_citations_in_repair_node() -> None:
     assert llm_client.repair_calls == 1
     assert len(response.explanation) == 3
     assert response.confidence == "medium"
+    audit = recorder.runs[0][2]["citation_repair_audit"]
+    assert audit["outcome"] == "repaired"
+    assert audit["input_bullets"][0]["source_ids"] == ["missing"]
+    assert audit["removed_bullets"] == []
 
 
 @pytest.mark.asyncio

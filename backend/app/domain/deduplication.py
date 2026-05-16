@@ -66,9 +66,12 @@ def deduplicate_search_results(
         previous = seen.get(canonical)
         if previous:
             merged = merge_search_result_provenance(previous, result)
-            kept[seen_indexes[canonical]] = merged
+            idx = seen_indexes[canonical]
+            kept[idx] = merged
             seen[canonical] = merged
-            seen_titles[normalize_title(merged.title)] = merged
+            merged_title_key = normalize_title(merged.title)
+            seen_titles[merged_title_key] = merged
+            seen_title_indexes[merged_title_key] = idx
             discards.append(
                 DeduplicationDiscard(
                     id=result.url.unicode_string(),

@@ -1,7 +1,7 @@
 import { ExternalLink, FileText } from "lucide-react";
 
 import { Badge } from "../../shared/components/Badge";
-import { hostFromUrl } from "../../shared/utils/url";
+import { hostFromUrl, safeExternalUrl } from "../../shared/utils/url";
 import { readableLabel, sourceTypeTone } from "./labels";
 import { SourceRoleBadge } from "./SourceRoleBadge";
 import type { Evidence } from "./types";
@@ -31,6 +31,7 @@ export function SourcePanel({ highlightedSourceIds, selectedSourceIds, sources }
             const highlighted =
               highlightedSourceIds.includes(source.id) || selectedSourceIds.includes(source.id);
             const host = source.publisher || hostFromUrl(source.url);
+            const sourceUrl = safeExternalUrl(source.url);
             return (
               <article
                 className={highlighted ? "source-card highlighted" : "source-card"}
@@ -42,8 +43,8 @@ export function SourcePanel({ highlightedSourceIds, selectedSourceIds, sources }
                     <FileText size={13} />
                     {readableLabel(source.source_type)}
                   </Badge>
-                  {source.url && (
-                    <a href={source.url} rel="noreferrer" target="_blank" title={`Open ${source.title}`}>
+                  {sourceUrl && (
+                    <a href={sourceUrl} rel="noreferrer" target="_blank" title={`Open ${source.title}`}>
                       <ExternalLink size={15} />
                     </a>
                   )}

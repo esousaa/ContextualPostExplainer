@@ -73,13 +73,8 @@ class AnalysisOverview(BaseModel):
 
 
 class LocalAnalysisStore:
-    def __init__(
-        self,
-        base_dir: Path = Path("runs"),
-        default_config: dict[str, str | None] | None = None,
-    ) -> None:
+    def __init__(self, base_dir: Path = Path("runs")) -> None:
         self._base_dir = base_dir
-        self._default_config = default_config or {}
 
     def overview(self, limit: int = 200) -> AnalysisOverview:
         runs = self._runs(limit=limit)
@@ -99,11 +94,7 @@ class LocalAnalysisStore:
 
     def _runs(self, limit: int) -> list[AnalysisRunMetrics]:
         documents = [_load_json(path) for path in self._run_paths()]
-        runs = [
-            _run_metrics(document, self._default_config)
-            for document in documents
-            if document
-        ]
+        runs = [_run_metrics(document) for document in documents if document]
         runs.sort(key=lambda item: item.generated_at or "", reverse=True)
         return _latest_comparable_runs(runs)[:limit]
 
@@ -144,10 +135,7 @@ def _comparison_key(run: AnalysisRunMetrics) -> tuple[str, str, str, str]:
     return ("run", run.run_id, "", "")
 
 
-def _run_metrics(
-    document: dict[str, Any],
-    default_config: dict[str, str | None],
-) -> AnalysisRunMetrics:
+def _run_metrics(document: dict[str, Any]) -> AnalysisRunMetrics:
     response = document.get("response") or {}
     metrics = document.get("metrics") or {}
     explanation = response.get("explanation") or []
@@ -167,25 +155,21 @@ def _run_metrics(
             document,
             config,
             "openai_generation_model",
-            default_config,
         ),
         judge_model=_string_config(
             document,
             config,
             "openai_judge_model",
-            default_config,
         ),
         embedding_model=_string_config(
             document,
             config,
             "openai_embedding_model",
-            default_config,
         ),
         vision_model=_string_config(
             document,
             config,
             "openai_vision_model",
-            default_config,
         ),
         comparison_group_id=_string_config(document, config, "comparison_group_id"),
         comparison_config_id=_string_config(document, config, "comparison_config_id"),
@@ -238,7 +222,7 @@ def _search_provider(
     metrics: dict[str, Any],
     config: dict[str, Any],
 ) -> str | None:
-    configured = _string_config(document, config, "search_provider", {})
+    configured = _string_config(document, config, "search_provider")
     if configured:
         return configured
 
@@ -256,11 +240,8 @@ def _string_config(
     document: dict[str, Any],
     config: dict[str, Any],
     field: str,
-    default_config: dict[str, str | None] | None = None,
 ) -> str | None:
     value = document.get(field) if document.get(field) is not None else config.get(field)
-    if value is None and default_config:
-        value = default_config.get(field)
     return value if isinstance(value, str) and value.strip() else None
 
 
@@ -305,9 +286,7 @@ def _aggregate(key: str, runs: list[AnalysisRunMetrics]) -> AnalysisAggregate:
         avg_bullet_count=_average(run.bullet_count for run in runs),
         avg_cited_source_count=_average(run.cited_source_count for run in runs),
         avg_warning_count=_average(run.warning_count for run in runs),
-        avg_search_results_received=_average(
-            run.search_results_received for run in runs
-        ),
+        avg_search_results_received=_average(run.search_results_received for run in runs),
         avg_search_provider_overlap_count=_average(
             run.search_provider_overlap_count for run in runs
         ),

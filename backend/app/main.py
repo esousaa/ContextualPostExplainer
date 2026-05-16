@@ -1,3 +1,4 @@
+import re
 from uuid import uuid4
 
 import structlog
@@ -28,7 +29,8 @@ def create_app() -> FastAPI:
 
     @app.middleware("http")
     async def bind_trace_id(request: Request, call_next):
-        trace_id = request.headers.get("x-trace-id") or uuid4().hex
+        raw_trace = request.headers.get("x-trace-id") or ""
+        trace_id = re.sub(r"[^A-Za-z0-9._-]", "", raw_trace)[:64] or uuid4().hex
         bind_contextvars(trace_id=trace_id)
         try:
             response = await call_next(request)

@@ -1,4 +1,4 @@
-# Deployment and Evaluation Guide
+# Installation and Evaluation Guide
 
 This guide explains how to clone, configure, run, test, and evaluate the Contextual Post Explainer solution locally.
 
@@ -14,18 +14,22 @@ Install the following tools before starting:
 - An OpenAI API key
 - At least one live search provider key: Tavily or Brave
 
-Recommended default for the live demo:
+Recommended live demo configuration:
 
-- `SEARCH_PROVIDER=tavily`
-- `OPENAI_GENERATION_MODEL=gpt-5.1`
-- `OPENAI_JUDGE_MODEL=gpt-5-mini`
-- `OPENAI_EMBEDDING_MODEL=text-embedding-3-small`
-- `OPENAI_VISION_MODEL=gpt-5.1`
+```env
+SEARCH_PROVIDER=tavily
+OPENAI_GENERATION_MODEL=gpt-4o
+OPENAI_JUDGE_MODEL=gpt-4o-mini
+OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+OPENAI_VISION_MODEL=gpt-4o
+```
+
+These are safe defaults for evaluator access. If the evaluator key has access to newer models, the tested upgrade path is `gpt-5.1` for generation/vision and `gpt-5-mini` for judging.
 
 The project also supports:
 
 - `SEARCH_PROVIDER=brave`
-- `SEARCH_PROVIDER=composite`, which runs all configured providers and lets the pipeline deduplicate and rerank the merged evidence.
+- `SEARCH_PROVIDER=composite`, which runs every configured provider, deduplicates overlapping results, and reranks the merged evidence.
 
 ## 2. Clone the Repository
 
@@ -36,9 +40,9 @@ cd ContextualPostExplainer
 
 If the repository is cloned under a different folder name, use that folder instead of `ContextualPostExplainer`.
 
-## 3. Create the Root Environment File
+## 3. Configure Environment Variables
 
-Copy the sample environment file:
+Create the root environment file:
 
 ```bash
 cp .env.example .env
@@ -46,12 +50,15 @@ cp .env.example .env
 
 Edit `.env` and fill in the required values:
 
-```bash
+```env
 OPENAI_API_KEY=<your-openai-api-key>
-OPENAI_GENERATION_MODEL=gpt-5.1
-OPENAI_JUDGE_MODEL=gpt-5-mini
+OPENAI_GENERATION_MODEL=gpt-4o
+OPENAI_JUDGE_MODEL=gpt-4o-mini
 OPENAI_EMBEDDING_MODEL=text-embedding-3-small
-OPENAI_VISION_MODEL=gpt-5.1
+OPENAI_VISION_MODEL=gpt-4o
+
+APP_BACKEND_PORT=8000
+APP_FRONTEND_PORT=5173
 BACKEND_CORS_ORIGINS=["http://localhost:5173","http://127.0.0.1:5173"]
 
 SEARCH_PROVIDER=tavily
@@ -67,82 +74,115 @@ Use only keys that belong to the evaluator or to the deployment environment. Do 
 
 ### Search Provider Options
 
-Use Tavily only:
+Tavily only:
 
-```bash
+```env
 SEARCH_PROVIDER=tavily
 TAVILY_API_KEY=<your-tavily-api-key>
 BRAVE_API_KEY=
 ```
 
-Use Brave only:
+Brave only:
 
-```bash
+```env
 SEARCH_PROVIDER=brave
 BRAVE_API_KEY=<your-brave-api-key>
 TAVILY_API_KEY=
 ```
 
-Use composite search:
+Composite search:
 
-```bash
+```env
 SEARCH_PROVIDER=composite
 TAVILY_API_KEY=<your-tavily-api-key>
 BRAVE_API_KEY=<your-brave-api-key>
 ```
 
-Composite search runs every configured provider, merges the results, deduplicates equivalent URLs/content, and reranks evidence before generation.
+Composite search runs all configured providers, merges the results, deduplicates equivalent URLs/content, and reranks evidence before generation.
 
-## 4. Install Backend Dependencies
+## 4. Choose a Setup Mode
 
-From the repository root:
+Use the root `Makefile` to choose either Docker or local execution. Both modes use the same `make up` and `make down` lifecycle commands after setup.
 
-```bash
-cd backend
-uv sync
-```
-
-Return to the root when needed:
+### Option A: Docker Setup
 
 ```bash
-cd ..
+make setup-docker
 ```
 
-## 5. Install Frontend Dependencies
+This command:
+
+- creates `.env` from `.env.example` if it does not exist;
+- validates Docker Compose;
+- builds backend and frontend Docker images;
+- mounts `backend/runs` into the backend container at `/app/runs`;
+- stores `docker` in `.run/deploy_mode`.
+
+### Option B: Local Setup
 
 ```bash
-cd frontend
-npm install
-cp .env.example .env.local
+make setup-local
 ```
 
-The frontend environment file should point to the backend API:
+This command:
+
+- creates `.env` from `.env.example` if it does not exist;
+- creates `frontend/.env` from `frontend/.env.example` if it does not exist;
+- installs backend dependencies with `uv sync`;
+- installs frontend dependencies with `npm install`;
+- stores `local` in `.run/deploy_mode`.
+
+If setup creates `.env` for you, edit `.env` with real API keys before running live analysis. If ports `8000` or `5173` are occupied, change `APP_BACKEND_PORT` and `APP_FRONTEND_PORT` in `.env`.
+
+Start the configured mode:
 
 ```bash
-VITE_API_BASE_URL=http://localhost:8000
+make up
 ```
 
-Return to the root:
+Stop the configured mode:
 
 ```bash
-cd ..
+make down
 ```
 
-## 6. Start the Backend
-
-From the repository root:
+After changing `.env`, restart the services:
 
 ```bash
-make backend-run
+make down
+make up
 ```
 
-This starts FastAPI/Uvicorn on:
+For later runs, use:
+
+```bash
+make up
+make down
+```
+
+Service URLs:
 
 ```text
-http://localhost:8000
+Frontend: http://localhost:${APP_FRONTEND_PORT:-5173}
+Backend:  http://localhost:${APP_BACKEND_PORT:-8000}
 ```
 
-Useful backend checks:
+Local runtime files:
+
+```text
+logs/backend.log
+logs/frontend.log
+.run/backend.pid
+.run/frontend.pid
+```
+
+Docker runtime logs are available through `docker compose logs backend` and `docker compose logs frontend`. The `logs/` and `.run/` directories are local runtime artifacts and should not be committed.
+
+The examples below use the default ports. If you changed `APP_BACKEND_PORT` or `APP_FRONTEND_PORT`, use the values printed by `make up`.
+
+## 5. Verify the Backend
+
+After starting the environment, check the backend:
 
 ```bash
 curl http://localhost:8000/api/health
@@ -175,23 +215,7 @@ Expected config status for a fully configured live environment:
 
 If `status` is `degraded`, the backend started but live mode is missing a valid search provider/key pair. Eval mode can still run from fixtures.
 
-## 7. Start the Frontend
-
-Open a second terminal and run:
-
-```bash
-make frontend-run
-```
-
-The Vite app starts on:
-
-```text
-http://localhost:5173
-```
-
-Open that URL in a browser.
-
-## 8. Run a Live Explanation
+## 6. Run a Live Explanation
 
 In the frontend:
 
@@ -209,7 +233,7 @@ https://bsky.app/profile/<handle>/post/<rkey>
 
 The current live implementation is scoped to public Bluesky posts. Other public networks are architectural extensions, not required for the current demo path.
 
-## 9. Use Observability
+## 7. Use Observability
 
 After at least one run, open the Observability page from the frontend navigation.
 
@@ -228,10 +252,11 @@ Use Observability to inspect:
 - Retrieved, ranked, and cited sources
 - Generated search queries
 - Diagnostics and raw artifact data
+- Citation repair audit data when repair was attempted
 
 Run artifacts are written locally and secrets are redacted before persistence.
 
-## 10. Use Comparative Analysis
+## 8. Use Comparative Analysis
 
 Open the Analysis page from the frontend navigation.
 
@@ -244,28 +269,33 @@ The dashboard aggregates local run artifacts and shows comparative cards, charts
 
 To make comparisons meaningful, run the same set of URLs under each configuration and keep the same `COMPARISON_GROUP_ID`.
 
-Example:
+Example search provider benchmark:
 
-```bash
+```env
 COMPARISON_GROUP_ID=search-provider-benchmark
 SEARCH_PROVIDER=tavily
 ```
 
 Then repeat with:
 
-```bash
+```env
 SEARCH_PROVIDER=brave
 ```
 
 And:
 
-```bash
+```env
 SEARCH_PROVIDER=composite
 ```
 
-Restart the backend after changing `.env`.
+Restart services after changing `.env`:
 
-## 11. Run the Backend Test Suite
+```bash
+make down
+make up
+```
+
+## 9. Run the Backend Test Suite
 
 ```bash
 make backend-test
@@ -291,7 +321,7 @@ cd backend
 uv run ruff check .
 ```
 
-## 12. Run the Frontend Checks
+## 10. Run the Frontend Checks
 
 ```bash
 make frontend-lint
@@ -308,7 +338,7 @@ npm run test
 npm run build
 ```
 
-## 13. Run the Eval Harness
+## 11. Run the Eval Harness
 
 The eval harness uses local fixtures for posts and evidence. It does not call Bluesky, Brave, Tavily, or live web pages. It can still call OpenAI for generation, embeddings, and groundedness judging.
 
@@ -334,29 +364,76 @@ The eval dataset contains 12 cases, including:
 - Low-evidence refusal
 - Groundedness assessment
 
-## 14. Optional Backend Docker Run
+## 12. Docker Details
 
-The repository includes Docker Compose for the backend service.
+The repository includes Docker Compose for backend and frontend services.
 
-Build and run:
+Recommended Docker workflow:
 
 ```bash
-docker compose up --build backend
+make setup-docker
+make up
 ```
 
-The backend will be available at:
+Service URLs:
 
 ```text
-http://localhost:8000
+Frontend: http://localhost:${APP_FRONTEND_PORT:-5173}
+Backend:  http://localhost:${APP_BACKEND_PORT:-8000}
 ```
 
-The frontend should still be started locally with:
+Stop Docker services through the same lifecycle command:
+
+```bash
+make down
+```
+
+The Docker path reads the root `.env` file. Make sure it is configured before starting the stack. To avoid port conflicts, set `APP_BACKEND_PORT` and `APP_FRONTEND_PORT` before running `make up`.
+
+Docker Compose mounts the repository's local `backend/runs` folder into the backend container at `/app/runs`. This means:
+
+- cloned historical run artifacts are visible in Observability and Analysis as soon as the stack starts;
+- new live/eval/comparison runs generated inside Docker are saved back to `backend/runs` on the host;
+- removing or recreating the container does not delete run artifacts.
+
+`make setup-docker` and Docker `make up` prepare this folder with write permissions so the backend container can append new run artifacts on a fresh clone.
+
+## 13. Manual Development Commands
+
+Use these only when you want foreground processes in separate terminals.
+
+Backend:
+
+```bash
+make backend-run
+```
+
+Frontend:
 
 ```bash
 make frontend-run
 ```
 
-## 15. Troubleshooting
+Manual dependency installation:
+
+```bash
+cd backend
+uv sync
+
+cd ../frontend
+npm install
+cp .env.example .env
+```
+
+The frontend environment file should point to the backend API:
+
+```env
+VITE_API_BASE_URL=http://localhost:8000
+```
+
+When using `make up`, `VITE_API_BASE_URL` is injected from `APP_BACKEND_PORT`, so manual edits are only needed for standalone frontend development.
+
+## 14. Troubleshooting
 
 ### `/api/config/status` returns `invalid`
 
@@ -380,13 +457,18 @@ The backend can start, but live mode is not ready. Check:
 
 ### Frontend cannot reach the backend
 
-Check `frontend/.env.local`:
+Check `frontend/.env`:
 
-```bash
+```env
 VITE_API_BASE_URL=http://localhost:8000
 ```
 
-Restart the frontend after changing this file.
+Restart the frontend after changing this file:
+
+```bash
+make down
+make up
+```
 
 ### Live run returns no bullets
 
@@ -398,7 +480,7 @@ Check Observability for:
 - Source fetch discards
 - Ranking discards
 - Citation compatibility warnings
-- Repair attempts
+- Repair attempts and repair audit data
 
 ### Image text is missing
 
@@ -406,22 +488,34 @@ Confirm that `OPENAI_VISION_MODEL` is configured. Without a vision model, the sy
 
 ### Runs are slow
 
-Use Observability timeline to identify the slow node. Typical slow areas are:
+Use the Observability timeline to identify the slow node. Typical slow areas are:
 
 - Search provider latency
 - Source page fetching/parsing
 - OpenAI generation
 - OpenAI vision analysis for image posts
 
-## 16. Recommended Demo Sequence
+### `make up` says a port is already in use
 
-1. Start the backend with `make backend-run`.
-2. Start the frontend with `make frontend-run`.
-3. Check `http://localhost:8000/api/health`.
-4. Check `http://localhost:8000/api/config/status`.
-5. Run one public Bluesky post in Explain.
-6. Open Observability and inspect the run timeline and sources.
-7. Run the same URL under another search provider or model stack.
-8. Open Analysis and compare Search Provider and LLM outcomes.
-9. Run `make backend-test`.
-10. Run `make frontend-lint`, `make frontend-test`, and `make frontend-build`.
+Another process is already listening on the configured backend or frontend port. Stop that process or change `APP_BACKEND_PORT` / `APP_FRONTEND_PORT` in `.env`, then run:
+
+```bash
+make down
+make up
+```
+
+## 15. Recommended Demo Sequence
+
+1. Configure `.env` with OpenAI and search provider keys.
+2. Run `make setup-docker` or `make setup-local`, depending on the execution mode you want to validate.
+3. Run `make up`.
+4. Check `http://localhost:8000/api/health`.
+5. Check `http://localhost:8000/api/config/status`.
+6. Open `http://localhost:5173`.
+7. Run one public Bluesky post in Explain.
+8. Open Observability and inspect the run timeline, sources, warnings, and repair audit if present.
+9. Run the same URL under another search provider or model stack.
+10. Open Analysis and compare Search Provider and LLM outcomes.
+11. Run `make backend-test`.
+12. Run `make frontend-lint`, `make frontend-test`, and `make frontend-build`.
+13. Stop services with `make down`.

@@ -1,0 +1,964 @@
+{
+  "run_id": "run_5be3c2346cc243249deab17172365cd2",
+  "mode": "live",
+  "generated_at": "2026-05-16T11:14:41.997804+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T11:14:01.654347+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:01.654519+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:14:01.655269+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:01.655384+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:14:01.656070+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:02.382754+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 726
+    },
+    {
+      "timestamp": "2026-05-16T11:14:02.383480+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:02.383586+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:14:02.384232+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:10.190007+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 7805
+    },
+    {
+      "timestamp": "2026-05-16T11:14:10.191027+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:12.275746+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 2084
+    },
+    {
+      "timestamp": "2026-05-16T11:14:12.276540+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:30.570348+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 16656
+    },
+    {
+      "timestamp": "2026-05-16T11:14:30.571419+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:32.172086+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1600
+    },
+    {
+      "timestamp": "2026-05-16T11:14:32.172888+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:37.977907+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5805
+    },
+    {
+      "timestamp": "2026-05-16T11:14:37.978693+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:37.978869+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T11:14:37.979689+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:41.989520+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 4009
+    },
+    {
+      "timestamp": "2026-05-16T11:14:41.990397+00:00",
+      "event": "node_started",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T11:14:41.990553+00:00",
+      "event": "node_completed",
+      "run_id": "run_5be3c2346cc243249deab17172365cd2",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+  "comparison_group_id": "manual_live",
+  "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+    "comparison_group_id": "manual_live",
+    "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1"
+  },
+  "queries": [
+    "Graze criminal charges conviction",
+    "Graze legal cases status",
+    "\"graze.social\" feeds infrastructure bluesky",
+    "\"Graze\" \"skyfeed.app\" \"blueskyfeedcreator.com\" joint support feed ecosystem",
+    "\"News\" feed on Graze.social remix instructions site:graze.social",
+    "\"every news feed user chipped in $1/mo\" funding the whole feed ecosystem"
+  ],
+  "metrics": {
+    "search_results_received": 30,
+    "search_results_by_provider": {
+      "tavily": 30
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://blueskyfeedcreator.com/help/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://blueskyfeedcreator.com/"
+      },
+      {
+        "id": "https://www.graze.social/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.graze.social/"
+      },
+      {
+        "id": "https://www.graze.social/ads/396",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.graze.social/ads/396"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/WWLTV/posts/police-say-a-17-year-old-suffered-a-graze-wound-to-the-head-after-what-investiga/1507756464721067/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://dockets.justia.com/docket/florida/flsdce/2:2023cv14291/654466",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://dockets.justia.com/docket/florida/flsdce/1:2023cv23587/654461",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/WesternLivestockJournal/posts/us-court-of-appeals-for-the-9th-circuit-permit-tied-to-unauthorized-grazing-on-f/1310268914563375/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_513031668d79",
+        "title": "GRAZE CRAZE Franchise: J.A. James Adam Jenkins Criminal History",
+        "url": "https://unhappyfranchisee.com/graze-craze-franchise-james-adam-jenkins/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_d2cda11b42b7",
+        "title": "GRAZE CRAZE Who is Convicted Fraudster James Adams Jenkins ...",
+        "url": "https://unhappyfranchisee.com/graze-craze-fraudster-james-adams-jenkins-j-a-jenkins/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_81354596d443",
+        "title": "Graze Craze, Inc. employees claim they haven't been paid in months ...",
+        "url": "https://kfor.com/news/local/graze-craze-inc-employees-claim-they-havent-been-paid-in-months/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_329c18e04a21",
+        "title": "Blueface sentenced to 24 - 60 months in prison for grazing a man's ...",
+        "url": "https://www.facebook.com/LockharTVMediaLLC/videos/blueface-sentenced-to-24-60-months-in-prison-for-grazing-a-mans-hand-during-a-sh/259776516493202/#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "ranked_multi_provider_source_count": 0,
+    "citation_repair_needed": true,
+    "citation_repair_attempted": true,
+    "citation_repair_left_bullets": true,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 2
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @aendra.com",
+      "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+      "snippet": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+      "content": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "aendra.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.928629617694499
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @aendra.com",
+      "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+      "snippet": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? G",
+      "content": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? Give it a go, it's not hard!\n\nVisit www.graze.social/feeds/396 and hit the \"Remix\" button near the top of the page!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "aendra.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9081974359266913
+    },
+    {
+      "id": "src_a904758ecc3b",
+      "title": "Feed Curators | Graze",
+      "url": "https://www.graze.social/feed-curators#",
+      "snippet": "Building communities is a lot of work. With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Your audience stays with you thanks to ATProto. See exactly who's reading, what's working, and how to grow. With custom feeds powering communities like BookSky, Game Dev, Medsky and more,. Graze helps builders grow and foster their communities. Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky.",
+      "content": "Building communities is a lot of work. On traditional platforms, your reward? Maybe a \"thanks\". With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Stop working for free and get compensated for the value you create. Your Audience, Your Rules Build direct relationships with advertisers. Approve or deny every ad. No black box algorithms decide what your followers see. Portable & Future-Proof Your audience stays with you thanks to ATProto. No platform lock-in, no starting over from zero. Real Insights See exactly who's reading, what's working, and how to grow With custom feeds powering communities like BookSky, Game Dev, Medsky and more, Graze helps builders grow and foster their communities. Real Curator Success Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky. Graze is truly Bluesky/ATProto's first killer app.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"graze.social\" feeds infrastructure bluesky"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"graze.social\" feeds infrastructure bluesky",
+      "canonical_url": "https://graze.social/feed-curators",
+      "published_at": "2026-05-16T00:00:00",
+      "publisher": "graze.social",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7960410404181042
+    },
+    {
+      "id": "src_eb1fe71c0d43",
+      "title": "Docs | Introduction - Graze.social",
+      "url": "https://www.graze.social/docs/intro#",
+      "snippet": "Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media.",
+      "content": "Welcome to Graze! 🎉 Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media. With Graze you can build, deploy, and manage a feed all without writing a single line of code. If you're new to Graze, start with our Frequently Asked Questions. You can find a range of helpful guides here on the left. Try starting out with Creating Your First Feed.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"graze.social\" feeds infrastructure bluesky"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"graze.social\" feeds infrastructure bluesky",
+      "canonical_url": "https://graze.social/docs/intro",
+      "published_at": "2025-10-14T00:00:00",
+      "publisher": "graze.social",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7253006945719856
+    },
+    {
+      "id": "src_18cdb95041d0",
+      "title": "Federal Register :: Assessing Fees for Excess and Unauthorized Grazing",
+      "url": "https://unblock.federalregister.gov/#",
+      "snippet": "It is not an official legal edition of the Federal Register, and does not replace the official print version or the official electronic version on GPO’s govinfo.gov. This prototype edition of the daily Federal Register on FederalRegister.gov will remain an unofficial informational resource until the Administrative Committee of the Federal Register (ACFR) issues a regulation granting it official legal status. While every effort has been made to ensure that the material on FederalRegister.gov is accurately displayed, consistent with the official SGML-based PDF version on govinfo.gov, those relying on it for legal research should verify their results against an official edition of the Federal Register. # Assessing Fees for Excess and Unauthorized Grazing. The Forest Service (Agency), U.S. Department of Agriculture, hereby adopts this final rule to amend existing regulations for the provision of an option to waive excess and unauthorized grazing fees when excess or unauthorized grazing is determined to be a result of unforeseen or uncontrollable circumstances.",
+      "content": "Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs. Please visit FederalRegister.gov API documentation or eCFR.gov API documentation to learn more about how to access the API. Your request has been flagged as potentially automated. If you are human user receiving this message, please complete the CAPTCHA (bot test) below and click \"Request Access\". You may occassionally be asked to complete the CAPTCHA again, this is normal and part of our security measures. An official website of the United States government. If you experiencing issues with the CAPTCHA or want to request a wider IP range, you can use the \"Site Help\" button found in the lower, right of this page to make a request.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Graze legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Graze legal cases status",
+      "canonical_url": "https://unblock.federalregister.gov/",
+      "published_at": null,
+      "publisher": "unblock.federalregister.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.3565237418528298
+    },
+    {
+      "id": "src_1a5818d7b768",
+      "title": "Court: Grazing Expansion in Grizzly Habitat Near Yellowstone ...",
+      "url": "https://biologicaldiversity.org/w/news/press-releases/court-grazing-expansion-in-grizzly-habitat-near-yellowstone-violated-law-2025-09-17/#",
+      "snippet": "— A federal court today found that the U.S. Forest Service violated the law when it authorized expanded livestock grazing on six allotments on",
+      "content": "For Immediate Release, September 17, 2025 Court: Grazing Expansion in Grizzly Habitat Near Yellowstone Violated Law MISSOULA, Mont.— A federal court today found that the U.S. Forest Service violated the law when it authorized expanded livestock grazing on six allotments on the east side of Montana’s Paradise Valley in occupied grizzly bear habitat. The allotments lie just north of Yellowstone National Park in the Absaroka Mountains. The U.S. District Court for the District of Montana found that the Forest Service failed to analyze the effects of authorizing greater livestock grazing on public lands in the area — specifically, allowing more grazing in more areas and a longer grazing season. “The best available science says steps need to be taken to help facilitate grizzly bear movement and connectivity between subpopulations to fully recover the species in the lower 48 states,” said Matthew Bishop, senior attorney at the Western Environmental Law Center representing the groups. “We agree the agency needs to take a harder, closer look at these issues before authorizing activities in important linkage areas like the Absaroka Range.” The Forest Service also failed to properly analyze the effects of early stocking dates, how expanded grazing may harm grizzly bear connectivity in the area which is an important factor for grizzly bear recovery, cumulative effects of this expanded grazing in combination with other activities on private lands and failed to prepare an environmental impact statement as required by the National Environmental Policy Act. The court remanded the matter back to the Forest Service to prepare a new analysis and vacated the agency’s decision to expand grazing on these allotments. This preserves the status quo, which is more favorable to grizzly bears. “Despite knowing that livestock conflict remains a leading cause of death for grizzly bears in the Greater Yellowstone Ecosystem, the Forest Service sought to expand cattle grazing on public lands surrounding the National Park,” said Patrick Kelly, Montana director with Western Watersheds Project. “Judge Molloy’s decision has thankfully halted this misguided and illegal effort, likely preventing the deaths of many more grizzly bears.” Several of the allotments are in designated grizzly recovery zones and within important habitat linkages for bears in the Absaroka-Beartooth Wilderness. The Forest Service had expanded both the livestock grazing area and season, which the best science reveals will put grizzly bears at higher risk of being killed in response to conflict with cattle operations. “I’m thrilled the court struck down the federal government’s illegal decision to increase livestock grazing in important grizzly bear habitat,” said Andrea Zaccardi, carnivore conservation legal director at the Center for Biological Diversity. “Putting livestock on public lands where grizzlies live is akin to baiting these bears into conflicts. I hope the Forest Service will revisit its decision and decide not to move forward with this irresponsible proposal.” Increased grizzly bear mortality in areas on the outskirts of the Greater Yellowstone Ecosystem would slow the bears’ recovery and keep the Yellowstone grizzly population isolated. Scientists predict that long-term isolation of Yellowstone grizzlies will likely decrease their genetic diversity, which would harm the population’s health and reproductive success. “There should never be a wildlife resource policy whereby domestic livestock have priority over wildlife on public lands, yet that is essentially what was done in this case,” said Clint Nagel, president of the Gallatin Wildlife Association. “The underlying premise that wildlife is expendable, that they will always be present in our world, has simply been proven wrong. We should know by now, that is not and will not be the case.” In recent decades, Yellowstone grizzly bears have also experienced a drastic decline in two of their main food sources: whitebark pine nuts a",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Graze legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Graze legal cases status",
+      "canonical_url": "https://biologicaldiversity.org/w/news/press-releases/court-grazing-expansion-in-grizzly-habitat-near-yellowstone-violated-law-2025-09-17",
+      "published_at": "2025-09-17T00:00:00",
+      "publisher": "biologicaldiversity.org",
+      "source_category": "unknown",
+      "source_role": "official_position",
+      "relevance_score": 0.31041447198464955
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @aendra.com",
+      "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+      "snippet": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+      "content": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "aendra.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.928629617694499
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @aendra.com",
+      "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+      "snippet": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? G",
+      "content": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? Give it a go, it's not hard!\n\nVisit www.graze.social/feeds/396 and hit the \"Remix\" button near the top of the page!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "aendra.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9081974359266913
+    },
+    {
+      "id": "src_a904758ecc3b",
+      "title": "Feed Curators | Graze",
+      "url": "https://www.graze.social/feed-curators#",
+      "snippet": "Building communities is a lot of work. With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Your audience stays with you thanks to ATProto. See exactly who's reading, what's working, and how to grow. With custom feeds powering communities like BookSky, Game Dev, Medsky and more,. Graze helps builders grow and foster their communities. Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky.",
+      "content": "Building communities is a lot of work. On traditional platforms, your reward? Maybe a \"thanks\". With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Stop working for free and get compensated for the value you create. Your Audience, Your Rules Build direct relationships with advertisers. Approve or deny every ad. No black box algorithms decide what your followers see. Portable & Future-Proof Your audience stays with you thanks to ATProto. No platform lock-in, no starting over from zero. Real Insights See exactly who's reading, what's working, and how to grow With custom feeds powering communities like BookSky, Game Dev, Medsky and more, Graze helps builders grow and foster their communities. Real Curator Success Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky. Graze is truly Bluesky/ATProto's first killer app.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"graze.social\" feeds infrastructure bluesky"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"graze.social\" feeds infrastructure bluesky",
+      "canonical_url": "https://graze.social/feed-curators",
+      "published_at": "2026-05-16T00:00:00",
+      "publisher": "graze.social",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7960410404181042
+    },
+    {
+      "id": "src_eb1fe71c0d43",
+      "title": "Docs | Introduction - Graze.social",
+      "url": "https://www.graze.social/docs/intro#",
+      "snippet": "Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media.",
+      "content": "Welcome to Graze! 🎉 Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media. With Graze you can build, deploy, and manage a feed all without writing a single line of code. If you're new to Graze, start with our Frequently Asked Questions. You can find a range of helpful guides here on the left. Try starting out with Creating Your First Feed.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"graze.social\" feeds infrastructure bluesky"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"graze.social\" feeds infrastructure bluesky",
+      "canonical_url": "https://graze.social/docs/intro",
+      "published_at": "2025-10-14T00:00:00",
+      "publisher": "graze.social",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7253006945719856
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+      "platform": "bluesky",
+      "author": {
+        "handle": "aendra.com",
+        "display_name": "ændra.",
+        "did": "did:plc:kkf4naxqmweop7dv4l2iqqf5"
+      },
+      "text": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+      "created_at": "2026-04-02T05:45:19.821000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n",
+      "thread_text": "Want to try remixing the News feed? Give it a go, it's not hard!\n\nVisit www.graze.social/feeds/396 and hit the \"Remix\" button near the top of the page!"
+    },
+    "explanation": [
+      {
+        "text": "The author says that every feed they run is currently hosted on the Graze platform, which they describe as providing “phenomenal infrastructure” free of charge, and they invite others to use Graze to remix these feeds for customized news reading.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s own description of their setup and experience and is not independently verified by third-party sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the same post, the author suggests that if every user of the 📰 News feed contributed $1 per month, this would be enough to fund “the whole feed ecosystem,” presenting a rough, community-supported funding idea rather than a documented financial plan.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post does not provide data on user numbers or actual operating costs, so this should be understood as the author’s proposal, not a verified financial fact.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "According to Graze’s own documentation, Graze is a platform for building, deploying, and managing custom Bluesky feeds without writing code, intended to help users take control of their social media experience.",
+        "source_ids": [
+          "src_eb1fe71c0d43"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This description comes from Graze’s self-published docs and reflects how the service presents itself.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Graze’s marketing materials describe it as providing tools and infrastructure for feed curators to grow and monetize Bluesky communities, including analytics and direct relationships with advertisers, positioning Graze as a way for curators to be compensated for their work.",
+        "source_ids": [
+          "src_a904758ecc3b"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These details come from Graze’s promotional content and describe intended features and benefits rather than independently audited outcomes.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In related thread context, the author explains that Graze has teamed up with other custom-feed services, @skyfeed.app and @blueskyfeedcreator.com, to jointly support their work, and encourages users to try remixing the News feed via a specific Graze feed link and its “Remix” button.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is based on the author’s description of collaboration and a call-to-action in the surrounding thread; there is no independent confirmation of how this partnership operates.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @aendra.com",
+        "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+        "snippet": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+        "content": "Every feed I run is currently on @graze.social. Graze provides me with phenomenal infrastructure, free of charge; you can also use it, today, to remix my feeds so they're customised for your news reading needs.\n\nIf every 📰 News feed user chipped in $1 /mo., it would fund the whole feed ecosystem.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "aendra.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @aendra.com",
+        "url": "https://bsky.app/profile/aendra.com/post/3miiiuexl7k22",
+        "snippet": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? G",
+        "content": "Folks have been reaching out about how to support Graze beyond our core product. We think that support needs to go beyond Graze. \n\nThat's why we've teamed up with our direct competitors @skyfeed.app and @blueskyfeedcreator.com to jointly support all our work:\n\n\n\nWant to try remixing the News feed? Give it a go, it's not hard!\n\nVisit www.graze.social/feeds/396 and hit the \"Remix\" button near the top of the page!",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "aendra.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_a904758ecc3b",
+        "title": "Feed Curators | Graze",
+        "url": "https://www.graze.social/feed-curators#",
+        "snippet": "Building communities is a lot of work. With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Your audience stays with you thanks to ATProto. See exactly who's reading, what's working, and how to grow. With custom feeds powering communities like BookSky, Game Dev, Medsky and more,. Graze helps builders grow and foster their communities. Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky.",
+        "content": "Building communities is a lot of work. On traditional platforms, your reward? Maybe a \"thanks\". With Graze, you finally get the tools and infrastructure to turn that expertise into something more. Stop working for free and get compensated for the value you create. Your Audience, Your Rules Build direct relationships with advertisers. Approve or deny every ad. No black box algorithms decide what your followers see. Portable & Future-Proof Your audience stays with you thanks to ATProto. No platform lock-in, no starting over from zero. Real Insights See exactly who's reading, what's working, and how to grow With custom feeds powering communities like BookSky, Game Dev, Medsky and more, Graze helps builders grow and foster their communities. Real Curator Success Feeds have the power to take control of your content and your audience like never before. They flip the script on the big tech platforms and give you the tools to build the future of social, and pay you for your work. Graze totally changed how I run my feeds. Before Graze, I had no stats and my feeds seldom received updates. Graze has dramatically improved the quality of my feeds and I finally have insights into how many people are using them, plus feed monetisation has meant I've been able to donate over half a grand to developers building cool things on Bluesky. Graze is truly Bluesky/ATProto's first killer app.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"graze.social\" feeds infrastructure bluesky"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"graze.social\" feeds infrastructure bluesky",
+        "canonical_url": "https://graze.social/feed-curators",
+        "published_at": "2026-05-16T00:00:00",
+        "publisher": "graze.social",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_eb1fe71c0d43",
+        "title": "Docs | Introduction - Graze.social",
+        "url": "https://www.graze.social/docs/intro#",
+        "snippet": "Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media.",
+        "content": "Welcome to Graze! 🎉 Graze is a platform to build custom feeds for Bluesky. Graze makes it easy to take control of your social media. With Graze you can build, deploy, and manage a feed all without writing a single line of code. If you're new to Graze, start with our Frequently Asked Questions. You can find a range of helpful guides here on the left. Try starting out with Creating Your First Feed.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"graze.social\" feeds infrastructure bluesky"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"graze.social\" feeds infrastructure bluesky",
+        "canonical_url": "https://graze.social/docs/intro",
+        "published_at": "2025-10-14T00:00:00",
+        "publisher": "graze.social",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 38720
+  },
+  "citation_repair_audit": {
+    "attempted": true,
+    "validation_error": "Return a corrected response that removes, reclassifies, or recites bullets so these citation compatibility warnings are resolved: AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST on bullet 4: Author interpretation should be supported by the original post, not by third-party thread context.",
+    "validation_warnings": [
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 4
+      }
+    ],
+    "targeted_bullet_indexes": [
+      4
+    ],
+    "input_bullets": [
+      {
+        "index": 0,
+        "text": "The author states that all of the feeds they run are currently hosted on the Graze platform, which they describe as providing “phenomenal infrastructure” at no cost to them, and they invite others to use Graze to remix these feeds for personalized news reading.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "thread_original"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s own description of their setup and experience; it is not independently verified by third-party sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "In the same post, the author suggests that if every user of the 📰 News feed contributed $1 per month, this would be enough to financially support “the whole feed ecosystem,” implying a community-supported funding model for Graze-powered feeds.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "thread_original"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post does not provide data on the number of users or actual costs, so the funding claim should be understood as the author’s rough proposal rather than a documented financial fact.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Graze is described in its own documentation as a platform for building, deploying, and managing custom Bluesky feeds without writing code, aimed at helping users take control of their social media experience.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "src_eb1fe71c0d43"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This description comes from Graze’s own docs and reflects how the service presents itself.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Graze’s marketing materials emphasize that it provides tools and infrastructure for feed curators to grow and monetize communities on Bluesky, including analytics and advertiser relationships, positioning itself as a way for curators to be compensated for their work.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "src_a904758ecc3b"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These details come from Graze’s promotional content and describe intended features and benefits rather than independently audited performance.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "text": "In related thread context, the author notes that Graze has coordinated with other custom-feed services, @skyfeed.app and @blueskyfeedcreator.com, to jointly support their collective work, and they encourage users to try remixing the News feed via a specific Graze feed link and “Remix” button.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "source_ids": [
+          "thread_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is based on the author’s description of the collaboration and user call-to-action; no independent confirmation of the partnership terms is provided.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "outcome": "repaired",
+    "repaired_bullets": [
+      {
+        "index": 0,
+        "text": "The author says that every feed they run is currently hosted on the Graze platform, which they describe as providing “phenomenal infrastructure” free of charge, and they invite others to use Graze to remix these feeds for customized news reading.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "thread_original"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s own description of their setup and experience and is not independently verified by third-party sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "In the same post, the author suggests that if every user of the 📰 News feed contributed $1 per month, this would be enough to fund “the whole feed ecosystem,” presenting a rough, community-supported funding idea rather than a documented financial plan.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "thread_original"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post does not provide data on user numbers or actual operating costs, so this should be understood as the author’s proposal, not a verified financial fact.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "According to Graze’s own documentation, Graze is a platform for building, deploying, and managing custom Bluesky feeds without writing code, intended to help users take control of their social media experience.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "src_eb1fe71c0d43"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This description comes from Graze’s self-published docs and reflects how the service presents itself.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Graze’s marketing materials describe it as providing tools and infrastructure for feed curators to grow and monetize Bluesky communities, including analytics and direct relationships with advertisers, positioning Graze as a way for curators to be compensated for their work.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "src_a904758ecc3b"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These details come from Graze’s promotional content and describe intended features and benefits rather than independently audited outcomes.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "text": "In related thread context, the author explains that Graze has teamed up with other custom-feed services, @skyfeed.app and @blueskyfeedcreator.com, to jointly support their work, and encourages users to try remixing the News feed via a specific Graze feed link and its “Remix” button.",
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "source_ids": [
+          "thread_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is based on the author’s description of collaboration and a call-to-action in the surrounding thread; there is no independent confirmation of how this partnership operates.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "remaining_validation_warnings": [],
+    "removed_bullets": []
+  }
+}

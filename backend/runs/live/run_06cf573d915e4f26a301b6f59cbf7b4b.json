@@ -1,0 +1,535 @@
+{
+  "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+  "mode": "live",
+  "generated_at": "2026-05-16T13:26:10.175668+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T13:25:52.337380+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T13:25:52.337530+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T13:25:52.338400+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T13:25:52.338508+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T13:25:52.339542+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T13:25:53.240042+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 900
+    },
+    {
+      "timestamp": "2026-05-16T13:25:53.240950+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T13:25:58.603511+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 5362
+    },
+    {
+      "timestamp": "2026-05-16T13:25:58.604531+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:01.190460+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2586
+    },
+    {
+      "timestamp": "2026-05-16T13:26:01.191229+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:03.114200+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 1923
+    },
+    {
+      "timestamp": "2026-05-16T13:26:03.114937+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:06.684411+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 3569
+    },
+    {
+      "timestamp": "2026-05-16T13:26:06.685256+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:07.145021+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 459
+    },
+    {
+      "timestamp": "2026-05-16T13:26:07.145820+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.170389+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3024
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.171529+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.171697+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.172474+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.172594+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.173162+00:00",
+      "event": "node_started",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T13:26:10.173285+00:00",
+      "event": "node_completed",
+      "run_id": "run_06cf573d915e4f26a301b6f59cbf7b4b",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlxwni3acs2b",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+  "comparison_group_id": "manual_live",
+  "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "658b69fa984ab1d6592af74d584e7f3e994cfa5a6b90d035d6187f7ee952135b",
+    "comparison_group_id": "manual_live",
+    "comparison_config_id": "tavily__gen_gpt_5_1__judge_gpt_5_mini__embed_text_embedding_3_small__vision_gpt_5_1"
+  },
+  "queries": [
+    "\"BIDEN!!!\" bicycle meme man puts stick in wheel origin",
+    "political cartoon man on bike puts stick in spokes then blames others",
+    "\"Chump's 1st Go To Move\" meme explanation",
+    "analysis of meme where person causes own problem then blames Biden"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://x.com/AlfieBCC/status/1919194430923231240",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://x.com/AlfieBCC/status/1919194430923231240"
+      },
+      {
+        "id": "https://www.threads.com/@dino.luck/post/DPPeaxDElXY/that-meme-where-the-guy-rides-the-bike-sticks-a-stick-into-wheels-spokes-falls-d",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.threads.com/@dino.luck/post/DPPeaxDElXY/that-meme-where-the-guy-rides-the-bike-sticks-a-stick-into-wheels-spokes-falls-d"
+      },
+      {
+        "id": "https://www.threads.com/@dino.luck/post/DPPeaxDElXY/that-meme-where-the-guy-rides-the-bike-sticks-a-stick-into-wheels-spokes-falls-d?hl=zh-hk",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.threads.com/@dino.luck/post/DPPeaxDElXY/that-meme-where-the-guy-rides-the-bike-sticks-a-stick-into-wheels-spokes-falls-d"
+      },
+      {
+        "id": "https://www.facebook.com/HowToMoneyPod/posts/have-you-seen-the-meme-of-the-guy-on-a-bike-who-puts-a-stick-in-his-spokes-and-t/1319917433467098/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.facebook.com/HowToMoneyPod/posts/have-you-seen-the-meme-of-the-guy-on-a-bike-who-puts-a-stick-in-his-spokes-and-t/1319917433467098/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/HowToMoneyPod/posts/have-you-seen-the-meme-of-the-guy-on-a-bike-who-puts-a-stick-in-his-spokes-and-t/1319917433467098/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/AlfieBCC/status/1919194430923231240",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@dino.luck/post/DPPeaxDElXY/that-meme-where-the-guy-rides-the-bike-sticks-a-stick-into-wheels-spokes-falls-d",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.tiktok.com/@iheartchumppeezy/video/7617678182371659038",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DQ8OLbPCE_s/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.tiktok.com/discover/chump-meaning",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/groups/aviationmemelords/posts/1234690917723445/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXgqIUjI6h3/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_a1f10fc8a93e",
+        "title": "Cyclist With a Stick Falls Off Bike Meme Template - Kapwing",
+        "url": "https://www.kapwing.com/explore/cyclist-with-a-stick-falls-off-bike-meme-template#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_26e7bc553a53",
+        "title": "Baton Roue | Know Your Meme",
+        "url": "https://knowyourmeme.com/memes/baton-roue#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_9b927584f5c8",
+        "title": "Also, the bicycle guy putting a stick in his wheel meme works too!",
+        "url": "https://imgur.com/gallery/also-bicycle-guy-putting-stick-his-wheel-meme-works-too-bSiDUH2#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_589815911c96",
+        "title": "MAGA Fan Blames Biden For EVERYTHING…Then Gets ... - YouTube",
+        "url": "https://www.youtube.com/watch?v=t5liA3d41ps#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2
+    },
+    "ranked_multi_provider_source_count": 0,
+    "citation_repair_needed": false,
+    "cited_sources_by_provider": {
+      "bluesky": 2
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @kackbro.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreihcmmn67heft7p5kukuhxqyjvxtlvx7tl27co5h3ri63qjtr5itga",
+      "snippet": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams",
+      "content": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams the stick into the spokes of his own front wheel. In the third panel, he has fallen off the bike onto the grass, clutching his side in apparent pain, while the bike lies on the ground nearby and large bold text above him reads \"BIDEN!!!\" as he yells. The style resembles a simple, colorful comic strip or meme.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7913375812463151
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlxwni3acs2b",
+      "snippet": "Chump's 1st Go To Move.......",
+      "content": "Chump's 1st Go To Move.......",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.4961547673020565
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @kackbro.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreihcmmn67heft7p5kukuhxqyjvxtlvx7tl27co5h3ri63qjtr5itga",
+      "snippet": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams",
+      "content": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams the stick into the spokes of his own front wheel. In the third panel, he has fallen off the bike onto the grass, clutching his side in apparent pain, while the bike lies on the ground nearby and large bold text above him reads \"BIDEN!!!\" as he yells. The style resembles a simple, colorful comic strip or meme.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7913375812463151
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlxwni3acs2b",
+      "snippet": "Chump's 1st Go To Move.......",
+      "content": "Chump's 1st Go To Move.......",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.4961547673020565
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlxwni3acs2b",
+      "platform": "bluesky",
+      "author": {
+        "handle": "kackbro.bsky.social",
+        "display_name": "M Meerkat",
+        "did": "did:plc:s3m33wvdsixxr2ifnkldlfp3"
+      },
+      "text": "Chump's 1st Go To Move.......",
+      "created_at": "2026-05-16T13:17:31.544000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreihcmmn67heft7p5kukuhxqyjvxtlvx7tl27co5h3ri63qjtr5itga",
+          "alt_text": null,
+          "ocr_text": "BIDEN!!!",
+          "description": "Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams the stick into the spokes of his own front wheel. In the third panel, he has fallen off the bike onto the grass, clutching his side in apparent pain, while the bike lies on the ground nearby and large bold text above him reads \"BIDEN!!!\" as he yells. The style resembles a simple, colorful comic strip or meme.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": null
+    },
+    "explanation": [
+      {
+        "text": "The post consists of a meme-style three-panel cartoon showing a man resembling a stereotypical depiction of Donald Trump (red cap, long red tie) riding a bicycle, jamming a stick into his own front wheel, falling off, and then yelling “BIDEN!!!” after causing his own crash.",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Identification of the cyclist as resembling Donald Trump is interpretive but follows common meme conventions; the source does not explicitly name him.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The caption \"Chump's 1st Go To Move.......\" paired with the meme suggests the author’s opinion that the person depicted habitually blames President Biden for problems they have caused themselves.",
+        "source_ids": [
+          "thread_original",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet interprets the author’s intent based on the caption and image; it is not a statement of objective political fact.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The meme uses a common internet cartoon format where a character injures themselves with a stick in a bicycle wheel and then irrationally blames an unrelated target, here represented by the shouted text “BIDEN!!!”.",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The broader popularity of this meme format is general cultural knowledge and not documented in the provided sources; only the specific instance shown is confirmed.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @kackbro.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreihcmmn67heft7p5kukuhxqyjvxtlvx7tl27co5h3ri63qjtr5itga",
+        "snippet": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams",
+        "content": "Image type: meme\nVisible text: BIDEN!!!\nVisual description: Three-panel cartoon of a man in a red cap, white shirt, long red tie, and purple pants riding a bicycle on a path through a grassy field. In the first panel, he rides while holding a wooden stick. In the second panel, he leans down and jams the stick into the spokes of his own front wheel. In the third panel, he has fallen off the bike onto the grass, clutching his side in apparent pain, while the bike lies on the ground nearby and large bold text above him reads \"BIDEN!!!\" as he yells. The style resembles a simple, colorful comic strip or meme.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kackbro.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @kackbro.bsky.social",
+        "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlxwni3acs2b",
+        "snippet": "Chump's 1st Go To Move.......",
+        "content": "Chump's 1st Go To Move.......",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kackbro.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 17930
+  }
+}

@@ -165,22 +165,25 @@ class EvalExplanationFlow:
 
     async def _persist_eval_result(self, state: ExplanationState) -> dict[str, object]:
         if self._run_recorder:
+            payload = {
+                "case_id": state["eval_case"].id,
+                "metrics": state["eval_metrics"].model_dump(mode="json"),
+                "source_count": len(state.get("ranked_evidence", [])),
+                "groundedness": [
+                    item.model_dump(mode="json")
+                    for item in state.get("groundedness_assessments", [])
+                ],
+                "warnings": [
+                    warning.model_dump(mode="json") for warning in state["explanation"].warnings
+                ],
+                "explanation": state["explanation"].model_dump(mode="json"),
+            }
+            if "citation_repair_audit" in state:
+                payload["citation_repair_audit"] = state["citation_repair_audit"]
             await self._run_recorder.write_run(
                 "eval",
                 state["run_id"],
-                {
-                    "case_id": state["eval_case"].id,
-                    "metrics": state["eval_metrics"].model_dump(mode="json"),
-                    "source_count": len(state.get("ranked_evidence", [])),
-                    "groundedness": [
-                        item.model_dump(mode="json")
-                        for item in state.get("groundedness_assessments", [])
-                    ],
-                    "warnings": [
-                        warning.model_dump(mode="json") for warning in state["explanation"].warnings
-                    ],
-                    "explanation": state["explanation"].model_dump(mode="json"),
-                },
+                payload,
             )
         return {}
 

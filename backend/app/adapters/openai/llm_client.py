@@ -16,6 +16,26 @@ from app.ports.llm_client import LLMClient
 
 logger = structlog.get_logger(__name__)
 
+REPAIR_INSTRUCTION = """
+Preserve useful explanatory bullets whenever possible. First try to repair by:
+- changing claim_label to author_interpretation when the bullet explains the original
+  author's framing, criticism, opinion, rhetoric, hope, or prediction, and cite the
+  original post source;
+- changing claim_label to public_reaction when the bullet explains replies, comments,
+  reposts, or broader social reaction, and cite thread/social sources;
+- changing claim_label to official_position when the bullet attributes a position,
+  allegation, demand, or argument to a named organization, agency, court, campaign,
+  official, or party involved, and cite a compatible official, court, primary, or
+  recognized news source;
+- rewriting sensitive claims as attributed allegations or procedural context when the
+  cited sources support only the existence of the allegation, lawsuit, investigation,
+  charge, or dispute, not the truth of the underlying accusation.
+
+Omit a bullet only when no compatible source can support a corrected contextual version.
+Return 3 to 5 bullets if at least 3 useful corrected bullets can be supported; otherwise
+return zero bullets.
+""".strip()
+
 
 class OpenAILLMClient(LLMClient):
     def __init__(
@@ -85,9 +105,7 @@ class OpenAILLMClient(LLMClient):
                 "sources": [_evidence_payload(source) for source in evidence],
                 "invalid_payload": invalid_payload,
                 "validation_error": validation_error,
-                "repair_instruction": (
-                    "Return a corrected response that passes the citation contract."
-                ),
+                "repair_instruction": REPAIR_INSTRUCTION,
             },
             max_output_tokens=1800,
         )
@@ -193,4 +211,4 @@ def _insufficient_evidence_explanation() -> Explanation:
 
 
 def _clean_bullet_text(text: str) -> str:
-    return re.sub(r"\s*\[[A-Za-z0-9_,:;\\-\\s]+]\s*$", "", text).strip()
+    return re.sub(r"\s*\[[\w,:;\s-]+\]\s*$", "", text).strip()

@@ -23,22 +23,26 @@ export async function readSseStream(
   const decoder = new TextDecoder();
   let buffer = "";
 
-  while (true) {
-    const { done, value } = await reader.read();
-    buffer += decoder.decode(value, { stream: !done });
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      buffer += decoder.decode(value, { stream: !done });
 
-    const parsed = extractSseMessages(buffer);
-    buffer = parsed.remaining;
-    parsed.messages.forEach(onMessage);
+      const parsed = extractSseMessages(buffer);
+      buffer = parsed.remaining;
+      parsed.messages.forEach(onMessage);
 
-    if (done) {
-      break;
+      if (done) {
+        break;
+      }
     }
-  }
 
-  const lastMessage = parseSseMessage(buffer.trim());
-  if (lastMessage) {
-    onMessage(lastMessage);
+    const lastMessage = parseSseMessage(buffer.trim());
+    if (lastMessage) {
+      onMessage(lastMessage);
+    }
+  } finally {
+    await reader.cancel().catch(() => undefined);
   }
 }
 

@@ -1,3 +1,4 @@
+import asyncio
 from typing import Any
 
 import httpx
@@ -13,6 +14,7 @@ from app.domain.models import Evidence, SearchResult
 from app.ports.source_fetcher import SourceFetcher
 
 logger = structlog.get_logger(__name__)
+MAX_CONCURRENT_SOURCE_FETCHES = 6
 
 
 class HttpSourceFetcher(SourceFetcher):
@@ -41,7 +43,11 @@ class HttpSourceFetcher(SourceFetcher):
             ) as client:
                 response = await self._request(client, url)
 
-        content = _extract_content(response.text, self._max_content_chars)
+        html = response.text
+        content, published_at = await asyncio.gather(
+            _extract_content_async(html, self._max_content_chars),
+            _extract_published_at_async(html),
+        )
         if not content:
             logger.warning("source_fetch_empty_content", url=url)
             raise ExternalProviderError("Source page did not contain extractable text.")
@@ -65,7 +71,7 @@ class HttpSourceFetcher(SourceFetcher):
                 provider_result_count=result.provider_result_count,
                 query=result.query,
                 canonical_url=canonical,
-                published_at=_extract_published_at(response.text),
+                published_at=published_at,
             )
         )
         logger.info(
@@ -103,23 +109,45 @@ class HttpSourceFetcher(SourceFetcher):
 async def fetch_source_pages(
     fetcher: SourceFetcher,
     results: list[SearchResult],
+    max_concurrency: int = MAX_CONCURRENT_SOURCE_FETCHES,
 ) -> tuple[list[Evidence], list[dict[str, Any]]]:
-    evidence: list[Evidence] = []
-    discards: list[dict[str, Any]] = []
-
-    for result in results:
-        try:
-            evidence.append(await fetcher.fetch(result))
-        except ExternalProviderError as exc:
-            discards.append(
-                {
-                    "url": result.url.unicode_string(),
-                    "reason": exc.error_code,
-                    "message": exc.message,
-                }
-            )
-
+    semaphore = asyncio.Semaphore(max(1, max_concurrency))
+    pairs = await asyncio.gather(*[_safe_fetch(fetcher, result, semaphore) for result in results])
+    evidence = [e for e, _ in pairs if e is not None]
+    discards = [d for _, d in pairs if d is not None]
     return evidence, discards
+
+
+async def _safe_fetch(
+    fetcher: SourceFetcher,
+    result: SearchResult,
+    semaphore: asyncio.Semaphore,
+) -> tuple[Evidence | None, dict[str, Any] | None]:
+    url = result.url.unicode_string()
+    async with semaphore:
+        try:
+            return await fetcher.fetch(result), None
+        except ExternalProviderError as exc:
+            return None, {
+                "url": url,
+                "reason": exc.error_code,
+                "message": exc.message,
+            }
+        except Exception as exc:
+            logger.warning("source_fetch_unexpected_error", url=url, error=str(exc))
+            return None, {
+                "url": url,
+                "reason": "unexpected_error",
+                "message": "Could not fetch source page.",
+            }
+
+
+async def _extract_content_async(html: str, max_content_chars: int) -> str:
+    return await asyncio.to_thread(_extract_content, html, max_content_chars)
+
+
+async def _extract_published_at_async(html: str):
+    return await asyncio.to_thread(_extract_published_at, html)
 
 
 def _extract_content(html: str, max_content_chars: int) -> str:

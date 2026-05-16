@@ -9,3 +9,13 @@ export function hostFromUrl(value: string | null): string | null {
     return null;
   }
 }
+
+export function safeExternalUrl(value: string | null | undefined): string | undefined {
+  if (!value) return undefined;
+  try {
+    const { protocol } = new URL(value);
+    return protocol === "https:" || protocol === "http:" ? value : undefined;
+  } catch {
+    return undefined;
+  }
+}

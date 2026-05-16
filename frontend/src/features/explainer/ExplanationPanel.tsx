@@ -40,6 +40,7 @@ export function ExplanationPanel({
             onBlur={() => onFocusSources([])}
             onFocus={() => onFocusSources(bullet.source_ids)}
             onMouseEnter={() => onFocusSources(bullet.source_ids)}
+            onMouseLeave={() => onFocusSources([])}
           >
             <div className="bullet-index">{index + 1}</div>
             <div className="bullet-content">

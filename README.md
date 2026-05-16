@@ -10,11 +10,14 @@ Built as a technical exercise for RapidCanvas. The system takes a public Bluesky
 
 - [What It Does](#what-it-does)
 - [Architecture Overview](#architecture-overview)
+- [Agent Methodology](#agent-methodology)
+- [Source Control and Citation Safety](#source-control-and-citation-safety)
+- [Warnings and Refusal Behavior](#warnings-and-refusal-behavior)
 - [Key Design Decisions](#key-design-decisions)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
 - [Quickstart](#quickstart)
-  - [Backend with Docker](#backend-with-docker)
+  - [Docker](#docker)
   - [Without Docker](#without-docker)
 - [Configuration](#configuration)
 - [Running the Evaluation Harness](#running-the-evaluation-harness)
@@ -22,12 +25,11 @@ Built as a technical exercise for RapidCanvas. The system takes a public Bluesky
 - [Search Providers](#search-providers)
 - [Multi-Provider Comparison](#multi-provider-comparison)
 - [Image Understanding](#image-understanding)
-- [Limitations](#limitations)
 - [What I Would Do With More Time](#what-i-would-do-with-more-time)
 
 ---
 
-![Demonstração da Interface](_Reports/assets/RapidCanvasCase.gif)
+![Interface demo](docs/assets/rapidcanvas-case.gif)
 
 ## What It Does
 
@@ -106,6 +108,82 @@ FastAPI  (Python 3.11 + Uvicorn)
 
 ---
 
+## Agent Methodology
+
+The core design is intentionally more than "LLM + search". The agent is implemented as an auditable LangGraph workflow where each node has a narrow responsibility, typed state, run-level telemetry, and clear failure behavior.
+
+| Node | Role | Guardrail provided |
+|---|---|---|
+| `validate_live_config` | Verifies live-mode dependencies before work starts | Prevents silent fallback when no search provider is configured |
+| `parse_post_url` | Parses only public Bluesky post URLs | Rejects unsupported or malformed URLs before external calls |
+| `fetch_bluesky_post_thread` | Fetches the post, author, parent, quote, replies, links, and images | Normalizes platform-specific data into `PostData` |
+| `analyze_images_optional` | Extracts visible text, visual description, and image type | Adds image context without treating image text as independently confirmed fact |
+| `decompose_queries` | Uses the LLM to create focused web-search queries | Converts informal social text into searchable context anchors |
+| `search_web_context` | Calls Tavily, Brave, or both through composite search | Keeps search provider behavior replaceable and measurable |
+| `fetch_source_pages` | Downloads and parses actual page content | Avoids citing search snippets the model did not really read |
+| `rank_evidence` | Embeds post and source text, then ranks by cosine similarity | Reduces context noise before generation |
+| `generate_explanation` | Produces JSON Schema structured bullets | Enforces predictable fields for citation validation |
+| `validate_citations` | Checks source IDs and claim-source compatibility | Blocks unsupported factual claims and weak citations |
+| `repair_once_if_needed` | Performs one repair pass when citation compatibility fails | Tries to reclassify or rewrite useful context before removal |
+| `finalize_response` | Writes the run artifact and returns the final response | Preserves traceability for observability and analysis |
+
+Live and eval flows are separate graphs. Live mode calls Bluesky and real search providers; eval mode uses fixtures only. They share ranking, generation, citation validation, and repair logic so evaluation exercises the same safety contract as runtime without accidentally depending on live web conditions.
+
+---
+
+## Source Control and Citation Safety
+
+The source pipeline treats relevance and citation suitability as different questions. A page can be topically relevant and still be unsuitable for a specific claim.
+
+1. **Search retrieval:** The system queries Tavily, Brave, or the composite provider.
+2. **Deduplication:** Results are canonicalized, tracking parameters are removed, and duplicates are merged by URL, title, and content hash.
+3. **Real page reading:** Candidate sources are fetched and parsed with `trafilatura`/`BeautifulSoup`. Empty, too-short, or unreadable pages are discarded.
+4. **Source classification:** Evidence receives `source_category` and `source_role`, such as `news_outlet`, `primary_official`, `social_post`, `original_post`, `author_interpretation`, or `background_support`.
+5. **Semantic ranking:** OpenAI embeddings rank candidate evidence against the post context. Sources found by multiple providers receive provider attribution as a convergence signal.
+6. **Claim-source validation:** Each bullet declares a `claim_label`; the validator checks whether the cited source type can support that kind of claim.
+
+The important distinction is:
+
+| Claim type | What it means | Expected citation support |
+|---|---|---|
+| `confirmed_fact` | The bullet states a factual claim as established | Strong web/news/official/court/fact-check evidence |
+| `official_position` | The bullet attributes a position, allegation, or demand to an institution or named actor | Official, primary, court, recognized news, or directly compatible source |
+| `author_interpretation` | The bullet explains how the original author frames or argues something | Original post, thread context, or compatible contextual source |
+| `public_reaction` | The bullet summarizes replies, reactions, or public response | Thread, social, or reaction-oriented evidence |
+
+This prevents social posts, screenshots, or opinion-heavy context from being promoted into factual proof. They can still be useful, but only for the right kind of claim.
+
+---
+
+## Warnings and Refusal Behavior
+
+Warnings are part of the safety contract, not generic errors. They explain where the evidence is weaker, interpretive, or incompatible with a factual claim.
+
+Examples:
+
+- A social post used as the only support for a factual claim triggers a warning.
+- A sensitive factual claim without official, court, fact-checking, or strong news support triggers a warning.
+- An image can support what is visible in the image, but cannot independently confirm the factual truth of the text shown in it.
+- A post that mostly expresses opinion can still produce useful bullets if they are labeled as `author_interpretation` or `public_reaction`.
+
+When validation fails, the system first attempts one repair pass. The repair prompt asks the model to preserve useful context by reclassifying claims, adding compatible citations, or rewriting claims as attributed context. If the repaired output is still incompatible, unsupported bullets are removed. If fewer than 3 valid bullets remain, the API returns:
+
+```json
+{
+  "explanation": [],
+  "warnings": [
+    {
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type."
+    }
+  ]
+}
+```
+
+That empty explanation is an intentional anti-hallucination outcome: the system refuses to provide a neat but unsupported answer.
+
+---
+
 ## Key Design Decisions
 
 ### Platform: Bluesky with a platform-agnostic interface
@@ -126,38 +204,15 @@ The eval mode (`make eval`) uses pre-cached post and evidence fixtures and does 
 
 Both modes share the same ranking, generation, and citation validation components.
 
-### Citation contract with no exceptions
+### Evidence-first generation
 
-Every bullet must cite at least one source. Every cited source ID must exist in the returned sources list. If the evidence cannot support 3–5 bullets, `explanation` returns `[]` — no partial or unsupported bullets.
+The model does not receive raw search results and generate freely. It receives normalized post context, parsed page content, ranked evidence, source categories, and source roles. Generation is followed by citation validation and a single repair pass. The intended behavior is conservative: produce a useful cited explanation when the evidence supports it, or return warnings and `explanation: []` when it does not.
 
-The `CitationValidator` also checks semantic compatibility between claim types and source types:
+### Lightweight internal observability
 
-- A `confirmed_fact` supported only by social media posts gets a `SOCIAL_ONLY_CONFIRMED_FACT` warning.
-- A sensitive factual claim without an official, court, or fact-checking source gets a `SENSITIVE_CLAIM_WITHOUT_STRONG_SOURCE` warning.
-- A `public_reaction` bullet without a thread or social source gets a warning.
+For a fast PoC, the observability layer was kept internal and simple rather than adding heavy infrastructure. Every request receives an `x-trace-id` header. Every live and eval execution generates a run artifact at `backend/runs/{mode}/{run_id}.json` containing inputs, node durations, retrieved sources, discarded sources, ranking decisions, final response, warnings, and citation repair audit data when a repair pass runs.
 
-Bullets that fail these checks are repaired (one LLM retry), then removed if repair fails. If fewer than 3 bullets remain, the system returns `explanation: []` rather than a truncated, unreliable result.
-
-### Source fetching: real page content, not snippets
-
-After search results are returned, the agent downloads and parses the actual HTML of each result page using `trafilatura` and `BeautifulSoup`. Citations point to content the model actually read, not just a search engine summary.
-
-### Embeddings for reranking
-
-OpenAI `text-embedding-3-small` embeddings are computed in memory for the post text and all candidate evidence. Cosine similarity ranks the evidence before it is passed to the generation step. A small boost is applied to sources that appeared in multiple search providers (convergence signal) and sources explicitly linked in the original post.
-
-### Multi-provider search (P2)
-
-Three search modes are supported:
-- `brave`: Brave Search only
-- `tavily`: Tavily only
-- `composite`: both providers in parallel, results merged, deduplicated by canonical URL and content hash
-
-Provider attribution is tracked through the pipeline so run artifacts can report which sources were found by which provider and how many final citations came from evidence independently retrieved by both providers.
-
-### Observability without an external service
-
-Every request receives an `x-trace-id` header. Every live and eval execution generates a run artifact at `backend/runs/{mode}/{run_id}.json` containing inputs, node durations, all retrieved sources, ranking discards, final response, and warnings. API keys and tokens are redacted before persistence. OpenTelemetry spans are emitted per node and can be exported to Jaeger or Grafana Tempo via OTLP if configured.
+The frontend Observability page reads these local artifacts and provides a trace view of the run. The Analysis page aggregates the same artifacts to compare search providers and model stacks. API keys and tokens are redacted before persistence. OpenTelemetry spans are also emitted per node and can be exported via OTLP if a future deployment needs deeper tracing.
 
 ### LangGraph as the orchestrator
 
@@ -212,7 +267,7 @@ contextual-post-explainer/
 
 ## Requirements
 
-- Docker, if you want to run the backend in a container
+- Docker, if you want to run the backend and frontend in containers
 - Python 3.11+ with [`uv`](https://docs.astral.sh/uv/)
 - Node.js 20+
 - `OPENAI_API_KEY`
@@ -222,53 +277,68 @@ contextual-post-explainer/
 
 ## Quickstart
 
-### Backend with Docker
+### Docker
 
 ```bash
 git clone <repo-url>
 cd contextual-post-explainer
 
-cp .env.example .env
+make setup-docker
 # Edit .env and fill in OPENAI_API_KEY and TAVILY_API_KEY (or BRAVE_API_KEY)
-
-docker compose up --build backend
+make up
 ```
 
-This starts only the backend at `http://localhost:8000`. The current `docker-compose.yml` does not include the frontend service.
+This starts both services:
 
-To use the UI with a Dockerized backend, start the frontend locally in a second terminal:
-
-```bash
-cd frontend
-npm install
-cp .env.example .env.local
-npm run dev
+```text
+Frontend: http://localhost:${APP_FRONTEND_PORT:-5173}
+Backend:  http://localhost:${APP_BACKEND_PORT:-8000}
 ```
 
-Open `http://localhost:5173` for the UI.
+The backend container mounts `./backend/runs` into `/app/runs`. Existing run artifacts cloned with the repository are available immediately in Observability and Analysis, and new runs generated inside Docker are written back to the local `backend/runs` folder.
+The Docker setup/start scripts prepare this folder with write permissions for the backend container.
+
+If these ports are already in use, change `APP_FRONTEND_PORT` and `APP_BACKEND_PORT` in `.env` before running `make up`.
 
 ### Without Docker
 
-**Backend:**
+**Local setup and start:**
 
 ```bash
-(cd backend && uv sync)
+make setup-local
+# Edit .env and fill in OPENAI_API_KEY and TAVILY_API_KEY (or BRAVE_API_KEY)
+make up
 ```
 
-**Frontend:**
+This copies missing environment files from the examples and installs backend/frontend dependencies locally.
+
+After either setup path, use the same lifecycle commands:
 
 ```bash
-(cd frontend && npm install && cp .env.example .env.local)
+make up
+make down
 ```
 
-**Run both:**
+`make up` and `make down` read `.run/deploy_mode`, which is written by `make setup-local` or `make setup-docker`, and choose the local or Docker flow automatically.
+
+Service URLs:
+
+```text
+Frontend: http://localhost:${APP_FRONTEND_PORT:-5173}
+Backend:  http://localhost:${APP_BACKEND_PORT:-8000}
+```
+
+Local mode writes process logs to `logs/backend.log` and `logs/frontend.log`, with PIDs under `.run/`. Docker mode uses the normal Compose commands, for example `docker compose logs backend` and `docker compose logs frontend`.
+
+Before running live analysis, edit `.env` and fill in at least `OPENAI_API_KEY`, `SEARCH_PROVIDER`, and the matching provider key. If the default ports are occupied, set `APP_BACKEND_PORT` and `APP_FRONTEND_PORT` before running `make up`.
+
+The examples below use the default ports. If you changed them, use the URLs printed by `make up` or Docker Compose.
+
+Foreground commands are still available for development:
 
 ```bash
-# terminal 1, from the repo root
-make backend-run   # starts FastAPI on :8000
-
-# terminal 2, from the repo root
-make frontend-run  # starts Vite on :5173
+make backend-run
+make frontend-run
 ```
 
 ---
@@ -280,18 +350,20 @@ Copy `.env.example` to `.env` in the repo root and fill in the values.
 ```env
 # Required for all modes
 OPENAI_API_KEY=sk-...
-OPENAI_GENERATION_MODEL=gpt-5.1
-OPENAI_JUDGE_MODEL=gpt-5-mini
+OPENAI_GENERATION_MODEL=gpt-4o
+OPENAI_JUDGE_MODEL=gpt-4o-mini
 OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+OPENAI_VISION_MODEL=gpt-4o
+
+# Host ports used by Docker Compose and local make up
+APP_BACKEND_PORT=8000
+APP_FRONTEND_PORT=5173
 BACKEND_CORS_ORIGINS=["http://localhost:5173","http://127.0.0.1:5173"]
 
 # Required for live mode (pick one or use composite)
 SEARCH_PROVIDER=tavily          # brave | tavily | composite
 TAVILY_API_KEY=tvly-...
 BRAVE_API_KEY=BSA...            # optional if SEARCH_PROVIDER=tavily
-
-# Optional: enables GPT Vision image analysis
-OPENAI_VISION_MODEL=gpt-5.1
 
 # Required for eval mode
 EVAL_FIXTURE_DIR=eval/fixtures
@@ -301,16 +373,16 @@ COMPARISON_GROUP_ID=
 COMPARISON_CONFIG_ID=
 ```
 
-The frontend reads `VITE_API_BASE_URL` from `frontend/.env.local` or `frontend/.env`. Copy `frontend/.env.example` to `frontend/.env.local` for local development. The default value is `http://localhost:8000`.
+The frontend reads `VITE_API_BASE_URL` from `frontend/.env`. Copy `frontend/.env.example` to `frontend/.env` for manual frontend development. The `make up` flow overrides it automatically from `APP_BACKEND_PORT`.
 
-**Recommended defaults for the POC:**
+**Safe evaluator defaults and tested upgrade path:**
 
 | Model | Default | Notes |
 |---|---|---|
-| Generation | `gpt-5.1` | Best reliability on test set (100% completion rate across 23 URLs) |
-| Judge | `gpt-5-mini` | Eval groundedness judge |
+| Generation | `gpt-4o` | Safe baseline for evaluator access. Upgrade to `gpt-5.1` when the key has access. |
+| Judge | `gpt-4o-mini` | Safe baseline. Experiments used `gpt-5-mini` for newer-stack comparison. |
 | Embedding | `text-embedding-3-small` | Larger model tested but showed no product improvement |
-| Image analysis | `gpt-5.1` | Runs as a separate pipeline step only when `OPENAI_VISION_MODEL` is set; same model as generation |
+| Image analysis | `gpt-4o` | Safe baseline. Upgrade to `gpt-5.1` when available. |
 | Search | `tavily` | Highest completion reliability; Brave useful in composite mode |
 
 ---
@@ -342,7 +414,7 @@ Results are written to:
 | `tc08_low_evidence` | Private joke | System returns `[]` instead of inventing |
 | `tc09_recent_event` | Public beta | Recent event with indexed context |
 | `tc10_multi_reference` | Multiple topics | Separate context for each reference |
-| `tc11_groundedness_supported` | P1 groundedness | Bullet-level verification by judge LLM |
+| `tc11_groundedness_supported` | Groundedness | Bullet-level verification by judge LLM |
 | `tc12_image_text_extraction` | Image OCR | Visible text extracted from image context |
 
 **Note:** For many test cases (e.g., `tc08_low_evidence`), the expected and correct outcome is an empty `explanation` array. This demonstrates the system's commitment to its citation contract, refusing to generate claims when evidence is insufficient or unreliable.
@@ -424,7 +496,7 @@ Same request body as `/api/explain`. Returns a Server-Sent Events stream with `p
 
 ### `GET /api/runs` and `GET /api/runs/{run_id}`
 
-List and retrieve run artifacts persisted to `runs/`.
+List and retrieve run artifacts persisted to `backend/runs/`.
 
 ### `GET /api/analysis`
 
@@ -489,7 +561,7 @@ Each run artifact records `comparison_group_id`, `comparison_config_id`, the ful
 
 *Per-completed-run averages. Success rate counts are: Brave 20/23; Composite 21/23; `gpt-5-mini` 1/23 (structural output failures).
 
-**Recommendation after experiments:** Use `SEARCH_PROVIDER=tavily` with `gpt-5.1` as the reliable default. Use `SEARCH_PROVIDER=composite` for deeper analysis when source diversity matters more than maximum completion rate. Do not use `gpt-5-mini` as the generation model until structured-output retry logic is added.
+**Recommendation after experiments:** Use `SEARCH_PROVIDER=tavily` with the safe `gpt-4o` default for broad evaluator compatibility. When the key has access to newer models, `gpt-5.1` is the strongest tested generation/vision option. Use `SEARCH_PROVIDER=composite` for deeper analysis when source diversity matters more than maximum completion rate. Do not use `gpt-5-mini` as the generation model until structured-output retry logic is added.
 
 ---
 
@@ -509,29 +581,18 @@ If `OPENAI_VISION_MODEL` is not set, the pipeline continues without image analys
 
 ---
 
-## Limitations
-
-- **Public posts only.** Auth-gated or deleted content cannot be fetched.
-- **Bluesky only.** The `PostFetcher` interface is designed for extension, but only Bluesky is implemented.
-- **Search quality depends on web coverage.** Very recent events, niche communities, or posts with private context may not yield enough indexed evidence for a full explanation.
-- **Eval fixtures are synthetic.** The 12 eval cases use hand-crafted fixtures. They test the pipeline contract and citation logic, but do not reflect the full distribution of live posts.
-- **`gpt-5-mini` is not production-ready** in the current pipeline. It produced structured output failures on 22/23 URLs in a controlled test. Use `gpt-5.1` until structured-output retry logic and prompt compression are added.
-- **2-day timebox.** Production deployments would add Redis caching for repeated posts and search results, rate limiting, and a human feedback loop for the eval dataset.
-
----
-
 ## What I Would Do With More Time
 
-- **Clean baseline experiment.** Run the `gpt-4o` stack with explicit `comparison_group_id` metadata to establish a properly attributed baseline. Current baseline runs are missing model metadata in their artifacts.
-- **`gpt-5-mini` hardening.** Add structured-output retry, shorter prompt payloads for query decomposition, and token-level cost telemetry before retesting.
-- **Composite search tuning.** The two no-explanation regressions in composite mode come from over-filtering on interpretive posts. Tune the citation validator to allow author-reaction bullets when the original post is the only available safe anchor.
-- **Query planner improvements.** Opinion-heavy posts generate broad queries. Add rules to preserve the specific event or claim anchor when decomposing queries.
-- **Redis caching.** Cache post fetch results and search results by canonical URL to reduce latency and cost on repeated requests.
-- **SSE streaming UX.** Surface per-node progress step labels with estimated remaining time in the frontend loading state.
-- **Bluesky authenticated search.** Enable searching Bluesky for related posts as an additional evidence source, using `BSKY_HANDLE` and `BSKY_APP_PASSWORD` when configured.
-- **Additional PostFetcher adapters.** Reddit (`PRAW`), RSS feeds, and plain article URLs using the same interface the Bluesky adapter implements.
-- **Human-annotated eval dataset.** Replace synthetic fixtures with real posts that have been manually reviewed for factual accuracy, and add annotators for the `must_include_facts` and `must_not_claim` lists.
-- **Cross-encoder reranking.** Replace cosine similarity reranking with a cross-encoder (e.g., Cohere Rerank) for better relevance estimation when evidence volume is high.
+- **Additional social and content adapters.** Extend the `PostFetcher` interface beyond Bluesky to support Mastodon, Reddit, Hacker News, RSS feeds, and public article URLs. The pipeline already receives normalized `PostData`, so new platforms would mainly require adapter work instead of changes to ranking, generation, or citation validation.
+- **Advanced reranking.** The current implementation uses embeddings plus cosine similarity because it is fast, simple, and appropriate for the PoC. With more time, I would evaluate cross-encoder reranking, pairwise reranking, source-quality-aware reranking, and hybrid scoring that combines semantic relevance, source category, publication recency, provider convergence, and citation compatibility.
+- **More robust caching and persistence.** Add Redis or another lightweight cache for repeated post fetches, search results, page extraction, embeddings, and image analysis. This would reduce latency and API cost, especially for repeated evaluation runs and experiments.
+- **Production-grade background processing.** Move long-running analysis jobs to a worker queue so the API can return a job ID immediately, stream progress reliably, and survive process restarts without losing run state.
+- **Expanded evaluation dataset.** Replace the fixture set with a larger human-reviewed dataset of real social posts, including opinion-heavy posts, image-only posts, breaking news, satire, quote-posts, and low-evidence cases.
+- **Human feedback loop.** Add reviewer feedback on bullets, source quality, warning accuracy, and citation compatibility, then feed those judgments back into eval cases, prompt improvements, and ranking experiments.
+- **Cost and latency optimization.** Track token usage, model latency, provider latency, source-fetch latency, and per-node cost in the run artifacts so model/provider choices can be optimized with hard numbers.
+- **Stronger source trust modeling.** Add configurable source reputation rules, domain-level metadata, source freshness policy, and claim-specific evidence requirements without relying on brittle hardcoded domain allowlists.
+- **More advanced citation repair.** Improve repair beyond a single retry by separating reclassification, citation replacement, and bullet rewriting into distinct steps with stricter audit output.
+- **Deployment hardening.** Add managed secrets, rate limiting, request quotas, persistent artifact storage, CI/CD, container image publishing, and environment-specific configuration for staging/production.
 
 ---
 
