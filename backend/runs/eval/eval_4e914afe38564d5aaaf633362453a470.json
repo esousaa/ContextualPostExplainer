@@ -1,0 +1,393 @@
+{
+  "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+  "mode": "eval",
+  "generated_at": "2026-05-16T14:18:24.064426+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T14:18:05.041532+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_eval_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.041605+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_eval_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.041886+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_fixture_post"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.052503+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_fixture_post",
+      "duration_ms": 10
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.053033+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.056210+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence",
+      "duration_ms": 3
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.056657+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.582483+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "rank_evidence",
+      "duration_ms": 525
+    },
+    {
+      "timestamp": "2026-05-16T14:18:05.582980+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:09.245730+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "generate_explanation",
+      "duration_ms": 3662
+    },
+    {
+      "timestamp": "2026-05-16T14:18:09.246188+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:09.246300+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:18:09.246659+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:11.972507+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 2725
+    },
+    {
+      "timestamp": "2026-05-16T14:18:11.972967+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "judge_groundedness"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:24.061566+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "judge_groundedness",
+      "duration_ms": 10024
+    },
+    {
+      "timestamp": "2026-05-16T14:18:24.062016+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "score_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:18:24.062165+00:00",
+      "event": "node_completed",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "score_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:18:24.062487+00:00",
+      "event": "node_started",
+      "run_id": "eval_4e914afe38564d5aaaf633362453a470",
+      "mode": "eval",
+      "node_name": "persist_eval_result"
+    }
+  ],
+  "case_id": "tc05_image_alt",
+  "metrics": {
+    "fact_coverage": 0.5,
+    "citation_coverage": 1.0,
+    "hallucination_penalty": 0.0,
+    "groundedness": 0.833,
+    "usefulness": 3.83
+  },
+  "source_count": 1,
+  "groundedness": [
+    {
+      "bullet_index": 0,
+      "verdict": "supported",
+      "score": 1.0,
+      "reason": "Source s1 explicitly states the dashboard observability includes node duration, run status, warnings, and selected evidence (selected sources), which directly matches the items listed in the bullet.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "bullet_index": 1,
+      "verdict": "supported",
+      "score": 1.0,
+      "reason": "Source s1 explicitly states the dashboard is for observability of agent workflows and lists node duration (timing), run status, warnings, and selected evidence, which directly supports the bullet’s description that the dashboard presents these items to help inspect system behavior.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "bullet_index": 2,
+      "verdict": "partially_supported",
+      "score": 0.5,
+      "reason": "The cited source explicitly describes dashboard observability for agent workflows and lists internal details such as node duration, run status, warnings, and selected evidence—supporting the claim that dashboards expose internal behavior. However, the source does not mention the post, stakeholders, or a product team or state that this aligns with making observability understandable to such stakeholders, so the alignment-with-stakeholders component is not supported by the cited text.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "bullets": [
+      {
+        "text": "The post refers to an observability dashboard that surfaces information such as run status, node duration, warnings, and selected sources, matching the elements described for dashboards in the supporting material.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post itself does not list these specific fields; they are taken from the dashboard description in the background source.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The described dashboard corresponds to common observability practices for agent workflows, where dashboards present node timing, run status, warnings, and selected evidence to make system behavior easier to inspect.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes general observability patterns from the background source rather than characteristics of a specific commercial product.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "According to the background source, observability dashboards for agent workflows are designed to expose internal behavior (like node timing and warnings) in a consolidated view, which aligns with the post’s emphasis on making observability understandable to stakeholders such as a product team.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The connection to product teams comes from the post’s wording; the source only describes what the dashboard shows, not which roles use it.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "warnings": []
+  },
+  "citation_repair_audit": {
+    "attempted": true,
+    "validation_error": "Return a corrected response that removes, reclassifies, or recites bullets so these citation compatibility warnings are resolved: AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST on bullet 2: Author interpretation should be supported by the original post, not by third-party thread context.",
+    "validation_warnings": [
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 2
+      }
+    ],
+    "targeted_bullet_indexes": [
+      2
+    ],
+    "input_bullets": [
+      {
+        "index": 0,
+        "text": "The post refers to an observability dashboard that surfaces information like run status, node duration, warnings, and selected sources in a way that stakeholders (such as a product team) can understand.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The original post does not explicitly list these dashboard fields; they are inferred from the accompanying image description as explained in the source.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The referenced dashboard aligns with common observability practices for agent workflows, where dashboards present node timing, run statuses, warnings, and selected evidence to make system behavior easier to inspect.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet explains general observability concepts that the source describes in connection with dashboards, not specific claims about a commercial product.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The phrase \"observability that a product team can read\" highlights that this kind of dashboard observability is intended to be human-readable and accessible, not just for engineers but also for non-technical stakeholders like product teams.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The emphasis on product-team readability comes from the post’s wording; the source provides context on what the dashboard shows, not on which roles are expected to use it.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "outcome": "repaired",
+    "repaired_bullets": [
+      {
+        "index": 0,
+        "text": "The post refers to an observability dashboard that surfaces information such as run status, node duration, warnings, and selected sources, matching the elements described for dashboards in the supporting material.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post itself does not list these specific fields; they are taken from the dashboard description in the background source.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "The described dashboard corresponds to common observability practices for agent workflows, where dashboards present node timing, run status, warnings, and selected evidence to make system behavior easier to inspect.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes general observability patterns from the background source rather than characteristics of a specific commercial product.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "According to the background source, observability dashboards for agent workflows are designed to expose internal behavior (like node timing and warnings) in a consolidated view, which aligns with the post’s emphasis on making observability understandable to stakeholders such as a product team.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The connection to product teams comes from the post’s wording; the source only describes what the dashboard shows, not which roles use it.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "remaining_validation_warnings": [],
+    "removed_bullets": []
+  }
+}

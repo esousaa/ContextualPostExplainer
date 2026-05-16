@@ -1,0 +1,372 @@
+{
+  "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+  "mode": "eval",
+  "generated_at": "2026-05-16T14:11:09.060689+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T14:10:37.758168+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_eval_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.758234+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_eval_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.758504+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_fixture_post"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.763443+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_fixture_post",
+      "duration_ms": 4
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.763873+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.769445+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence",
+      "duration_ms": 5
+    },
+    {
+      "timestamp": "2026-05-16T14:10:37.769927+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:38.266968+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "rank_evidence",
+      "duration_ms": 497
+    },
+    {
+      "timestamp": "2026-05-16T14:10:38.267380+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:43.111970+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "generate_explanation",
+      "duration_ms": 4844
+    },
+    {
+      "timestamp": "2026-05-16T14:10:43.112423+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:43.112580+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:10:43.112917+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T14:10:45.355634+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 2242
+    },
+    {
+      "timestamp": "2026-05-16T14:10:45.356082+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "judge_groundedness"
+    },
+    {
+      "timestamp": "2026-05-16T14:11:09.057490+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "judge_groundedness",
+      "duration_ms": 21589
+    },
+    {
+      "timestamp": "2026-05-16T14:11:09.057935+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "score_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:11:09.058073+00:00",
+      "event": "node_completed",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "score_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:11:09.058380+00:00",
+      "event": "node_started",
+      "run_id": "eval_cf30dab9dd734268a651a30201bfeee5",
+      "mode": "eval",
+      "node_name": "persist_eval_result"
+    }
+  ],
+  "case_id": "tc04_quote_post",
+  "metrics": {
+    "fact_coverage": 1.0,
+    "citation_coverage": 1.0,
+    "hallucination_penalty": 0.0,
+    "groundedness": 0.833,
+    "usefulness": 4.83
+  },
+  "source_count": 1,
+  "groundedness": [
+    {
+      "bullet_index": 0,
+      "verdict": "supported",
+      "score": 1.0,
+      "reason": "Source s1 explicitly states the quoted post discusses open model releases and notes model availability including weights and evaluation notes (\"eval\"), which directly supports the claim that both model weights and an evaluation card are being made available together.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "bullet_index": 1,
+      "verdict": "supported",
+      "score": 1.0,
+      "reason": "The cited source explicitly states the context is about model availability including weights, evaluation notes, and usage guidance, which directly matches the bullet's description of what the release involves.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "bullet_index": 2,
+      "verdict": "partially_supported",
+      "score": 0.5,
+      "reason": "Source s1 explicitly states the surrounding discussion is about open model releases and lists model availability elements (weights, evaluation notes, usage guidance), which supports the core of the bullet. However, the statement that this \"clarif[ies] why the quoted line emphasizes the joint release\" is an interpretive step not directly asserted in s1, so the claim is only partially supported by the source.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "warnings": [],
+  "explanation": {
+    "bullets": [
+      {
+        "text": "The quoted post is about an open model release in which both the model weights and an evaluation (\"eval\") card are being made available together.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "In this context, the release involves making model weights available so others can use the model, along with evaluation-related documentation (an eval card) that includes evaluation notes and usage guidance.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source mentions evaluation notes and usage guidance but does not define these terms in detail; the description relies partly on common ML terminology.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The background source explains that the surrounding discussion concerns open model availability, including weights plus evaluation notes and usage guidance, clarifying why the quoted line emphasizes the joint release of both the weights and the eval card.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source confirms the joint availability of weights and evaluation notes; it does not itself comment on what is \"interesting\" about the release.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "confidence": "high",
+    "warnings": []
+  },
+  "citation_repair_audit": {
+    "attempted": true,
+    "validation_error": "Return a corrected response that removes, reclassifies, or recites bullets so these citation compatibility warnings are resolved: AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST on bullet 2: Author interpretation should be supported by the original post, not by third-party thread context.",
+    "validation_warnings": [
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 2
+      }
+    ],
+    "targeted_bullet_indexes": [
+      2
+    ],
+    "input_bullets": [
+      {
+        "index": 0,
+        "text": "The quoted post refers to an \"open model\" release in which both the model weights and an evaluation (\"eval\") card are made available together as part of the release package.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 1,
+        "text": "In this context, \"model weights\" means the released parameters of the model that allow others to run or fine-tune it, while the \"eval card\" is documentation summarizing evaluation results and guidance about the model’s behavior and usage.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source mentions evaluation notes and usage guidance but does not define these terms in detail; this explanation relies on standard usage of ML terminology.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The background source explains that the surrounding discussion is about open model availability, including not just the weights but also evaluation notes and usage guidance, which matches the post’s focus on the “interesting part” being that both the weights and the eval card are released together.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source confirms the joint availability of weights and evaluation notes, while the characterization of this as the “interesting part” comes from the post author.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "outcome": "repaired",
+    "repaired_bullets": [
+      {
+        "index": 0,
+        "text": "The quoted post is about an open model release in which both the model weights and an evaluation (\"eval\") card are being made available together.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 1,
+        "text": "In this context, the release involves making model weights available so others can use the model, along with evaluation-related documentation (an eval card) that includes evaluation notes and usage guidance.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source mentions evaluation notes and usage guidance but does not define these terms in detail; the description relies partly on common ML terminology.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "text": "The background source explains that the surrounding discussion concerns open model availability, including weights plus evaluation notes and usage guidance, clarifying why the quoted line emphasizes the joint release of both the weights and the eval card.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The source confirms the joint availability of weights and evaluation notes; it does not itself comment on what is \"interesting\" about the release.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "remaining_validation_warnings": [],
+    "removed_bullets": []
+  }
+}

@@ -17,6 +17,8 @@ from app.ports.groundedness_judge import GroundednessJudge
 logger = structlog.get_logger(__name__)
 
 MAX_SOURCE_CHARS = 5000
+GROUNDEDNESS_MAX_OUTPUT_TOKENS = 1200
+GROUNDEDNESS_MAX_ATTEMPTS = 2
 
 
 class OpenAIGroundednessJudge(GroundednessJudge):
@@ -44,34 +46,7 @@ class OpenAIGroundednessJudge(GroundednessJudge):
             },
             "cited_sources": [_source_payload(source) for source in cited_sources],
         }
-        try:
-            response = await self._client.responses.create(
-                model=self._judge_model,
-                instructions=load_prompt("groundedness_judge"),
-                input=json.dumps(payload, ensure_ascii=False),
-                text={
-                    "format": {
-                        "type": "json_schema",
-                        "name": "groundedness_judge",
-                        "schema": GroundednessJudgeOutput.model_json_schema(),
-                        "strict": True,
-                    }
-                },
-                max_output_tokens=600,
-            )
-        except OpenAIError as exc:
-            logger.error("groundedness_judge_failed", error=redact_text(str(exc)))
-            raise ExternalProviderError("OpenAI groundedness judge failed.") from exc
-
-        output_text = getattr(response, "output_text", None)
-        if not isinstance(output_text, str) or not output_text.strip():
-            raise ExternalProviderError("OpenAI returned an empty groundedness assessment.")
-
-        try:
-            parsed = GroundednessJudgeOutput.model_validate_json(output_text)
-        except ValidationError as exc:
-            logger.error("groundedness_judge_schema_failed", error=redact_text(str(exc)))
-            raise ExternalProviderError("OpenAI returned invalid groundedness output.") from exc
+        parsed = await self._request_groundedness(payload)
 
         return GroundednessAssessment(
             bullet_index=bullet_index,
@@ -80,6 +55,57 @@ class OpenAIGroundednessJudge(GroundednessJudge):
             reason=parsed.reason,
             source_ids=bullet.source_ids,
         )
+
+    async def _request_groundedness(self, payload: dict[str, Any]) -> GroundednessJudgeOutput:
+        last_error: ValidationError | None = None
+
+        for attempt in range(1, GROUNDEDNESS_MAX_ATTEMPTS + 1):
+            try:
+                response = await self._client.responses.create(
+                    model=self._judge_model,
+                    instructions=load_prompt("groundedness_judge"),
+                    input=json.dumps(payload, ensure_ascii=False),
+                    text={
+                        "format": {
+                            "type": "json_schema",
+                            "name": "groundedness_judge",
+                            "schema": GroundednessJudgeOutput.model_json_schema(),
+                            "strict": True,
+                        }
+                    },
+                    max_output_tokens=GROUNDEDNESS_MAX_OUTPUT_TOKENS,
+                )
+            except OpenAIError as exc:
+                logger.error("groundedness_judge_failed", error=redact_text(str(exc)))
+                raise ExternalProviderError("OpenAI groundedness judge failed.") from exc
+
+            output_text = getattr(response, "output_text", None)
+            if not isinstance(output_text, str) or not output_text.strip():
+                logger.warning(
+                    "groundedness_judge_empty_output",
+                    attempt=attempt,
+                    max_attempts=GROUNDEDNESS_MAX_ATTEMPTS,
+                )
+                continue
+
+            try:
+                return GroundednessJudgeOutput.model_validate_json(output_text)
+            except ValidationError as exc:
+                last_error = exc
+                logger.warning(
+                    "groundedness_judge_schema_retry",
+                    attempt=attempt,
+                    max_attempts=GROUNDEDNESS_MAX_ATTEMPTS,
+                    error=redact_text(str(exc)),
+                )
+
+        if last_error is not None:
+            logger.error("groundedness_judge_schema_failed", error=redact_text(str(last_error)))
+            raise ExternalProviderError(
+                "OpenAI returned invalid groundedness output."
+            ) from last_error
+
+        raise ExternalProviderError("OpenAI returned an empty groundedness assessment.")
 
 
 def _source_payload(source: Evidence) -> dict[str, Any]:
@@ -92,4 +118,3 @@ def _source_payload(source: Evidence) -> dict[str, Any]:
         "source_role": source.source_role,
         "content": source.content[:MAX_SOURCE_CHARS],
     }
-

@@ -1,0 +1,495 @@
+{
+  "run_id": "eval_e253eca6db134480854e2336a93ff647",
+  "mode": "eval",
+  "generated_at": "2026-05-16T14:12:51.362569+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T14:12:22.627302+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_eval_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.627373+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_eval_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.627657+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_fixture_post"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.638083+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_fixture_post",
+      "duration_ms": 10
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.638547+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.642160+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "load_fixture_evidence",
+      "duration_ms": 3
+    },
+    {
+      "timestamp": "2026-05-16T14:12:22.642585+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:23.357723+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "rank_evidence",
+      "duration_ms": 715
+    },
+    {
+      "timestamp": "2026-05-16T14:12:23.358181+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:26.049411+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "generate_explanation",
+      "duration_ms": 2691
+    },
+    {
+      "timestamp": "2026-05-16T14:12:26.049901+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:26.050021+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:12:26.050339+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:29.169194+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 3118
+    },
+    {
+      "timestamp": "2026-05-16T14:12:29.169613+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "judge_groundedness"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:51.358439+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "judge_groundedness",
+      "duration_ms": 19968
+    },
+    {
+      "timestamp": "2026-05-16T14:12:51.358923+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "score_case"
+    },
+    {
+      "timestamp": "2026-05-16T14:12:51.359073+00:00",
+      "event": "node_completed",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "score_case",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T14:12:51.359422+00:00",
+      "event": "node_started",
+      "run_id": "eval_e253eca6db134480854e2336a93ff647",
+      "mode": "eval",
+      "node_name": "persist_eval_result"
+    }
+  ],
+  "case_id": "tc10_multi_reference",
+  "metrics": {
+    "fact_coverage": 0.5,
+    "citation_coverage": 1.0,
+    "hallucination_penalty": 0.0,
+    "groundedness": 0.667,
+    "usefulness": 3.67
+  },
+  "source_count": 2,
+  "groundedness": [
+    {
+      "bullet_index": 0,
+      "verdict": "partially_supported",
+      "score": 0.5,
+      "reason": "The source explicitly references design systems, reusable interface components, tokens, and governance (rules), which supports the first part of the bullet. However, the source text does not explicitly state that product teams use these systems to build consistent user experiences more efficiently, so that specific application and benefit are not directly supported by the cited content.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "bullet_index": 1,
+      "verdict": "partially_supported",
+      "score": 0.5,
+      "reason": "The cited source explicitly states that agent tooling \"can plan, execute, validate, and report repeated engineering tasks,\" which matches most of the bullet. However, the source does not explicitly state that this work \"automates work that would otherwise be manually repeated.\" That implication is reasonable but not directly present in the quoted source text, so the claim is only partially supported.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "bullet_index": 2,
+      "verdict": "supported",
+      "score": 1.0,
+      "reason": "s1 describes design systems as reusable components with governance and explicitly notes combining design systems with agent tooling; s2 describes agent tooling as automating planning, execution, validation, and reporting of repeated engineering tasks. Together these sources directly support the conclusion that applying both can make routine implementation work more scalable and structured.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type. Reasons: author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "explanation": {
+    "bullets": [
+      {
+        "text": "In the background material, design systems are described as collections of reusable interface components, tokens, and rules that product teams use to build consistent user experiences more efficiently.",
+        "source_ids": [
+          "s1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The background source on agent tooling characterizes it as software that can plan, execute, validate, and report on repeated engineering tasks, automating work that would otherwise be manually repeated.",
+        "source_ids": [
+          "s2"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Because design systems emphasize reusable, governed components and agent tooling focuses on automating repeated implementation and review tasks, the background sources together suggest a context in which routine implementation work can become more scalable and structured when these ideas are applied.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet synthesizes how the two background concepts might relate; the sources describe each separately and do not explicitly address their combination.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type. Reasons: author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ]
+  },
+  "citation_repair_audit": {
+    "attempted": true,
+    "validation_error": "Return a corrected response that removes, reclassifies, or recites bullets so these citation compatibility warnings are resolved: AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST on bullet 0: Author interpretation should be supported by the original post, not by third-party thread context. | AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST on bullet 3: Author interpretation should be supported by the original post, not by third-party thread context.",
+    "validation_warnings": [
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 0
+      },
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 3
+      }
+    ],
+    "targeted_bullet_indexes": [
+      0,
+      3
+    ],
+    "input_bullets": [
+      {
+        "index": 0,
+        "text": "In this post, the author is expressing an opinion that combining “design systems” with “agent tooling” makes traditionally tedious work (“the boring parts”) more practically valuable or impactful, rather than merely routine busywork.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Interpretive paraphrase of the post’s wording; the sources only provide definitions of the terms, not the author’s value judgment.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Design systems are described in the background source as collections of reusable interface components, tokens, and rules that product teams use to build consistent user experiences more efficiently.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 2,
+        "text": "Agent tooling is characterized in the background material as software that can plan, execute, validate, and report on repeated engineering tasks, effectively automating work that would otherwise be manually repeated.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s2"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 3,
+        "text": "Taken together, the sources suggest that pairing reusable design-system components with automation-focused agent tooling could make repetitive implementation and review tasks around interface consistency more useful and scalable, which aligns with the author’s suggestion that this is where “the boring parts get useful.”",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet infers how the two concepts might interact; the sources describe each concept separately and do not explicitly discuss their combination.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "outcome": "hardened",
+    "repaired_bullets": [
+      {
+        "index": 0,
+        "text": "The post links the concept of “design systems” with “agent tooling,” implying that when these two are combined, repetitive or routine work (“the boring parts”) can become more practically useful or impactful.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet paraphrases the post’s wording using only general context about design systems; the background source does not explicitly discuss the author’s value judgment or agent tooling.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "text": "In the background material, design systems are described as collections of reusable interface components, tokens, and rules that product teams use to build consistent user experiences more efficiently.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 2,
+        "text": "The background source on agent tooling characterizes it as software that can plan, execute, validate, and report on repeated engineering tasks, automating work that would otherwise be manually repeated.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s2"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 3,
+        "text": "Because design systems emphasize reusable, governed components and agent tooling focuses on automating repeated implementation and review tasks, the background sources together suggest a context in which routine implementation work can become more scalable and structured when these ideas are applied.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet synthesizes how the two background concepts might relate; the sources describe each separately and do not explicitly address their combination.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "remaining_critical_warnings": [
+      {
+        "severity": "warning",
+        "code": "AUTHOR_INTERPRETATION_WITHOUT_ORIGINAL_POST",
+        "message": "Author interpretation should be supported by the original post, not by third-party thread context.",
+        "bullet_index": 0
+      }
+    ],
+    "removed_bullets": [
+      {
+        "index": 0,
+        "text": "The post links the concept of “design systems” with “agent tooling,” implying that when these two are combined, repetitive or routine work (“the boring parts”) can become more practically useful or impactful.",
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet paraphrases the post’s wording using only general context about design systems; the background source does not explicitly discuss the author’s value judgment or agent tooling.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "final_bullets": [
+      {
+        "index": 0,
+        "text": "In the background material, design systems are described as collections of reusable interface components, tokens, and rules that product teams use to build consistent user experiences more efficiently.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 1,
+        "text": "The background source on agent tooling characterizes it as software that can plan, execute, validate, and report on repeated engineering tasks, automating work that would otherwise be manually repeated.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s2"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "index": 2,
+        "text": "Because design systems emphasize reusable, governed components and agent tooling focuses on automating repeated implementation and review tasks, the background sources together suggest a context in which routine implementation work can become more scalable and structured when these ideas are applied.",
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "source_ids": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet synthesizes how the two background concepts might relate; the sources describe each separately and do not explicitly address their combination.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "final_validation_warnings": []
+  }
+}

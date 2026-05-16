@@ -1,191 +1,321 @@
 {
   "dataset": "../eval/dataset.yaml",
-  "generated_at": "2026-05-15T20:09:34.626428+00:00",
-  "case_count": 11,
+  "generated_at": "2026-05-16T14:20:11.025557+00:00",
+  "case_count": 12,
   "averages": {
-    "fact_coverage": 0.182,
+    "fact_coverage": 0.792,
     "citation_coverage": 1.0,
     "hallucination_penalty": 0.0,
-    "groundedness": 0.833,
-    "usefulness": 2.757
+    "groundedness": 0.818,
+    "usefulness": 4.249
   },
   "cases": [
     {
       "id": "tc01_public_launch",
       "description": "Post sobre lançamento público de produto",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 1.0,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 1.0,
+        "usefulness": 5.0
       },
-      "bullet_count": 0,
-      "confidence": "medium",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "Insufficient sources to substantiate additional claims beyond the post announcement.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source explicitly states the post references a public launch and that the launch introduced a hosted canvas workflow for teams, which directly supports the claim that “Rapid Canvas” has launched and its hosted canvas workflow is publicly available.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source text explicitly states the launch introduced a hosted canvas workflow for teams that want to create, review, and iterate on visual work in one place, which matches the bullet exactly.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source states the post references a public launch and that the launch introduced a hosted canvas workflow. That directly supports linking the social phrasing “Rapid Canvas is live today” to the feature being publicly released.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc02_thread_reply",
       "description": "Reply que depende do contexto do thread",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 1.0,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.5,
+        "usefulness": 4.5
       },
-      "bullet_count": 0,
+      "bullet_count": 3,
       "confidence": "high",
-      "warnings": [
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "Insufficient sources to meet the requirement of 3 to 5 supported contextual bullets.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly says the reply concerns a benchmark that measured reliability on repeated coding tasks, which supports the core of the bullet. However, the source does not explicitly state that the benchmark did not emphasize speed or latency, so the contrasting phrase “rather than emphasizing speed or latency” is not directly supported by the cited text.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source states the benchmark context and that the comparison measured reliability on repeated coding tasks, which supports the core claim about the main comparison metric. However, the source does not explicitly say that this context is what would lead a participant to say the benchmark result 'matters'—that is an interpretation not directly stated—so the bullet is only partially supported.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly states the benchmark measured reliability on repeated coding tasks, which supports that part of the bullet. However, the source only notes that a reply responds to the benchmark discussion; it does not state that the reply emphasized the significance of the benchmark outcome over latency/speed. Therefore the claim of alignment with the reply’s specific focus is not fully supported by the cited text.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc03_external_link",
       "description": "Post com link externo",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 1.0,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.667,
+        "usefulness": 4.67
       },
-      "bullet_count": 0,
+      "bullet_count": 3,
       "confidence": "high",
       "warnings": [],
-      "groundedness": [],
+      "groundedness": [
+        {
+          "bullet_index": 0,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly says the linked article discusses retrieval-augmented generation and points readers to an external article about gathering context via a search tool and citing fetched sources, which aligns with recommending a RAG-related article. However, the source does not explicitly state an emphasis on approaches that avoid building a persistent vector database; that specific claim is implied but not directly supported by the cited text.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly says the article points to gathering context through a search tool and citing fetched sources (supporting the ‘gathers context at query time via live search’ part). It does not mention or state that this is done instead of using a long‑lived vector database of embeddings, so the contrast is not supported by the cited text.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source explicitly says the article discusses retrieval-augmented generation and points to gathering context via a search tool and citing fetched sources, which directly aligns with the bullet’s claim that the system fetches documents on demand and generates answers that cite those sources.",
+          "source_ids": [
+            "s1"
+          ]
+        }
+      ],
       "source_count": 1
     },
     {
       "id": "tc04_quote_post",
       "description": "Quote-post com referência técnica",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 0.5,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 1.0,
+        "usefulness": 4.0
       },
-      "bullet_count": 0,
-      "confidence": "medium",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "The provided source does not offer sufficient detailed support for the claims.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source states the quoted post is about open model releases and explicitly mentions model availability including weights and evaluation notes (usage guidance). This directly supports the claim that the post refers to making model weights and an associated evaluation/'eval' card available as part of an open model release.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states the context is about open model releases and mentions model availability including weights, evaluation notes, and usage guidance, which directly supports the claim that an \"eval card\" accompanies released model weights to provide evaluation notes and usage guidance.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states the context is about model availability, including weights and evaluation notes (evaluation card) and that the quoted post discusses open model releases—supporting the claim that the release centers on making model weights and an eval card available and that the original post highlights this as the interesting aspect.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc05_image_alt",
       "description": "Post com imagem e alt text",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 0.5,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.833,
+        "usefulness": 3.83
       },
-      "bullet_count": 0,
-      "confidence": "low",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "Insufficient evidence to generate a reliable explanation.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states the dashboard observability includes node duration, run status, warnings, and selected evidence (selected sources), which directly matches the items listed in the bullet.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "The generated explanation failed citation validation after repair.",
-          "bullet_index": null
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states the dashboard is for observability of agent workflows and lists node duration (timing), run status, warnings, and selected evidence, which directly supports the bullet’s description that the dashboard presents these items to help inspect system behavior.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "No explanatory bullets were generated to avoid unsupported claims.",
-          "bullet_index": null
+          "bullet_index": 2,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The cited source explicitly describes dashboard observability for agent workflows and lists internal details such as node duration, run status, warnings, and selected evidence—supporting the claim that dashboards expose internal behavior. However, the source does not mention the post, stakeholders, or a product team or state that this aligns with making observability understandable to such stakeholders, so the alignment-with-stakeholders component is not supported by the cited text.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc06_ambiguous_reference",
       "description": "Referência ambígua que exige contexto",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 0.5,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.833,
+        "usefulness": 3.83
       },
-      "bullet_count": 0,
+      "bullet_count": 3,
       "confidence": "high",
-      "warnings": [
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "The provided sources are insufficient to fully interpret the metaphor used in the post.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source explicitly states that a \"release train\" in this context is a recurring schedule for shipping software changes, which matches the bullet's claim about deployment planning.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states the reference can mean a software release train and explains that a release train is a recurring schedule for shipping/deployment planning, which directly supports the bullet’s reading.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "Source s1 explicitly states a release train is a recurring schedule for shipping software changes, which supports the first part of the bullet, but it does not mention or justify the specific metaphor of someone overseeing that schedule being a “conductor.” The metaphorical explanation is an inference not directly stated in the cited text.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc07_factual_claim",
       "description": "Afirmação factual com fonte pública",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 0.5,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.667,
+        "usefulness": 3.67
       },
-      "bullet_count": 0,
-      "confidence": "low",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "Insufficient evidence to generate a reliable explanation.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly explains that rate limits are used to protect shared service capacity and to prevent bursts from affecting other users, which directly supports the bullet’s statement that limits exist so one user’s traffic cannot degrade performance for others.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "The generated explanation failed citation validation after repair.",
-          "bullet_index": null
+          "bullet_index": 1,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly states that limits are used to protect shared service capacity and prevent bursts from affecting other users, which matches the second part of the bullet. However, the quoted source text only says it “lists current rate limit behavior” and does not explicitly state the definitional phrasing that rate limits “define how much traffic is allowed over a period”; that specific wording/temporal detail is implied but not directly present in the cited content.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "No explanatory bullets were generated to avoid unsupported claims.",
-          "bullet_index": null
+          "bullet_index": 2,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "Source s1 explicitly states that rate limits are used to protect shared service capacity and prevent bursts from affecting other users, which supports the key-rationale portion of the bullet. However, s1 contains no information about the content of the post, so the assertion that \"both the post and the source describe\" this rationale is not supported by the cited source.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
@@ -221,63 +351,157 @@
       "id": "tc09_recent_event",
       "description": "Evento recente com contexto público",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 1.0,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.833,
+        "usefulness": 4.83
       },
-      "bullet_count": 0,
-      "confidence": "low",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "Insufficient evidence to generate a reliable explanation.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source directly states the event is a public beta and mentions a first public testing week (supporting the ‘public beta’ and ‘first public testing phase’ parts), but it does not specify that the beta ‘begins this week.’ The bullet’s explicit timing (‘this week’) is not present in the cited text.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "The generated explanation failed citation validation after repair.",
-          "bullet_index": null
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source text explicitly states the event is a public beta and describes a beta timeline that includes a first public testing week and a planned feedback review after the initial rollout; this directly supports the bullet’s claim and its implication that feedback is expected during that period.",
+          "source_ids": [
+            "s1"
+          ]
         },
         {
-          "severity": "warning",
-          "code": "GENERAL_WARNING",
-          "message": "No explanatory bullets were generated to avoid unsupported claims.",
-          "bullet_index": null
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source explicitly calls the event a public beta, describes a first public testing week, and notes a planned feedback review after the initial rollout. Those statements directly support that the project is entering its first public testing phase and that user feedback will be collected and reviewed.",
+          "source_ids": [
+            "s1"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 1
     },
     {
       "id": "tc10_multi_reference",
       "description": "Post com múltiplas referências",
       "metrics": {
-        "fact_coverage": 0.0,
+        "fact_coverage": 0.5,
         "citation_coverage": 1.0,
         "hallucination_penalty": 0.0,
-        "groundedness": null,
-        "usefulness": 2.5
+        "groundedness": 0.833,
+        "usefulness": 3.83
       },
-      "bullet_count": 0,
-      "confidence": "low",
-      "warnings": [
+      "bullet_count": 3,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
         {
-          "severity": "warning",
-          "code": "CRITICAL_BULLETS_REMOVED",
-          "message": "Unsupported bullets were removed because they failed citation compatibility checks.",
-          "bullet_index": null
+          "bullet_index": 0,
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The cited source explicitly references design systems, reusable interface components, tokens, and governance, which supports the core of the bullet. However, the source summary does not explicitly state that these elements provide \"rules or guidelines\" (it uses the term governance) or that they specifically make UIs \"consistent and easier to maintain for product teams.\" Those implications are reasonable but not directly stated in the provided source text.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source text explicitly states that agent tooling is software that can plan, execute, validate, and report repeated engineering tasks, which directly matches the bullet’s description. The bullet’s additional phrasing about automating parts of a development workflow is a natural and supported implication of those capabilities.",
+          "source_ids": [
+            "s2"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 describes design systems as reusable components and s2 describes agent tooling as automating repeated engineering tasks; both note the post combines those topics. That combination directly supports the inferred reading that ‘boring parts’ could become ‘useful’ by pairing reusable components with automation, and the sources imply rather than explicitly state the interaction, matching the bullet’s caveat.",
+          "source_ids": [
+            "s1",
+            "s2"
+          ]
         }
       ],
-      "groundedness": [],
       "source_count": 2
     },
     {
       "id": "tc11_groundedness_supported",
       "description": "Caso P1 com evidência suficiente para groundedness",
+      "metrics": {
+        "fact_coverage": 1.0,
+        "citation_coverage": 1.0,
+        "hallucination_penalty": 0.0,
+        "groundedness": 1.0,
+        "usefulness": 5.0
+      },
+      "bullet_count": 5,
+      "confidence": "high",
+      "warnings": [],
+      "groundedness": [
+        {
+          "bullet_index": 0,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The cited source explicitly states that the announcement describes Rapid Canvas as a public beta for contextual social post explanation, directly matching the bullet's claim.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 1,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source text explicitly states that the beta accepts a public post URL as input, extracts the post context, and then searches for supporting public sources before producing explanatory bullets.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 2,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Source s1 explicitly states: 'The output is designed as three to five explanatory bullets with source citations,' which directly matches the bullet’s claim.",
+          "source_ids": [
+            "s1"
+          ]
+        },
+        {
+          "bullet_index": 3,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "Both sources directly state that the beta produces evaluation reports and enumerate the metrics. s1 says the evaluation report records citation coverage and groundedness so reviewers can inspect bullets against cited sources. s2 lists metrics including citation coverage and P1 groundedness and notes groundedness is assessed per bullet and persisted in local eval artifacts, which supports the claim and its alignment with the post’s statement that eval reports are visible.",
+          "source_ids": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "bullet_index": 4,
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source states the eval flow uses local fixtures instead of live web tools and lists metrics including fact coverage, hallucination penalty, usefulness, and P1 groundedness. It also says groundedness is assessed per bullet against the cited source text and persisted in local eval artifacts, directly supporting the bullet.",
+          "source_ids": [
+            "s2"
+          ]
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "id": "tc12_image_text_extraction",
+      "description": "Caso P1 com texto extraído de imagem",
       "metrics": {
         "fact_coverage": 1.0,
         "citation_coverage": 1.0,
@@ -291,33 +515,33 @@
       "groundedness": [
         {
           "bullet_index": 0,
-          "verdict": "supported",
-          "score": 1.0,
-          "reason": "The cited source describes the Rapid Canvas public beta's functionality, confirming the inclusion of post URL ingestion, cited bullet generation, and evaluation reporting, which aligns with the bullet's claims.",
+          "verdict": "partially_supported",
+          "score": 0.5,
+          "reason": "The source explicitly states that the screenshot says the launch checklist is complete, which supports that component of the bullet. However, the source does not mention a social post text or that any social post matches the evaluation notes, so the claim that the social post text matches the evaluation notes is not directly supported.",
           "source_ids": [
             "s1"
           ]
         },
         {
           "bullet_index": 1,
-          "verdict": "partially_supported",
-          "score": 0.5,
-          "reason": "The source mentions that the evaluation flow of Rapid Canvas includes metrics like fact coverage, citation coverage, and groundedness, which supports the general idea of the bullet. However, it does not explicitly distinguish these metrics from live search functionalities, which slightly undermines the specificity of the bullet's claim.",
+          "verdict": "supported",
+          "score": 1.0,
+          "reason": "The source explicitly states that the screenshot says the launch checklist is complete and that the visible text mentions “post ingestion, image OCR, and cited bullets,” so the bullet’s wording is directly supported by the cited text.",
           "source_ids": [
-            "s2"
+            "s1"
           ]
         },
         {
           "bullet_index": 2,
           "verdict": "supported",
           "score": 1.0,
-          "reason": "The cited source explicitly states that the evaluation report records citation coverage and groundedness, allowing reviewers to verify that generated bullets are supported by cited sources, which directly aligns with the bullet's claim.",
+          "reason": "Source s1 explicitly states the evaluation verifies that OCR text and image description can support contextual bullets without treating the image as proof that the feature (launch checklist items) is deployed in production, which directly supports the bullet's claim.",
           "source_ids": [
             "s1"
           ]
         }
       ],
-      "source_count": 2
+      "source_count": 1
     }
   ]
 }
