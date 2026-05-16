@@ -4,6 +4,7 @@ from uuid import uuid4
 import structlog
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.responses import RedirectResponse
 from structlog.contextvars import bind_contextvars, clear_contextvars
 
 from app.api.errors import register_error_handlers
@@ -26,6 +27,10 @@ def create_app() -> FastAPI:
     app.include_router(router)
     _configure_cors(app)
     configure_tracing(app)
+
+    @app.get("/", include_in_schema=False)
+    async def redirect_to_docs() -> RedirectResponse:
+        return RedirectResponse(url="/docs")
 
     @app.middleware("http")
     async def bind_trace_id(request: Request, call_next):

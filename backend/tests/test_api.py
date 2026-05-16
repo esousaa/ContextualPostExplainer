@@ -68,6 +68,13 @@ class FailingLiveExplanationService:
         )
 
 
+def test_root_redirects_to_openapi_docs(client: TestClient) -> None:
+    response = client.get("/", follow_redirects=False)
+
+    assert response.status_code == 307
+    assert response.headers["location"] == "/docs"
+
+
 def test_health_does_not_require_runtime_configuration(client: TestClient) -> None:
     response = client.get("/api/health")
 
