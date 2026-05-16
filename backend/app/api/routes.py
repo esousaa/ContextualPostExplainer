@@ -1,17 +1,19 @@
 import asyncio
 import json
 from datetime import UTC, datetime
-from typing import Any
+from typing import Any, Literal
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel, Field
 from starlette.responses import StreamingResponse
 
+from app.analysis.run_analysis import AnalysisOverview, LocalAnalysisStore
 from app.api.dependencies import get_live_explanation_service
 from app.application.live_explanation_service import LiveExplanationService
-from app.config import get_settings
+from app.config import Settings, get_settings
 from app.domain.errors import DomainError
 from app.domain.models import ExplanationResponse
+from app.observability.run_store import LocalRunStore, RunDetail, RunSummary
 
 STREAM_DONE = object()
 HEARTBEAT_INTERVAL_SECONDS = 5.0
@@ -23,6 +25,10 @@ LIVE_SERVICE_DEPENDENCY = Depends(get_live_explanation_service)
 class ExplainRequest(BaseModel):
     url: str = Field(min_length=1)
     include_debug: bool = False
+
+
+class RunListResponse(BaseModel):
+    runs: list[RunSummary]
 
 
 @router.get("/health")
@@ -145,12 +151,55 @@ async def explain_stream(
     )
 
 
+@router.get("/runs", response_model=RunListResponse)
+async def list_runs(
+    mode: Literal["live", "eval"] = "live",
+    limit: int = Query(default=50, ge=1, le=200),
+) -> RunListResponse:
+    return RunListResponse(runs=LocalRunStore().list_runs(mode=mode, limit=limit))
+
+
+@router.get("/runs/{run_id}", response_model=RunDetail)
+async def get_run(
+    run_id: str,
+    mode: Literal["live", "eval"] = "live",
+) -> RunDetail:
+    detail = LocalRunStore().get_run(run_id=run_id, mode=mode)
+    if detail is None:
+        raise HTTPException(status_code=404, detail="Run not found")
+    return detail
+
+
+@router.get("/analysis", response_model=AnalysisOverview)
+async def get_analysis_overview(
+    limit: int = Query(default=200, ge=1, le=500),
+) -> AnalysisOverview:
+    return LocalAnalysisStore(default_config=_analysis_default_config()).overview(limit=limit)
+
+
 def _live_search_is_configured(settings: Any) -> bool:
     try:
         settings.require_live_search_provider()
     except Exception:
         return False
     return True
+
+
+def _analysis_default_config() -> dict[str, str | None]:
+    try:
+        settings = get_settings()
+    except Exception:
+        return {}
+    return _settings_config(settings)
+
+
+def _settings_config(settings: Settings) -> dict[str, str | None]:
+    return {
+        "openai_generation_model": settings.openai_generation_model,
+        "openai_judge_model": settings.openai_judge_model,
+        "openai_embedding_model": settings.openai_embedding_model,
+        "openai_vision_model": settings.openai_vision_model,
+    }
 
 
 def _format_sse(event_name: str, payload: Any) -> str:

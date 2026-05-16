@@ -1,0 +1,572 @@
+{
+  "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:31:31.014951+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:31:06.164964+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:06.165057+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:06.165417+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:06.165512+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:06.165839+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:07.484234+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1318
+    },
+    {
+      "timestamp": "2026-05-16T02:31:07.484809+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:10.374046+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 2889
+    },
+    {
+      "timestamp": "2026-05-16T02:31:10.374555+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:12.219239+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1844
+    },
+    {
+      "timestamp": "2026-05-16T02:31:12.219775+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:17.118883+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 4356
+    },
+    {
+      "timestamp": "2026-05-16T02:31:17.119424+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:27.086081+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9966
+    },
+    {
+      "timestamp": "2026-05-16T02:31:27.086713+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:27.732740+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 645
+    },
+    {
+      "timestamp": "2026-05-16T02:31:27.733256+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.007759+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3274
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.008300+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.008386+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.008715+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.008772+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.009030+00:00",
+      "event": "node_started",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:31.009117+00:00",
+      "event": "node_completed",
+      "run_id": "run_8b7a6a1eb5954972a8bb73486821f60d",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"If cats could text you back they would not\" meme origin",
+    "meaning of #caturday hashtag on social media",
+    "psychology of cat behavior ignoring owners texts jokes meme",
+    "history of cat memes about texting or replying to messages"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 17,
+    "search_results_by_provider": {
+      "brave": 17
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://new-savanna.blogspot.com/2026/05/if-cats-could-text-you-back-they-would.html",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DICs7GcqWXi/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.pennlive.com/news/2022/01/what-is-caturday-and-why-is-it-trending-on-social-media-welcome-to-the-greatest-holiday-on-the-internets.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://idioms.thefreedictionary.com/%23caturday",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://medium.com/@alee232/the-science-of-laughter-why-we-cant-resist-cat-memes-2ac2b02bc354",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.pinterest.com/ideas/cat-behavior-humor/961198837172/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_0b15caa62efb",
+        "title": "Popular Saturday Hashtags for Instagram & Social Media - Hashtag Picker",
+        "url": "https://hashtagpicker.com/saturday#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_6e9631a45fb1",
+        "title": "Celebrating Caturday: The Most Purrfect Day of the Week! - Inkopious",
+        "url": "https://inkopious.com/blogs/articles/celebrating-caturday#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_a093de9f1d3e",
+        "title": "What is Caturday - Britain's cat lovers rush to social media to share pics of their cats | Express.co.uk",
+        "url": "https://www.express.co.uk/life-style/life/1320363/caturday-what-is-caturday-international-cat-day-2020#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_8c59f443095f",
+        "title": "The Case AGAINST Ignoring Bad Behavior • Feline Engineering",
+        "url": "https://felineengineering.com/blog/the-case-against-ignoring-bad-behavior/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_f4e157b16b92",
+        "title": "100 Funniest Cat Memes Ever (Especially if You Love Cats)",
+        "url": "https://bestlifeonline.com/funniest-cat-memes-ever/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_dd9c8320751a",
+        "title": "129 Cat Jokes That’ll Have You Clawing For More | Bored Panda",
+        "url": "https://www.boredpanda.com/funny-cat-memes-pictures/#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @cats-are-evil.bsky.social",
+      "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+      "snippet": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+      "content": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8538365338012058
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @cats-are-evil.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:gachswit6caz2ad2ljkgsgg6/bafkreiafwjwxgnlprooii5zcis2p7fueq6pjpkxnfy7u6vqjkmjfociwfy",
+      "snippet": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominen",
+      "content": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominently displayed in the background is a signboard with changeable letters bearing a joke about cats not texting back.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7753829558635158
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @cats-are-evil.bsky.social",
+      "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+      "snippet": "#caturday #cats",
+      "content": "#caturday #cats",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.4624328443557463
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @cats-are-evil.bsky.social",
+      "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+      "snippet": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+      "content": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8538365338012058
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @cats-are-evil.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:gachswit6caz2ad2ljkgsgg6/bafkreiafwjwxgnlprooii5zcis2p7fueq6pjpkxnfy7u6vqjkmjfociwfy",
+      "snippet": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominen",
+      "content": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominently displayed in the background is a signboard with changeable letters bearing a joke about cats not texting back.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7753829558635158
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @cats-are-evil.bsky.social",
+      "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+      "snippet": "#caturday #cats",
+      "content": "#caturday #cats",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "cats-are-evil.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.4624328443557463
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "cats-are-evil.bsky.social",
+        "display_name": "Irrefutable proof cats are evil",
+        "did": "did:plc:gachswit6caz2ad2ljkgsgg6"
+      },
+      "text": "#caturday #cats",
+      "created_at": "2026-05-15T05:11:48.725000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:gachswit6caz2ad2ljkgsgg6/bafkreiafwjwxgnlprooii5zcis2p7fueq6pjpkxnfy7u6vqjkmjfociwfy",
+          "alt_text": null,
+          "ocr_text": "IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT",
+          "description": "Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominently displayed in the background is a signboard with changeable letters bearing a joke about cats not texting back.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect."
+    },
+    "explanation": [
+      {
+        "text": "The post is a lighthearted #caturday entry featuring a meme image of a bored-looking cat with a sign that jokes, “IF CATS COULD TEXT YOU BACK THEY WOULD NOT,” playing on the stereotype that cats are aloof and unresponsive to humans.",
+        "source_ids": [
+          "thread_original",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Interpretation of humor and intent is inferred from the meme format and text.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The surrounding thread extends the joke by imagining how cats would behave if they could text: users suggest cats would send only photos of empty food bowls, demand breakfast by text to avoid waiting for cans to be opened, and raise playful questions like why someone is texting cats or how they got the cats’ numbers.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Exact speaker identities for each line in the thread are not specified in the snippet, but all lines are treated as contributions in the same humorous conversation.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Together, the meme and thread reinforce a common internet trope that cats are demanding about food yet indifferent to human communication, using texting as a modern analogy for cats’ supposed aloof personalities.",
+        "source_ids": [
+          "thread_original",
+          "thread_context",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This synthesizes the post and replies into a broader interpretation of cat stereotypes; it is not a factual claim about animal behavior.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @cats-are-evil.bsky.social",
+        "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+        "snippet": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+        "content": "they would also learn to snap pics and every text you do get would be a pic of an empty food bowl\n\nCat-a-log?\n\nMine would text me to have his breakfast served. That way, he wouldn't have to wait for me to open the can.\n\nWhy are you texting cats? How did you even get their numbers?\n\nCorrect.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "cats-are-evil.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @cats-are-evil.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:gachswit6caz2ad2ljkgsgg6/bafkreiafwjwxgnlprooii5zcis2p7fueq6pjpkxnfy7u6vqjkmjfociwfy",
+        "snippet": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominen",
+        "content": "Image type: meme\nVisible text: IF CATS COULD\nTEXT YOU BACK\nTHEY\nWOULD NOT\nVisual description: Humorous image showing a large close-up of a cat with a bored or unimpressed expression in the foreground. Behind the cat is an outdoor park or amusement area with benches, flowers, and a carousel. Prominently displayed in the background is a signboard with changeable letters bearing a joke about cats not texting back.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "cats-are-evil.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @cats-are-evil.bsky.social",
+        "url": "https://bsky.app/profile/cats-are-evil.bsky.social/post/3mlukzzu75s24",
+        "snippet": "#caturday #cats",
+        "content": "#caturday #cats",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "cats-are-evil.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 24302
+  }
+}

@@ -1,0 +1,625 @@
+{
+  "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:45:18.588519+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:44:45.963279+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:45.963377+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:44:45.963736+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:45.963817+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:44:45.964140+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:47.012775+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1048
+    },
+    {
+      "timestamp": "2026-05-16T01:44:47.013352+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:51.796054+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 4292
+    },
+    {
+      "timestamp": "2026-05-16T01:44:51.796825+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:53.480689+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1683
+    },
+    {
+      "timestamp": "2026-05-16T01:44:53.481239+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:59.730624+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6249
+    },
+    {
+      "timestamp": "2026-05-16T01:44:59.731173+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:09.240594+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9509
+    },
+    {
+      "timestamp": "2026-05-16T01:45:09.241275+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:09.794393+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 553
+    },
+    {
+      "timestamp": "2026-05-16T01:45:09.794934+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.577903+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8782
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.578603+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.578755+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.579156+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.579225+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.579524+00:00",
+      "event": "node_started",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.579620+00:00",
+      "event": "node_completed",
+      "run_id": "run_740574f25f6a437b9842ae1eb033e465",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Politico \"No idea it was coming\" Pentagon officials stunned by Hegseth decision on troops in Poland",
+    "Senator Mark Kelly criticism of President and Pete Hegseth over security in Europe emboldening Vladimir Putin",
+    "Pete Hegseth decision not to send U.S. troops on routine mission to Poland NATO reaction",
+    "\"model ally\" Poland Pentagon routine mission canceled Hegseth Russia context"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.abc15.com/news/local-news/senator-mark-kelly-discusses-war-in-ukraine-calls-for-hegseth-to-be-fired",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.youtube.com/watch?v=y2RqHrWo8Os"
+      },
+      {
+        "id": "https://www.politico.com/news/2026/05/14/poland-pentagon-hegseth-troop-withdrawl-surprise-00922169",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.yahoo.com/news/articles/hegseth-again-stuns-pentagon-poland-210535105.html"
+      },
+      {
+        "id": "https://www.politico.com/news/2026/05/14/poland-pentagon-hegseth-troop-withdrawl-surprise-00922169",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.yahoo.com/news/articles/hegseth-again-stuns-pentagon-poland-210535105.html"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/RockawayPrimetimeReporting/posts/breaking-no-idea-it-was-coming-pentagon-officials-stunned-by-hegseth-decision-on/1593896136073778/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@capricornsky_/post/DYWQB2ojY0T/no-idea-it-was-coming-pentagon-officials-stunned-by-hegseth-decisiont-to-send/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://english.nv.ua/nation/hegseth-s-canceled-poland-deployment-shocks-pentagon-and-european-allies-50608189.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.msn.com/en-us/news/politics/sen-kelly-responds-to-hegseth-s-latest-threat-he-doesn-t-want-to-be-held-accountable/vi-AA22WTcB",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/clashreport/status/2055168666677793022",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_bd3fc6faa3d1",
+        "title": "Pentagon officials stunned by Hegseth decision on troops in Poland",
+        "url": "https://www.yahoo.com/news/articles/hegseth-again-stuns-pentagon-poland-210535105.html#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_0e664744ff62",
+        "title": "Pentagon surprised by Hegseth's decision to cancel deployment of US troops to Poland - Politico | УНН",
+        "url": "https://unn.ua/en/news/pentagon-surprised-by-hegseths-decision-to-cancel-deployment-of-us-troops-to-poland-politico#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_13452fff85fa",
+        "title": "Senator Mark Kelly discusses war in Ukraine, calls for Hegseth to be ...",
+        "url": "https://www.youtube.com/watch?v=y2RqHrWo8Os#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_cbb78d1d92d6",
+        "title": "Does Putin's Success Put European Countries At Risk? - YouTube",
+        "url": "https://www.youtube.com/watch?v=YpCUz8Mj65o#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_b54e43d47a2c",
+        "title": "US cannot guarantee security of Europe, says Pete Hegseth",
+        "url": "https://www.youtube.com/watch?v=rGcn3pEp4Lc#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_07f5738f01e0",
+        "title": "Pentagon officials were completely shocked by Defense Secretary Pete Hegseth's unexpected decision to withdraw troops from Poland. The sudden move raises massive questions about Eastern European security strategy and internal defense communications. \n\nRead more on our Website! \n\n#Pentagon #PeteHegseth #USMilitary #Poland #DefenseNews | The New York Editorial",
+        "url": "https://www.facebook.com/nyeditorialus/videos/pentagon-officials-were-completely-shocked-by-defense-secretary-pete-hegseths-un/1699778381192413/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_732164379ca2",
+        "title": "Pentagon ‘blindsided’ as Hegseth scraps deployment of 4,000 US troops to Poland - AOL",
+        "url": "https://www.aol.com/articles/pentagon-blindsided-hegseth-scraps-deployment-091546000.html#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @drrenemd.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:qm2genmzhr3uymuwrsk3dj2j/bafkreigyed3j2525yi5lqj45kyfql7gc7n7mzwm3cvqbwcyyhuxr4ukjxe",
+      "snippet": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National",
+      "content": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National Security Daily Global Security newsletter\n\n‘No idea it was coming’: Pentagon\nofficials stunned by Hegseth decision\non troops in Poland\nIt wasn’t clear why the Defense secretary issued the order not\nto send troops on a routine mission to a country the\nadministration refers to as a “model ally.”\nVisual description: The image is a screenshot of a social media post attributed to someone labeled as Senator Mark Kelly. The post criticizes the President and Pete Hegseth for not being committed to security in Europe and for emboldening Vladimir Putin, saying they repeatedly cower to Russia. Below this text, the screenshot includes a cropped view of a POLITICO article displayed on a mobile device, showing the outlet’s red logo and navigation bar, and a headline about Pentagon officials being surprised by a decision from Hegseth regarding troops in Poland, along with the beginning of the article text.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8882148787991465
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @drrenemd.bsky.social",
+      "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+      "snippet": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running ",
+      "content": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running the WH.\n\nThey will build stronger internal alliances, make better new weapons with the new battlefield techs emerging as America drowns itself in self sabotage.\n\nHegseth the \"warfighter\" is Hegseth the \"saboteur,\" doing Putin's bidding in weakening NATO's ability to defend its members.\n\nPoland can handle Russia,,Americans are pussies,traitors and can't be trusted, I want someone watching my back,I would never trust an America, uk citizen,\nYou came into world war 2,because of the money, your government didn't care how many died,same as Vietnam,",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7405883368119685
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @drrenemd.bsky.social",
+      "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+      "snippet": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+      "content": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5822307716968975
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @drrenemd.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:qm2genmzhr3uymuwrsk3dj2j/bafkreigyed3j2525yi5lqj45kyfql7gc7n7mzwm3cvqbwcyyhuxr4ukjxe",
+      "snippet": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National",
+      "content": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National Security Daily Global Security newsletter\n\n‘No idea it was coming’: Pentagon\nofficials stunned by Hegseth decision\non troops in Poland\nIt wasn’t clear why the Defense secretary issued the order not\nto send troops on a routine mission to a country the\nadministration refers to as a “model ally.”\nVisual description: The image is a screenshot of a social media post attributed to someone labeled as Senator Mark Kelly. The post criticizes the President and Pete Hegseth for not being committed to security in Europe and for emboldening Vladimir Putin, saying they repeatedly cower to Russia. Below this text, the screenshot includes a cropped view of a POLITICO article displayed on a mobile device, showing the outlet’s red logo and navigation bar, and a headline about Pentagon officials being surprised by a decision from Hegseth regarding troops in Poland, along with the beginning of the article text.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8882148787991465
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @drrenemd.bsky.social",
+      "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+      "snippet": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running ",
+      "content": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running the WH.\n\nThey will build stronger internal alliances, make better new weapons with the new battlefield techs emerging as America drowns itself in self sabotage.\n\nHegseth the \"warfighter\" is Hegseth the \"saboteur,\" doing Putin's bidding in weakening NATO's ability to defend its members.\n\nPoland can handle Russia,,Americans are pussies,traitors and can't be trusted, I want someone watching my back,I would never trust an America, uk citizen,\nYou came into world war 2,because of the money, your government didn't care how many died,same as Vietnam,",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7405883368119685
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @drrenemd.bsky.social",
+      "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+      "snippet": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+      "content": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "drrenemd.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5822307716968975
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+      "platform": "bluesky",
+      "author": {
+        "handle": "drrenemd.bsky.social",
+        "display_name": "Dr. René MD 🇺🇸🩺",
+        "did": "did:plc:qm2genmzhr3uymuwrsk3dj2j"
+      },
+      "text": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+      "created_at": "2026-05-15T15:42:13.043000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:qm2genmzhr3uymuwrsk3dj2j/bafkreigyed3j2525yi5lqj45kyfql7gc7n7mzwm3cvqbwcyyhuxr4ukjxe",
+          "alt_text": null,
+          "ocr_text": "Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National Security Daily Global Security newsletter\n\n‘No idea it was coming’: Pentagon\nofficials stunned by Hegseth decision\non troops in Poland\nIt wasn’t clear why the Defense secretary issued the order not\nto send troops on a routine mission to a country the\nadministration refers to as a “model ally.”",
+          "description": "The image is a screenshot of a social media post attributed to someone labeled as Senator Mark Kelly. The post criticizes the President and Pete Hegseth for not being committed to security in Europe and for emboldening Vladimir Putin, saying they repeatedly cower to Russia. Below this text, the screenshot includes a cropped view of a POLITICO article displayed on a mobile device, showing the outlet’s red logo and navigation bar, and a headline about Pentagon officials being surprised by a decision from Hegseth regarding troops in Poland, along with the beginning of the article text.",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running the WH.\n\nThey will build stronger internal alliances, make better new weapons with the new battlefield techs emerging as America drowns itself in self sabotage.\n\nHegseth the \"warfighter\" is Hegseth the \"saboteur,\" doing Putin's bidding in weakening NATO's ability to defend its members.\n\nPoland can handle Russia,,Americans are pussies,traitors and can't be trusted, I want someone watching my back,I would never trust an America, uk citizen,\nYou came into world war 2,because of the money, your government didn't care how many died,same as Vietnam,"
+    },
+    "explanation": [
+      {
+        "text": "The post’s author replies to a message attributed to a senator by asserting that a person they call “Piggy” is a “low class Russian stooge,” and saying there is “no doubting this,” presenting it as their own emphatic opinion rather than a documented fact.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The identity of “Piggy” is not specified in the provided sources, and no independent evidence is given to substantiate the accusation that this person is a “Russian stooge.”",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The screenshot included in the post displays a social media message labeled as coming from Senator Mark Kelly, criticizing the President and Pete Hegseth for allegedly not being committed to security in Europe, claiming their actions make the United States less safe and embolden Vladimir Putin, and saying that they “cower to Russia.”",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This description is based solely on the text visible in the screenshot; the authenticity of the depicted account and post cannot be independently verified from the provided sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the same screenshot, a cropped Politico item is visible with a headline indicating that Pentagon officials were surprised by a decision by Pete Hegseth regarding troops in Poland, and the excerpt notes that it was unclear why the defense secretary ordered that troops not be sent on a routine mission to Poland, which the administration describes as a “model ally.”",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Only a partial view of the Politico article is available in the screenshot, so the full context, timing, and details of Hegseth’s decision and the Pentagon’s reaction are not provided.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the surrounding thread text, the author portrays Pete Hegseth as a “saboteur” who is “doing Putin’s bidding” and weakening NATO’s ability to defend its members, extending their criticism beyond the original short post into a broader political argument about NATO and Russia.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These statements reflect the author’s opinions and attributions of motive; the sources do not include independent corroboration of the claims about Hegseth’s intentions or the actual impact on NATO.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread context also links current disputes over U.S. and NATO policy toward Russia to historical references—such as Nazi Germany’s actions toward Polish children and U.S. involvement in World War II and the Vietnam War—to argue that American and UK governments are untrustworthy and driven by money rather than concern for casualties.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are argumentative comparisons and value judgments by the thread author; the historical claims and causal interpretations are not examined or verified by additional sources here.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @drrenemd.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:qm2genmzhr3uymuwrsk3dj2j/bafkreigyed3j2525yi5lqj45kyfql7gc7n7mzwm3cvqbwcyyhuxr4ukjxe",
+        "snippet": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National",
+        "content": "Image type: screenshot\nVisible text: Senator Mark Kelly @… · 1h\nOnce again the President and Pete\nHegseth show that they are not\ncommitted to security in Europe. Actions\nlike this make us less safe and embolden\nVladimir Putin. At every turn the two of\nthem cower to Russia.\n\nPOLITICO\nDefense National Security Daily Global Security newsletter\n\n‘No idea it was coming’: Pentagon\nofficials stunned by Hegseth decision\non troops in Poland\nIt wasn’t clear why the Defense secretary issued the order not\nto send troops on a routine mission to a country the\nadministration refers to as a “model ally.”\nVisual description: The image is a screenshot of a social media post attributed to someone labeled as Senator Mark Kelly. The post criticizes the President and Pete Hegseth for not being committed to security in Europe and for emboldening Vladimir Putin, saying they repeatedly cower to Russia. Below this text, the screenshot includes a cropped view of a POLITICO article displayed on a mobile device, showing the outlet’s red logo and navigation bar, and a headline about Pentagon officials being surprised by a decision from Hegseth regarding troops in Poland, along with the beginning of the article text.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "drrenemd.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @drrenemd.bsky.social",
+        "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+        "snippet": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running ",
+        "content": "The Reich wasn’t Allie’s with Poland- but they did steal their children for breeding purposes -lebensborn\n\n5150 (thank you California) 47 and get it done quickly. Then, and maybe then, the sane generals will arrest Hegseth and send him packing.\n\nNATO is better off without the DUMP CLOWN CAR running the WH.\n\nThey will build stronger internal alliances, make better new weapons with the new battlefield techs emerging as America drowns itself in self sabotage.\n\nHegseth the \"warfighter\" is Hegseth the \"saboteur,\" doing Putin's bidding in weakening NATO's ability to defend its members.\n\nPoland can handle Russia,,Americans are pussies,traitors and can't be trusted, I want someone watching my back,I would never trust an America, uk citizen,\nYou came into world war 2,because of the money, your government didn't care how many died,same as Vietnam,",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "drrenemd.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @drrenemd.bsky.social",
+        "url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+        "snippet": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+        "content": "There's no doubting this, Senator.\n\nPiggy is a low class Russian stooge.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "drrenemd.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [],
+    "execution_time_ms": 32126
+  }
+}

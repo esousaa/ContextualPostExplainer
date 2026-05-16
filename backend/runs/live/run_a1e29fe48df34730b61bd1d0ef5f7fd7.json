@@ -1,0 +1,629 @@
+{
+  "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:45:43.075670+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:45:18.734718+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.734846+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.735287+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.735385+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:18.735766+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:20.510162+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1283
+    },
+    {
+      "timestamp": "2026-05-16T01:45:20.510767+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:20.510845+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:20.511225+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:22.206036+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1694
+    },
+    {
+      "timestamp": "2026-05-16T01:45:22.206667+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:27.350397+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5143
+    },
+    {
+      "timestamp": "2026-05-16T01:45:27.350969+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:33.749768+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6398
+    },
+    {
+      "timestamp": "2026-05-16T01:45:33.750394+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:34.344273+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 593
+    },
+    {
+      "timestamp": "2026-05-16T01:45:34.344891+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.068529+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8723
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.069231+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.069394+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.069828+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.069895+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.070251+00:00",
+      "event": "node_started",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:45:43.070386+00:00",
+      "event": "node_completed",
+      "run_id": "run_a1e29fe48df34730b61bd1d0ef5f7fd7",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack",
+    "Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+    "Clarence Thomas financial disclosures gifts controversies 2023 2024 ProPublica",
+    "Supreme Court justices ethics rules financial conflicts firms with cases before the court"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/snopes/posts/a-substack-post-claimed-chief-justice-john-roberts-and-his-wife-had-taken-20-mil/1375114894652562/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://cmarmitage.substack.com/p/the-chief-justice-and-his-wife-took",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://cmarmitage.substack.com/p/fact-checking-snopes",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://mitchthelawyer.substack.com/p/the-twenty-million-dollar-secret",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/OccupyDemocrats/posts/breaking-chief-justice-john-roberts-hit-with-surprise-disbarment-complaint-over-/1499849435579959/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://ifp.nyu.edu/2026/news/the-chief-justice-and-his-wife-took-20-million-from-firms-he-rules-on-im-filing-for-his-disbarment-today/",
+        "reason": "external_provider_error",
+        "message": "Could not fetch source page."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_c8a04931cf73",
+        "title": "Wife of Chief Justice Roberts generated $10M in commissions in this job, whistleblower says",
+        "url": "https://www.abajournal.com/news/article/wife-of-chief-justice-roberts-generated-10m-in-commissions-in-this-job-whistleblower-says#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_63a849480a95",
+        "title": "Jane Roberts, who is married to Chief Justice John Roberts, made ...",
+        "url": "https://democracyreform-democrats-cha.house.gov/newsroom/in-the-news/jane-roberts-who-married-chief-justice-john-roberts-made-103-million#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_c7ee6aef09b2",
+        "title": "Clarence Thomas' 2023 Financial Disclosure - News Apps",
+        "url": "https://projects.propublica.org/supreme-connections/justices/clarence-thomas/2023/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_8322d92db711",
+        "title": "Clarence Thomas' 2024 Financial Disclosure - News Apps",
+        "url": "https://projects.propublica.org/supreme-connections/justices/clarence-thomas/2024/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_6d0a623dff11",
+        "title": "Clarence Thomas Acknowledges He Should Have Disclosed Free Trips From Harlan Crow — ProPublica",
+        "url": "https://www.propublica.org/article/clarence-thomas-gift-disclosures-harlan-crow#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8367037574280576
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7458276927012593
+    },
+    {
+      "id": "src_0d1b79a3a330",
+      "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+      "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+      "snippet": "* The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. * The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. * Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his wife, Jane Roberts, had taken $20 million from law firms with business before the Supreme Court.",
+      "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack",
+          "Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+          "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+      "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+      "published_at": "2026-05-01T00:00:00",
+      "publisher": "snopes.com",
+      "source_category": "fact_checking",
+      "source_role": "independent_context",
+      "relevance_score": 0.6184370368207457
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8367037574280576
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7458276927012593
+    },
+    {
+      "id": "src_0d1b79a3a330",
+      "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+      "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+      "snippet": "* The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. * The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. * Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his wife, Jane Roberts, had taken $20 million from law firms with business before the Supreme Court.",
+      "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack",
+          "Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+          "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+      "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+      "published_at": "2026-05-01T00:00:00",
+      "publisher": "snopes.com",
+      "source_category": "fact_checking",
+      "source_role": "independent_context",
+      "relevance_score": 0.6184370368207457
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "econanalytica.bsky.social",
+        "display_name": "Econ Analytica",
+        "did": "did:plc:6nkz2fo4vmtumpljkoqy6l54"
+      },
+      "text": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "created_at": "2026-05-15T14:23:00.011000Z",
+      "images": [],
+      "links": [
+        "https://cmarmitage.substack.com/p/the-chief-justice-and-his-wife-took?triedRedirect=true"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?"
+    },
+    "explanation": [
+      {
+        "text": "The post asserts that U.S. Chief Justice John Roberts and his wife “took 20 million dollars from firms with cases in front of the court,” but Snopes reports that this figure originates from an allegation in a Substack headline by journalist Christopher Armitage and that the underlying financial details are not independently confirmed, so the specific $20 million claim remains unverified.",
+        "source_ids": [
+          "thread_original",
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Snopes notes there is insufficient verifiable information to confirm that more than $20 million was actually earned from firms with business before the Supreme Court.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Snopes states that Armitage’s allegation relies in part on a 2022 whistleblower report claiming that Jane Roberts earned about $10.3 million in commissions from elite law firms between 2007 and 2014 while working as a legal recruiter, and that Armitage then estimated further commissions through 2022 to suggest a total above $20 million.",
+        "source_ids": [
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post‑2014 earnings are described by Snopes as Armitage’s estimates rather than independently documented, verified figures.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "According to Snopes, while Armitage’s headline and many social media posts claimed that both John and Jane Roberts “took money” from law firms he ruled on, the body of Armitage’s article instead focused on an allegation that John Roberts mischaracterized his wife’s income as salary rather than commission on required disclosure forms.",
+        "source_ids": [
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Snopes highlights a difference between the broad implication in the headline and social posts and the narrower disclosure‑form allegation in the article text.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Snopes concludes that it is misleading to say both John and Jane Roberts were “taking money” from law firms, emphasizing that only Jane Roberts earned commissions in her role as a legal recruiter and that existing disclosures do not show how much of her income, if any, came from firms with business before the Supreme Court, so the overall $20 million claim cannot be rated.",
+        "source_ids": [
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Because the amounts and which clients, if any, had Supreme Court business cannot be determined from public records, Snopes declines to issue a truth rating on the $20 million allegation.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The language in the original post and accompanying thread describing the Supreme Court as “Supremely Corrupt,” using the hashtag “#SCOTUSisCorrupt,” and calling the justices “CRIMINALS” reflects the author’s strong negative opinion of Chief Justice Roberts and the Court rather than any adjudicated finding of corruption or crime.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are expressions of outrage and moral judgment by the post’s author, not legal determinations or verified findings of criminal conduct.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @econanalytica.bsky.social",
+        "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+        "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+        "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "econanalytica.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @econanalytica.bsky.social",
+        "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+        "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+        "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "econanalytica.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_0d1b79a3a330",
+        "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+        "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+        "snippet": "* The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. * The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. * Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his wife, Jane Roberts, had taken $20 million from law firms with business before the Supreme Court.",
+        "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack",
+            "Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+            "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"The Chief Justice and his wife took 20 million dollars\" Armitage Substack | Chief Justice John Roberts wife payments law firms 20 million ethics investigation",
+        "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+        "published_at": "2026-05-01T00:00:00",
+        "publisher": "snopes.com",
+        "source_category": "fact_checking",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 23845
+  }
+}

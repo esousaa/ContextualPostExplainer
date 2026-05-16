@@ -1,0 +1,164 @@
+{
+  "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:25:26.828519+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:24:17.740675+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:17.740818+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:24:17.741258+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:17.741374+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:24:17.741879+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:18.982478+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1240
+    },
+    {
+      "timestamp": "2026-05-16T03:24:18.983067+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:31.118098+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 11386
+    },
+    {
+      "timestamp": "2026-05-16T03:24:31.118702+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:39.590673+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 8471
+    },
+    {
+      "timestamp": "2026-05-16T03:24:39.591220+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T03:24:46.369947+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6778
+    },
+    {
+      "timestamp": "2026-05-16T03:24:46.370504+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:08.643029+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 21522
+    },
+    {
+      "timestamp": "2026-05-16T03:25:08.643617+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:09.113449+00:00",
+      "event": "node_completed",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 469
+    },
+    {
+      "timestamp": "2026-05-16T03:25:09.113990+00:00",
+      "event": "node_started",
+      "run_id": "run_ddac9bf7595a460d8e04582bebfb67a3",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+  "status": "failed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5-mini",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_mini_large_embedding_eval",
+  "comparison_config_id": "newer_mini_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5-mini",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_mini_large_embedding_eval",
+    "comparison_config_id": "newer_mini_large_embedding"
+  },
+  "queries": [],
+  "metrics": {},
+  "warnings": [],
+  "error": {
+    "error": "external_provider_error",
+    "message": "OpenAI returned an empty response.",
+    "status": 502
+  }
+}

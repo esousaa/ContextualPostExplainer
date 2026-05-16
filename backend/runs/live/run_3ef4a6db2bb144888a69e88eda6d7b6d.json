@@ -1,0 +1,891 @@
+{
+  "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:44:08.901978+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:43:24.889162+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:24.889330+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:43:24.889747+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:24.889847+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:43:24.890354+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:26.099953+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1209
+    },
+    {
+      "timestamp": "2026-05-16T01:43:26.100688+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:39.323261+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 13222
+    },
+    {
+      "timestamp": "2026-05-16T01:43:39.323937+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:41.169075+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1845
+    },
+    {
+      "timestamp": "2026-05-16T01:43:41.169596+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:43:49.170052+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7507
+    },
+    {
+      "timestamp": "2026-05-16T01:43:49.170682+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:01.805855+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 12635
+    },
+    {
+      "timestamp": "2026-05-16T01:44:01.806769+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:03.485208+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1678
+    },
+    {
+      "timestamp": "2026-05-16T01:44:03.485742+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.895131+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5409
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.895706+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.895871+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.896232+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.896290+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.896572+00:00",
+      "event": "node_started",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:44:08.896686+00:00",
+      "event": "node_completed",
+      "run_id": "run_3ef4a6db2bb144888a69e88eda6d7b6d",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+    "\"Free Speech Systems\" bankruptcy appeal standing Fifth Circuit order October 2025 automatic stay does not apply to FSS",
+    "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026",
+    "Texas federal court dismissal of Alex Jones appeal over InfoWars receivership May 2026 detailed order"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.msn.com/en-us/news/us/alex-jones-asks-houston-judge-to-block-hearing-that-could-hand-infowars-to-the-onion/ar-AA226QjR?ocid=TobArticle&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.courtlistener.com/docket/71932190/jones/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_78a1a6ad3a28",
+        "title": "Fifth Circuit Temporarily Stays Order Vacating Revised HSR Rules | Covington & Burling LLP",
+        "url": "https://www.cov.com/en/news-and-insights/insights/2026/02/fifth-circuit-temporarily-stays-order-vacating-revised-hsr-rules#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_7cd1e4b87517",
+        "title": "Fifth Circuit Denies Stay — Parties May Immediately Revert to Pre ...",
+        "url": "https://www.jdsupra.com/legalnews/fifth-circuit-denies-stay-parties-may-4272138/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_ff1d07176127",
+        "title": "Fifth Circuit Denies FTC Motion to Stay Order Vacating Revised HSR Rules | Covington & Burling LLP",
+        "url": "https://www.cov.com/en/news-and-insights/insights/2026/03/fifth-circuit-denies-ftc-motion-to-stay-order-vacating-revised-hsr-rules#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_ca89539c95ce",
+        "title": "Fifth Circuit Denies FTC’s Stay Request: HSR Filings Revert to Pre-2025 Requirements | Thought Leadership | March 2026 | Baker Botts",
+        "url": "https://www.bakerbotts.com/thought-leadership/publications/2026/march/fifth-circuit-denies-ftcs-stay-request-hsr-filings-revert-to-pre-2025-requirements#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_f28ae736915e",
+        "title": "Federal District Court Vacates Genesis Healthcare Bankruptcy Court Ord – Stretto",
+        "url": "https://chapter11cases.com/blogs/news/federal-district-court-vacates-genesis-healthcare-bankruptcy-court-order-extending-automatic-stay-to-non-debtor-defendants?srsltid=AfmBOopuihuzbkWGqsdqFMFZmJJ7RMLDl49q64Gws8S4C5VlbRClTpgG#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "tavily": 5
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @bencollins.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:x4qyokjtdzgl7gmqhsw4ajqj/bafkreih5z2bbrfxaaenhyzmxdcycnpdhp4tgrftuyqnakjlldts6t4n254",
+      "snippet": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply t",
+      "content": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\nThe motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\nThe October 2025 order remains operative. Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\nSIGNED on May 15, 2026, at Houston, Texas.\n ________________________________\n Lee H. Rosenthal\n Senior United States District Judg\nVisible text: III.      Conclusion\n\n          The court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\n\n          The motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\n\n          The October 2025 order remains operative.  Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\n\n          SIGNED on May 15, 2026, at Houston, Texas.\n\n\n\n\n                                         Lee H. Rosenthal\n                                         Senior United States District Judge\nVisual description: A cropped image of a formal court document showing the \"III. Conclusion\" section. It consists of several paragraphs of typed legal text explaining that the court finds no appellant has standing to appeal a specific October 2025 order related to a bankruptcy case, dismisses the appeal for lack of jurisdiction, grants a motion for leave to file a corrected reply, denies a motion to strike as moot, and states that the October 2025 order remains in effect but may be stayed pending further appeal. At the bottom is a date and location line indicating the document was signed on May 15, 2026, followed by a handwritten signature and the typed name and title of a senior United States district judge.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "bencollins.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8920487929622019
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @bencollins.bsky.social",
+      "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+      "snippet": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+      "content": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "bencollins.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7746149277513884
+    },
+    {
+      "id": "src_1a64c039724a",
+      "title": "Alex Jones asks Houston judge to revive Infowars bankruptcy case",
+      "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php#",
+      "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts.",
+      "content": "With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. The judge effectively ended the bankruptcy case in February. Advertisement Article continues below this ad Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy after those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of his assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Advertisement Article continues below this ad Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones’ equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones’ lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said assets owned by Free Speech Systems, which is Infowars’ parent, should be sold at auction, an idea Lopez rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. “Initially, the bankruptcy court did try to authorize the trustee to sell it,” Kyle Kimpler said. “Later, the bankruptcy court realized it shouldn’t have done that.” Advertisement Article continues below this ad Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. “Mr. Jones has no interest in the proceeding anymore,” Kimpler said. “There is no universe where the answer is Mr. Jones should administer these assets.” The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing the platform from a state-appointed receiver. The Onion's representatives said in April they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The 3rdCourt of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company’s studio. Jones has since launched “The Alex Jones Network.” Broocks derided The Onion’s plan and called it unconstitutional. Jones still has “absolute decision making power” over Infowars because he is still the manager of the LLC, Broocks said. Advertisement Article continues below this ad “The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,” Broocks said. “Sounded like a First Amendment approach to me,” Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on th",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026",
+      "canonical_url": "https://houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "houstonchronicle.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7444904026613035
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @bencollins.bsky.social",
+      "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+      "snippet": "Also, shouts out to Judge Rosenthal for quoting Biggie in the ruling for some reason (???)\n\n caint yall keep poor ol’ Alex on as some kinda emeritus honorarius mf ( perhaps dishonorariumish tbf) with some kinda shit shot kid money losers? He’s the only funny one a yall \nEat your own dick\n\nShriiiiiii",
+      "content": "Also, shouts out to Judge Rosenthal for quoting Biggie in the ruling for some reason (???)\n\n caint yall keep poor ol’ Alex on as some kinda emeritus honorarius mf ( perhaps dishonorariumish tbf) with some kinda shit shot kid money losers? He’s the only funny one a yall \nEat your own dick\n\nShriiiiiiiiiiiiiiiiimmm!!!\n\nOutstanding!!\n\nHow does Jones still have enough money to hire attorneys and file appeals? Shouldn’t he be begging for change and eating at soup kitchens?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "bencollins.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7210820052475162
+    },
+    {
+      "id": "src_b29e77e6f3ed",
+      "title": "Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover",
+      "url": "https://www.yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html#",
+      "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so.",
+      "content": "With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Lopez effectively ended the bankruptcy case in February. T-SHIRTS AND HATS: The Onion already has merch ready for its planned Infowars takeover Friday's hearing, which Jones did not attend, was the latest in a jumble of legal tactics used by Jones to keep the issue of Infowars' ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy following those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of Jones assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones' equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said that Free Speech Systems' assets should be sold at auction, an idea that Lopez had rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. \"Initially, the bankruptcy court did try to authorize the trustee to sell it,\" Kyle Kimpler said. \"Later, the bankruptcy court realized it shouldn't have done that.\" Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. \"Mr. Jones has no interest in the proceeding anymore,\" Kimpler said. \"There is no universe where the answer is Mr. Jones should administer these assets.\" The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing Infowars from a state-appointed receiver. The Onion representatives said in April that they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The Texas Third Court of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company's studio. Jones has since launched \"The Alex Jones Network.\" Broocks derided The Onion's plan and called it unconstitutional. Jones still has \"absolute decision making power\" over Infowars because he is still the manager of the LLC, Broocks said. \"The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,\" Broocks said. \"Sounded like a First Amendment approach to me,\" Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on the appeal within two weeks after allowing another round of briefs to be filed. Subscribe This article originally published at A",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7128335737157985
+    },
+    {
+      "id": "src_5d5b70d99f37",
+      "title": "Alex Jones News 2026: Bankruptcy Updates & InfoWars Legal Status",
+      "url": "https://rightfuladvice.com/alex-jones/#",
+      "snippet": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022.",
+      "content": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. It explains the legal processes involved in plain terms while referencing established court procedures and regulatory frameworks under U.S. bankruptcy law and state collection remedies. Background of the Defamation Judgments In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. The judgments totaled more than $1.4 billion, including compensatory and punitive damages awarded to the families of victims and an FBI agent who responded to the scene. These verdicts followed default judgments entered after alex jones failed to comply with discovery orders in the underlying lawsuits. The families alleged that alex jones’ statements led to years of harassment, stalking, and emotional distress. Courts in both states upheld the awards, and the U.S. Supreme Court declined to hear alex jones’ appeal of the Connecticut judgment in October 2025, leaving the rulings intact. Under standard civil procedure, plaintiffs (here, the Sandy Hook families) became judgment creditors entitled to collect through asset seizure, garnishment, or other post judgment remedies. When collection efforts encountered resistance, the cases moved into bankruptcy and state receivership proceedings. The Bankruptcy Filing and Federal Court Rulings Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022. Chapter 11 typically allows a debtor to reorganize operations while proposing a plan to repay creditors over time. The filings triggered an automatic stay under the Bankruptcy Code, temporarily halting most collection actions by the Sandy Hook families. U.S. Bankruptcy Judge Christopher M. Lopez presided over the cases. In June 2024, Judge Lopez converted alex jones’ personal Chapter 11 case to a Chapter 7 liquidation, a process in which a trustee sells non exempt assets to distribute proceeds to creditors according to priority rules under the Bankruptcy Code. The judge simultaneously dismissed the Chapter 11 case of Free Speech Systems LLC after the parties could not agree on a reorganization plan. A bankruptcy auction of InfoWars assets occurred in late 2024. The Onion, a satirical news outlet, was initially declared the winning bidder. However, Judge Lopez rejected the sale in December 2024, citing flaws in the auction process and concerns that higher offers might have been possible. The ruling limited the bankruptcy trustee’s authority primarily to alex jones’ personal equity interest in the company rather than the full operational assets of Free Speech Systems. By early 2026, Judge Lopez’s decisions effectively ended the core federal bankruptcy proceedings for the company and shifted unresolved asset liquidation issues back to the state courts where the original defamation judgments were entered. This procedural step is common when bankruptcy courts determine that certain collection matters are better resolved under state law remedies. State Court Intervention and Receivership Following the bankruptcy dismissal, the Sandy Hook families pursued enforcement in Texas state court, primarily in Travis County District Court. In August 2025, Tex",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://rightfuladvice.com/alex-jones",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "rightfuladvice.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7024688250111957
+    },
+    {
+      "id": "src_2ced4306d139",
+      "title": "Alex Jones asks Houston judge to halt Infowars handoff to The Onion",
+      "url": "https://www.houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php#",
+      "snippet": "# Alex Jones asks Houston judge to block hearing that could hand Infowars to The Onion. **Update:** On Wednesday night, the Texas 3rd Court of Appeals issued a stay of the turnover of Free Speech Systems' assets. As of Thursday morning, lawyers for the Sandy Hook families had asked the Texas Supreme Court to remove the stay. Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble.",
+      "content": "Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Advertisement Article continues below this ad Lawyers representing Jones filed a motion for expedited emergency injunctive relief in the Southern District of Texas on Tuesday. The motion asks District Judge Lee H. Rosenthal to stop a court-appointed receiver from selling or transferring rights to assets belonging to Free Speech Systems, the parent company of Infowars. In the filing, Jones said an injunction is needed \"to prevent a gross miscarriage of justice.\" Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. Advertisement Article continues below this ad The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble. The lease proposal was scheduled to be presented to Guerra Gamble on Thursday morning. Jones owes more than $1 billion to the families of Sandy Hook Elementary School shooting victims, who successfully sued him in Texas and Connecticut for defamation after he used his Infowars shows and website to imply the massacre was staged. Efforts to liquidate Jones' assets in federal bankruptcy proceedings failed in 2024, sending questions about how the families would be paid back for their judgments back to the state court. However, Jones had kept his case alive in the federal court system by arguing that the Infowars assets should be protected by bankruptcy law. Jones has separately asked the Texas 3rd Court of Appeals to block Thursday's hearing, according to the Austin American-Statesman. In that motion, Jones accused the receiver of trying to destroy the value of Infowars' assets. Advertisement Article continues below this ad The Onion plans to turn Infowars into a mockery of the original site, as well as a platform for up-and-coming comedians. The Onion has already begun selling products branded with its own version of Infowars' wordmark, replacing the O with the newspaper's vegetable logo. Money from the new Infowars is expected to go to the Sandy Hook victims.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php",
+      "published_at": "2026-04-30T00:00:00",
+      "publisher": "houstonchronicle.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6896353231989665
+    },
+    {
+      "id": "src_eb7604f470db",
+      "title": "Tim Onion - Post by @bencollins.bsky.social — Bluesky",
+      "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n#",
+      "snippet": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars'",
+      "content": "This is a heavily interactive web application, and JavaScript is required. Simple HTML interfaces are possible, but that is not what this is. Post Tim Onion bencollins.bsky.social did:plc:x4qyokjtdzgl7gmqhsw4ajqj Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there. 2026-05-15T20:12:06.082Z",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "bsky.app",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6601030535330245
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @bencollins.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:x4qyokjtdzgl7gmqhsw4ajqj/bafkreih5z2bbrfxaaenhyzmxdcycnpdhp4tgrftuyqnakjlldts6t4n254",
+      "snippet": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply t",
+      "content": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\nThe motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\nThe October 2025 order remains operative. Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\nSIGNED on May 15, 2026, at Houston, Texas.\n ________________________________\n Lee H. Rosenthal\n Senior United States District Judg\nVisible text: III.      Conclusion\n\n          The court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\n\n          The motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\n\n          The October 2025 order remains operative.  Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\n\n          SIGNED on May 15, 2026, at Houston, Texas.\n\n\n\n\n                                         Lee H. Rosenthal\n                                         Senior United States District Judge\nVisual description: A cropped image of a formal court document showing the \"III. Conclusion\" section. It consists of several paragraphs of typed legal text explaining that the court finds no appellant has standing to appeal a specific October 2025 order related to a bankruptcy case, dismisses the appeal for lack of jurisdiction, grants a motion for leave to file a corrected reply, denies a motion to strike as moot, and states that the October 2025 order remains in effect but may be stayed pending further appeal. At the bottom is a date and location line indicating the document was signed on May 15, 2026, followed by a handwritten signature and the typed name and title of a senior United States district judge.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "bencollins.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8920487929622019
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @bencollins.bsky.social",
+      "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+      "snippet": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+      "content": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "bencollins.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7746149277513884
+    },
+    {
+      "id": "src_1a64c039724a",
+      "title": "Alex Jones asks Houston judge to revive Infowars bankruptcy case",
+      "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php#",
+      "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts.",
+      "content": "With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. The judge effectively ended the bankruptcy case in February. Advertisement Article continues below this ad Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy after those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of his assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Advertisement Article continues below this ad Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones’ equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones’ lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said assets owned by Free Speech Systems, which is Infowars’ parent, should be sold at auction, an idea Lopez rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. “Initially, the bankruptcy court did try to authorize the trustee to sell it,” Kyle Kimpler said. “Later, the bankruptcy court realized it shouldn’t have done that.” Advertisement Article continues below this ad Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. “Mr. Jones has no interest in the proceeding anymore,” Kimpler said. “There is no universe where the answer is Mr. Jones should administer these assets.” The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing the platform from a state-appointed receiver. The Onion's representatives said in April they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The 3rdCourt of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company’s studio. Jones has since launched “The Alex Jones Network.” Broocks derided The Onion’s plan and called it unconstitutional. Jones still has “absolute decision making power” over Infowars because he is still the manager of the LLC, Broocks said. Advertisement Article continues below this ad “The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,” Broocks said. “Sounded like a First Amendment approach to me,” Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on th",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026",
+      "canonical_url": "https://houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "houstonchronicle.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7444904026613035
+    },
+    {
+      "id": "src_b29e77e6f3ed",
+      "title": "Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover",
+      "url": "https://www.yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html#",
+      "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so.",
+      "content": "With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Lopez effectively ended the bankruptcy case in February. T-SHIRTS AND HATS: The Onion already has merch ready for its planned Infowars takeover Friday's hearing, which Jones did not attend, was the latest in a jumble of legal tactics used by Jones to keep the issue of Infowars' ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy following those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of Jones assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones' equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said that Free Speech Systems' assets should be sold at auction, an idea that Lopez had rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. \"Initially, the bankruptcy court did try to authorize the trustee to sell it,\" Kyle Kimpler said. \"Later, the bankruptcy court realized it shouldn't have done that.\" Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. \"Mr. Jones has no interest in the proceeding anymore,\" Kimpler said. \"There is no universe where the answer is Mr. Jones should administer these assets.\" The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing Infowars from a state-appointed receiver. The Onion representatives said in April that they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The Texas Third Court of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company's studio. Jones has since launched \"The Alex Jones Network.\" Broocks derided The Onion's plan and called it unconstitutional. Jones still has \"absolute decision making power\" over Infowars because he is still the manager of the LLC, Broocks said. \"The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,\" Broocks said. \"Sounded like a First Amendment approach to me,\" Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on the appeal within two weeks after allowing another round of briefs to be filed. Subscribe This article originally published at A",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7128335737157985
+    },
+    {
+      "id": "src_5d5b70d99f37",
+      "title": "Alex Jones News 2026: Bankruptcy Updates & InfoWars Legal Status",
+      "url": "https://rightfuladvice.com/alex-jones/#",
+      "snippet": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022.",
+      "content": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. It explains the legal processes involved in plain terms while referencing established court procedures and regulatory frameworks under U.S. bankruptcy law and state collection remedies. Background of the Defamation Judgments In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. The judgments totaled more than $1.4 billion, including compensatory and punitive damages awarded to the families of victims and an FBI agent who responded to the scene. These verdicts followed default judgments entered after alex jones failed to comply with discovery orders in the underlying lawsuits. The families alleged that alex jones’ statements led to years of harassment, stalking, and emotional distress. Courts in both states upheld the awards, and the U.S. Supreme Court declined to hear alex jones’ appeal of the Connecticut judgment in October 2025, leaving the rulings intact. Under standard civil procedure, plaintiffs (here, the Sandy Hook families) became judgment creditors entitled to collect through asset seizure, garnishment, or other post judgment remedies. When collection efforts encountered resistance, the cases moved into bankruptcy and state receivership proceedings. The Bankruptcy Filing and Federal Court Rulings Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022. Chapter 11 typically allows a debtor to reorganize operations while proposing a plan to repay creditors over time. The filings triggered an automatic stay under the Bankruptcy Code, temporarily halting most collection actions by the Sandy Hook families. U.S. Bankruptcy Judge Christopher M. Lopez presided over the cases. In June 2024, Judge Lopez converted alex jones’ personal Chapter 11 case to a Chapter 7 liquidation, a process in which a trustee sells non exempt assets to distribute proceeds to creditors according to priority rules under the Bankruptcy Code. The judge simultaneously dismissed the Chapter 11 case of Free Speech Systems LLC after the parties could not agree on a reorganization plan. A bankruptcy auction of InfoWars assets occurred in late 2024. The Onion, a satirical news outlet, was initially declared the winning bidder. However, Judge Lopez rejected the sale in December 2024, citing flaws in the auction process and concerns that higher offers might have been possible. The ruling limited the bankruptcy trustee’s authority primarily to alex jones’ personal equity interest in the company rather than the full operational assets of Free Speech Systems. By early 2026, Judge Lopez’s decisions effectively ended the core federal bankruptcy proceedings for the company and shifted unresolved asset liquidation issues back to the state courts where the original defamation judgments were entered. This procedural step is common when bankruptcy courts determine that certain collection matters are better resolved under state law remedies. State Court Intervention and Receivership Following the bankruptcy dismissal, the Sandy Hook families pursued enforcement in Texas state court, primarily in Travis County District Court. In August 2025, Tex",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://rightfuladvice.com/alex-jones",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "rightfuladvice.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7024688250111957
+    },
+    {
+      "id": "src_2ced4306d139",
+      "title": "Alex Jones asks Houston judge to halt Infowars handoff to The Onion",
+      "url": "https://www.houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php#",
+      "snippet": "# Alex Jones asks Houston judge to block hearing that could hand Infowars to The Onion. **Update:** On Wednesday night, the Texas 3rd Court of Appeals issued a stay of the turnover of Free Speech Systems' assets. As of Thursday morning, lawyers for the Sandy Hook families had asked the Texas Supreme Court to remove the stay. Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble.",
+      "content": "Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Advertisement Article continues below this ad Lawyers representing Jones filed a motion for expedited emergency injunctive relief in the Southern District of Texas on Tuesday. The motion asks District Judge Lee H. Rosenthal to stop a court-appointed receiver from selling or transferring rights to assets belonging to Free Speech Systems, the parent company of Infowars. In the filing, Jones said an injunction is needed \"to prevent a gross miscarriage of justice.\" Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. Advertisement Article continues below this ad The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble. The lease proposal was scheduled to be presented to Guerra Gamble on Thursday morning. Jones owes more than $1 billion to the families of Sandy Hook Elementary School shooting victims, who successfully sued him in Texas and Connecticut for defamation after he used his Infowars shows and website to imply the massacre was staged. Efforts to liquidate Jones' assets in federal bankruptcy proceedings failed in 2024, sending questions about how the families would be paid back for their judgments back to the state court. However, Jones had kept his case alive in the federal court system by arguing that the Infowars assets should be protected by bankruptcy law. Jones has separately asked the Texas 3rd Court of Appeals to block Thursday's hearing, according to the Austin American-Statesman. In that motion, Jones accused the receiver of trying to destroy the value of Infowars' assets. Advertisement Article continues below this ad The Onion plans to turn Infowars into a mockery of the original site, as well as a platform for up-and-coming comedians. The Onion has already begun selling products branded with its own version of Infowars' wordmark, replacing the O with the newspaper's vegetable logo. Money from the new Infowars is expected to go to the Sandy Hook victims.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+      "canonical_url": "https://houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php",
+      "published_at": "2026-04-30T00:00:00",
+      "publisher": "houstonchronicle.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6896353231989665
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "info",
+      "code": "OFFICIAL_POSITION_VIA_NEWS",
+      "message": "Official position is supported by a news outlet report rather than a primary source.",
+      "bullet_index": 4
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+      "platform": "bluesky",
+      "author": {
+        "handle": "bencollins.bsky.social",
+        "display_name": "Tim Onion",
+        "did": "did:plc:x4qyokjtdzgl7gmqhsw4ajqj"
+      },
+      "text": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+      "created_at": "2026-05-15T20:12:03.275000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:x4qyokjtdzgl7gmqhsw4ajqj/bafkreih5z2bbrfxaaenhyzmxdcycnpdhp4tgrftuyqnakjlldts6t4n254",
+          "alt_text": "In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\nThe motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\nThe October 2025 order remains operative. Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\nSIGNED on May 15, 2026, at Houston, Texas.\n ________________________________\n Lee H. Rosenthal\n Senior United States District Judg",
+          "ocr_text": "III.      Conclusion\n\n          The court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\n\n          The motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\n\n          The October 2025 order remains operative.  Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\n\n          SIGNED on May 15, 2026, at Houston, Texas.\n\n\n\n\n                                         Lee H. Rosenthal\n                                         Senior United States District Judge",
+          "description": "A cropped image of a formal court document showing the \"III. Conclusion\" section. It consists of several paragraphs of typed legal text explaining that the court finds no appellant has standing to appeal a specific October 2025 order related to a bankruptcy case, dismisses the appeal for lack of jurisdiction, grants a motion for leave to file a corrected reply, denies a motion to strike as moot, and states that the October 2025 order remains in effect but may be stayed pending further appeal. At the bottom is a date and location line indicating the document was signed on May 15, 2026, followed by a handwritten signature and the typed name and title of a senior United States district judge.",
+          "image_type": "document"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Also, shouts out to Judge Rosenthal for quoting Biggie in the ruling for some reason (???)\n\n caint yall keep poor ol’ Alex on as some kinda emeritus honorarius mf ( perhaps dishonorariumish tbf) with some kinda shit shot kid money losers? He’s the only funny one a yall \nEat your own dick\n\nShriiiiiiiiiiiiiiiiimmm!!!\n\nOutstanding!!\n\nHow does Jones still have enough money to hire attorneys and file appeals? Shouldn’t he be begging for change and eating at soup kitchens?"
+    },
+    "explanation": [
+      {
+        "text": "Senior U.S. District Judge Lee H. Rosenthal issued a ruling on May 15, 2026, in Houston concluding that no appellant has standing to appeal an October 2025 bankruptcy-related order concerning the Alex Jones bankruptcy case, and she dismissed the appeal for lack of jurisdiction while leaving that October 2025 order in effect.",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The excerpted image shows only the conclusion section of the ruling and refers to the underlying October 2025 order without reproducing its full contents.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The October 2025 order referenced in Judge Rosenthal’s ruling states that the automatic bankruptcy stay under Section 362(a) in Alex Jones’s bankruptcy case does not apply to Free Speech Systems (Infowars’ parent) or any of its assets, which helps explain why Infowars-related assets can be addressed in separate state proceedings such as receivership actions.",
+        "source_ids": [
+          "image_1",
+          "src_5d5b70d99f37"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The image quotes only the key language about the stay not applying to Free Speech Systems, and the broader description of how this interacts with state receivership comes from a secondary explainer site rather than the court order itself.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The Bluesky post’s claim that this ruling is “very good news” and means Infowars’ assets “can be licensed or sold to us” reflects the author’s optimistic interpretation of the effect of Judge Rosenthal’s standing decision, rather than a statement found in the court order itself.",
+        "source_ids": [
+          "thread_original",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The court document excerpt does not mention licensing Infowars to any specific buyer; it only addresses standing, dismissal of the appeal, and the continuing effect of the October 2025 order. The author’s inference about future licensing or sale is speculative.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Prior reporting describes a broader context in which Sandy Hook families, through state-court receivership and related proceedings, have pursued control or sale of Infowars/Free Speech Systems assets, including proposals for The Onion to lease the Infowars domain and intellectual property from a court-appointed receiver, with proceeds expected to go to the Sandy Hook victims.",
+        "source_ids": [
+          "src_2ced4306d139",
+          "src_1a64c039724a",
+          "src_b29e77e6f3ed"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These articles describe proposals and ongoing litigation rather than a final, completed transfer to The Onion; some plans were stayed or contested on appeal.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In earlier coverage, lawyers for the Sandy Hook families argued in federal court that Alex Jones lacked standing over how Infowars is sold because a bankruptcy trustee controls his financial assets and any proceeds from a sale would go to the families, which aligns with Judge Rosenthal’s later conclusion that no appellant had standing to pursue the appeal.",
+        "source_ids": [
+          "src_1a64c039724a",
+          "src_b29e77e6f3ed",
+          "image_1"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The news articles report what the families’ lawyers argued about standing, while the image shows the judge’s final conclusion that no appellant had standing; the precise legal reasoning connecting the two is not fully reproduced in the available excerpts.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @bencollins.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:x4qyokjtdzgl7gmqhsw4ajqj/bafkreih5z2bbrfxaaenhyzmxdcycnpdhp4tgrftuyqnakjlldts6t4n254",
+        "snippet": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply t",
+        "content": "Image type: document\nAlt text: In sum, no appellant has standing to appeal.\nIII. Conclusion\nThe court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\nThe motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\nThe October 2025 order remains operative. Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\nSIGNED on May 15, 2026, at Houston, Texas.\n ________________________________\n Lee H. Rosenthal\n Senior United States District Judg\nVisible text: III.      Conclusion\n\n          The court concludes that no appellant has standing to appeal the October 2025 order that\n“[t]he automatic stay imposed under Section 362(a) of the Bankruptcy Code in the Jones\nBankruptcy Case does not apply to FSS or any of FSS’s asset.” (Docket Entry No. 2-30 at 2). The\ncourt lacks jurisdiction over this appeal. The appeal is dismissed.\n\n          The motion for leave to file a corrected reply, (Docket Entry No. 37), is granted. The\nmotion to strike, (Docket Entry No. 38), is denied as moot.\n\n          The October 2025 order remains operative.  Jones and/or Free Speech Systems may move\nto stay the October 2025 order pending appeal to the Fifth Circuit by Friday, May 22, 2026.\n\n          SIGNED on May 15, 2026, at Houston, Texas.\n\n\n\n\n                                         Lee H. Rosenthal\n                                         Senior United States District Judge\nVisual description: A cropped image of a formal court document showing the \"III. Conclusion\" section. It consists of several paragraphs of typed legal text explaining that the court finds no appellant has standing to appeal a specific October 2025 order related to a bankruptcy case, dismisses the appeal for lack of jurisdiction, grants a motion for leave to file a corrected reply, denies a motion to strike as moot, and states that the October 2025 order remains in effect but may be stayed pending further appeal. At the bottom is a date and location line indicating the document was signed on May 15, 2026, followed by a handwritten signature and the typed name and title of a senior United States district judge.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "bencollins.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @bencollins.bsky.social",
+        "url": "https://bsky.app/profile/bencollins.bsky.social/post/3mlw5ds5e7k2n",
+        "snippet": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+        "content": "Some very good news out of a Texas federal court: Alex Jones doesn't have standing to appeal a Bankruptcy court order that placed InfoWars' assets in state receivership, meaning they can be licensed or sold to us. More to come, obviously, but we're almost there.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "bencollins.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_1a64c039724a",
+        "title": "Alex Jones asks Houston judge to revive Infowars bankruptcy case",
+        "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php#",
+        "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts.",
+        "content": "With Alex Jones’ Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. The conspiracy theorist’s lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge’s decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez’s ruling moved the issue of Infowars ownership back to a Travis County court, where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. The judge effectively ended the bankruptcy case in February. Advertisement Article continues below this ad Friday’s hearing, which Jones did not attend, was the latest in a jumble of legal tactics he's using to keep the issue of Infowars’ ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy after those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of his assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Advertisement Article continues below this ad Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones’ equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones’ lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said assets owned by Free Speech Systems, which is Infowars’ parent, should be sold at auction, an idea Lopez rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. “Initially, the bankruptcy court did try to authorize the trustee to sell it,” Kyle Kimpler said. “Later, the bankruptcy court realized it shouldn’t have done that.” Advertisement Article continues below this ad Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. “Mr. Jones has no interest in the proceeding anymore,” Kimpler said. “There is no universe where the answer is Mr. Jones should administer these assets.” The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing the platform from a state-appointed receiver. The Onion's representatives said in April they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The 3rdCourt of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company’s studio. Jones has since launched “The Alex Jones Network.” Broocks derided The Onion’s plan and called it unconstitutional. Jones still has “absolute decision making power” over Infowars because he is still the manager of the LLC, Broocks said. Advertisement Article continues below this ad “The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,” Broocks said. “Sounded like a First Amendment approach to me,” Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on th",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Judge Lee H. Rosenthal\" ruling Alex Jones bankruptcy Biggie quote opinion 2026",
+        "canonical_url": "https://houstonchronicle.com/news/houston-texas/trending/article/alex-jones-houston-bankruptcy-appeal-22247051.php",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "houstonchronicle.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_b29e77e6f3ed",
+        "title": "Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover",
+        "url": "https://www.yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html#",
+        "snippet": "# Alex Jones wants to return Infowars to federal bankruptcy, as The Onion pursues takeover. With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so.",
+        "content": "With Alex Jones' Infowars website shut down and Texas state courts considering a plan to allow it to be taken over by The Onion, Jones this week asked a Houston federal judge to return the ownership fight to bankruptcy court. Jones' lawyers appeared Friday in a Houston courtroom to argue that Senior U.S. District Judge Lee Rosenthal should reverse a bankruptcy judge's decision last year that the bankruptcy court could not sell the Infowars assets. U.S. Bankruptcy Judge Christopher Lopez's ruling moved the issue of Infowars ownership back to a Travis County court where Jones lost a defamation case to families of Sandy Hook Elementary School shooting victims. Lopez effectively ended the bankruptcy case in February. T-SHIRTS AND HATS: The Onion already has merch ready for its planned Infowars takeover Friday's hearing, which Jones did not attend, was the latest in a jumble of legal tactics used by Jones to keep the issue of Infowars' ownership alive in the courts. In 2022, Jones was ordered to pay more than $1.4 billion in damages to the families of Sandy Hook victims. He filed for personal bankruptcy following those civil judgments in Connecticut and Texas. Through the bankruptcy court, some of Jones assets, including real estate and a watch collection, have been sold. Infowars, the company he is famous for creating and promoting, has remained on the shelf. Lopez had rejected an auction of Infowars assets, saying he was unsatisfied with the results. He later announced that a bankruptcy trustee could only sell Jones' equity in Infowars. He said Sandy Hook families should try to satisfy their claims through state courts. Ben Broocks, Jones' lawyer, said Friday that Lopez erred by declaring that the bankruptcy court could not sell the Infowars assets after he had previously authorized a plan to do so. Broocks said that Free Speech Systems' assets should be sold at auction, an idea that Lopez had rejected last year. Lawyers representing the Sandy Hook families told Rosenthal the opposite. In their telling, Lopez realized he had made a mistake and then issued the correct ruling. \"Initially, the bankruptcy court did try to authorize the trustee to sell it,\" Kyle Kimpler said. \"Later, the bankruptcy court realized it shouldn't have done that.\" Kimpler also noted that the trustee for Jones' estate, who is legally in charge of his financial assets, did not support Jones' challenges to the ruling. Jones has no standing to argue about how the site is sold, Kimpler said. Any money derived from a sale would go to the families he owes money to. \"Mr. Jones has no interest in the proceeding anymore,\" Kimpler said. \"There is no universe where the answer is Mr. Jones should administer these assets.\" The appeal had been pending for months before The Onion announced its latest plan to take control of Infowars by leasing Infowars from a state-appointed receiver. The Onion representatives said in April that they planned to pay $81,000 a month to rent the domain and turn it into a parody of the original site. The Texas Third Court of Appeals stayed the plan the day a judge was set to be briefed about it and possibly allow it to go forward. The same day, Infowars apparently shut down after a court-appointed receiver over the state case ordered Jones out of the company's studio. Jones has since launched \"The Alex Jones Network.\" Broocks derided The Onion's plan and called it unconstitutional. Jones still has \"absolute decision making power\" over Infowars because he is still the manager of the LLC, Broocks said. \"The plaintiffs hate Mr. Jones, they want to take his Infowars platform and use it to dupe the audience,\" Broocks said. \"Sounded like a First Amendment approach to me,\" Rosenthal said before directing the hearing back to issues of standing. The hearing ended without a ruling by Rosenthal. She said she planned to rule on the appeal within two weeks after allowing another round of briefs to be filed. Subscribe This article originally published at A",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+        "canonical_url": "https://yahoo.com/news/articles/alex-jones-wants-return-infowars-231231793.html",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_5d5b70d99f37",
+        "title": "Alex Jones News 2026: Bankruptcy Updates & InfoWars Legal Status",
+        "url": "https://rightfuladvice.com/alex-jones/#",
+        "snippet": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022.",
+        "content": "As of May 2026, the legal proceedings involving alex jones and his media platform InfoWars remain in active litigation across federal and state courts. InfoWars, the Austin, Texas based outlet operated by Free Speech Systems LLC, has ceased broadcasting and shuttered its physical studio following actions by a court appointed receiver. The developments stem from long-standing efforts by families of Sandy Hook Elementary School shooting victims to collect on multimillion and billion-dollar defamation judgments awarded against alex jones. This article provides a factual overview of the bankruptcy filings, key court rulings, and the most recent 2026 updates. It explains the legal processes involved in plain terms while referencing established court procedures and regulatory frameworks under U.S. bankruptcy law and state collection remedies. Background of the Defamation Judgments In 2022, civil juries in Connecticut and Texas found alex jones liable for defamation after he repeatedly claimed on InfoWars that the 2012 Sandy Hook Elementary School shooting was a hoax staged by crisis actors. The judgments totaled more than $1.4 billion, including compensatory and punitive damages awarded to the families of victims and an FBI agent who responded to the scene. These verdicts followed default judgments entered after alex jones failed to comply with discovery orders in the underlying lawsuits. The families alleged that alex jones’ statements led to years of harassment, stalking, and emotional distress. Courts in both states upheld the awards, and the U.S. Supreme Court declined to hear alex jones’ appeal of the Connecticut judgment in October 2025, leaving the rulings intact. Under standard civil procedure, plaintiffs (here, the Sandy Hook families) became judgment creditors entitled to collect through asset seizure, garnishment, or other post judgment remedies. When collection efforts encountered resistance, the cases moved into bankruptcy and state receivership proceedings. The Bankruptcy Filing and Federal Court Rulings Alex jones and Free Speech Systems LLC filed for Chapter 11 bankruptcy protection in the U.S. Bankruptcy Court for the Southern District of Texas (Houston division) in late 2022. Chapter 11 typically allows a debtor to reorganize operations while proposing a plan to repay creditors over time. The filings triggered an automatic stay under the Bankruptcy Code, temporarily halting most collection actions by the Sandy Hook families. U.S. Bankruptcy Judge Christopher M. Lopez presided over the cases. In June 2024, Judge Lopez converted alex jones’ personal Chapter 11 case to a Chapter 7 liquidation, a process in which a trustee sells non exempt assets to distribute proceeds to creditors according to priority rules under the Bankruptcy Code. The judge simultaneously dismissed the Chapter 11 case of Free Speech Systems LLC after the parties could not agree on a reorganization plan. A bankruptcy auction of InfoWars assets occurred in late 2024. The Onion, a satirical news outlet, was initially declared the winning bidder. However, Judge Lopez rejected the sale in December 2024, citing flaws in the auction process and concerns that higher offers might have been possible. The ruling limited the bankruptcy trustee’s authority primarily to alex jones’ personal equity interest in the company rather than the full operational assets of Free Speech Systems. By early 2026, Judge Lopez’s decisions effectively ended the core federal bankruptcy proceedings for the company and shifted unresolved asset liquidation issues back to the state courts where the original defamation judgments were entered. This procedural step is common when bankruptcy courts determine that certain collection matters are better resolved under state law remedies. State Court Intervention and Receivership Following the bankruptcy dismissal, the Sandy Hook families pursued enforcement in Texas state court, primarily in Travis County District Court. In August 2025, Tex",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+        "canonical_url": "https://rightfuladvice.com/alex-jones",
+        "published_at": "2026-05-11T00:00:00",
+        "publisher": "rightfuladvice.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_2ced4306d139",
+        "title": "Alex Jones asks Houston judge to halt Infowars handoff to The Onion",
+        "url": "https://www.houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php#",
+        "snippet": "# Alex Jones asks Houston judge to block hearing that could hand Infowars to The Onion. **Update:** On Wednesday night, the Texas 3rd Court of Appeals issued a stay of the turnover of Free Speech Systems' assets. As of Thursday morning, lawyers for the Sandy Hook families had asked the Texas Supreme Court to remove the stay. Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble.",
+        "content": "Infowars founder Alex Jones asked a federal judge in Houston to stop Thursday's hearing in Austin that could hand over control of the infamous website to The Onion. Advertisement Article continues below this ad Lawyers representing Jones filed a motion for expedited emergency injunctive relief in the Southern District of Texas on Tuesday. The motion asks District Judge Lee H. Rosenthal to stop a court-appointed receiver from selling or transferring rights to assets belonging to Free Speech Systems, the parent company of Infowars. In the filing, Jones said an injunction is needed \"to prevent a gross miscarriage of justice.\" Jones called The Onion's plan to replace his Infowars with a satirical version of the site, including an impersonator who sounds like him, a \"planned deception of millions of citizens\" that warranted the court's immediate attention. Advertisement Article continues below this ad The Onion last week announced plans to lease the Infowars domain and intellectual property from a court-appointed receiver who had been put in control of Free Speech Systems' assets by Travis County District Judge Maya Guerra Gamble. The lease proposal was scheduled to be presented to Guerra Gamble on Thursday morning. Jones owes more than $1 billion to the families of Sandy Hook Elementary School shooting victims, who successfully sued him in Texas and Connecticut for defamation after he used his Infowars shows and website to imply the massacre was staged. Efforts to liquidate Jones' assets in federal bankruptcy proceedings failed in 2024, sending questions about how the families would be paid back for their judgments back to the state court. However, Jones had kept his case alive in the federal court system by arguing that the Infowars assets should be protected by bankruptcy law. Jones has separately asked the Texas 3rd Court of Appeals to block Thursday's hearing, according to the Austin American-Statesman. In that motion, Jones accused the receiver of trying to destroy the value of Infowars' assets. Advertisement Article continues below this ad The Onion plans to turn Infowars into a mockery of the original site, as well as a platform for up-and-coming comedians. The Onion has already begun selling products branded with its own version of Infowars' wordmark, replacing the O with the newspaper's vegetable logo. Money from the new Infowars is expected to go to the Sandy Hook victims.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Alex Jones\" InfoWars assets state receivership Texas federal court May 15 2026 Lee H. Rosenthal",
+        "canonical_url": "https://houstonchronicle.com/news/houston-texas/article/alex-jones-houston-judge-block-hearing-onion-22232846.php",
+        "published_at": "2026-04-30T00:00:00",
+        "publisher": "houstonchronicle.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [
+      {
+        "severity": "info",
+        "code": "OFFICIAL_POSITION_VIA_NEWS",
+        "message": "Official position is supported by a news outlet report rather than a primary source.",
+        "bullet_index": 4
+      }
+    ],
+    "execution_time_ms": 43564
+  }
+}

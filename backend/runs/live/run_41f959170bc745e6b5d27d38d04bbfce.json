@@ -1,0 +1,920 @@
+{
+  "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:19:25.050197+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:18:59.744316+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:18:59.744410+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:18:59.744766+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:18:59.744856+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:18:59.745166+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:00.732579+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 987
+    },
+    {
+      "timestamp": "2026-05-16T03:19:00.733084+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:00.733159+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:19:00.733507+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:02.384636+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1651
+    },
+    {
+      "timestamp": "2026-05-16T03:19:02.385178+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:08.544114+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6158
+    },
+    {
+      "timestamp": "2026-05-16T03:19:08.544603+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:19.118343+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 10573
+    },
+    {
+      "timestamp": "2026-05-16T03:19:19.118884+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:20.131964+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1013
+    },
+    {
+      "timestamp": "2026-05-16T03:19:20.132485+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.043634+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 4911
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.044183+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.044317+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.044653+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.044711+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.044972+00:00",
+      "event": "node_started",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T03:19:25.045066+00:00",
+      "event": "node_completed",
+      "run_id": "run_41f959170bc745e6b5d27d38d04bbfce",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+  "status": "completed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+    "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+    "Uni of Nebraska Medical hantavirus guidance Hondius cruise ship",
+    "Trump administration CDC response to hantavirus monitoring 41 additional cases throughout the States"
+  ],
+  "metrics": {
+    "search_results_received": 35,
+    "search_results_by_provider": {
+      "brave": 15,
+      "tavily": 20
+    },
+    "search_provider_overlap": [
+      {
+        "canonical_url": "https://nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+          ],
+          "tavily": [
+            "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+          ]
+        },
+        "titles": [
+          "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure"
+        ]
+      },
+      {
+        "canonical_url": "https://cnbc.com/2026/05/14/cdc-no-us-hantavirus-cases-people-monitored.html",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Trump administration CDC response to hantavirus monitoring 41 additional cases throughout the States"
+          ],
+          "tavily": [
+            "Trump administration CDC response to hantavirus monitoring 41 additional cases throughout the States"
+          ]
+        },
+        "titles": [
+          "CDC says there are no U.S. hantavirus cases currently, 41 people being monitored"
+        ]
+      }
+    ],
+    "search_provider_overlap_count": 2,
+    "search_results_discarded": [
+      {
+        "id": "https://www.nbcphiladelphia.com/news/national-international/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure/4402538/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      },
+      {
+        "id": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      },
+      {
+        "id": "https://www.cnbc.com/2026/05/14/cdc-no-us-hantavirus-cases-people-monitored.html",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.cnbc.com/2026/05/14/cdc-no-us-hantavirus-cases-people-monitored.html"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/nbcchicago/posts/the-sole-american-who-had-a-positive-test-aboard-the-mv-hondius-has-since-tested/1398651622289982/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/NBCNews/status/2055270950426329163",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_ad7f97950604",
+        "title": "Evacuated US and French MV Hondius passengers test positive for hantavirus | Hantavirus | The Guardian",
+        "url": "https://www.theguardian.com/world/2026/may/11/evacuated-us-and-french-mv-hondius-cruise-ship-passengers-test-positive-for-hantavirus#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_5c86ca8b7538",
+        "title": "MV Hondius hantavirus outbreak - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/MV_Hondius_hantavirus_outbreak#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_39dec45130f5",
+        "title": "Hantavirus live updates: American who initially tested positive now ...",
+        "url": "https://www.goodmorningamerica.com/International/live-updates/hantavirus-live-updates-mv-hondius-canary-islands-132746955/american-doctor-who-tested-positive-speaks-out-from-quarantine-132917480?offset=9#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_535da43dff26",
+        "title": "American passenger with hantavirus moved out of isolation after negative test",
+        "url": "https://www.youtube.com/watch?v=tsqkLtC2Nk4#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "brave": 2,
+      "tavily": 5,
+      "bluesky": 2
+    },
+    "ranked_multi_provider_source_count": 1,
+    "cited_sources_by_provider": {
+      "brave": 2,
+      "tavily": 3,
+      "bluesky": 2
+    },
+    "cited_multi_provider_source_count": 1
+  },
+  "sources": [
+    {
+      "id": "src_103925a9855b",
+      "title": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure",
+      "url": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278#",
+      "snippet": "<strong>The sole American who returned a positive test aboard the MV Hondius has since tested negative three times</strong>, bringing the total number of reported cases down to 10.",
+      "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said.",
+      "source_type": "web",
+      "provider": "brave, tavily",
+      "providers": [
+        "brave",
+        "tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ],
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ]
+      },
+      "provider_result_count": 2,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+      "canonical_url": "https://nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.9285030299659498
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+      "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8767470315762171
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7649141251174153
+    },
+    {
+      "id": "src_6c95be056b66",
+      "title": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure - AOL",
+      "url": "https://www.aol.com/articles/no-known-cases-hantavirus-u-121600753.html#",
+      "snippet": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha.",
+      "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. Advertisement As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+      "canonical_url": "https://aol.com/articles/no-known-cases-hantavirus-u-121600753.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "aol.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7351391742762601
+    },
+    {
+      "id": "src_51ddae6ae58a",
+      "title": "U.S. Hantavirus Case Confirmed: American Passenger Evacuated From MV Hondius Cruise Ship Tests Positive",
+      "url": "https://www.thetravel.com/us-hantavirus-case-american-passenger-evacuated-from-mv-hondius-hantavirus-cruise-ship-tests-positive/#",
+      "snippet": "# U.S. Hantavirus Case Confirmed: American Passenger Evacuated From MV Hondius Cruise Ship Tests Positive. University of Nebraska Medical Center in Omaha. An American passenger from the cruise ship who was flown to Nebraska on an emergency repatriation flight tested positive for the virus. ## First U.S. Hantavirus Case Confirmed As 17 Evacuated Americans Arrive In Nebraska. Two of the 17 Americans traveled in the aircraft's biocontainment units \"out of an abundance of caution,\" the Department of Health and Human Services said in a statement. Most passengers were taken on buses to be assessed and monitored at the University of Nebraska Medical Center, home to a federally funded quarantine facility. **One American passenger has tested positive**, though U.S. health officials said on Sunday they're not showing any symptoms. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Thomas. Eppley Airfield (OMA) in Omaha, Nebraska, USA, where the 17 evacuated Americans from the MV Hondius cruise ship arrived on a US State Department aircraft.",
+      "content": "Many countries around the world are scrambling to repatriate passengers from the hantavirus-stricken MV Hondius cruise ship, operated by luxury cruise line Ocean Expeditions, which docked in Spain's Canary Islands over the weekend. Personnel in full-body protective gear and masks have been sighted escorting guests from the ship to shore in Tenerife, as efforts continue to repatriate people from more than 20 countries on Monday. 17 Americans were among those evacuated and flown home on board military and government aircraft on Sunday. The first positive hantavirus case has since been confirmed in the United States. An American passenger from the cruise ship who was flown to Nebraska on an emergency repatriation flight tested positive for the virus. First U.S. Hantavirus Case Confirmed As 17 Evacuated Americans Arrive In Nebraska A U.S. State Department plane carrying the 17 Americans landed at Omaha Eppley Airfield in Nebraska at about 2:30 a.m. ET on Monday. Two of the 17 Americans traveled in the aircraft's biocontainment units \"out of an abundance of caution,\" the Department of Health and Human Services said in a statement. Most passengers were taken on buses to be assessed and monitored at the University of Nebraska Medical Center, home to a federally funded quarantine facility. There, their risk level for spreading the virus will be assessed, and it'll be determined whether they've been in contact with any symptomatic people. One American passenger has tested positive, though U.S. health officials said on Sunday they're not showing any symptoms. The other American had mild symptoms and was taken to a separate health facility for treatment, according to Kayla Thomas, a spokesperson for the Nebraska Medicine network, which will help care for the passengers. \"One passenger will be transported to the Nebraska Biocontainment Unit upon arrival, while other passengers will go to the National Quarantine Unit for assessment and monitoring. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Thomas. A French passenger removed from the MV Hondius also tested positive for hantavirus. Meanwhile, the World Health Organization (WHO) has urged close monitoring of passengers and has reassured the public that the risk to their health and safety is low. WHO's Advice To Americans And Other Countries WHO Director-General Tedros Adhanom Ghebreyesus said on Sunday that the public shouldn't be worried about the hantavirus outbreak. \"This is not another COVID. And the risk to the public is low. So they shouldn’t be scared, and they shouldn’t panic,\" Ghebreyesus said. The WHO is advising that passengers’ home countries \"have active monitoring and follow-up, which means daily health checks, either at home or in a specialized facility,\" said Maria Van Kerkhove, the WHO's top epidemiologist and director of epidemic and pandemic preparedness. Many countries have indeed quarantined their nationals from the MV Hondius cruise ship following their repatriation. Kerkhove noted that this is the first-ever case of a hantavirus outbreak on a cruise ship. Earlier, officials from the Spanish Health Ministry, the World Health Organization, as well as the cruise line Oceanwide Expeditions, said that none of the 140+ people who were on board the MV Hondius had shown hantavirus symptoms. Three people from the ship have died since the outbreak first began. Five people who left the ship earlier were confirmed infected. One of the cruise passengers who boarded a KLM Royal Dutch Airlines flight in Johannesburg was removed from the plane shortly before takeoff due to appearing unwell. The passenger, a 69-year-old Dutch woman, whose husband had died from hantavirus a short time prior, died soon after in a Johannesburg hospital. A KLM flight attendant who was in close contact with the passenger was taken to a hospital after developing symptoms of hantavirus, but she tested negative. The KLM ordeal may have i",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://thetravel.com/us-hantavirus-case-american-passenger-evacuated-from-mv-hondius-hantavirus-cruise-ship-tests-positive",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "thetravel.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7141391322112227
+    },
+    {
+      "id": "src_b3eba8cb7383",
+      "title": "No known cases of hantavirus in U.S. as officials monitor 41 ... - Yahoo",
+      "url": "https://www.yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html#",
+      "snippet": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure ... NBC News has reached out to Kornfeld for comment.",
+      "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said. This article was originally published on NBCNews.com",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+      "canonical_url": "https://yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7129760964036451
+    },
+    {
+      "id": "src_1b6ebb24466f",
+      "title": "American who initially tested positive now tests negative - abc7NY",
+      "url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896/?userab=kabc_content_recs-577*variant_a_control-2480,otv_web_content_rec-539*variant_c_trending-2268,otv_search_page_design_unification-546*variant_a_control-2299,abcn_popular_reads_exp-542*variant_b_7days_filter-2288#",
+      "snippet": "Jake Rosmarin, who is among the 15 hantavirus-negative passengers quarantining at the University of Nebraska Medical Center after disembarking the MV Hondius",
+      "content": "American doctor who initially tested positive moved from isolation after negative test Dr. Stephen Kornfeld, who identified himself as the first American who initially tested positive for hantavirus from samples taken on the cruise ship, has now tested negative in subsequent testing, he told ABC News. The testing was originally listed as inconclusive per the World Health Organization because of a positive and negative test result returned from a Dutch lab. Health officials had proceeded with caution and labeled him as a positive case. Kornfeld was moved from the Nebraska Biocontainment Unit to the National Quarantine Unit, alongside his fellow passengers, according to a statement from Nebraska Medicine.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896?userab=kabc_content_recs-577%2Avariant_a_control-2480%2Cotv_web_content_rec-539%2Avariant_c_trending-2268%2Cotv_search_page_design_unification-546%2Avariant_a_control-2299%2Cabcn_popular_reads_exp-542%2Avariant_b_7days_filter-2288",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "abc7ny.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7004860888775932
+    },
+    {
+      "id": "src_e98c28d706d5",
+      "title": "Hantavirus outbreak: He was on the trip of a lifetime. Now he’s in a biocontainment unit in Nebraska while cases rise | CNN",
+      "url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk#",
+      "snippet": "<strong>Stephen Kornfeld</strong> was taking the ... passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus....",
+      "content": "Dr. Stephen Kornfeld was taking the trip of a lifetime aboard a cruise sailing across the Atlantic Ocean when he was called on to care for other passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus. Before the world became aware of the hantavirus outbreak on board the Hondius, several people on the ship developed “a flu-like illness” in early April, the oncologist told CNN’s “Erin Burnett OutFront” on Tuesday. Kornfeld also endured night sweats, chills and mild respiratory symptoms, as well as more than two weeks of severe fatigue, he said. “At the time, it was felt like this is just some virus. And now, in retrospect, there is a question, could it have been hantavirus? But it’s just speculation. There’s no way to really know.” Kornfeld says he initially tested “faintly positive” for hantavirus before arriving in Nebraska, but the US Centers for Disease Control and Prevention is awaiting the results of confirmatory tests, expected to come this week. He warned that “what I hear from the experts who I’m seeing daily is that the lab tests may not be that straightforward to interpret, so it may never be known if that illness – which others also had – was hantavirus or the typical virus that circulates to a cruise boat.” Kornfeld said his time caring for people who were ill, as well as time socializing with a passenger who later died from hantavirus, “certainly puts me at higher risk.” Of life in the biocontainment unit, he said, “It’s a little weird being in here by myself, but the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.” Most of the other American passengers who boarded the Hondius six weeks ago are in small, spartan rooms with beds and exercise equipment at the National Quarantine Unit in Omaha, facing what could be weeks of isolation. A little over a week since the World Health Organization reported an outbreak of the rare hantavirus aboard the Hondius, operated by Oceanwide Expeditions, a global repatriation effort is still underway for the passengers and crew who were aboard the ship. As of Tuesday morning, 122 people — 87 passengers and 35 crew members — had been evacuated, and most had returned to their home countries. Five Australians and one New Zealander are in the Netherlands and set to be repatriated later this week, according to authorities. The remaining 27 people aboard the ship — 25 crew members and two medical professionals — are now sailing to Rotterdam, Netherlands, where the ship will be disinfected. Oceanwide expects the ship to arrive on Monday. Three passengers have died since April 11, and there are several other confirmed or probable cases, according to WHO, which has reiterated that the risk to the general public is low. WHO Director-General Dr. Tedros Adhanom Ghebreyesus said Tuesday that 11 cases of hantavirus have been reported. That includes the three deaths. All of the 11 cases are among passengers or crew on the ship, he said, with nine of the cases confirmed as the Andes strain of the virus. The other two are “probable” cases, he said. Weeks of monitoring ahead The next few weeks will be mired in uncertainty for those who were onboard the ship, where human-to-human transmission of the Andes strain is thought to have occurred. In the US, 17 Americans and one British dual-national are being monitored in medical facilities. The ages of the passengers range from late 20s to early 80s, with older people and those with underlying health conditions at higher risk of severe outcomes. Sixteen of those people are at the University of Nebraska Medical Center. Kornfeld is in the biocontainment unit, and the remaining 15 are in the quarantine unit. All continue to be asymptomatic, according to a social media post from HHS on Tuesday afternoon. Two other people — a couple — were transferred to Atlanta’s Emory",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6635508862921391
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_103925a9855b",
+      "title": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure",
+      "url": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278#",
+      "snippet": "<strong>The sole American who returned a positive test aboard the MV Hondius has since tested negative three times</strong>, bringing the total number of reported cases down to 10.",
+      "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said.",
+      "source_type": "web",
+      "provider": "brave, tavily",
+      "providers": [
+        "brave",
+        "tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ],
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ]
+      },
+      "provider_result_count": 2,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+      "canonical_url": "https://nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.9285030299659498
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+      "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8767470315762171
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7649141251174153
+    },
+    {
+      "id": "src_b3eba8cb7383",
+      "title": "No known cases of hantavirus in U.S. as officials monitor 41 ... - Yahoo",
+      "url": "https://www.yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html#",
+      "snippet": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure ... NBC News has reached out to Kornfeld for comment.",
+      "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said. This article was originally published on NBCNews.com",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+      "canonical_url": "https://yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7129760964036451
+    },
+    {
+      "id": "src_1b6ebb24466f",
+      "title": "American who initially tested positive now tests negative - abc7NY",
+      "url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896/?userab=kabc_content_recs-577*variant_a_control-2480,otv_web_content_rec-539*variant_c_trending-2268,otv_search_page_design_unification-546*variant_a_control-2299,abcn_popular_reads_exp-542*variant_b_7days_filter-2288#",
+      "snippet": "Jake Rosmarin, who is among the 15 hantavirus-negative passengers quarantining at the University of Nebraska Medical Center after disembarking the MV Hondius",
+      "content": "American doctor who initially tested positive moved from isolation after negative test Dr. Stephen Kornfeld, who identified himself as the first American who initially tested positive for hantavirus from samples taken on the cruise ship, has now tested negative in subsequent testing, he told ABC News. The testing was originally listed as inconclusive per the World Health Organization because of a positive and negative test result returned from a Dutch lab. Health officials had proceeded with caution and labeled him as a positive case. Kornfeld was moved from the Nebraska Biocontainment Unit to the National Quarantine Unit, alongside his fellow passengers, according to a statement from Nebraska Medicine.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896?userab=kabc_content_recs-577%2Avariant_a_control-2480%2Cotv_web_content_rec-539%2Avariant_c_trending-2268%2Cotv_search_page_design_unification-546%2Avariant_a_control-2299%2Cabcn_popular_reads_exp-542%2Avariant_b_7days_filter-2288",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "abc7ny.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7004860888775932
+    },
+    {
+      "id": "src_e98c28d706d5",
+      "title": "Hantavirus outbreak: He was on the trip of a lifetime. Now he’s in a biocontainment unit in Nebraska while cases rise | CNN",
+      "url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk#",
+      "snippet": "<strong>Stephen Kornfeld</strong> was taking the ... passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus....",
+      "content": "Dr. Stephen Kornfeld was taking the trip of a lifetime aboard a cruise sailing across the Atlantic Ocean when he was called on to care for other passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus. Before the world became aware of the hantavirus outbreak on board the Hondius, several people on the ship developed “a flu-like illness” in early April, the oncologist told CNN’s “Erin Burnett OutFront” on Tuesday. Kornfeld also endured night sweats, chills and mild respiratory symptoms, as well as more than two weeks of severe fatigue, he said. “At the time, it was felt like this is just some virus. And now, in retrospect, there is a question, could it have been hantavirus? But it’s just speculation. There’s no way to really know.” Kornfeld says he initially tested “faintly positive” for hantavirus before arriving in Nebraska, but the US Centers for Disease Control and Prevention is awaiting the results of confirmatory tests, expected to come this week. He warned that “what I hear from the experts who I’m seeing daily is that the lab tests may not be that straightforward to interpret, so it may never be known if that illness – which others also had – was hantavirus or the typical virus that circulates to a cruise boat.” Kornfeld said his time caring for people who were ill, as well as time socializing with a passenger who later died from hantavirus, “certainly puts me at higher risk.” Of life in the biocontainment unit, he said, “It’s a little weird being in here by myself, but the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.” Most of the other American passengers who boarded the Hondius six weeks ago are in small, spartan rooms with beds and exercise equipment at the National Quarantine Unit in Omaha, facing what could be weeks of isolation. A little over a week since the World Health Organization reported an outbreak of the rare hantavirus aboard the Hondius, operated by Oceanwide Expeditions, a global repatriation effort is still underway for the passengers and crew who were aboard the ship. As of Tuesday morning, 122 people — 87 passengers and 35 crew members — had been evacuated, and most had returned to their home countries. Five Australians and one New Zealander are in the Netherlands and set to be repatriated later this week, according to authorities. The remaining 27 people aboard the ship — 25 crew members and two medical professionals — are now sailing to Rotterdam, Netherlands, where the ship will be disinfected. Oceanwide expects the ship to arrive on Monday. Three passengers have died since April 11, and there are several other confirmed or probable cases, according to WHO, which has reiterated that the risk to the general public is low. WHO Director-General Dr. Tedros Adhanom Ghebreyesus said Tuesday that 11 cases of hantavirus have been reported. That includes the three deaths. All of the 11 cases are among passengers or crew on the ship, he said, with nine of the cases confirmed as the Andes strain of the virus. The other two are “probable” cases, he said. Weeks of monitoring ahead The next few weeks will be mired in uncertainty for those who were onboard the ship, where human-to-human transmission of the Andes strain is thought to have occurred. In the US, 17 Americans and one British dual-national are being monitored in medical facilities. The ages of the passengers range from late 20s to early 80s, with older people and those with underlying health conditions at higher risk of severe outcomes. Sixteen of those people are at the University of Nebraska Medical Center. Kornfeld is in the biocontainment unit, and the remaining 15 are in the quarantine unit. All continue to be asymptomatic, according to a social media post from HHS on Tuesday afternoon. Two other people — a couple — were transferred to Atlanta’s Emory",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "edition.cnn.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6635508862921391
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "nbcnews.com",
+        "display_name": "NBC News",
+        "did": "did:plc:wmho6q2uiyktkam3jsvrms3s"
+      },
+      "text": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "created_at": "2026-05-15T12:56:21.453000Z",
+      "images": [],
+      "links": [
+        "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin"
+    },
+    "explanation": [
+      {
+        "text": "NBC News’ post reports that the only American who had previously tested positive for hantavirus aboard the MV Hondius has since tested negative three times, and this has reduced the global reported case count to 10; this matches NBC’s own article, which explains that officials now believe his earlier positive was likely a false positive and that he has no hantavirus antibodies.",
+        "source_ids": [
+          "thread_original",
+          "src_103925a9855b",
+          "src_b3eba8cb7383"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "According to NBC News’ reporting, US officials now say there are no known hantavirus cases in the United States as of that Friday, after new testing at the University of Nebraska Medical Center, even as the CDC continues to monitor at least 41 people across 16 states for possible exposure.",
+        "source_ids": [
+          "src_103925a9855b",
+          "src_b3eba8cb7383"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The American in question is identified in multiple reports as Dr. Stephen Kornfeld from Oregon, who initially tested positive on the MV Hondius but later returned negative results in follow‑up testing and has remained asymptomatic since returning to the US, leading officials to treat the shipboard result as likely a false positive.",
+        "source_ids": [
+          "src_103925a9855b",
+          "src_b3eba8cb7383",
+          "src_1b6ebb24466f",
+          "src_e98c28d706d5"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Before the revised test results, Kornfeld had been treated as the first American hantavirus case linked to the MV Hondius outbreak and was placed in a biocontainment unit in Nebraska, but after subsequent negative testing he was moved to a quarantine unit alongside other Hondius passengers being monitored.",
+        "source_ids": [
+          "src_103925a9855b",
+          "src_b3eba8cb7383",
+          "src_1b6ebb24466f",
+          "src_e98c28d706d5"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The Bluesky thread reacting to NBC News’ post expresses public skepticism about the revised case count and broader distrust of US health authorities under the Trump administration, comparing the hantavirus testing situation to alleged under‑testing during the coronavirus pandemic and questioning whether NBC’s reporting reflects government propaganda.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These views represent the opinions of social media users in the thread and are not established facts about government conduct or media behavior.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_103925a9855b",
+        "title": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure",
+        "url": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278#",
+        "snippet": "<strong>The sole American who returned a positive test aboard the MV Hondius has since tested negative three times</strong>, bringing the total number of reported cases down to 10.",
+        "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said.",
+        "source_type": "web",
+        "provider": "brave, tavily",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "provider_queries": {
+          "brave": [
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+          ],
+          "tavily": [
+            "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+          ]
+        },
+        "provider_result_count": 2,
+        "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative | NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+        "canonical_url": "https://nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "nbcnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @nbcnews.com",
+        "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+        "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+        "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "nbcnews.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @nbcnews.com",
+        "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+        "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "nbcnews.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_b3eba8cb7383",
+        "title": "No known cases of hantavirus in U.S. as officials monitor 41 ... - Yahoo",
+        "url": "https://www.yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html#",
+        "snippet": "No known cases of hantavirus in U.S. as officials monitor 41 with possible exposure ... NBC News has reached out to Kornfeld for comment.",
+        "content": "There are no known cases of hantavirus in the United States as of Friday, garnering a sense of hope stateside amid a global outbreak that has killed three people, sickened 10 and forced dozens into quarantine. The Centers for Disease Control and Prevention announced that there were no known cases after a new round of testing of patients at the University of Nebraska Medical Center in Omaha. Meanwhile, the CDC said it is monitoring at least 41 people across 16 states who may have been exposed to the virus. Half of those people are isolating at home, while the other half are being monitored at the hospital in Omaha and at a medical center in Kansas City. Dr. Stephen Kornfeld, from Oregon, was the sole American patient who tested positive aboard the MV Hondius before disembarking and returning to the country. But a second test taken on the ship was negative. Kornfeld has also remained asymptomatic since his return Monday, the CDC said. NBC News has reached out to Kornfeld for comment. Officials have said the test taken aboard the ship was likely a false positive, and that the physician does not have antibodies to hantavirus, indicating he was never exposed to or ill with it. As the lone American with the virus, he was being treated in a biocontainment unit at the medical facility in Omaha. He has since moved into a quarantine unit, like 15 others in the U.S. who were on the voyage. An additional two passengers were being treated at Emory University Hospital in Atlanta, but Friday afternoon, officials said that those people had been moved to the Nebraska facility. Kornfeld’s negative test has brought the total count of reported cases down to 10, with three deaths among those. Of those 10, eight have been confirmed by laboratory tests, while two other cases are suspected, said World Health Organization Director-General Dr. Tedros Adhanom Ghebreyesus. He noted at a Friday news conference that no new cases have been reported since May 2 and maintained that the global health risk is low. Canadian health officials have said they are monitoring 36 people — including four cruise ship passengers — in isolation, but so far, none are showing symptoms. Doctors have warned that, despite negative tests, patients could still test positive later, which is why CDC officials are encouraging passengers quarantined in hospitals to remain there through the virus’s full incubation period of 42 days. A total of 27 people remain on the Hondius as it sails back to the Netherlands to complete its journey. The ship is expected to arrive on Monday, Ghebreyesus said. This article was originally published on NBCNews.com",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "NBC News \"no known cases of hantavirus in the U.S.\" officials monitor 41 possible exposures",
+        "canonical_url": "https://yahoo.com/news/articles/no-known-cases-hantavirus-u-121600288.html",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_1b6ebb24466f",
+        "title": "American who initially tested positive now tests negative - abc7NY",
+        "url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896/?userab=kabc_content_recs-577*variant_a_control-2480,otv_web_content_rec-539*variant_c_trending-2268,otv_search_page_design_unification-546*variant_a_control-2299,abcn_popular_reads_exp-542*variant_b_7days_filter-2288#",
+        "snippet": "Jake Rosmarin, who is among the 15 hantavirus-negative passengers quarantining at the University of Nebraska Medical Center after disembarking the MV Hondius",
+        "content": "American doctor who initially tested positive moved from isolation after negative test Dr. Stephen Kornfeld, who identified himself as the first American who initially tested positive for hantavirus from samples taken on the cruise ship, has now tested negative in subsequent testing, he told ABC News. The testing was originally listed as inconclusive per the World Health Organization because of a positive and negative test result returned from a Dutch lab. Health officials had proceeded with caution and labeled him as a positive case. Kornfeld was moved from the Nebraska Biocontainment Unit to the National Quarantine Unit, alongside his fellow passengers, according to a statement from Nebraska Medicine.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+        "canonical_url": "https://abc7ny.com/live-updates/hantavirus-infection-outbreak-cruise-ship-symptoms-map/19064881/entry/19098896?userab=kabc_content_recs-577%2Avariant_a_control-2480%2Cotv_web_content_rec-539%2Avariant_c_trending-2268%2Cotv_search_page_design_unification-546%2Avariant_a_control-2299%2Cabcn_popular_reads_exp-542%2Avariant_b_7days_filter-2288",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "abc7ny.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_e98c28d706d5",
+        "title": "Hantavirus outbreak: He was on the trip of a lifetime. Now he’s in a biocontainment unit in Nebraska while cases rise | CNN",
+        "url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk#",
+        "snippet": "<strong>Stephen Kornfeld</strong> was taking the ... passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus....",
+        "content": "Dr. Stephen Kornfeld was taking the trip of a lifetime aboard a cruise sailing across the Atlantic Ocean when he was called on to care for other passengers who fell ill. Now, he’s the only MV Hondius passenger in a biocontainment unit at the University of Nebraska Medical Center after initially testing positive for Andes hantavirus. Before the world became aware of the hantavirus outbreak on board the Hondius, several people on the ship developed “a flu-like illness” in early April, the oncologist told CNN’s “Erin Burnett OutFront” on Tuesday. Kornfeld also endured night sweats, chills and mild respiratory symptoms, as well as more than two weeks of severe fatigue, he said. “At the time, it was felt like this is just some virus. And now, in retrospect, there is a question, could it have been hantavirus? But it’s just speculation. There’s no way to really know.” Kornfeld says he initially tested “faintly positive” for hantavirus before arriving in Nebraska, but the US Centers for Disease Control and Prevention is awaiting the results of confirmatory tests, expected to come this week. He warned that “what I hear from the experts who I’m seeing daily is that the lab tests may not be that straightforward to interpret, so it may never be known if that illness – which others also had – was hantavirus or the typical virus that circulates to a cruise boat.” Kornfeld said his time caring for people who were ill, as well as time socializing with a passenger who later died from hantavirus, “certainly puts me at higher risk.” Of life in the biocontainment unit, he said, “It’s a little weird being in here by myself, but the nurses come in, the doctors come in. I’m on WhatsApp all the time. It’s really amazing how quickly time flies.” Most of the other American passengers who boarded the Hondius six weeks ago are in small, spartan rooms with beds and exercise equipment at the National Quarantine Unit in Omaha, facing what could be weeks of isolation. A little over a week since the World Health Organization reported an outbreak of the rare hantavirus aboard the Hondius, operated by Oceanwide Expeditions, a global repatriation effort is still underway for the passengers and crew who were aboard the ship. As of Tuesday morning, 122 people — 87 passengers and 35 crew members — had been evacuated, and most had returned to their home countries. Five Australians and one New Zealander are in the Netherlands and set to be repatriated later this week, according to authorities. The remaining 27 people aboard the ship — 25 crew members and two medical professionals — are now sailing to Rotterdam, Netherlands, where the ship will be disinfected. Oceanwide expects the ship to arrive on Monday. Three passengers have died since April 11, and there are several other confirmed or probable cases, according to WHO, which has reiterated that the risk to the general public is low. WHO Director-General Dr. Tedros Adhanom Ghebreyesus said Tuesday that 11 cases of hantavirus have been reported. That includes the three deaths. All of the 11 cases are among passengers or crew on the ship, he said, with nine of the cases confirmed as the Andes strain of the virus. The other two are “probable” cases, he said. Weeks of monitoring ahead The next few weeks will be mired in uncertainty for those who were onboard the ship, where human-to-human transmission of the Andes strain is thought to have occurred. In the US, 17 Americans and one British dual-national are being monitored in medical facilities. The ages of the passengers range from late 20s to early 80s, with older people and those with underlying health conditions at higher risk of severe outcomes. Sixteen of those people are at the University of Nebraska Medical Center. Kornfeld is in the biocontainment unit, and the remaining 15 are in the quarantine unit. All continue to be asymptomatic, according to a social media post from HHS on Tuesday afternoon. Two other people — a couple — were transferred to Atlanta’s Emory",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+        "canonical_url": "https://edition.cnn.com/2026/05/12/us/hantavirus-cruise-hondius-quarantine-intl-hnk",
+        "published_at": "2026-05-12T00:00:00",
+        "publisher": "edition.cnn.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 25301
+  }
+}

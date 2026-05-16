@@ -1,0 +1,104 @@
+{
+  "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:27:39.946992+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:27:25.866830+00:00",
+      "event": "node_started",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:27:25.866944+00:00",
+      "event": "node_completed",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:27:25.867294+00:00",
+      "event": "node_started",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:27:25.867386+00:00",
+      "event": "node_completed",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:27:25.867711+00:00",
+      "event": "node_started",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:27:27.145721+00:00",
+      "event": "node_completed",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1277
+    },
+    {
+      "timestamp": "2026-05-16T03:27:27.146199+00:00",
+      "event": "node_started",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:27:31.103133+00:00",
+      "event": "node_completed",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3956
+    },
+    {
+      "timestamp": "2026-05-16T03:27:31.103701+00:00",
+      "event": "node_started",
+      "run_id": "run_ac6c5a079fa84216b77852ae30ea8a9a",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+  "status": "failed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5-mini",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_mini_large_embedding_eval",
+  "comparison_config_id": "newer_mini_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5-mini",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_mini_large_embedding_eval",
+    "comparison_config_id": "newer_mini_large_embedding"
+  },
+  "queries": [],
+  "metrics": {},
+  "warnings": [],
+  "error": {
+    "error": "external_provider_error",
+    "message": "OpenAI returned an empty response.",
+    "status": 502
+  }
+}

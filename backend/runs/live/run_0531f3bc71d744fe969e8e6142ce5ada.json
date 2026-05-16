@@ -1,0 +1,104 @@
+{
+  "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:25:56.371440+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:25:43.402724+00:00",
+      "event": "node_started",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:43.402812+00:00",
+      "event": "node_completed",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:25:43.403171+00:00",
+      "event": "node_started",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:43.403258+00:00",
+      "event": "node_completed",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:25:43.403576+00:00",
+      "event": "node_started",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:44.473028+00:00",
+      "event": "node_completed",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1069
+    },
+    {
+      "timestamp": "2026-05-16T03:25:44.473566+00:00",
+      "event": "node_started",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:25:49.084127+00:00",
+      "event": "node_completed",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 4610
+    },
+    {
+      "timestamp": "2026-05-16T03:25:49.084662+00:00",
+      "event": "node_started",
+      "run_id": "run_0531f3bc71d744fe969e8e6142ce5ada",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/drrenemd.bsky.social/post/3mlvobbwrpc2a",
+  "status": "failed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5-mini",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_mini_large_embedding_eval",
+  "comparison_config_id": "newer_mini_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5-mini",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_mini_large_embedding_eval",
+    "comparison_config_id": "newer_mini_large_embedding"
+  },
+  "queries": [],
+  "metrics": {},
+  "warnings": [],
+  "error": {
+    "error": "external_provider_error",
+    "message": "OpenAI returned an empty response.",
+    "status": 502
+  }
+}

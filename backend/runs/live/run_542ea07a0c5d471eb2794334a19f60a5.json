@@ -1,0 +1,585 @@
+{
+  "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:17:20.660582+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:16:49.808949+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.809049+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.809405+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.809495+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.809809+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:50.850004+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1040
+    },
+    {
+      "timestamp": "2026-05-16T02:16:50.850555+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:54.002062+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3151
+    },
+    {
+      "timestamp": "2026-05-16T02:16:54.002656+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:56.071402+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2068
+    },
+    {
+      "timestamp": "2026-05-16T02:16:56.071949+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:02.150606+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5547
+    },
+    {
+      "timestamp": "2026-05-16T02:17:02.151125+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:10.970285+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 8819
+    },
+    {
+      "timestamp": "2026-05-16T02:17:10.970844+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:11.817960+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 847
+    },
+    {
+      "timestamp": "2026-05-16T02:17:11.818466+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.653553+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8834
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654058+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654140+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654501+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654560+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654827+00:00",
+      "event": "node_started",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:17:20.654921+00:00",
+      "event": "node_completed",
+      "run_id": "run_542ea07a0c5d471eb2794334a19f60a5",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "Zohran Mamdani permanently fund NYC libraries and parks fact check",
+    "NYC library and parks funding \"permanent\" announcement 2026 Mamdani",
+    "Andrew Carnegie history of funding public libraries philanthropic donations",
+    "MAGA Republicans attacks on public libraries Satan narrative controversy"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.nyc.gov/mayors-office/news/2026/05/mayor-mamdani-baselines--31-7-million-for-new-york-city-s-public",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.silive.com/news/2026/05/mayor-mamdani-baselines-317-million-for-new-york-citys-public-libraries.html"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.threads.com/@shaneblair8580/post/DYSmul0FlT-/they-even-lie-about-permanently-funding-libraries-and-parks-its-a-cult",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYU9vfmD3Je/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/Filternews1/posts/zohran-mamdani-has-reportedly-supported-a-move-to-permanently-fund-nyc-libraries/1516297606620590/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/greenpeaceusa/posts/mayor-zohran-mamdani-has-announced-that-under-his-leadership-new-york-city-has-e/1437900395048959/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://lavocedinewyork.com/en/new-york/2026/05/15/mamdani-reveals-failed-screenplay-in-nyc-library-funding-announcement/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.silive.com/news/2026/05/mayor-mamdani-baselines-317-million-for-new-york-citys-public-libraries.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYXg50hm12K/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.philanthropyroundtable.org/hall-of-fame/andrew-carnegie/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_1c0605b3628d",
+        "title": "Word has it that New York City Mayor Zohran Mamdani is set to ...",
+        "url": "https://www.threads.com/@mychal3ts/post/DYVHRlSD4oE/word-has-it-that-new-york-city-mayor-zohran-mamdani-is-set-to-permanently-fund/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_85894b3feaeb",
+        "title": "2. Zohran Mamdani Pushes Funding for Libraries and Parks - Threads",
+        "url": "https://www.threads.com/@benjifaun/post/DYUlb-iCZr5/zohran-mamdani-pushes-funding-for-libraries-and-parks-zohran-mamdani-proposed/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_15cf0e0060b3",
+        "title": "History of the Carnegie Libraries",
+        "url": "https://www.carnegie-libraries.org/history.html#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_834e23693fca",
+        "title": "Andrew Carnegie's Philanthropic Support For Free Public Libraries",
+        "url": "https://historyofbooks.wordpress.com/san-diego-the-exemplar-of-the-american-free-public-library-movement/the-american-free-public-library-movement-the-san-diego-free-public-library/andrew-carnegies-philanthropic-support-for-free-public-libraries/#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+      "snippet": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US ",
+      "content": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US and the world.  Then, years later, rich Americans and MAGA pals of Trump decided that 👎 libraries were the work of Satan. So, Mayor Mamdanii decided that US/NY citizens need libraries....🇺🇸🗽📚✌️\n\nMamdami for president\n\nwww.aol.com/news/mayor-m...",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8411327622926631
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @kackbro.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreifkpcoen47ixq3bna5n5ehdhko2agvnjtad5s2oopjdvu5alexhnq",
+      "snippet": "Image type: poster\nVisible text: BREAKING\n\nTHIS IS THE BEST NEWS EVER ..\nZOHRAN MAMDANI TO PERMANENTLY\nFUND NYC LIBRARIES\nAND PARKS.\n\nLIBRARIES WILL NO\nLONGER HAVE TO\nPLEAD FOR FUNDING\nEACH YEAR.\nVisual description: Graphic styled like a news alert. The top has a red banner with the word \"BREAKING\" ",
+      "content": "Image type: poster\nVisible text: BREAKING\n\nTHIS IS THE BEST NEWS EVER ..\nZOHRAN MAMDANI TO PERMANENTLY\nFUND NYC LIBRARIES\nAND PARKS.\n\nLIBRARIES WILL NO\nLONGER HAVE TO\nPLEAD FOR FUNDING\nEACH YEAR.\nVisual description: Graphic styled like a news alert. The top has a red banner with the word \"BREAKING\" in large white capital letters. Below, on a black background, there is centered white text announcing that Zohran Mamdani will permanently fund NYC libraries and parks and stating that libraries will no longer have to plead for funding each year. There are no photos or additional graphics, only text in bold uppercase letters.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.78061340891932
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+      "snippet": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+      "content": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6056156156677133
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+      "snippet": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US ",
+      "content": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US and the world.  Then, years later, rich Americans and MAGA pals of Trump decided that 👎 libraries were the work of Satan. So, Mayor Mamdanii decided that US/NY citizens need libraries....🇺🇸🗽📚✌️\n\nMamdami for president\n\nwww.aol.com/news/mayor-m...",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8411327622926631
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kackbro.bsky.social",
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+      "snippet": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+      "content": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kackbro.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6056156156677133
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "All substantive claims rely on the original social post, its thread text, and a graphic image; no official documents or independent news sources are provided, so policy details or Mamdani’s actual office cannot be treated as confirmed facts.",
+      "bullet_index": null
+    },
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+      "platform": "bluesky",
+      "author": {
+        "handle": "kackbro.bsky.social",
+        "display_name": "M Meerkat",
+        "did": "did:plc:s3m33wvdsixxr2ifnkldlfp3"
+      },
+      "text": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+      "created_at": "2026-05-15T22:09:14.445000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:s3m33wvdsixxr2ifnkldlfp3/bafkreifkpcoen47ixq3bna5n5ehdhko2agvnjtad5s2oopjdvu5alexhnq",
+          "alt_text": null,
+          "ocr_text": "BREAKING\n\nTHIS IS THE BEST NEWS EVER ..\nZOHRAN MAMDANI TO PERMANENTLY\nFUND NYC LIBRARIES\nAND PARKS.\n\nLIBRARIES WILL NO\nLONGER HAVE TO\nPLEAD FOR FUNDING\nEACH YEAR.",
+          "description": "Graphic styled like a news alert. The top has a red banner with the word \"BREAKING\" in large white capital letters. Below, on a black background, there is centered white text announcing that Zohran Mamdani will permanently fund NYC libraries and parks and stating that libraries will no longer have to plead for funding each year. There are no photos or additional graphics, only text in bold uppercase letters.",
+          "image_type": "poster"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US and the world.  Then, years later, rich Americans and MAGA pals of Trump decided that 👎 libraries were the work of Satan. So, Mayor Mamdanii decided that US/NY citizens need libraries....🇺🇸🗽📚✌️\n\nMamdami for president\n\nwww.aol.com/news/mayor-m..."
+    },
+    "explanation": [
+      {
+        "text": "The post’s author praises a political figure they call “Mayor Mamdani,” saying he “keeps raising the bar” and urging that other mayors follow what the author describes as his “successful path.”",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s positive opinion of Mamdani’s performance; no independent verification is provided in the sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the extended thread text attached to the post, the same author claims that “every single thing he’s doing is working” and that this is “proving the taxing the rich works right smack in the face of the GOP’s biggest lie,” framing Mamdani’s approach as successful and based on taxing wealthy people.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are the author’s political views and value judgments about tax policy and GOP rhetoric, not confirmed assessments of policy outcomes.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The author declares “Team mandani right here” and “Mamdami for president,” and contrasts “We are the many. They are the few,” signaling strong personal support for Mamdani and a populist, us-versus-them framing of politics.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the author’s expressed enthusiasm and rhetoric; it does not indicate that Mamdani is actually a mayor or presidential candidate.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Within the thread, the author references Andrew Carnegie’s past donations to libraries and contrasts this with their claim that later “rich Americans and MAGA pals of Trump” treated libraries negatively, using this narrative to justify praise that “Mayor Mamdanii decided that US/NY citizens need libraries.”",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These historical and political characterizations reflect the author’s narrative and opinions and are not corroborated by independent historical or news sources here.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @kackbro.bsky.social",
+        "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+        "snippet": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US ",
+        "content": "🙌 every single thing he's doing is working & is simultaneously proving the taxing the rich works right smack in the face of the GOP's biggest lie.\n\nWe are the many. They are the few.\n\nTeam mandani right here\n\nRemember when Andrew Carnegie Scottish-American philanthropist donated libraries to the US and the world.  Then, years later, rich Americans and MAGA pals of Trump decided that 👎 libraries were the work of Satan. So, Mayor Mamdanii decided that US/NY citizens need libraries....🇺🇸🗽📚✌️\n\nMamdami for president\n\nwww.aol.com/news/mayor-m...",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kackbro.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @kackbro.bsky.social",
+        "url": "https://bsky.app/profile/kackbro.bsky.social/post/3mlwdvdll7k2i",
+        "snippet": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+        "content": "Mayor Mamdani Keeps Raising The\nBar, For Other Mayors To Follow \nHis Successful Path.......",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kackbro.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "All substantive claims rely on the original social post, its thread text, and a graphic image; no official documents or independent news sources are provided, so policy details or Mamdani’s actual office cannot be treated as confirmed facts.",
+        "bullet_index": null
+      },
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 30315
+  }
+}

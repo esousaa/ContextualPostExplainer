@@ -1,0 +1,638 @@
+{
+  "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:33:00.333464+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:32:40.319394+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:40.319479+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:40.319851+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:40.319947+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:40.320282+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:41.262712+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 942
+    },
+    {
+      "timestamp": "2026-05-16T02:32:41.263226+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:41.263293+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:41.263620+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:43.088024+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1824
+    },
+    {
+      "timestamp": "2026-05-16T02:32:43.088524+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:47.660400+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 4571
+    },
+    {
+      "timestamp": "2026-05-16T02:32:47.660921+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:55.655097+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7475
+    },
+    {
+      "timestamp": "2026-05-16T02:32:55.655614+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:56.348364+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 692
+    },
+    {
+      "timestamp": "2026-05-16T02:32:56.348863+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.327106+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3978
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.327640+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.327759+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.328088+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.328153+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.328433+00:00",
+      "event": "node_started",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:00.328524+00:00",
+      "event": "node_completed",
+      "run_id": "run_d63d2aa8ea92483f816b8baaba7d0066",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026",
+    "proposal to tax all-cash real estate purchases over $1 million in New York foreign investment money laundering concerns",
+    "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties",
+    "impact of all-cash home purchase taxes on foreign buyers and empty apartments New York City"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "brave": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.planetizen.com/news/2026/05/137577-nyc-will-create-new-tax-1m-cash-home-purchases-report-says",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://gothamist.com/news/lawmakers-plan-tax-on-nyc-cash-sales-as-hochul-details-pied-a-terre-plan",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.nysenate.gov/newsroom/press-releases/2026/patricia-fahy/sen-fahy-calls-expanding-pied-terre-tax-outside-nyc",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_dd72cbe90f5c",
+        "title": "New York Lawmakers Planning First-Of-Its-Kind Tax On $1 Million Homes Purchased With Cash, Report Says",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_052856e0e4db",
+        "title": "NY Plans New Tax on NYC Homes Over $1 Million Bought With Cash - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_69e30e7eb24a",
+        "title": "New York Lawmakers Planning Tax On $1 Million Homes Purchased With Cash, Report Says",
+        "url": "https://www.yahoo.com/news/articles/york-lawmakers-planning-tax-1-191545816.html#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_28c3e4420beb",
+        "title": "Towers of Secrecy: Piercing the Shell Companies - The New York Times",
+        "url": "https://www.nytimes.com/news-event/shell-company-towers-of-secrecy-real-estate#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_bdfc911474e1",
+        "title": "How foreign investors launder their money in New York real estate | The Week",
+        "url": "https://theweek.com/articles/736313/how-foreign-investors-launder-money-new-york-real-estate#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_c5cfa8ab53ab",
+        "title": "Lawmakers aim to combat money-laundering through New York real estate | New-York.Realestate",
+        "url": "https://new-york.realestate/news/lawmakers-aim-to-combat-money-laundering-through-new-york-real-estate/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_8ac5c0d66f40",
+        "title": "Deal or No Deal? Confusion Over Hochul’s $268 Billion Budget",
+        "url": "https://www.thecity.nyc/2026/05/07/hochuls-268-billion-budget-has-new-tax-on-nyc-luxury-second-homes/#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 2
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "brave": 2,
+      "bluesky": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+      "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9806732198079443
+    },
+    {
+      "id": "src_b84ba8b99576",
+      "title": "New York eyes tax on $1M+ all-cash home purchases",
+      "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+      "snippet": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay <strong>1 percent of the purchase price to cover the levy</strong>, sources told Bloomberg.",
+      "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026",
+      "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "therealdeal.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7551216524577273
+    },
+    {
+      "id": "src_af9472378f0a",
+      "title": "NYC Pied-à-Terre Tax 2026: $5M+ Second Home Surcharge Explained",
+      "url": "https://www.defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide/#",
+      "snippet": "The Governor’s office press release calls it the state’s first <strong>pied-à-terre surcharge</strong>, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget.",
+      "content": "On April 15, 2026, Governor Kathy Hochul and Mayor Zohran Mamdani jointly announced a proposed pied-à-terre tax nyc luxury buyers have been bracing for since the city’s $5.4 billion projected deficit became public. The plan: an annual surcharge on second homes in New York City valued at $5 million or more, projected to generate roughly $500 million per year for the city. The Governor’s office press release calls it the state’s first pied-à-terre surcharge, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget. The timing matters. New York’s state budget sat 17 days past its April 1 deadline when the announcement dropped, and luxury real estate has emerged as the political lever both Albany and City Hall are willing to pull. The proposal still needs State Legislature approval. Rates are not finalized. The fight is not theoretical anymore. For readers outside Billionaires’ Row, this is not just a Manhattan story. A new tax on $5 million-plus second homes reshuffles where wealthy buyers park their money, and that ripple reaches Staten Island brownstones, Brooklyn waterfront condos, and New Jersey suburbs. The piece below walks through what the tax does, who pays, what the industry is saying, and the practical effects for buyers in the outer boroughs and the tri-state region. In This Post What Is the NYC Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on a second home owned by someone whose primary residence sits elsewhere. The French phrase means “foot on the ground,” referring to a small in-town apartment for occasional use. New York City has flirted with such a tax since 2014, when Mayor Bill de Blasio first floated the concept. A 2019 version stalled in Albany. The 2026 proposal is the closest the policy has come to passing. The the surcharge nyc lawmakers are now considering applies to one-, two-, and three-family homes, condominiums, and cooperatives valued at $5 million or more, when the owner’s primary residence is outside the five boroughs. It does not replace the existing NYC mansion tax, which is a one-time transfer tax paid at closing. The this proposal is recurring. A buyer could pay both: mansion tax once, the tax every year. This distinction is causing a lot of confusion in the Manhattan market, where many high-end buyers are out-of-state or international and assumed they were already paying their share through the mansion tax. They are not, under the new framework. Who Pays the NYC Pied-à-Terre Tax (and Who Doesn’t) The pied-à-terre tax 2026 proposal targets a specific buyer profile. Three rules decide the bill. Property type. The surcharge applies to one- to three-family homes, condominiums, and co-operatives. Pure rental buildings are out. Commercial property is out. Value threshold. Only homes assessed at or sold for $5 million or more fall in scope. The Real Estate Board of New York estimates roughly 5,400 NYC properties hit this mark, concentrated in Manhattan but with a growing share in Brooklyn waterfront towers and a small number of Staten Island and Queens estates. Primary residence test. This is the linchpin. The tax only applies when the owner’s primary home is outside New York City. Suburban Westchester, Connecticut, Florida, London, all qualify the home as a pied-à-terre. A buyer who lives in Manhattan full-time and owns a $20 million Tribeca condo as their primary residence pays no surcharge. Rental exemption. Hochul’s plan also exempts homes that are rented out regularly. The carve-out is meant to protect long-term rental supply and avoid penalizing investors who put units back into the market. The CNBC analysis flags this as a potential loophole. Wealthy owners may convert pied-à-terres into nominal rentals to dodge the surcharge. If you own a $4.9 million Brooklyn brownstone as a second home, you pay nothing under the proposal. If you own a $5.1 million Park Avenue co-op as a pied-à-terre, you pay the surcharge. The threshold is sharp. Est",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties",
+      "canonical_url": "https://defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide",
+      "published_at": "2026-04-19T00:00:00",
+      "publisher": "defalcorealty.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6614594402767302
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5047756649017542
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_b84ba8b99576",
+      "title": "New York eyes tax on $1M+ all-cash home purchases",
+      "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+      "snippet": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay <strong>1 percent of the purchase price to cover the levy</strong>, sources told Bloomberg.",
+      "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026",
+      "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "therealdeal.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7551216524577273
+    },
+    {
+      "id": "src_af9472378f0a",
+      "title": "NYC Pied-à-Terre Tax 2026: $5M+ Second Home Surcharge Explained",
+      "url": "https://www.defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide/#",
+      "snippet": "The Governor’s office press release calls it the state’s first <strong>pied-à-terre surcharge</strong>, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget.",
+      "content": "On April 15, 2026, Governor Kathy Hochul and Mayor Zohran Mamdani jointly announced a proposed pied-à-terre tax nyc luxury buyers have been bracing for since the city’s $5.4 billion projected deficit became public. The plan: an annual surcharge on second homes in New York City valued at $5 million or more, projected to generate roughly $500 million per year for the city. The Governor’s office press release calls it the state’s first pied-à-terre surcharge, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget. The timing matters. New York’s state budget sat 17 days past its April 1 deadline when the announcement dropped, and luxury real estate has emerged as the political lever both Albany and City Hall are willing to pull. The proposal still needs State Legislature approval. Rates are not finalized. The fight is not theoretical anymore. For readers outside Billionaires’ Row, this is not just a Manhattan story. A new tax on $5 million-plus second homes reshuffles where wealthy buyers park their money, and that ripple reaches Staten Island brownstones, Brooklyn waterfront condos, and New Jersey suburbs. The piece below walks through what the tax does, who pays, what the industry is saying, and the practical effects for buyers in the outer boroughs and the tri-state region. In This Post What Is the NYC Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on a second home owned by someone whose primary residence sits elsewhere. The French phrase means “foot on the ground,” referring to a small in-town apartment for occasional use. New York City has flirted with such a tax since 2014, when Mayor Bill de Blasio first floated the concept. A 2019 version stalled in Albany. The 2026 proposal is the closest the policy has come to passing. The the surcharge nyc lawmakers are now considering applies to one-, two-, and three-family homes, condominiums, and cooperatives valued at $5 million or more, when the owner’s primary residence is outside the five boroughs. It does not replace the existing NYC mansion tax, which is a one-time transfer tax paid at closing. The this proposal is recurring. A buyer could pay both: mansion tax once, the tax every year. This distinction is causing a lot of confusion in the Manhattan market, where many high-end buyers are out-of-state or international and assumed they were already paying their share through the mansion tax. They are not, under the new framework. Who Pays the NYC Pied-à-Terre Tax (and Who Doesn’t) The pied-à-terre tax 2026 proposal targets a specific buyer profile. Three rules decide the bill. Property type. The surcharge applies to one- to three-family homes, condominiums, and co-operatives. Pure rental buildings are out. Commercial property is out. Value threshold. Only homes assessed at or sold for $5 million or more fall in scope. The Real Estate Board of New York estimates roughly 5,400 NYC properties hit this mark, concentrated in Manhattan but with a growing share in Brooklyn waterfront towers and a small number of Staten Island and Queens estates. Primary residence test. This is the linchpin. The tax only applies when the owner’s primary home is outside New York City. Suburban Westchester, Connecticut, Florida, London, all qualify the home as a pied-à-terre. A buyer who lives in Manhattan full-time and owns a $20 million Tribeca condo as their primary residence pays no surcharge. Rental exemption. Hochul’s plan also exempts homes that are rented out regularly. The carve-out is meant to protect long-term rental supply and avoid penalizing investors who put units back into the market. The CNBC analysis flags this as a potential loophole. Wealthy owners may convert pied-à-terres into nominal rentals to dodge the surcharge. If you own a $4.9 million Brooklyn brownstone as a second home, you pay nothing under the proposal. If you own a $5.1 million Park Avenue co-op as a pied-à-terre, you pay the surcharge. The threshold is sharp. Est",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties",
+      "canonical_url": "https://defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide",
+      "published_at": "2026-04-19T00:00:00",
+      "publisher": "defalcorealty.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6614594402767302
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5047756649017542
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "platform": "bluesky",
+      "author": {
+        "handle": "forbes.com",
+        "display_name": "Forbes",
+        "did": "did:plc:2w45zyhuklwihpdc7oj3mi63"
+      },
+      "text": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "created_at": "2026-05-14T19:20:06Z",
+      "images": [],
+      "links": [
+        "http://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/?utm_campaign=forbes&utm_medium=social&utm_source=bluesky"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes."
+    },
+    "explanation": [
+      {
+        "text": "The post refers to a proposed New York tax on all‑cash home purchases over $1 million, which state legislators are weighing and which would require buyers to pay about 1% of the purchase price on such deals.",
+        "source_ids": [
+          "src_b84ba8b99576"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The tax proposal targets transactions that are currently exempt from New York’s mortgage recording tax, effectively extending taxation to high‑value purchases where buyers do not take out a mortgage.",
+        "source_ids": [
+          "src_b84ba8b99576"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The revenue from the proposed 1% levy on all‑cash home purchases over $1 million in New York City alone is expected to be about $160 million, aimed at helping address the city’s budget deficit.",
+        "source_ids": [
+          "src_b84ba8b99576"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The Forbes social post’s line that “the tax is being discussed as part of New York’s state budget negotiations” aligns with reporting that the measure is part of broader budget talks, alongside other luxury‑property taxes like a proposed pied‑à‑terre surcharge on second homes worth $5 million or more.",
+        "source_ids": [
+          "thread_original",
+          "src_b84ba8b99576",
+          "src_af9472378f0a"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context",
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Budget‑negotiation framing comes from social and secondary background sources rather than a primary government document.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The same political and fiscal context driving the proposed all‑cash purchase tax has also produced a separate 2026 proposal for a recurring pied‑à‑terre surcharge on New York City second homes valued at $5 million or more, pitched as a way to raise hundreds of millions annually to help close budget gaps.",
+        "source_ids": [
+          "src_af9472378f0a"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Details of the pied‑à‑terre proposal come from an industry background explainer rather than an official statute or final budget bill.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_b84ba8b99576",
+        "title": "New York eyes tax on $1M+ all-cash home purchases",
+        "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+        "snippet": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay <strong>1 percent of the purchase price to cover the levy</strong>, sources told Bloomberg.",
+        "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026",
+        "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "therealdeal.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_af9472378f0a",
+        "title": "NYC Pied-à-Terre Tax 2026: $5M+ Second Home Surcharge Explained",
+        "url": "https://www.defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide/#",
+        "snippet": "The Governor’s office press release calls it the state’s first <strong>pied-à-terre surcharge</strong>, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget.",
+        "content": "On April 15, 2026, Governor Kathy Hochul and Mayor Zohran Mamdani jointly announced a proposed pied-à-terre tax nyc luxury buyers have been bracing for since the city’s $5.4 billion projected deficit became public. The plan: an annual surcharge on second homes in New York City valued at $5 million or more, projected to generate roughly $500 million per year for the city. The Governor’s office press release calls it the state’s first pied-à-terre surcharge, and the Mayor’s office statement frames it as a “fair share” measure tied to the stalled state budget. The timing matters. New York’s state budget sat 17 days past its April 1 deadline when the announcement dropped, and luxury real estate has emerged as the political lever both Albany and City Hall are willing to pull. The proposal still needs State Legislature approval. Rates are not finalized. The fight is not theoretical anymore. For readers outside Billionaires’ Row, this is not just a Manhattan story. A new tax on $5 million-plus second homes reshuffles where wealthy buyers park their money, and that ripple reaches Staten Island brownstones, Brooklyn waterfront condos, and New Jersey suburbs. The piece below walks through what the tax does, who pays, what the industry is saying, and the practical effects for buyers in the outer boroughs and the tri-state region. In This Post What Is the NYC Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on a second home owned by someone whose primary residence sits elsewhere. The French phrase means “foot on the ground,” referring to a small in-town apartment for occasional use. New York City has flirted with such a tax since 2014, when Mayor Bill de Blasio first floated the concept. A 2019 version stalled in Albany. The 2026 proposal is the closest the policy has come to passing. The the surcharge nyc lawmakers are now considering applies to one-, two-, and three-family homes, condominiums, and cooperatives valued at $5 million or more, when the owner’s primary residence is outside the five boroughs. It does not replace the existing NYC mansion tax, which is a one-time transfer tax paid at closing. The this proposal is recurring. A buyer could pay both: mansion tax once, the tax every year. This distinction is causing a lot of confusion in the Manhattan market, where many high-end buyers are out-of-state or international and assumed they were already paying their share through the mansion tax. They are not, under the new framework. Who Pays the NYC Pied-à-Terre Tax (and Who Doesn’t) The pied-à-terre tax 2026 proposal targets a specific buyer profile. Three rules decide the bill. Property type. The surcharge applies to one- to three-family homes, condominiums, and co-operatives. Pure rental buildings are out. Commercial property is out. Value threshold. Only homes assessed at or sold for $5 million or more fall in scope. The Real Estate Board of New York estimates roughly 5,400 NYC properties hit this mark, concentrated in Manhattan but with a growing share in Brooklyn waterfront towers and a small number of Staten Island and Queens estates. Primary residence test. This is the linchpin. The tax only applies when the owner’s primary home is outside New York City. Suburban Westchester, Connecticut, Florida, London, all qualify the home as a pied-à-terre. A buyer who lives in Manhattan full-time and owns a $20 million Tribeca condo as their primary residence pays no surcharge. Rental exemption. Hochul’s plan also exempts homes that are rented out regularly. The carve-out is meant to protect long-term rental supply and avoid penalizing investors who put units back into the market. The CNBC analysis flags this as a potential loophole. Wealthy owners may convert pied-à-terres into nominal rentals to dodge the surcharge. If you own a $4.9 million Brooklyn brownstone as a second home, you pay nothing under the proposal. If you own a $5.1 million Park Avenue co-op as a pied-à-terre, you pay the surcharge. The threshold is sharp. Est",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New York state budget 2026 housing measures tax on luxury or pied-à-terre properties",
+        "canonical_url": "https://defalcorealty.com/blog/nyc-pied-a-terre-tax-2026-buyer-guide",
+        "published_at": "2026-04-19T00:00:00",
+        "publisher": "defalcorealty.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+        "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 19490
+  }
+}

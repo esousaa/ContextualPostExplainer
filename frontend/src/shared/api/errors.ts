@@ -25,7 +25,7 @@ export function normalizeApiError(error: unknown): ApiError {
     };
   }
 
-  if (error instanceof DOMException && error.name === "AbortError") {
+  if (isAbortError(error)) {
     return {
       error: "timeout",
       message: "The request took too long. Try again when the backend is available."
@@ -50,4 +50,8 @@ export function normalizeApiError(error: unknown): ApiError {
     error: "unexpected_error",
     message: "Unexpected frontend error."
   };
+}
+
+export function isAbortError(error: unknown): boolean {
+  return error instanceof DOMException && error.name === "AbortError";
 }

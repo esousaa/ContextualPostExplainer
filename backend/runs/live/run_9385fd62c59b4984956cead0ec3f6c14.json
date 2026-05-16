@@ -1,0 +1,149 @@
+{
+  "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:53:41.641748+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:53:16.973105+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.973212+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.973563+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.973653+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.973994+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:17.992558+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1018
+    },
+    {
+      "timestamp": "2026-05-16T01:53:17.993228+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:17.993313+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:17.993746+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:19.999764+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2005
+    },
+    {
+      "timestamp": "2026-05-16T01:53:20.000307+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:27.217076+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7216
+    },
+    {
+      "timestamp": "2026-05-16T01:53:27.217653+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.137958+00:00",
+      "event": "node_completed",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 13413
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.138851+00:00",
+      "event": "node_started",
+      "run_id": "run_9385fd62c59b4984956cead0ec3f6c14",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+  "status": "failed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [],
+  "metrics": {},
+  "warnings": [],
+  "error": {
+    "error": "external_provider_error",
+    "message": "OpenAI embedding generation failed.",
+    "status": 502
+  }
+}

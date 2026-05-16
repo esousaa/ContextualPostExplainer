@@ -1,0 +1,593 @@
+{
+  "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:52:21.344338+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:51:49.092056+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:49.092162+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:51:49.092569+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:49.092661+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:51:49.093039+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:50.469496+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1376
+    },
+    {
+      "timestamp": "2026-05-16T01:51:50.470138+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:55.053303+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 4046
+    },
+    {
+      "timestamp": "2026-05-16T01:51:55.053908+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:57.487346+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2433
+    },
+    {
+      "timestamp": "2026-05-16T01:51:57.488012+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:04.036828+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6548
+    },
+    {
+      "timestamp": "2026-05-16T01:52:04.037413+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:11.304565+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7267
+    },
+    {
+      "timestamp": "2026-05-16T01:52:11.305179+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:11.833988+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 528
+    },
+    {
+      "timestamp": "2026-05-16T01:52:11.834547+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.338245+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 9503
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.338893+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.338999+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.339385+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.339453+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.339731+00:00",
+      "event": "node_started",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:21.339816+00:00",
+      "event": "node_completed",
+      "run_id": "run_d395813ec46b409c9b7207080159b8c9",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"Miles Taylor\" $1.7 billion apology fund Jan 6 criminals tax dollars",
+    "proposal to compensate January 6 defendants or rioters 1.7 billion fact check",
+    "Donald Trump plan to pay January 6 rioters with taxpayer money legislative proposal",
+    "\"Miles Taylor\" tweet about Donald Trump turning Jan 6 criminals into millionaires context"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.instagram.com/p/DYX6ZcWk3Z9/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@tgm_interior_design/post/DYXS9lQm4OK/this-is-disgusting-f-ck-him-and-those-traitors/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.msn.com/en-gb/news/insight/miles-taylor-warns-trump-faces-prison-over-10b-lawsuit/gm-GM6DF779B2?gemSnapshotKey=GM6DF779B2-snapshot-1",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/groups/288544190546353/posts/927035190030580/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/BarbaraComstock/status/2055341678345457996",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.nytimes.com/live/2026/05/15/us/trump-news",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYVoOo4jalj/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.msn.com/en-us/news/insight/trump-may-drop-irs-suit-for-1-7b-fund-for-allies/gm-GM0C0442A7?gemSnapshotKey=GM0C0442A7-snapshot-4",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/HuffPost/posts/the-fund-will-be-used-to-compensate-those-who-claim-they-were-harmed-by-the-bide/1347378190579353/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.politico.com/news/2025/03/25/trump-floats-possibility-of-compensation-for-jan-6-rioters-00250063",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_78be2e42f078",
+        "title": "Trump is talking about 'compensation' for Jan. 6 rioters | Snopes.com",
+        "url": "https://www.snopes.com/fact-check/trump-jan-6-compensation/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_83a3720ef654",
+        "title": "Trump Has a Wild “Compensation” Plan for January 6 Rioters",
+        "url": "https://newrepublic.com/post/193187/trump-compensation-pay-january-6-rioters#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+      "snippet": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1",
+      "content": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1.7 billion apology fund for them.\n\nDisgusting.\nVisual description: A screenshot of a social media post on a black background. In the upper left is a small profile photo of a man with glasses, a beard, and short hair, along with a verified badge and username partially visible. To the right of the profile line is a timestamp saying the post was made 4 hours ago. Below, in large white text, the post criticizes Donald Trump and claims he is turning January 6 criminals into millionaires using tax dollars, describing actions by those people and stating he is creating a $1.7 billion apology fund for them, ending with the word \"Disgusting.\"",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7644253375008417
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "content": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7588975047751043
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n",
+      "content": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n\nCorruption, and as you see, nobody is stopping it.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6601790163075861
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+      "snippet": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1",
+      "content": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1.7 billion apology fund for them.\n\nDisgusting.\nVisual description: A screenshot of a social media post on a black background. In the upper left is a small profile photo of a man with glasses, a beard, and short hair, along with a verified badge and username partially visible. To the right of the profile line is a timestamp saying the post was made 4 hours ago. Below, in large white text, the post criticizes Donald Trump and claims he is turning January 6 criminals into millionaires using tax dollars, describing actions by those people and stating he is creating a $1.7 billion apology fund for them, ending with the word \"Disgusting.\"",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7644253375008417
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "content": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7588975047751043
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @raywoodson5.bsky.social",
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "snippet": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n",
+      "content": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n\nCorruption, and as you see, nobody is stopping it.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "raywoodson5.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6601790163075861
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "All available materials are social media posts or screenshots; there are no official documents or independent news reports here, so none of the specific policy or funding allegations can be treated as verified facts.",
+      "bullet_index": null
+    },
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+      "platform": "bluesky",
+      "author": {
+        "handle": "raywoodson5.bsky.social",
+        "display_name": "Ray Woodson",
+        "did": "did:plc:ytk3lrsq5cxm2ukumwq2id5k"
+      },
+      "text": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+      "created_at": "2026-05-15T19:28:00.576000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+          "alt_text": null,
+          "ocr_text": "Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1.7 billion apology fund for them.\n\nDisgusting.",
+          "description": "A screenshot of a social media post on a black background. In the upper left is a small profile photo of a man with glasses, a beard, and short hair, along with a verified badge and username partially visible. To the right of the profile line is a timestamp saying the post was made 4 hours ago. Below, in large white text, the post criticizes Donald Trump and claims he is turning January 6 criminals into millionaires using tax dollars, describing actions by those people and stating he is creating a $1.7 billion apology fund for them, ending with the word \"Disgusting.\"",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n\nCorruption, and as you see, nobody is stopping it."
+    },
+    "explanation": [
+      {
+        "text": "Ray Woodson’s post expresses outrage at what he calls a “firehose of corruption and bullshit,” arguing that the situation shown in the attached screenshot is so extreme that it justifies marching on Washington, D.C. to demand the end of what he describes as a “mafia administration,” which he frames as a major insult to Americans.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the author’s opinion and rhetoric from the original post; it does not verify any factual claim about corruption, illegality, or the nature of the administration.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the surrounding thread, Woodson criticizes any legislators who would vote for the referenced measure, saying they should find another line of work because they are not truly working for the people, and he adds the hashtag “#resistdammit” while asserting that corruption is ongoing and unchecked.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the poster’s political judgment and call to action within the thread, not a verified description of legislative behavior or proven corruption.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Woodson’s outrage in the main post is directed at the scenario described in the Miles Taylor screenshot, treating the alleged $1.7 billion fund for January 6 participants as a tipping point beyond earlier scandals and as justification for more drastic civic responses such as marching on Washington and demanding an end to the current administration.",
+        "source_ids": [
+          "thread_original",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This explains how the author frames and reacts to the screenshot’s allegations; it does not confirm that the described fund or related policy is real.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @raywoodson5.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:ytk3lrsq5cxm2ukumwq2id5k/bafkreievvnrbfpyotesxzsapa6teaj2ycjnxh5vpamkx7l2ngt6i7tjr6e",
+        "snippet": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1",
+        "content": "Image type: screenshot\nVisible text: Miles Taylor @Miles... · 4h\nDonald Trump is about to turn Jan 6 criminals into MILLIONAIRES.\n\nWith your tax dollars.\n\nThe people who smeared feces on the Capitol walls...\n...hunted Mike Pence through the halls of Congress...\n...assaulted cops.\n\nHe's creating a $1.7 billion apology fund for them.\n\nDisgusting.\nVisual description: A screenshot of a social media post on a black background. In the upper left is a small profile photo of a man with glasses, a beard, and short hair, along with a verified badge and username partially visible. To the right of the profile line is a timestamp saying the post was made 4 hours ago. Below, in large white text, the post criticizes Donald Trump and claims he is turning January 6 criminals into millionaires using tax dollars, describing actions by those people and stating he is creating a $1.7 billion apology fund for them, ending with the word \"Disgusting.\"",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "raywoodson5.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @raywoodson5.bsky.social",
+        "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+        "snippet": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+        "content": "The count on you being exhausted by the firehose of corruption and bullshit. But THIS. THIS is grounds to march on DC and demand the END of this mafia administration. This is the biggest middle finger to America.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "raywoodson5.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @raywoodson5.bsky.social",
+        "url": "https://bsky.app/profile/raywoodson5.bsky.social/post/3mlw2uzungc2g",
+        "snippet": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n",
+        "content": "*They* count on you\n\nWhatever legislators votes yes on this BS need to go find another line of work. Working for the people isn’t working.\n\nWell the Dems should say that they will call any payment a debt and claim it back with interest.\n\n.\n\nHow much longer will we tolerate this.....?\n\n#resistdammit\n\nCorruption, and as you see, nobody is stopping it.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "raywoodson5.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "All available materials are social media posts or screenshots; there are no official documents or independent news reports here, so none of the specific policy or funding allegations can be treated as verified facts.",
+        "bullet_index": null
+      },
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 31712
+  }
+}

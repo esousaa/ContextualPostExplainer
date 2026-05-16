@@ -1,0 +1,651 @@
+{
+  "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:47:51.427409+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:47:15.437268+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.437372+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.437746+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.437845+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.438186+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:16.783522+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1345
+    },
+    {
+      "timestamp": "2026-05-16T01:47:16.784038+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:20.089849+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3305
+    },
+    {
+      "timestamp": "2026-05-16T01:47:20.090795+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:21.862852+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1772
+    },
+    {
+      "timestamp": "2026-05-16T01:47:21.863419+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:29.188558+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7325
+    },
+    {
+      "timestamp": "2026-05-16T01:47:29.189126+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:41.652012+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 11972
+    },
+    {
+      "timestamp": "2026-05-16T01:47:41.652648+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:42.342895+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 690
+    },
+    {
+      "timestamp": "2026-05-16T01:47:42.343560+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.421156+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 9077
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.421751+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.421869+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.422219+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.422276+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.422539+00:00",
+      "event": "node_started",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:51.422632+00:00",
+      "event": "node_completed",
+      "run_id": "run_837df2ac30584ec195afc02d4bb237ad",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "France law requiring solar panels on parking lots with more than 80 spaces 10 nuclear reactors equivalent",
+    "number of parking spaces in the United States 800 million estimate uncovered asphalt",
+    "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque",
+    "comparison of EU vs China manufacturing of solar panels and EU import/assembly regulations"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.instagram.com/p/DXKx-14CUZ-/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYTx-8JlBC9/?img_index=2",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/groups/PleasantStreets/posts/1550847838727717/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_d0a48459c829",
+        "title": "France Seeks to Mandate Solar Panels Over Large Parking Lots - Yale E360",
+        "url": "https://e360.yale.edu/digest/france-solar-parking-lots#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_d0b3478d0432",
+        "title": "France Mandates Large Parking Lots to be Covered with Solar Panels | EnvironBuzz™ Magazine",
+        "url": "https://environbuzz.com/france-mandates-large-parking-lots-to-be-covered-with-solar-panels/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_a18711282743",
+        "title": "France Requiring Solar Panels To Cover Parking Lots By 2028",
+        "url": "https://www.jalopnik.com/france-requiring-solar-panels-to-cover-parking-lots-by-1849762488/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_f0e0b7524328",
+        "title": "New French law will blanket parking lots with solar panels",
+        "url": "https://www.washingtonpost.com/climate-solutions/2023/02/06/france-solar-parking-lots/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0b9a062cb73e",
+        "title": "800 million spaces and nowhere to park? — Per Square Mile",
+        "url": "https://persquaremile.com/2011/01/20/800-million-spaces-and-nowhere-to-park/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_ff9803827cbf",
+        "title": "Parking Dominates Our Cities. But Do We Really *See* It?",
+        "url": "https://archive.strongtowns.org/journal/2019/11/27/parking-dominates-our-cities-but-do-we-really-see-it#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0e172fa0a346",
+        "title": "France requires Solar Panels for all Large Parking Lots — Sustaira",
+        "url": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "tavily": 2
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "tavily": 2,
+      "bluesky": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+      "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we d",
+      "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we doing this?\nVisual description: The image is a social graphic combining text and a photo. The top portion is dark with white text discussing laws about installing solar panels over parking lots and comparing practices between France and the US. Below the text is a photo of a large parking lot covered by a structure supporting rows of solar panels, with cars parked underneath and clear sky in the background.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8504412904280936
+    },
+    {
+      "id": "src_1431d850e146",
+      "title": "While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. - CPG Click Oil and Gas",
+      "url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01/#",
+      "snippet": "# While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. ## Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. **In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes.** Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it.",
+      "content": "Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. Walmart alone would generate 11.1 GW by covering its 3,571 parking lots with panels. France has already approved a law requiring large parking lots to install solar covers, while the US still treats the concept as a hypothesis. Solar energy faces a dilemma worldwide: to grow, it needs land, but available lands compete with agriculture, housing, and natural ecosystems. In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes. Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it. The concept is not theoretical. Cities like San Antonio, Texas, have already covered almost 500 municipal parking spaces with solar panels, integrating the cover with charging points for electric vehicles. In Connecticut, researchers estimated that solar covers over parking lots could supply 37% of the state’s electricity demand if fully implemented, and when combined with rooftop panels, the potential rises to 86% of total consumption. Even so, nationwide adoption in the United States remains timid, while France takes the lead with mandatory legislation. 800 GW hidden under hot asphalt The numbers justifying solar energy in parking lots are impressive even for those accustomed to the scales of the energy transition. Estimates suggest that the United States could install between 422 GW and more than 800 GW of solar capacity just by covering surface parking lots, a volume that far exceeds the country’s current solar capacity, estimated between 70 and 100 GW. Each megawatt installed in a parking lot cover occupies only 0.8 hectares, compared to 2.8 to 4 hectares of a conventional ground solar park. - Hidden fault 1,600 kilometers from Ecuador reveals why earthquakes in the Pacific Ocean have been recurring in almost the same place for 30 years. - Geologists discover a hidden path of the Colorado River that was lost for 5.6 million years and could change the history of how the Grand Canyon was formed. - Researchers in China have created a new lithium-sulfur battery that can double the range of current drones, maintain 82% capacity after 800 charge cycles in laboratory tests, but there is still no forecast for when it will reach devices sold in stores. - Your backyard has traveled thousands of kilometers without you noticing, and a new tool shows where it was up to 320 million years ago. This greater efficiency in land use is explained by the proximity to demand centers. Parking lots are located next to supermarkets, universities, hospitals, airports, and shopping centers, places where energy is consumed in large volumes. When solar energy is generated in the same location where it will be used, transmission losses disappear, and the need to build new high-voltage lines decreases. It is the principle of distributed generation applied to millions of square meters of asphalt that today only radiate heat. Walmart: 11.1 GW in 3,571 parking lots To gauge the potential of solar energy in parking lots, just look at a single company. Studies indicate that Walmart, the world’s largest retailer, would generate approximately 11.1 GW of solar capacity by covering its 3,571 parking lots in the United States. This volume exceeds the installed capacity of many hydroelectric plants and is equivalent to a significant portion of the current solar generation of the entire country, produced by a single private network of parking lots. The example of Walmart illust",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "number of parking spaces in the United States 800 million estimate uncovered asphalt"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "number of parking spaces in the United States 800 million estimate uncovered asphalt",
+      "canonical_url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "en.clickpetroleoegas.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.714727583000128
+    },
+    {
+      "id": "src_bdbd6e2c7d40",
+      "title": "France: New Provisions on Parking Lot PV Requirement - Intersolar",
+      "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+      "snippet": "Information on tickets and pricing for all events which are part of The smarter E Europe. # France: New Provisions on Parking Lot PV Requirement. **France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. Photovoltaic carports and parking lot canopies are subsidized in Europe Industry News.",
+      "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque",
+      "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "intersolar.de",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6759362491574028
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6483490221895104
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6004656592327896
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_1431d850e146",
+      "title": "While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. - CPG Click Oil and Gas",
+      "url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01/#",
+      "snippet": "# While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. ## Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. **In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes.** Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it.",
+      "content": "Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. Walmart alone would generate 11.1 GW by covering its 3,571 parking lots with panels. France has already approved a law requiring large parking lots to install solar covers, while the US still treats the concept as a hypothesis. Solar energy faces a dilemma worldwide: to grow, it needs land, but available lands compete with agriculture, housing, and natural ecosystems. In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes. Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it. The concept is not theoretical. Cities like San Antonio, Texas, have already covered almost 500 municipal parking spaces with solar panels, integrating the cover with charging points for electric vehicles. In Connecticut, researchers estimated that solar covers over parking lots could supply 37% of the state’s electricity demand if fully implemented, and when combined with rooftop panels, the potential rises to 86% of total consumption. Even so, nationwide adoption in the United States remains timid, while France takes the lead with mandatory legislation. 800 GW hidden under hot asphalt The numbers justifying solar energy in parking lots are impressive even for those accustomed to the scales of the energy transition. Estimates suggest that the United States could install between 422 GW and more than 800 GW of solar capacity just by covering surface parking lots, a volume that far exceeds the country’s current solar capacity, estimated between 70 and 100 GW. Each megawatt installed in a parking lot cover occupies only 0.8 hectares, compared to 2.8 to 4 hectares of a conventional ground solar park. - Hidden fault 1,600 kilometers from Ecuador reveals why earthquakes in the Pacific Ocean have been recurring in almost the same place for 30 years. - Geologists discover a hidden path of the Colorado River that was lost for 5.6 million years and could change the history of how the Grand Canyon was formed. - Researchers in China have created a new lithium-sulfur battery that can double the range of current drones, maintain 82% capacity after 800 charge cycles in laboratory tests, but there is still no forecast for when it will reach devices sold in stores. - Your backyard has traveled thousands of kilometers without you noticing, and a new tool shows where it was up to 320 million years ago. This greater efficiency in land use is explained by the proximity to demand centers. Parking lots are located next to supermarkets, universities, hospitals, airports, and shopping centers, places where energy is consumed in large volumes. When solar energy is generated in the same location where it will be used, transmission losses disappear, and the need to build new high-voltage lines decreases. It is the principle of distributed generation applied to millions of square meters of asphalt that today only radiate heat. Walmart: 11.1 GW in 3,571 parking lots To gauge the potential of solar energy in parking lots, just look at a single company. Studies indicate that Walmart, the world’s largest retailer, would generate approximately 11.1 GW of solar capacity by covering its 3,571 parking lots in the United States. This volume exceeds the installed capacity of many hydroelectric plants and is equivalent to a significant portion of the current solar generation of the entire country, produced by a single private network of parking lots. The example of Walmart illust",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "number of parking spaces in the United States 800 million estimate uncovered asphalt"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "number of parking spaces in the United States 800 million estimate uncovered asphalt",
+      "canonical_url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "en.clickpetroleoegas.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.714727583000128
+    },
+    {
+      "id": "src_bdbd6e2c7d40",
+      "title": "France: New Provisions on Parking Lot PV Requirement - Intersolar",
+      "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+      "snippet": "Information on tickets and pricing for all events which are part of The smarter E Europe. # France: New Provisions on Parking Lot PV Requirement. **France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. Photovoltaic carports and parking lot canopies are subsidized in Europe Industry News.",
+      "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque",
+      "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "intersolar.de",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6759362491574028
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6483490221895104
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources; author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "platform": "bluesky",
+      "author": {
+        "handle": "intruder1500stevie.bsky.social",
+        "display_name": "Stevie P",
+        "did": "did:plc:sy42rj4nkl372n6mqlmvm2j2"
+      },
+      "text": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "created_at": "2026-05-15T08:03:57.317000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+          "alt_text": null,
+          "ocr_text": "France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we doing this?",
+          "description": "The image is a social graphic combining text and a photo. The top portion is dark with white text discussing laws about installing solar panels over parking lots and comparing practices between France and the US. Below the text is a photo of a large parking lot covered by a structure supporting rows of solar panels, with cars parked underneath and clear sky in the background.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍"
+    },
+    "explanation": [
+      {
+        "text": "The author reports that in their area, supermarket and hypermarket car parks, several smaller parking areas, and new agricultural buildings are equipped with solar panels, presenting this as an example of routine solar integration into local infrastructure.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s personal observation in a social post and is not independently verified by external sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Background reporting explains that since 2022 France has required photovoltaic installations on parking lots above a defined size, with Decree no. 2024-1023 specifying that parking lots from 1,500 m² upward—both new and existing—must add solar roofs or green canopies over at least half the area by deadlines in 2026 and 2028, reinforcing the meme’s general point that large French parking lots are subject to solar obligations.",
+        "source_ids": [
+          "src_bdbd6e2c7d40"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The description is based on a secondary industry summary of French regulations rather than the decree text itself, though it is consistent with the legal framework it describes.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Energy-transition reporting notes that studies indicate covering parking lots across the United States with solar panels could add on the order of hundreds of gigawatts of capacity—estimated between 422 GW and over 800 GW—illustrating why parking-lot solar is highlighted as a major, currently underused opportunity compared with France’s mandated approach.",
+        "source_ids": [
+          "src_1431d850e146"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Figures are derived from summarized academic studies reported by a secondary outlet and represent theoretical potential, not guaranteed or currently planned capacity.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_1431d850e146",
+        "title": "While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. - CPG Click Oil and Gas",
+        "url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01/#",
+        "snippet": "# While asphalt-covered cities in the U.S. debate where to find land for solar energy, a study shows that Walmart could generate 11.1 GW just by covering its 3,571 parking lots. ## Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. **In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes.** Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it.",
+        "content": "Studies from Western University, published in Yale e360, in 2023 indicate that covering parking lots with solar energy in the United States could generate between 422 GW and 800 GW of capacity, multiplying the country’s current solar production several times. Walmart alone would generate 11.1 GW by covering its 3,571 parking lots with panels. France has already approved a law requiring large parking lots to install solar covers, while the US still treats the concept as a hypothesis. Solar energy faces a dilemma worldwide: to grow, it needs land, but available lands compete with agriculture, housing, and natural ecosystems. In the United States, where hundreds of millions of parking spaces occupy vast surfaces of asphalt that serve no other purpose than to store cars, the solution may be literally under everyone’s eyes. Covering parking lots with solar panels transforms already paved land into clean energy plants without requiring deforestation, without competing with food production, and without the need for new transmission lines, as the energy is generated exactly where people consume it. The concept is not theoretical. Cities like San Antonio, Texas, have already covered almost 500 municipal parking spaces with solar panels, integrating the cover with charging points for electric vehicles. In Connecticut, researchers estimated that solar covers over parking lots could supply 37% of the state’s electricity demand if fully implemented, and when combined with rooftop panels, the potential rises to 86% of total consumption. Even so, nationwide adoption in the United States remains timid, while France takes the lead with mandatory legislation. 800 GW hidden under hot asphalt The numbers justifying solar energy in parking lots are impressive even for those accustomed to the scales of the energy transition. Estimates suggest that the United States could install between 422 GW and more than 800 GW of solar capacity just by covering surface parking lots, a volume that far exceeds the country’s current solar capacity, estimated between 70 and 100 GW. Each megawatt installed in a parking lot cover occupies only 0.8 hectares, compared to 2.8 to 4 hectares of a conventional ground solar park. - Hidden fault 1,600 kilometers from Ecuador reveals why earthquakes in the Pacific Ocean have been recurring in almost the same place for 30 years. - Geologists discover a hidden path of the Colorado River that was lost for 5.6 million years and could change the history of how the Grand Canyon was formed. - Researchers in China have created a new lithium-sulfur battery that can double the range of current drones, maintain 82% capacity after 800 charge cycles in laboratory tests, but there is still no forecast for when it will reach devices sold in stores. - Your backyard has traveled thousands of kilometers without you noticing, and a new tool shows where it was up to 320 million years ago. This greater efficiency in land use is explained by the proximity to demand centers. Parking lots are located next to supermarkets, universities, hospitals, airports, and shopping centers, places where energy is consumed in large volumes. When solar energy is generated in the same location where it will be used, transmission losses disappear, and the need to build new high-voltage lines decreases. It is the principle of distributed generation applied to millions of square meters of asphalt that today only radiate heat. Walmart: 11.1 GW in 3,571 parking lots To gauge the potential of solar energy in parking lots, just look at a single company. Studies indicate that Walmart, the world’s largest retailer, would generate approximately 11.1 GW of solar capacity by covering its 3,571 parking lots in the United States. This volume exceeds the installed capacity of many hydroelectric plants and is equivalent to a significant portion of the current solar generation of the entire country, produced by a single private network of parking lots. The example of Walmart illust",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "number of parking spaces in the United States 800 million estimate uncovered asphalt"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "number of parking spaces in the United States 800 million estimate uncovered asphalt",
+        "canonical_url": "https://en.clickpetroleoegas.com.br/while-asphalt-covered-cities-in-the-us-debate-where-to-find-land-for-solar-energy-a-study-shows-that-walmart-could-generate-111-gw-just-by-c-mhbb01",
+        "published_at": "2026-05-13T00:00:00",
+        "publisher": "en.clickpetroleoegas.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_bdbd6e2c7d40",
+        "title": "France: New Provisions on Parking Lot PV Requirement - Intersolar",
+        "url": "https://www.intersolar.de/news/parking-lot-pv-requirement-in-france#",
+        "snippet": "Information on tickets and pricing for all events which are part of The smarter E Europe. # France: New Provisions on Parking Lot PV Requirement. **France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. Photovoltaic carports and parking lot canopies are subsidized in Europe Industry News.",
+        "content": "France has adopted new regulations that will further promote the use of parking lot PV. Since 2022, it has been mandatory in France to install parking lot PV on parking lots with at least 80 spaces. Now, a new provision has been adopted that includes detailed specifications for calculating the relevant areas, exemptions and penalties for non-compliance. Decree no. 2024-1023 explicitly regulates the size of the parking lots concerned: From 1,500 square meters, parking lots are subject to the parking lot PV requirement – regardless of whether they are new or existing parking lots. The provision also sets deadlines: Parking lots larger than 10,000 square meters must have solar roofs by July 1, 2026, those between 1,500 to 10,000 square meters by July 1, 2028. France is therefore expecting a massive increase in parking lot PV. The regulations require that solar roofs or green canopies cover at least half of the parking lot, including parking aisles. Failure to comply can result in annual fines of up to 40,000 euros. Parking lots with unsuitable ground, potential hazards, or hazardous goods transportation are exempted. The requirement for parking lot PV is prompting many French companies to take action: The supermarket chain Carrefour is currently installing 350 solar carports on the parking lots of its stores. They are expected to produce up to 450 gigawatt hours of solar power per year, which Carrefour will use to power its supermarkets – a step towards complete climate neutrality, which the company wants to achieve by 2030. The canopies will also protect the 180,000 parking spaces from the elements, making the stores more attractive to customers. The first installations will be connected to the grid in 2025, Carrefour expects at least half of the projects to be completed by 2026. Parking lot PV and PV carports will play a prominent role at Intersolar Europe 2025. Project developers and suppliers of mounting and comprehensive solutions will showcase the latest developments in this booming market.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "France parking lot solar panels law text \"aire de stationnement\" obligation photovoltaïque",
+        "canonical_url": "https://intersolar.de/news/parking-lot-pv-requirement-in-france",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "intersolar.de",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @intruder1500stevie.bsky.social",
+        "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+        "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: public-reaction claims were not cited to thread or social sources; author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 35495
+  }
+}

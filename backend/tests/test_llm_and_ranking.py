@@ -58,6 +58,15 @@ class FakeEmbeddingClient:
         return vectors[: len(texts)]
 
 
+class CapturingEmbeddingClient(FakeEmbeddingClient):
+    def __init__(self) -> None:
+        self.texts: list[str] = []
+
+    async def embed(self, texts: list[str]) -> list[list[float]]:
+        self.texts = texts
+        return await super().embed(texts)
+
+
 class RepairingLLMClient:
     async def decompose_queries(self, _post: PostData) -> list[str]:
         return ["query one", "query two"]
@@ -317,6 +326,17 @@ async def test_evidence_ranker_filters_low_quality_web_sources() -> None:
     )
 
     assert [item.id for item in ranked] == ["fresh"]
+
+
+@pytest.mark.asyncio
+async def test_evidence_ranker_truncates_embedding_inputs() -> None:
+    embedding_client = CapturingEmbeddingClient()
+    ranker = EvidenceRanker(embedding_client)
+
+    await ranker.rank(_post(), [_evidence(content=f"{LONG_CONTEXT} {'word ' * 20_000}")])
+
+    assert len(embedding_client.texts) == 2
+    assert all(len(text) <= 3_000 for text in embedding_client.texts)
 
 
 @pytest.mark.asyncio

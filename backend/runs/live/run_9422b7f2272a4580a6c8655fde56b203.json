@@ -1,0 +1,783 @@
+{
+  "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:48:52.125411+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:48:24.835650+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:24.835764+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:48:24.836197+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:24.836307+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:48:24.836659+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:25.946828+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1110
+    },
+    {
+      "timestamp": "2026-05-16T01:48:25.947381+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:28.735360+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 2787
+    },
+    {
+      "timestamp": "2026-05-16T01:48:28.735959+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:30.097432+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1361
+    },
+    {
+      "timestamp": "2026-05-16T01:48:30.098023+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:35.741369+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5643
+    },
+    {
+      "timestamp": "2026-05-16T01:48:35.741940+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:47.277878+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 11041
+    },
+    {
+      "timestamp": "2026-05-16T01:48:47.278622+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:48.471879+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1193
+    },
+    {
+      "timestamp": "2026-05-16T01:48:48.472526+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.119225+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3646
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.119759+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.119893+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.120253+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.120320+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.120600+00:00",
+      "event": "node_started",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:48:52.120683+00:00",
+      "event": "node_completed",
+      "run_id": "run_9422b7f2272a4580a6c8655fde56b203",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+    "Pucks Glen gorge hike reviews photos",
+    "Argyll Forest Park attractions Puck’s Glen official site",
+    "history and ecology of Puck’s Glen Cowal Peninsula"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.tripadvisor.com/Attraction_Review-g10002932-d3165438-Reviews-Puck_s_Glen-Benmore_Cowal_Peninsula_Argyll_and_Bute_Scotland.html",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.tripadvisor.com/Attraction_Review-g10002932-d3165438-Reviews-Puck_s_Glen-Benmore_Cowal_Peninsula_Argyll_and_Bute_Scotland.html"
+      },
+      {
+        "id": "https://www.facebook.com/groups/ScotlandTime/posts/3826518154247996/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.facebook.com/groups/ScotlandTime/posts/3826518154247996/"
+      },
+      {
+        "id": "https://www.seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.alltrails.com/trail/scotland/argyll-and-bute/pucks-glen-and-argyl-forest",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/groups/VisitScotland/posts/1965027860612764/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/groups/scotlandsscenery/posts/8402432186442747/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.alltrails.com/trail/scotland/argyll-and-bute/pucks-glen-gorge-trail",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.tripadvisor.com/Attraction_Review-g10002932-d3165438-Reviews-Puck_s_Glen-Benmore_Cowal_Peninsula_Argyll_and_Bute_Scotland.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.tripadvisor.co.nz/Attraction_Review-g10002932-d3165438-Reviews-or40-Puck_s_Glen-Benmore_Cowal_Peninsula_Argyll_and_Bute_Scotland.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.atlasobscura.com/places/pucks-glen",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/groups/ScotlandTime/posts/3826518154247996/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "tavily": 4
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kirstyislathomas.bsky.social",
+      "url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+      "snippet": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+      "content": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kirstyislathomas.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8268386631151877
+    },
+    {
+      "id": "src_02bfb282716c",
+      "title": "Puck's Glen is a captivating woodland walk located in Argyll Forest ...",
+      "url": "https://www.facebook.com/ukhiddengems/videos/pucks-glen-is-a-captivating-woodland-walk-located-in-argyll-forest-park-near-dun/1627717104826052/#",
+      "snippet": "Pucks Glen, just north of Dunoon, Scotland. Follow a magical trail that winds along a Victorian walkway up the dramatic rocky gorge that is said",
+      "content": "Puck’s Glen is a captivating woodland walk located in Argyll Forest Park, near Dunoon, in the Cowal Peninsula of Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 It is known for its enchanting atmosphere, picturesque waterfalls, and lush greenery. The glen gets its name from the mischievous character “Puck” in Shakespeare’s play “A Midsummer Night’s Dream.” It is believed that the glen’s mystical ambiance and ethereal beauty inspired the name 😲 One of the highlights of Puck’s Glen is its series of cascading waterfalls. The gushing water flows over rugged rocks, creating a mesmerizing sight and a soothing soundtrack for your woodland adventure 😍 🎥 @chrispaullawlor 📍Pucks Glen, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 #travel #travelgram #travelling #uk #uk_greatshots #uk_shots #visituk #uk_shooters #uk_outdoors #ukscenery #uktravel #ukhiddengems #exploreuk #exploremore #explore_britain #travelphotography #travelgram #visitbritain #venturetheunknown | UK Hidden Gems",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+      "canonical_url": "https://facebook.com/ukhiddengems/videos/pucks-glen-is-a-captivating-woodland-walk-located-in-argyll-forest-park-near-dun/1627717104826052",
+      "published_at": "2000-01-01T00:00:00",
+      "publisher": "facebook.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7682835424487606
+    },
+    {
+      "id": "src_3b3f5c31432d",
+      "title": "Explore Puck's Glen near Dunoon, Argyll Forest — See Loch Lomond :: What to do in Loch Lomond and Trossachs",
+      "url": "https://www.seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon#",
+      "snippet": "# Puck's Glen near Dunoon. ## Where is Puck's Glen. Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the **Argyll Forest**, managed by Forestry and Land Scotland. ## Parking or Walking to Puck’s Glen. Puck's Glen is a rocky gorge, viewed from a Victorian walkway. ## Walk Puck’s Glen Trail. Walking Puck's Glen will take around an hour and is just over a mile. ## What to expect at Puck’s Glen. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Visit Paul’s **Marketing** and **Photography** websites for details of his services in Scotland.",
+      "content": "Puck's Glen near Dunoon **Spring 2025 Note: Puck’s Glen will be closed throughout 2025 due to storm damage** Where is Puck's Glen Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the Argyll Forest, managed by Forestry and Land Scotland. Parking or Walking to Puck’s Glen The car park is a reasonable size, but maybe full, or nearly full when you arrive at this popular spot. You can also walk here from Kilmun Arboretum or Benmore Botanic Garden on well-signed forestry paths and tracks. The latter is just one mile away. What is Puck’s Glen Puck's Glen is a rocky gorge, viewed from a Victorian walkway. These paths get you up close to the gorge and are steep and rocky in places. There are many wooden bridges along the trail. Walk Puck’s Glen Trail Walking Puck's Glen will take around an hour and is just over a mile. The route, signed by red wooden post markers, start from the car park. Follow the path that runs parallel with the main road. You will see the way into the gorge, where you can begin the climb. Some may find this path quite strenuous, but there are spaces to stop and rest or do what I did and take lots of photographs. What to expect at Puck’s Glen It's hard to describe or capture the scenes that you discover as you climb. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Best time to visit Puck’s Glen The rushing waterfalls are especially dramatic following rain but take care then as the path may be slippery. The magical colours are even more vibrant during Autumn. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Experience Puck’s Glen Puck's Glen is well worth experiencing. Combine it with other Forestry and Land Scotland sites, such as Kilmun Arboretum or Glenbranter. Thanks for reading Words and photography by Paul Saunders. Visit Paul’s Marketing and Photography websites for details of his services in Scotland. Please let us know if you found the guide helpful in the comments section below.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+          "history and ecology of Puck’s Glen Cowal Peninsula",
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula",
+      "canonical_url": "https://seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon",
+      "published_at": "2025-02-06T00:00:00",
+      "publisher": "seelochlomond.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7131906339250348
+    },
+    {
+      "id": "src_ecdc57a6f18c",
+      "title": "Puck's Glen (Closed) | Forestry and Land Scotland",
+      "url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen#",
+      "snippet": "# Puck's Glen (Closed). Puck’s Glen Gorge will remain **CLOSED** for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Two people walking on a forest path beside a small stream surrounded by trees and moss. A bridge in a gorge covered in moss and lichen. In a shady mossy glen, man and woman in waterproof jackets and woollen hats stand on a wooden bridge and gaze up at high waterfall, as it tumbles over moss covered rocks, with forest of towering trees in background, Puck's Glen, near Dunoon. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. ### Puck's Glen Gorge Trail (closed). Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees.",
+      "content": "Thursday, 05 Mar 2026 It’s Scottish Apprenticeship Week! Apprentices are an important part of our workforce - helping us … Puck’s Glen Gorge will remain CLOSED for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Storm Eowyn (January 2025) caused major damage, making the trail unsafe. Further storms this year have led to: These risks are not always visible, so the closure is essential for your safety. Clearing fallen trees and repairing paths is a complex, long-term task. We’re planning a sustainable restoration, exploring partnerships and funding. Our team continues to monitor the gorge and carry out small maintenance to prevent further damage. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. Download a route-card or pick up a hard copy at the car park. Follow a magical trail that winds along a Victorian walkway up the dramatic rocky gorge. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out - you might spot the legendary Ghillie Dhu and some other mythic characters! Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees. For your own safety, please do not attempt to access closed trails. A magical trail that winds along a Victorian walkway up the dramatic rocky gorge that is said to be home to mischievous spirits. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out and you might just spot the mystical Ghillie Dhu! Firm but uneven gravel paths, with some rough, rocky and narrow sections. Several steep slopes and long flights of rough steps. Includes numerous bridges and some wet sections after rain. Allow 1 hour Deservedly the most popular walk on the Cowal peninsula and particularly spectacular after rain. The steep, narrow gorge with its arched wooden bridges and rocky steps is thrilling and full of atmosphere. As you climb past tumbling waterfalls and gushing waters you'll sense the huge trees towering overhead and see sumptuous ferns and fungi thriving on the forest floor. This is a place of fantasy and fun, whatever your age. If it's been raining, wear waterproofs and be prepared for slippery, wet conditions. The nearest public toilets and café is at Benmore Botanic Gardens. Check their opening times before you go, especially in winter. You can find other places to eat and more public toilets in Dunoon. There is no charge to park in this car park. Puck's Glen is on the east side of the A815, 5 miles north of Dunoon and 1 mile south of Benmore Botanic Gardens. PA23 8QT is the nearest postcode Buses between Dunoon and Inveraray can stop at the entrance to Puck's Glen on request. A 1 mile trail links Puck's Glen with Benmore Botanic Gardens where there is an official bus stop. Plan your journey at Traveline Scotland.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+      "canonical_url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen",
+      "published_at": "2026-03-05T00:00:00",
+      "publisher": "forestryandland.gov.scot",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6756246167540774
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @kirstyislathomas.bsky.social",
+      "url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+      "snippet": "Beautiful 😍\n\nWowww! 😍\n\nBeautiful.\n\nMagical woodland. Ahhhh\n\nThat looks magical",
+      "content": "Beautiful 😍\n\nWowww! 😍\n\nBeautiful.\n\nMagical woodland. Ahhhh\n\nThat looks magical",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kirstyislathomas.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6583057578971313
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @kirstyislathomas.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:jdrltj7fgyrwwqbtpwdyy4ab/bafkreih6z4hzqyi3ujiugbfu6zr7tdslf5fj34r7wjitqqpsefu6yk4nzy",
+      "snippet": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides ",
+      "content": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides and tall evergreen trees rising above. At the bottom of the glen runs a small stream crossed by a simple arched wooden footbridge, with a dirt path leading onto it. The scene is densely green and shaded, with vegetation covering most surfaces.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kirstyislathomas.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.6230806394492538
+    },
+    {
+      "id": "src_1fb8ae6a79ec",
+      "title": "PUCK’S GLEN & MASSAN LOOP",
+      "url": "https://inverclyderamblers.org.uk/pucks-glen/#",
+      "snippet": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/.",
+      "content": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. The stream tumbles down a series of waterfalls and rapids, joining the River Eachaig about 1.2 kilometres (0.75 mi) south of the entrance to the Benmore Botanic Garden. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. History The Benmore Estate, to the north of the Holy Loch near Dunoon, was once Campbell hunting grounds. Forest tree plantations began in the 1820s. In 1849 John Lamont, who had made his fortune as a sugar planter in Trinidad, bought the estate and built Benmore House, but died in 1850. A succession of owners made improvements, notably the American James Piers Patrick who planted the giant sequoia avenue in 1863, and later Greenock sugar reﬁner James Duncan expanded the estates and added the Puck’s Glen path between 1870 and 1889.He arranged extensive plantings, including more than six million trees around the estate and added paths leading up the Eas Mòr gorge for his visitors to enjoy the magical atmosphere of the glen, reminiscent of the mythological Puck, the character Puck in William Shakespeare's play A Midsummer Night's Dream. In 1889 the Younger family of Edinburgh brewers took over, then in 1924 they gave the estates to the Forestry Commission and the central gardens to the Royal Botanic Garden Edinburgh, which opened the Younger Botanic Garden in 1929. It was later renamed the Benmore Botanic Garden. Visitors The Benmore Botanic Garden car park serves walkers as well as visitors, bus services are more frequent March to October. Access to toilets through Benmore Café & Shop, check www.benmorecafe.co.uk for opening dates and times. Temporary access restrictions Though the Massan Loop will still be open, the Puck's Glen trail and Black Gates Trail have been closed for various reasons, click HERE for information and updates. A shorter 'Big Tree Trail' is still open as shown in this map HERE. Puck's Glen and Massan Loop walks Getting there The walks are shown from the car park of the Benmore Botanic Garden and Benmore Café – PA23 8QU (NS 143855); 7 miles north from Dunoon on A815 road towards Strachur (and Inveraray), see below for bus stops at Invereck. For Met Office weather forecasts, look for Younger Botanic Gardens. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/. Bus services– see www.bustimes.org/localities/benmore or look for Benmore, Argyll & Bute on traveline: 484 and 486 buses run all year but no Sunday service, stop at bus lay-bys on main road. 489 bus calls in at Botanic Gardens entrance (inside the car park) at certain times, particularly March to October when the gardens are open, but not on Sundays – see www.bustimes.org/stops/60709850 More buses, including Sunday services, stop on the A815 at Invereck near the south end of the Massan road, at and opposite \"Eventide Home\" PA23 8QS (NS 147828) – see www.bustimes.org/stops/60709106 arriving and www.bustimes.org/stops/60709106 returning to Dunoon. Crossing the Clyde: Frequent passenger ferry services run from Gourock Ferry Terminal (adjacent to Gourock bus station and railway station) to Dunoon Ferry Terminal, near the bus stances. The car ferry service runs from McInroy's Point to Hunters Quay (6 miles from B",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+      "canonical_url": "https://inverclyderamblers.org.uk/pucks-glen",
+      "published_at": "2019-01-01T00:00:00",
+      "publisher": "inverclyderamblers.org.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6056291519012039
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @kirstyislathomas.bsky.social",
+      "url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+      "snippet": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+      "content": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kirstyislathomas.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8268386631151877
+    },
+    {
+      "id": "src_3b3f5c31432d",
+      "title": "Explore Puck's Glen near Dunoon, Argyll Forest — See Loch Lomond :: What to do in Loch Lomond and Trossachs",
+      "url": "https://www.seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon#",
+      "snippet": "# Puck's Glen near Dunoon. ## Where is Puck's Glen. Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the **Argyll Forest**, managed by Forestry and Land Scotland. ## Parking or Walking to Puck’s Glen. Puck's Glen is a rocky gorge, viewed from a Victorian walkway. ## Walk Puck’s Glen Trail. Walking Puck's Glen will take around an hour and is just over a mile. ## What to expect at Puck’s Glen. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Visit Paul’s **Marketing** and **Photography** websites for details of his services in Scotland.",
+      "content": "Puck's Glen near Dunoon **Spring 2025 Note: Puck’s Glen will be closed throughout 2025 due to storm damage** Where is Puck's Glen Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the Argyll Forest, managed by Forestry and Land Scotland. Parking or Walking to Puck’s Glen The car park is a reasonable size, but maybe full, or nearly full when you arrive at this popular spot. You can also walk here from Kilmun Arboretum or Benmore Botanic Garden on well-signed forestry paths and tracks. The latter is just one mile away. What is Puck’s Glen Puck's Glen is a rocky gorge, viewed from a Victorian walkway. These paths get you up close to the gorge and are steep and rocky in places. There are many wooden bridges along the trail. Walk Puck’s Glen Trail Walking Puck's Glen will take around an hour and is just over a mile. The route, signed by red wooden post markers, start from the car park. Follow the path that runs parallel with the main road. You will see the way into the gorge, where you can begin the climb. Some may find this path quite strenuous, but there are spaces to stop and rest or do what I did and take lots of photographs. What to expect at Puck’s Glen It's hard to describe or capture the scenes that you discover as you climb. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Best time to visit Puck’s Glen The rushing waterfalls are especially dramatic following rain but take care then as the path may be slippery. The magical colours are even more vibrant during Autumn. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Experience Puck’s Glen Puck's Glen is well worth experiencing. Combine it with other Forestry and Land Scotland sites, such as Kilmun Arboretum or Glenbranter. Thanks for reading Words and photography by Paul Saunders. Visit Paul’s Marketing and Photography websites for details of his services in Scotland. Please let us know if you found the guide helpful in the comments section below.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+          "history and ecology of Puck’s Glen Cowal Peninsula",
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula",
+      "canonical_url": "https://seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon",
+      "published_at": "2025-02-06T00:00:00",
+      "publisher": "seelochlomond.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7131906339250348
+    },
+    {
+      "id": "src_ecdc57a6f18c",
+      "title": "Puck's Glen (Closed) | Forestry and Land Scotland",
+      "url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen#",
+      "snippet": "# Puck's Glen (Closed). Puck’s Glen Gorge will remain **CLOSED** for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Two people walking on a forest path beside a small stream surrounded by trees and moss. A bridge in a gorge covered in moss and lichen. In a shady mossy glen, man and woman in waterproof jackets and woollen hats stand on a wooden bridge and gaze up at high waterfall, as it tumbles over moss covered rocks, with forest of towering trees in background, Puck's Glen, near Dunoon. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. ### Puck's Glen Gorge Trail (closed). Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees.",
+      "content": "Thursday, 05 Mar 2026 It’s Scottish Apprenticeship Week! Apprentices are an important part of our workforce - helping us … Puck’s Glen Gorge will remain CLOSED for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Storm Eowyn (January 2025) caused major damage, making the trail unsafe. Further storms this year have led to: These risks are not always visible, so the closure is essential for your safety. Clearing fallen trees and repairing paths is a complex, long-term task. We’re planning a sustainable restoration, exploring partnerships and funding. Our team continues to monitor the gorge and carry out small maintenance to prevent further damage. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. Download a route-card or pick up a hard copy at the car park. Follow a magical trail that winds along a Victorian walkway up the dramatic rocky gorge. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out - you might spot the legendary Ghillie Dhu and some other mythic characters! Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees. For your own safety, please do not attempt to access closed trails. A magical trail that winds along a Victorian walkway up the dramatic rocky gorge that is said to be home to mischievous spirits. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out and you might just spot the mystical Ghillie Dhu! Firm but uneven gravel paths, with some rough, rocky and narrow sections. Several steep slopes and long flights of rough steps. Includes numerous bridges and some wet sections after rain. Allow 1 hour Deservedly the most popular walk on the Cowal peninsula and particularly spectacular after rain. The steep, narrow gorge with its arched wooden bridges and rocky steps is thrilling and full of atmosphere. As you climb past tumbling waterfalls and gushing waters you'll sense the huge trees towering overhead and see sumptuous ferns and fungi thriving on the forest floor. This is a place of fantasy and fun, whatever your age. If it's been raining, wear waterproofs and be prepared for slippery, wet conditions. The nearest public toilets and café is at Benmore Botanic Gardens. Check their opening times before you go, especially in winter. You can find other places to eat and more public toilets in Dunoon. There is no charge to park in this car park. Puck's Glen is on the east side of the A815, 5 miles north of Dunoon and 1 mile south of Benmore Botanic Gardens. PA23 8QT is the nearest postcode Buses between Dunoon and Inveraray can stop at the entrance to Puck's Glen on request. A 1 mile trail links Puck's Glen with Benmore Botanic Gardens where there is an official bus stop. Plan your journey at Traveline Scotland.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+      "canonical_url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen",
+      "published_at": "2026-03-05T00:00:00",
+      "publisher": "forestryandland.gov.scot",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6756246167540774
+    },
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @kirstyislathomas.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:jdrltj7fgyrwwqbtpwdyy4ab/bafkreih6z4hzqyi3ujiugbfu6zr7tdslf5fj34r7wjitqqpsefu6yk4nzy",
+      "snippet": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides ",
+      "content": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides and tall evergreen trees rising above. At the bottom of the glen runs a small stream crossed by a simple arched wooden footbridge, with a dirt path leading onto it. The scene is densely green and shaded, with vegetation covering most surfaces.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "kirstyislathomas.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.6230806394492538
+    },
+    {
+      "id": "src_1fb8ae6a79ec",
+      "title": "PUCK’S GLEN & MASSAN LOOP",
+      "url": "https://inverclyderamblers.org.uk/pucks-glen/#",
+      "snippet": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/.",
+      "content": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. The stream tumbles down a series of waterfalls and rapids, joining the River Eachaig about 1.2 kilometres (0.75 mi) south of the entrance to the Benmore Botanic Garden. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. History The Benmore Estate, to the north of the Holy Loch near Dunoon, was once Campbell hunting grounds. Forest tree plantations began in the 1820s. In 1849 John Lamont, who had made his fortune as a sugar planter in Trinidad, bought the estate and built Benmore House, but died in 1850. A succession of owners made improvements, notably the American James Piers Patrick who planted the giant sequoia avenue in 1863, and later Greenock sugar reﬁner James Duncan expanded the estates and added the Puck’s Glen path between 1870 and 1889.He arranged extensive plantings, including more than six million trees around the estate and added paths leading up the Eas Mòr gorge for his visitors to enjoy the magical atmosphere of the glen, reminiscent of the mythological Puck, the character Puck in William Shakespeare's play A Midsummer Night's Dream. In 1889 the Younger family of Edinburgh brewers took over, then in 1924 they gave the estates to the Forestry Commission and the central gardens to the Royal Botanic Garden Edinburgh, which opened the Younger Botanic Garden in 1929. It was later renamed the Benmore Botanic Garden. Visitors The Benmore Botanic Garden car park serves walkers as well as visitors, bus services are more frequent March to October. Access to toilets through Benmore Café & Shop, check www.benmorecafe.co.uk for opening dates and times. Temporary access restrictions Though the Massan Loop will still be open, the Puck's Glen trail and Black Gates Trail have been closed for various reasons, click HERE for information and updates. A shorter 'Big Tree Trail' is still open as shown in this map HERE. Puck's Glen and Massan Loop walks Getting there The walks are shown from the car park of the Benmore Botanic Garden and Benmore Café – PA23 8QU (NS 143855); 7 miles north from Dunoon on A815 road towards Strachur (and Inveraray), see below for bus stops at Invereck. For Met Office weather forecasts, look for Younger Botanic Gardens. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/. Bus services– see www.bustimes.org/localities/benmore or look for Benmore, Argyll & Bute on traveline: 484 and 486 buses run all year but no Sunday service, stop at bus lay-bys on main road. 489 bus calls in at Botanic Gardens entrance (inside the car park) at certain times, particularly March to October when the gardens are open, but not on Sundays – see www.bustimes.org/stops/60709850 More buses, including Sunday services, stop on the A815 at Invereck near the south end of the Massan road, at and opposite \"Eventide Home\" PA23 8QS (NS 147828) – see www.bustimes.org/stops/60709106 arriving and www.bustimes.org/stops/60709106 returning to Dunoon. Crossing the Clyde: Frequent passenger ferry services run from Gourock Ferry Terminal (adjacent to Gourock bus station and railway station) to Dunoon Ferry Terminal, near the bus stances. The car ferry service runs from McInroy's Point to Hunters Quay (6 miles from B",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+      "canonical_url": "https://inverclyderamblers.org.uk/pucks-glen",
+      "published_at": "2019-01-01T00:00:00",
+      "publisher": "inverclyderamblers.org.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6056291519012039
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+      "platform": "bluesky",
+      "author": {
+        "handle": "kirstyislathomas.bsky.social",
+        "display_name": "Kirsty Isla Thomas",
+        "did": "did:plc:jdrltj7fgyrwwqbtpwdyy4ab"
+      },
+      "text": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+      "created_at": "2026-05-15T16:33:29.634000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:jdrltj7fgyrwwqbtpwdyy4ab/bafkreih6z4hzqyi3ujiugbfu6zr7tdslf5fj34r7wjitqqpsefu6yk4nzy",
+          "alt_text": "Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.",
+          "ocr_text": null,
+          "description": "A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides and tall evergreen trees rising above. At the bottom of the glen runs a small stream crossed by a simple arched wooden footbridge, with a dirt path leading onto it. The scene is densely green and shaded, with vegetation covering most surfaces.",
+          "image_type": "photo"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Beautiful 😍\n\nWowww! 😍\n\nBeautiful.\n\nMagical woodland. Ahhhh\n\nThat looks magical"
+    },
+    "explanation": [
+      {
+        "text": "The author is praising Puck’s Glen in Argyll Forest Park, Scotland as an “absolutely magical realm” and “spectacular,” expressing a personal sense of enchantment with the location’s scenery.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Puck’s Glen is a rocky gorge and woodland walk in Argyll Forest Park on the Cowal Peninsula near Dunoon, featuring a steep, narrow ravine with wooden bridges, waterfalls and lush greenery, which contributes to its reputation as a particularly atmospheric and “magical” forest setting.",
+        "source_ids": [
+          "src_3b3f5c31432d",
+          "src_1fb8ae6a79ec"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Official guidance from Forestry and Land Scotland describes the Puck’s Glen gorge trail as a magical route along a Victorian walkway through a dramatic rocky gorge with waterfalls and towering trees, reinforcing why visitors might experience it as a spectacular, otherworldly place.",
+        "source_ids": [
+          "src_ecdc57a6f18c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The photo shared with the post shows a narrow, moss‑covered glen with tall trees, a small stream and an arched wooden footbridge, visually matching descriptions of Puck’s Glen as a steep, atmospheric gorge crossed by numerous wooden bridges.",
+        "source_ids": [
+          "image_1",
+          "src_3b3f5c31432d",
+          "src_ecdc57a6f18c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Forestry and Land Scotland currently notes that the Puck’s Glen Gorge Trail is closed for the 2026 visitor season due to storm damage and unsafe trees, so while the place is widely described as magical and spectacular, visitors are officially advised not to access the gorge trail at this time.",
+        "source_ids": [
+          "src_ecdc57a6f18c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @kirstyislathomas.bsky.social",
+        "url": "https://bsky.app/profile/kirstyislathomas.bsky.social/post/3mlvr4xyq7s2o",
+        "snippet": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+        "content": "For an  absolutely magical realm, Puck’s Glen in the Argyll Forest Park, Scotland is spectacular!",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kirstyislathomas.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_3b3f5c31432d",
+        "title": "Explore Puck's Glen near Dunoon, Argyll Forest — See Loch Lomond :: What to do in Loch Lomond and Trossachs",
+        "url": "https://www.seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon#",
+        "snippet": "# Puck's Glen near Dunoon. ## Where is Puck's Glen. Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the **Argyll Forest**, managed by Forestry and Land Scotland. ## Parking or Walking to Puck’s Glen. Puck's Glen is a rocky gorge, viewed from a Victorian walkway. ## Walk Puck’s Glen Trail. Walking Puck's Glen will take around an hour and is just over a mile. ## What to expect at Puck’s Glen. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Visit Paul’s **Marketing** and **Photography** websites for details of his services in Scotland.",
+        "content": "Puck's Glen near Dunoon **Spring 2025 Note: Puck’s Glen will be closed throughout 2025 due to storm damage** Where is Puck's Glen Puck's Glen is on the A815, around five miles from Dunoon. This guide describes one of the highlights on the Cowal Peninsula and another example of one of the natural wonders of the Argyll Forest, managed by Forestry and Land Scotland. Parking or Walking to Puck’s Glen The car park is a reasonable size, but maybe full, or nearly full when you arrive at this popular spot. You can also walk here from Kilmun Arboretum or Benmore Botanic Garden on well-signed forestry paths and tracks. The latter is just one mile away. What is Puck’s Glen Puck's Glen is a rocky gorge, viewed from a Victorian walkway. These paths get you up close to the gorge and are steep and rocky in places. There are many wooden bridges along the trail. Walk Puck’s Glen Trail Walking Puck's Glen will take around an hour and is just over a mile. The route, signed by red wooden post markers, start from the car park. Follow the path that runs parallel with the main road. You will see the way into the gorge, where you can begin the climb. Some may find this path quite strenuous, but there are spaces to stop and rest or do what I did and take lots of photographs. What to expect at Puck’s Glen It's hard to describe or capture the scenes that you discover as you climb. The drama is intensified on a sunny day by the rays of light that manage to find their way into the gorge and light it up. Best time to visit Puck’s Glen The rushing waterfalls are especially dramatic following rain but take care then as the path may be slippery. The magical colours are even more vibrant during Autumn. Once you reach the top follow the red wooden post markers and look for the more open path that will lead you back to the car park. Experience Puck’s Glen Puck's Glen is well worth experiencing. Combine it with other Forestry and Land Scotland sites, such as Kilmun Arboretum or Glenbranter. Thanks for reading Words and photography by Paul Saunders. Visit Paul’s Marketing and Photography websites for details of his services in Scotland. Please let us know if you found the guide helpful in the comments section below.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+            "history and ecology of Puck’s Glen Cowal Peninsula",
+            "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail | history and ecology of Puck’s Glen Cowal Peninsula",
+        "canonical_url": "https://seelochlomond.co.uk/discover/explore-pucks-glen-near-dunoon",
+        "published_at": "2025-02-06T00:00:00",
+        "publisher": "seelochlomond.co.uk",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_ecdc57a6f18c",
+        "title": "Puck's Glen (Closed) | Forestry and Land Scotland",
+        "url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen#",
+        "snippet": "# Puck's Glen (Closed). Puck’s Glen Gorge will remain **CLOSED** for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Two people walking on a forest path beside a small stream surrounded by trees and moss. A bridge in a gorge covered in moss and lichen. In a shady mossy glen, man and woman in waterproof jackets and woollen hats stand on a wooden bridge and gaze up at high waterfall, as it tumbles over moss covered rocks, with forest of towering trees in background, Puck's Glen, near Dunoon. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. ### Puck's Glen Gorge Trail (closed). Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees.",
+        "content": "Thursday, 05 Mar 2026 It’s Scottish Apprenticeship Week! Apprentices are an important part of our workforce - helping us … Puck’s Glen Gorge will remain CLOSED for public safety for the 2026 visitor season following severe storm damage. Due to the ongoing safety concerns, members of the public should avoid visiting Puck’s Glen Gorge. We are continuing to work with stakeholders and potential partners to develop a longer-term plan for the site. Storm Eowyn (January 2025) caused major damage, making the trail unsafe. Further storms this year have led to: These risks are not always visible, so the closure is essential for your safety. Clearing fallen trees and repairing paths is a complex, long-term task. We’re planning a sustainable restoration, exploring partnerships and funding. Our team continues to monitor the gorge and carry out small maintenance to prevent further damage. A circular route from Puck’s Glen car park linking Benmore and the wider forest is open. Download a route-card or pick up a hard copy at the car park. Follow a magical trail that winds along a Victorian walkway up the dramatic rocky gorge. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out - you might spot the legendary Ghillie Dhu and some other mythic characters! Puck's Glen Gorge Trail remains closed due to storm damage and a number of fallen and unsafe trees. For your own safety, please do not attempt to access closed trails. A magical trail that winds along a Victorian walkway up the dramatic rocky gorge that is said to be home to mischievous spirits. Pass several waterfalls beneath the towering Douglas firs. During your visit, keep a sharp eye out and you might just spot the mystical Ghillie Dhu! Firm but uneven gravel paths, with some rough, rocky and narrow sections. Several steep slopes and long flights of rough steps. Includes numerous bridges and some wet sections after rain. Allow 1 hour Deservedly the most popular walk on the Cowal peninsula and particularly spectacular after rain. The steep, narrow gorge with its arched wooden bridges and rocky steps is thrilling and full of atmosphere. As you climb past tumbling waterfalls and gushing waters you'll sense the huge trees towering overhead and see sumptuous ferns and fungi thriving on the forest floor. This is a place of fantasy and fun, whatever your age. If it's been raining, wear waterproofs and be prepared for slippery, wet conditions. The nearest public toilets and café is at Benmore Botanic Gardens. Check their opening times before you go, especially in winter. You can find other places to eat and more public toilets in Dunoon. There is no charge to park in this car park. Puck's Glen is on the east side of the A815, 5 miles north of Dunoon and 1 mile south of Benmore Botanic Gardens. PA23 8QT is the nearest postcode Buses between Dunoon and Inveraray can stop at the entrance to Puck's Glen on request. A 1 mile trail links Puck's Glen with Benmore Botanic Gardens where there is an official bus stop. Plan your journey at Traveline Scotland.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+        "canonical_url": "https://forestryandland.gov.scot/visit/forest-parks/argyll-forest-park/pucks-glen",
+        "published_at": "2026-03-05T00:00:00",
+        "publisher": "forestryandland.gov.scot",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @kirstyislathomas.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:jdrltj7fgyrwwqbtpwdyy4ab/bafkreih6z4hzqyi3ujiugbfu6zr7tdslf5fj34r7wjitqqpsefu6yk4nzy",
+        "snippet": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides ",
+        "content": "Image type: photo\nAlt text: Photo of a glen surrounded by high trees and much greenery on both sides, at the bottom is a pathway with a small arched wooden bridge to cross the wee river at the bottom.\nVisual description: A lush, narrow forest glen with steep, moss-covered rocky slopes on both sides and tall evergreen trees rising above. At the bottom of the glen runs a small stream crossed by a simple arched wooden footbridge, with a dirt path leading onto it. The scene is densely green and shaded, with vegetation covering most surfaces.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "kirstyislathomas.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "src_1fb8ae6a79ec",
+        "title": "PUCK’S GLEN & MASSAN LOOP",
+        "url": "https://inverclyderamblers.org.uk/pucks-glen/#",
+        "snippet": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/.",
+        "content": "Puck's Glen is a river-formed ravine on the Cowal peninsula in Argyll and Bute, Scotland, with a popular scenic walking trail beside the Eas Mòr stream (Gaelic for \"big waterfall\"). It comes under the Forestry Commission which highlights it as a feature of the Argyll Forest Park (itself within the Loch Lomond and The Trossachs National Park), and describes it as \"One of the most magical forests in Scotland, with a delightful trail along a rocky gorge. The stream tumbles down a series of waterfalls and rapids, joining the River Eachaig about 1.2 kilometres (0.75 mi) south of the entrance to the Benmore Botanic Garden. A car park off the A815 road (about 10 kilometres (6.2 mi) from Dunoon on the road to Loch Eck) gives access by a track to the foot of the glen path, as well as forest paths giving an alternative route to the top of the glen. History The Benmore Estate, to the north of the Holy Loch near Dunoon, was once Campbell hunting grounds. Forest tree plantations began in the 1820s. In 1849 John Lamont, who had made his fortune as a sugar planter in Trinidad, bought the estate and built Benmore House, but died in 1850. A succession of owners made improvements, notably the American James Piers Patrick who planted the giant sequoia avenue in 1863, and later Greenock sugar reﬁner James Duncan expanded the estates and added the Puck’s Glen path between 1870 and 1889.He arranged extensive plantings, including more than six million trees around the estate and added paths leading up the Eas Mòr gorge for his visitors to enjoy the magical atmosphere of the glen, reminiscent of the mythological Puck, the character Puck in William Shakespeare's play A Midsummer Night's Dream. In 1889 the Younger family of Edinburgh brewers took over, then in 1924 they gave the estates to the Forestry Commission and the central gardens to the Royal Botanic Garden Edinburgh, which opened the Younger Botanic Garden in 1929. It was later renamed the Benmore Botanic Garden. Visitors The Benmore Botanic Garden car park serves walkers as well as visitors, bus services are more frequent March to October. Access to toilets through Benmore Café & Shop, check www.benmorecafe.co.uk for opening dates and times. Temporary access restrictions Though the Massan Loop will still be open, the Puck's Glen trail and Black Gates Trail have been closed for various reasons, click HERE for information and updates. A shorter 'Big Tree Trail' is still open as shown in this map HERE. Puck's Glen and Massan Loop walks Getting there The walks are shown from the car park of the Benmore Botanic Garden and Benmore Café – PA23 8QU (NS 143855); 7 miles north from Dunoon on A815 road towards Strachur (and Inveraray), see below for bus stops at Invereck. For Met Office weather forecasts, look for Younger Botanic Gardens. The car park is accessible all year, the Benmore Café provides access to public toilets (see www.benmorecafe.co.uk for opening dates and times) and is the visitor centre for the gardens which open 1 March to 31 October, www.rbge.org.uk/visit/benmore-botanic-garden/. Bus services– see www.bustimes.org/localities/benmore or look for Benmore, Argyll & Bute on traveline: 484 and 486 buses run all year but no Sunday service, stop at bus lay-bys on main road. 489 bus calls in at Botanic Gardens entrance (inside the car park) at certain times, particularly March to October when the gardens are open, but not on Sundays – see www.bustimes.org/stops/60709850 More buses, including Sunday services, stop on the A815 at Invereck near the south end of the Massan road, at and opposite \"Eventide Home\" PA23 8QS (NS 147828) – see www.bustimes.org/stops/60709106 arriving and www.bustimes.org/stops/60709106 returning to Dunoon. Crossing the Clyde: Frequent passenger ferry services run from Gourock Ferry Terminal (adjacent to Gourock bus station and railway station) to Dunoon Ferry Terminal, near the bus stances. The car ferry service runs from McInroy's Point to Hunters Quay (6 miles from B",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Puck’s Glen\" Argyll Forest Park Scotland walking trail",
+        "canonical_url": "https://inverclyderamblers.org.uk/pucks-glen",
+        "published_at": "2019-01-01T00:00:00",
+        "publisher": "inverclyderamblers.org.uk",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 26791
+  }
+}

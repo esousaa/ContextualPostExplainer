@@ -1,0 +1,605 @@
+{
+  "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:20:58.333204+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:20:28.774520+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:28.774611+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:28.774998+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:28.775088+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:28.775426+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:30.181482+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1406
+    },
+    {
+      "timestamp": "2026-05-16T02:20:30.181989+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:33.901250+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3719
+    },
+    {
+      "timestamp": "2026-05-16T02:20:33.901774+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:35.466432+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1564
+    },
+    {
+      "timestamp": "2026-05-16T02:20:35.466968+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:41.328153+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5861
+    },
+    {
+      "timestamp": "2026-05-16T02:20:41.328693+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:48.051075+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6722
+    },
+    {
+      "timestamp": "2026-05-16T02:20:48.051662+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:48.914120+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 862
+    },
+    {
+      "timestamp": "2026-05-16T02:20:48.914619+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.326414+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8819
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.326939+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.327031+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.327352+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.327405+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.327660+00:00",
+      "event": "node_started",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:58.327736+00:00",
+      "event": "node_completed",
+      "run_id": "run_7bf3de54094b4e4a9a6633cace7aceac",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "\"Reform\" party Sheffield councillor Nathaniel Menday suspended Nazi flag Mein Kampf",
+    "Finn Smith journalist Sheffield Star investigation Nathaniel Menday social media posts",
+    "Reform UK far-right extremism accusations councillors Nazism controversy",
+    "links between nationalist populist parties and neo-Nazi movements in Sweden and UK"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.msn.com/en-gb/news/uknews/reform-councillor-suspended-after-vile-online-posts/vi-AA23bWh2?ocid=finance-finance%3A%3Aportfolio-Peregrine",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/tobyperkinsmp/status/2054937301176738209",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYUR59XqNJk/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/finnsmithjourno",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYSWIsaqv-b/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.thestar.co.uk/news/politics/reform-uk-sheffield-councillor-nathaniel-menday-suspended-8543980",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.thestar.co.uk/news/politics/new-sheffield-reform-councillor-said-uk-has-subhuman-underclass-and-shared-images-of-nazi-flags-8541132",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.msn.com/en-gb/news/uknews/sheffield-reform-uk-councillor-nathaniel-menday-suspended-after-subhuman-underclass-social-media-posts-exposed/ar-AA236XHC?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.reddit.com/r/ukpolitics/comments/1tc7a8a/reform_suspends_sheffield_councillor_after_nazi/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_74f3f022fb7e",
+        "title": "Newly-elected Reform councillor suspended over vile posts suggesting UK has 'subhuman underclass' - Mirror Online",
+        "url": "https://www.mirror.co.uk/news/uk-news/nathaniel-menday-reform-sheffield-suspended-37153945.amp#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_dbc6dd20ef88",
+        "title": "Sheffield Reform UK councillor 'brought party into disrepute'",
+        "url": "https://www.bbc.com/news/articles/cd0pd27kzgzo#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_07336d5e81af",
+        "title": "A Reform councillor is suspended over claims he posted Nazi ...",
+        "url": "https://www.youtube.com/watch?v=gJ6GuhZJ4jU#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+      "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA ",
+      "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA 25 YEARS\nLYNX\n\nREMIGRATION NOW\nMein Kampf\n\n18:46 · 13 May 26 · 8,892 Views\nVisual description: The image is a screenshot of a social media post. The top portion contains a block of white text on a black background describing that a political party has suspended a councillor after social media posts were uncovered, mentioning a Nazi flag with a swastika and a photo of Hitler's book. Below this text is a collage of images: on the left, a hand holds a boxed product in front of a room where a large red flag with a swastika symbol hangs on the wall alongside dark clothing on hangers; in the center, a man in a suit stands with his hands behind his back; around him are smaller screenshots and graphics including a red-and-white design with the words \"REMIGRATION NOW,\" a circular black-and-white symbol, and the cover of a red book titled \"Mein Kampf\" showing a figure standing before a large crowd. At the bottom of the screenshot are interface details showing a time, date, and a view count in the thousands.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8536415383168687
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are na",
+      "content": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8195804169481798
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "Well, colour me surprised...",
+      "content": "Well, colour me surprised...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.398558646657939
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+      "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA ",
+      "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA 25 YEARS\nLYNX\n\nREMIGRATION NOW\nMein Kampf\n\n18:46 · 13 May 26 · 8,892 Views\nVisual description: The image is a screenshot of a social media post. The top portion contains a block of white text on a black background describing that a political party has suspended a councillor after social media posts were uncovered, mentioning a Nazi flag with a swastika and a photo of Hitler's book. Below this text is a collage of images: on the left, a hand holds a boxed product in front of a room where a large red flag with a swastika symbol hangs on the wall alongside dark clothing on hangers; in the center, a man in a suit stands with his hands behind his back; around him are smaller screenshots and graphics including a red-and-white design with the words \"REMIGRATION NOW,\" a circular black-and-white symbol, and the cover of a red book titled \"Mein Kampf\" showing a figure standing before a large crowd. At the bottom of the screenshot are interface details showing a time, date, and a view count in the thousands.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8536415383168687
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are na",
+      "content": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8195804169481798
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @onemoregoodman.bsky.social",
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "snippet": "Well, colour me surprised...",
+      "content": "Well, colour me surprised...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "onemoregoodman.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.398558646657939
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "onemoregoodman.bsky.social",
+        "display_name": "Lord Jeffrey of Nottingham #FBPE 🇬🇧 🇪🇺 🇬🇱",
+        "did": "did:plc:csjeq4nrwvdrtu5ryuycejvn"
+      },
+      "text": "Well, colour me surprised...",
+      "created_at": "2026-05-15T07:19:42.264000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+          "alt_text": null,
+          "ocr_text": "Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA 25 YEARS\nLYNX\n\nREMIGRATION NOW\nMein Kampf\n\n18:46 · 13 May 26 · 8,892 Views",
+          "description": "The image is a screenshot of a social media post. The top portion contains a block of white text on a black background describing that a political party has suspended a councillor after social media posts were uncovered, mentioning a Nazi flag with a swastika and a photo of Hitler's book. Below this text is a collage of images: on the left, a hand holds a boxed product in front of a room where a large red flag with a swastika symbol hangs on the wall alongside dark clothing on hangers; in the center, a man in a suit stands with his hands behind his back; around him are smaller screenshots and graphics including a red-and-white design with the words \"REMIGRATION NOW,\" a circular black-and-white symbol, and the cover of a red book titled \"Mein Kampf\" showing a figure standing before a large crowd. At the bottom of the screenshot are interface details showing a time, date, and a view count in the thousands.",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public."
+    },
+    "explanation": [
+      {
+        "text": "The post’s main caption, “Well, colour me surprised…”, reads as sarcastic in light of the attached screenshot about a Reform councillor and Nazi imagery, implying the author is not genuinely surprised by the reported suspension and alleged Nazi-related posts.",
+        "source_ids": [
+          "thread_original",
+          "image_1"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Interpretation of sarcasm is based on wording and juxtaposition with the screenshot, not on any explicit statement by the author.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The screenshot shared with the post states that Reform has suspended a new Sheffield councillor, Nathaniel Menday, after further social media posts were uncovered that included a large Nazi flag with a swastika and a photo of Hitler’s book Mein Kampf.",
+        "source_ids": [
+          "image_1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This description comes solely from a social media screenshot; there are no independent official or news sources here to verify the suspension or identities, so the underlying events should be treated as unconfirmed.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Within the thread text, the author characterises “Reform” as effectively being “code for ‘Nazi’,” expressing the view that outsiders already saw the party that way and therefore find the councillor’s alleged Nazi imagery unsurprising.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is the author’s political opinion and rhetorical framing in a social post, not an established factual classification of the party.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The same thread links nationalist or populist politicians in multiple countries—mentioning Trump in the US, Reform in the UK, and nationalist populists in Sweden—to Nazism, portraying these groups as ideologically aligned or overlapping rather than clearly distinct.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are broad political generalisations and criticisms in a social media reaction, not empirically demonstrated links supported by independent evidence in the provided sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread includes the provocative claim that “Nazis and Zionists are cousins,” signalling the author’s belief that there are affinities between Nazism and Zionism; this is presented as a controversial political opinion rather than a documented historical consensus in the available sources.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is a highly contentious and polarising opinion expressed in a social post; no historical or scholarly evidence is provided in the sources to substantiate it.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @onemoregoodman.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:csjeq4nrwvdrtu5ryuycejvn/bafkreiae6odjlxf3zh3ywen4kzkuxg3nfnwmq3jmzt767dh3qgibf2rmzi",
+        "snippet": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA ",
+        "content": "Image type: screenshot\nVisible text: Reform has suspended new Sheffield councillor Nathaniel Menday, after further social media posts were uncovered by @finnsmithjourno for the @SheffieldStar which included a huge photo of a Nazi flag with a swastika on it and a photo of Hitler's Mein Kamf.\n\nAFRICA 25 YEARS\nLYNX\n\nREMIGRATION NOW\nMein Kampf\n\n18:46 · 13 May 26 · 8,892 Views\nVisual description: The image is a screenshot of a social media post. The top portion contains a block of white text on a black background describing that a political party has suspended a councillor after social media posts were uncovered, mentioning a Nazi flag with a swastika and a photo of Hitler's book. Below this text is a collage of images: on the left, a hand holds a boxed product in front of a room where a large red flag with a swastika symbol hangs on the wall alongside dark clothing on hangers; in the center, a man in a suit stands with his hands behind his back; around him are smaller screenshots and graphics including a red-and-white design with the words \"REMIGRATION NOW,\" a circular black-and-white symbol, and the cover of a red book titled \"Mein Kampf\" showing a figure standing before a large crowd. At the bottom of the screenshot are interface details showing a time, date, and a view count in the thousands.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "onemoregoodman.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @onemoregoodman.bsky.social",
+        "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+        "snippet": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are na",
+        "content": "I'm sure tRump loves him.\n\nFrom the outside, we thought you all in the UK knew 'Reform' was code for \"Nazi\".  No? Y'all missed that???\n\nI'm trying so hard to be shocked by this...\n\nNazis and Zionists are cousins\n\nSame here in Sweden, many of the nationalist populist members and office holders are nazis. They just 'hide it' in public.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "onemoregoodman.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @onemoregoodman.bsky.social",
+        "url": "https://bsky.app/profile/onemoregoodman.bsky.social/post/3mlus6pvupc2m",
+        "snippet": "Well, colour me surprised...",
+        "content": "Well, colour me surprised...",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "onemoregoodman.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 28962
+  }
+}

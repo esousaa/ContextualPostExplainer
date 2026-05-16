@@ -1,0 +1,447 @@
+{
+  "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:33:45.212230+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:33:16.761100+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:16.761190+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:16.761540+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:16.761619+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:16.761948+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:18.082227+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1320
+    },
+    {
+      "timestamp": "2026-05-16T02:33:18.082752+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:21.101250+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3018
+    },
+    {
+      "timestamp": "2026-05-16T02:33:21.101901+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:22.638927+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1537
+    },
+    {
+      "timestamp": "2026-05-16T02:33:22.639461+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:27.508898+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 4147
+    },
+    {
+      "timestamp": "2026-05-16T02:33:27.509404+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:37.365752+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9856
+    },
+    {
+      "timestamp": "2026-05-16T02:33:37.366283+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:37.906111+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 539
+    },
+    {
+      "timestamp": "2026-05-16T02:33:37.906667+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.205195+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 7298
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.205717+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.205804+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.206126+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.206180+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.206433+00:00",
+      "event": "node_started",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:33:45.206516+00:00",
+      "event": "node_completed",
+      "run_id": "run_7cda9b10193c4fbea905dd98b63b28bb",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+  "status": "no_explanation",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "France law requiring solar panels on parking lots with more than 80 spaces details equals 10 nuclear reactors",
+    "France solar canopy law parking areas over 80 spaces implementation timeline and scope",
+    "number of parking spaces in the United States estimate 800 million uncovered asphalt heat island",
+    "EU vs China manufacturing of solar panels policy debate \"assembled in EU\" rules of origin"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 15,
+    "search_results_by_provider": {
+      "brave": 15
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks"
+      },
+      {
+        "id": "https://e360.yale.edu/digest/france-solar-parking-lots",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://e360.yale.edu/digest/france-solar-parking-lots"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.betternatureofficial.org/blogs/france-passed-a-law-requiring-rooftop-solar-panels-on-large-parking-lots",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://phys.org/news/2010-12-free-nationwide-high-environmental.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_0e172fa0a346",
+        "title": "France requires Solar Panels for all Large Parking Lots — Sustaira",
+        "url": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_d0a48459c829",
+        "title": "France Seeks to Mandate Solar Panels Over Large Parking Lots - Yale E360",
+        "url": "https://e360.yale.edu/digest/france-solar-parking-lots#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_f0e0b7524328",
+        "title": "New French law will blanket parking lots with solar panels - The Washington Post",
+        "url": "https://www.washingtonpost.com/climate-solutions/2023/02/06/france-solar-parking-lots/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_ff1684a9a28e",
+        "title": "Why Not Cover Ugly Parking Lots With Solar Panels? | WIRED",
+        "url": "https://www.wired.com/story/france-solar-panels-parking-lots/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_bade24bcc4f6",
+        "title": "Solar Canopy Mandate for Large Parking Lots - Open Climate Resilience Policies",
+        "url": "https://ocrap.net/policies/solar-parking/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_e9bc64425825",
+        "title": "Parking lots and solar panels: publication of the implementing decree for the APER Law - Bird & Bird",
+        "url": "https://www.twobirds.com/en/insights/2024/france/parcs-de-stationnement-et-panneaux-photovoltaiques-decret-d-application-de-la-loi-aper-publie#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_a80b067c30de",
+        "title": "A Concrete Perspective: The Troubling Scale And Enormous Cost Of Parking Lots | CharterUP",
+        "url": "https://www.charterup.com/blog/a-concrete-perspective-the-troubling-scale-and-enormous-cost-of-parking-lots/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_90d3f9c8ed73",
+        "title": "800 million parking spaces can be wrong | CNU",
+        "url": "https://www.cnu.org/publicsquare/800-million-parking-spaces-can-be-wrong#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_d13fb3fc34bb",
+        "title": "Parking Lots Cause More Heat and Flooding--Here's How 100 U.S. Cities Rank | Scientific American",
+        "url": "https://www.scientificamerican.com/article/parking-lots-cause-more-heat-and-flooding-heres-how-100-u-s-cities-rank/#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "brave": 1
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {},
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+      "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we d",
+      "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we doing this?\nVisual description: The image is a social post-style graphic. The upper portion contains white text on a dark background discussing laws requiring solar panels on large parking lots and comparing this to uncovered parking spaces in the US, ending with a question about adopting the practice. Below the text is a photograph of a parking lot covered by a large metal canopy structure with solar panels mounted on top. Several vehicles are parked beneath the canopy, and the lot has marked parking spaces and support columns. The sky is clear and blue, and some buildings and low hills are visible in the distance.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8605533823714783
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7141095136425519
+    },
+    {
+      "id": "src_18827976cf32",
+      "title": "France rules on mandatory solar for car parks",
+      "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+      "snippet": "This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, <strong>lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026</strong>. For lots between 1,500 and 10,000 ...",
+      "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "France law requiring solar panels on parking lots with more than 80 spaces details equals 10 nuclear reactors",
+          "France solar canopy law parking areas over 80 spaces implementation timeline and scope",
+          "France law requiring solar panels on parking lots with more than 80 spaces details equals 10 nuclear reactors | France solar canopy law parking areas over 80 spaces implementation timeline and scope"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "France law requiring solar panels on parking lots with more than 80 spaces details equals 10 nuclear reactors | France solar canopy law parking areas over 80 spaces implementation timeline and scope",
+      "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+      "published_at": "2025-10-28T00:00:00",
+      "publisher": "pveurope.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6804454791273815
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.5271714070720532
+    }
+  ],
+  "cited_sources": [],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "platform": "bluesky",
+      "author": {
+        "handle": "intruder1500stevie.bsky.social",
+        "display_name": "Stevie P",
+        "did": "did:plc:sy42rj4nkl372n6mqlmvm2j2"
+      },
+      "text": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "created_at": "2026-05-15T08:03:57.317000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+          "alt_text": null,
+          "ocr_text": "France passed a law requiring solar panels on every parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of them are uncovered asphalt sitting in direct sunlight.\n\nWhy aren't we doing this?",
+          "description": "The image is a social post-style graphic. The upper portion contains white text on a dark background discussing laws requiring solar panels on large parking lots and comparing this to uncovered parking spaces in the US, ending with a question about adopting the practice. Below the text is a photograph of a parking lot covered by a large metal canopy structure with solar panels mounted on top. Several vehicles are parked beneath the canopy, and the lot has marked parking spaces and support columns. The sky is clear and blue, and some buildings and low hills are visible in the distance.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍"
+    },
+    "explanation": [],
+    "sources": [],
+    "confidence": "low",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 27724
+  }
+}

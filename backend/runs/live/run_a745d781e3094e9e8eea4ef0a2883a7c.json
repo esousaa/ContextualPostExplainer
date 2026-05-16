@@ -1,0 +1,1221 @@
+{
+  "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:14:38.241069+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:14:11.574807+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:11.574894+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:14:11.575284+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:11.575386+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:14:11.575726+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:12.834291+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1258
+    },
+    {
+      "timestamp": "2026-05-16T03:14:12.834833+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:12.834918+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:14:12.835293+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:14.677404+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1842
+    },
+    {
+      "timestamp": "2026-05-16T03:14:14.677907+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:24.200230+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 9522
+    },
+    {
+      "timestamp": "2026-05-16T03:14:24.200744+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:32.770407+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7908
+    },
+    {
+      "timestamp": "2026-05-16T03:14:32.771044+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:33.546825+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 775
+    },
+    {
+      "timestamp": "2026-05-16T03:14:33.547410+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.233615+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 4686
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.234190+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.234487+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.234865+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.234929+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.235236+00:00",
+      "event": "node_started",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T03:14:38.235375+00:00",
+      "event": "node_completed",
+      "run_id": "run_a745d781e3094e9e8eea4ef0a2883a7c",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+  "status": "completed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "SB 2471 signed into law",
+    "SB 2471 governor",
+    "SB 2471 Citizens United",
+    "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+    "Hawaii law rendering Supreme Court \"Citizens United\" decision irrelevant state-level response",
+    "End Citizens United reaction to Hawaii SB 2471 first of its kind in the nation"
+  ],
+  "metrics": {
+    "search_results_received": 60,
+    "search_results_by_provider": {
+      "brave": 30,
+      "tavily": 30
+    },
+    "search_provider_overlap": [
+      {
+        "canonical_url": "https://legiscan.com/HI/bill/SB2471/2026",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 3,
+        "queries_by_provider": {
+          "brave": [
+            "SB 2471 signed into law",
+            "SB 2471 governor"
+          ],
+          "tavily": [
+            "SB 2471 signed into law"
+          ]
+        },
+        "titles": [
+          "HI SB2471 | 2026 | Regular Session - LegiScan",
+          "HI SB2471 | 2026 | Regular Session | LegiScan"
+        ]
+      },
+      {
+        "canonical_url": "https://hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 3,
+        "queries_by_provider": {
+          "brave": [
+            "SB 2471 signed into law",
+            "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+          ],
+          "tavily": [
+            "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+          ]
+        },
+        "titles": [
+          "Last-minute proposal threatens Hawaiʻi bill to limit corporate spending in elections | Hawai'i Public Radio"
+        ]
+      },
+      {
+        "canonical_url": "https://billtrack50.com/billdetail/1945065",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "tavily": [
+            "SB 2471 signed into law"
+          ],
+          "brave": [
+            "SB 2471 governor"
+          ]
+        },
+        "titles": [
+          "HI SB2471 | BillTrack50"
+        ]
+      },
+      {
+        "canonical_url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 4,
+        "queries_by_provider": {
+          "tavily": [
+            "SB 2471 signed into law",
+            "SB 2471 governor",
+            "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+          ],
+          "brave": [
+            "SB 2471 governor"
+          ]
+        },
+        "titles": [
+          "SB 2471: null - Digital Democracy | Civil Beat",
+          "SB 2471: null | Digital Democracy"
+        ]
+      },
+      {
+        "canonical_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "SB 2471 governor"
+          ],
+          "tavily": [
+            "SB 2471 governor"
+          ]
+        },
+        "titles": [
+          "Office of the Governor — News Release —  Governor Green Enacts Key Legislation   | Governor Josh Green, M.D.",
+          "Office of the Governor — News Release — Governor Green Enacts Key Legislation | Governor Josh Green, M.D."
+        ]
+      },
+      {
+        "canonical_url": "https://news.ballotpedia.org/2026/05/13/hawaii-legislators-advance-bill-to-restrict-corporate-political-activity",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "tavily": [
+            "SB 2471 Citizens United"
+          ],
+          "brave": [
+            "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+          ]
+        },
+        "titles": [
+          "Hawaii legislators advance bill to restrict corporate political activity",
+          "Hawaii legislators advance bill to restrict corporate political activity - Ballotpedia News"
+        ]
+      },
+      {
+        "canonical_url": "https://theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Hawaii law rendering Supreme Court \"Citizens United\" decision irrelevant state-level response"
+          ],
+          "tavily": [
+            "Hawaii law rendering Supreme Court \"Citizens United\" decision irrelevant state-level response"
+          ]
+        },
+        "titles": [
+          "Hawaii vs. Citizens United - The Atlantic"
+        ]
+      },
+      {
+        "canonical_url": "https://khon2.com/local-news/hawai%CA%BBi-bill-challenging-citizens-united",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "End Citizens United reaction to Hawaii SB 2471 first of its kind in the nation"
+          ],
+          "tavily": [
+            "End Citizens United reaction to Hawaii SB 2471 first of its kind in the nation"
+          ]
+        },
+        "titles": [
+          "Hawaiʻi bill challenging Citizens United advances, first of ...",
+          "Hawaiʻi bill challenging Citizens United advances, first of its kind in ..."
+        ]
+      },
+      {
+        "canonical_url": "https://youtube.com/watch?v=KYCETdsHV7E",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "End Citizens United reaction to Hawaii SB 2471 first of its kind in the nation"
+          ],
+          "tavily": [
+            "End Citizens United reaction to Hawaii SB 2471 first of its kind in the nation"
+          ]
+        },
+        "titles": [
+          "Hawaiʻi bill challenging Citizens United advances, first of its kind in ...",
+          "Hawaiʻi bill challenging Citizens United advances, first of its kind in the nation - YouTube"
+        ]
+      }
+    ],
+    "search_provider_overlap_count": 9,
+    "search_results_discarded": [
+      {
+        "id": "https://legiscan.com/HI/bill/SB2471/2026",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://legiscan.com/HI/bill/SB2471/2026"
+      },
+      {
+        "id": "https://legiscan.com/HI/bill/SB2471/2026",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://legiscan.com/HI/bill/SB2471/2026"
+      },
+      {
+        "id": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471"
+      },
+      {
+        "id": "https://www.billtrack50.com/billdetail/1945065",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.billtrack50.com/billdetail/1945065"
+      },
+      {
+        "id": "https://www.hawaiisenatemajority.com/press-release/governor-signs-senate-bill-2471-into-law-to-limit-corporate-political-spending-in-hawai-i",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.hawaiisenatemajority.com/press-release/governor-signs-senate-bill-2471-into-law-to-limit-corporate-political-spending-in-hawai-i"
+      },
+      {
+        "id": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471"
+      },
+      {
+        "id": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation/"
+      },
+      {
+        "id": "https://www.hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill"
+      },
+      {
+        "id": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/"
+      },
+      {
+        "id": "https://news.ballotpedia.org/2026/05/13/hawaii-legislators-advance-bill-to-restrict-corporate-political-activity/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://news.ballotpedia.org/2026/05/13/hawaii-legislators-advance-bill-to-restrict-corporate-political-activity/"
+      },
+      {
+        "id": "https://www.hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill"
+      },
+      {
+        "id": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471"
+      },
+      {
+        "id": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/"
+      },
+      {
+        "id": "https://www.theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159/"
+      },
+      {
+        "id": "https://www.americanprogress.org/article/addressing-questions-surrounding-hawaiis-bold-move-to-undo-citizens-united/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.americanprogress.org/article/addressing-questions-surrounding-hawaiis-bold-move-to-undo-citizens-united/"
+      },
+      {
+        "id": "https://www.hapahi.org/blog/endcitizensunited",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.hapahi.org/blog/endcitizensunited"
+      },
+      {
+        "id": "https://www.youtube.com/watch?v=KYCETdsHV7E",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.youtube.com/watch?v=KYCETdsHV7E"
+      },
+      {
+        "id": "https://www.khon2.com/local-news/hawai%CA%BBi-bill-challenging-citizens-united/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.khon2.com/local-news/hawai%CA%BBi-bill-challenging-citizens-united/"
+      },
+      {
+        "id": "https://www.facebook.com/americanprogress/posts/16-years-after-citizens-united-hawaiis-sb-2471a-bill-under-which-hawaii-would-no/1410972161069582/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.facebook.com/americanprogress/posts/16-years-after-citizens-united-hawaiis-sb-2471a-bill-under-which-hawaii-would-no/1410972161069582/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://legiscan.com/HI/bill/SB2471/2026",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYHvbbPjoQ5/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://legiscan.com/HI/text/SB2471/id/3432904",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://x.com/Tiffany_Muller/status/2055304749210087879",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_25a8069837b3",
+        "title": "HI SB2471 | BillTrack50",
+        "url": "https://www.billtrack50.com/billdetail/1945065#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_4a196463518a",
+        "title": "Press Release | GOVERNOR SIGNS SENATE BILL 2471 INTO LAW TO LIMIT CORPORATE POLITICAL SPENDING IN HAWAI’I | Hawaiʻi State Senate Majority",
+        "url": "https://www.hawaiisenatemajority.com/press-release/governor-signs-senate-bill-2471-into-law-to-limit-corporate-political-spending-in-hawai-i#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 6,
+      "tavily": 3,
+      "tavily, brave": 1,
+      "tavily, brave, tavily, brave": 1
+    },
+    "ranked_multi_provider_source_count": 3,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 4,
+      "tavily": 2,
+      "tavily, brave": 1,
+      "tavily, brave, tavily, brave": 1
+    },
+    "cited_multi_provider_source_count": 2
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @endcitizensunited.bsky.social",
+      "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+      "snippet": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+      "content": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "endcitizensunited.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8941392828086079
+    },
+    {
+      "id": "src_4b19e8eabec0",
+      "title": "Editorial: Reduce corporate money in politics | Honolulu Star-Advertiser",
+      "url": "https://www.staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime/#",
+      "snippet": "The tiny 50th State of Hawaii has ... by the state Legislature last week, is now law. <strong>Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027</strong>....",
+      "content": "The tiny 50th State of Hawaii has an enormous chance to lead the nation in turning the tide of murky corporate and “dark money” in elections — a disturbing floodgate opened in 2010 by the U.S. Supreme Court’s Citizens United v. FEC decision. Senate Bill 2471, passed nearly unanimously by the state Legislature last week, is now law. Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027. The law’s stunning passage very clearly reflects the interests of the general public, which for the past 16 years has seen massive and unlimited sums poured into super PACs (political action committees) by influential entities. This was enabled by the high court’s ruling that governments could not ban corporations, unions and nonprofit groups from political speech, to which they’re entitled under the First Amendment. Increasingly, corporate conduits are being used by the wealthy and powerful to funnel money into super PAC sway campaigns — without having to disclose the actual people behind the donations — in attempts to influence elections for national and local offices, as well as ballot measures and initiatives. SB 2471, now Act 11, will basically ban corporations from contributing to super PACs (which are not bound by collecting or spending limits). It seeks a fairer political field for all involved — a more transparent one that curbs outsized, and outside, special-interest forces. The law stakes out states’ rights in setting ground rules for corporations that do business in Hawaii. These “artificial persons” would retain the privileges and powers necessary to conduct business here, says SB 2471 — but “those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures.” This potential sea change in political influence was applauded by clean government and pro-democracy organizations in a Tuesday rally at the state Capitol, and on Maui and Hawaii island. Advocates hailed this measure, if enacted, as the first law of its kind in the nation to redefine corporate powers under state law to exclude political spending — a path around Citizens United. Concerns over that 2010 ruling have grown for years as money, much of it from opaque sources, flooded into states’ elections. OpenSecrets, a campaign finance watchdog group, tracked more than $4 billion in outside political spending in the 2024 federal elections, nearly 12 times as much as in 2008. And the Brennan Center for Justice tallied a record $1.9 billion in “dark money” in 2024 from groups, nonprofits and shell companies that are not required to reveal their donors. Don't miss out on what's happening! Stay in touch with breaking news, as it happens, conveniently in your email inbox. It's FREE! By clicking to sign up, you agree to Star-Advertiser's and Google's Terms of Service and Privacy Policy. This form is protected by reCAPTCHA. Big money doesn’t always win the day, of course, but it certainly puts a huge hand on the scale when it comes to a fair political contest. Money injected into campaigns from unknown sources also can be corruptive, eroding public trust and chilling robust participation. Hawaii’s SB 2471 is not the only state effort to counter Citizens United’s unsettling fallout; it’s just the first and only to succeed so far. At least 14 other states have launched anti-Citizens United actions, some of them similar to Hawaii’s strategy using the state’s authority to define corporation powers. In Montana, signatures are being gathered to place the tactic as a ballot initiative — dubbed The Montana Plan — before its voters in the November election. With SB 2471 signed into law, legal challenges are sure to follow. This alert was sounded by Hawaii’s attorney general in testifying against SB 2471, warning the new law would be difficult, and costly, to defend in court. “But doing the right thing often triggers court challenges,” wrote three of Hawaii’s best legal minds — Clare Connors, Mark Recktenwald an",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "SB 2471 signed into law",
+      "canonical_url": "https://staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "staradvertiser.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8212125956997713
+    },
+    {
+      "id": "src_8a1dfd1c666e",
+      "title": "Last-minute proposal threatens Hawaiʻi bill to limit corporate spending in elections | Hawai'i Public Radio",
+      "url": "https://www.hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill#",
+      "snippet": "Green signs law that targets corporate influence in politics ... The Maine law is currently being litigated over its potential conflict with free speech rights. But the matter has already been settled in Hawaiʻi, which means that the House version of SB 2471 could immediately fail if lawmakers pass it.",
+      "content": "A Hawaiʻi bill challenging the ability of corporations to pour “dark money” into elections has hit a last-minute snag at the Legislature. The House and Senate now have differing drafts of Senate Bill 2471, which currently proposes to “restate and limit the powers that the State grants to corporations, limited liability companies, partnerships, associations, and other artificial persons.” In its current form, SB 2471 is attempting to redefine such “artificial persons” and reduce their ability to spend on elections. It's positioned Hawaiʻi as a trailblazer in the effort to nullify the impacts of Citizens United v. Federal Election Commission. The U.S. Supreme Court's 2010 ruling in the case allowed unlimited and anonymous spending on political action committees, and that “dark money” in turn funds political campaigns. But with just one day left to pass bills through the state Legislature, the House proposed a version of the bill that would limit donations to organizations like PACs to $6,000 per two-year election cycle. “Instead of restricting the ability for a corporation or corporate entity to spend, which could be interpreted as (restricting) free speech, it's restricting the corporation's ability to accept donations,” said Rep. Scot Matayoshi, who offered the House's draft at a Thursday hearing for the bill. In the Citizens United case, the Supreme Court ruled that the funding of corporations and organizations in elections cannot be limited, as it violates their free speech protections under the First Amendment. The House version would sidestep the possibility that federal courts would strike down SB 2471. That was a concern shared by the state Attorney General's office, which “strongly opposes” the measure that it said is “likely impossible to defend” in court. “While many Americans strongly disagree with the U.S. Supreme Court's holding in Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits,” the AG's office said in written testimony. The House version mimics a ballot initiative adopted in Maine in 2024 that also seeks to limit corporate financing in elections. But it would do so by challenging a Supreme Court ruling in a different case — SpeechNOW.org v. Federal Election Commission. The high court ruling in the case, made about three months after its ruling on the Citizens United case, said that limiting donations to super PACs also violated the First Amendment. The Maine law is currently being litigated over its potential conflict with free speech rights. But the matter has already been settled in Hawaiʻi, which means that the House version of SB 2471 could immediately fail if lawmakers pass it. “The Ninth Circuit, which is where Hawaiʻi sits, has already decided this … There have been multiple cases that have basically said, 'Nope. If it's an independent (expenditure-only) political action committee, you can't regulate contributions coming in,'” said Tom Moore, the senior fellow for the Center For American Progress. He added, “So if the Hawaiʻi Legislature would've tried this right now, it would just be dead on arrival when it got to court, not because it's a bad idea — it's a great idea — but because the Ninth Circuit has already spoken on them, and they have to respect their own precedent.” Camron Hurt, state director for Common Cause Hawaiʻi, said that the bill's original language would represent a new legal challenge, giving it a chance to succeed. “ We also know that our circuit court … has already adopted SpeechNOW.org, which means that we don't have the same hindrance and we have a better chance of winning in court,” Hurt said. “These amendments, upon initial review, weaken the bill and almost instantaneously guarantee that it's going to not withstand legal muster.” Hurt also said the change to the measure could be significant enough to be considered a “gut-and-replace,” which is no longer allowed at the state L",
+      "source_type": "web",
+      "provider": "brave, tavily",
+      "providers": [
+        "brave",
+        "tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law",
+          "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+          "SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+          "SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money | SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+        ],
+        "tavily": [
+          "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+          "SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money | SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money"
+        ]
+      },
+      "provider_result_count": 2,
+      "query": "SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money | SB 2471 signed into law | \"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+      "canonical_url": "https://hawaiipublicradio.org/local-news/2026-05-01/last-minute-proposal-would-make-significant-changes-to-hawaiis-dark-money-bill",
+      "published_at": "2026-05-01T00:00:00",
+      "publisher": "hawaiipublicradio.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7915575896371075
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @endcitizensunited.bsky.social",
+      "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+      "snippet": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+      "content": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "endcitizensunited.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7725255415068709
+    },
+    {
+      "id": "src_c061870ee823",
+      "title": "Letter: Isle Citizens United bill must be signed into law | Honolulu Star-Advertiser",
+      "url": "https://www.staradvertiser.com/2026/05/13/editorial/letters/letter-isle-citizens-united-bill-must-be-signed-into-law/#",
+      "snippet": "We congratulate the Hawaii legislators who passed Senate Bill 2471, the “Citizens United” bill that will keep corporate interests from pouring money into our local elections. Though it’s not complete and the governor has still to sign it, it’s a good first step to make our elections by the people instead of by the money.",
+      "content": "We congratulate the Hawaii legislators who passed Senate Bill 2471, the “Citizens United” bill that will keep corporate interests from pouring money into our local elections. Though it’s not complete and the governor has still to sign it, it’s a good first step to make our elections by the people instead of by the money. There was some concern that this measure will surely end up in the court system and cost Hawaii money for the litigation. We think that once this measure gets national traction, money from small contributions nationwide will mitigate the legal costs to the state. We all need to demand that Gov. Josh Green step up for the people and sign SB 2471 into law. John and Rita Shockley Coordinators, Free Access Coalition Don't miss out on what's happening! Stay in touch with breaking news, as it happens, conveniently in your email inbox. It's FREE! By clicking to sign up, you agree to Star-Advertiser's and Google's Terms of Service and Privacy Policy. This form is protected by reCAPTCHA. EXPRESS YOURSELF The Honolulu Star-Advertiser welcomes all opinions. Want your voice to be heard? Submit a letter to the editor. >> Write us: We welcome letters up to 150 words, and guest columns of 500-600 words. We reserve the right to edit for clarity and length. Include your name, address and daytime phone number. >> Mail: Letters to the Editor, Honolulu Star-Advertiser 7 Waterfront Plaza, 500 Ala Moana, Suite #7-500 Honolulu, HI 96813",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "SB 2471 signed into law",
+      "canonical_url": "https://staradvertiser.com/2026/05/13/editorial/letters/letter-isle-citizens-united-bill-must-be-signed-into-law",
+      "published_at": "2026-05-13T00:00:00",
+      "publisher": "staradvertiser.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6817364689537653
+    },
+    {
+      "id": "src_d320df3fc4bd",
+      "title": "Bill prohibiting corporate political donations nearing the finish line | Aloha State Daily",
+      "url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line/#",
+      "snippet": "Senate Bill 2471 <strong>sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities</strong>. Under current state laws, corporations have “the same powers as an individual to do all things necessary ...",
+      "content": "A measure intended to prevent corporations from influencing elections is still going strong in the state legislature. Senate Bill 2471 sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities. Under current state laws, corporations have “the same powers as an individual to do all things necessary or convenient to carry out [their] affairs,” such as the power to file lawsuits, to own property, to make contracts and the like. Most of those powers would not be impeded by SB 2471. However, the ability of a corporation to be involved in elections or any “ballot-issue activity” would be terminated by the bill. Specifically, this would include the ability for a corporation to pay, donate or otherwise spend money to support or oppose a political campaign, political party, constitutional amendment, charter amendment or any other issue on a ballot. These limitations would apply to corporations, associations, limited-equity housing cooperatives, limited-liability partnerships and nonprofits. It also applies to “foreign corporations,” which in this case means any corporation formed in other states as well as other countries. Should any such organization take any action considered to be an election activity, that organization will forfeit all of powers and privileges afforded by the state. The bill is a response to the 2010 U.S. Supreme Court verdict in the case Citizens United v. Federal Election Commission. The upshot of that verdict was that laws prohibiting political spending by corporations were determined to be a violation of the First Amendment’s protections toward free speech. A report on the measure by the Senate Judiciary Committee stated that, since the Citizens United verdict, “corporations and other entities have spent large sums of money to influence political campaigns and elections, undermining public trust in the democratic process.” That report added that the Hawai‘i State Constitution allows for the Legislature to “withdraw any corporate or entity powers that the State has conferred.” The Center for American Progress, a self-described nonpartisan public policy think tank, has testified extensively in favor of the measure, testimony which multiple committees have specifically responded to. In that testimony, CAP senior fellow Tom Moore wrote that corporations only exist because states allow them to by conferring privileges and powers, something that states can change without violating the Citizens United ruling. Moore wrote that there is a distinction between “powers” and “rights,” whereby SB 2471 limits a corporation’s “powers” but not its “rights”. Instead, he wrote, it simply “defines the powers that Hawai‘i chooses to grant to the artificial entities it creates and authorizes to do business within the state.” Whether this will actually hold any legal water is unclear. The state Department of the Attorney General has opposed the bill, warning that it will likely be challenged under the Citizens United verdict — something which, the attorney general noted, will likely incur substantial legal fees to be paid by state taxpayers. “While many Americans strongly disagree with … Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” read the Attorney General’s letter (parenthetical theirs). During the bill’s most recent committee hearing, on Tuesday, Rep. Scot Matayoshi (D-Kāne‘ohe) said he hopes “we don’t get too smoked in court” should the bill pass. Matayoshi moved during Tuesday’s meeting of the House Committee on Consumer Protection and Commerce to remove language in the bill differentiating charitable donations and political donations. The current draft of the measure defines “artificial-person powers” as those powers necessary for a corporation to carry out its “lawful, charitable or public-benefit purposes.” This language, Matayoshi said, ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "SB 2471 signed into law",
+      "canonical_url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line",
+      "published_at": "2026-03-26T00:00:00",
+      "publisher": "alohastatedaily.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.673161065655916
+    },
+    {
+      "id": "src_e6228e30da0c",
+      "title": "SB 2471: null | Digital Democracy",
+      "url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471#",
+      "snippet": "# SB 2471. * **Latest Version Date:** 2026-05-06. ## Current Status:. (2026-05-08: Enrolled to Governor.). Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. ### House Floor. ### Senate Floor. ### Conference Committee. ## News Coverage:. SB 2471: null | Digital Democracy.",
+      "content": "Current Status: In Progress (2026-05-08: Enrolled to Governor.) Introduced In Committee First Chamber In Committee Second Chamber Final Decking Enacted Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. Effective 7/1/2027. (CD2)",
+      "source_type": "web",
+      "provider": "tavily, brave, tavily, brave, tavily, brave, tavily, brave",
+      "providers": [
+        "tavily",
+        "brave",
+        "tavily, brave",
+        "tavily, brave, tavily, brave"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "SB 2471 signed into law",
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "brave": [
+          "SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "tavily, brave": [
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "tavily, brave, tavily, brave": [
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ]
+      },
+      "provider_result_count": 4,
+      "query": "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+      "canonical_url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+      "published_at": "2026-05-06T00:00:00",
+      "publisher": "civilbeat.digitaldemocracy.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.667815605703886
+    },
+    {
+      "id": "src_de632cac9acd",
+      "title": "Office of the Governor — News Release — Governor Green Enacts Key Legislation | Governor Josh Green, M.D.",
+      "url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation/#",
+      "snippet": "RELATING TO THE POWERS OF ARTIFICIAL ... HD2 CD2) <strong>restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities</strong>...",
+      "content": "Office of the Governor — News Release — Governor Green Enacts Key Legislation Posted on May 14, 2026 in Latest Department News, Newsroom, Office of the Governor Press ReleasesSTATE OF HAWAIʻI KA MOKU ʻĀINA O HAWAIʻI JOSH GREEN, M.D. GOVERNOR GOVERNOR GREEN ENACTS KEY LEGISLATION FOR IMMEDIATE RELEASE May 14, 2026 HONOLULU — Governor Josh Green today signed the following bills into law: HB 1510 HD2 SD1 RELATING TO LICENSE PLATES Act 012 (HB 1510 SD1) prohibits the use of license plate covers or shields that obstruct the visibility or readability of vehicle license plates and requires compliance with these standards before a vehicle may receive a safety inspection certificate. (Act 012 takes effect January 1, 2027.) This bill will strengthen traffic enforcement, improve public safety and support the ability of law enforcement officers to identify vehicles involved in violations, crimes and public safety incidents. SB 2471 SD2 HD2 CD2 RELATING TO THE POWERS OF ARTIFICIAL PERSONS (Corporate Donations) Act 011 (SB 2471 SD2 HD2 CD2) restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities. Political action committees will remain governed by existing campaign finance laws within the state, but they will not be able to spend any money received from corporations as a result of this Act. This bill is intended to strengthen transparency, reduce the influence of corporate money in elections and help restore public trust in Hawaiʻi’s democratic process. (Act 011 takes effect July 1, 2027.) SB 3022 SD1 HD1 RELATING TO CULTURE AND ARTS Act 010 (SB 3022 HD1) establishes the Hawaiʻi Leadership Awards Program to honor individuals who have made significant contributions to the state and serve as an inspiration to others. SB 3022 will recognize and award individuals annually across 12 distinct fields. (Act 010 takes effect July 1, 2026.) The Hawaiʻi Leadership Awards Program was designed to mirror the Aloha Order of Merit, which recognizes individuals who have made considerable contributions at the national and international levels. This awards program will similarly honor individuals who have made meaningful contributions within the state of Hawaiʻi. HB 2001 HD2 SD1 RELATING TO LOVE MY LIBRARY DAY Act 009 (HB 2001 SD1) designates the first Friday in February of each year as “Love My Library Day” in the state. HB 2001 supports statewide recognition of libraries and the essential resources and services that the library system and librarians provide to communities throughout Hawaiʻi. (Act 009 took effect upon Governor’s signature.) # # #",
+      "source_type": "web",
+      "provider": "brave, tavily",
+      "providers": [
+        "brave",
+        "tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 governor"
+        ],
+        "tavily": [
+          "SB 2471 governor"
+        ]
+      },
+      "provider_result_count": 2,
+      "query": "SB 2471 governor",
+      "canonical_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "governor.hawaii.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6673872612741607
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @endcitizensunited.bsky.social",
+      "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+      "snippet": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+      "content": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "endcitizensunited.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8941392828086079
+    },
+    {
+      "id": "src_4b19e8eabec0",
+      "title": "Editorial: Reduce corporate money in politics | Honolulu Star-Advertiser",
+      "url": "https://www.staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime/#",
+      "snippet": "The tiny 50th State of Hawaii has ... by the state Legislature last week, is now law. <strong>Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027</strong>....",
+      "content": "The tiny 50th State of Hawaii has an enormous chance to lead the nation in turning the tide of murky corporate and “dark money” in elections — a disturbing floodgate opened in 2010 by the U.S. Supreme Court’s Citizens United v. FEC decision. Senate Bill 2471, passed nearly unanimously by the state Legislature last week, is now law. Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027. The law’s stunning passage very clearly reflects the interests of the general public, which for the past 16 years has seen massive and unlimited sums poured into super PACs (political action committees) by influential entities. This was enabled by the high court’s ruling that governments could not ban corporations, unions and nonprofit groups from political speech, to which they’re entitled under the First Amendment. Increasingly, corporate conduits are being used by the wealthy and powerful to funnel money into super PAC sway campaigns — without having to disclose the actual people behind the donations — in attempts to influence elections for national and local offices, as well as ballot measures and initiatives. SB 2471, now Act 11, will basically ban corporations from contributing to super PACs (which are not bound by collecting or spending limits). It seeks a fairer political field for all involved — a more transparent one that curbs outsized, and outside, special-interest forces. The law stakes out states’ rights in setting ground rules for corporations that do business in Hawaii. These “artificial persons” would retain the privileges and powers necessary to conduct business here, says SB 2471 — but “those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures.” This potential sea change in political influence was applauded by clean government and pro-democracy organizations in a Tuesday rally at the state Capitol, and on Maui and Hawaii island. Advocates hailed this measure, if enacted, as the first law of its kind in the nation to redefine corporate powers under state law to exclude political spending — a path around Citizens United. Concerns over that 2010 ruling have grown for years as money, much of it from opaque sources, flooded into states’ elections. OpenSecrets, a campaign finance watchdog group, tracked more than $4 billion in outside political spending in the 2024 federal elections, nearly 12 times as much as in 2008. And the Brennan Center for Justice tallied a record $1.9 billion in “dark money” in 2024 from groups, nonprofits and shell companies that are not required to reveal their donors. Don't miss out on what's happening! Stay in touch with breaking news, as it happens, conveniently in your email inbox. It's FREE! By clicking to sign up, you agree to Star-Advertiser's and Google's Terms of Service and Privacy Policy. This form is protected by reCAPTCHA. Big money doesn’t always win the day, of course, but it certainly puts a huge hand on the scale when it comes to a fair political contest. Money injected into campaigns from unknown sources also can be corruptive, eroding public trust and chilling robust participation. Hawaii’s SB 2471 is not the only state effort to counter Citizens United’s unsettling fallout; it’s just the first and only to succeed so far. At least 14 other states have launched anti-Citizens United actions, some of them similar to Hawaii’s strategy using the state’s authority to define corporation powers. In Montana, signatures are being gathered to place the tactic as a ballot initiative — dubbed The Montana Plan — before its voters in the November election. With SB 2471 signed into law, legal challenges are sure to follow. This alert was sounded by Hawaii’s attorney general in testifying against SB 2471, warning the new law would be difficult, and costly, to defend in court. “But doing the right thing often triggers court challenges,” wrote three of Hawaii’s best legal minds — Clare Connors, Mark Recktenwald an",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "SB 2471 signed into law",
+      "canonical_url": "https://staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "staradvertiser.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8212125956997713
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @endcitizensunited.bsky.social",
+      "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+      "snippet": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+      "content": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "endcitizensunited.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7725255415068709
+    },
+    {
+      "id": "src_d320df3fc4bd",
+      "title": "Bill prohibiting corporate political donations nearing the finish line | Aloha State Daily",
+      "url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line/#",
+      "snippet": "Senate Bill 2471 <strong>sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities</strong>. Under current state laws, corporations have “the same powers as an individual to do all things necessary ...",
+      "content": "A measure intended to prevent corporations from influencing elections is still going strong in the state legislature. Senate Bill 2471 sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities. Under current state laws, corporations have “the same powers as an individual to do all things necessary or convenient to carry out [their] affairs,” such as the power to file lawsuits, to own property, to make contracts and the like. Most of those powers would not be impeded by SB 2471. However, the ability of a corporation to be involved in elections or any “ballot-issue activity” would be terminated by the bill. Specifically, this would include the ability for a corporation to pay, donate or otherwise spend money to support or oppose a political campaign, political party, constitutional amendment, charter amendment or any other issue on a ballot. These limitations would apply to corporations, associations, limited-equity housing cooperatives, limited-liability partnerships and nonprofits. It also applies to “foreign corporations,” which in this case means any corporation formed in other states as well as other countries. Should any such organization take any action considered to be an election activity, that organization will forfeit all of powers and privileges afforded by the state. The bill is a response to the 2010 U.S. Supreme Court verdict in the case Citizens United v. Federal Election Commission. The upshot of that verdict was that laws prohibiting political spending by corporations were determined to be a violation of the First Amendment’s protections toward free speech. A report on the measure by the Senate Judiciary Committee stated that, since the Citizens United verdict, “corporations and other entities have spent large sums of money to influence political campaigns and elections, undermining public trust in the democratic process.” That report added that the Hawai‘i State Constitution allows for the Legislature to “withdraw any corporate or entity powers that the State has conferred.” The Center for American Progress, a self-described nonpartisan public policy think tank, has testified extensively in favor of the measure, testimony which multiple committees have specifically responded to. In that testimony, CAP senior fellow Tom Moore wrote that corporations only exist because states allow them to by conferring privileges and powers, something that states can change without violating the Citizens United ruling. Moore wrote that there is a distinction between “powers” and “rights,” whereby SB 2471 limits a corporation’s “powers” but not its “rights”. Instead, he wrote, it simply “defines the powers that Hawai‘i chooses to grant to the artificial entities it creates and authorizes to do business within the state.” Whether this will actually hold any legal water is unclear. The state Department of the Attorney General has opposed the bill, warning that it will likely be challenged under the Citizens United verdict — something which, the attorney general noted, will likely incur substantial legal fees to be paid by state taxpayers. “While many Americans strongly disagree with … Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” read the Attorney General’s letter (parenthetical theirs). During the bill’s most recent committee hearing, on Tuesday, Rep. Scot Matayoshi (D-Kāne‘ohe) said he hopes “we don’t get too smoked in court” should the bill pass. Matayoshi moved during Tuesday’s meeting of the House Committee on Consumer Protection and Commerce to remove language in the bill differentiating charitable donations and political donations. The current draft of the measure defines “artificial-person powers” as those powers necessary for a corporation to carry out its “lawful, charitable or public-benefit purposes.” This language, Matayoshi said, ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 signed into law"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "SB 2471 signed into law",
+      "canonical_url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line",
+      "published_at": "2026-03-26T00:00:00",
+      "publisher": "alohastatedaily.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.673161065655916
+    },
+    {
+      "id": "src_e6228e30da0c",
+      "title": "SB 2471: null | Digital Democracy",
+      "url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471#",
+      "snippet": "# SB 2471. * **Latest Version Date:** 2026-05-06. ## Current Status:. (2026-05-08: Enrolled to Governor.). Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. ### House Floor. ### Senate Floor. ### Conference Committee. ## News Coverage:. SB 2471: null | Digital Democracy.",
+      "content": "Current Status: In Progress (2026-05-08: Enrolled to Governor.) Introduced In Committee First Chamber In Committee Second Chamber Final Decking Enacted Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. Effective 7/1/2027. (CD2)",
+      "source_type": "web",
+      "provider": "tavily, brave, tavily, brave, tavily, brave, tavily, brave",
+      "providers": [
+        "tavily",
+        "brave",
+        "tavily, brave",
+        "tavily, brave, tavily, brave"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "SB 2471 signed into law",
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "brave": [
+          "SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "tavily, brave": [
+          "SB 2471 signed into law | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ],
+        "tavily, brave, tavily, brave": [
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+          "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+        ]
+      },
+      "provider_result_count": 4,
+      "query": "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+      "canonical_url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+      "published_at": "2026-05-06T00:00:00",
+      "publisher": "civilbeat.digitaldemocracy.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.667815605703886
+    },
+    {
+      "id": "src_de632cac9acd",
+      "title": "Office of the Governor — News Release — Governor Green Enacts Key Legislation | Governor Josh Green, M.D.",
+      "url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation/#",
+      "snippet": "RELATING TO THE POWERS OF ARTIFICIAL ... HD2 CD2) <strong>restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities</strong>...",
+      "content": "Office of the Governor — News Release — Governor Green Enacts Key Legislation Posted on May 14, 2026 in Latest Department News, Newsroom, Office of the Governor Press ReleasesSTATE OF HAWAIʻI KA MOKU ʻĀINA O HAWAIʻI JOSH GREEN, M.D. GOVERNOR GOVERNOR GREEN ENACTS KEY LEGISLATION FOR IMMEDIATE RELEASE May 14, 2026 HONOLULU — Governor Josh Green today signed the following bills into law: HB 1510 HD2 SD1 RELATING TO LICENSE PLATES Act 012 (HB 1510 SD1) prohibits the use of license plate covers or shields that obstruct the visibility or readability of vehicle license plates and requires compliance with these standards before a vehicle may receive a safety inspection certificate. (Act 012 takes effect January 1, 2027.) This bill will strengthen traffic enforcement, improve public safety and support the ability of law enforcement officers to identify vehicles involved in violations, crimes and public safety incidents. SB 2471 SD2 HD2 CD2 RELATING TO THE POWERS OF ARTIFICIAL PERSONS (Corporate Donations) Act 011 (SB 2471 SD2 HD2 CD2) restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities. Political action committees will remain governed by existing campaign finance laws within the state, but they will not be able to spend any money received from corporations as a result of this Act. This bill is intended to strengthen transparency, reduce the influence of corporate money in elections and help restore public trust in Hawaiʻi’s democratic process. (Act 011 takes effect July 1, 2027.) SB 3022 SD1 HD1 RELATING TO CULTURE AND ARTS Act 010 (SB 3022 HD1) establishes the Hawaiʻi Leadership Awards Program to honor individuals who have made significant contributions to the state and serve as an inspiration to others. SB 3022 will recognize and award individuals annually across 12 distinct fields. (Act 010 takes effect July 1, 2026.) The Hawaiʻi Leadership Awards Program was designed to mirror the Aloha Order of Merit, which recognizes individuals who have made considerable contributions at the national and international levels. This awards program will similarly honor individuals who have made meaningful contributions within the state of Hawaiʻi. HB 2001 HD2 SD1 RELATING TO LOVE MY LIBRARY DAY Act 009 (HB 2001 SD1) designates the first Friday in February of each year as “Love My Library Day” in the state. HB 2001 supports statewide recognition of libraries and the essential resources and services that the library system and librarians provide to communities throughout Hawaiʻi. (Act 009 took effect upon Governor’s signature.) # # #",
+      "source_type": "web",
+      "provider": "brave, tavily",
+      "providers": [
+        "brave",
+        "tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "SB 2471 governor"
+        ],
+        "tavily": [
+          "SB 2471 governor"
+        ]
+      },
+      "provider_result_count": 2,
+      "query": "SB 2471 governor",
+      "canonical_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "governor.hawaii.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6673872612741607
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+      "platform": "bluesky",
+      "author": {
+        "handle": "endcitizensunited.bsky.social",
+        "display_name": "End Citizens United",
+        "did": "did:plc:4l72x6k3oe44kztmnrgeaklt"
+      },
+      "text": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+      "created_at": "2026-05-15T14:55:03.912000Z",
+      "images": [],
+      "links": [
+        "https://apnews.com/article/corporate-campaign-money-citizens-united-hawaii-71a28bc7e8f6e0279b31e999f222519a"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal"
+    },
+    "explanation": [
+      {
+        "text": "SB 2471, a Hawaii bill restricting certain political spending by corporations and other “artificial persons,” was signed into law by Governor Josh Green on May 14, 2026, becoming Act 011 and scheduled to take effect on July 1, 2027.",
+        "source_ids": [
+          "src_de632cac9acd",
+          "src_4b19e8eabec0"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The new law redefines and limits the powers that Hawaii grants to corporations and similar entities so they cannot spend money or contribute anything of value to influence elections or ballot measures, although political action committees remain allowed but may not spend corporate money under this Act.",
+        "source_ids": [
+          "src_de632cac9acd",
+          "src_e6228e30da0c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Advocates and commentators describe SB 2471 (now Act 11) as an effort to reduce or effectively ban corporate and “dark money” spending in Hawaii elections, aiming to counter the effects of the U.S. Supreme Court’s Citizens United v. FEC decision that opened the door to large, opaque independent expenditures.",
+        "source_ids": [
+          "src_4b19e8eabec0",
+          "src_d320df3fc4bd"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Supporters and legal commentators have characterized Hawaii’s SB 2471 approach as the first successful state law of its kind in the nation that uses state power over corporate “artificial persons” to try to circumvent or work around Citizens United’s protections for corporate political spending.",
+        "source_ids": [
+          "src_4b19e8eabec0",
+          "src_d320df3fc4bd"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Characterizations like “first of its kind” and “path around Citizens United” come from advocates and editorial commentary; other undiscovered or disputed efforts in other states could affect this framing.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the original social post, End Citizens United celebrates SB 2471’s enactment as making Citizens United “irrelevant in Hawaii” and calls it a victory for the movement to get big and dark money out of politics, framing the law as a model for other states to follow.",
+        "source_ids": [
+          "thread_original",
+          "thread_context",
+          "src_4b19e8eabec0"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post’s claims about making Citizens United “irrelevant” and broader movement impact reflect the author’s advocacy perspective, not a judicial ruling on the law’s validity.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @endcitizensunited.bsky.social",
+        "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+        "snippet": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+        "content": "BREAKING: SB 2471 has been signed into law! It’s the first of its kind in the nation and renders the Supreme Court’s Citizens United decision irrelevant in Hawaii. \n\nThis is a win for the movement to get big money, especially dark money, out of politics.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "endcitizensunited.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_4b19e8eabec0",
+        "title": "Editorial: Reduce corporate money in politics | Honolulu Star-Advertiser",
+        "url": "https://www.staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime/#",
+        "snippet": "The tiny 50th State of Hawaii has ... by the state Legislature last week, is now law. <strong>Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027</strong>....",
+        "content": "The tiny 50th State of Hawaii has an enormous chance to lead the nation in turning the tide of murky corporate and “dark money” in elections — a disturbing floodgate opened in 2010 by the U.S. Supreme Court’s Citizens United v. FEC decision. Senate Bill 2471, passed nearly unanimously by the state Legislature last week, is now law. Gov. Josh Green signed the bill Thursday, and it becomes effective July 1, 2027. The law’s stunning passage very clearly reflects the interests of the general public, which for the past 16 years has seen massive and unlimited sums poured into super PACs (political action committees) by influential entities. This was enabled by the high court’s ruling that governments could not ban corporations, unions and nonprofit groups from political speech, to which they’re entitled under the First Amendment. Increasingly, corporate conduits are being used by the wealthy and powerful to funnel money into super PAC sway campaigns — without having to disclose the actual people behind the donations — in attempts to influence elections for national and local offices, as well as ballot measures and initiatives. SB 2471, now Act 11, will basically ban corporations from contributing to super PACs (which are not bound by collecting or spending limits). It seeks a fairer political field for all involved — a more transparent one that curbs outsized, and outside, special-interest forces. The law stakes out states’ rights in setting ground rules for corporations that do business in Hawaii. These “artificial persons” would retain the privileges and powers necessary to conduct business here, says SB 2471 — but “those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures.” This potential sea change in political influence was applauded by clean government and pro-democracy organizations in a Tuesday rally at the state Capitol, and on Maui and Hawaii island. Advocates hailed this measure, if enacted, as the first law of its kind in the nation to redefine corporate powers under state law to exclude political spending — a path around Citizens United. Concerns over that 2010 ruling have grown for years as money, much of it from opaque sources, flooded into states’ elections. OpenSecrets, a campaign finance watchdog group, tracked more than $4 billion in outside political spending in the 2024 federal elections, nearly 12 times as much as in 2008. And the Brennan Center for Justice tallied a record $1.9 billion in “dark money” in 2024 from groups, nonprofits and shell companies that are not required to reveal their donors. Don't miss out on what's happening! Stay in touch with breaking news, as it happens, conveniently in your email inbox. It's FREE! By clicking to sign up, you agree to Star-Advertiser's and Google's Terms of Service and Privacy Policy. This form is protected by reCAPTCHA. Big money doesn’t always win the day, of course, but it certainly puts a huge hand on the scale when it comes to a fair political contest. Money injected into campaigns from unknown sources also can be corruptive, eroding public trust and chilling robust participation. Hawaii’s SB 2471 is not the only state effort to counter Citizens United’s unsettling fallout; it’s just the first and only to succeed so far. At least 14 other states have launched anti-Citizens United actions, some of them similar to Hawaii’s strategy using the state’s authority to define corporation powers. In Montana, signatures are being gathered to place the tactic as a ballot initiative — dubbed The Montana Plan — before its voters in the November election. With SB 2471 signed into law, legal challenges are sure to follow. This alert was sounded by Hawaii’s attorney general in testifying against SB 2471, warning the new law would be difficult, and costly, to defend in court. “But doing the right thing often triggers court challenges,” wrote three of Hawaii’s best legal minds — Clare Connors, Mark Recktenwald an",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "SB 2471 signed into law"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "SB 2471 signed into law",
+        "canonical_url": "https://staradvertiser.com/2026/05/15/editorial/our-view/editorial-u-s-plays-whac-a-mole-with-iranian-regime",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "staradvertiser.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @endcitizensunited.bsky.social",
+        "url": "https://bsky.app/profile/endcitizensunited.bsky.social/post/3mlvlmxuem22p",
+        "snippet": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+        "content": "EVERY state needs to follow their lead!!\n\nChip chip chippin away. 💙 \nSetting the precedent 🇺🇲\n\n💪👍\n\nRight on 👍👍👍\n\nSadly it doesn't take effect until July 2027. Certainly enough time for SCOTUS to declare it illegal",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "endcitizensunited.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_d320df3fc4bd",
+        "title": "Bill prohibiting corporate political donations nearing the finish line | Aloha State Daily",
+        "url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line/#",
+        "snippet": "Senate Bill 2471 <strong>sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities</strong>. Under current state laws, corporations have “the same powers as an individual to do all things necessary ...",
+        "content": "A measure intended to prevent corporations from influencing elections is still going strong in the state legislature. Senate Bill 2471 sets limits on what it calls “artificial-person powers,” political powers afforded to corporations or similar entities. Under current state laws, corporations have “the same powers as an individual to do all things necessary or convenient to carry out [their] affairs,” such as the power to file lawsuits, to own property, to make contracts and the like. Most of those powers would not be impeded by SB 2471. However, the ability of a corporation to be involved in elections or any “ballot-issue activity” would be terminated by the bill. Specifically, this would include the ability for a corporation to pay, donate or otherwise spend money to support or oppose a political campaign, political party, constitutional amendment, charter amendment or any other issue on a ballot. These limitations would apply to corporations, associations, limited-equity housing cooperatives, limited-liability partnerships and nonprofits. It also applies to “foreign corporations,” which in this case means any corporation formed in other states as well as other countries. Should any such organization take any action considered to be an election activity, that organization will forfeit all of powers and privileges afforded by the state. The bill is a response to the 2010 U.S. Supreme Court verdict in the case Citizens United v. Federal Election Commission. The upshot of that verdict was that laws prohibiting political spending by corporations were determined to be a violation of the First Amendment’s protections toward free speech. A report on the measure by the Senate Judiciary Committee stated that, since the Citizens United verdict, “corporations and other entities have spent large sums of money to influence political campaigns and elections, undermining public trust in the democratic process.” That report added that the Hawai‘i State Constitution allows for the Legislature to “withdraw any corporate or entity powers that the State has conferred.” The Center for American Progress, a self-described nonpartisan public policy think tank, has testified extensively in favor of the measure, testimony which multiple committees have specifically responded to. In that testimony, CAP senior fellow Tom Moore wrote that corporations only exist because states allow them to by conferring privileges and powers, something that states can change without violating the Citizens United ruling. Moore wrote that there is a distinction between “powers” and “rights,” whereby SB 2471 limits a corporation’s “powers” but not its “rights”. Instead, he wrote, it simply “defines the powers that Hawai‘i chooses to grant to the artificial entities it creates and authorizes to do business within the state.” Whether this will actually hold any legal water is unclear. The state Department of the Attorney General has opposed the bill, warning that it will likely be challenged under the Citizens United verdict — something which, the attorney general noted, will likely incur substantial legal fees to be paid by state taxpayers. “While many Americans strongly disagree with … Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” read the Attorney General’s letter (parenthetical theirs). During the bill’s most recent committee hearing, on Tuesday, Rep. Scot Matayoshi (D-Kāne‘ohe) said he hopes “we don’t get too smoked in court” should the bill pass. Matayoshi moved during Tuesday’s meeting of the House Committee on Consumer Protection and Commerce to remove language in the bill differentiating charitable donations and political donations. The current draft of the measure defines “artificial-person powers” as those powers necessary for a corporation to carry out its “lawful, charitable or public-benefit purposes.” This language, Matayoshi said, ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "SB 2471 signed into law"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "SB 2471 signed into law",
+        "canonical_url": "https://alohastatedaily.com/2026/03/26/bill-prohibiting-corporate-political-donations-nearing-the-finish-line",
+        "published_at": "2026-03-26T00:00:00",
+        "publisher": "alohastatedaily.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_e6228e30da0c",
+        "title": "SB 2471: null | Digital Democracy",
+        "url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471#",
+        "snippet": "# SB 2471. * **Latest Version Date:** 2026-05-06. ## Current Status:. (2026-05-08: Enrolled to Governor.). Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. ### House Floor. ### Senate Floor. ### Conference Committee. ## News Coverage:. SB 2471: null | Digital Democracy.",
+        "content": "Current Status: In Progress (2026-05-08: Enrolled to Governor.) Introduced In Committee First Chamber In Committee Second Chamber Final Decking Enacted Reaffirms that artificial persons created under state law possess only those powers that are necessary or convenient to carry out lawful purposes, and that those powers do not include the power to spend money or contribute anything of value to influence elections or ballot measures. Authorizes the Attorney General and the Director of Commerce and Consumer Affairs to impose certain penalties for violations. Effective 7/1/2027. (CD2)",
+        "source_type": "web",
+        "provider": "tavily, brave, tavily, brave, tavily, brave, tavily, brave",
+        "providers": [
+          "tavily",
+          "brave",
+          "tavily, brave",
+          "tavily, brave, tavily, brave"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "SB 2471 signed into law",
+            "SB 2471 signed into law | SB 2471 governor",
+            "SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+            "\"SB 2471\" Hawaii campaign finance law 2026 AP News corporate campaign money dark money",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+          ],
+          "brave": [
+            "SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+          ],
+          "tavily, brave": [
+            "SB 2471 signed into law | SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+          ],
+          "tavily, brave, tavily, brave": [
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+            "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor"
+          ]
+        },
+        "provider_result_count": 4,
+        "query": "SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor | SB 2471 signed into law | SB 2471 signed into law | SB 2471 governor | SB 2471 governor",
+        "canonical_url": "https://civilbeat.digitaldemocracy.org/bills/hi_20250sb2471",
+        "published_at": "2026-05-06T00:00:00",
+        "publisher": "civilbeat.digitaldemocracy.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_de632cac9acd",
+        "title": "Office of the Governor — News Release — Governor Green Enacts Key Legislation | Governor Josh Green, M.D.",
+        "url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation/#",
+        "snippet": "RELATING TO THE POWERS OF ARTIFICIAL ... HD2 CD2) <strong>restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities</strong>...",
+        "content": "Office of the Governor — News Release — Governor Green Enacts Key Legislation Posted on May 14, 2026 in Latest Department News, Newsroom, Office of the Governor Press ReleasesSTATE OF HAWAIʻI KA MOKU ʻĀINA O HAWAIʻI JOSH GREEN, M.D. GOVERNOR GOVERNOR GREEN ENACTS KEY LEGISLATION FOR IMMEDIATE RELEASE May 14, 2026 HONOLULU — Governor Josh Green today signed the following bills into law: HB 1510 HD2 SD1 RELATING TO LICENSE PLATES Act 012 (HB 1510 SD1) prohibits the use of license plate covers or shields that obstruct the visibility or readability of vehicle license plates and requires compliance with these standards before a vehicle may receive a safety inspection certificate. (Act 012 takes effect January 1, 2027.) This bill will strengthen traffic enforcement, improve public safety and support the ability of law enforcement officers to identify vehicles involved in violations, crimes and public safety incidents. SB 2471 SD2 HD2 CD2 RELATING TO THE POWERS OF ARTIFICIAL PERSONS (Corporate Donations) Act 011 (SB 2471 SD2 HD2 CD2) restricts certain political spending activities by corporations and other “artificial persons” under Hawaiʻi law by redefining and limiting the powers granted to those entities. Political action committees will remain governed by existing campaign finance laws within the state, but they will not be able to spend any money received from corporations as a result of this Act. This bill is intended to strengthen transparency, reduce the influence of corporate money in elections and help restore public trust in Hawaiʻi’s democratic process. (Act 011 takes effect July 1, 2027.) SB 3022 SD1 HD1 RELATING TO CULTURE AND ARTS Act 010 (SB 3022 HD1) establishes the Hawaiʻi Leadership Awards Program to honor individuals who have made significant contributions to the state and serve as an inspiration to others. SB 3022 will recognize and award individuals annually across 12 distinct fields. (Act 010 takes effect July 1, 2026.) The Hawaiʻi Leadership Awards Program was designed to mirror the Aloha Order of Merit, which recognizes individuals who have made considerable contributions at the national and international levels. This awards program will similarly honor individuals who have made meaningful contributions within the state of Hawaiʻi. HB 2001 HD2 SD1 RELATING TO LOVE MY LIBRARY DAY Act 009 (HB 2001 SD1) designates the first Friday in February of each year as “Love My Library Day” in the state. HB 2001 supports statewide recognition of libraries and the essential resources and services that the library system and librarians provide to communities throughout Hawaiʻi. (Act 009 took effect upon Governor’s signature.) # # #",
+        "source_type": "web",
+        "provider": "brave, tavily",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "provider_queries": {
+          "brave": [
+            "SB 2471 governor"
+          ],
+          "tavily": [
+            "SB 2471 governor"
+          ]
+        },
+        "provider_result_count": 2,
+        "query": "SB 2471 governor",
+        "canonical_url": "https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-governor-green-enacts-key-legislation",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "governor.hawaii.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 25999
+  }
+}

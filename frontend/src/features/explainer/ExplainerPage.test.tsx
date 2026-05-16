@@ -15,7 +15,7 @@ describe("ExplainerPage", () => {
     const user = userEvent.setup();
 
     render(<ExplainerPage />);
-    await user.click(screen.getByRole("button", { name: /explain/i }));
+    await user.click(screen.getAllByRole("button", { name: /explain/i }).at(-1)!);
 
     expect(await screen.findByText(/The DOJ filed a lawsuit/i)).toBeInTheDocument();
     expect(screen.getByText("confirmed fact")).toBeInTheDocument();
@@ -29,7 +29,7 @@ describe("ExplainerPage", () => {
     const user = userEvent.setup();
 
     render(<ExplainerPage />);
-    await user.click(screen.getByRole("button", { name: /explain/i }));
+    await user.click(screen.getAllByRole("button", { name: /explain/i }).at(-1)!);
 
     expect(await screen.findByText("Live search is not configured")).toBeInTheDocument();
     expect(screen.getByText("search_provider_required")).toBeInTheDocument();

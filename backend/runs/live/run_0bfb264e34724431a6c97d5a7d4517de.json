@@ -1,0 +1,865 @@
+{
+  "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:36:00.911691+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:35:34.773827+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:34.773924+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:35:34.774267+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:34.774366+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:35:34.774737+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:35.855520+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1080
+    },
+    {
+      "timestamp": "2026-05-16T02:35:35.856024+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:35.856110+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:35:35.856492+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:37.818458+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1396
+    },
+    {
+      "timestamp": "2026-05-16T02:35:37.819002+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:41.743774+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 3924
+    },
+    {
+      "timestamp": "2026-05-16T02:35:41.744294+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:49.364170+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7619
+    },
+    {
+      "timestamp": "2026-05-16T02:35:49.364752+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:49.792643+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 427
+    },
+    {
+      "timestamp": "2026-05-16T02:35:49.793162+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.904671+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 11111
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.905178+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.905289+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.905649+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.905706+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.905991+00:00",
+      "event": "node_started",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:36:00.906071+00:00",
+      "event": "node_completed",
+      "run_id": "run_0bfb264e34724431a6c97d5a7d4517de",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+    "\"it took a while but Kristi Noem has finally left her waterfront Coast Guard home\" msnbc MaddowBlog",
+    "Kristi Noem taxpayer funded residence scandal \"Count the silverware\" context",
+    "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+  ],
+  "metrics": {
+    "search_results_received": 10,
+    "search_results_by_provider": {
+      "brave": 10
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [],
+    "evidence_discarded": [
+      {
+        "id": "src_1cac1f078c27",
+        "reason": "duplicate_content_hash",
+        "duplicate_of": "src_494c5788693a"
+      }
+    ],
+    "ranking_discards": [
+      {
+        "id": "src_549b3c8d1945",
+        "title": "Bryon Noem, Kristi Noem and a tabloid investigation, explained",
+        "url": "https://www.usatoday.com/story/news/politics/2026/04/01/bryon-noem-kristi-noem-daily-mail/89417552007/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_b25d22cf4e6c",
+        "title": "News about Kristi Noem",
+        "url": "https://ground.news/interest/kristi-noem#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 1,
+      "brave": 7
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "brave": 5
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+      "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.903741854797372
+    },
+    {
+      "id": "src_494c5788693a",
+      "title": "Kristi Noem’s replacement grilled about why she is ‘still living rent-free’ in waterfront Coast Guard home",
+      "url": "https://www.yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html#",
+      "snippet": "Democratic Representative Robert Garcia has sent a letter to DHS Secretary Markwayne Mullin questioning Noem&#x27;s continued occupancy of the waterfront property. Noem claimed on Fox News that she moved into the Coast Guard property after details about her residence in the Navy Yard neighborhood were published by news organizations.See more · Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor&#x27;s controversial living arrangements.",
+      "content": "Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor's controversial living arrangements. Noem, who was ousted as DHS secretary in March, is reportedly still occupying a taxpayer-funded U.S. Coast Guard home in Washington, D.C. On May 1, Democratic Representative Robert Garcia sent a letter to DHS Secretary Markwayne Mullin over Noem’s continued occupancy of the waterfront property. “Kristi Noem got fired in March and she is still living rent-free in a government home that belongs to the Coast Guard,” Garcia said in a statement, accompanying the letter. “The Trump Administration can’t explain why, nor do they seem to care.” The property on Joint Base Anacostia-Bolling was previously occupied by Linda Fagan, the first female Coast Guard commandant. She was fired by President Trump on January 21, 2025, just a day after his inauguration. Fagan was later evicted from the property with three hours’ notice, despite being given a 60-day waiver to find new housing by the Coast Guard, Garcia claims. Noem, who is now the special envoy for the Shield of the Americas, moved into the home in August 2025. On an episode of Fox News’ Hannity, which aired that same month, she claimed that she moved into the Coast Guard property after details about her residence in the Navy Yard neighbourhood were published by news organizations. “This same administration threw out the Coast Guard Commandant with three hours of notice to make room for Noem, and even though she’s been fired from her government role, she won’t leave government housing,” Garcia wrote in the statement. “Secretary Mullin owes us answers and Noem must pack her bags and go.” In the letter, Garcia demanded that Mullin hand over all documentation and communications concerning Noem’s residence at Quarters 1. He said that questions remain over concerns of waste, fraud and abuse during Noem’s tenure. Garcia also claimed that Noem's remaining in the property calls Mullin’s “stewardship of DHS’s taxpayer-funded resources” into question. Previously, Noem told Congress that she pays rent to remain at the facility. “Let me clarify a couple things,” she said. “I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house.” Noem added, “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that.” The current Coast Guard commandant, Admiral Kevin Lunday, has told associates that he plans to move into the house imminently, sources told The Wall Street Journal. Currently, Lunday lives in a home next door, which is usually designated for the vice commandant. The Independent has contacted the DHS for comment.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html",
+      "published_at": "2026-05-04T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5888260745023337
+    },
+    {
+      "id": "src_123941668263",
+      "title": "Blumenthal Slams DHS Secretary Noem for Living Rent-Free in Prestigious, Waterfront Military Housing, Calls for Oversight Hearing | U.S. Senator Richard Blumenthal of Connecticut",
+      "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing#",
+      "snippet": "Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.”",
+      "content": "\"Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” [WASHINGTON, DC] – U.S. Senator Richard Blumenthal (D-CT), Ranking Member of the Permanent Subcommittee on Investigations, sent a letter to Secretary of Homeland Security Kristi Noem following recent reporting by The Washington Post that she was living for free in a military home typically reserved for the Coast Guard Commandant, the top admiral of the U.S. Coast Guard. In the letter, Blumenthal sought details regarding Noem’s living arrangement and questioned Noem’s reasoning for living in the Coast Guard Commandant’s residence at the expense of taxpayers and service members. Other Cabinet-level officials who live on military installations – such as Secretary of Defense Pete Hegseth and, during President Trump’s first term, Secretary of State Mike Pompeo – pay rent. “You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries. Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment,” wrote Blumenthal. “Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.” Blumenthal also wrote to U.S. Senator Rand Paul (R-KY), Chairman of the Committee on Homeland Security and Governmental Affairs, calling for an oversight hearing to examine Noem’s living arrangement in government housing at the expense of taxpayers and service members. “The questionable arrangements surrounding Secretary Noem’s rent-free occupancy in the Coast Guard Commandant’s residence demand prompt congressional scrutiny. As the U.S. Senate Committee with primary jurisdiction over the Department of Homeland Security, I respectfully request that you schedule a hearing of the Committee in September where Secretary Noem can testify about the details of her free housing provided by the branch of the armed services over which she has direct authority,” wrote Blumenthal to Paul. Blumenthal’s letter to Noem can be found here and below, and his letter to Paul can be found here. Dear Secretary Noem, I write to demand information in light of recent reporting indicating you are living in the Coast Guard Commandant’s quarters at the expense of American taxpayers and service members. As Secretary of Homeland Security, you have authority over the United States Coast Guard, raising serious questions about how you came to occupy one of its most prestigious, waterfront residences on Joint Base Anacostia-Bolling in Washington, DC. You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries.[1] For example, Secretary of Defense Pete Hegseth’s rent is more than $4,600 per month to live at Fort McNair, also in Washington, DC.[2] Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment.[3] Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing. Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information. As governor of South Dakota, you spent more than $150,000 of taxpayer funds on polit",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing",
+      "published_at": "2025-08-19T00:00:00",
+      "publisher": "blumenthal.senate.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.5638529331227067
+    },
+    {
+      "id": "src_65b04d210e63",
+      "title": "BREAKING: Humiliated Noem finally breaks social media silence after husband's 'bimbofication' scandal - The Mirror US",
+      "url": "https://www.themirror.com/news/politics/breaking-kristi-noem-breaks-silence-1820963#",
+      "snippet": "Kristi Noem broke her silence on Monday, posting to Instagram for the first time since her husband was exposed for his alleged &quot;bimbofication fetish, plunging the family into scandal once again",
+      "content": "BREAKING: Humiliated Noem finally breaks social media silence after husband's 'bimbofication' scandal Kristi Noem broke her silence on Monday, posting to Instagram for the first time since her husband was exposed for his alleged \"bimbofication fetish, plunging the family into scandal once again Kristi Noem broke her silence on Monday, posting to Instagram for the first time since her husband's alleged \"bimbofication\" fetish was exposed, plunging the family into yet another scandal. The post features two photos of Noem and her daughter at their home in North Dakota, wearing matching red checkered dresses. \"Miss Addie and I finally got to wear our matching dresses to church today,\" Noem captioned the post, attaching a red heart emoji. The first picture features Noem crouching down to hug her standing daughter in front of a piano. A carry-on-sized suitcase with a backpack stands near a glass door in the background. READ MORE: READ MORE:A white sideboard with plates, family photos and some plants stands just next to it, mixing modern style with the homestead look Noem appeared to be going for in her home. The second photo features Noem standing, her hand on her daughter's shoulder as both grin widely. She wears deep-red cowboy boots, while her daughter wears a basic pair of white sneakers. Addie's dress contains a lacey ruffle around the collar, while Noem's is plain. The dresses are old-fashioned, with a homestead style, and look as though they popped out of an early 20th-century painting, like the famous American Gothic, a 1930 oil painting by Grant Wood from Iowa. Click here to follow the Mirror US on Google News to stay up to date with all the latest news, sports and entertainment stories. They match the fashion that many women donned in that era. We'll be bringing you the very latest updates, pictures and videos on this breaking news story. Please check back regularly for updates on this developing story HERE. Get email updates on the day's biggest stories straight to your inbox by signing up for our newsletters. Get all the big headlines, pictures, analyses, opinions, and videos on the stories that matter to you by following The US Mirror every time you see our name. You can sign up for Twitter alerts for breaking news here @MirrorBreaking_ and follow us @MirrorUSNews, or on Facebook here for all the latest updates. Stay tuned as we continue to provide up-to-the-minute coverage of this breaking news story. For inquiries or if you have any information on this story, contact tips@themirror.com.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "coverage of Kristi Noem scandal mainstream media disappearance from headlines",
+      "canonical_url": "https://themirror.com/news/politics/breaking-kristi-noem-breaks-silence-1820963",
+      "published_at": "2026-05-04T00:00:00",
+      "publisher": "themirror.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5574634896236085
+    },
+    {
+      "id": "src_2917b1cc86d9",
+      "title": "Kristi Noem: Six times she made headlines, from luxury jets to 'blanketgate'",
+      "url": "https://www.bbc.com/news/articles/ce94mggvp9do#",
+      "snippet": "Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism.",
+      "content": "From killing her dog to luxury jets: Six times Kristi Noem made headlines Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism. She was the official in charge of delivering on President Donald Trump's mass deportation agenda. Noem boosted deportations to 675,000 in the president's first year, though that fell below the White House's stated goal of one million per year. Trump announced that Republican Senator Markwayne Mullin would replace Noem, who was in the job for just over a year. Here are some of the headlines she made during her tenure. Alex Pretti and Renee Good killings Immigration operations in the Midwestern state of Minnesota spawned the biggest crisis during her stint. The enforcement blitz sparked protests in Minneapolis and two American citizens, Renee Good and Alex Pretti, were fatally shot in confrontations with federal agents. Noem accused Good and Pretti of domestic terrorism. But mobile phone and body camera footage raised questions about her department's accounts of the incidents. Several Republicans soured on Noem and joined Democrats in calling for her resignation. During hearings in the US House and Senate this week, Noem offered condolences to the families, but did not apologise for her domestic terrorism comments. Luxury jets Noem has faced repeated accusations of wasting agency funds. She approved the purchase of two Gulfstream G700 luxury jets, and the department had plans to acquire a third aircraft, a Boeing 737, for about $70m (£52m). Noem defended the spending, saying that as well as being \"long-range command and control aircraft\", the fleet would be used for deportations. At a Senate hearing this week, a senator showed a picture of a plush bedroom that was apparently on board one of the jets. Noem acknowledged the plane had a bedroom, but said it was being \"refurbished\". Horseback ad blitz Reports of a $220m (£165m) ad campaign starring Noem are reported to have angered Trump. The commercial, which urged immigrants to self-deport, featured her wearing a cowboy hat and riding on horseback across a prairie with a herd of bison. At a congressional hearing this week, Republican Senator John Kennedy pressed Noem about whether Trump had approved the ad. She suggested the president had signed off on it, but Trump told Reuters news agency he \"never knew anything about it\". Noem was also grilled by lawmakers about the contracting process for the ads and how Republican-connected firms were awarded the bids. 'Blanketgate' Noem's de facto chief of staff, Corey Lewandowski, has also courted controversy. According to reports from Reuters and the Wall Street Journal, he fired a Coast Guard pilot after blaming him for misplacing Noem's blanket as they switched from one plane to another on a trip. Lewandowski reportedly walked into the cockpit of the Coast Guard plane as it was ascending and demanded to know where Noem's blanket was. In a text with Reuters, Lewandowski disputed the account of the incident, which the media dubbed \"blanketgate\". During a congressional hearing this week, Noem was asked by a lawmaker if she had had \"sexual relations\" with Lewandowski. She described the suggestion as \"tabloid garbage\". Both have previously denied rumours of an affair. Lewandowski will also be leaving homeland security department, it emerged on Thursday. Photo op at Salvadoran jail Last March, Noem made a visit to the notorious Cecot prison in El Salvador, which had agreed to take deportees from the US. Noem posed for photos in front of prisoners who stood quietly at the bars of a crowded cell, and said she had arranged for some of the detainees to be held at the facility. She also drew attention on the jail visit by wearing a $50,000 (£37,000) gold Rolex Cosmograph Daytona watch. Noem had previously attracted controversy after a false anecdote appeared in her 2024 memoir that she once met North Korean leader Kim Jong Un. Shooting the family dog Noem wrote in",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "coverage of Kristi Noem scandal mainstream media disappearance from headlines",
+      "canonical_url": "https://bbc.com/news/articles/ce94mggvp9do",
+      "published_at": "2026-03-06T00:00:00",
+      "publisher": "bbc.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5567844989129263
+    },
+    {
+      "id": "src_64734bf67902",
+      "title": "DHS chief Kristi Noem addresses controversy over living in Coast Guard housing",
+      "url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing/#",
+      "snippet": "“You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. ... Tags DHS House Judiciary Committee Jamie Raskin Kristi Noem Trump administration U.S.",
+      "content": "Department of Homeland Security (DHS) Secretary Kristi Noem said Wednesday that she is not living in the house of the U.S. Coast Guard commandant, contradicting prior reports. “Let me clarify a couple things. I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house,” Noem said during an appearance before the House Judiciary Committee. “The Commandant is in his house.” “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that,” she added. Reports about Noem’s living situation first surfaced in August, indicating she was living rent-free in the commandant’s house, which is located at Joint Base Anacostia-Bolling. The DHS said at the time that the move was necessary given death threats against Noem, and it also did not counter reporting that she was living rent-free. “Following the media’s publishing of the location of Secretary Noem’s Washington DC apartment, she has faced vicious doxing on the dark web and a surge in death threats, including from the terrorist organizations, cartels, and criminals gangs that DHS targets,” the department said in a statement at the time. “Due to threats and security concerns, she has been forced to temporarily stay in secure military housing. Secretary Noem continues to pay rent for her Navy Yard residence,” DHS wrote. During his opening statement Wednesday, Rep. Jamie Raskin (D-Md.), the top Democrat on the panel, criticized the DHS chief for tapping Coast Guard resources. “You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. Copyright 2026 Nexstar Media Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing",
+      "published_at": "2026-03-04T00:00:00",
+      "publisher": "thehill.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5447356581777916
+    },
+    {
+      "id": "src_9ce74380df78",
+      "title": "Kristi Noem is living rent-free in home used by Coast Guard commandant - The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home/#",
+      "snippet": "Department of Homeland Security Secretary Kristi L. Noem is living in the house of the U.S. Coast Guard&#x27;s commandant, a highly unusual arrangement.",
+      "content": "Department of Homeland Security Secretary Kristi L. Noem is living for free in a military home typically reserved for the U.S. Coast Guard’s top admiral, officials familiar with the matter said. The highly unusual arrangement has raised concern within the agency and from some Democrats, who describe it as a waste of military resources. Democracy Dies in Darkness",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home",
+      "published_at": "2025-08-15T00:00:00",
+      "publisher": "washingtonpost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5174511978680527
+    },
+    {
+      "id": "src_2b924301bebe",
+      "title": "Kristi Noem Breaks Her Silence After Bryon's Scandal With Cryptic Video - The List",
+      "url": "https://www.thelist.com/2150452/kristi-noem-breaks-silence-after-bryon-scandal-cryptic-video/#",
+      "snippet": "<strong>It distracted only slightly from the former Department of Homeland Security secretary&#x27;s own rumored affair with longtime aide Corey Lewandowski</strong>, and from the numerous investigations into Kristi&#x27;s conduct in office and her alleged perjury before ...",
+      "content": "Kristi Noem Breaks Her Silence After Bryon's Scandal With Cryptic Video Former \"ICE Barbie\" Kristi Noem is definitely not living her perfect plastic dream at the moment. In addition to officially getting kicked to the curb by President Donald Trump, Kristi is up to her ears in scandal. Kristi Noem's husband Bryon Noem is at the center of a bombshell report claiming he has a secret life involving a certain sexual quirk and an online affair with a model. It distracted only slightly from the former Department of Homeland Security secretary's own rumored affair with longtime aide Corey Lewandowski, and from the numerous investigations into Kristi's conduct in office and her alleged perjury before Congress. Understandably, the Trump staffer has been keeping a low profile lately, but she made a surprising reappearance on social media. Twice on the evening of April 16, 2026, Kristi posted entries on her Instagram Stories. The first was a video of an illuminated farmhouse (likely located on her own ranch) on a calm, starry night. She chose as musical accompaniment the song \"Peace Begins Within\" by the AI motivational music generator Lenzspot. It's worth noting that the lyrics, per YouTube, include: \"You've carried storms inside too long/Tried to be brave, tried to be strong/But healing starts when you release/When you give yourself permission for peace [...] Peace begins within your heart/It's been there from the very start/You don't need to search or fight/Just breathe and step into the light.\" The message couldn't be clearer: Kristi is trying to prove to the world — or maybe just herself — that she's finding inner calm in the midst of all the noise surrounding her. Perhaps she would have been better off shouting \"Serenity now!\" à la \"Seinfeld.\" Kristi Noem wants to remind everyone that she's a proud grandmother Just hours after posting her bucolic video, Kristi Noem uploaded a second image to her Instagram Stories. This one was a screenshot of a video call with Noah Lynn Frick, the youngest of her four grandchildren (Noem has three adult children; her second daughter, Kennedy Noem-Frick, is Noah's mom). The 14-month-old sweetheart beamed a huge two-toothed smile, and the former South Dakota governor reciprocated with one of her own. \"We might be a little excited to see each other...\" she sweetly captioned the shot. By comparison to her much-mocked overdone palette, Noem appeared nearly makeup-free here, with her eyes and lips much less harshly outlined than usual. It was a surprisingly candid look for the Special Envoy to the Shield of the Americas. Once again, the messaging was obvious: Forget the crazy headlines; I'm just a totally relatable, average nana with a granddaughter who adores me. By putting it on Stories, which expire within 24 hours, Noem also protected herself from any hateful public comments she might have got. These unexpected — and unexpectedly personal — posts might also offer a big clue about her future. Reported chaos at Noem's new \"job\" hints her MAGAland exit is coming fast; rumor has it that the Trumped-up (ahem) position was created by the president to keep her occupied and out of the way. With the former South Dakota governor's staff reportedly being reassigned and her exact duties still unclear, it may be hard even for the president to justify keeping her in his administration. The big Instagram return may be Noem's way of quietly accepting that she'll be retreating to a life of ranching and family before long.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "coverage of Kristi Noem scandal mainstream media disappearance from headlines",
+      "canonical_url": "https://thelist.com/2150452/kristi-noem-breaks-silence-after-bryon-scandal-cryptic-video",
+      "published_at": "2026-04-17T00:00:00",
+      "publisher": "thelist.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5154437884104498
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+      "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.903741854797372
+    },
+    {
+      "id": "src_494c5788693a",
+      "title": "Kristi Noem’s replacement grilled about why she is ‘still living rent-free’ in waterfront Coast Guard home",
+      "url": "https://www.yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html#",
+      "snippet": "Democratic Representative Robert Garcia has sent a letter to DHS Secretary Markwayne Mullin questioning Noem&#x27;s continued occupancy of the waterfront property. Noem claimed on Fox News that she moved into the Coast Guard property after details about her residence in the Navy Yard neighborhood were published by news organizations.See more · Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor&#x27;s controversial living arrangements.",
+      "content": "Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor's controversial living arrangements. Noem, who was ousted as DHS secretary in March, is reportedly still occupying a taxpayer-funded U.S. Coast Guard home in Washington, D.C. On May 1, Democratic Representative Robert Garcia sent a letter to DHS Secretary Markwayne Mullin over Noem’s continued occupancy of the waterfront property. “Kristi Noem got fired in March and she is still living rent-free in a government home that belongs to the Coast Guard,” Garcia said in a statement, accompanying the letter. “The Trump Administration can’t explain why, nor do they seem to care.” The property on Joint Base Anacostia-Bolling was previously occupied by Linda Fagan, the first female Coast Guard commandant. She was fired by President Trump on January 21, 2025, just a day after his inauguration. Fagan was later evicted from the property with three hours’ notice, despite being given a 60-day waiver to find new housing by the Coast Guard, Garcia claims. Noem, who is now the special envoy for the Shield of the Americas, moved into the home in August 2025. On an episode of Fox News’ Hannity, which aired that same month, she claimed that she moved into the Coast Guard property after details about her residence in the Navy Yard neighbourhood were published by news organizations. “This same administration threw out the Coast Guard Commandant with three hours of notice to make room for Noem, and even though she’s been fired from her government role, she won’t leave government housing,” Garcia wrote in the statement. “Secretary Mullin owes us answers and Noem must pack her bags and go.” In the letter, Garcia demanded that Mullin hand over all documentation and communications concerning Noem’s residence at Quarters 1. He said that questions remain over concerns of waste, fraud and abuse during Noem’s tenure. Garcia also claimed that Noem's remaining in the property calls Mullin’s “stewardship of DHS’s taxpayer-funded resources” into question. Previously, Noem told Congress that she pays rent to remain at the facility. “Let me clarify a couple things,” she said. “I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house.” Noem added, “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that.” The current Coast Guard commandant, Admiral Kevin Lunday, has told associates that he plans to move into the house imminently, sources told The Wall Street Journal. Currently, Lunday lives in a home next door, which is usually designated for the vice commandant. The Independent has contacted the DHS for comment.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html",
+      "published_at": "2026-05-04T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5888260745023337
+    },
+    {
+      "id": "src_123941668263",
+      "title": "Blumenthal Slams DHS Secretary Noem for Living Rent-Free in Prestigious, Waterfront Military Housing, Calls for Oversight Hearing | U.S. Senator Richard Blumenthal of Connecticut",
+      "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing#",
+      "snippet": "Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.”",
+      "content": "\"Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” [WASHINGTON, DC] – U.S. Senator Richard Blumenthal (D-CT), Ranking Member of the Permanent Subcommittee on Investigations, sent a letter to Secretary of Homeland Security Kristi Noem following recent reporting by The Washington Post that she was living for free in a military home typically reserved for the Coast Guard Commandant, the top admiral of the U.S. Coast Guard. In the letter, Blumenthal sought details regarding Noem’s living arrangement and questioned Noem’s reasoning for living in the Coast Guard Commandant’s residence at the expense of taxpayers and service members. Other Cabinet-level officials who live on military installations – such as Secretary of Defense Pete Hegseth and, during President Trump’s first term, Secretary of State Mike Pompeo – pay rent. “You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries. Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment,” wrote Blumenthal. “Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.” Blumenthal also wrote to U.S. Senator Rand Paul (R-KY), Chairman of the Committee on Homeland Security and Governmental Affairs, calling for an oversight hearing to examine Noem’s living arrangement in government housing at the expense of taxpayers and service members. “The questionable arrangements surrounding Secretary Noem’s rent-free occupancy in the Coast Guard Commandant’s residence demand prompt congressional scrutiny. As the U.S. Senate Committee with primary jurisdiction over the Department of Homeland Security, I respectfully request that you schedule a hearing of the Committee in September where Secretary Noem can testify about the details of her free housing provided by the branch of the armed services over which she has direct authority,” wrote Blumenthal to Paul. Blumenthal’s letter to Noem can be found here and below, and his letter to Paul can be found here. Dear Secretary Noem, I write to demand information in light of recent reporting indicating you are living in the Coast Guard Commandant’s quarters at the expense of American taxpayers and service members. As Secretary of Homeland Security, you have authority over the United States Coast Guard, raising serious questions about how you came to occupy one of its most prestigious, waterfront residences on Joint Base Anacostia-Bolling in Washington, DC. You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries.[1] For example, Secretary of Defense Pete Hegseth’s rent is more than $4,600 per month to live at Fort McNair, also in Washington, DC.[2] Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment.[3] Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing. Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information. As governor of South Dakota, you spent more than $150,000 of taxpayer funds on polit",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing",
+      "published_at": "2025-08-19T00:00:00",
+      "publisher": "blumenthal.senate.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.5638529331227067
+    },
+    {
+      "id": "src_2917b1cc86d9",
+      "title": "Kristi Noem: Six times she made headlines, from luxury jets to 'blanketgate'",
+      "url": "https://www.bbc.com/news/articles/ce94mggvp9do#",
+      "snippet": "Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism.",
+      "content": "From killing her dog to luxury jets: Six times Kristi Noem made headlines Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism. She was the official in charge of delivering on President Donald Trump's mass deportation agenda. Noem boosted deportations to 675,000 in the president's first year, though that fell below the White House's stated goal of one million per year. Trump announced that Republican Senator Markwayne Mullin would replace Noem, who was in the job for just over a year. Here are some of the headlines she made during her tenure. Alex Pretti and Renee Good killings Immigration operations in the Midwestern state of Minnesota spawned the biggest crisis during her stint. The enforcement blitz sparked protests in Minneapolis and two American citizens, Renee Good and Alex Pretti, were fatally shot in confrontations with federal agents. Noem accused Good and Pretti of domestic terrorism. But mobile phone and body camera footage raised questions about her department's accounts of the incidents. Several Republicans soured on Noem and joined Democrats in calling for her resignation. During hearings in the US House and Senate this week, Noem offered condolences to the families, but did not apologise for her domestic terrorism comments. Luxury jets Noem has faced repeated accusations of wasting agency funds. She approved the purchase of two Gulfstream G700 luxury jets, and the department had plans to acquire a third aircraft, a Boeing 737, for about $70m (£52m). Noem defended the spending, saying that as well as being \"long-range command and control aircraft\", the fleet would be used for deportations. At a Senate hearing this week, a senator showed a picture of a plush bedroom that was apparently on board one of the jets. Noem acknowledged the plane had a bedroom, but said it was being \"refurbished\". Horseback ad blitz Reports of a $220m (£165m) ad campaign starring Noem are reported to have angered Trump. The commercial, which urged immigrants to self-deport, featured her wearing a cowboy hat and riding on horseback across a prairie with a herd of bison. At a congressional hearing this week, Republican Senator John Kennedy pressed Noem about whether Trump had approved the ad. She suggested the president had signed off on it, but Trump told Reuters news agency he \"never knew anything about it\". Noem was also grilled by lawmakers about the contracting process for the ads and how Republican-connected firms were awarded the bids. 'Blanketgate' Noem's de facto chief of staff, Corey Lewandowski, has also courted controversy. According to reports from Reuters and the Wall Street Journal, he fired a Coast Guard pilot after blaming him for misplacing Noem's blanket as they switched from one plane to another on a trip. Lewandowski reportedly walked into the cockpit of the Coast Guard plane as it was ascending and demanded to know where Noem's blanket was. In a text with Reuters, Lewandowski disputed the account of the incident, which the media dubbed \"blanketgate\". During a congressional hearing this week, Noem was asked by a lawmaker if she had had \"sexual relations\" with Lewandowski. She described the suggestion as \"tabloid garbage\". Both have previously denied rumours of an affair. Lewandowski will also be leaving homeland security department, it emerged on Thursday. Photo op at Salvadoran jail Last March, Noem made a visit to the notorious Cecot prison in El Salvador, which had agreed to take deportees from the US. Noem posed for photos in front of prisoners who stood quietly at the bars of a crowded cell, and said she had arranged for some of the detainees to be held at the facility. She also drew attention on the jail visit by wearing a $50,000 (£37,000) gold Rolex Cosmograph Daytona watch. Noem had previously attracted controversy after a false anecdote appeared in her 2024 memoir that she once met North Korean leader Kim Jong Un. Shooting the family dog Noem wrote in",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "coverage of Kristi Noem scandal mainstream media disappearance from headlines",
+      "canonical_url": "https://bbc.com/news/articles/ce94mggvp9do",
+      "published_at": "2026-03-06T00:00:00",
+      "publisher": "bbc.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5567844989129263
+    },
+    {
+      "id": "src_64734bf67902",
+      "title": "DHS chief Kristi Noem addresses controversy over living in Coast Guard housing",
+      "url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing/#",
+      "snippet": "“You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. ... Tags DHS House Judiciary Committee Jamie Raskin Kristi Noem Trump administration U.S.",
+      "content": "Department of Homeland Security (DHS) Secretary Kristi Noem said Wednesday that she is not living in the house of the U.S. Coast Guard commandant, contradicting prior reports. “Let me clarify a couple things. I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house,” Noem said during an appearance before the House Judiciary Committee. “The Commandant is in his house.” “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that,” she added. Reports about Noem’s living situation first surfaced in August, indicating she was living rent-free in the commandant’s house, which is located at Joint Base Anacostia-Bolling. The DHS said at the time that the move was necessary given death threats against Noem, and it also did not counter reporting that she was living rent-free. “Following the media’s publishing of the location of Secretary Noem’s Washington DC apartment, she has faced vicious doxing on the dark web and a surge in death threats, including from the terrorist organizations, cartels, and criminals gangs that DHS targets,” the department said in a statement at the time. “Due to threats and security concerns, she has been forced to temporarily stay in secure military housing. Secretary Noem continues to pay rent for her Navy Yard residence,” DHS wrote. During his opening statement Wednesday, Rep. Jamie Raskin (D-Md.), the top Democrat on the panel, criticized the DHS chief for tapping Coast Guard resources. “You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. Copyright 2026 Nexstar Media Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing",
+      "published_at": "2026-03-04T00:00:00",
+      "publisher": "thehill.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5447356581777916
+    },
+    {
+      "id": "src_9ce74380df78",
+      "title": "Kristi Noem is living rent-free in home used by Coast Guard commandant - The Washington Post",
+      "url": "https://www.washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home/#",
+      "snippet": "Department of Homeland Security Secretary Kristi L. Noem is living in the house of the U.S. Coast Guard&#x27;s commandant, a highly unusual arrangement.",
+      "content": "Department of Homeland Security Secretary Kristi L. Noem is living for free in a military home typically reserved for the U.S. Coast Guard’s top admiral, officials familiar with the matter said. The highly unusual arrangement has raised concern within the agency and from some Democrats, who describe it as a waste of military resources. Democracy Dies in Darkness",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+      "canonical_url": "https://washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home",
+      "published_at": "2025-08-15T00:00:00",
+      "publisher": "washingtonpost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5174511978680527
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "Allegations about Noem’s family members and personal life are reported in part by tabloid or entertainment‑style outlets; they are not treated here as established facts and have been excluded from confirmed factual bullets.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "platform": "bluesky",
+      "author": {
+        "handle": "maddow.bsky.social",
+        "display_name": "Rachel Maddow",
+        "did": "did:plc:bono5gae7m6r3qpfxomshwbd"
+      },
+      "text": "www.ms.now/rachel-maddo...",
+      "created_at": "2026-05-15T18:34:49.109000Z",
+      "images": [],
+      "links": [
+        "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\"."
+    },
+    "explanation": [
+      {
+        "text": "The Bluesky thread angrily portrays Kristi Noem as an entitled GOP “squatter” living off taxpayers and implies she benefited from special housing perks, reflecting the poster’s negative opinion rather than an adjudicated finding.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This summarizes the social post’s rhetoric and viewpoint; it is not an objective assessment of Noem’s conduct.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Multiple reports describe controversy over Kristi Noem’s living arrangements in Coast Guard housing in Washington, D.C., including claims that she lived rent‑free in a prestigious waterfront residence typically reserved for the Coast Guard commandant, an arrangement critics said misused taxpayer‑funded resources.",
+        "source_ids": [
+          "src_9ce74380df78",
+          "src_64734bf67902",
+          "src_123941668263",
+          "src_494c5788693a"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Details such as whether she paid rent and precisely which house she occupied are disputed between Noem, DHS statements, and her critics.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Sen. Richard Blumenthal and Rep. Jamie Raskin formally challenged Noem’s Coast Guard housing situation, arguing that her rent‑free or preferential occupancy of high‑status military housing at taxpayer expense was improper and warranted congressional oversight and potential hearings.",
+        "source_ids": [
+          "src_123941668263",
+          "src_64734bf67902"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "legal_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are stated positions and allegations by specific elected officials and do not represent court findings or completed investigations.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The post’s complaint that Noem quickly “disappeared from headlines” despite ongoing scandals contrasts with the fact that mainstream and tabloid outlets have continued to cover her removal as DHS secretary, scrutiny over her Coast Guard housing, and other controversies surrounding her tenure and conduct.",
+        "source_ids": [
+          "thread_context",
+          "src_2917b1cc86d9",
+          "src_494c5788693a"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The claim about who controls the media is the poster’s opinion; the cited articles only show that coverage exists, not how prominent it is relative to other news.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @maddow.bsky.social",
+        "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+        "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+        "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "maddow.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_494c5788693a",
+        "title": "Kristi Noem’s replacement grilled about why she is ‘still living rent-free’ in waterfront Coast Guard home",
+        "url": "https://www.yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html#",
+        "snippet": "Democratic Representative Robert Garcia has sent a letter to DHS Secretary Markwayne Mullin questioning Noem&#x27;s continued occupancy of the waterfront property. Noem claimed on Fox News that she moved into the Coast Guard property after details about her residence in the Navy Yard neighborhood were published by news organizations.See more · Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor&#x27;s controversial living arrangements.",
+        "content": "Kristi Noem’s replacement at the Department of Homeland Security is facing new questions over his predecessor's controversial living arrangements. Noem, who was ousted as DHS secretary in March, is reportedly still occupying a taxpayer-funded U.S. Coast Guard home in Washington, D.C. On May 1, Democratic Representative Robert Garcia sent a letter to DHS Secretary Markwayne Mullin over Noem’s continued occupancy of the waterfront property. “Kristi Noem got fired in March and she is still living rent-free in a government home that belongs to the Coast Guard,” Garcia said in a statement, accompanying the letter. “The Trump Administration can’t explain why, nor do they seem to care.” The property on Joint Base Anacostia-Bolling was previously occupied by Linda Fagan, the first female Coast Guard commandant. She was fired by President Trump on January 21, 2025, just a day after his inauguration. Fagan was later evicted from the property with three hours’ notice, despite being given a 60-day waiver to find new housing by the Coast Guard, Garcia claims. Noem, who is now the special envoy for the Shield of the Americas, moved into the home in August 2025. On an episode of Fox News’ Hannity, which aired that same month, she claimed that she moved into the Coast Guard property after details about her residence in the Navy Yard neighbourhood were published by news organizations. “This same administration threw out the Coast Guard Commandant with three hours of notice to make room for Noem, and even though she’s been fired from her government role, she won’t leave government housing,” Garcia wrote in the statement. “Secretary Mullin owes us answers and Noem must pack her bags and go.” In the letter, Garcia demanded that Mullin hand over all documentation and communications concerning Noem’s residence at Quarters 1. He said that questions remain over concerns of waste, fraud and abuse during Noem’s tenure. Garcia also claimed that Noem's remaining in the property calls Mullin’s “stewardship of DHS’s taxpayer-funded resources” into question. Previously, Noem told Congress that she pays rent to remain at the facility. “Let me clarify a couple things,” she said. “I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house.” Noem added, “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that.” The current Coast Guard commandant, Admiral Kevin Lunday, has told associates that he plans to move into the house imminently, sources told The Wall Street Journal. Currently, Lunday lives in a home next door, which is usually designated for the vice commandant. The Independent has contacted the DHS for comment.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+        "canonical_url": "https://yahoo.com/news/articles/kristi-noem-replacement-grilled-why-122438631.html",
+        "published_at": "2026-05-04T00:00:00",
+        "publisher": "yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_123941668263",
+        "title": "Blumenthal Slams DHS Secretary Noem for Living Rent-Free in Prestigious, Waterfront Military Housing, Calls for Oversight Hearing | U.S. Senator Richard Blumenthal of Connecticut",
+        "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing#",
+        "snippet": "Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.”",
+        "content": "\"Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” [WASHINGTON, DC] – U.S. Senator Richard Blumenthal (D-CT), Ranking Member of the Permanent Subcommittee on Investigations, sent a letter to Secretary of Homeland Security Kristi Noem following recent reporting by The Washington Post that she was living for free in a military home typically reserved for the Coast Guard Commandant, the top admiral of the U.S. Coast Guard. In the letter, Blumenthal sought details regarding Noem’s living arrangement and questioned Noem’s reasoning for living in the Coast Guard Commandant’s residence at the expense of taxpayers and service members. Other Cabinet-level officials who live on military installations – such as Secretary of Defense Pete Hegseth and, during President Trump’s first term, Secretary of State Mike Pompeo – pay rent. “You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries. Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment,” wrote Blumenthal. “Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing.” Blumenthal cited past reporting of Noem misusing taxpayer dollars as heightening concerns surrounding Noem’s living arrangement, writing “Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information.” Blumenthal also wrote to U.S. Senator Rand Paul (R-KY), Chairman of the Committee on Homeland Security and Governmental Affairs, calling for an oversight hearing to examine Noem’s living arrangement in government housing at the expense of taxpayers and service members. “The questionable arrangements surrounding Secretary Noem’s rent-free occupancy in the Coast Guard Commandant’s residence demand prompt congressional scrutiny. As the U.S. Senate Committee with primary jurisdiction over the Department of Homeland Security, I respectfully request that you schedule a hearing of the Committee in September where Secretary Noem can testify about the details of her free housing provided by the branch of the armed services over which she has direct authority,” wrote Blumenthal to Paul. Blumenthal’s letter to Noem can be found here and below, and his letter to Paul can be found here. Dear Secretary Noem, I write to demand information in light of recent reporting indicating you are living in the Coast Guard Commandant’s quarters at the expense of American taxpayers and service members. As Secretary of Homeland Security, you have authority over the United States Coast Guard, raising serious questions about how you came to occupy one of its most prestigious, waterfront residences on Joint Base Anacostia-Bolling in Washington, DC. You have apparently been occupying this residence for an undetermined length of time without paying rent, marking a striking departure from other cabinet secretaries.[1] For example, Secretary of Defense Pete Hegseth’s rent is more than $4,600 per month to live at Fort McNair, also in Washington, DC.[2] Your spokesperson indicated this was because you felt unsafe in your current apartment, yet you continue to pay rent on that apartment.[3] Like all Americans, you deserve to feel safe where you live, but your position as Secretary does not grant you the special privilege of taxpayer-funded housing. Your rent-free occupation of the Coast Guard Commandant’s residence is extremely troubling in light of past reports of your suspect management of taxpayer funds and concealment of financial information. As governor of South Dakota, you spent more than $150,000 of taxpayer funds on polit",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+        "canonical_url": "https://blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-dhs-secretary-noem-for-living-rent-free-in-prestigious-waterfront-military-housing-calls-for-oversight-hearing",
+        "published_at": "2025-08-19T00:00:00",
+        "publisher": "blumenthal.senate.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "src_2917b1cc86d9",
+        "title": "Kristi Noem: Six times she made headlines, from luxury jets to 'blanketgate'",
+        "url": "https://www.bbc.com/news/articles/ce94mggvp9do#",
+        "snippet": "Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism.",
+        "content": "From killing her dog to luxury jets: Six times Kristi Noem made headlines Kristi Noem is being removed as homeland security secretary after months of controversy and bipartisan criticism. She was the official in charge of delivering on President Donald Trump's mass deportation agenda. Noem boosted deportations to 675,000 in the president's first year, though that fell below the White House's stated goal of one million per year. Trump announced that Republican Senator Markwayne Mullin would replace Noem, who was in the job for just over a year. Here are some of the headlines she made during her tenure. Alex Pretti and Renee Good killings Immigration operations in the Midwestern state of Minnesota spawned the biggest crisis during her stint. The enforcement blitz sparked protests in Minneapolis and two American citizens, Renee Good and Alex Pretti, were fatally shot in confrontations with federal agents. Noem accused Good and Pretti of domestic terrorism. But mobile phone and body camera footage raised questions about her department's accounts of the incidents. Several Republicans soured on Noem and joined Democrats in calling for her resignation. During hearings in the US House and Senate this week, Noem offered condolences to the families, but did not apologise for her domestic terrorism comments. Luxury jets Noem has faced repeated accusations of wasting agency funds. She approved the purchase of two Gulfstream G700 luxury jets, and the department had plans to acquire a third aircraft, a Boeing 737, for about $70m (£52m). Noem defended the spending, saying that as well as being \"long-range command and control aircraft\", the fleet would be used for deportations. At a Senate hearing this week, a senator showed a picture of a plush bedroom that was apparently on board one of the jets. Noem acknowledged the plane had a bedroom, but said it was being \"refurbished\". Horseback ad blitz Reports of a $220m (£165m) ad campaign starring Noem are reported to have angered Trump. The commercial, which urged immigrants to self-deport, featured her wearing a cowboy hat and riding on horseback across a prairie with a herd of bison. At a congressional hearing this week, Republican Senator John Kennedy pressed Noem about whether Trump had approved the ad. She suggested the president had signed off on it, but Trump told Reuters news agency he \"never knew anything about it\". Noem was also grilled by lawmakers about the contracting process for the ads and how Republican-connected firms were awarded the bids. 'Blanketgate' Noem's de facto chief of staff, Corey Lewandowski, has also courted controversy. According to reports from Reuters and the Wall Street Journal, he fired a Coast Guard pilot after blaming him for misplacing Noem's blanket as they switched from one plane to another on a trip. Lewandowski reportedly walked into the cockpit of the Coast Guard plane as it was ascending and demanded to know where Noem's blanket was. In a text with Reuters, Lewandowski disputed the account of the incident, which the media dubbed \"blanketgate\". During a congressional hearing this week, Noem was asked by a lawmaker if she had had \"sexual relations\" with Lewandowski. She described the suggestion as \"tabloid garbage\". Both have previously denied rumours of an affair. Lewandowski will also be leaving homeland security department, it emerged on Thursday. Photo op at Salvadoran jail Last March, Noem made a visit to the notorious Cecot prison in El Salvador, which had agreed to take deportees from the US. Noem posed for photos in front of prisoners who stood quietly at the bars of a crowded cell, and said she had arranged for some of the detainees to be held at the facility. She also drew attention on the jail visit by wearing a $50,000 (£37,000) gold Rolex Cosmograph Daytona watch. Noem had previously attracted controversy after a false anecdote appeared in her 2024 memoir that she once met North Korean leader Kim Jong Un. Shooting the family dog Noem wrote in",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "coverage of Kristi Noem scandal mainstream media disappearance from headlines"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "coverage of Kristi Noem scandal mainstream media disappearance from headlines",
+        "canonical_url": "https://bbc.com/news/articles/ce94mggvp9do",
+        "published_at": "2026-03-06T00:00:00",
+        "publisher": "bbc.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_64734bf67902",
+        "title": "DHS chief Kristi Noem addresses controversy over living in Coast Guard housing",
+        "url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing/#",
+        "snippet": "“You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. ... Tags DHS House Judiciary Committee Jamie Raskin Kristi Noem Trump administration U.S.",
+        "content": "Department of Homeland Security (DHS) Secretary Kristi Noem said Wednesday that she is not living in the house of the U.S. Coast Guard commandant, contradicting prior reports. “Let me clarify a couple things. I’m not in the Commandant’s house. I’m in a Coast Guard House, but not the Commandant’s house,” Noem said during an appearance before the House Judiciary Committee. “The Commandant is in his house.” “And I will also tell you that I rent that facility. I rent where I stay, and pay personal dollars to do that,” she added. Reports about Noem’s living situation first surfaced in August, indicating she was living rent-free in the commandant’s house, which is located at Joint Base Anacostia-Bolling. The DHS said at the time that the move was necessary given death threats against Noem, and it also did not counter reporting that she was living rent-free. “Following the media’s publishing of the location of Secretary Noem’s Washington DC apartment, she has faced vicious doxing on the dark web and a surge in death threats, including from the terrorist organizations, cartels, and criminals gangs that DHS targets,” the department said in a statement at the time. “Due to threats and security concerns, she has been forced to temporarily stay in secure military housing. Secretary Noem continues to pay rent for her Navy Yard residence,” DHS wrote. During his opening statement Wednesday, Rep. Jamie Raskin (D-Md.), the top Democrat on the panel, criticized the DHS chief for tapping Coast Guard resources. “You’re living rent free in the official waterfront residence reserved for the commandant of The U.S. Coast Guard,” he said. Noem was also previously using a Coast Guard jet for her travel and had requested $50 million to replace that plane. She has since sought to use funds for new planes for the agency, jets she said will also be used to carry out deportations. Copyright 2026 Nexstar Media Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+        "canonical_url": "https://thehill.com/homenews/administration/5766912-kristi-noem-dhs-coast-guard-housing",
+        "published_at": "2026-03-04T00:00:00",
+        "publisher": "thehill.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_9ce74380df78",
+        "title": "Kristi Noem is living rent-free in home used by Coast Guard commandant - The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home/#",
+        "snippet": "Department of Homeland Security Secretary Kristi L. Noem is living in the house of the U.S. Coast Guard&#x27;s commandant, a highly unusual arrangement.",
+        "content": "Department of Homeland Security Secretary Kristi L. Noem is living for free in a military home typically reserved for the U.S. Coast Guard’s top admiral, officials familiar with the matter said. The highly unusual arrangement has raised concern within the agency and from some Democrats, who describe it as a waste of military resources. Democracy Dies in Darkness",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy federal housing arrangement",
+        "canonical_url": "https://washingtonpost.com/politics/2025/08/15/kristi-noem-is-living-free-charge-coast-guard-commandants-home",
+        "published_at": "2025-08-15T00:00:00",
+        "publisher": "washingtonpost.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "Allegations about Noem’s family members and personal life are reported in part by tabloid or entertainment‑style outlets; they are not treated here as established facts and have been excluded from confirmed factual bullets.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 25567
+  }
+}

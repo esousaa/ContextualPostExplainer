@@ -1,0 +1,761 @@
+{
+  "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:24:31.444308+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:23:59.178937+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:23:59.179042+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:23:59.179434+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:23:59.179512+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:23:59.179821+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:00.506978+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1327
+    },
+    {
+      "timestamp": "2026-05-16T02:24:00.507536+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:00.507616+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:24:00.507976+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:01.902991+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1394
+    },
+    {
+      "timestamp": "2026-05-16T02:24:01.903574+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:09.609885+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7132
+    },
+    {
+      "timestamp": "2026-05-16T02:24:09.610457+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:19.293963+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9683
+    },
+    {
+      "timestamp": "2026-05-16T02:24:19.294508+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:20.210922+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 916
+    },
+    {
+      "timestamp": "2026-05-16T02:24:20.211447+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.437947+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 11226
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.438523+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.438620+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.438965+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.439032+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.439319+00:00",
+      "event": "node_started",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:24:31.439402+00:00",
+      "event": "node_completed",
+      "run_id": "run_90fb0912683b42abb52db1960a1b2f8b",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "Trump criminal charges conviction",
+    "Trump legal cases status",
+    "\"Ricky Davila\" political commentator social media posts",
+    "legal cases investigations against Donald Trump overview",
+    "impact of AIPAC donations on US politicians ethics controversy",
+    "public opinion on accountability for Trump administration officials crimes against the United States"
+  ],
+  "metrics": {
+    "search_results_received": 30,
+    "search_results_by_provider": {
+      "tavily": 30
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.wabe.org/heres-where-all-the-legal-cases-against-trump-stand-since-his-return-to-the-white-house-2/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.wabe.org/heres-where-all-the-legal-cases-against-trump-stand-since-his-return-to-the-white-house-2/"
+      },
+      {
+        "id": "https://ballotpedia.org/Donald_Trump_indictments,_2023-2025",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://ballotpedia.org/Donald_Trump_indictments,_2023-2025"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://ballotpedia.org/Donald_Trump_indictments,_2023-2025",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain extractable text."
+      },
+      {
+        "url": "https://www.wabe.org/heres-where-all-the-legal-cases-against-trump-stand-since-his-return-to-the-white-house-2/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.lawfaremedia.org/projects-series/trials-of-the-trump-administration/tracking-trump-administration-litigation",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [
+      {
+        "id": "src_c2ff01d3d3b4",
+        "reason": "duplicate_content_hash",
+        "duplicate_of": "src_a1a7d65b80f0"
+      }
+    ],
+    "ranking_discards": [
+      {
+        "id": "src_1182ed362495",
+        "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+        "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_a1a7d65b80f0",
+        "title": "Ricky Davila (@therickydavila.bsky.social) — Bluesky",
+        "url": "https://bsky.app/profile/did:plc:2qhershy6nk2cs5gm5zbii2r#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "tavily": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not",
+      "content": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8450604619014914
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7330412084492807
+    },
+    {
+      "id": "src_b81b8c51a8f8",
+      "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+      "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+      "snippet": "The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\". Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity.",
+      "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+      "published_at": "2025-05-30T00:00:00",
+      "publisher": "abcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5252839970098415
+    },
+    {
+      "id": "src_cad6098edd5f",
+      "title": "Prosecution of Donald Trump in New York - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York#",
+      "snippet": "# Prosecution of Donald Trump in New York. ***The People of the State of New York v. Trump*** was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial.",
+      "content": "The People of the State of New York v. Donald J. Trump was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The Manhattan District Attorney (DA), Alvin Bragg, accused Trump of falsifying these business records with the intent to commit other crimes.[a] The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. Trump pleaded not guilty and stated that he would continue to campaign for the 2024 presidential election, even if convicted. The trial began on April 15, 2024. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial. The prosecution argued that Trump's 2016 campaign sought to benefit from the payment of hush money to Daniels through Trump's former lawyer Michael Cohen, who was reimbursed via a false retainer agreement. The prosecution rested on May 20, 2024, after calling 20 witnesses. The defense argued that Trump was unaware of any allegedly unlawful scheme, that Cohen was unreliable as a witness, and that the retainer agreement between them was valid. The defense rested on May 21 after calling two witnesses. Throughout proceedings, the defense also made unsuccessful requests for the case to be delayed or dismissed, for presiding judge Juan Merchan to recuse himself, and for removal to federal court. Trump was convicted on all counts on May 30, 2024, becoming the first U.S. president to be convicted of a felony. Following a series of delays and Trump's 2024 presidential election victory, he was sentenced to an unconditional discharge on January 10, 2025. He is appealing his conviction. Background In July 2006, Stephanie Clifford, a pornographic film actress known professionally as \"Stormy Daniels\", met Donald Trump at a celebrity golf tournament in Nevada. At the time, Trump was the host of the reality TV series The Apprentice and was married to Melania Trump.[3] According to Daniels, Trump invited her to his penthouse at Harrah's Lake Tahoe[4] where the two had sex and talked about making her a guest on The Apprentice.[5][6] In 2011, Daniels considered selling the story to the celebrity magazine Life & Style for US$15,000 as Trump began exploring a potential presidential bid. His lawyer, Michael Cohen, threatened to sue Life & Style when it asked the Trump Organization for comment. Daniels' agent, Gina Rodriguez, leaked the story to the gossip blog The Dirty in October. The post was taken down following complaints by Trump's lawyers, and Daniels disputed the story's veracity.[7] Cohen acknowledged during court testimony in May 2024 that he advised on the story's removal.[8] As Trump's 2016 presidential campaign began, Rodriguez approached multiple publications—including the National Enquirer—and attempted to sell the story. Following the publication of a controversial recording of Trump and Access Hollywood host Billy Bush, the National Enquirer sought to suppress the story. Rather than paying Daniels, the National Enquirer editor-in-chief Dylan Howard negotiated a $130,000 non-disclosure agreement between Daniels and Michael Cohen. Cohen attempted to find the money as the election neared and repeatedly delayed her payment. Keith Davidson, Daniels' lawyer, canceled the deal in October 2016.[4][7] Ultimately, Cohen drew the money from his home equity line of credit and sent it through a shell company incorporated in Delaware.[4][7] Trump initially denied knowing about the check made out to Daniels. In April 2018, aboard Air Force O",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York",
+      "published_at": "2023-03-30T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5079612485148589
+    },
+    {
+      "id": "src_f00f3289c5df",
+      "title": "D.A. Bragg Announces 34-Count Felony Trial Conviction of Donald J. Trump – Manhattan District Attorney’s Office",
+      "url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/#",
+      "snippet": "TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law.",
+      "content": "Jury Finds the Defendant Guilty of 34 Counts of Falsifying Business Records Manhattan District Attorney Alvin L. Bragg, Jr. today announced the all-count trial conviction of DONALD J. TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. He is expected to be sentenced on July 11. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. Mr. Trump went to illegal lengths to lie repeatedly in order to protect himself and his campaign. In Manhattan, we follow the facts without fear or favor and have a solemn responsibility to ensure equal justice under the law regardless of the background, wealth or power of the accused. The integrity of our judicial system depends on upholding that principle,” said District Attorney Alvin Bragg. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law. The genesis of the scheme was a 2015 meeting at Trump Tower where an agreement was hatched between TRUMP, his former attorney Michael Cohen, and David Pecker, the CEO of American Media Inc. (“AMI”). TRUMP, David Pecker and Michael Cohen agreed that AMI would prevent damaging information about TRUMP from becoming public. AMI, which owned the National Enquirer, purchased stories as part of a “catch and kill” strategy in order to protect TRUMP. In one instance, American Media Inc. paid $30,000 to a former Trump Tower doorman, who claimed to have a story about a child TRUMP had out of wedlock. In a second instance, AMI paid $150,000 to a woman who alleged she had a sexual relationship with TRUMP. In the weeks before the election, a video from the TV show Access Hollywood became public in which TRUMP was recorded on a hot mic saying in part, “You know, I’m automatically attracted to beautiful women, I just start kissing them, it’s like a magnet, just kiss, I don’t even wait, when you are a star they let you do it, you can do anything, grab them by the p****, you can do anything.” The following day, the Editor-in-Chief of the National Enquirer informed Michael Cohen that the adult-film actress Stormy Daniels was planning to come forward about a sexual encounter she had with TRUMP. Cohen and TRUMP, knowing how devasting Daniels’ story would be to the campaign, agreed to buy her story to defraud the voting public and prevent them from learning the information before Election Day. Cohen, with the approval of TRUMP, set up a shell company called Essential Consultants, LLC and wired $130,000 to Keith Davidson, the attorney for Stormy Daniels. Cohen used false information and records to disguise the true nature of the shell company. Phone records shown at trial and testimony from witnesses proved that TRUMP was in the loop every step of the way. After winning the election, TRUMP reimbursed Cohen through a series of monthly checks, first from the Donald J. Trump Revocable Trust – created in New York to hold the Trump Organization’s assets during TRUMP’s presidency – and later from TRUMP’s bank account. In total, 11 checks were issued for a phony purpose. Each check was processed by the Trump Organization a",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "manhattanda.org",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.4565423780962814
+    },
+    {
+      "id": "src_d751851a4626",
+      "title": "Trump Trials | Brennan Center for Justice",
+      "url": "https://www.brennancenter.org/series/trump-trials#",
+      "snippet": "Former President Trump is facing three active prosecutions, and he was convicted of felonies in New York in May 2024. Of the remaining criminal cases, two are for his role in the attempt to reverse the 2020 election — one in federal court in Washington and the other in state court in Fulton County, Georgia. ## Jack Smith’s New Filing Against Trump Is Proof of Process, Not Politics. Read More about Jack Smith’s New Filing Against Trump Is Proof of Process, Not Politics. Read More about What’s Ahead for Jack Smith. Read More about What Could Happen in Trump’s Florida Classified Documents Case? ## The Supreme Court Gives the President the Power of a King. Read More about The Supreme Court Gives the President the Power of a King. Read More about Lessons from Trump’s Manhattan Conviction for Special Counsel Jack Smith. Read More about Can We Trust the Jury in Trump's Manhattan Trial?",
+      "content": "Former President Trump is facing three active prosecutions, and he was convicted of felonies in New York in May 2024. He was found guilty in state court in New York City for falsification of business records to conceal “hush money” payments to an adult film actor during his 2016 campaign. Of the remaining criminal cases, two are for his role in the attempt to reverse the 2020 election — one in federal court in Washington and the other in state court in Fulton County, Georgia. He is also being prosecuted in federal court in Florida for breaking laws related to his handling of classified documents.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump legal cases status",
+      "canonical_url": "https://brennancenter.org/series/trump-trials",
+      "published_at": "2024-04-15T00:00:00",
+      "publisher": "brennancenter.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4465866672440956
+    },
+    {
+      "id": "src_394e77f3d1fb",
+      "title": "Personal and business legal affairs of Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Personal_and_business_legal_affairs_of_Donald_Trump#",
+      "snippet": "From 1973 and until he was elected president in 2016, Donald Trump and his businesses were involved in over 4,000 legal cases in United States federal and state courts \"State court (United States)\"), including battles with casino patrons, million-dollar real estate lawsuits, personal defamation lawsuits, and over 100 business tax disputes.",
+      "content": "From 1973 and until he was elected president in 2016, Donald Trump and his businesses were involved in over 4,000 legal cases in United States federal and state courts, including battles with casino patrons, million-dollar real estate lawsuits, personal defamation lawsuits, and over 100 business tax disputes.[1] He has also been accused of sexual harassment and sexual assault,[2][3] with one accusation resulting in him being held civilly liable. In 2015, Trump's lawyer Alan Garten called Trump's legal entanglements \"a natural part of doing business\" in the US.[4][5] While litigation is indeed common in the real estate industry,[4] Trump has been involved in more legal cases than his fellow magnates Edward J. DeBartolo Jr., Donald Bren, Stephen M. Ross, Sam Zell, and Larry Silverstein combined. Many of the lawsuits were filed against patrons with debt to his casinos.[6] Numerous legal matters and investigations occurred during and after Trump's first presidency, some being of historical importance. Between October 2021 and July 2022 alone, the Republican National Committee paid more than US$2 million to attorneys representing Trump in his presidential, personal, and business capacities.[7] In January 2023, a federal judge fined Trump and his attorney nearly $1 million, characterizing him as \"a prolific and sophisticated litigant who is repeatedly using the courts to seek revenge on political adversaries\".[8] On December 6, 2022, the parent company of Trump's many businesses, the Trump Organization, was convicted on 17 criminal charges.[9][10][11] Trump has been found liable for sexual abuse and defamation[12] and is appealing an order to pay more than $80 million in damages to the victim, E. Jean Carroll.[13][14] Trump, together with his associates, has also been found liable for fraud regarding overvaluation of the Trump Organization and Trump's net worth,[15] and is appealing a $364 million fine[16] plus $100 million interest.[17][18] In 2024, Trump was convicted on numerous counts of falsifying business records related to hush money payments to adult film actress Stormy Daniels,[19] although his sentencing was indefinitely postponed following his second election to the presidency.[20] In 2024, before Trump's election, a judge dismissed the federal charges relating to Trump's handling of classified documents.[21] After his election, the special counsel decided to abandon the federal charges related to the 2020 election and the appeal of the documents case dismissal, citing the Justice Department policy of not prosecuting sitting presidents.[22] In 1973, Trump was accused by the Justice Department of violations of the Fair Housing Act in the operation of 39 buildings. The department said that black \"testers\" were sent to more than half a dozen buildings and were denied apartments, but a similar white tester would then be offered an apartment in the same building.[23] The government alleged that Trump's corporation quoted different rental terms and conditions to blacks and made false \"no vacancy\" statements to blacks for apartments they managed in Brooklyn, Queens, and Staten Island.[24] Representing Trump, Roy Cohn filed a counter-suit against the government for $100 million, asserting that the charges were irresponsible and baseless.[23][25] A federal judge threw out the countersuit, calling it a waste of \"time and paper\".[26] Trump settled the charges out of court in 1975 without admitting guilt, saying he was satisfied that the agreement did not \"compel the Trump organization to accept persons on welfare as tenants unless as qualified as any other tenant\".[27] Tony Schwartz, the ghostwriter of Trump's book, The Art of the Deal, said that the housing case was \"a classic example\" of Trump being \"a counterpuncher\": someone accuses Trump of doing something horrible, and he \"goes back at them with all guns blazing.... And admits nothing.\" If Trump loses, he will \"declare victory\".[28] The corporation was required to send a bi-we",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump legal cases status",
+      "canonical_url": "https://en.wikipedia.org/wiki/Personal_and_business_legal_affairs_of_Donald_Trump",
+      "published_at": "2016-05-25T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4099337569974296
+    },
+    {
+      "id": "src_3383281a4054",
+      "title": "Trump convicted on all 34 criminal charges in New York hush money trial",
+      "url": "https://www.youtube.com/watch?v=S5QG7G8v5e4#",
+      "snippet": "Trump convicted on all 34 criminal charges in New York hush money trial\nPBS NewsHour\n5270000 subscribers\n1718 likes\n75376 views\n30 May 2024\nDonald Trump was found guilty on all 34 criminal charges against him in a New York courtroom. He becomes the first former president charged, and now convicted, of a felony. The case stemmed from Trump falsifying business records to cover up hush money payments to adult film actress Stormy Daniels ahead of the 2016 presidential election. William Brangham reports.\n\nSubscribe:\nNewsletters: https://www.pbs.org/newshour/subscribe\nPBS NewsHour podcasts: https://www.pbs.org/newshour/podcasts\n\nStream your PBS favorites with the PBS app: https://to.pbs.org/2Jb8twG\nFind more from PBS NewsHour at https://www.pbs.org/newshour\nSubscribe to our YouTube channel: https://bit.ly/2HfsCD6\n\nFollow us:\nTikTok: https://www.tiktok.com/@pbsnews\nTwitter: http://www.twitter.com/newshour\nInstagram: http://www.instagram.com/newshour\nFacebook: http://www.pbs.org/newshour",
+      "content": "Trump convicted on all 34 criminal charges in New York hush money trial - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://youtube.com/watch?v=S5QG7G8v5e4",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4076222583488546
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7330412084492807
+    },
+    {
+      "id": "src_b81b8c51a8f8",
+      "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+      "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+      "snippet": "The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\". Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity.",
+      "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+      "published_at": "2025-05-30T00:00:00",
+      "publisher": "abcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5252839970098415
+    },
+    {
+      "id": "src_cad6098edd5f",
+      "title": "Prosecution of Donald Trump in New York - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York#",
+      "snippet": "# Prosecution of Donald Trump in New York. ***The People of the State of New York v. Trump*** was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial.",
+      "content": "The People of the State of New York v. Donald J. Trump was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The Manhattan District Attorney (DA), Alvin Bragg, accused Trump of falsifying these business records with the intent to commit other crimes.[a] The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. Trump pleaded not guilty and stated that he would continue to campaign for the 2024 presidential election, even if convicted. The trial began on April 15, 2024. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial. The prosecution argued that Trump's 2016 campaign sought to benefit from the payment of hush money to Daniels through Trump's former lawyer Michael Cohen, who was reimbursed via a false retainer agreement. The prosecution rested on May 20, 2024, after calling 20 witnesses. The defense argued that Trump was unaware of any allegedly unlawful scheme, that Cohen was unreliable as a witness, and that the retainer agreement between them was valid. The defense rested on May 21 after calling two witnesses. Throughout proceedings, the defense also made unsuccessful requests for the case to be delayed or dismissed, for presiding judge Juan Merchan to recuse himself, and for removal to federal court. Trump was convicted on all counts on May 30, 2024, becoming the first U.S. president to be convicted of a felony. Following a series of delays and Trump's 2024 presidential election victory, he was sentenced to an unconditional discharge on January 10, 2025. He is appealing his conviction. Background In July 2006, Stephanie Clifford, a pornographic film actress known professionally as \"Stormy Daniels\", met Donald Trump at a celebrity golf tournament in Nevada. At the time, Trump was the host of the reality TV series The Apprentice and was married to Melania Trump.[3] According to Daniels, Trump invited her to his penthouse at Harrah's Lake Tahoe[4] where the two had sex and talked about making her a guest on The Apprentice.[5][6] In 2011, Daniels considered selling the story to the celebrity magazine Life & Style for US$15,000 as Trump began exploring a potential presidential bid. His lawyer, Michael Cohen, threatened to sue Life & Style when it asked the Trump Organization for comment. Daniels' agent, Gina Rodriguez, leaked the story to the gossip blog The Dirty in October. The post was taken down following complaints by Trump's lawyers, and Daniels disputed the story's veracity.[7] Cohen acknowledged during court testimony in May 2024 that he advised on the story's removal.[8] As Trump's 2016 presidential campaign began, Rodriguez approached multiple publications—including the National Enquirer—and attempted to sell the story. Following the publication of a controversial recording of Trump and Access Hollywood host Billy Bush, the National Enquirer sought to suppress the story. Rather than paying Daniels, the National Enquirer editor-in-chief Dylan Howard negotiated a $130,000 non-disclosure agreement between Daniels and Michael Cohen. Cohen attempted to find the money as the election neared and repeatedly delayed her payment. Keith Davidson, Daniels' lawyer, canceled the deal in October 2016.[4][7] Ultimately, Cohen drew the money from his home equity line of credit and sent it through a shell company incorporated in Delaware.[4][7] Trump initially denied knowing about the check made out to Daniels. In April 2018, aboard Air Force O",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York",
+      "published_at": "2023-03-30T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5079612485148589
+    },
+    {
+      "id": "src_f00f3289c5df",
+      "title": "D.A. Bragg Announces 34-Count Felony Trial Conviction of Donald J. Trump – Manhattan District Attorney’s Office",
+      "url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/#",
+      "snippet": "TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law.",
+      "content": "Jury Finds the Defendant Guilty of 34 Counts of Falsifying Business Records Manhattan District Attorney Alvin L. Bragg, Jr. today announced the all-count trial conviction of DONALD J. TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. He is expected to be sentenced on July 11. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. Mr. Trump went to illegal lengths to lie repeatedly in order to protect himself and his campaign. In Manhattan, we follow the facts without fear or favor and have a solemn responsibility to ensure equal justice under the law regardless of the background, wealth or power of the accused. The integrity of our judicial system depends on upholding that principle,” said District Attorney Alvin Bragg. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law. The genesis of the scheme was a 2015 meeting at Trump Tower where an agreement was hatched between TRUMP, his former attorney Michael Cohen, and David Pecker, the CEO of American Media Inc. (“AMI”). TRUMP, David Pecker and Michael Cohen agreed that AMI would prevent damaging information about TRUMP from becoming public. AMI, which owned the National Enquirer, purchased stories as part of a “catch and kill” strategy in order to protect TRUMP. In one instance, American Media Inc. paid $30,000 to a former Trump Tower doorman, who claimed to have a story about a child TRUMP had out of wedlock. In a second instance, AMI paid $150,000 to a woman who alleged she had a sexual relationship with TRUMP. In the weeks before the election, a video from the TV show Access Hollywood became public in which TRUMP was recorded on a hot mic saying in part, “You know, I’m automatically attracted to beautiful women, I just start kissing them, it’s like a magnet, just kiss, I don’t even wait, when you are a star they let you do it, you can do anything, grab them by the p****, you can do anything.” The following day, the Editor-in-Chief of the National Enquirer informed Michael Cohen that the adult-film actress Stormy Daniels was planning to come forward about a sexual encounter she had with TRUMP. Cohen and TRUMP, knowing how devasting Daniels’ story would be to the campaign, agreed to buy her story to defraud the voting public and prevent them from learning the information before Election Day. Cohen, with the approval of TRUMP, set up a shell company called Essential Consultants, LLC and wired $130,000 to Keith Davidson, the attorney for Stormy Daniels. Cohen used false information and records to disguise the true nature of the shell company. Phone records shown at trial and testimony from witnesses proved that TRUMP was in the loop every step of the way. After winning the election, TRUMP reimbursed Cohen through a series of monthly checks, first from the Donald J. Trump Revocable Trust – created in New York to hold the Trump Organization’s assets during TRUMP’s presidency – and later from TRUMP’s bank account. In total, 11 checks were issued for a phony purpose. Each check was processed by the Trump Organization a",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump",
+      "published_at": "2024-05-30T00:00:00",
+      "publisher": "manhattanda.org",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.4565423780962814
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post; sensitive factual claims lacked official, court, fact-checking, or recognized news support.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "platform": "bluesky",
+      "author": {
+        "handle": "therickydavila.bsky.social",
+        "display_name": "Ricky Davila",
+        "did": "did:plc:2qhershy6nk2cs5gm5zbii2r"
+      },
+      "text": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "created_at": "2026-05-15T15:20:16.463000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait."
+    },
+    "explanation": [
+      {
+        "text": "Post author Ricky Davila expresses a desire not to talk about Donald Trump (“the orange felon”) or his “criminal regime” in the future except in the context of them being arrested, convicted, and imprisoned for what he calls “many crimes against the United States,” which functions as strongly critical, forward-looking political opinion rather than a factual listing of adjudicated crimes.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the author’s rhetoric and wishes; his references to a “criminal regime” and “many crimes” are not being treated as established legal findings beyond what is documented in the legal sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Independently of the post’s rhetoric, Donald Trump has been convicted in New York of 34 felony counts of falsifying business records related to hush money payments connected to the 2016 election, making him the first U.S. president or former president to be convicted of a felony according to court records and news reporting.",
+        "source_ids": [
+          "src_f00f3289c5df",
+          "src_b81b8c51a8f8",
+          "src_cad6098edd5f"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This confirmed conviction concerns specific falsification-of-records felonies; it does not itself establish the broader, undefined “many crimes against the United States” language used in the post.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The Manhattan District Attorney’s Office has stated that a New York State Supreme Court jury found Trump guilty on all 34 counts of falsifying business records in the first degree and described his conduct as part of a scheme to conceal damaging information from voters during the 2016 election through false business records, which reflects the prosecutor’s official characterization of the case and verdict.",
+        "source_ids": [
+          "src_f00f3289c5df"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This summarizes the Manhattan DA’s official description of the evidence and Trump’s conduct; Trump is appealing the conviction and disputes this characterization.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @therickydavila.bsky.social",
+        "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+        "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "therickydavila.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_b81b8c51a8f8",
+        "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+        "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+        "snippet": "The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\". Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity.",
+        "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+        "published_at": "2025-05-30T00:00:00",
+        "publisher": "abcnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_cad6098edd5f",
+        "title": "Prosecution of Donald Trump in New York - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York#",
+        "snippet": "# Prosecution of Donald Trump in New York. ***The People of the State of New York v. Trump*** was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial.",
+        "content": "The People of the State of New York v. Donald J. Trump was a criminal case against Donald Trump, a then-former president of the United States. Trump was charged with 34 felony counts of falsifying business records to conceal payments made to the pornographic film actress Stormy Daniels as hush money to buy her silence over a sexual encounter between them. The Manhattan District Attorney (DA), Alvin Bragg, accused Trump of falsifying these business records with the intent to commit other crimes.[a] The criminal indictment, the first of a former U.S. president, was approved by a Manhattan grand jury on March 30, 2023. On April 3, Trump traveled from his residence in Florida to New York City, where he surrendered to the Manhattan DA's office and was arraigned the next day. Trump pleaded not guilty and stated that he would continue to campaign for the 2024 presidential election, even if convicted. The trial began on April 15, 2024. On April 30, Trump also became the first U.S. president to be held in criminal contempt of court, due to comments he made earlier in the month about individuals involved with the trial. The prosecution argued that Trump's 2016 campaign sought to benefit from the payment of hush money to Daniels through Trump's former lawyer Michael Cohen, who was reimbursed via a false retainer agreement. The prosecution rested on May 20, 2024, after calling 20 witnesses. The defense argued that Trump was unaware of any allegedly unlawful scheme, that Cohen was unreliable as a witness, and that the retainer agreement between them was valid. The defense rested on May 21 after calling two witnesses. Throughout proceedings, the defense also made unsuccessful requests for the case to be delayed or dismissed, for presiding judge Juan Merchan to recuse himself, and for removal to federal court. Trump was convicted on all counts on May 30, 2024, becoming the first U.S. president to be convicted of a felony. Following a series of delays and Trump's 2024 presidential election victory, he was sentenced to an unconditional discharge on January 10, 2025. He is appealing his conviction. Background In July 2006, Stephanie Clifford, a pornographic film actress known professionally as \"Stormy Daniels\", met Donald Trump at a celebrity golf tournament in Nevada. At the time, Trump was the host of the reality TV series The Apprentice and was married to Melania Trump.[3] According to Daniels, Trump invited her to his penthouse at Harrah's Lake Tahoe[4] where the two had sex and talked about making her a guest on The Apprentice.[5][6] In 2011, Daniels considered selling the story to the celebrity magazine Life & Style for US$15,000 as Trump began exploring a potential presidential bid. His lawyer, Michael Cohen, threatened to sue Life & Style when it asked the Trump Organization for comment. Daniels' agent, Gina Rodriguez, leaked the story to the gossip blog The Dirty in October. The post was taken down following complaints by Trump's lawyers, and Daniels disputed the story's veracity.[7] Cohen acknowledged during court testimony in May 2024 that he advised on the story's removal.[8] As Trump's 2016 presidential campaign began, Rodriguez approached multiple publications—including the National Enquirer—and attempted to sell the story. Following the publication of a controversial recording of Trump and Access Hollywood host Billy Bush, the National Enquirer sought to suppress the story. Rather than paying Daniels, the National Enquirer editor-in-chief Dylan Howard negotiated a $130,000 non-disclosure agreement between Daniels and Michael Cohen. Cohen attempted to find the money as the election neared and repeatedly delayed her payment. Keith Davidson, Daniels' lawyer, canceled the deal in October 2016.[4][7] Ultimately, Cohen drew the money from his home equity line of credit and sent it through a shell company incorporated in Delaware.[4][7] Trump initially denied knowing about the check made out to Daniels. In April 2018, aboard Air Force O",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York",
+        "published_at": "2023-03-30T00:00:00",
+        "publisher": "en.wikipedia.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_f00f3289c5df",
+        "title": "D.A. Bragg Announces 34-Count Felony Trial Conviction of Donald J. Trump – Manhattan District Attorney’s Office",
+        "url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/#",
+        "snippet": "TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law.",
+        "content": "Jury Finds the Defendant Guilty of 34 Counts of Falsifying Business Records Manhattan District Attorney Alvin L. Bragg, Jr. today announced the all-count trial conviction of DONALD J. TRUMP, 77, for falsifying New York business records in order to conceal his illegal scheme to corrupt the 2016 election. TRUMP was convicted by a New York State Supreme Court jury of 34 counts of Falsifying Business Records in the First Degree. He is expected to be sentenced on July 11. “Donald Trump is guilty of repeatedly and fraudulently falsifying business records in a scheme to conceal damaging information from American voters during the 2016 presidential election. Over the course of the past several weeks, a jury of 12 every day New Yorkers was presented with overwhelming evidence – including invoices, checks, bank statements, audio recordings, phone logs, text messages, and direct testimony from 22 witnesses – that proved beyond a reasonable doubt that Mr. Trump illegally falsified 34 New York business records. Mr. Trump went to illegal lengths to lie repeatedly in order to protect himself and his campaign. In Manhattan, we follow the facts without fear or favor and have a solemn responsibility to ensure equal justice under the law regardless of the background, wealth or power of the accused. The integrity of our judicial system depends on upholding that principle,” said District Attorney Alvin Bragg. As proven at trial, TRUMP engaged in a scheme to corrupt the 2016 presidential election and went to extraordinary and illegal lengths to hide this conduct from the American voters and public, illegally causing dozens of false entries to be made in New York business records of his Manhattan-based company to conceal attempts to violate state election law. The genesis of the scheme was a 2015 meeting at Trump Tower where an agreement was hatched between TRUMP, his former attorney Michael Cohen, and David Pecker, the CEO of American Media Inc. (“AMI”). TRUMP, David Pecker and Michael Cohen agreed that AMI would prevent damaging information about TRUMP from becoming public. AMI, which owned the National Enquirer, purchased stories as part of a “catch and kill” strategy in order to protect TRUMP. In one instance, American Media Inc. paid $30,000 to a former Trump Tower doorman, who claimed to have a story about a child TRUMP had out of wedlock. In a second instance, AMI paid $150,000 to a woman who alleged she had a sexual relationship with TRUMP. In the weeks before the election, a video from the TV show Access Hollywood became public in which TRUMP was recorded on a hot mic saying in part, “You know, I’m automatically attracted to beautiful women, I just start kissing them, it’s like a magnet, just kiss, I don’t even wait, when you are a star they let you do it, you can do anything, grab them by the p****, you can do anything.” The following day, the Editor-in-Chief of the National Enquirer informed Michael Cohen that the adult-film actress Stormy Daniels was planning to come forward about a sexual encounter she had with TRUMP. Cohen and TRUMP, knowing how devasting Daniels’ story would be to the campaign, agreed to buy her story to defraud the voting public and prevent them from learning the information before Election Day. Cohen, with the approval of TRUMP, set up a shell company called Essential Consultants, LLC and wired $130,000 to Keith Davidson, the attorney for Stormy Daniels. Cohen used false information and records to disguise the true nature of the shell company. Phone records shown at trial and testimony from witnesses proved that TRUMP was in the loop every step of the way. After winning the election, TRUMP reimbursed Cohen through a series of monthly checks, first from the Donald J. Trump Revocable Trust – created in New York to hold the Trump Organization’s assets during TRUMP’s presidency – and later from TRUMP’s bank account. In total, 11 checks were issued for a phony purpose. Each check was processed by the Trump Organization a",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://manhattanda.org/d-a-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump",
+        "published_at": "2024-05-30T00:00:00",
+        "publisher": "manhattanda.org",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post; sensitive factual claims lacked official, court, fact-checking, or recognized news support.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 31687
+  }
+}

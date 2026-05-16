@@ -1,0 +1,753 @@
+{
+  "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:54:11.567315+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:53:41.751876+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.751992+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.752630+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.752732+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:41.753134+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:43.482762+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1729
+    },
+    {
+      "timestamp": "2026-05-16T01:53:43.485141+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:43.485313+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:43.485900+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:45.436131+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1950
+    },
+    {
+      "timestamp": "2026-05-16T01:53:45.436700+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:51.789450+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6352
+    },
+    {
+      "timestamp": "2026-05-16T01:53:51.790150+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:06.136050+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 13839
+    },
+    {
+      "timestamp": "2026-05-16T01:54:06.136655+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:06.885154+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 748
+    },
+    {
+      "timestamp": "2026-05-16T01:54:06.885745+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.560020+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 4674
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.560551+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.560687+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.561043+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.561116+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.561434+00:00",
+      "event": "node_started",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.561547+00:00",
+      "event": "node_completed",
+      "run_id": "run_5eb88a0bd9184345a718de509caf7d2a",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE 2020 primary",
+    "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+    "Elizabeth Warren more progressive than Bernie Sanders Senate voting score comparison",
+    "fact-check claim Kamala Harris more progressive voting record than Bernie Sanders"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.instagram.com/p/C9vh0JGMNdc/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.instagram.com/p/C9vh0JGMNdc/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://x.com/RemakingManhood/status/1883637277085315412",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@rbievs/post/DYXZEXyDq53/reading-comprehension",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@rbievs/post/DYXR5UlDtxW/and-you-apparently-didnt-read-what-i-posted-so-theres-that-she-is-not-as/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/C9vh0JGMNdc/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://politics.stackexchange.com/questions/56345/does-kamala-harris-vote-with-trumps-position-less-often-than-bernie-sanders",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/votemarshablackburn/videos/fact-kamala-harris-was-ranked-the-most-liberal-member-of-the-us-senate-in-2019/544201051513788/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/ABC12WJRT/posts/bernie-sanders-vs-elizabeth-warren-whos-more-progressive-and-electable/10157023329731352/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 5
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "tavily": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her re",
+      "content": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her record during the campaign was disgusting. There was no excuse for it unless you WANTED the current hellscape we're living in. There was one way to prevent this: VOTING FOR KAMALA.\n\nJust making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8776863034607927
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7999436874001064
+    },
+    {
+      "id": "src_cb20fbb40e78",
+      "title": "Kamala Harris scored as most liberal US senator in 2019 | Fox News",
+      "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+      "snippet": "President Trump and his campaign are wasting no time going after Sen. Kamala Harris after her selection as Joe Biden's VP nominee; John Roberts",
+      "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+      "published_at": "2020-08-12T00:00:00",
+      "publisher": "foxnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6315753383917846
+    },
+    {
+      "id": "src_c877fe2a3034",
+      "title": "Elizabeth Warren or Bernie Sanders: Who's more progressive?",
+      "url": "https://slate.com/news-and-politics/2019/03/elizabeth-warren-bernie-sanders-compare-contrast.html#",
+      "snippet": "The Democratic primary benefits from having both candidates in the race.",
+      "content": "Elizabeth Warren’s head start has not yet amounted to much. Nearly three months after she was the first big name to enter the 2020 Democratic race, the Massachusetts senator is being outpolled and out-raised by a number of rivals across the political spectrum. This despite her churning out one detailed progressive policy proposal after another and staking out bold stances on issues like reparations and the Electoral College. Liberals have found someone to blame for standing in Warren’s way: Bernie Sanders. “There’s no substantive reason [for Sanders] to run this time around with Warren in the field, but instead of helping his ideological twin become the first female president, he’s centering himself,” Alexis Grenell lamented in the Daily Beast last week. Writing in Vox, Matthew Yglesias stopped short of saying the independent senator from Vermont should drop out but did suggest the primary field wouldn’t be noticeably worse off if Sanders and the rest of the men running abandoned it. “Warren is obviously not identical to Bernie Sanders but offers a broadly similar leftist critique of the U.S. economy and a parallel practical promise to break somewhat with Democratic establishment personnel in executive branch appointments,” he wrote. Moira Donegan struck a similar note in the Guardian when assessing the two senators’ positions shortly after Sanders jumped in last month. “Why would Democratic voters choose Sanders when Warren is running?” she wrote. “The two are not ideologically identical, but the differences between their major policy stances, on regulation of financial services and the need to extend the welfare state, are relatively minor, especially compared to the rest of the field.” The impulse to compare rather than contrast Warren with Sanders in this way is a natural one. The two economic populists are indeed closer to each other on the ideological spectrum than they are to anyone else in the race. And as Donegan points out, the socialist-capitalist binary that is often used by Sanders fans to sort the two can feel like a post-hoc rationalization from those “seeking a politically acceptable reason to vote for a man and not for a woman—those who would vote for this man, and perhaps not any woman, no matter what.” Second-choice polling, as limited as it is, offers evidence of that: A plurality of her supporters name him as their second choice, and yet his fans are about two times less likely to select her as their fallback than they are to pick Joe Biden, a man who is synonymous with the status quo and not yet even in the race. That is truly maddening for progressives like myself who see the deck as still stacked against women and candidates of color, in the general election and the Democratic primary. And yet downplaying the ideological differences between Sanders and Warren strikes me as unfair to the former, who has clear reasons to be in the race beyond self-glorification, and unhelpful to the latter, who should be celebrated for offering the most robust and substantive policy platform of anyone running for president. There’s not just room in the 2020 Democratic field for both a blow-up-the-system democratic socialist and reform-it-from-the-inside “capitalist to the bone.” There’s a real need for both. Let’s start with Sanders. While the Democratic field has adopted many of his once-radical positions, there’s no guarantee they’ll keep them were he to depart the race. Even with him running, for example, Warren and other progressive candidates have begun to inch away from his signature Medicare for all proposal despite signing onto the idea previously. Warren, for one, still supports the effort but is also open to incremental steps that preserve some form of private insurance. Sanders, meanwhile, is uninterested in any half steps on the way to a single-payer system, a position he made clear Wednesday when he pointedly withheld his support from a symbolic effort by House Democrats to expand Obamacare. Likewise, as his ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Elizabeth Warren more progressive than Bernie Sanders Senate voting score comparison"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Elizabeth Warren more progressive than Bernie Sanders Senate voting score comparison",
+      "canonical_url": "https://slate.com/news-and-politics/2019/03/elizabeth-warren-bernie-sanders-compare-contrast.html",
+      "published_at": "2019-03-27T00:00:00",
+      "publisher": "slate.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6313090808474539
+    },
+    {
+      "id": "src_072a6fe5d1aa",
+      "title": "Fact check: Is Kamala Harris the most liberal member of the Senate?",
+      "url": "https://www.wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249/#",
+      "snippet": "After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far",
+      "content": "Fact check: Is Kamala Harris the most liberal member of the Senate? After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far left while some progressives bemoaned her as too much of a moderate. Posted — UpdatedPresident Donald Trump led the charge, telling Fox Business on Thursday that Harris was \"the most liberal person in the US Senate.\" Facts First: Harris' voting record in the Senate is certainly one of the most liberal, though her record prior to the Senate is more moderate on some issues. After six years as California's attorney general, Harris was elected to the US Senate in 2016. Since then, she has co-sponsored bills aligned with several liberal causes including expanding gun control measures and passing \"Medicare for All.\" Harris has also voted against many Trump nominees for federal judgeships and top positions inside his administration. In 2019, GovTrack, a non-partisan organization that tracks bills in Congress, ranked Harris as the \"most liberal compared to All Senators.\" One measure the organization uses is comparing how many bipartisan bills each senator cosponsors to how many bills they co-sponsored in total. Harris had the lowest at 15% in 2019. During her primary run, Harris eventually disagreed with Vermont Sen. Bernie Sanders on whether private health insurance should play a role in Medicare for All, a bill that Harris originally co-sponsored. In a January 2019 town hall, Harris was asked by CNN's Jake Tapper if she supported eliminating private insurance. The senator answered affirmatively, saying she would be OK with cutting insurers out of the mix. When Harris released her Medicare for All plan months later in July it stopped short of completely eliminating private insurance. While Trump did say \"in the US Senate,\" some who argue against the narrative laid out by Trump and others point to Harris' record as California's attorney general, which GovTrack's founder says is \"at odds\" with her time in the Senate. Harris has received criticism for some of her actions as attorney general, especially regarding criminal justice reform, which some see as contradictory to more liberal ideals. For example, during the primary, other candidates pushed her to defend policies enacted while she was AG, such as a hardline stance on marijuana, that disproportionately affected communities of color. Since becoming a senator, Harris has changed her stance on marijuana in particular. In 2019, while announcing a bill to decriminalize the possession of marijuana on a federal level Harris said, \"Times have changed -- marijuana should not be a crime.\" \"Our analysis is at odds with her documented pre-Congress career of being pragmatic or moderate,\" Josh Tauberer, GovTrack founder told the Sacramento Bee, \"and it remains to be seen which part of her career -- her actions as a district attorney and Attorney General or her policy proposals in Congress -- would be reflected greater in a Biden administration.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249",
+      "published_at": "2020-08-17T00:00:00",
+      "publisher": "wral.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6159067343935521
+    },
+    {
+      "id": "src_fad316732299",
+      "title": "Kamala Harris is extremely liberal — and the numbers prove it",
+      "url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it/#",
+      "snippet": "Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century.",
+      "content": "Kamala Harris is extremely liberal — and the numbers prove it Vice President Kamala Harris served in the Senate between 2017 and 2021, providing a legislative record that allows her to be located along the left-right continuum that dominates legislative behavior in the Congress. Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century. How do we know? For more than 40 years, political scientists have used roll call votes cast by members of Congress, combined with advanced statistical methods, to reliably plot the location of members of the House and Senate on the Liberal-Conservative/Left-Right dimension along which most legislative politics take place. (In Texas, I have conducted similar analysis of the Texas House of Representatives and Texas Senate biennially since 2011.) The Voteview project (now based at UCLA) has, since the 1980s, employed the roll-call votes cast in Congress to locate all senators and representatives on a liberal-conservative ideological map. These data and methods have been utilized by academics in thousands of peer-reviewed books, book chapters and journal articles. Although no method is perfect, there is a general consensus within the academic community that the NOMINATE methodology employed by the Voteview project and its close cousins represent the gold standard. The Voteview data can be used to study the Senate in two principal ways. The first method analyzes each two-year congressional period separately and provides a unique ideological location for every senator for each biennium, allowing for the comparison of senators who served during that Congress, but not for the comparison of senators across Congresses. The second method analyzes the congressional periods together and provides a single ideological location for a senator based on the entirety of their voting record while in that office, thereby allowing for the comparison of senators across Congresses. Harris served in the Senate representing California during two Congresses (the 115th and 116th) before resigning to assume office as vice president in 2021. In the 115th Congress (2017-2019), 48 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 48, Harris had the third-most liberal voting record, after Sen. Elizabeth Warren (Mass.) and Sen. Kirsten Gillibrand (N.Y.). In the 116th Congress (2019-2020), 45 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 45, Harris had the second-most liberal voting record after Warren. Since the turn of the century, there have been 11 complete Congresses (107th through 117th), with only five months remaining in the 118th. During this period, there were 109 different Democrats who served in the Senate and cast a sufficient number of roll call votes for a reliable analysis of their ideological position. Of these 109 Democrats, Harris has the second-most liberal voting record. This makes her slightly less liberal than Warren, but more liberal than all of the remaining 107 Democrats, and significantly more liberal than all but a handful. Included among these 109 Democrats are President Biden, former President Barack Obama and 2016 presidential nominee Hillary Clinton. The record indicates Clinton is more liberal than 74, Obama more liberal than 62 and Biden’s more liberal than 52. Biden’s voting record locates him at the ideological center of these 109 Democratic senators (two senators to the right of the median Democratic senator). Obama’s record locates him pretty close to the Democratic ideological center as well (eight senators to the left of the median Democratic senator). Clinton’s record locates her in the Democratic center-left (20 senators to the left of the median Democratic senator). In sharp contrast, Harris’s roll call record places her on the far-left ideological edge of this cohort of Democratic senators (53 senators to th",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it",
+      "published_at": "2024-08-08T00:00:00",
+      "publisher": "thehill.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6046902229092181
+    },
+    {
+      "id": "src_37871786c8f5",
+      "title": "Webpage that rated Kamala Harris the 'most liberal' senator in 2019 ...",
+      "url": "https://www.allsides.com/news/2024-07-25-1033/politics-webpage-rated-kamala-harris-most-liberal-senator-2019-suddenly#",
+      "snippet": "GovTrack, an organization that tracks congressional voting records, confirmed to Fox News Digital it had removed a 2019 web page that ranked",
+      "content": "GovTrack, an organization that tracks congressional voting records, confirmed to Fox News Digital it had removed a 2019 web page that ranked Kamala Harris as that year's \"most liberal\" U.S. senator sometime within the last two weeks. The self-described \"government transparency website\" scored Harris as the \"most liberal compared to all senators\" in 2019, outranking Sens. Bernie Sanders and Elizabeth Warren at the time. But the web page with the ranking, which was widely covered in news reports during the 2020 election, was recently deactivated. The link now displays a \"Page Not Found\" message. The Internet Archive shows the page was deleted sometime between July 10 and July 23, with some on X claiming the page was still up on July 22.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://allsides.com/news/2024-07-25-1033/politics-webpage-rated-kamala-harris-most-liberal-senator-2019-suddenly",
+      "published_at": "2024-07-25T00:00:00",
+      "publisher": "allsides.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.539805273238877
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7999436874001064
+    },
+    {
+      "id": "src_cb20fbb40e78",
+      "title": "Kamala Harris scored as most liberal US senator in 2019 | Fox News",
+      "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+      "snippet": "President Trump and his campaign are wasting no time going after Sen. Kamala Harris after her selection as Joe Biden's VP nominee; John Roberts",
+      "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+      "published_at": "2020-08-12T00:00:00",
+      "publisher": "foxnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6315753383917846
+    },
+    {
+      "id": "src_072a6fe5d1aa",
+      "title": "Fact check: Is Kamala Harris the most liberal member of the Senate?",
+      "url": "https://www.wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249/#",
+      "snippet": "After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far",
+      "content": "Fact check: Is Kamala Harris the most liberal member of the Senate? After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far left while some progressives bemoaned her as too much of a moderate. Posted — UpdatedPresident Donald Trump led the charge, telling Fox Business on Thursday that Harris was \"the most liberal person in the US Senate.\" Facts First: Harris' voting record in the Senate is certainly one of the most liberal, though her record prior to the Senate is more moderate on some issues. After six years as California's attorney general, Harris was elected to the US Senate in 2016. Since then, she has co-sponsored bills aligned with several liberal causes including expanding gun control measures and passing \"Medicare for All.\" Harris has also voted against many Trump nominees for federal judgeships and top positions inside his administration. In 2019, GovTrack, a non-partisan organization that tracks bills in Congress, ranked Harris as the \"most liberal compared to All Senators.\" One measure the organization uses is comparing how many bipartisan bills each senator cosponsors to how many bills they co-sponsored in total. Harris had the lowest at 15% in 2019. During her primary run, Harris eventually disagreed with Vermont Sen. Bernie Sanders on whether private health insurance should play a role in Medicare for All, a bill that Harris originally co-sponsored. In a January 2019 town hall, Harris was asked by CNN's Jake Tapper if she supported eliminating private insurance. The senator answered affirmatively, saying she would be OK with cutting insurers out of the mix. When Harris released her Medicare for All plan months later in July it stopped short of completely eliminating private insurance. While Trump did say \"in the US Senate,\" some who argue against the narrative laid out by Trump and others point to Harris' record as California's attorney general, which GovTrack's founder says is \"at odds\" with her time in the Senate. Harris has received criticism for some of her actions as attorney general, especially regarding criminal justice reform, which some see as contradictory to more liberal ideals. For example, during the primary, other candidates pushed her to defend policies enacted while she was AG, such as a hardline stance on marijuana, that disproportionately affected communities of color. Since becoming a senator, Harris has changed her stance on marijuana in particular. In 2019, while announcing a bill to decriminalize the possession of marijuana on a federal level Harris said, \"Times have changed -- marijuana should not be a crime.\" \"Our analysis is at odds with her documented pre-Congress career of being pragmatic or moderate,\" Josh Tauberer, GovTrack founder told the Sacramento Bee, \"and it remains to be seen which part of her career -- her actions as a district attorney and Attorney General or her policy proposals in Congress -- would be reflected greater in a Biden administration.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249",
+      "published_at": "2020-08-17T00:00:00",
+      "publisher": "wral.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6159067343935521
+    },
+    {
+      "id": "src_fad316732299",
+      "title": "Kamala Harris is extremely liberal — and the numbers prove it",
+      "url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it/#",
+      "snippet": "Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century.",
+      "content": "Kamala Harris is extremely liberal — and the numbers prove it Vice President Kamala Harris served in the Senate between 2017 and 2021, providing a legislative record that allows her to be located along the left-right continuum that dominates legislative behavior in the Congress. Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century. How do we know? For more than 40 years, political scientists have used roll call votes cast by members of Congress, combined with advanced statistical methods, to reliably plot the location of members of the House and Senate on the Liberal-Conservative/Left-Right dimension along which most legislative politics take place. (In Texas, I have conducted similar analysis of the Texas House of Representatives and Texas Senate biennially since 2011.) The Voteview project (now based at UCLA) has, since the 1980s, employed the roll-call votes cast in Congress to locate all senators and representatives on a liberal-conservative ideological map. These data and methods have been utilized by academics in thousands of peer-reviewed books, book chapters and journal articles. Although no method is perfect, there is a general consensus within the academic community that the NOMINATE methodology employed by the Voteview project and its close cousins represent the gold standard. The Voteview data can be used to study the Senate in two principal ways. The first method analyzes each two-year congressional period separately and provides a unique ideological location for every senator for each biennium, allowing for the comparison of senators who served during that Congress, but not for the comparison of senators across Congresses. The second method analyzes the congressional periods together and provides a single ideological location for a senator based on the entirety of their voting record while in that office, thereby allowing for the comparison of senators across Congresses. Harris served in the Senate representing California during two Congresses (the 115th and 116th) before resigning to assume office as vice president in 2021. In the 115th Congress (2017-2019), 48 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 48, Harris had the third-most liberal voting record, after Sen. Elizabeth Warren (Mass.) and Sen. Kirsten Gillibrand (N.Y.). In the 116th Congress (2019-2020), 45 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 45, Harris had the second-most liberal voting record after Warren. Since the turn of the century, there have been 11 complete Congresses (107th through 117th), with only five months remaining in the 118th. During this period, there were 109 different Democrats who served in the Senate and cast a sufficient number of roll call votes for a reliable analysis of their ideological position. Of these 109 Democrats, Harris has the second-most liberal voting record. This makes her slightly less liberal than Warren, but more liberal than all of the remaining 107 Democrats, and significantly more liberal than all but a handful. Included among these 109 Democrats are President Biden, former President Barack Obama and 2016 presidential nominee Hillary Clinton. The record indicates Clinton is more liberal than 74, Obama more liberal than 62 and Biden’s more liberal than 52. Biden’s voting record locates him at the ideological center of these 109 Democratic senators (two senators to the right of the median Democratic senator). Obama’s record locates him pretty close to the Democratic ideological center as well (eight senators to the left of the median Democratic senator). Clinton’s record locates her in the Democratic center-left (20 senators to the left of the median Democratic senator). In sharp contrast, Harris’s roll call record places her on the far-left ideological edge of this cohort of Democratic senators (53 senators to th",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+      "canonical_url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it",
+      "published_at": "2024-08-08T00:00:00",
+      "publisher": "thehill.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6046902229092181
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "santiagomayer.com",
+        "display_name": "Santiago Mayer",
+        "did": "did:plc:svj5xlrdsy7lyljls4kmaqmg"
+      },
+      "text": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "created_at": "2026-05-15T12:27:28.994000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her record during the campaign was disgusting. There was no excuse for it unless you WANTED the current hellscape we're living in. There was one way to prevent this: VOTING FOR KAMALA.\n\nJust making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?"
+    },
+    "explanation": [
+      {
+        "text": "The post’s main claim is that Kamala Harris had a more progressive (more liberal) Senate voting record than Bernie Sanders; this reflects the author’s interpretation of comparative ideology based on Senate records, not a neutral ranking he cites in the post itself.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post does not provide or cite a specific quantitative ranking or methodology directly comparing Harris and Sanders; it is an interpretive claim by the author.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The author argues that because he views Harris’s Senate record as highly progressive, he sees her current talk about progressive priorities as consistent with “who she’s always been,” and he criticizes people calling her hypocritical or a flip-flopper as simply not knowing her.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the author’s stated opinion about Harris’s consistency and others’ criticism; it does not verify whether she has in fact always held the same positions.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A fact-check notes that in 2019 GovTrack, a nonpartisan site that analyzes congressional behavior, ranked Harris as “the most liberal compared to all Senators,” with the ranking based partly on her relatively low rate of joining bipartisan bills, while also emphasizing that this score reflects only one aspect of her overall record.",
+        "source_ids": [
+          "src_072a6fe5d1aa"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The GovTrack metric compares patterns of bill co‑sponsorship and is described as only one dimension of ideology; it does not by itself establish that Harris was more liberal than Sanders across all issues or all years.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Coverage of GovTrack’s 2019 scores similarly reported that Harris was ranked as the “most liberal” U.S. senator that year, ahead of Bernie Sanders and Elizabeth Warren, based on how similar her bill- and resolution‑cosponsorship patterns were to those of other senators.",
+        "source_ids": [
+          "src_cb20fbb40e78"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These reports describe one specific year and one methodological approach; they do not show that Harris was consistently more liberal than Sanders over her entire Senate tenure.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Political science analysis using Voteview’s roll‑call vote data places Harris near the far-left edge of Democratic senators in the 21st century, finding that in the 115th Congress she had the third-most liberal Democratic voting record and in the 116th Congress the second-most liberal, slightly less liberal than Elizabeth Warren but more liberal than all other analyzed Democratic senators across that period.",
+        "source_ids": [
+          "src_fad316732299"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The analysis compares Harris to other Democratic senators as a group; it implies but does not explicitly enumerate her exact relative position versus Bernie Sanders across both Congresses combined.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @santiagomayer.com",
+        "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+        "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "santiagomayer.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_cb20fbb40e78",
+        "title": "Kamala Harris scored as most liberal US senator in 2019 | Fox News",
+        "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+        "snippet": "President Trump and his campaign are wasting no time going after Sen. Kamala Harris after her selection as Joe Biden's VP nominee; John Roberts",
+        "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+        "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+        "published_at": "2020-08-12T00:00:00",
+        "publisher": "foxnews.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_072a6fe5d1aa",
+        "title": "Fact check: Is Kamala Harris the most liberal member of the Senate?",
+        "url": "https://www.wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249/#",
+        "snippet": "After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far",
+        "content": "Fact check: Is Kamala Harris the most liberal member of the Senate? After former Vice President Joe Biden announced California Sen. Kamala Harris as his running mate, critics were quick to label her as far left while some progressives bemoaned her as too much of a moderate. Posted — UpdatedPresident Donald Trump led the charge, telling Fox Business on Thursday that Harris was \"the most liberal person in the US Senate.\" Facts First: Harris' voting record in the Senate is certainly one of the most liberal, though her record prior to the Senate is more moderate on some issues. After six years as California's attorney general, Harris was elected to the US Senate in 2016. Since then, she has co-sponsored bills aligned with several liberal causes including expanding gun control measures and passing \"Medicare for All.\" Harris has also voted against many Trump nominees for federal judgeships and top positions inside his administration. In 2019, GovTrack, a non-partisan organization that tracks bills in Congress, ranked Harris as the \"most liberal compared to All Senators.\" One measure the organization uses is comparing how many bipartisan bills each senator cosponsors to how many bills they co-sponsored in total. Harris had the lowest at 15% in 2019. During her primary run, Harris eventually disagreed with Vermont Sen. Bernie Sanders on whether private health insurance should play a role in Medicare for All, a bill that Harris originally co-sponsored. In a January 2019 town hall, Harris was asked by CNN's Jake Tapper if she supported eliminating private insurance. The senator answered affirmatively, saying she would be OK with cutting insurers out of the mix. When Harris released her Medicare for All plan months later in July it stopped short of completely eliminating private insurance. While Trump did say \"in the US Senate,\" some who argue against the narrative laid out by Trump and others point to Harris' record as California's attorney general, which GovTrack's founder says is \"at odds\" with her time in the Senate. Harris has received criticism for some of her actions as attorney general, especially regarding criminal justice reform, which some see as contradictory to more liberal ideals. For example, during the primary, other candidates pushed her to defend policies enacted while she was AG, such as a hardline stance on marijuana, that disproportionately affected communities of color. Since becoming a senator, Harris has changed her stance on marijuana in particular. In 2019, while announcing a bill to decriminalize the possession of marijuana on a federal level Harris said, \"Times have changed -- marijuana should not be a crime.\" \"Our analysis is at odds with her documented pre-Congress career of being pragmatic or moderate,\" Josh Tauberer, GovTrack founder told the Sacramento Bee, \"and it remains to be seen which part of her career -- her actions as a district attorney and Attorney General or her policy proposals in Congress -- would be reflected greater in a Biden administration.\"",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+        "canonical_url": "https://wral.com/fact-check-is-kamala-harris-the-most-liberal-member-of-the-senate/19240249",
+        "published_at": "2020-08-17T00:00:00",
+        "publisher": "wral.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_fad316732299",
+        "title": "Kamala Harris is extremely liberal — and the numbers prove it",
+        "url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it/#",
+        "snippet": "Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century.",
+        "content": "Kamala Harris is extremely liberal — and the numbers prove it Vice President Kamala Harris served in the Senate between 2017 and 2021, providing a legislative record that allows her to be located along the left-right continuum that dominates legislative behavior in the Congress. Based on her roll call voting record, Harris is the second-most liberal Democratic senator to serve in the Senate in the 21st century. How do we know? For more than 40 years, political scientists have used roll call votes cast by members of Congress, combined with advanced statistical methods, to reliably plot the location of members of the House and Senate on the Liberal-Conservative/Left-Right dimension along which most legislative politics take place. (In Texas, I have conducted similar analysis of the Texas House of Representatives and Texas Senate biennially since 2011.) The Voteview project (now based at UCLA) has, since the 1980s, employed the roll-call votes cast in Congress to locate all senators and representatives on a liberal-conservative ideological map. These data and methods have been utilized by academics in thousands of peer-reviewed books, book chapters and journal articles. Although no method is perfect, there is a general consensus within the academic community that the NOMINATE methodology employed by the Voteview project and its close cousins represent the gold standard. The Voteview data can be used to study the Senate in two principal ways. The first method analyzes each two-year congressional period separately and provides a unique ideological location for every senator for each biennium, allowing for the comparison of senators who served during that Congress, but not for the comparison of senators across Congresses. The second method analyzes the congressional periods together and provides a single ideological location for a senator based on the entirety of their voting record while in that office, thereby allowing for the comparison of senators across Congresses. Harris served in the Senate representing California during two Congresses (the 115th and 116th) before resigning to assume office as vice president in 2021. In the 115th Congress (2017-2019), 48 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 48, Harris had the third-most liberal voting record, after Sen. Elizabeth Warren (Mass.) and Sen. Kirsten Gillibrand (N.Y.). In the 116th Congress (2019-2020), 45 Democrats served in the Senate and cast a sufficient number of votes for reliable analysis. Of those 45, Harris had the second-most liberal voting record after Warren. Since the turn of the century, there have been 11 complete Congresses (107th through 117th), with only five months remaining in the 118th. During this period, there were 109 different Democrats who served in the Senate and cast a sufficient number of roll call votes for a reliable analysis of their ideological position. Of these 109 Democrats, Harris has the second-most liberal voting record. This makes her slightly less liberal than Warren, but more liberal than all of the remaining 107 Democrats, and significantly more liberal than all but a handful. Included among these 109 Democrats are President Biden, former President Barack Obama and 2016 presidential nominee Hillary Clinton. The record indicates Clinton is more liberal than 74, Obama more liberal than 62 and Biden’s more liberal than 52. Biden’s voting record locates him at the ideological center of these 109 Democratic senators (two senators to the right of the median Democratic senator). Obama’s record locates him pretty close to the Democratic ideological center as well (eight senators to the left of the median Democratic senator). Clinton’s record locates her in the Democratic center-left (20 senators to the left of the median Democratic senator). In sharp contrast, Harris’s roll call record places her on the far-left ideological edge of this cohort of Democratic senators (53 senators to th",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Senate ideological rankings Kamala Harris most liberal senator 2019 2020"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Senate ideological rankings Kamala Harris most liberal senator 2019 2020",
+        "canonical_url": "https://thehill.com/opinion/campaign/4816859-kamala-harris-is-extremely-liberal-and-the-numbers-prove-it",
+        "published_at": "2024-08-08T00:00:00",
+        "publisher": "thehill.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 29304
+  }
+}

@@ -1,0 +1,889 @@
+{
+  "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:50:19.735680+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:49:50.006158+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:50.006244+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:49:50.006594+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:50.006692+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:49:50.007013+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:51.716269+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1709
+    },
+    {
+      "timestamp": "2026-05-16T01:49:51.716772+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:51.716847+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:49:51.717240+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:53.384705+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1667
+    },
+    {
+      "timestamp": "2026-05-16T01:49:53.385320+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:49:59.806416+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6421
+    },
+    {
+      "timestamp": "2026-05-16T01:49:59.807000+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:12.564147+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 12757
+    },
+    {
+      "timestamp": "2026-05-16T01:50:12.564942+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:13.476035+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 911
+    },
+    {
+      "timestamp": "2026-05-16T01:50:13.476566+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.691621+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5673
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.692224+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.692371+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.692756+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.692818+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.693103+00:00",
+      "event": "node_started",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:19.693203+00:00",
+      "event": "node_completed",
+      "run_id": "run_d6df30c4b5944612a56a416de87b4501",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+    "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+    "media coverage of Kristi Noem disappearance from headlines mainstream press",
+    "Rachel Maddow blog post \"it took a while but Kristi Noem has finally left her waterfront Coast Guard home\""
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.yahoo.com/news/articles/took-while-kristi-noem-finally-193423900.html",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home"
+      },
+      {
+        "id": "https://www.msn.com/en-gb/news/world/noem-finally-leaves-waterfront-coast-guard-home-that-4-star-admiral-got-3-hours-to-vacate-report/ar-AA232gqz",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.msn.com/en-us/news/us/noem-finally-leaves-waterfront-coast-guard-home-that-4-star-admiral-got-3-hours-to-vacate-report/ar-AA231C9S?ocid=sports-league-landing&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.msn.com/en-us/money/realestate/kristi-noem-has-continued-using-a-waterfront-coast-guard-house-since-ouster/ar-AA21AdN7?cvid=69ebb9dd55d84779be68d4d1ef1190ab&ocid=startwidget&apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DWrIanCkirj/?hl=en",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.fox26houston.com/video/fmc-qxu9rwk2ntt3mzkw",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DVrNu1SjoGA/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_5b994f4991fe",
+        "title": "Kristi Noem’s husband is said to be into 'bimboification' — what is it?",
+        "url": "https://nypost.com/2026/03/31/lifestyle/kristi-noems-husband-is-said-to-be-into-bimboification-what-is-it/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_37e5830c9fa8",
+        "title": "New details on what led to Noem's ouster as DHS secretary - YouTube",
+        "url": "https://www.youtube.com/watch?v=cibIWgiAomg#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+      "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9070200821171066
+    },
+    {
+      "id": "src_bc59c3e2ec6f",
+      "title": "It took a while, but Kristi Noem has finally left her waterfront Coast Guard home",
+      "url": "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home#",
+      "snippet": "## It took a while, but Kristi Noem has finally left her waterfront Coast Guard home. The former homeland security secretary sparked a controversy by staying in a house previously designated for a Coast Guard commandant. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. It took a while, but “The Rachel Maddow Show” confirmed that Noem finally has exited Coast Guard housing, clearing the way for the current Coast Guard commandant, Adm. Kevin Lunday, to move in. Steve Benen is a producer for \"The Rachel Maddow Show,\" the editor of MaddowBlog and an MS NOW political contributor.",
+      "content": "On the first full day of Donald Trump’s second term, the president fired Adm. Linda Fagan, the commandant of the U.S. Coast Guard, evicting her from her home with three hours’ notice. The fact that Fagan was a four-star admiral and the first woman to lead a branch of the military apparently meant very little to the Republican White House. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. This was more common than it should have been. In fact, a variety of prominent Trump administration officials, including high-profile Cabinet secretaries, such as Secretary of State Marco Rubio and Defense Secretary Pete Hegseth, have moved into homes usually reserved for high-ranking officers. The New York Times reported in March, “The practice of moving public servants onto guarded military bases has no modern precedent. It raises some unsettling questions about the increase in violence against public figures, about the overall health of American democracy and, perhaps most obviously, about who is paying for this.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+      "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "ms.now",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6814776297334336
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "www.ms.now/rachel-maddo...",
+      "content": "www.ms.now/rachel-maddo...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5542153919381521
+    },
+    {
+      "id": "src_55e0eedf52a7",
+      "title": "Kristi Noem's hometown pals in disbelief over husband's ...",
+      "url": "https://www.aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html#",
+      "snippet": "Former First Gentleman of South Dakota Bryon Noem, husband of Sec. Kristi Noem, is seen wearing fake breasts in photos obtained by the Daily",
+      "content": "Longtime friends and neighbors of Bryon and Kristi Noem said they were shocked and heartbroken that his private life became tabloid fodder, with some flat-out refusing to believe the mild-mannered insurance salesman was leading a double life. “I grew up playing ball with Bryon,” Kevin Ruesink in the small town of Castlewood, South Dakota — with a population of just 627 — told the New York Times. “I’ve never known him to be part of stuff like that. I don’t believe that at all.” He surmised that the salacious images published Tuesday by the Daily Mail that showed Noem wearing inflated balloons as cartoonishly oversized fake breasts “must have been AI.” While the pictures, which Noem reportedly shared with fetish models, prompted laughter or jokes from many, the prevailing attitude in the couple’s hometown was decidedly muted and more compassionate in nature. “I am sorry that Bryon is now the subject of so much attention himself, and for any embarrassment he’s experiencing,” Nancy Turbak said about the publicity Noem’s behind-closed-doors sexual predilections invited. Advertisement “He never asked for the public life in the first place, and I know him to be a kind and decent man. I wish he were not going through this,” said Turbak, a former Democratic state senator who now runs a law office out of a former post office in Watertown. The sympathy wasn’t across the board, however, with some locals telling the outlet the ousted DHS secretary brought the humiliation upon herself through her high-profile job with the Trump administration. “People know Bryon as the supportive husband who worked to maintain a normal family life as Kristi’s profile skyrocketed,” said real estate appraiser Brad Johnson, who also writes a local newspaper column. “It shows the price of power and fame is very high. But Kristi invited this type of coverage by her actions at the Department of Homeland Security.” An unidentified man at a gas station just outside Castlewood saw the reporting about Bryon Noem’s double life and shook his head in disbelief. “Such a nice man,” he told the outlet. “It just tears me up.” Kristi Noem told The Post through a statement that she was “devastated” by the revelation, and that her family was “blindsided.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+      "canonical_url": "https://aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html",
+      "published_at": "2026-04-01T00:00:00",
+      "publisher": "aol.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5505149141406637
+    },
+    {
+      "id": "src_efb2f3c67f1d",
+      "title": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing ...",
+      "url": "https://www.them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos#",
+      "snippet": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing Fetish in Leaked Messages and Photos. Bryon Noem allegedly dressed in a makeshift breast",
+      "content": "Bryon Noem, husband of former Department of Homeland Security Secretary Kristi Noem, has allegedly been cross-dressing and messaging sex workers who specialize in “bimbofication” to turn him “into a girl,” according to a report published in The Daily Mail. Yes, you’re reading that correctly. In hundreds of messages reviewed by the Daily Mail, the 56-year-old is allegedly shown messaging sex workers who specialize in “bimbofication,” or a type of roleplay fetish that involves being turned into a stereotypical bimbo or Barbie dolls in some cases. According to the publication, Bryon Noem messaged three sex workers that he enjoyed their “huge, huge ridiculous boobs,” and sent over $25,000 to them. In one of the photos included in the report, he appears to be wearing a large, makeshift breast plate made of balloons under a peach crop top and tight pink shorts. Another appears to show South Dakota’s former “First Gentleman” pouting in a selfie wearing green tight pants and another balloon-stuffed crop top. In one message, Bryon Noem told a sex worker, “You turn me into a girl” and then asked, “Should I put on leggings?” X content Obviously, we're not here to condemn cross-dressing at Them, or anyone exploring their gender presentation. However, we would be remiss to not point out the irony of the report, given Kristi Noem’s long history of opposing queer and trans rights. Cross-dressing is not inherently considered queer or trans, as exploring your gender presentation ultimately has no gender. But, the report does come after years of Kristi Noem attacking anyone playing with their gender, presentation or otherwise. The former Governor of South Dakota signed a “Religious Freedom Restoration Act” that allowed people to discriminate against LGBTQ+ people in her home state under the guise of religious freedom, banned trans girls from participating in women’s sports, and banned gender-affirming care for trans youth, just to name a few of her anti-LGBTQ+ policy points. Not to mention her leadership of Immigrations and Customs Enforcement (ICE) to conduct mass deportations and what advocates have called “state-sponsored kidnapping,” including that of vulnerable LGBTQ+ migrants such as Andry Hernández Romero, a gay Venezuelan asylum seeker who was sent to Centro de Confinamiento del Terrorismo, or CECOT, a notorious prison in El Salvador. Everyone, including Bryon Noem, should be free to explore their gender. But if Kristi Noem got the world that she actively is fighting for, no one would ever get to do that, including cisgender people with bimbofication fetishes. Outlets have reported that Kristi Noem is aware of the report and — perhaps shocking to no one who is aware of her track record — she is not taking it well. “Ms. Noem is devastated,” a spokesperson for Kristi Noem told The New York Post. “The family was blindsided by this, and they ask for privacy and prayers at the time.” The report about Bryon Noem’s alleged fetish comes just weeks after Kristi Noem was fired by President Donald Trump from her position as head of the DHS. Trump later replaced her with Republican Sen. Markwayne Mullin of Oklahoma. Get the best of what’s queer. Sign up for Them’s weekly newsletter here.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+      "canonical_url": "https://them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos",
+      "published_at": "2026-03-31T00:00:00",
+      "publisher": "them.us",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5298719925566948
+    },
+    {
+      "id": "src_defd13a434a5",
+      "title": "New Coast Guard allegations add to Kristi Noem's growing list of ...",
+      "url": "https://www.ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles#",
+      "snippet": "According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it",
+      "content": "Homeland Security Secretary Kristi Noem is not in a strong position. Recent polling found that nearly 60% of the public believes the South Dakota Republican should be removed from her job, a bipartisan group of lawmakers have called for her ouster and the number of House Democrats backing an impeachment resolution against her is up to 187. Noem’s troubles, however, continue to mount. Last week, for example, The Wall Street Journal published a deeply unflattering report on behind-the-scenes details surrounding Noem’s work, highlighting the “constant chaos” that exists in the department she’s struggling to lead. The Journal’s report, which has not been independently verified by MS NOW, noted that within the Department of Homeland Security, Noem and her top adviser, Corey Lewandowski, “frequently berate senior level staff, give polygraph tests to employees they don’t trust and have fired employees — in one incident, Lewandowski fired a U.S. Coast Guard pilot after Noem’s blanket was left behind on a plane, according to people familiar with the incident.” With this in mind, the Cabinet secretary clearly didn’t need another damaging report, but she confronted one anyway this week when NBC News, citing four sources, reported on Noem’s increasingly strained relationship with U.S. Coast Guard officials. (The Coast Guard falls under DHS, not the Pentagon.) According to the report, which also has not been independently verified by MS NOW, the relationship between the DHS secretary and Coast Guard reached new depths following a “verbal directive” to shift Coast Guard resources from a search-and-rescue mission to find a missing service member. From the NBC News report: The tension between some Coast Guard officials and Noem began after a 23-year-old Coast Guardsman went overboard into the Pacific Ocean from the cutter Waesche on Feb. 4 last year, shortly after the Senate confirmed Noem into her role, according to the two U.S. officials, the Coast Guard official and the former Coast Guard official. The Coast Guard had surged ships and aircraft to the Pacific to find the guardsman. Hours into the search, Noem learned that a Coast Guard C-130 that was supposed to fly detained migrants from California to Texas was among the aircraft over the Pacific looking for the missing guardsman, and she intervened, according to the two U.S. officials and the Coast Guard official. According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it could instead help with the deportation of immigrants. Adm. Kevin Lunday complied and notified the National Command Center, which ordered the C-130 to fly to San Diego while other aircraft and ships involved in the search continued.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+      "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles",
+      "published_at": "2026-02-18T00:00:00",
+      "publisher": "ms.now",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.49318746077010245
+    },
+    {
+      "id": "src_0ea039da770e",
+      "title": "Kristi Noem DEFENDS living in COAST GUARD housing - YouTube",
+      "url": "https://www.youtube.com/shorts/inZVYNiiZrc#",
+      "snippet": "DHS Secretary Kristi Noem said Wednesday that she is not living in the house of the U.S. Coast Guard commandant, contradicting prior reports",
+      "content": "Kristi Noem DEFENDS living in COAST GUARD housing - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+      "canonical_url": "https://youtube.com/shorts/inZVYNiiZrc",
+      "published_at": "2026-03-04T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4647001271337478
+    },
+    {
+      "id": "src_ec9297c8bc97",
+      "title": "Kristi Noem responds to her husband's scandal | FOX 11 LA",
+      "url": "https://www.youtube.com/watch?v=v-d-nqaIcs4#",
+      "snippet": "Leaked photos shared across social media and media outlets showed Kristi Noem's husband Bryon Noem wearing fake breasts and a pair of pink",
+      "content": "Kristi Noem responds to her husband's scandal | FOX 11 LA - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+      "canonical_url": "https://youtube.com/watch?v=v-d-nqaIcs4",
+      "published_at": "2026-04-01T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4585828064794532
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+      "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9070200821171066
+    },
+    {
+      "id": "src_bc59c3e2ec6f",
+      "title": "It took a while, but Kristi Noem has finally left her waterfront Coast Guard home",
+      "url": "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home#",
+      "snippet": "## It took a while, but Kristi Noem has finally left her waterfront Coast Guard home. The former homeland security secretary sparked a controversy by staying in a house previously designated for a Coast Guard commandant. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. It took a while, but “The Rachel Maddow Show” confirmed that Noem finally has exited Coast Guard housing, clearing the way for the current Coast Guard commandant, Adm. Kevin Lunday, to move in. Steve Benen is a producer for \"The Rachel Maddow Show,\" the editor of MaddowBlog and an MS NOW political contributor.",
+      "content": "On the first full day of Donald Trump’s second term, the president fired Adm. Linda Fagan, the commandant of the U.S. Coast Guard, evicting her from her home with three hours’ notice. The fact that Fagan was a four-star admiral and the first woman to lead a branch of the military apparently meant very little to the Republican White House. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. This was more common than it should have been. In fact, a variety of prominent Trump administration officials, including high-profile Cabinet secretaries, such as Secretary of State Marco Rubio and Defense Secretary Pete Hegseth, have moved into homes usually reserved for high-ranking officers. The New York Times reported in March, “The practice of moving public servants onto guarded military bases has no modern precedent. It raises some unsettling questions about the increase in violence against public figures, about the overall health of American democracy and, perhaps most obviously, about who is paying for this.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+      "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "ms.now",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6814776297334336
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @maddow.bsky.social",
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "snippet": "www.ms.now/rachel-maddo...",
+      "content": "www.ms.now/rachel-maddo...",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "maddow.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5542153919381521
+    },
+    {
+      "id": "src_55e0eedf52a7",
+      "title": "Kristi Noem's hometown pals in disbelief over husband's ...",
+      "url": "https://www.aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html#",
+      "snippet": "Former First Gentleman of South Dakota Bryon Noem, husband of Sec. Kristi Noem, is seen wearing fake breasts in photos obtained by the Daily",
+      "content": "Longtime friends and neighbors of Bryon and Kristi Noem said they were shocked and heartbroken that his private life became tabloid fodder, with some flat-out refusing to believe the mild-mannered insurance salesman was leading a double life. “I grew up playing ball with Bryon,” Kevin Ruesink in the small town of Castlewood, South Dakota — with a population of just 627 — told the New York Times. “I’ve never known him to be part of stuff like that. I don’t believe that at all.” He surmised that the salacious images published Tuesday by the Daily Mail that showed Noem wearing inflated balloons as cartoonishly oversized fake breasts “must have been AI.” While the pictures, which Noem reportedly shared with fetish models, prompted laughter or jokes from many, the prevailing attitude in the couple’s hometown was decidedly muted and more compassionate in nature. “I am sorry that Bryon is now the subject of so much attention himself, and for any embarrassment he’s experiencing,” Nancy Turbak said about the publicity Noem’s behind-closed-doors sexual predilections invited. Advertisement “He never asked for the public life in the first place, and I know him to be a kind and decent man. I wish he were not going through this,” said Turbak, a former Democratic state senator who now runs a law office out of a former post office in Watertown. The sympathy wasn’t across the board, however, with some locals telling the outlet the ousted DHS secretary brought the humiliation upon herself through her high-profile job with the Trump administration. “People know Bryon as the supportive husband who worked to maintain a normal family life as Kristi’s profile skyrocketed,” said real estate appraiser Brad Johnson, who also writes a local newspaper column. “It shows the price of power and fame is very high. But Kristi invited this type of coverage by her actions at the Department of Homeland Security.” An unidentified man at a gas station just outside Castlewood saw the reporting about Bryon Noem’s double life and shook his head in disbelief. “Such a nice man,” he told the outlet. “It just tears me up.” Kristi Noem told The Post through a statement that she was “devastated” by the revelation, and that her family was “blindsided.”",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+      "canonical_url": "https://aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html",
+      "published_at": "2026-04-01T00:00:00",
+      "publisher": "aol.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5505149141406637
+    },
+    {
+      "id": "src_efb2f3c67f1d",
+      "title": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing ...",
+      "url": "https://www.them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos#",
+      "snippet": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing Fetish in Leaked Messages and Photos. Bryon Noem allegedly dressed in a makeshift breast",
+      "content": "Bryon Noem, husband of former Department of Homeland Security Secretary Kristi Noem, has allegedly been cross-dressing and messaging sex workers who specialize in “bimbofication” to turn him “into a girl,” according to a report published in The Daily Mail. Yes, you’re reading that correctly. In hundreds of messages reviewed by the Daily Mail, the 56-year-old is allegedly shown messaging sex workers who specialize in “bimbofication,” or a type of roleplay fetish that involves being turned into a stereotypical bimbo or Barbie dolls in some cases. According to the publication, Bryon Noem messaged three sex workers that he enjoyed their “huge, huge ridiculous boobs,” and sent over $25,000 to them. In one of the photos included in the report, he appears to be wearing a large, makeshift breast plate made of balloons under a peach crop top and tight pink shorts. Another appears to show South Dakota’s former “First Gentleman” pouting in a selfie wearing green tight pants and another balloon-stuffed crop top. In one message, Bryon Noem told a sex worker, “You turn me into a girl” and then asked, “Should I put on leggings?” X content Obviously, we're not here to condemn cross-dressing at Them, or anyone exploring their gender presentation. However, we would be remiss to not point out the irony of the report, given Kristi Noem’s long history of opposing queer and trans rights. Cross-dressing is not inherently considered queer or trans, as exploring your gender presentation ultimately has no gender. But, the report does come after years of Kristi Noem attacking anyone playing with their gender, presentation or otherwise. The former Governor of South Dakota signed a “Religious Freedom Restoration Act” that allowed people to discriminate against LGBTQ+ people in her home state under the guise of religious freedom, banned trans girls from participating in women’s sports, and banned gender-affirming care for trans youth, just to name a few of her anti-LGBTQ+ policy points. Not to mention her leadership of Immigrations and Customs Enforcement (ICE) to conduct mass deportations and what advocates have called “state-sponsored kidnapping,” including that of vulnerable LGBTQ+ migrants such as Andry Hernández Romero, a gay Venezuelan asylum seeker who was sent to Centro de Confinamiento del Terrorismo, or CECOT, a notorious prison in El Salvador. Everyone, including Bryon Noem, should be free to explore their gender. But if Kristi Noem got the world that she actively is fighting for, no one would ever get to do that, including cisgender people with bimbofication fetishes. Outlets have reported that Kristi Noem is aware of the report and — perhaps shocking to no one who is aware of her track record — she is not taking it well. “Ms. Noem is devastated,” a spokesperson for Kristi Noem told The New York Post. “The family was blindsided by this, and they ask for privacy and prayers at the time.” The report about Bryon Noem’s alleged fetish comes just weeks after Kristi Noem was fired by President Donald Trump from her position as head of the DHS. Trump later replaced her with Republican Sen. Markwayne Mullin of Oklahoma. Get the best of what’s queer. Sign up for Them’s weekly newsletter here.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+      "canonical_url": "https://them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos",
+      "published_at": "2026-03-31T00:00:00",
+      "publisher": "them.us",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5298719925566948
+    },
+    {
+      "id": "src_defd13a434a5",
+      "title": "New Coast Guard allegations add to Kristi Noem's growing list of ...",
+      "url": "https://www.ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles#",
+      "snippet": "According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it",
+      "content": "Homeland Security Secretary Kristi Noem is not in a strong position. Recent polling found that nearly 60% of the public believes the South Dakota Republican should be removed from her job, a bipartisan group of lawmakers have called for her ouster and the number of House Democrats backing an impeachment resolution against her is up to 187. Noem’s troubles, however, continue to mount. Last week, for example, The Wall Street Journal published a deeply unflattering report on behind-the-scenes details surrounding Noem’s work, highlighting the “constant chaos” that exists in the department she’s struggling to lead. The Journal’s report, which has not been independently verified by MS NOW, noted that within the Department of Homeland Security, Noem and her top adviser, Corey Lewandowski, “frequently berate senior level staff, give polygraph tests to employees they don’t trust and have fired employees — in one incident, Lewandowski fired a U.S. Coast Guard pilot after Noem’s blanket was left behind on a plane, according to people familiar with the incident.” With this in mind, the Cabinet secretary clearly didn’t need another damaging report, but she confronted one anyway this week when NBC News, citing four sources, reported on Noem’s increasingly strained relationship with U.S. Coast Guard officials. (The Coast Guard falls under DHS, not the Pentagon.) According to the report, which also has not been independently verified by MS NOW, the relationship between the DHS secretary and Coast Guard reached new depths following a “verbal directive” to shift Coast Guard resources from a search-and-rescue mission to find a missing service member. From the NBC News report: The tension between some Coast Guard officials and Noem began after a 23-year-old Coast Guardsman went overboard into the Pacific Ocean from the cutter Waesche on Feb. 4 last year, shortly after the Senate confirmed Noem into her role, according to the two U.S. officials, the Coast Guard official and the former Coast Guard official. The Coast Guard had surged ships and aircraft to the Pacific to find the guardsman. Hours into the search, Noem learned that a Coast Guard C-130 that was supposed to fly detained migrants from California to Texas was among the aircraft over the Pacific looking for the missing guardsman, and she intervened, according to the two U.S. officials and the Coast Guard official. According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it could instead help with the deportation of immigrants. Adm. Kevin Lunday complied and notified the National Command Center, which ordered the C-130 to fly to San Diego while other aircraft and ships involved in the search continued.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+      "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles",
+      "published_at": "2026-02-18T00:00:00",
+      "publisher": "ms.now",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.49318746077010245
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "Some claims referenced in the social thread (e.g., exact motives, slang insults, and specific dollar amounts framed as ‘sending thousands to friends’) are opinion or loosely grounded in media allegations; only the parts directly supported by the cited sources are included or treated as allegations.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+      "platform": "bluesky",
+      "author": {
+        "handle": "maddow.bsky.social",
+        "display_name": "Rachel Maddow",
+        "did": "did:plc:bono5gae7m6r3qpfxomshwbd"
+      },
+      "text": "www.ms.now/rachel-maddo...",
+      "created_at": "2026-05-15T18:34:49.109000Z",
+      "images": [],
+      "links": [
+        "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\"."
+    },
+    "explanation": [
+      {
+        "text": "The original Bluesky post by @maddow.bsky.social is essentially just a shortened URL pointing to a MaddowBlog/MS Now article about Kristi Noem’s use of a waterfront Coast Guard home, while the surrounding thread text (from another user) adds sarcastic, critical commentary about Noem and her husband that is not part of Maddow’s own post.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The criticisms and insults in the thread context come from a commenter, not from Rachel Maddow’s linked post or from the cited news articles.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The linked MaddowBlog/MS Now article explains that Kristi Noem, serving as Homeland Security Secretary in Trump’s second term, moved into a waterfront residence that had been designated for the U.S. Coast Guard commandant after Adm. Linda Fagan was abruptly fired and evicted from the home with only a few hours’ notice.",
+        "source_ids": [
+          "src_bc59c3e2ec6f"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Details are drawn from MaddowBlog’s reporting; the article itself references prior reporting (e.g., New York Times) that is not separately provided here.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The MaddowBlog piece frames Noem’s occupancy of the Coast Guard commandant’s housing as part of a broader Trump‑era pattern in which senior civilian officials, including Cabinet secretaries, moved into residences on guarded military bases that are normally reserved for high‑ranking officers, a practice described by the New York Times as having “no modern precedent” and raising questions about who is paying for it.",
+        "source_ids": [
+          "src_bc59c3e2ec6f"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The description of the practice and its characterization as unprecedented originate from New York Times reporting as summarized in the MaddowBlog article.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A separate MaddowBlog/MS Now article details additional controversies surrounding Kristi Noem’s leadership at the Department of Homeland Security, including reporting (attributed to NBC News) that she allegedly gave a verbal directive to pull a Coast Guard C‑130 aircraft off an ongoing search‑and‑rescue operation for a missing Coast Guardsman so it could instead be used to transport detained migrants for deportation.",
+        "source_ids": [
+          "src_defd13a434a5"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "MS Now notes that these specific allegations have not been independently verified by them and are based on NBC News’ sourcing.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Separate reporting cited in the provided sources alleges that Kristi Noem’s husband, Bryon Noem, engaged in online interactions with sex workers involving a “bimbofication” fetish, including sending more than $25,000 and sharing photos of himself wearing balloon‑based fake breasts; these allegations, originating in Daily Mail reporting and summarized by Them.us and AOL, have prompted mixed reactions among acquaintances in their South Dakota community and public embarrassment for the family.",
+        "source_ids": [
+          "src_efb2f3c67f1d",
+          "src_55e0eedf52a7"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are allegations reported by media outlets (citing leaked messages and photos) and community reactions; no court findings or official investigative documents are provided in the sources.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @maddow.bsky.social",
+        "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+        "snippet": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who contro",
+        "content": "Give her a cardboard box under a loading dock to live in\n\nThese GOP squatters are the worst for entitlement.\nShamelessly living off the American taxpayer.\n\nIt's as though she thought getting a Mar-a-loco face entitled her to anything she wanted.\n\nCount the silverware.\n\nYou can really tell who controls msm by how quick Noem disappeared from headlines. Especially considering her husband was hanging out online with balloon boobs and sending thou$ands to his \"friends\".",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "maddow.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_bc59c3e2ec6f",
+        "title": "It took a while, but Kristi Noem has finally left her waterfront Coast Guard home",
+        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home#",
+        "snippet": "## It took a while, but Kristi Noem has finally left her waterfront Coast Guard home. The former homeland security secretary sparked a controversy by staying in a house previously designated for a Coast Guard commandant. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. It took a while, but “The Rachel Maddow Show” confirmed that Noem finally has exited Coast Guard housing, clearing the way for the current Coast Guard commandant, Adm. Kevin Lunday, to move in. Steve Benen is a producer for \"The Rachel Maddow Show,\" the editor of MaddowBlog and an MS NOW political contributor.",
+        "content": "On the first full day of Donald Trump’s second term, the president fired Adm. Linda Fagan, the commandant of the U.S. Coast Guard, evicting her from her home with three hours’ notice. The fact that Fagan was a four-star admiral and the first woman to lead a branch of the military apparently meant very little to the Republican White House. The developments were important on their own, but what followed was an unexpected controversy about who moved into Fagan’s waterfront Coast Guard home after her ouster: Then-Homeland Security Secretary Kristi Noem filled the vacancy in the house previously designated for the Coast Guard commandant. This was more common than it should have been. In fact, a variety of prominent Trump administration officials, including high-profile Cabinet secretaries, such as Secretary of State Marco Rubio and Defense Secretary Pete Hegseth, have moved into homes usually reserved for high-ranking officers. The New York Times reported in March, “The practice of moving public servants onto guarded military bases has no modern precedent. It raises some unsettling questions about the increase in violence against public figures, about the overall health of American democracy and, perhaps most obviously, about who is paying for this.”",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+        "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/it-took-a-while-but-kristi-noem-has-finally-left-her-waterfront-coast-guard-home",
+        "published_at": "2026-05-12T00:00:00",
+        "publisher": "ms.now",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @maddow.bsky.social",
+        "url": "https://bsky.app/profile/maddow.bsky.social/post/3mlvxvwankc2p",
+        "snippet": "www.ms.now/rachel-maddo...",
+        "content": "www.ms.now/rachel-maddo...",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "maddow.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_55e0eedf52a7",
+        "title": "Kristi Noem's hometown pals in disbelief over husband's ...",
+        "url": "https://www.aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html#",
+        "snippet": "Former First Gentleman of South Dakota Bryon Noem, husband of Sec. Kristi Noem, is seen wearing fake breasts in photos obtained by the Daily",
+        "content": "Longtime friends and neighbors of Bryon and Kristi Noem said they were shocked and heartbroken that his private life became tabloid fodder, with some flat-out refusing to believe the mild-mannered insurance salesman was leading a double life. “I grew up playing ball with Bryon,” Kevin Ruesink in the small town of Castlewood, South Dakota — with a population of just 627 — told the New York Times. “I’ve never known him to be part of stuff like that. I don’t believe that at all.” He surmised that the salacious images published Tuesday by the Daily Mail that showed Noem wearing inflated balloons as cartoonishly oversized fake breasts “must have been AI.” While the pictures, which Noem reportedly shared with fetish models, prompted laughter or jokes from many, the prevailing attitude in the couple’s hometown was decidedly muted and more compassionate in nature. “I am sorry that Bryon is now the subject of so much attention himself, and for any embarrassment he’s experiencing,” Nancy Turbak said about the publicity Noem’s behind-closed-doors sexual predilections invited. Advertisement “He never asked for the public life in the first place, and I know him to be a kind and decent man. I wish he were not going through this,” said Turbak, a former Democratic state senator who now runs a law office out of a former post office in Watertown. The sympathy wasn’t across the board, however, with some locals telling the outlet the ousted DHS secretary brought the humiliation upon herself through her high-profile job with the Trump administration. “People know Bryon as the supportive husband who worked to maintain a normal family life as Kristi’s profile skyrocketed,” said real estate appraiser Brad Johnson, who also writes a local newspaper column. “It shows the price of power and fame is very high. But Kristi invited this type of coverage by her actions at the Department of Homeland Security.” An unidentified man at a gas station just outside Castlewood saw the reporting about Bryon Noem’s double life and shook his head in disbelief. “Such a nice man,” he told the outlet. “It just tears me up.” Kristi Noem told The Post through a statement that she was “devastated” by the revelation, and that her family was “blindsided.”",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+        "canonical_url": "https://aol.com/articles/kristi-noem-hometown-pals-disbelief-151614407.html",
+        "published_at": "2026-04-01T00:00:00",
+        "publisher": "aol.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_efb2f3c67f1d",
+        "title": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing ...",
+        "url": "https://www.them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos#",
+        "snippet": "Kristi Noem's Husband Accused of “Bimbo” Cross-Dressing Fetish in Leaked Messages and Photos. Bryon Noem allegedly dressed in a makeshift breast",
+        "content": "Bryon Noem, husband of former Department of Homeland Security Secretary Kristi Noem, has allegedly been cross-dressing and messaging sex workers who specialize in “bimbofication” to turn him “into a girl,” according to a report published in The Daily Mail. Yes, you’re reading that correctly. In hundreds of messages reviewed by the Daily Mail, the 56-year-old is allegedly shown messaging sex workers who specialize in “bimbofication,” or a type of roleplay fetish that involves being turned into a stereotypical bimbo or Barbie dolls in some cases. According to the publication, Bryon Noem messaged three sex workers that he enjoyed their “huge, huge ridiculous boobs,” and sent over $25,000 to them. In one of the photos included in the report, he appears to be wearing a large, makeshift breast plate made of balloons under a peach crop top and tight pink shorts. Another appears to show South Dakota’s former “First Gentleman” pouting in a selfie wearing green tight pants and another balloon-stuffed crop top. In one message, Bryon Noem told a sex worker, “You turn me into a girl” and then asked, “Should I put on leggings?” X content Obviously, we're not here to condemn cross-dressing at Them, or anyone exploring their gender presentation. However, we would be remiss to not point out the irony of the report, given Kristi Noem’s long history of opposing queer and trans rights. Cross-dressing is not inherently considered queer or trans, as exploring your gender presentation ultimately has no gender. But, the report does come after years of Kristi Noem attacking anyone playing with their gender, presentation or otherwise. The former Governor of South Dakota signed a “Religious Freedom Restoration Act” that allowed people to discriminate against LGBTQ+ people in her home state under the guise of religious freedom, banned trans girls from participating in women’s sports, and banned gender-affirming care for trans youth, just to name a few of her anti-LGBTQ+ policy points. Not to mention her leadership of Immigrations and Customs Enforcement (ICE) to conduct mass deportations and what advocates have called “state-sponsored kidnapping,” including that of vulnerable LGBTQ+ migrants such as Andry Hernández Romero, a gay Venezuelan asylum seeker who was sent to Centro de Confinamiento del Terrorismo, or CECOT, a notorious prison in El Salvador. Everyone, including Bryon Noem, should be free to explore their gender. But if Kristi Noem got the world that she actively is fighting for, no one would ever get to do that, including cisgender people with bimbofication fetishes. Outlets have reported that Kristi Noem is aware of the report and — perhaps shocking to no one who is aware of her track record — she is not taking it well. “Ms. Noem is devastated,” a spokesperson for Kristi Noem told The New York Post. “The family was blindsided by this, and they ask for privacy and prayers at the time.” The report about Bryon Noem’s alleged fetish comes just weeks after Kristi Noem was fired by President Donald Trump from her position as head of the DHS. Trump later replaced her with Republican Sen. Markwayne Mullin of Oklahoma. Get the best of what’s queer. Sign up for Them’s weekly newsletter here.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Kristi Noem husband online behavior balloon boobs thousands to friends scandal"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem husband online behavior balloon boobs thousands to friends scandal",
+        "canonical_url": "https://them.us/story/kristi-noems-husband-accused-of-bimbo-cross-dressing-fetish-in-leaked-messages-and-photos",
+        "published_at": "2026-03-31T00:00:00",
+        "publisher": "them.us",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_defd13a434a5",
+        "title": "New Coast Guard allegations add to Kristi Noem's growing list of ...",
+        "url": "https://www.ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles#",
+        "snippet": "According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it",
+        "content": "Homeland Security Secretary Kristi Noem is not in a strong position. Recent polling found that nearly 60% of the public believes the South Dakota Republican should be removed from her job, a bipartisan group of lawmakers have called for her ouster and the number of House Democrats backing an impeachment resolution against her is up to 187. Noem’s troubles, however, continue to mount. Last week, for example, The Wall Street Journal published a deeply unflattering report on behind-the-scenes details surrounding Noem’s work, highlighting the “constant chaos” that exists in the department she’s struggling to lead. The Journal’s report, which has not been independently verified by MS NOW, noted that within the Department of Homeland Security, Noem and her top adviser, Corey Lewandowski, “frequently berate senior level staff, give polygraph tests to employees they don’t trust and have fired employees — in one incident, Lewandowski fired a U.S. Coast Guard pilot after Noem’s blanket was left behind on a plane, according to people familiar with the incident.” With this in mind, the Cabinet secretary clearly didn’t need another damaging report, but she confronted one anyway this week when NBC News, citing four sources, reported on Noem’s increasingly strained relationship with U.S. Coast Guard officials. (The Coast Guard falls under DHS, not the Pentagon.) According to the report, which also has not been independently verified by MS NOW, the relationship between the DHS secretary and Coast Guard reached new depths following a “verbal directive” to shift Coast Guard resources from a search-and-rescue mission to find a missing service member. From the NBC News report: The tension between some Coast Guard officials and Noem began after a 23-year-old Coast Guardsman went overboard into the Pacific Ocean from the cutter Waesche on Feb. 4 last year, shortly after the Senate confirmed Noem into her role, according to the two U.S. officials, the Coast Guard official and the former Coast Guard official. The Coast Guard had surged ships and aircraft to the Pacific to find the guardsman. Hours into the search, Noem learned that a Coast Guard C-130 that was supposed to fly detained migrants from California to Texas was among the aircraft over the Pacific looking for the missing guardsman, and she intervened, according to the two U.S. officials and the Coast Guard official. According to the report, Noem verbally instructed the acting Coast Guard commandant to pull the plane off the search-and-rescue mission so it could instead help with the deportation of immigrants. Adm. Kevin Lunday complied and notified the National Command Center, which ordered the C-130 to fly to San Diego while other aircraft and ships involved in the search continued.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kristi Noem waterfront Coast Guard home controversy MaddowBlog msnbc",
+        "canonical_url": "https://ms.now/rachel-maddow-show/maddowblog/new-coast-guard-allegations-add-to-kristi-noems-growing-list-of-troubles",
+        "published_at": "2026-02-18T00:00:00",
+        "publisher": "ms.now",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "Some claims referenced in the social thread (e.g., exact motives, slang insults, and specific dollar amounts framed as ‘sending thousands to friends’) are opinion or loosely grounded in media allegations; only the parts directly supported by the cited sources are included or treated as allegations.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 29145
+  }
+}

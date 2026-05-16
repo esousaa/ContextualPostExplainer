@@ -31,6 +31,8 @@ class Settings(BaseSettings):
     tavily_api_key: SecretStr | None = None
     bsky_handle: str | None = None
     bsky_app_password: SecretStr | None = None
+    comparison_group_id: str | None = None
+    comparison_config_id: str | None = None
     log_level: str = Field(default="INFO")
 
     @field_validator(

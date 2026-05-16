@@ -1,0 +1,769 @@
+{
+  "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:46:48.494338+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:46:13.455611+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:13.455725+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:13.456121+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:13.456226+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:13.456610+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:14.386902+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 930
+    },
+    {
+      "timestamp": "2026-05-16T01:46:14.387498+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:14.387578+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:14.387950+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:25.006075+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 10618
+    },
+    {
+      "timestamp": "2026-05-16T01:46:25.006701+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:32.853768+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7352
+    },
+    {
+      "timestamp": "2026-05-16T01:46:32.854320+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:42.518143+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9663
+    },
+    {
+      "timestamp": "2026-05-16T01:46:42.518892+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:43.282585+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 763
+    },
+    {
+      "timestamp": "2026-05-16T01:46:43.283171+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.486843+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5203
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.487403+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.487541+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.487939+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.487998+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.488277+00:00",
+      "event": "node_started",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.488372+00:00",
+      "event": "node_completed",
+      "run_id": "run_6c1364d25b5148f0a69c2ea8310060f2",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Forbes Antonio Pequeño IV New York lawmakers planning tax on $1 million homes purchased with cash 2026 state budget",
+    "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details",
+    "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+    "New York real estate transfer taxes mansion tax comparison to proposed tax on $1M cash home purchases"
+  ],
+  "metrics": {
+    "search_results_received": 18,
+    "search_results_by_provider": {
+      "tavily": 18
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.msn.com/en-us/money/companies/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/ar-AA23d83m",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.planetizen.com/news/2026/05/137577-nyc-will-create-new-tax-1m-cash-home-purchases-report-says",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.nytimes.com/2017/07/21/upshot/when-the-empty-apartment-next-door-is-owned-by-an-oligarch.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_dd72cbe90f5c",
+        "title": "New York Reportedly Planning Tax On Million-Dollar Homes Bought With Cash",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_3c7f9ae2e227",
+        "title": "New York Lawmakers Planning First-Of-Its-Kind Tax On $1 Million ...",
+        "url": "https://freerepublic.com/focus/f-news/4379335/posts#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_052856e0e4db",
+        "title": "NY Plans New Tax on NYC Homes Over $1 Million Bought With Cash - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_47f1783c88ad",
+        "title": "New York Plans Tax on Homes Over $1 Million Purchased With Cash",
+        "url": "https://news.bloombergtax.com/daily-tax-report-state/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_5443fd43fb46",
+        "title": "COLUMN: Anti-money laundering finally targets real estate market",
+        "url": "https://technicianonline.com/107387/opinion/column-anti-money-laundering-finally-targets-real-estate-market/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_b4c74af7763c",
+        "title": "Cash Real Estate Buyers Using LLCs & Trusts MUST REPORT",
+        "url": "https://www.youtube.com/watch?v=509Xqze7gDw#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+      "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9490101648216765
+    },
+    {
+      "id": "src_b84ba8b99576",
+      "title": "New York Eyes Tax On $1M+ All-Cash Home Purchases",
+      "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+      "snippet": "# New York eyes tax on $1M+ all-cash home purchases. New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue.",
+      "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details",
+      "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "therealdeal.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7568100535666245
+    },
+    {
+      "id": "src_ba4928d55c94",
+      "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+      "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+      "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+      "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+      "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+      "published_at": "2026-04-24T00:00:00",
+      "publisher": "outboundinvestment.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.617004054753864
+    },
+    {
+      "id": "src_a4fecc867c6b",
+      "title": "Judge strikes down rule on all-cash real estate purchases | Habitat Magazine, New York's Co-op and Condo Community",
+      "url": "https://www.habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule#",
+      "snippet": "## WHAT CO-OP/CONDO BUYERS NEED TO KNOW. > CO-OP/CONDO BUYERS > JUDGE BLOCKS RULE REQUIRING DISCLOSURE OF ALL-CASH HOME PURCHASES. # Judge Blocks Rule Requiring Disclosure of All-Cash Home Purchases. All-cash purchases, money laundering, LLCs, co-op and condo boards. The campaign to clean up **money laundering** through **all-cash purchases** of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, **The Real Deal** reports. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. Sign up for email newsletters, alerts, and digital e-news to stay informed about what's happening in the co-op/condo community.",
+      "content": "The campaign to clean up money laundering through all-cash purchases of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, The Real Deal reports. The decision invalidates a 2024 regulation from the Treasury Department’s Financial Crimes Enforcement Network (FinCEN) that aimed to track beneficial owners behind LLC shell companies and trusts purchasing residential property, Bisnow reported. The rule would have required buyers in non-financed transactions to submit personal data — including Social Security numbers — to a federal database. U.S. District Judge Jeremy Kernodle ruled the agency overstepped its authority, writing that regulators failed to justify why all-cash residential transactions should be broadly treated as suspicious. The opinion undercuts a years-long federal push to expand anti-money laundering oversight in real estate, a sector long viewed as vulnerable to illicit capital flows. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. In 2025, as we reported earlier, a higher percentage of Manhattan buyers paid cash for their apartments than in any previous year—64%, nearly two of every three sales. Almost 90% of Manhattan sales over $3 million were paid for in cash. The shot-down rule marked a significant escalation from FinCEN’s earlier geographic targeting orders, which since 2016 applied only to such high-risk markets as Manhattan and Miami and only to deals above $300,000. The 2024 expansion would have gone nationwide and removed the minimum purchase threshold, sweeping in an estimated 800,000 transactions annually. Industry players braced for the compliance burden. Title companies and attorneys argued the rule effectively deputized them into federal surveillance roles, exposing them to liability while alienating privacy-conscious clients. A lawsuit brought by the Pacific Legal Foundation on behalf of a Texas title agency framed the mandate as both unconstitutional and commercially impractical, particularly in fast-growing Sun Belt markets where cash deals are common. The ruling lands at a moment when cash remains a major force in housing. Approximately 28% of homebuyers paid all-cash last year, according to the National Association of Realtors, while about 22% of purchases involved faceless corporate entities such as LLCs, precisely the structures regulators sought to pierce. Treasury officials argued the crackdown was necessary, citing estimates that $2.3 billion in illicit funds flowed through U.S. real estate between 2015 and 2020.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+      "canonical_url": "https://habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule",
+      "published_at": "2026-04-21T00:00:00",
+      "publisher": "habitatmag.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5696349611759388
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5513251997597225
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+      "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9490101648216765
+    },
+    {
+      "id": "src_b84ba8b99576",
+      "title": "New York Eyes Tax On $1M+ All-Cash Home Purchases",
+      "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+      "snippet": "# New York eyes tax on $1M+ all-cash home purchases. New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue.",
+      "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details",
+      "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "therealdeal.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7568100535666245
+    },
+    {
+      "id": "src_ba4928d55c94",
+      "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+      "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+      "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+      "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+      "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+      "published_at": "2026-04-24T00:00:00",
+      "publisher": "outboundinvestment.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.617004054753864
+    },
+    {
+      "id": "src_a4fecc867c6b",
+      "title": "Judge strikes down rule on all-cash real estate purchases | Habitat Magazine, New York's Co-op and Condo Community",
+      "url": "https://www.habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule#",
+      "snippet": "## WHAT CO-OP/CONDO BUYERS NEED TO KNOW. > CO-OP/CONDO BUYERS > JUDGE BLOCKS RULE REQUIRING DISCLOSURE OF ALL-CASH HOME PURCHASES. # Judge Blocks Rule Requiring Disclosure of All-Cash Home Purchases. All-cash purchases, money laundering, LLCs, co-op and condo boards. The campaign to clean up **money laundering** through **all-cash purchases** of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, **The Real Deal** reports. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. Sign up for email newsletters, alerts, and digital e-news to stay informed about what's happening in the co-op/condo community.",
+      "content": "The campaign to clean up money laundering through all-cash purchases of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, The Real Deal reports. The decision invalidates a 2024 regulation from the Treasury Department’s Financial Crimes Enforcement Network (FinCEN) that aimed to track beneficial owners behind LLC shell companies and trusts purchasing residential property, Bisnow reported. The rule would have required buyers in non-financed transactions to submit personal data — including Social Security numbers — to a federal database. U.S. District Judge Jeremy Kernodle ruled the agency overstepped its authority, writing that regulators failed to justify why all-cash residential transactions should be broadly treated as suspicious. The opinion undercuts a years-long federal push to expand anti-money laundering oversight in real estate, a sector long viewed as vulnerable to illicit capital flows. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. In 2025, as we reported earlier, a higher percentage of Manhattan buyers paid cash for their apartments than in any previous year—64%, nearly two of every three sales. Almost 90% of Manhattan sales over $3 million were paid for in cash. The shot-down rule marked a significant escalation from FinCEN’s earlier geographic targeting orders, which since 2016 applied only to such high-risk markets as Manhattan and Miami and only to deals above $300,000. The 2024 expansion would have gone nationwide and removed the minimum purchase threshold, sweeping in an estimated 800,000 transactions annually. Industry players braced for the compliance burden. Title companies and attorneys argued the rule effectively deputized them into federal surveillance roles, exposing them to liability while alienating privacy-conscious clients. A lawsuit brought by the Pacific Legal Foundation on behalf of a Texas title agency framed the mandate as both unconstitutional and commercially impractical, particularly in fast-growing Sun Belt markets where cash deals are common. The ruling lands at a moment when cash remains a major force in housing. Approximately 28% of homebuyers paid all-cash last year, according to the National Association of Realtors, while about 22% of purchases involved faceless corporate entities such as LLCs, precisely the structures regulators sought to pierce. Treasury officials argued the crackdown was necessary, citing estimates that $2.3 billion in illicit funds flowed through U.S. real estate between 2015 and 2020.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+      "canonical_url": "https://habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule",
+      "published_at": "2026-04-21T00:00:00",
+      "publisher": "habitatmag.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5696349611759388
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5513251997597225
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "platform": "bluesky",
+      "author": {
+        "handle": "forbes.com",
+        "display_name": "Forbes",
+        "did": "did:plc:2w45zyhuklwihpdc7oj3mi63"
+      },
+      "text": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "created_at": "2026-05-14T19:20:06Z",
+      "images": [],
+      "links": [
+        "http://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/?utm_campaign=forbes&utm_medium=social&utm_source=bluesky"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes."
+    },
+    "explanation": [
+      {
+        "text": "The post refers to a proposal in New York for a new tax on all‑cash home purchases over $1 million, where buyers would pay about 1% of the purchase price; this measure is currently being considered by state legislators rather than already enacted.",
+        "source_ids": [
+          "src_b84ba8b99576",
+          "thread_original"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Details reflect a proposal under discussion, not a final law, and could change during negotiations.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "As referenced in the post, the proposed tax is tied to New York’s broader budget process, with officials negotiating elements of Governor Hochul’s multibillion‑dollar budget plan and using new real‑estate‑related taxes as potential tools to address fiscal gaps.",
+        "source_ids": [
+          "src_b84ba8b99576",
+          "thread_original"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context",
+          "political_context",
+          "legal_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The state budget negotiations are described in general terms; exact linkage and timing of this specific tax within the final budget aren’t yet known.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Supporters and opponents in the real estate industry are already debating the impact of new luxury‑focused property taxes in New York, with some policymakers backing measures like a proposed pied‑à‑terre tax on high‑value second homes while industry figures warn that additional property‑related levies could discourage transactions and investment.",
+        "source_ids": [
+          "src_b84ba8b99576",
+          "src_ba4928d55c94"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Sources discuss several related proposals (all‑cash tax and pied‑à‑terre tax); each has distinct details and legal paths, so their effects should not be conflated.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread replies highlight public concerns that all‑cash, often high‑value, home purchases can be used for money laundering or to keep units empty, reflecting a broader policy debate around whether cash‑buyer‑focused rules or taxes are an appropriate response to opaque or underused luxury real estate ownership.",
+        "source_ids": [
+          "thread_context",
+          "src_a4fecc867c6b"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The money‑laundering concerns in the thread are opinions; while regulators have cited similar risks, the sources do not tie specific individual purchases to criminal activity.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Regulators and courts have recently wrestled with how to oversee all‑cash real estate deals: a federal judge struck down a nationwide rule that would have required disclosure of all‑cash homebuyers, even as policymakers continue to view such transactions as a potential channel for illicit funds, underscoring why New York’s proposed cash‑purchase tax is surfacing in current debates.",
+        "source_ids": [
+          "src_a4fecc867c6b"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The court ruling concerns a federal disclosure rule, not New York’s proposed tax itself; the connection between the two is contextual, not causal.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+        "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+        "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_b84ba8b99576",
+        "title": "New York Eyes Tax On $1M+ All-Cash Home Purchases",
+        "url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases/#",
+        "snippet": "# New York eyes tax on $1M+ all-cash home purchases. New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue.",
+        "content": "New York legislators are weighing a new tax on all-cash home purchases over $1 million. Under the proposal, buyers would be on the hook to pay 1 percent of the purchase price to cover the levy, sources told Bloomberg. The tax on deals in the city alone is expected to generate $160 million in revenue to help cover the city’s budget deficit. Lawmakers are also considering expanding the tax across the state, meaning it would apply to some of New York’s other centers of luxury real estate, including the city’s suburbs, the Hamptons and the Hudson Valley. The proposal would allow the state to tax home purchases that were previously exempt from its mortgage recording tax, which required buyers of certain property types to pay roughly 1 percent of the loan amount. Buyers financing their purchases in New York City are subject to an additional 1 to 2 percent, depending on the size of their loan. A spokesperson for Gov. Kathy Hochul’s office told Bloomberg that the governor struck a deal with lawmakers on “many of the major elements” included in her $268 billion budget proposal, the full version of which she still hasn’t delivered nearly two months after the deadline. Mayor Zohran Mamdani supports the tax, according to a spokesperson. Some in the real estate industry have pushed back on the proposal, news of which is coming after Hochul announced a planned pied-à-terre tax, targeting second homes in New York City valued at $5 million or more. Jim Whelan, the president of the Real Estate Board of New York, said in a statement that New York residents are already responsible for a significant tax burden and criticized the move as a potential deterrent for home purchases, taxes on which already contribute substantially to the city’s revenue. “The City’s budget issues will not be solved by more taxes,” Whelan said in the statement. “Putting even more costs on home buyers and sellers will further discourage transactions and threaten existing revenue collected by the State, City, and MTA.” All-cash deals accounted for 60 percent of home sales in New York City during the first half of 2025, according to data from the nonprofit Center of New York City Neighborhoods. Nine out of 10 deals over $3 million were all cash. — Sheridan Wall",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New York state budget negotiations 2026 proposed tax on cash purchases of homes over $1 million details",
+        "canonical_url": "https://therealdeal.com/new-york/2026/05/15/new-york-eyes-tax-on-1m-all-cash-home-purchases",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "therealdeal.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_ba4928d55c94",
+        "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+        "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+        "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+        "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+        "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+        "published_at": "2026-04-24T00:00:00",
+        "publisher": "outboundinvestment.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_a4fecc867c6b",
+        "title": "Judge strikes down rule on all-cash real estate purchases | Habitat Magazine, New York's Co-op and Condo Community",
+        "url": "https://www.habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule#",
+        "snippet": "## WHAT CO-OP/CONDO BUYERS NEED TO KNOW. > CO-OP/CONDO BUYERS > JUDGE BLOCKS RULE REQUIRING DISCLOSURE OF ALL-CASH HOME PURCHASES. # Judge Blocks Rule Requiring Disclosure of All-Cash Home Purchases. All-cash purchases, money laundering, LLCs, co-op and condo boards. The campaign to clean up **money laundering** through **all-cash purchases** of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, **The Real Deal** reports. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. Sign up for email newsletters, alerts, and digital e-news to stay informed about what's happening in the co-op/condo community.",
+        "content": "The campaign to clean up money laundering through all-cash purchases of New York City real estate is all washed up. A federal judge dealt a blow to Washington’s latest attempt to shine light on opaque real estate deals, striking down a rule that would have forced disclosure of all-cash homebuyers nationwide, The Real Deal reports. The decision invalidates a 2024 regulation from the Treasury Department’s Financial Crimes Enforcement Network (FinCEN) that aimed to track beneficial owners behind LLC shell companies and trusts purchasing residential property, Bisnow reported. The rule would have required buyers in non-financed transactions to submit personal data — including Social Security numbers — to a federal database. U.S. District Judge Jeremy Kernodle ruled the agency overstepped its authority, writing that regulators failed to justify why all-cash residential transactions should be broadly treated as suspicious. The opinion undercuts a years-long federal push to expand anti-money laundering oversight in real estate, a sector long viewed as vulnerable to illicit capital flows. Many all-cash purchases in New York are the strictly legal result of galloping Wall Street profits — and bonuses — which have produced a growing body of people awash with cash and averse to paying today's relatively high mortgage interest rates. In 2025, as we reported earlier, a higher percentage of Manhattan buyers paid cash for their apartments than in any previous year—64%, nearly two of every three sales. Almost 90% of Manhattan sales over $3 million were paid for in cash. The shot-down rule marked a significant escalation from FinCEN’s earlier geographic targeting orders, which since 2016 applied only to such high-risk markets as Manhattan and Miami and only to deals above $300,000. The 2024 expansion would have gone nationwide and removed the minimum purchase threshold, sweeping in an estimated 800,000 transactions annually. Industry players braced for the compliance burden. Title companies and attorneys argued the rule effectively deputized them into federal surveillance roles, exposing them to liability while alienating privacy-conscious clients. A lawsuit brought by the Pacific Legal Foundation on behalf of a Texas title agency framed the mandate as both unconstitutional and commercially impractical, particularly in fast-growing Sun Belt markets where cash deals are common. The ruling lands at a moment when cash remains a major force in housing. Approximately 28% of homebuyers paid all-cash last year, according to the National Association of Realtors, while about 22% of purchases involved faceless corporate entities such as LLCs, precisely the structures regulators sought to pierce. Treasury officials argued the crackdown was necessary, citing estimates that $2.3 billion in illicit funds flowed through U.S. real estate between 2015 and 2020.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "NYC foreign investment empty units money laundering real estate cash buyers policy responses"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "NYC foreign investment empty units money laundering real estate cash buyers policy responses",
+        "canonical_url": "https://habitatmag.com/Publication-Content/Co-op-Condo-Buyers/2026/March-2026/federal-judge-strikes-down-cash-rule",
+        "published_at": "2026-04-21T00:00:00",
+        "publisher": "habitatmag.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+        "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 34539
+  }
+}

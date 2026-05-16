@@ -1,0 +1,921 @@
+{
+  "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:38:38.791410+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:38:11.227358+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:11.227439+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:38:11.227789+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:11.227867+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:38:11.228183+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:12.452757+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1224
+    },
+    {
+      "timestamp": "2026-05-16T02:38:12.453315+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:12.453397+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:38:12.453780+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:14.159269+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1705
+    },
+    {
+      "timestamp": "2026-05-16T02:38:14.159793+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:18.440241+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 4280
+    },
+    {
+      "timestamp": "2026-05-16T02:38:18.440749+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:32.589703+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 13529
+    },
+    {
+      "timestamp": "2026-05-16T02:38:32.590271+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:33.726546+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1136
+    },
+    {
+      "timestamp": "2026-05-16T02:38:33.727149+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.784547+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5057
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785063+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785157+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785501+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785557+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785808+00:00",
+      "event": "node_started",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:38:38.785898+00:00",
+      "event": "node_completed",
+      "run_id": "run_92775e0cbdfa4a23939ea5664ec322e0",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Melanie Stansbury position on VA privatization veterans affairs",
+    "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+    "debate over privatization of public services healthcare education utilities \"profit motive\" United States",
+    "Republican Party stance on privatizing VA and other public services fact check"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "brave": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://medillonthehill.medill.northwestern.edu/2025/02/gop-bill-attempts-to-gradually-privatize-va-care/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://medillonthehill.medill.northwestern.edu/2025/02/gop-bill-attempts-to-gradually-privatize-va-care/"
+      }
+    ],
+    "source_fetch_discards": [],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_306d03fafae4",
+        "title": "Rep. Stansbury Highlights New PACT Act Health Care Benefits During Her Office’s Veterans Resource Fair | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+        "url": "https://stansbury.house.gov/media/press-releases/rep-stansbury-highlights-new-pact-act-health-care-benefits-during-her-offices#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_b5f7c5e11262",
+        "title": "Rep. Stansbury, Ranking Member Takano Host Veteran Townhall | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+        "url": "https://stansbury.house.gov/media/press-releases/rep-stansbury-ranking-member-takano-host-veteran-townhall#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_748b55630f1d",
+        "title": "Project 2025: Changes to Department of Veteran affairs - The Fulcrum",
+        "url": "https://thefulcrum.us/governance-legislation/veteran-affairs-project-2025#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_10785be5f48a",
+        "title": "What does Project 2025 mean for military veterans?",
+        "url": "https://taskandpurpose.com/military-life/project-2025-for-military-veterans/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_84a0f72152ce",
+        "title": "GOP bill attempts to gradually privatize VA care - Medill on the Hill",
+        "url": "https://medillonthehill.medill.northwestern.edu/2025/02/gop-bill-attempts-to-gradually-privatize-va-care/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_6a84aa0be9a1",
+        "title": "Many Americans think of education and transportation as public goods, but they're actually heavily privatized. Here's why that's a problem.",
+        "url": "https://www.businessinsider.com/privitizing-public-goods-healthcare-education-doesnt-work-opinion-2022-1#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 5
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8008252890100742
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+      "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7883631514631567
+    },
+    {
+      "id": "src_b6e73117c638",
+      "title": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | U.S. Congressman Mike Levin",
+      "url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system#",
+      "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+      "content": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coordinated care. Meanwhile, inside the VA, staff morale is declining, hiring is harder, and burnout is rising. When professionals see funding shift",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+      "canonical_url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system",
+      "published_at": "2025-07-17T00:00:00",
+      "publisher": "levin.house.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6887117455751717
+    },
+    {
+      "id": "src_a31ee3a2a6d7",
+      "title": "The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | Military.com",
+      "url": "https://www.military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html#",
+      "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+      "content": "The opinions expressed in this op-ed are those of the author and do not necessarily reflect the views of Military.com. If you would like to submit your own commentary, please send your article to opinions@military.com for consideration. While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coor",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+      "canonical_url": "https://military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html",
+      "published_at": "2025-07-17T00:00:00",
+      "publisher": "military.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6884753374012572
+    },
+    {
+      "id": "src_ce7a827be944",
+      "title": "Public or Private? The Battle Over America's Essential Services | GovFacts",
+      "url": "https://govfacts.org/government/operations/public-or-private-the-battle-over-americas-essential-services/#",
+      "snippet": "The United States often favors ... public ownership. <strong>Private companies, driven by profit motive, are supposedly more incentivized to cut wasteful spending, operate efficiently, and foster innovation</strong>....",
+      "content": "Last updated 5 months ago. Our resources are updated regularly but please keep in mind that links, programs, policies, and contact information do change. - What Is Privatization? - What Is Nationalization? - Core Differences - The Case for Privatization - Critiques of Privatization - The Case for Nationalization - Critiques of Nationalization - The American Experience - Timeline of Key Events - Sector-Specific Analysis - Current Mixed Models - Constitutional Framework - Recent Political Developments (2024-2025) Every day, Americans interact with services that could be run by either government or private companies. The water from your tap, your child’s school, mail delivery to your door, the electricity powering your home—all represent fundamental choices about who should control these essential functions of society. These decisions reflect deeper beliefs about government’s role and whether market forces or public oversight better serves citizens. Two competing philosophies drive this debate: privatization, which shifts services to private hands, and nationalization, which brings them under government control. What Is Privatization? Privatization transfers ownership, management, or control of public assets and services from government to private entities. The core idea is to harness private sector capabilities and market dynamics in areas traditionally managed by the state. How Privatization Works Governments use several methods to privatize services: Contracting Out is the most common form in America. Government keeps funding responsibility but hires private companies to deliver services. Examples include garbage collection, road maintenance, prison operations, and welfare program administration. The U.S. Government Accountability Office details how private entities perform day-to-day administration of government-sponsored activities. Asset Sales involve government selling public assets like state-owned enterprises, land, or infrastructure to private buyers. Washington State’s 2012 decision to privatize liquor sales allowed private businesses like Costco and Walmart to operate stores previously run by the state. Vouchers provide citizens with funds or credits to purchase services from private providers. This model appears in education through school vouchers and housing assistance programs. Deregulation and Liberalization often accompany privatization. These policies loosen industry regulations and open markets to competition, creating favorable environments for private companies in previously state-dominated sectors. Why Governments Privatize Promoting Efficiency and Competition stands as the primary argument. Market forces and competition supposedly lead to more efficient service delivery and reduced wasteful spending. Private companies, driven by profit needs, are believed more incentivized to innovate and operate efficiently. Enhancing Economic Growth through privatization can attract private capital, new technologies, and managerial expertise, potentially stimulating economic development. Reducing Government Burden allows governments to cut direct spending, lower budget deficits, and free up public resources for other priorities. This shifts government focus from direct service delivery to oversight and regulation. Improving Service Quality stems from the belief that profit-driven companies are more responsive to customer needs, leading to better quality services. Increasing Accountability subjects formerly state-owned enterprises to market discipline and shareholder scrutiny, theoretically improving corporate governance. The dominant rationale—efficiency and cost-saving—links directly to introducing market competition and profit motive. However, actual efficiency gains aren’t automatic and depend significantly on context, service nature, and regulatory oversight strength. What Is Nationalization? Nationalization represents the opposite approach. It transforms privately owned assets or enterprises into public assets by br",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "debate over privatization of public services healthcare education utilities \"profit motive\" United States"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "debate over privatization of public services healthcare education utilities \"profit motive\" United States",
+      "canonical_url": "https://govfacts.org/government/operations/public-or-private-the-battle-over-americas-essential-services",
+      "published_at": "2025-12-05T00:00:00",
+      "publisher": "govfacts.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5258875173124926
+    },
+    {
+      "id": "src_75c25e25a613",
+      "title": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+      "url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran#",
+      "snippet": "ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by ...",
+      "content": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs Congresswoman joins local lawmakers for a Veterans Town Hall ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by Secretary of Defense Pete Hegseth. The Congresswoman joined New Mexico State Representative Debbie Sariñana (D-Albuquerque), New Mexico State Senator Harold Pope Jr. (D-Albuquerque), and U.S. Marine Corps veteran Frank Smith. Rep. Sariñana and Sen. Pope both served in the U.S. Air Force. Watch the video here. “The most patriotic thing we can do is to resist,” said Rep. Melanie Stansbury (NM-01). “The most patriotic thing we can do right now is to speak out. The most patriotic thing we can do is engage in acts of resistance and supporting our communities. And the most patriotic thing we can do is continue to serve our communities, to fight for our communities, and to fight for our democracy because we will win.” Secretary Pete Hegseth has directed cuts aimed at what’s being labeled “wasteful” spending: - Over $580 million in contracts and programs have been canceled. - Major cuts include $1.8 billion from consulting contracts at the Defense Health Agency, $1.4 billion from cloud IT services, and $500 million from Navy business consulting. - Eleven contracts related to DEI, climate change, and COVID-19 were also terminated. - A $500 million DARPA help desk contract was cut due to duplication. - The Department of Defense is working with DOGE (Department of Government Efficiency), which has identified $800 million in additional spending to eliminate. - There are plans to in-source IT roles, shifting those duties to civilian staff. The VA started aggressive contract reviews and program cuts: - Effective May 1, the VA ended the Veterans Affairs Servicing Purchase (VASP) program, which had been the only available mortgage assistance tool for many at-risk veterans. This has increased the risk of foreclosure for thousands of veteran families. - VA has canceled 585 contracts worth $1.8 billion, redirecting about $900 million to healthcare and benefits. Most of the canceled contracts were described as non-mission critical, but some provided administrative or support services that may now fall back on already strained internal resources. ###",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran",
+      "published_at": "2025-06-23T00:00:00",
+      "publisher": "stansbury.house.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.5257351703655221
+    },
+    {
+      "id": "src_d6c589d57f16",
+      "title": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions - Senator Ben Ray Luján",
+      "url": "https://www.lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions/#",
+      "snippet": "WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G.",
+      "content": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G. Murphy U.S. Department of Veterans Affairs (VA) Medical Center in Albuquerque and Community Based Outpatient Clinics (CBOCs) in New Mexico. “New Mexico veterans answered the call to serve our country and defend our freedoms. We owe it to these men and women to honor their sacrifice and ensure they have access to the care they have earned. The VA must be held accountable for plans to cut their essential workforce and for President Trump’s pattern of disrespecting our veterans by further delaying their care and benefits. “This is just another step toward the Trump Administration’s goal of privatizing the VA. Let’s be clear: New Mexico veterans do not want a private VA. They want a better VA that is their own. We will fight like hell to protect their VA and ensure these heroes receive the health care they were promised.” The VA has already lost more than 30,000 employees this year and Trump’s newest plan to eliminate tens of thousands more jobs will only exacerbate staffing shortages due to mass firings, hiring freezes, and contract cancellations earlier this year. Eliminating vacant positions will only make it even harder for VA to meet increased demand for services as more than one million veterans enrolled as a result of the expanded eligibility under the PACT Act for toxic exposure, as well as urgently needed mental health care resources aimed at reducing the veteran suicide rate. While the VA has not announced how many positions will be cut from New Mexico, the plan would shrink the VA’s essential workforce across the country. Today, N.M. Delegation staff asked the VA if any positions at the Raymond G. Murphy VA Medical Center will be cut and how those cuts will be determined. But the VA did not provide any answers specific to New Mexico. The N.M. Delegation will continue to press the Trump Administration for transparency and concrete answers on these planned VA cuts and their impacts on essential medical services for New Mexico veterans. Earlier this year, Heinrich and Luján introduced the Putting Veteran’s First Act, which reverses the chaos and damage created at the VA by the Trump Administration. Additionally, Heinrich and Luján called on VA Secretary Doug Collins to immediately reinstate the more than 1,000 VA employees terminated in February who serve veterans and their families nationwide, including critical employees combatting veteran suicide working at the Veterans Crisis Line. This week, Heinrich and Vasquez successfully passed their TRICARE Travel Improvement Act to ensure active-duty service members and their families can be reimbursed when they travel for medical care. In March, Vasquez introduced the New Mexico Rural Veteran Health Care Access Actto protect access to care for rural veterans living in Otero and Eddy counties. In 2022, Heinrich, Lujan, Leger Fernández, and Stansbury also successfully defeated recommendations put forth to the Asset and Infrastructure Review (AIR) Commission, which threatened to close the CBOCs in Gallup, Las Vegas, Española, and Raton, New Mexico. ###",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions",
+      "published_at": "2025-12-18T00:00:00",
+      "publisher": "lujan.senate.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.502431420733148
+    },
+    {
+      "id": "src_15772b8826ea",
+      "title": "Representative's Message to Area Veterans",
+      "url": "https://www.mountainairdispatch.com/representatives-message-to-area-veterans-20250617/#",
+      "snippet": "Melanie Stansbury · Senator Pope, also an Air Force veteran and the <strong>chairperson of the State senate Military and Veterans Affairs Interim Committee</strong>, began by advising veterans that the state legislature needed to hear concerns from veterans ...",
+      "content": "US Representative Melanie Stansbury (NM-1) conducted an event for veterans at Manzano High School in Albuquerque on June 17, 2025, at which Stansbury was joined by State Representative Debra Sariñana (HD-21), Harold Pope (SD-23), Frank Smith, a legislative advocate with the Military and Veterans Caucus (Smith unsuccessfully rant for HD-23), and State Representative Tara Lujan (HD-48). Stansbury also held a virtual town hall on June 18, 2025, that focused on immigration matters. Representative Sariñana, an Air Force Veteran and military spouse, began the veterans’ forum by encouraging the veterans in the audience to run for office, noting that she was the only veteran in the New Mexico House of Representatives. Sariñana stated that the New Mexico Department of Veterans Services offers programs to assist rural veterans, including medical transportation, homelessness programs, and suicide prevention initiatives designed to fill gaps left by cuts to VA programs. She noted that the state would be offering veterans a lifetime pass to state parks. Sariñana also discussed a mobile veterans' services office that will conduct rural outreach to veterans across the state. US Representative Stansbury introduced herself as a member of a US Marine Corps family and stressed that her office was there to help, given the changes in the federal government. “Whether you’re a veteran, if you work for the military, [if you’re] a federal worker, or [if] you’re just having an issue with a federal agency, one of the things that a congressional office does is act as an advocate, and so if you’re having issues with a veteran’s claim, you’re having issues with your disability, you’re having issues with the VA, please contact my office.” -- Rep. Melanie Stansbury Stansbury said she had signed up to be in a leadership role on the Department of Government Efficiency Subcommittee to fight back against the intended cuts to federal services. “ Certainly, there are a number of workers, doctors, nurses and administrators at the VA here in Albuquerque that were fired as part of the mass firings. [Republicans] are trying to claim that that did not happen, but thousands of veterans lost their jobs in those mass firings. [Democrats are] fighting back in the courts and in Congress, and we're winning. And so the courts have now ordered the rehiring of all VA staff who were fired in the mass firing and they they're working to try to get everyone back.” -- Rep. Melanie Stansbury Stansbury expressed concerns regarding the activities of the Trump Administration. She acknowledged that, as a legislator in the minority party, her ability to undo the activities of the Trump Administration was limited. “And so we're working in our role in Congress as the minority party to fight back and to support the court efforts by the states to stop that dismantling. Now, I know a lot of people ask, ‘Well, why isn't it happening faster? Why isn't it more aggressive?’ And part of the challenge right now is that the tools that you have in Congress to provide that oversight and accountability require that you have the votes, and right now, we do not have the votes to hold this president and this administration accountable the way that they should be held accountable....” -- Rep. Melanie Stansbury Senator Pope, also an Air Force veteran and the chairperson of the State senate Military and Veterans Affairs Interim Committee, began by advising veterans that the state legislature needed to hear concerns from veterans before the start of the legislative session (the regular session typically begins in the end of January), as budgets are already set by the time the legislature meets. Pope explained to the audience that only one household member could get the 100% disabled tax exemption (in the amount of $10,000) on a household’s primary residence. Smith explained that the caucus he served as a legislative advocate primarily focused on getting veteran-oriented legislation passed by the New Mexico Leg",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://mountainairdispatch.com/representatives-message-to-area-veterans-20250617",
+      "published_at": "2025-06-30T00:00:00",
+      "publisher": "mountainairdispatch.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.3992106913720571
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8008252890100742
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+      "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7883631514631567
+    },
+    {
+      "id": "src_b6e73117c638",
+      "title": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | U.S. Congressman Mike Levin",
+      "url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system#",
+      "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+      "content": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coordinated care. Meanwhile, inside the VA, staff morale is declining, hiring is harder, and burnout is rising. When professionals see funding shift",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+      "canonical_url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system",
+      "published_at": "2025-07-17T00:00:00",
+      "publisher": "levin.house.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.6887117455751717
+    },
+    {
+      "id": "src_a31ee3a2a6d7",
+      "title": "The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | Military.com",
+      "url": "https://www.military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html#",
+      "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+      "content": "The opinions expressed in this op-ed are those of the author and do not necessarily reflect the views of Military.com. If you would like to submit your own commentary, please send your article to opinions@military.com for consideration. While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coor",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+      "canonical_url": "https://military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html",
+      "published_at": "2025-07-17T00:00:00",
+      "publisher": "military.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6884753374012572
+    },
+    {
+      "id": "src_75c25e25a613",
+      "title": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+      "url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran#",
+      "snippet": "ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by ...",
+      "content": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs Congresswoman joins local lawmakers for a Veterans Town Hall ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by Secretary of Defense Pete Hegseth. The Congresswoman joined New Mexico State Representative Debbie Sariñana (D-Albuquerque), New Mexico State Senator Harold Pope Jr. (D-Albuquerque), and U.S. Marine Corps veteran Frank Smith. Rep. Sariñana and Sen. Pope both served in the U.S. Air Force. Watch the video here. “The most patriotic thing we can do is to resist,” said Rep. Melanie Stansbury (NM-01). “The most patriotic thing we can do right now is to speak out. The most patriotic thing we can do is engage in acts of resistance and supporting our communities. And the most patriotic thing we can do is continue to serve our communities, to fight for our communities, and to fight for our democracy because we will win.” Secretary Pete Hegseth has directed cuts aimed at what’s being labeled “wasteful” spending: - Over $580 million in contracts and programs have been canceled. - Major cuts include $1.8 billion from consulting contracts at the Defense Health Agency, $1.4 billion from cloud IT services, and $500 million from Navy business consulting. - Eleven contracts related to DEI, climate change, and COVID-19 were also terminated. - A $500 million DARPA help desk contract was cut due to duplication. - The Department of Defense is working with DOGE (Department of Government Efficiency), which has identified $800 million in additional spending to eliminate. - There are plans to in-source IT roles, shifting those duties to civilian staff. The VA started aggressive contract reviews and program cuts: - Effective May 1, the VA ended the Veterans Affairs Servicing Purchase (VASP) program, which had been the only available mortgage assistance tool for many at-risk veterans. This has increased the risk of foreclosure for thousands of veteran families. - VA has canceled 585 contracts worth $1.8 billion, redirecting about $900 million to healthcare and benefits. Most of the canceled contracts were described as non-mission critical, but some provided administrative or support services that may now fall back on already strained internal resources. ###",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran",
+      "published_at": "2025-06-23T00:00:00",
+      "publisher": "stansbury.house.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.5257351703655221
+    },
+    {
+      "id": "src_d6c589d57f16",
+      "title": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions - Senator Ben Ray Luján",
+      "url": "https://www.lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions/#",
+      "snippet": "WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G.",
+      "content": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G. Murphy U.S. Department of Veterans Affairs (VA) Medical Center in Albuquerque and Community Based Outpatient Clinics (CBOCs) in New Mexico. “New Mexico veterans answered the call to serve our country and defend our freedoms. We owe it to these men and women to honor their sacrifice and ensure they have access to the care they have earned. The VA must be held accountable for plans to cut their essential workforce and for President Trump’s pattern of disrespecting our veterans by further delaying their care and benefits. “This is just another step toward the Trump Administration’s goal of privatizing the VA. Let’s be clear: New Mexico veterans do not want a private VA. They want a better VA that is their own. We will fight like hell to protect their VA and ensure these heroes receive the health care they were promised.” The VA has already lost more than 30,000 employees this year and Trump’s newest plan to eliminate tens of thousands more jobs will only exacerbate staffing shortages due to mass firings, hiring freezes, and contract cancellations earlier this year. Eliminating vacant positions will only make it even harder for VA to meet increased demand for services as more than one million veterans enrolled as a result of the expanded eligibility under the PACT Act for toxic exposure, as well as urgently needed mental health care resources aimed at reducing the veteran suicide rate. While the VA has not announced how many positions will be cut from New Mexico, the plan would shrink the VA’s essential workforce across the country. Today, N.M. Delegation staff asked the VA if any positions at the Raymond G. Murphy VA Medical Center will be cut and how those cuts will be determined. But the VA did not provide any answers specific to New Mexico. The N.M. Delegation will continue to press the Trump Administration for transparency and concrete answers on these planned VA cuts and their impacts on essential medical services for New Mexico veterans. Earlier this year, Heinrich and Luján introduced the Putting Veteran’s First Act, which reverses the chaos and damage created at the VA by the Trump Administration. Additionally, Heinrich and Luján called on VA Secretary Doug Collins to immediately reinstate the more than 1,000 VA employees terminated in February who serve veterans and their families nationwide, including critical employees combatting veteran suicide working at the Veterans Crisis Line. This week, Heinrich and Vasquez successfully passed their TRICARE Travel Improvement Act to ensure active-duty service members and their families can be reimbursed when they travel for medical care. In March, Vasquez introduced the New Mexico Rural Veteran Health Care Access Actto protect access to care for rural veterans living in Otero and Eddy counties. In 2022, Heinrich, Lujan, Leger Fernández, and Stansbury also successfully defeated recommendations put forth to the Asset and Infrastructure Review (AIR) Commission, which threatened to close the CBOCs in Gallup, Las Vegas, Española, and Raton, New Mexico. ###",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions",
+      "published_at": "2025-12-18T00:00:00",
+      "publisher": "lujan.senate.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.502431420733148
+    },
+    {
+      "id": "src_15772b8826ea",
+      "title": "Representative's Message to Area Veterans",
+      "url": "https://www.mountainairdispatch.com/representatives-message-to-area-veterans-20250617/#",
+      "snippet": "Melanie Stansbury · Senator Pope, also an Air Force veteran and the <strong>chairperson of the State senate Military and Veterans Affairs Interim Committee</strong>, began by advising veterans that the state legislature needed to hear concerns from veterans ...",
+      "content": "US Representative Melanie Stansbury (NM-1) conducted an event for veterans at Manzano High School in Albuquerque on June 17, 2025, at which Stansbury was joined by State Representative Debra Sariñana (HD-21), Harold Pope (SD-23), Frank Smith, a legislative advocate with the Military and Veterans Caucus (Smith unsuccessfully rant for HD-23), and State Representative Tara Lujan (HD-48). Stansbury also held a virtual town hall on June 18, 2025, that focused on immigration matters. Representative Sariñana, an Air Force Veteran and military spouse, began the veterans’ forum by encouraging the veterans in the audience to run for office, noting that she was the only veteran in the New Mexico House of Representatives. Sariñana stated that the New Mexico Department of Veterans Services offers programs to assist rural veterans, including medical transportation, homelessness programs, and suicide prevention initiatives designed to fill gaps left by cuts to VA programs. She noted that the state would be offering veterans a lifetime pass to state parks. Sariñana also discussed a mobile veterans' services office that will conduct rural outreach to veterans across the state. US Representative Stansbury introduced herself as a member of a US Marine Corps family and stressed that her office was there to help, given the changes in the federal government. “Whether you’re a veteran, if you work for the military, [if you’re] a federal worker, or [if] you’re just having an issue with a federal agency, one of the things that a congressional office does is act as an advocate, and so if you’re having issues with a veteran’s claim, you’re having issues with your disability, you’re having issues with the VA, please contact my office.” -- Rep. Melanie Stansbury Stansbury said she had signed up to be in a leadership role on the Department of Government Efficiency Subcommittee to fight back against the intended cuts to federal services. “ Certainly, there are a number of workers, doctors, nurses and administrators at the VA here in Albuquerque that were fired as part of the mass firings. [Republicans] are trying to claim that that did not happen, but thousands of veterans lost their jobs in those mass firings. [Democrats are] fighting back in the courts and in Congress, and we're winning. And so the courts have now ordered the rehiring of all VA staff who were fired in the mass firing and they they're working to try to get everyone back.” -- Rep. Melanie Stansbury Stansbury expressed concerns regarding the activities of the Trump Administration. She acknowledged that, as a legislator in the minority party, her ability to undo the activities of the Trump Administration was limited. “And so we're working in our role in Congress as the minority party to fight back and to support the court efforts by the states to stop that dismantling. Now, I know a lot of people ask, ‘Well, why isn't it happening faster? Why isn't it more aggressive?’ And part of the challenge right now is that the tools that you have in Congress to provide that oversight and accountability require that you have the votes, and right now, we do not have the votes to hold this president and this administration accountable the way that they should be held accountable....” -- Rep. Melanie Stansbury Senator Pope, also an Air Force veteran and the chairperson of the State senate Military and Veterans Affairs Interim Committee, began by advising veterans that the state legislature needed to hear concerns from veterans before the start of the legislative session (the regular session typically begins in the end of January), as budgets are already set by the time the legislature meets. Pope explained to the audience that only one household member could get the 100% disabled tax exemption (in the amount of $10,000) on a household’s primary residence. Smith explained that the caucus he served as a legislative advocate primarily focused on getting veteran-oriented legislation passed by the New Mexico Leg",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Melanie Stansbury position on VA privatization veterans affairs"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury position on VA privatization veterans affairs",
+      "canonical_url": "https://mountainairdispatch.com/representatives-message-to-area-veterans-20250617",
+      "published_at": "2025-06-30T00:00:00",
+      "publisher": "mountainairdispatch.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.3992106913720571
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "platform": "bluesky",
+      "author": {
+        "handle": "repstansbury.bsky.social",
+        "display_name": "Rep. Melanie Stansbury (NM-01)",
+        "did": "did:plc:fuqcbv5brxa2b5vylz5bkm3j"
+      },
+      "text": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "created_at": "2026-05-15T13:20:42.195000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!"
+    },
+    "explanation": [
+      {
+        "text": "In the post, Rep. Melanie Stansbury declares that she is supporting veterans and explicitly opposing efforts to privatize the U.S. Department of Veterans Affairs (VA).",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet reflects what the author states in the post; it does not assess whether specific privatization policies are in place.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread context amplifies a broader criticism of privatizing public services, arguing that a profit motive is inappropriate for essential sectors such as health care, the military, public safety, education, incarceration, utilities, research, and regulatory functions, and claiming that privatization mainly benefits top corporate executives while risking bankruptcy and instability.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are opinions from a commenter in the thread, not verified empirical findings.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Rep. Stansbury has taken public positions aligned with defending the VA and opposing perceived efforts to dismantle or weaken it, including participating in veterans’ town halls and criticizing cuts and workforce reductions at the VA under the Trump administration as part of a broader pattern she views as harmful to veterans’ care.",
+        "source_ids": [
+          "src_75c25e25a613",
+          "src_d6c589d57f16",
+          "src_15772b8826ea"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes positions attributed to Rep. Stansbury and the New Mexico delegation; it does not independently verify the impact of the cited policies.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Members of New Mexico’s congressional delegation, including Rep. Stansbury, have officially warned that Trump administration plans to cut tens of thousands of Veterans Health Administration positions represent a step toward privatizing the VA, stressing that veterans in New Mexico want a stronger public VA system rather than a private alternative.",
+        "source_ids": [
+          "src_d6c589d57f16"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "legal_context",
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the delegation’s stated view about the relationship between workforce cuts and privatization; it is not a judicial or nonpartisan determination.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Other Democratic officials, such as Rep. Mike Levin, have argued that recent VA budget proposals shift a large share of new medical care funding away from the VA system toward private community care providers, describing this as a “slow dismantling” of the VA and warning that such changes move the system closer to privatization and could undermine care quality and increase costs.",
+        "source_ids": [
+          "src_b6e73117c638",
+          "src_a31ee3a2a6d7"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "background_context",
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This summarizes an op-ed and official communication; it reflects the author’s interpretation of the budget’s effects rather than a consensus factual finding.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @repstansbury.bsky.social",
+        "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+        "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+        "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "repstansbury.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @repstansbury.bsky.social",
+        "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+        "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+        "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "repstansbury.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_b6e73117c638",
+        "title": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | U.S. Congressman Mike Levin",
+        "url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system#",
+        "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+        "content": "Military.com: The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coordinated care. Meanwhile, inside the VA, staff morale is declining, hiring is harder, and burnout is rising. When professionals see funding shift",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+        "canonical_url": "https://levin.house.gov/media/op-eds/militarycom-the-new-va-budget-pushes-to-privatize-care-risking-the-veterans-health-system",
+        "published_at": "2025-07-17T00:00:00",
+        "publisher": "levin.house.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "src_a31ee3a2a6d7",
+        "title": "The New VA Budget Pushes to Privatize Care, Risking the Veterans Health System | Military.com",
+        "url": "https://www.military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html#",
+        "snippet": "On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers.",
+        "content": "The opinions expressed in this op-ed are those of the author and do not necessarily reflect the views of Military.com. If you would like to submit your own commentary, please send your article to opinions@military.com for consideration. While the recent headlines have been dominated by the passage of President Donald Trump's \"Big Beautiful Bill\" and its impacts on Medicaid and food assistance, something critical is happening that every veteran -- and every American who honors their service -- needs to know. On the surface, the new Department of Veterans Affairs budget proposal from the Trump administration and House Republicans looks generous. It increases total VA health care funding. However, nearly 75% of all new medical care funding is not going to the VA system at all. Instead, it is being shifted to outside private providers. That includes a $14.4 billion increase in funding for community care, a 67% jump from last year, and there has been no clear explanation for why this massive increase is necessary. Community care was created during the Obama administration and expanded during the first Trump administration, all for good reasons. If a veteran lives in a rural area, faces long wait times, or needs care the VA cannot provide, they should be able to get help from a provider in their community. That is something I have long supported. But what is happening now is something very different. We are watching the slow dismantling of the VA from the inside out, buried in a budget document. If left unchecked, this will fundamentally weaken the VA system that millions of veterans rely on. This is not just bad policy. It is also unnecessary. In 2024, veteran trust in VA health care reached a record 92%. Veterans are increasingly choosing the VA for their health care needs not because they are forced to, but because they trust the care they receive. Study after study shows that VA outpatient care is as good or better than care in the private sector, especially when it comes to mental health and chronic conditions, because VA doctors treat those every day. That kind of expertise and continuity cannot be replicated by a for-profit network that does not speak the same language. I represent a district home to tens of thousands of veterans. I spent six years on the House Veterans' Affairs Committee and now serve on the House Appropriations Subcommittee that oversees the VA's budget. I've worked with Republicans and Democrats alike to make sure veterans get the care they've earned. No matter our politics, we've always agreed that, when it comes to caring for those who served, we don't cut corners and we don't break promises. Some of my Republican colleagues say this budget offers veterans more choice. But real choice means being able to choose the VA or the private sector, based on your needs. What this budget does is shift the balance so far toward the private sector that the VA itself may not be there in the coming years for veterans to choose at all. This is not an expansion of choice. It is the slow defunding of the one health care system built specifically for veterans. It is also part of a broader agenda. This shift mirrors the goals laid out in Project 2025, a think tank's blueprint crafted by authors, including a slew that have joined the Trump administration, that is already reshaping the federal government. One of its aims is to privatize the VA, and this budget quietly moves us one step closer to that outcome. The VA budget bill passed the House of Representatives in late June, and the Senate has yet to act on its version of the bill. I urge my Senate colleagues to safeguard VA health care and reverse this effort to privatize the VA. We know that VA privatization not only leads to worse care but also costs taxpayers more money. The Congressional Budget Office has found that private-sector care often costs more than equivalent VA care. A Rand study showed that veterans in the private system face longer wait times and less coor",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "proposals or legislation to privatize the U.S. Department of Veterans Affairs 2024 2025",
+        "canonical_url": "https://military.com/daily-news/opinions/2025/07/17/new-va-budget-pushes-privatize-care-risking-veterans-health-system.html",
+        "published_at": "2025-07-17T00:00:00",
+        "publisher": "military.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_75c25e25a613",
+        "title": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+        "url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran#",
+        "snippet": "ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by ...",
+        "content": "VIDEO: Rep. Stansbury Fights for Veterans, VA, Opposes Trump Cuts to Vital Veteran Programs Congresswoman joins local lawmakers for a Veterans Town Hall ALBUQUERQUE — Rep. Melanie Stansbury (NM-01) joined New Mexico state lawmakers and community leaders for a veterans town hall to answer questions directly from veterans on issues that impact them in light of the Trump administration’s cuts to the VA, and attacks on our service members by Secretary of Defense Pete Hegseth. The Congresswoman joined New Mexico State Representative Debbie Sariñana (D-Albuquerque), New Mexico State Senator Harold Pope Jr. (D-Albuquerque), and U.S. Marine Corps veteran Frank Smith. Rep. Sariñana and Sen. Pope both served in the U.S. Air Force. Watch the video here. “The most patriotic thing we can do is to resist,” said Rep. Melanie Stansbury (NM-01). “The most patriotic thing we can do right now is to speak out. The most patriotic thing we can do is engage in acts of resistance and supporting our communities. And the most patriotic thing we can do is continue to serve our communities, to fight for our communities, and to fight for our democracy because we will win.” Secretary Pete Hegseth has directed cuts aimed at what’s being labeled “wasteful” spending: - Over $580 million in contracts and programs have been canceled. - Major cuts include $1.8 billion from consulting contracts at the Defense Health Agency, $1.4 billion from cloud IT services, and $500 million from Navy business consulting. - Eleven contracts related to DEI, climate change, and COVID-19 were also terminated. - A $500 million DARPA help desk contract was cut due to duplication. - The Department of Defense is working with DOGE (Department of Government Efficiency), which has identified $800 million in additional spending to eliminate. - There are plans to in-source IT roles, shifting those duties to civilian staff. The VA started aggressive contract reviews and program cuts: - Effective May 1, the VA ended the Veterans Affairs Servicing Purchase (VASP) program, which had been the only available mortgage assistance tool for many at-risk veterans. This has increased the risk of foreclosure for thousands of veteran families. - VA has canceled 585 contracts worth $1.8 billion, redirecting about $900 million to healthcare and benefits. Most of the canceled contracts were described as non-mission critical, but some provided administrative or support services that may now fall back on already strained internal resources. ###",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Melanie Stansbury position on VA privatization veterans affairs"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Melanie Stansbury position on VA privatization veterans affairs",
+        "canonical_url": "https://stansbury.house.gov/media/press-releases/video-rep-stansbury-fights-veterans-va-opposes-trump-cuts-vital-veteran",
+        "published_at": "2025-06-23T00:00:00",
+        "publisher": "stansbury.house.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "src_d6c589d57f16",
+        "title": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions - Senator Ben Ray Luján",
+        "url": "https://www.lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions/#",
+        "snippet": "WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G.",
+        "content": "N.M. Delegation Condemns Trump’s Plan to Cut Veterans Health Administration Positions WASHINGTON — U.S. Senator Martin Heinrich (D-N.M.), a member of the U.S. Senate Military Construction and Veterans Affairs Appropriations Subcommittee, U.S. Senator Ben Ray Luján (D-N.M.), and U.S. Representatives Teresa Leger Fernández (D-N.M.), Melanie Stansbury (D-N.M.), and Gabe Vasquez (D-N.M.) released the following statement condemning the Trump Administration’s announced plan to eliminate tens of thousands of positions within the Veterans Health Administration, which could include positions at the Raymond G. Murphy U.S. Department of Veterans Affairs (VA) Medical Center in Albuquerque and Community Based Outpatient Clinics (CBOCs) in New Mexico. “New Mexico veterans answered the call to serve our country and defend our freedoms. We owe it to these men and women to honor their sacrifice and ensure they have access to the care they have earned. The VA must be held accountable for plans to cut their essential workforce and for President Trump’s pattern of disrespecting our veterans by further delaying their care and benefits. “This is just another step toward the Trump Administration’s goal of privatizing the VA. Let’s be clear: New Mexico veterans do not want a private VA. They want a better VA that is their own. We will fight like hell to protect their VA and ensure these heroes receive the health care they were promised.” The VA has already lost more than 30,000 employees this year and Trump’s newest plan to eliminate tens of thousands more jobs will only exacerbate staffing shortages due to mass firings, hiring freezes, and contract cancellations earlier this year. Eliminating vacant positions will only make it even harder for VA to meet increased demand for services as more than one million veterans enrolled as a result of the expanded eligibility under the PACT Act for toxic exposure, as well as urgently needed mental health care resources aimed at reducing the veteran suicide rate. While the VA has not announced how many positions will be cut from New Mexico, the plan would shrink the VA’s essential workforce across the country. Today, N.M. Delegation staff asked the VA if any positions at the Raymond G. Murphy VA Medical Center will be cut and how those cuts will be determined. But the VA did not provide any answers specific to New Mexico. The N.M. Delegation will continue to press the Trump Administration for transparency and concrete answers on these planned VA cuts and their impacts on essential medical services for New Mexico veterans. Earlier this year, Heinrich and Luján introduced the Putting Veteran’s First Act, which reverses the chaos and damage created at the VA by the Trump Administration. Additionally, Heinrich and Luján called on VA Secretary Doug Collins to immediately reinstate the more than 1,000 VA employees terminated in February who serve veterans and their families nationwide, including critical employees combatting veteran suicide working at the Veterans Crisis Line. This week, Heinrich and Vasquez successfully passed their TRICARE Travel Improvement Act to ensure active-duty service members and their families can be reimbursed when they travel for medical care. In March, Vasquez introduced the New Mexico Rural Veteran Health Care Access Actto protect access to care for rural veterans living in Otero and Eddy counties. In 2022, Heinrich, Lujan, Leger Fernández, and Stansbury also successfully defeated recommendations put forth to the Asset and Infrastructure Review (AIR) Commission, which threatened to close the CBOCs in Gallup, Las Vegas, Española, and Raton, New Mexico. ###",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Melanie Stansbury position on VA privatization veterans affairs"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Melanie Stansbury position on VA privatization veterans affairs",
+        "canonical_url": "https://lujan.senate.gov/newsroom/press-releases/n-m-delegation-condemns-trumps-plan-to-cut-veterans-health-administration-positions",
+        "published_at": "2025-12-18T00:00:00",
+        "publisher": "lujan.senate.gov",
+        "source_category": "primary_official",
+        "source_role": "official_position"
+      },
+      {
+        "id": "src_15772b8826ea",
+        "title": "Representative's Message to Area Veterans",
+        "url": "https://www.mountainairdispatch.com/representatives-message-to-area-veterans-20250617/#",
+        "snippet": "Melanie Stansbury · Senator Pope, also an Air Force veteran and the <strong>chairperson of the State senate Military and Veterans Affairs Interim Committee</strong>, began by advising veterans that the state legislature needed to hear concerns from veterans ...",
+        "content": "US Representative Melanie Stansbury (NM-1) conducted an event for veterans at Manzano High School in Albuquerque on June 17, 2025, at which Stansbury was joined by State Representative Debra Sariñana (HD-21), Harold Pope (SD-23), Frank Smith, a legislative advocate with the Military and Veterans Caucus (Smith unsuccessfully rant for HD-23), and State Representative Tara Lujan (HD-48). Stansbury also held a virtual town hall on June 18, 2025, that focused on immigration matters. Representative Sariñana, an Air Force Veteran and military spouse, began the veterans’ forum by encouraging the veterans in the audience to run for office, noting that she was the only veteran in the New Mexico House of Representatives. Sariñana stated that the New Mexico Department of Veterans Services offers programs to assist rural veterans, including medical transportation, homelessness programs, and suicide prevention initiatives designed to fill gaps left by cuts to VA programs. She noted that the state would be offering veterans a lifetime pass to state parks. Sariñana also discussed a mobile veterans' services office that will conduct rural outreach to veterans across the state. US Representative Stansbury introduced herself as a member of a US Marine Corps family and stressed that her office was there to help, given the changes in the federal government. “Whether you’re a veteran, if you work for the military, [if you’re] a federal worker, or [if] you’re just having an issue with a federal agency, one of the things that a congressional office does is act as an advocate, and so if you’re having issues with a veteran’s claim, you’re having issues with your disability, you’re having issues with the VA, please contact my office.” -- Rep. Melanie Stansbury Stansbury said she had signed up to be in a leadership role on the Department of Government Efficiency Subcommittee to fight back against the intended cuts to federal services. “ Certainly, there are a number of workers, doctors, nurses and administrators at the VA here in Albuquerque that were fired as part of the mass firings. [Republicans] are trying to claim that that did not happen, but thousands of veterans lost their jobs in those mass firings. [Democrats are] fighting back in the courts and in Congress, and we're winning. And so the courts have now ordered the rehiring of all VA staff who were fired in the mass firing and they they're working to try to get everyone back.” -- Rep. Melanie Stansbury Stansbury expressed concerns regarding the activities of the Trump Administration. She acknowledged that, as a legislator in the minority party, her ability to undo the activities of the Trump Administration was limited. “And so we're working in our role in Congress as the minority party to fight back and to support the court efforts by the states to stop that dismantling. Now, I know a lot of people ask, ‘Well, why isn't it happening faster? Why isn't it more aggressive?’ And part of the challenge right now is that the tools that you have in Congress to provide that oversight and accountability require that you have the votes, and right now, we do not have the votes to hold this president and this administration accountable the way that they should be held accountable....” -- Rep. Melanie Stansbury Senator Pope, also an Air Force veteran and the chairperson of the State senate Military and Veterans Affairs Interim Committee, began by advising veterans that the state legislature needed to hear concerns from veterans before the start of the legislative session (the regular session typically begins in the end of January), as budgets are already set by the time the legislature meets. Pope explained to the audience that only one household member could get the 100% disabled tax exemption (in the amount of $10,000) on a household’s primary residence. Smith explained that the caucus he served as a legislative advocate primarily focused on getting veteran-oriented legislation passed by the New Mexico Leg",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Melanie Stansbury position on VA privatization veterans affairs"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Melanie Stansbury position on VA privatization veterans affairs",
+        "canonical_url": "https://mountainairdispatch.com/representatives-message-to-area-veterans-20250617",
+        "published_at": "2025-06-30T00:00:00",
+        "publisher": "mountainairdispatch.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 26940
+  }
+}

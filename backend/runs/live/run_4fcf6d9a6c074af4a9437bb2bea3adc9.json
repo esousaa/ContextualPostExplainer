@@ -1,0 +1,957 @@
+{
+  "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:22:48.994691+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:22:21.533892+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:21.533987+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:22:21.534326+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:21.534422+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:22:21.534747+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:22.804713+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1269
+    },
+    {
+      "timestamp": "2026-05-16T03:22:22.805224+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:22.805301+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:22:22.805672+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:24.680054+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1874
+    },
+    {
+      "timestamp": "2026-05-16T03:22:24.680567+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:31.584360+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6902
+    },
+    {
+      "timestamp": "2026-05-16T03:22:31.584947+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:39.075727+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 7490
+    },
+    {
+      "timestamp": "2026-05-16T03:22:39.076280+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:39.692989+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 616
+    },
+    {
+      "timestamp": "2026-05-16T03:22:39.693569+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.988032+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8550
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.988528+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.988675+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.989034+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.989103+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.989375+00:00",
+      "event": "node_started",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T03:22:48.989453+00:00",
+      "event": "node_completed",
+      "run_id": "run_4fcf6d9a6c074af4a9437bb2bea3adc9",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+  "status": "completed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+    "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+    "Elizabeth Warren most progressive senator ranking 2019 2020 Voteview GovTrack",
+    "2020 Democratic primary debates criticism of Kamala Harris record Russian bots narrative"
+  ],
+  "metrics": {
+    "search_results_received": 37,
+    "search_results_by_provider": {
+      "brave": 17,
+      "tavily": 20
+    },
+    "search_provider_overlap": [
+      {
+        "canonical_url": "https://washingtontimes.com/news/2024/jul/28/kamala-harris-had-more-leftist-voting-record-in-se",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+          ],
+          "tavily": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+          ]
+        },
+        "titles": [
+          "Kamala Harris had a more leftist voting record in Senate than Bernie Sanders"
+        ]
+      },
+      {
+        "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 3,
+        "queries_by_provider": {
+          "brave": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+          ],
+          "tavily": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+            "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ]
+        },
+        "titles": [
+          "Kamala Harris More Liberal Than Bernie Sanders, Senate Record ...",
+          "Kamala Harris More Liberal Than Bernie Sanders, Senate Record Analysis Shows - Newsweek"
+        ]
+      },
+      {
+        "canonical_url": "https://x.com/RemakingManhood/status/1883637277085315412",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "tavily": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+          ],
+          "brave": [
+            "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ]
+        },
+        "titles": [
+          "Kamala Harris has a more progressive US Senate voting ...",
+          "Kamala Harris has a more progressive US Senate voting record ..."
+        ]
+      },
+      {
+        "canonical_url": "https://govtrack.us/congress/members/elizabeth_warren/412542/report-card/2020",
+        "providers": [
+          "brave",
+          "tavily"
+        ],
+        "result_count": 2,
+        "queries_by_provider": {
+          "brave": [
+            "Elizabeth Warren most progressive senator ranking 2019 2020 Voteview GovTrack"
+          ],
+          "tavily": [
+            "Elizabeth Warren most progressive senator ranking 2019 2020 Voteview GovTrack"
+          ]
+        },
+        "titles": [
+          "Sen. Elizabeth Warren [D-MA, 2013-2030]’s 2020 Report Card from GovTrack.us",
+          "Sen. Elizabeth Warren's 2020 Report Card - GovTrack"
+        ]
+      }
+    ],
+    "search_provider_overlap_count": 4,
+    "search_results_discarded": [
+      {
+        "id": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481"
+      },
+      {
+        "id": "https://www.washingtontimes.com/news/2024/jul/28/kamala-harris-had-more-leftist-voting-record-in-se/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.washingtontimes.com/news/2024/jul/28/kamala-harris-had-more-leftist-voting-record-in-se/"
+      },
+      {
+        "id": "https://x.com/RemakingManhood/status/1883637277085315412",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://x.com/RemakingManhood/status/1883637277085315412"
+      },
+      {
+        "id": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481"
+      },
+      {
+        "id": "https://www.govtrack.us/congress/members/elizabeth_warren/412542/report-card/2020",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.govtrack.us/congress/members/elizabeth_warren/412542/report-card/2020"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.washingtontimes.com/news/2024/jul/28/kamala-harris-had-more-leftist-voting-record-in-se/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://x.com/RemakingManhood/status/1883637277085315412",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@ssantiagomayer/post/DYXEOdrjadZ/so-in-summary-she-did-in-fact-have-a-more-progressive-voting-record-than/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://politics.stackexchange.com/questions/56345/does-kamala-harris-vote-with-trumps-position-less-often-than-bernie-sanders",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.quora.com/GovTrack-just-DELETED-their-2019-page-that-ranked-Kamala-Harris-as-the-MOST-LIBERAL-of-all-100-Senators-Why-did-it-hide-Harris-is-more-liberal-than-Bernie-Sanders-painting-her-as-a-moderate-liberal",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_90dbfe0a5703",
+        "title": "Comparing Kamala Harris's Voting Record to another senator in the 115th Congress | Represent | ProPublica",
+        "url": "https://projects.propublica.org/represent/#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 4,
+      "tavily": 3,
+      "brave, tavily": 1
+    },
+    "ranked_multi_provider_source_count": 1,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "brave": 3,
+      "tavily": 2,
+      "brave, tavily": 1
+    },
+    "cited_multi_provider_source_count": 1
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8467729265494455
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her re",
+      "content": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her record during the campaign was disgusting. There was no excuse for it unless you WANTED the current hellscape we're living in. There was one way to prevent this: VOTING FOR KAMALA.\n\nJust making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8396939240769558
+    },
+    {
+      "id": "src_33b33f9ce4d1",
+      "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record Analysis Shows - Newsweek",
+      "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+      "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer than people might think.",
+      "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+      "source_type": "web",
+      "provider": "brave, tavily, brave, tavily",
+      "providers": [
+        "brave",
+        "tavily",
+        "brave, tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ],
+        "tavily": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ],
+        "brave, tavily": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 3,
+      "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+      "published_at": "2020-08-11T00:00:00",
+      "publisher": "newsweek.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7270665676550537
+    },
+    {
+      "id": "src_6521eea52f92",
+      "title": "Analysis of Kamala Harris's Economic Record | City Journal",
+      "url": "https://www.city-journal.org/article/analysis-of-kamala-harris-economic-record#",
+      "snippet": "According to DW-NOMINATE, a measure ... 2021, behind only Elizabeth Warren. In fact, her overall voting record is <strong>more liberal than that of Bernie Sanders</strong>....",
+      "content": "While Joe Biden campaigned as a moderate, he has governed as one of the most progressive presidents in modern American history. In 2020, Biden sought to distance himself from self-declared socialist Bernie Sanders; after Biden as president pursued massive stimulus and spending programs, Sanders became one of his biggest supporters. Now that Biden has announced that he will not pursue reelection, the Democratic nomination will likely fall to his vice president, Kamala Harris. While Harris may campaign as a moderate, analysis of her economic record does not support that label. Finally, a reason to check your email. Sign up for our free newsletter today. In her time in the Senate, Harris positioned herself on the far left of a Democratic Party already moving sharply to the left. According to DW-NOMINATE, a measure that compares the votes of senators and representatives and ranks members from -1 (most liberal) to 1 (most conservative) Harris was the second-most liberal member of the Senate when she served from 2017 to 2021, behind only Elizabeth Warren. In fact, her overall voting record is more liberal than that of Bernie Sanders. Though it is difficult to compare members across time, Harris’s score (-0.709), which is based largely on economic votes, ranks among the more left-wing in American history. Harris’s senatorial record differs starkly from that of her boss. While Biden shifted left on entering the White House, he remained a moderate across his nearly four-decade Senate career. His approximate -0.3 DW-NOMINATE score put him close to the middle of his party throughout his time in the upper chamber. When Harris was in the Senate, she introduced and co-sponsored bills that would have dramatically shifted U.S. policy leftward. In 2019, she unveiled a $10 trillion plan to reduce greenhouse gases to zero by 2045—five years faster than proposed in the uber-progressive Green New Deal. Harris also advocated for an end to fracking, a measure that, had it taken effect, would have stopped about two-thirds of all oil production in the United States. Her health-care record is similarly progressive. In 2017, Harris co-sponsored Sanders’s “Medicare for All” bill, which would have ended private insurance in America; “It’s just the right thing to do,” she said of her support for the bill. In preparation for her 2020 presidential campaign, she released a new plan that still would have extended Medicare to all Americans but that allowed private insurers to offer a plan within the government-run system. Both proposals were on the left of the Democratic Party, even the increasingly liberal party of the past five years. Indeed, Harris was not shy about tacking further left than her progressive compatriots. Whereas Senator Kirsten Gillibrand’s 2019 “FAMILY Act” would have provided three months of paid family leave at 66 percent of workers’ salaries on taxpayers’ dime, Harris proposed supporting up to six months of leave at up to 100 percent of workers’ income. She introduced the “Housing Is Infrastructure Act” in 2019, which would have spent $100 billion on new housing, including $70 billion set aside for publicly owned units. She also supported Sanders’s plan to make community colleges and even four-year public universities free for students from low- and middle-income families, despite an exorbitant price tag that Sanders said would amount to “at least $48 billion per year.” The then-California senator was especially radical during the pandemic. For example, she proposed $2,000 per month per person in free cash for the vast majority of U.S. households. She also introduced a bill that would have capped price increases at 10 percent during national emergencies. Had it been in force amid the inflationary period after the pandemic, such a policy could have created massive shortages across the economy. Harris’s rise to become the likely presidential nominee of the Democratic Party represents in some ways a return to the early days of 2020. In the l",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+      "canonical_url": "https://city-journal.org/article/analysis-of-kamala-harris-economic-record",
+      "published_at": "2024-07-25T00:00:00",
+      "publisher": "city-journal.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6861901908443651
+    },
+    {
+      "id": "src_3f3f57248e66",
+      "title": "Bernie Sanders: 'No, Kamala Harris Is Not More Progressive Than I Am' | Common Dreams",
+      "url": "https://www.commondreams.org/news/bernie-sanders-kamala-harris-progressive#",
+      "snippet": "&quot;<strong>Harris was rated &#x27;most liberal compared to All Senators</strong>,&#x27; GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.&quot;",
+      "content": "SUBSCRIBE TO OUR FREE NEWSLETTER Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. 5 #000000 #FFFFFF Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. In a note to supporters, the Vermont senator rebutted former President Donald Trump's claim that the Democratic nominee was the country's \"most liberal senator.\" Sen. Bernie Sanders on Tuesday refuted Republican presidential nominee Donald Trump's characterization of his 2024 Democratic opponent as the \"most liberal senator\" in the U.S., writing in an email to supporters that \"for better or for worse, Kamala Harris is not more progressive than I am.\" \"It is always hard to respond to Trump's lies because, a day later, his lies become even more preposterous,\" wrote Sanders (I-Vt.), responding to \"the constant claim\" from Trump, Republican lawmakers, and right-wing media outlets \"that Kamala Harris is more 'radical' and more 'far left' than Bernie Sanders.\" \"But, as we come together to defeat Trump and elect the vice president,\" Sanders continued, \"let me just remind you of one simple fact: The so-called 'radical' and 'far left' agenda that we are fighting for is, in poll after poll, far more popular than Donald Trump, more popular than the Republican Party, and it is supported by a strong majority of the American people, including Republicans and Independents.\" \"More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy our planet, letting drug companies charge whatever they want for medicine... That is radical.\" Sanders' message to supporters came a day after Trump wrote in a Truth Social post that Sen. Elizabeth Warren (D-Mass.) \"is considered far more Conservative in the U.S. Senate than Comrade Kamala Harris ever was.\" \"She will only bring us Poverty, Chaos, and Heartache! Kamala is rated, by far, the Number One Most Liberal Senator,\" the former president added. The Washington Post's Philip Bump observed in a column Tuesday that Trump's post was rooted \"in a line of attack deployed during the 2020 election.\" \"Then, Trump's allies seized upon a rating from the government-data organization GovTrack that assessed Harris' record in the Senate in 2019,\" Bump wrote. \"Harris was rated 'most liberal compared to All Senators,' GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.\" \"But GovTrack's analysis of Harris’s entire tenure in the Senate paints a different picture,\" he added. \"In the 116th Congress, the one that ran through 2019 and 2020, Harris was the fourth-most liberal senator, according to GovTrack, coming in behind Sens. Bernie Sanders (I-Vt.), Kirsten Gillibrand (D-N.Y.), and Jeff Merkley (D-Ore.).\" Trump's Truth Social post echoed rhetoric that he has deployed at recent campaign rallies in an effort to cast Harris as a \"radical left believer.\" In his email to supporters on Tuesday, Sanders wrote that \"when Trump, Republicans, and even some members of the corporate media try to scare you with words like 'radical' and 'far left,' it's important to understand what those policies actually mean and to know that these 'radical' ideas are already in place in many countries around the world.\" \"When we talk about guaranteeing healthcare as a right for all our people, we're talking about the ability to get the healthcare you and your loved ones need without fear of going bankrupt. We're talking about the ability to change jobs without fear of losing your healthcare,\" Sanders wrote. \"When we talk about paid family and medical leave, we're talking about being able to spend the first few months with your newborn child without rushing back to work the next week.\" \"That is NOT a radical agenda,\" he added. \"The Republican Party and Donald Trump: More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://commondreams.org/news/bernie-sanders-kamala-harris-progressive",
+      "published_at": "2024-08-27T00:00:00",
+      "publisher": "commondreams.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6838591286438763
+    },
+    {
+      "id": "src_3335dfe493bc",
+      "title": "Kamala Harris' legislative record is about as liberal as it gets in the Senate | The Independent | The Independent",
+      "url": "https://www.independent.co.uk/news/world/americas/us-election/kamala-harris-vice-president-voting-record-senate-policies-us-election-a9675071.html#",
+      "snippet": "Senator Kamala Harris has been one of the most progressive senators since entering office in 2017, according to her legislative record. (Photo courtesy AFP via Getty Images) (AFP via Getty Images) Senator Kamala Harris has spent the last three and a half years in Washington cultivating one of the most ideologically pure liberal records of anyone not named Bernie Sanders.",
+      "content": "Senator Kamala Harris has spent the last three and a half years in Washington cultivating one of the most ideologically pure liberal records of anyone not named Bernie Sanders. From flagship Democratic bills she has helped author on policing reform and environmental regulations to her voting record on North American trade and Donald Trump’s political and judicial appointments, Ms Harris has aligned herself with the principal liberal thrust of the Democratic party. The California freshman, who was tapped last week to be Democratic presidential nominee Joe Biden’s running mate this fall, has voted with Democrats more than 99 per cent of the time since taking office, according to several different metrics, including the CQ Party Unity score. Ms Harris was one of just 14 Democratic senators in 2017 and 10 in 2018 to receive a perfect voting score from the liberal watchdog group Americans for Democratic Action. In a video released shortly after Mr Biden’s announcement last week, the Trump campaign branded Ms Harris “the most radical nominee for vice president in American history.” Yet after nearly four years of mostly unflinching liberal purity, she still can’t seem to exorcise the ghosts of her career as a California prosecutor and attorney general, where, progressives argue, she was too harsh on non-violent criminals and too supportive of current policing norms. “There's some concern about her law enforcement record,” said Amy Steigerwalt, a professor of political science at Georgia State University, who noted that while Ms Harris has taken a leading role among her colleagues on policing and criminal justice reform since arriving to the Senate in 2017, her past decisions at the state level — such as criminally punishing parents for their children’s truancy at school — have left some observers questioning her overall legislative sincerity. Here is a more granular look at the senator’s record issue by issue: The economy Being the minority party in Congress has a remarkable way of fostering ideological unity, and Ms Harris was one of the least likely Democratic senators to stray on the economy. Along with every other Democrat, she voted against the 2017 Republican tax code overhaul that provided breaks across the board for high- and middle-income families but added trillions of dollars to the national debt. As a presidential candidate in May 2019, Ms Harris called for the full repeal of that law — its tax breaks for the wealthy, corporations, and middle class earners alike. “Get rid of the whole thing,” Ms Harris said after a campaign event in Detroit, her position marking a distinct departure from other Democratic presidential hopefuls who supported the GOP law’s middle-class tax breaks but opposed lowering the corporate tax rate and giving breaks to top earners. Senator Kirsten Gillibrand of New York, another staunch liberal, for instance, had called for cementing the middle-class tax cuts but rolling back the law’s corporate rate reduction, putting those savings towards child tax and earned income credits. The coronavirus crisis introduced a whole different ballgame for economic legislating, and Ms Harris has been, again, one of the most liberal proponents of harnessing — and creating — government welfare programmes to ease financial burdens for Americans. The pandemic has even led her to embrace measures mirroring Andrew Yang’s universal basic income proposals for as long as Covid-19 continues to keep the US economy in the pits. In May, Ms Harris teamed with Mr Sanders and Massachusetts Senator Ed Markey to introduce the so-called Monthly Economic Crisis Support Act that would give nearly every American adult $2,000 per month for the duration of the pandemic, until the economy reached certain unemployment benchmarks. That legislation aligns her more with the policy proposals of the Congressional Progressive Caucus than with moderate Democrats who, while proposing robust stimulus check programmes, have been willing to compromise ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+      "canonical_url": "https://independent.co.uk/news/world/americas/us-election/kamala-harris-vice-president-voting-record-senate-policies-us-election-a9675071.html",
+      "published_at": "2020-08-17T00:00:00",
+      "publisher": "independent.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6768588874273694
+    },
+    {
+      "id": "src_7d243631825f",
+      "title": "GovTrack retracts its rating that had Harris as most liberal ...",
+      "url": "https://nypost.com/2024/07/25/us-news/govtrack-scrubbed-its-rating-that-had-kamala-harris-as-most-liberal-senator-in-2019-after-biden-dropped-out/#",
+      "snippet": "GovTrack, an organization that tracks voting records in Congress, yanked its 2019 rating that pegged then-Sen. Kamala Harris (D-Calif.) as the most liberal",
+      "content": "GovTrack, an organization that tracks voting records in Congress, yanked its 2019 rating that pegged then-Sen. Kamala Harris (D-Calif.) as the most liberal member of the upper chamber – after several media outlets including The Post cited the statistic in stories on the presumed Democratic presidential nominee. The website pulled down its 2019 ranking on Monday evening after it got renewed attention in the wake of President Biden’s seismic decision to drop out of the 2024 race on Sunday, its founder confirmed to The Post. GovTrack had previously determined in its single-year “report card” for 2019 that she was the most ideological to the left member of the upper chamber based on her legislative behavior. At the time, she was ranked even further to the left of Sens. Elizabeth Warren (D-Mass.) and Bernie Sanders (I-Vt.) – the latter of whom is typically considered the most left-leaning senator, including in the most recent metric available from GovTrack. The group’s founder Joshua Tauberer, who created the website when he was a college student in 2004, said the ranking in question was based on a single calendar year and that the organization “discontinued” those types of “report cards” several years back. “We determined that the limited data available in a single year was not sufficient to create a reliable portrait of the activity of legislators, particularly given the ebbs and flows of the legislative calendar, and therefore did not serve as a useful tool to our users and the American public,” he told The Post. “We subsequently took down the previously published single-calendar-year statistics for the same reason.” Tauberer previously warned in 2020 that GovTrack’s 2019 ranking of Harris was not reliable, telling the Washington Post at the time that it was at “odds with what other serious analysis of Harris’s career has found.” “I think the short answer is that both things can be true: She can both be sponsoring/co-sponsoring left-leaning legislation, something with typically little risk, while also being pragmatic when push comes to shove on risky and impactful decisions,” he added at the time. Back in 2019, Harris was only two years into her Senate term and had been angling for a presidential bid. She later walked back many of those positions – for example, clarifying that she supports private health insurance. But her 2020 campaign efforts have given ample fodder for Republicans now that she is the presumptive Democratic nominee for president. Former President Donald Trump and his allies have already seized on GovTrack’s old rating, with the Republican nominee alluding to it at a recent rally in Charlotte, NC. “Kamala Harris is the most liberal elected politician in American history. Did you know that? She’s an ultra-liberal politician. She’s absolutely terrible. She’s as you know more liberal than Bernie Sanders, can you believe it?” Trump chided. Sanders, himself, questioned that claim that she was to the left of him. “Probably not. It’s just possible that for the 83,000th time that Trump is lying. No, I don’t think that is the case,” Sanders told CNN Wednesday when asked about Trump’s remarks. In a recent attack ad against Sen. Bob Casey (D-Pa.), Keystone State Republican Dave McCormick spotlighted a clip of Harris responding to a question about the ranking in which she was seen smiling. “Bob Casey just endorsed the most liberal nominee in U.S. history,” McCormick, 58, jabbed in an X post featuring the spot. Trump’s 2020 campaign also spotlighted the ranking after Biden announced Harris as his runningmate.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://nypost.com/2024/07/25/us-news/govtrack-scrubbed-its-rating-that-had-kamala-harris-as-most-liberal-senator-in-2019-after-biden-dropped-out",
+      "published_at": "2024-07-25T00:00:00",
+      "publisher": "nypost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.636625716751437
+    },
+    {
+      "id": "src_cb20fbb40e78",
+      "title": "Kamala Harris scored as most liberal US senator in 2019",
+      "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+      "snippet": "Harris joined bipartisan legislation 'the least often compared to Senate Democrats,' says GovTrack analysis. By Brooke Singman Fox News.",
+      "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+      "published_at": "2020-08-12T00:00:00",
+      "publisher": "foxnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6207143489978214
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @santiagomayer.com",
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "santiagomayer.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.8467729265494455
+    },
+    {
+      "id": "src_33b33f9ce4d1",
+      "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record Analysis Shows - Newsweek",
+      "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+      "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer than people might think.",
+      "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+      "source_type": "web",
+      "provider": "brave, tavily, brave, tavily",
+      "providers": [
+        "brave",
+        "tavily",
+        "brave, tavily"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ],
+        "tavily": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ],
+        "brave, tavily": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 3,
+      "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+      "published_at": "2020-08-11T00:00:00",
+      "publisher": "newsweek.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7270665676550537
+    },
+    {
+      "id": "src_6521eea52f92",
+      "title": "Analysis of Kamala Harris's Economic Record | City Journal",
+      "url": "https://www.city-journal.org/article/analysis-of-kamala-harris-economic-record#",
+      "snippet": "According to DW-NOMINATE, a measure ... 2021, behind only Elizabeth Warren. In fact, her overall voting record is <strong>more liberal than that of Bernie Sanders</strong>....",
+      "content": "While Joe Biden campaigned as a moderate, he has governed as one of the most progressive presidents in modern American history. In 2020, Biden sought to distance himself from self-declared socialist Bernie Sanders; after Biden as president pursued massive stimulus and spending programs, Sanders became one of his biggest supporters. Now that Biden has announced that he will not pursue reelection, the Democratic nomination will likely fall to his vice president, Kamala Harris. While Harris may campaign as a moderate, analysis of her economic record does not support that label. Finally, a reason to check your email. Sign up for our free newsletter today. In her time in the Senate, Harris positioned herself on the far left of a Democratic Party already moving sharply to the left. According to DW-NOMINATE, a measure that compares the votes of senators and representatives and ranks members from -1 (most liberal) to 1 (most conservative) Harris was the second-most liberal member of the Senate when she served from 2017 to 2021, behind only Elizabeth Warren. In fact, her overall voting record is more liberal than that of Bernie Sanders. Though it is difficult to compare members across time, Harris’s score (-0.709), which is based largely on economic votes, ranks among the more left-wing in American history. Harris’s senatorial record differs starkly from that of her boss. While Biden shifted left on entering the White House, he remained a moderate across his nearly four-decade Senate career. His approximate -0.3 DW-NOMINATE score put him close to the middle of his party throughout his time in the upper chamber. When Harris was in the Senate, she introduced and co-sponsored bills that would have dramatically shifted U.S. policy leftward. In 2019, she unveiled a $10 trillion plan to reduce greenhouse gases to zero by 2045—five years faster than proposed in the uber-progressive Green New Deal. Harris also advocated for an end to fracking, a measure that, had it taken effect, would have stopped about two-thirds of all oil production in the United States. Her health-care record is similarly progressive. In 2017, Harris co-sponsored Sanders’s “Medicare for All” bill, which would have ended private insurance in America; “It’s just the right thing to do,” she said of her support for the bill. In preparation for her 2020 presidential campaign, she released a new plan that still would have extended Medicare to all Americans but that allowed private insurers to offer a plan within the government-run system. Both proposals were on the left of the Democratic Party, even the increasingly liberal party of the past five years. Indeed, Harris was not shy about tacking further left than her progressive compatriots. Whereas Senator Kirsten Gillibrand’s 2019 “FAMILY Act” would have provided three months of paid family leave at 66 percent of workers’ salaries on taxpayers’ dime, Harris proposed supporting up to six months of leave at up to 100 percent of workers’ income. She introduced the “Housing Is Infrastructure Act” in 2019, which would have spent $100 billion on new housing, including $70 billion set aside for publicly owned units. She also supported Sanders’s plan to make community colleges and even four-year public universities free for students from low- and middle-income families, despite an exorbitant price tag that Sanders said would amount to “at least $48 billion per year.” The then-California senator was especially radical during the pandemic. For example, she proposed $2,000 per month per person in free cash for the vast majority of U.S. households. She also introduced a bill that would have capped price increases at 10 percent during national emergencies. Had it been in force amid the inflationary period after the pandemic, such a policy could have created massive shortages across the economy. Harris’s rise to become the likely presidential nominee of the Democratic Party represents in some ways a return to the early days of 2020. In the l",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+      "canonical_url": "https://city-journal.org/article/analysis-of-kamala-harris-economic-record",
+      "published_at": "2024-07-25T00:00:00",
+      "publisher": "city-journal.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6861901908443651
+    },
+    {
+      "id": "src_3f3f57248e66",
+      "title": "Bernie Sanders: 'No, Kamala Harris Is Not More Progressive Than I Am' | Common Dreams",
+      "url": "https://www.commondreams.org/news/bernie-sanders-kamala-harris-progressive#",
+      "snippet": "&quot;<strong>Harris was rated &#x27;most liberal compared to All Senators</strong>,&#x27; GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.&quot;",
+      "content": "SUBSCRIBE TO OUR FREE NEWSLETTER Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. 5 #000000 #FFFFFF Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. In a note to supporters, the Vermont senator rebutted former President Donald Trump's claim that the Democratic nominee was the country's \"most liberal senator.\" Sen. Bernie Sanders on Tuesday refuted Republican presidential nominee Donald Trump's characterization of his 2024 Democratic opponent as the \"most liberal senator\" in the U.S., writing in an email to supporters that \"for better or for worse, Kamala Harris is not more progressive than I am.\" \"It is always hard to respond to Trump's lies because, a day later, his lies become even more preposterous,\" wrote Sanders (I-Vt.), responding to \"the constant claim\" from Trump, Republican lawmakers, and right-wing media outlets \"that Kamala Harris is more 'radical' and more 'far left' than Bernie Sanders.\" \"But, as we come together to defeat Trump and elect the vice president,\" Sanders continued, \"let me just remind you of one simple fact: The so-called 'radical' and 'far left' agenda that we are fighting for is, in poll after poll, far more popular than Donald Trump, more popular than the Republican Party, and it is supported by a strong majority of the American people, including Republicans and Independents.\" \"More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy our planet, letting drug companies charge whatever they want for medicine... That is radical.\" Sanders' message to supporters came a day after Trump wrote in a Truth Social post that Sen. Elizabeth Warren (D-Mass.) \"is considered far more Conservative in the U.S. Senate than Comrade Kamala Harris ever was.\" \"She will only bring us Poverty, Chaos, and Heartache! Kamala is rated, by far, the Number One Most Liberal Senator,\" the former president added. The Washington Post's Philip Bump observed in a column Tuesday that Trump's post was rooted \"in a line of attack deployed during the 2020 election.\" \"Then, Trump's allies seized upon a rating from the government-data organization GovTrack that assessed Harris' record in the Senate in 2019,\" Bump wrote. \"Harris was rated 'most liberal compared to All Senators,' GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.\" \"But GovTrack's analysis of Harris’s entire tenure in the Senate paints a different picture,\" he added. \"In the 116th Congress, the one that ran through 2019 and 2020, Harris was the fourth-most liberal senator, according to GovTrack, coming in behind Sens. Bernie Sanders (I-Vt.), Kirsten Gillibrand (D-N.Y.), and Jeff Merkley (D-Ore.).\" Trump's Truth Social post echoed rhetoric that he has deployed at recent campaign rallies in an effort to cast Harris as a \"radical left believer.\" In his email to supporters on Tuesday, Sanders wrote that \"when Trump, Republicans, and even some members of the corporate media try to scare you with words like 'radical' and 'far left,' it's important to understand what those policies actually mean and to know that these 'radical' ideas are already in place in many countries around the world.\" \"When we talk about guaranteeing healthcare as a right for all our people, we're talking about the ability to get the healthcare you and your loved ones need without fear of going bankrupt. We're talking about the ability to change jobs without fear of losing your healthcare,\" Sanders wrote. \"When we talk about paid family and medical leave, we're talking about being able to spend the first few months with your newborn child without rushing back to work the next week.\" \"That is NOT a radical agenda,\" he added. \"The Republican Party and Donald Trump: More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://commondreams.org/news/bernie-sanders-kamala-harris-progressive",
+      "published_at": "2024-08-27T00:00:00",
+      "publisher": "commondreams.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6838591286438763
+    },
+    {
+      "id": "src_cb20fbb40e78",
+      "title": "Kamala Harris scored as most liberal US senator in 2019",
+      "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+      "snippet": "Harris joined bipartisan legislation 'the least often compared to Senate Democrats,' says GovTrack analysis. By Brooke Singman Fox News.",
+      "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+      "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+      "published_at": "2020-08-12T00:00:00",
+      "publisher": "foxnews.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6207143489978214
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "santiagomayer.com",
+        "display_name": "Santiago Mayer",
+        "did": "did:plc:svj5xlrdsy7lyljls4kmaqmg"
+      },
+      "text": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+      "created_at": "2026-05-15T12:27:28.994000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "People replying saying this is a lie like it wasn’t a whole fucking thing during the 2020 primary lmao\n\nWarren was more progressive than both of them, if that helps.\n\nCough..ullshit…\n\nThe way some folks on the left (and maybe a lot were Russian bots, I don't know, but some were real) maligned her record during the campaign was disgusting. There was no excuse for it unless you WANTED the current hellscape we're living in. There was one way to prevent this: VOTING FOR KAMALA.\n\nJust making shit up now.  What other weird fan fic do you have chambered?\n\nWho's even talking about her?"
+    },
+    "explanation": [
+      {
+        "text": "The post claims that Kamala Harris had a more progressive (more liberal) Senate record than Bernie Sanders and argues that criticizing her current progressive rhetoric as hypocritical reflects a misunderstanding of her longstanding positions.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "A Newsweek article, summarizing GovTrack’s ideology scores based on patterns of bill sponsorship and co‑sponsorship, reports that GovTrack scored Kamala Harris at 0.00 and Bernie Sanders at 0.02 on a 0.0–1.0 liberal–conservative scale, and describes Harris as ranking slightly more liberal than Sanders, with both among the most liberal senators.",
+        "source_ids": [
+          "src_33b33f9ce4d1"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This comparison reflects GovTrack’s specific methodology and time frame and does not represent all possible measures of ideology.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A City Journal article, citing the DW‑NOMINATE voting measure, states that Harris was the second‑most liberal senator during her 2017–2021 tenure (behind Elizabeth Warren) and that, according to that metric, her overall voting record was more liberal than Bernie Sanders’s.",
+        "source_ids": [
+          "src_6521eea52f92"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "DW‑NOMINATE is one of several ideological scoring systems; other analyses may rank Harris and Sanders differently.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Reporting on GovTrack’s ratings, Fox News notes that the site scored Harris as the “most liberal” U.S. senator in 2019, placing her to the left of Bernie Sanders and Elizabeth Warren based on her pattern of bill co‑sponsorship and her relatively infrequent participation in bipartisan legislation that year.",
+        "source_ids": [
+          "src_cb20fbb40e78"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This rating is limited to GovTrack’s 2019 methodology and single‑year snapshot and does not, by itself, establish her as more liberal across her entire career.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A Common Dreams report recounts that Bernie Sanders told supporters that, in his view, “for better or for worse, Kamala Harris is not more progressive than I am,” pushing back against claims that she is to his left and illustrating that political figures themselves dispute how to compare their ideological positions.",
+        "source_ids": [
+          "src_3f3f57248e66"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This quote reflects Sanders’s own political self‑assessment and rebuttal; it is not an independent ideological ranking.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @santiagomayer.com",
+        "url": "https://bsky.app/profile/santiagomayer.com/post/3mlvdf35orc24",
+        "snippet": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "content": "Kamala Harris had a more progressive voting record in the Senate than Bernie Sanders. \n\nIf you’re acting like her talking about progressive priorities is hypocritical or a flip flop, you just don’t know her. This who she’s always been.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "santiagomayer.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_33b33f9ce4d1",
+        "title": "Kamala Harris More Liberal Than Bernie Sanders, Senate Record Analysis Shows - Newsweek",
+        "url": "https://www.newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481#",
+        "snippet": "When ranked by legislative behavior and how similar their bills and resolutions are to other congress members, Harris and Sanders are closer than people might think.",
+        "content": "Democratic presidential nominee Joe Biden's pick for his vice presidential running mate, Democratic California Senator Kamala Harris, was ranked as being more liberal than Democratic Vermont Senator Bernie Sanders, the congressperson often considered the furthest left within the Democratic caucus. The government watchdog website GovTrack.us ranked all 100 U.S. Senators with an \"ideology score\" from 1.0 (most conservative) to 0.0 (most liberal). The score is based on each senator's legislative behavior: namely, how similar the pattern of bills and resolutions they co-sponsor are to other congress members. \"Members of Congress with similar political views will tend to cosponsor the same set of bills, or bills by the same set of authors, and inversely Members of Congress with different political views will tend to cosponsor different bills,\" the website explains. GovTrack.us gave Sanders an ideology score of 0.02 and Harris a score of 0.00. together, they ranked as the most liberal members of the Senate. The website said Harris joined bipartisan bills the least often compared to Senate Democrats. \"Of the 471 bills that Harris cosponsored, 15 percent were introduced by a legislator who was not a Democrat,\" the website stated. She may have scored as slightly more liberal than Sanders because one of her authored bills actually became a law whereas none of Sanders' have—it's actually rare for any bill to become a law, according to the website. Newsweek contacted GovTrack.us for comment. The close liberal rating of Harris and Sanders may not be altogether surprising considering that Harris co-sponsored Sanders' 2017 \"Medicare for All\" national healthcare plan, although Harris has since said that she differs from Sanders' healthcare plan in three key ways. During her time as a Democratic presidential candidate, Harris' tax plan was modeled after Sanders' tax plan. Also, Harris and Sanders both recently supported giving all U.S. citizens $2,000 a month during the ongoing coronavirus epidemic. \"A higher or lower (ideology score) doesn't necessarily make a legislator any better or worse, or more or less effective, than other members of Congress,\" GovTrack.us explains. \"There are many important aspects of being a legislator besides what can be measured, such as constituent services and performing oversight of the executive branch, which aren't reflected [in our ideology scoring],\" the website continues. At Tuesday's daily coronavirus briefing Trump said, \"[Harris is] also known, from what I understand, as being just about the most liberal person in the U.S. Senate. And I would have thought that Biden would have tried to stay away from that a little bit.\" Trump then claimed that Harris and Biden are trying to protect \"a large number of criminals\" and \"take away your Second Amendment,\" the right to own guns—both are part of his larger efforts to paint Biden and Harris as beholden to the so-called \"radical left.\"",
+        "source_type": "web",
+        "provider": "brave, tavily, brave, tavily",
+        "providers": [
+          "brave",
+          "tavily",
+          "brave, tavily"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ],
+          "tavily": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+            "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ],
+          "brave, tavily": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ]
+        },
+        "provider_result_count": 3,
+        "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary | \"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+        "canonical_url": "https://newsweek.com/kamala-harris-more-liberal-bernie-sanders-senate-record-analysis-shows-1524481",
+        "published_at": "2020-08-11T00:00:00",
+        "publisher": "newsweek.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_6521eea52f92",
+        "title": "Analysis of Kamala Harris's Economic Record | City Journal",
+        "url": "https://www.city-journal.org/article/analysis-of-kamala-harris-economic-record#",
+        "snippet": "According to DW-NOMINATE, a measure ... 2021, behind only Elizabeth Warren. In fact, her overall voting record is <strong>more liberal than that of Bernie Sanders</strong>....",
+        "content": "While Joe Biden campaigned as a moderate, he has governed as one of the most progressive presidents in modern American history. In 2020, Biden sought to distance himself from self-declared socialist Bernie Sanders; after Biden as president pursued massive stimulus and spending programs, Sanders became one of his biggest supporters. Now that Biden has announced that he will not pursue reelection, the Democratic nomination will likely fall to his vice president, Kamala Harris. While Harris may campaign as a moderate, analysis of her economic record does not support that label. Finally, a reason to check your email. Sign up for our free newsletter today. In her time in the Senate, Harris positioned herself on the far left of a Democratic Party already moving sharply to the left. According to DW-NOMINATE, a measure that compares the votes of senators and representatives and ranks members from -1 (most liberal) to 1 (most conservative) Harris was the second-most liberal member of the Senate when she served from 2017 to 2021, behind only Elizabeth Warren. In fact, her overall voting record is more liberal than that of Bernie Sanders. Though it is difficult to compare members across time, Harris’s score (-0.709), which is based largely on economic votes, ranks among the more left-wing in American history. Harris’s senatorial record differs starkly from that of her boss. While Biden shifted left on entering the White House, he remained a moderate across his nearly four-decade Senate career. His approximate -0.3 DW-NOMINATE score put him close to the middle of his party throughout his time in the upper chamber. When Harris was in the Senate, she introduced and co-sponsored bills that would have dramatically shifted U.S. policy leftward. In 2019, she unveiled a $10 trillion plan to reduce greenhouse gases to zero by 2045—five years faster than proposed in the uber-progressive Green New Deal. Harris also advocated for an end to fracking, a measure that, had it taken effect, would have stopped about two-thirds of all oil production in the United States. Her health-care record is similarly progressive. In 2017, Harris co-sponsored Sanders’s “Medicare for All” bill, which would have ended private insurance in America; “It’s just the right thing to do,” she said of her support for the bill. In preparation for her 2020 presidential campaign, she released a new plan that still would have extended Medicare to all Americans but that allowed private insurers to offer a plan within the government-run system. Both proposals were on the left of the Democratic Party, even the increasingly liberal party of the past five years. Indeed, Harris was not shy about tacking further left than her progressive compatriots. Whereas Senator Kirsten Gillibrand’s 2019 “FAMILY Act” would have provided three months of paid family leave at 66 percent of workers’ salaries on taxpayers’ dime, Harris proposed supporting up to six months of leave at up to 100 percent of workers’ income. She introduced the “Housing Is Infrastructure Act” in 2019, which would have spent $100 billion on new housing, including $70 billion set aside for publicly owned units. She also supported Sanders’s plan to make community colleges and even four-year public universities free for students from low- and middle-income families, despite an exorbitant price tag that Sanders said would amount to “at least $48 billion per year.” The then-California senator was especially radical during the pandemic. For example, she proposed $2,000 per month per person in free cash for the vast majority of U.S. households. She also introduced a bill that would have capped price increases at 10 percent during national emergencies. Had it been in force amid the inflationary period after the pandemic, such a policy could have created massive shortages across the economy. Harris’s rise to become the likely presidential nominee of the Democratic Party represents in some ways a return to the early days of 2020. In the l",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Kamala Harris progressive voting record compared to Bernie Sanders DW-NOMINATE Senate 2020 primary",
+        "canonical_url": "https://city-journal.org/article/analysis-of-kamala-harris-economic-record",
+        "published_at": "2024-07-25T00:00:00",
+        "publisher": "city-journal.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_3f3f57248e66",
+        "title": "Bernie Sanders: 'No, Kamala Harris Is Not More Progressive Than I Am' | Common Dreams",
+        "url": "https://www.commondreams.org/news/bernie-sanders-kamala-harris-progressive#",
+        "snippet": "&quot;<strong>Harris was rated &#x27;most liberal compared to All Senators</strong>,&#x27; GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.&quot;",
+        "content": "SUBSCRIBE TO OUR FREE NEWSLETTER Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. 5 #000000 #FFFFFF Daily news & progressive opinion—funded by the people, not the corporations—delivered straight to your inbox. In a note to supporters, the Vermont senator rebutted former President Donald Trump's claim that the Democratic nominee was the country's \"most liberal senator.\" Sen. Bernie Sanders on Tuesday refuted Republican presidential nominee Donald Trump's characterization of his 2024 Democratic opponent as the \"most liberal senator\" in the U.S., writing in an email to supporters that \"for better or for worse, Kamala Harris is not more progressive than I am.\" \"It is always hard to respond to Trump's lies because, a day later, his lies become even more preposterous,\" wrote Sanders (I-Vt.), responding to \"the constant claim\" from Trump, Republican lawmakers, and right-wing media outlets \"that Kamala Harris is more 'radical' and more 'far left' than Bernie Sanders.\" \"But, as we come together to defeat Trump and elect the vice president,\" Sanders continued, \"let me just remind you of one simple fact: The so-called 'radical' and 'far left' agenda that we are fighting for is, in poll after poll, far more popular than Donald Trump, more popular than the Republican Party, and it is supported by a strong majority of the American people, including Republicans and Independents.\" \"More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy our planet, letting drug companies charge whatever they want for medicine... That is radical.\" Sanders' message to supporters came a day after Trump wrote in a Truth Social post that Sen. Elizabeth Warren (D-Mass.) \"is considered far more Conservative in the U.S. Senate than Comrade Kamala Harris ever was.\" \"She will only bring us Poverty, Chaos, and Heartache! Kamala is rated, by far, the Number One Most Liberal Senator,\" the former president added. The Washington Post's Philip Bump observed in a column Tuesday that Trump's post was rooted \"in a line of attack deployed during the 2020 election.\" \"Then, Trump's allies seized upon a rating from the government-data organization GovTrack that assessed Harris' record in the Senate in 2019,\" Bump wrote. \"Harris was rated 'most liberal compared to All Senators,' GovTrack indicated, an assessment derived from its analysis of sponsorship and co-sponsorship of legislation.\" \"But GovTrack's analysis of Harris’s entire tenure in the Senate paints a different picture,\" he added. \"In the 116th Congress, the one that ran through 2019 and 2020, Harris was the fourth-most liberal senator, according to GovTrack, coming in behind Sens. Bernie Sanders (I-Vt.), Kirsten Gillibrand (D-N.Y.), and Jeff Merkley (D-Ore.).\" Trump's Truth Social post echoed rhetoric that he has deployed at recent campaign rallies in an effort to cast Harris as a \"radical left believer.\" In his email to supporters on Tuesday, Sanders wrote that \"when Trump, Republicans, and even some members of the corporate media try to scare you with words like 'radical' and 'far left,' it's important to understand what those policies actually mean and to know that these 'radical' ideas are already in place in many countries around the world.\" \"When we talk about guaranteeing healthcare as a right for all our people, we're talking about the ability to get the healthcare you and your loved ones need without fear of going bankrupt. We're talking about the ability to change jobs without fear of losing your healthcare,\" Sanders wrote. \"When we talk about paid family and medical leave, we're talking about being able to spend the first few months with your newborn child without rushing back to work the next week.\" \"That is NOT a radical agenda,\" he added. \"The Republican Party and Donald Trump: More tax breaks to billionaires, budgets to cut Social Security, Medicare, and Medicaid, letting polluters destroy ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+        "canonical_url": "https://commondreams.org/news/bernie-sanders-kamala-harris-progressive",
+        "published_at": "2024-08-27T00:00:00",
+        "publisher": "commondreams.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_cb20fbb40e78",
+        "title": "Kamala Harris scored as most liberal US senator in 2019",
+        "url": "https://www.foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019#",
+        "snippet": "Harris joined bipartisan legislation 'the least often compared to Senate Democrats,' says GovTrack analysis. By Brooke Singman Fox News.",
+        "content": "Joe Biden’s running mate Kamala Harris scored as the “most liberal” U.S. senator in 2019, according to a GovTrack analysis, outranking Sens. Bernie Sanders and Elizabeth Warren. According to GovTrack.us, an organization tracking U.S. Congress and information on lawmakers and their voting records, which touts itself as “one of the oldest government transparency websites in the world,” said Harris, D-Calif., was “ranked most liberal compared to All Senators” in 2019. The group's analysis was based on senators’ “legislative behavior by how similar the pattern of bills and resolutions they cosponsor are to other Members of Congress,” according to its website. \"The score can be interpreted as a conservative-liberal scale, although of course it only takes into account a small aspect of reality,\" the website stated. The scorecard put Harris as \"most liberal,\" with Sen. Bernie Sanders, I-Vt., ranking as second most liberal, Sen. Kirsten Gillibrand, D-N.Y., ranking as third most liberal, and Sen. Jeff Merkley, D-Ore., ranking fourth most liberal. Meanwhile, the tracker ranked Sen. Marsha Blackburn, R-Tenn., as the most conservative senator, with Sens. Joni Ernst, R-Iowa, Mike Braun, R-Ind., and Ted Cruz, R-Texas, to follow. The analysis also showed that in 2019, Harris joined bipartisan legislation “the least often compared to Senate Democrats.” The Trump campaign flagged the rating Wednesday as it pushed back on a description in The New York Times calling her a \"pragmatic moderate.\" “Reminder: GovTrack ranked Senator Kamala Harris the most liberal member of the U.S. Senate in 2019, farther left than Elizabeth Warren, Ed Markey, and even Bernie Sanders,” the campaign sent in an email. “Kamala Harris is a radical left-wing liberal, despite what the New York Times may say.” Former Vice President Joe Biden announced Harris as his running mate on Tuesday evening in an email to supporters, saying Harris \"is the best person to help me take this fight to Donald Trump and Mike Pence and then to lead this nation starting in January 2021.\" Biden also tweeted: \"I have the great honor to announce that I’ve picked @KamalaHarris — a fearless fighter for the little guy, and one of the country’s finest public servants — as my running mate.” He added: \"Back when Kamala was Attorney General, she worked closely with Beau [Biden]. I watched as they took on the big banks, lifted up working people, and protected women and kids from abuse. I was proud then, and I'm proud now to have her as my partner in this campaign.” Meanwhile, Republican National Committee Chairwoman Ronna McDaniel blasted Biden's pick, saying he \"didn’t just select a vice-presidential candidate, he chose the person who would actually be in charge the next four years if he is somehow able to win.” \"Kamala Harris’ extreme positions, from raising taxes to abolishing private health insurance to comparing law enforcement officials to the KKK, show that the left-wing mob is controlling Biden’s candidacy, just like they would control him as president,\" she continued. \"These radical policies might be popular among liberals, but they are well outside the mainstream for most Americans.” The RNC also said Harris should expect \"an unprecedented level of scrutiny and attention,\" claiming she will \"be seen as the president-in-waiting.\"",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Kamala Harris\" \"more progressive\" than Bernie Sanders congressional scorecards Voteview GovTrack",
+        "canonical_url": "https://foxnews.com/politics/kamala-harris-scored-most-liberal-us-senator-2019",
+        "published_at": "2020-08-12T00:00:00",
+        "publisher": "foxnews.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 26712
+  }
+}

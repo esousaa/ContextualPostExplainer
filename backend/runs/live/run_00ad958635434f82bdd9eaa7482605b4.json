@@ -1,0 +1,950 @@
+{
+  "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:40:33.992608+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:40:00.997798+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:00.997891+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:40:00.998226+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:00.998311+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:40:00.998640+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:02.285582+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1286
+    },
+    {
+      "timestamp": "2026-05-16T02:40:02.286055+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:02.286122+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:40:02.286459+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:04.436968+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2150
+    },
+    {
+      "timestamp": "2026-05-16T02:40:04.437595+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:11.109155+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6671
+    },
+    {
+      "timestamp": "2026-05-16T02:40:11.109714+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:20.650811+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9541
+    },
+    {
+      "timestamp": "2026-05-16T02:40:20.651372+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:22.575896+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1924
+    },
+    {
+      "timestamp": "2026-05-16T02:40:22.576415+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.985721+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 10779
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.986289+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.986428+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.986785+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.986844+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.987109+00:00",
+      "event": "node_started",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:40:33.987186+00:00",
+      "event": "node_completed",
+      "run_id": "run_00ad958635434f82bdd9eaa7482605b4",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Trump criminal charges conviction",
+    "Trump legal cases status",
+    "\"orange felon\" nickname for Donald Trump origin and usage",
+    "criminal investigations and indictments involving Donald Trump and his administration",
+    "impact of AIPAC donations on US politicians voting records and elections",
+    "comparisons between Boris Johnson’s removal from office and legal accountability for political leaders"
+  ],
+  "metrics": {
+    "search_results_received": 26,
+    "search_results_by_provider": {
+      "brave": 26
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.wabe.org/heres-where-all-the-legal-cases-against-trump-stand-since-his-return-to-the-white-house-2/",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd"
+      },
+      {
+        "id": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump"
+      },
+      {
+        "id": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.lawfaremedia.org/projects-series/trials-of-the-trump-administration/tracking-trump-administration-litigation",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.quora.com/It-is-unlawful-for-convicted-felons-to-vote-and-yet-the-orange-felon-liar-went-up-for-election-and-even-voted-for-himself-What-puts-Donald-Trump-above-the-law",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_1182ed362495",
+        "title": "Litigation Tracker: Legal Challenges to Trump Administration Actions",
+        "url": "https://www.justsecurity.org/107087/tracker-litigation-legal-challenges-trump-administration/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_c1c6939be2fc",
+        "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases.",
+        "url": "https://www.nytimes.com/interactive/2026/us/trump-administration-lawsuits.html#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_f4fed55e7f43",
+        "title": "Tracking retaliatory use of arrests, prosecutions, and investigations by the Trump administration",
+        "url": "https://protectdemocracy.org/work/retaliatory-action-tracker/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_f9daa03b77de",
+        "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News",
+        "url": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "brave": 6
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not",
+      "content": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8494588337541259
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.655678819362352
+    },
+    {
+      "id": "src_94e211bad188",
+      "title": "Trump's 88 criminal charges and where they stand - CREW | Citizens for Responsibility and Ethics in Washington",
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+      "snippet": "In Trump Criminal Case, Manhattan D.A. Asks for Gag Order Before Trial · Read the new gag order muzzling Trump in his hush-money case ... <strong>The jury convicted Trump</strong>.",
+      "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction",
+          "criminal investigations and indictments involving Donald Trump and his administration",
+          "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+      "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+      "published_at": "2024-06-04T00:00:00",
+      "publisher": "citizensforethics.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5483112850415541
+    },
+    {
+      "id": "src_6a1614c48d25",
+      "title": "Indictments against Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+      "snippet": "The six-week-long New York trial lasted <strong>April 15–May 30, 2024</strong> and resulted in the conviction of Trump on all 34 charges.",
+      "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction",
+          "criminal investigations and indictments involving Donald Trump and his administration",
+          "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+      "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+      "published_at": "2023-03-31T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5470790201304827
+    },
+    {
+      "id": "src_b81b8c51a8f8",
+      "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+      "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+      "snippet": "Trump was found guilty on <strong>34 felony counts</strong> after prosecutors alleged that he engaged in a &quot;scheme&quot; to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then ...",
+      "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+      "published_at": "2025-05-30T00:00:00",
+      "publisher": "abcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5349244583753653
+    },
+    {
+      "id": "src_5a908d201a23",
+      "title": "Trump is sentenced in hush money case -- but gets no penalty or fine",
+      "url": "https://www.npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york#",
+      "snippet": "President-elect Donald Trump received an <strong>unconditional discharge</strong> for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties.",
+      "content": "Trump is sentenced in hush money case — but gets no penalty or fine President-elect Donald Trump received an unconditional discharge for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties. The former and future president appeared virtually in a Manhattan courtroom on Friday for his sentencing on 34 felony counts of falsifying business records to conceal a payment to an adult film star. During the brief hearing, New York state Judge Juan Merchan said the only lawful sentence that does not encroach on the office of the president is that of an unconditional discharge on all counts. The 2024 election results loomed over the hearing, with Trump just 10 days away from being sworn into the Oval Office for a second term. Trump had argued the sentencing would interfere with his ability to govern, and said he plans to appeal. This was the first time that a former, future or sitting U.S. president has been tried on criminal charges. And this was the only one of Trump's criminal cases to see trial. \"Trial was a paradox,\" Merchan said, noting the high level of security and media attention. But \"once doors closed, it was no more unique than the other 32 trials taking place in this courthouse at the same exact time.\" But while the trial could be seen as an ordinary procedure, Merchan said, the same cannot be said about the circumstances surrounding the sentencing because Trump is about to occupy the office of the president. \"Sir, I wish you Godspeed as you assume your second term in office,\" Merchan said before leaving the bench. Prosecutors asked for minimal sentence Trump on Thursday exhausted his last legal maneuver to stop the sentencing, after a narrow majority of Supreme Court justices declined to intervene. Prosecutors in the office of Manhattan District Attorney Alvin Bragg recommended that Trump get the minimal sentence of unconditional discharge, as a way to ensure the trial's finality and respect the jury's verdict, while not interfering with Trump's ability to govern. An \"unconditional discharge\" means the president-elect must do nothing, but the conviction will remain on his record. Right before being formally sentenced, Merchan offered Trump the opportunity to speak. During his remarks, Trump doubled down on his defense: that the business records were legal expenses, not hush-money payments, and recorded by accountants, not by him. \"I would just like to explain that I was treated very, very unfairly,\" Trump said, after reiterating the false claim that the trial is politically motivated, and arguing that he is innocent despite the jury conviction. Prosecutors pushed back against Trump's attempts to characterize the trial as politically motivated. \"The defendant's conduct constitutes a direct attack on the rule of law itself,\" said Josh Steinglass, one of the prosecutors. \"This defendant has caused enduring damage to the public perception of the criminal justice system and has placed officers and court in harm's way.\" Since Trump's conviction in May, Merchan has postponed the sentencing several times, including to avoid any perception of political bias ahead of Election Day, and then to allow Trump to argue he had immunity in the case, based on a Supreme Court ruling on presidential immunity. Merchan ultimately denied the immunity claims, and the dismissal, paving the way for the hearing on Friday. Anna Cominsky, director of the criminal defense clinic at New York Law School, said the sentence does give the public a measure of closure about the case — even as the planned appeals could stretch on for years. \"It certainly makes sense that there be some finality to this case because as a nation, we should want to move on, in particular as he assumes the role of president, and be able to look forward to the next four years without this sentence pending,\" Cominsky said. \"There has to be an end.\" Fundraising haul In May, Trump became the first former or sitting U.S. president to",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york",
+      "published_at": "2025-01-10T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5092229748849602
+    },
+    {
+      "id": "src_6b6c58754fcd",
+      "title": "Here's Where Legal Cases Against Trump Stand",
+      "url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution/#",
+      "snippet": "Trump was convicted of <strong>34 felonies</strong> in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election.",
+      "content": "President Donald Trump claimed a major court victory on Thursday, after a New York appeals court threw out a multimillion-dollar penalty he was facing. The judgment stemmed from a civil fraud case—one in a long list of legal troubles Trump grappled with in the years and months before he was reelected to a second term. But so far, the President has avoided paying or serving any major penalties. “We’re having a lot of victories,” Trump said on Thursday evening as he visited police and troops outside a Park Police Facility in Washington, D.C. “I had a victory today. You know, they stole $550 million from me with a fake case, and it was overturned. They said this was a fake case.” “It’s a terrible thing, but it’s a nice victory, you know? I mean, it’s not bad, we all have, we all have our limits. But this was a terrible thing, that it was a witch hunt. And I’ve had more witch hunts than any human being,” he added. Here are some of the major cases against Trump and where they currently stand. New York fraud case In 2022, New York Attorney General Letitia James brought a civil lawsuit against Trump and top executives at his company, the Trump Organization, alleging that they exaggerated his wealth to lenders and insurers in order to get better loan terms. In February 2024, New York Judge Arthur Engoron found that Trump had committed fraud. At the time, Engoron ruled that Trump had to pay $355 million in penalties. Before the appeals court ruling on Thursday, that amount exceeded $520 million with interest, including additional penalties that other Trump Organization executives named in the lawsuit, such as Trump’s sons Eric and Donald Jr., were facing. Trump and other defendants in the case denied the allegations in the lawsuit. The ruling from the panel of five judges on Thursday came nearly a year after they had heard arguments in the appeal. The judges were still divided on much of what was at stake in the appeal, but a majority of them called the penalties that Engoron had ordered Trump to pay “excessive.” Still, the judges upheld Engoron’s ruling that found Trump liable for fraud and backed Engoron’s other punishments levied against Trump, such as barring Trump from serving in corporate leadership at any New York company for three years, and his sons Eric and Donald Jr. from doing the same for two years. James said in a statement that she would appeal the ruling, which would take the case to New York’s top court, the Court of Appeals. New York defamation and sexual abuse case In 2019, writer E. Jean Carroll alleged in her memoir that Trump raped her in the dressing room of a New York City department store in the 1990s. Trump denied the allegation, and went on to publicly lambaste Carroll. Carroll filed two civil lawsuits against Trump related to the incident. In May 2023, a jury found Trump liable for sexually abusing and defaming Carroll, ordering him to pay her $5 million, though the jury didn’t find Trump liable for rape. In January 2024, a jury in the other case directed Trump to pay Carroll an additional $83.3 million for defamatory comments he made about her. Trump filed appeals for both cases. In December, a panel of three judges of the appeals court upheld the $5 million judgment against Trump. Trump filed a request for the full appellate court to reconsider, which the 2nd U.S. Circuit Court of Appeals rejected in June. Trump’s appeal regarding the $83.3 million judgment is ongoing. New York “hush money” case Trump was convicted of 34 felonies in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election. The ruling made him the first U.S. President to be convicted of a felony. Trump’s conviction could have meant up to four years in prison and thousands of dollars in fines per count, but Trump was spared jail time, probation, and fines as Manhattan Judge Juan M. Merchan in January sentenced ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution",
+      "published_at": "2025-08-22T00:00:00",
+      "publisher": "time.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4929531940271882
+    },
+    {
+      "id": "src_d44f91449f57",
+      "title": "Here's where all the legal cases against Trump stand since his return to the White House",
+      "url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd#",
+      "snippet": "Since Trump’s reelection last ... interference and illegally hoarding classified documents — have either been <strong>dropped, resolved or put aside</strong>....",
+      "content": "Here’s where all the legal cases against Trump stand since his return to the White House A judge on Wednesday dismissed the Georgia election interference case against President Donald Trump and others, bringing an end to the last of four criminal cases filed against him that threatened to upend his finances and take away his freedom as he sought a return to the White House. The Georgia dismissal came after a new prosecutor in the case declined to pursue the charges. Since Trump’s reelection last year, four separate criminal cases — including his hush money conviction and federal allegations of election interference and illegally hoarding classified documents — have either been dropped, resolved or put aside. On the civil side, several high-profile lawsuits against Trump have been quietly working their way through the appeals process. Here’s a look at some of Trump’s criminal and civil cases and where they stand now: New York hush money case Trump became the first former U.S. president convicted of felonies when a New York jury found him guilty in May 2024 of falsifying business records to cover up a hush money payment to a porn actor who said the two had sex. Though Trump could have faced jail time, Manhattan Judge Juan M. Merchan in January sentenced him instead to what’s known as an unconditional discharge, leaving his conviction on the books but sparing him any punishment. Trump was set to take office just days later, and Merchan said he had to respect Trump’s upcoming legal protections as president, even wishing him “Godspeed as you assume your second term in office.” Trump is trying to get the conviction erased, a push that was given new life in November when a federal appeals court ordered a lower court to reconsider its decision to keep the case in state court instead of moving it to federal court. Georgia election interference case In August 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others with participating in a scheme to illegally try to overturn his narrow loss to Democrat Joe Biden in the 2020 presidential election in Georgia. Willis cited Trump’s January 2021 phone call to Georgia’s secretary of state, an effort to replace Georgia’s Democratic presidential electors with ones who would vote for Trump, harassment of a Fulton County election worker and the unauthorized copying of data and software from elections equipment. But the case stalled over revelations Willis had been in a relationship with the man she appointed to prosecute it. A state appeals court in December removed Willis from the case and the state Supreme Court later declined to hear her appeal. Pete Skandalakis, the executive director of the Prosecuting Attorneys’ Council of Georgia, took over the case in November after he said several prosecutors declined to take it. Fulton County Superior Court Judge Scott McAfee issued a brief order dismissing the case in its entirety Wednesday after Skandalakis said he has decided not to pursue it further. Federal election case Special counsel Jack Smith charged Trump in August 2023 with conspiring to overturn the results of his election loss to President Joe Biden in the run-up to the Jan. 6, 2021, riot at the U.S. Capitol. Prosecutors allege Trump and his allies knowingly promoted election fraud lies in a bid to push state officials to overturn Biden’s win and pressure Vice President Mike Pence to disrupt the ceremonial counting of electoral votes. But Smith moved to drop the case after Trump won reelection in November. Longstanding Justice Department policy says sitting presidents cannot face criminal prosecution. Classified documents case In a separate prosecution, Smith charged Trump in June 2023 with illegally retaining classified documents he took from the White House to Mar-a-Lago after he left office in January 2021, and then obstructing government demands to give them back. Prosecutors filed additional charges the following month, accusing Trump of showing a Pentagon “plan of",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump legal cases status",
+      "canonical_url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd",
+      "published_at": "2025-11-26T00:00:00",
+      "publisher": "apnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.47674011485518386
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @therickydavila.bsky.social",
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "therickydavila.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.655678819362352
+    },
+    {
+      "id": "src_94e211bad188",
+      "title": "Trump's 88 criminal charges and where they stand - CREW | Citizens for Responsibility and Ethics in Washington",
+      "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+      "snippet": "In Trump Criminal Case, Manhattan D.A. Asks for Gag Order Before Trial · Read the new gag order muzzling Trump in his hush-money case ... <strong>The jury convicted Trump</strong>.",
+      "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction",
+          "criminal investigations and indictments involving Donald Trump and his administration",
+          "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+      "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+      "published_at": "2024-06-04T00:00:00",
+      "publisher": "citizensforethics.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5483112850415541
+    },
+    {
+      "id": "src_6a1614c48d25",
+      "title": "Indictments against Donald Trump - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+      "snippet": "The six-week-long New York trial lasted <strong>April 15–May 30, 2024</strong> and resulted in the conviction of Trump on all 34 charges.",
+      "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction",
+          "criminal investigations and indictments involving Donald Trump and his administration",
+          "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+      "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+      "published_at": "2023-03-31T00:00:00",
+      "publisher": "en.wikipedia.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5470790201304827
+    },
+    {
+      "id": "src_b81b8c51a8f8",
+      "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+      "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+      "snippet": "Trump was found guilty on <strong>34 felony counts</strong> after prosecutors alleged that he engaged in a &quot;scheme&quot; to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then ...",
+      "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+      "published_at": "2025-05-30T00:00:00",
+      "publisher": "abcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5349244583753653
+    },
+    {
+      "id": "src_5a908d201a23",
+      "title": "Trump is sentenced in hush money case -- but gets no penalty or fine",
+      "url": "https://www.npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york#",
+      "snippet": "President-elect Donald Trump received an <strong>unconditional discharge</strong> for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties.",
+      "content": "Trump is sentenced in hush money case — but gets no penalty or fine President-elect Donald Trump received an unconditional discharge for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties. The former and future president appeared virtually in a Manhattan courtroom on Friday for his sentencing on 34 felony counts of falsifying business records to conceal a payment to an adult film star. During the brief hearing, New York state Judge Juan Merchan said the only lawful sentence that does not encroach on the office of the president is that of an unconditional discharge on all counts. The 2024 election results loomed over the hearing, with Trump just 10 days away from being sworn into the Oval Office for a second term. Trump had argued the sentencing would interfere with his ability to govern, and said he plans to appeal. This was the first time that a former, future or sitting U.S. president has been tried on criminal charges. And this was the only one of Trump's criminal cases to see trial. \"Trial was a paradox,\" Merchan said, noting the high level of security and media attention. But \"once doors closed, it was no more unique than the other 32 trials taking place in this courthouse at the same exact time.\" But while the trial could be seen as an ordinary procedure, Merchan said, the same cannot be said about the circumstances surrounding the sentencing because Trump is about to occupy the office of the president. \"Sir, I wish you Godspeed as you assume your second term in office,\" Merchan said before leaving the bench. Prosecutors asked for minimal sentence Trump on Thursday exhausted his last legal maneuver to stop the sentencing, after a narrow majority of Supreme Court justices declined to intervene. Prosecutors in the office of Manhattan District Attorney Alvin Bragg recommended that Trump get the minimal sentence of unconditional discharge, as a way to ensure the trial's finality and respect the jury's verdict, while not interfering with Trump's ability to govern. An \"unconditional discharge\" means the president-elect must do nothing, but the conviction will remain on his record. Right before being formally sentenced, Merchan offered Trump the opportunity to speak. During his remarks, Trump doubled down on his defense: that the business records were legal expenses, not hush-money payments, and recorded by accountants, not by him. \"I would just like to explain that I was treated very, very unfairly,\" Trump said, after reiterating the false claim that the trial is politically motivated, and arguing that he is innocent despite the jury conviction. Prosecutors pushed back against Trump's attempts to characterize the trial as politically motivated. \"The defendant's conduct constitutes a direct attack on the rule of law itself,\" said Josh Steinglass, one of the prosecutors. \"This defendant has caused enduring damage to the public perception of the criminal justice system and has placed officers and court in harm's way.\" Since Trump's conviction in May, Merchan has postponed the sentencing several times, including to avoid any perception of political bias ahead of Election Day, and then to allow Trump to argue he had immunity in the case, based on a Supreme Court ruling on presidential immunity. Merchan ultimately denied the immunity claims, and the dismissal, paving the way for the hearing on Friday. Anna Cominsky, director of the criminal defense clinic at New York Law School, said the sentence does give the public a measure of closure about the case — even as the planned appeals could stretch on for years. \"It certainly makes sense that there be some finality to this case because as a nation, we should want to move on, in particular as he assumes the role of president, and be able to look forward to the next four years without this sentence pending,\" Cominsky said. \"There has to be an end.\" Fundraising haul In May, Trump became the first former or sitting U.S. president to",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york",
+      "published_at": "2025-01-10T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5092229748849602
+    },
+    {
+      "id": "src_6b6c58754fcd",
+      "title": "Here's Where Legal Cases Against Trump Stand",
+      "url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution/#",
+      "snippet": "Trump was convicted of <strong>34 felonies</strong> in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election.",
+      "content": "President Donald Trump claimed a major court victory on Thursday, after a New York appeals court threw out a multimillion-dollar penalty he was facing. The judgment stemmed from a civil fraud case—one in a long list of legal troubles Trump grappled with in the years and months before he was reelected to a second term. But so far, the President has avoided paying or serving any major penalties. “We’re having a lot of victories,” Trump said on Thursday evening as he visited police and troops outside a Park Police Facility in Washington, D.C. “I had a victory today. You know, they stole $550 million from me with a fake case, and it was overturned. They said this was a fake case.” “It’s a terrible thing, but it’s a nice victory, you know? I mean, it’s not bad, we all have, we all have our limits. But this was a terrible thing, that it was a witch hunt. And I’ve had more witch hunts than any human being,” he added. Here are some of the major cases against Trump and where they currently stand. New York fraud case In 2022, New York Attorney General Letitia James brought a civil lawsuit against Trump and top executives at his company, the Trump Organization, alleging that they exaggerated his wealth to lenders and insurers in order to get better loan terms. In February 2024, New York Judge Arthur Engoron found that Trump had committed fraud. At the time, Engoron ruled that Trump had to pay $355 million in penalties. Before the appeals court ruling on Thursday, that amount exceeded $520 million with interest, including additional penalties that other Trump Organization executives named in the lawsuit, such as Trump’s sons Eric and Donald Jr., were facing. Trump and other defendants in the case denied the allegations in the lawsuit. The ruling from the panel of five judges on Thursday came nearly a year after they had heard arguments in the appeal. The judges were still divided on much of what was at stake in the appeal, but a majority of them called the penalties that Engoron had ordered Trump to pay “excessive.” Still, the judges upheld Engoron’s ruling that found Trump liable for fraud and backed Engoron’s other punishments levied against Trump, such as barring Trump from serving in corporate leadership at any New York company for three years, and his sons Eric and Donald Jr. from doing the same for two years. James said in a statement that she would appeal the ruling, which would take the case to New York’s top court, the Court of Appeals. New York defamation and sexual abuse case In 2019, writer E. Jean Carroll alleged in her memoir that Trump raped her in the dressing room of a New York City department store in the 1990s. Trump denied the allegation, and went on to publicly lambaste Carroll. Carroll filed two civil lawsuits against Trump related to the incident. In May 2023, a jury found Trump liable for sexually abusing and defaming Carroll, ordering him to pay her $5 million, though the jury didn’t find Trump liable for rape. In January 2024, a jury in the other case directed Trump to pay Carroll an additional $83.3 million for defamatory comments he made about her. Trump filed appeals for both cases. In December, a panel of three judges of the appeals court upheld the $5 million judgment against Trump. Trump filed a request for the full appellate court to reconsider, which the 2nd U.S. Circuit Court of Appeals rejected in June. Trump’s appeal regarding the $83.3 million judgment is ongoing. New York “hush money” case Trump was convicted of 34 felonies in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election. The ruling made him the first U.S. President to be convicted of a felony. Trump’s conviction could have meant up to four years in prison and thousands of dollars in fines per count, but Trump was spared jail time, probation, and fines as Manhattan Judge Juan M. Merchan in January sentenced ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump criminal charges conviction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump criminal charges conviction",
+      "canonical_url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution",
+      "published_at": "2025-08-22T00:00:00",
+      "publisher": "time.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.4929531940271882
+    },
+    {
+      "id": "src_d44f91449f57",
+      "title": "Here's where all the legal cases against Trump stand since his return to the White House",
+      "url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd#",
+      "snippet": "Since Trump’s reelection last ... interference and illegally hoarding classified documents — have either been <strong>dropped, resolved or put aside</strong>....",
+      "content": "Here’s where all the legal cases against Trump stand since his return to the White House A judge on Wednesday dismissed the Georgia election interference case against President Donald Trump and others, bringing an end to the last of four criminal cases filed against him that threatened to upend his finances and take away his freedom as he sought a return to the White House. The Georgia dismissal came after a new prosecutor in the case declined to pursue the charges. Since Trump’s reelection last year, four separate criminal cases — including his hush money conviction and federal allegations of election interference and illegally hoarding classified documents — have either been dropped, resolved or put aside. On the civil side, several high-profile lawsuits against Trump have been quietly working their way through the appeals process. Here’s a look at some of Trump’s criminal and civil cases and where they stand now: New York hush money case Trump became the first former U.S. president convicted of felonies when a New York jury found him guilty in May 2024 of falsifying business records to cover up a hush money payment to a porn actor who said the two had sex. Though Trump could have faced jail time, Manhattan Judge Juan M. Merchan in January sentenced him instead to what’s known as an unconditional discharge, leaving his conviction on the books but sparing him any punishment. Trump was set to take office just days later, and Merchan said he had to respect Trump’s upcoming legal protections as president, even wishing him “Godspeed as you assume your second term in office.” Trump is trying to get the conviction erased, a push that was given new life in November when a federal appeals court ordered a lower court to reconsider its decision to keep the case in state court instead of moving it to federal court. Georgia election interference case In August 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others with participating in a scheme to illegally try to overturn his narrow loss to Democrat Joe Biden in the 2020 presidential election in Georgia. Willis cited Trump’s January 2021 phone call to Georgia’s secretary of state, an effort to replace Georgia’s Democratic presidential electors with ones who would vote for Trump, harassment of a Fulton County election worker and the unauthorized copying of data and software from elections equipment. But the case stalled over revelations Willis had been in a relationship with the man she appointed to prosecute it. A state appeals court in December removed Willis from the case and the state Supreme Court later declined to hear her appeal. Pete Skandalakis, the executive director of the Prosecuting Attorneys’ Council of Georgia, took over the case in November after he said several prosecutors declined to take it. Fulton County Superior Court Judge Scott McAfee issued a brief order dismissing the case in its entirety Wednesday after Skandalakis said he has decided not to pursue it further. Federal election case Special counsel Jack Smith charged Trump in August 2023 with conspiring to overturn the results of his election loss to President Joe Biden in the run-up to the Jan. 6, 2021, riot at the U.S. Capitol. Prosecutors allege Trump and his allies knowingly promoted election fraud lies in a bid to push state officials to overturn Biden’s win and pressure Vice President Mike Pence to disrupt the ceremonial counting of electoral votes. But Smith moved to drop the case after Trump won reelection in November. Longstanding Justice Department policy says sitting presidents cannot face criminal prosecution. Classified documents case In a separate prosecution, Smith charged Trump in June 2023 with illegally retaining classified documents he took from the White House to Mar-a-Lago after he left office in January 2021, and then obstructing government demands to give them back. Prosecutors filed additional charges the following month, accusing Trump of showing a Pentagon “plan of",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Trump legal cases status"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Trump legal cases status",
+      "canonical_url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd",
+      "published_at": "2025-11-26T00:00:00",
+      "publisher": "apnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.47674011485518386
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+      "platform": "bluesky",
+      "author": {
+        "handle": "therickydavila.bsky.social",
+        "display_name": "Ricky Davila",
+        "did": "did:plc:2qhershy6nk2cs5gm5zbii2r"
+      },
+      "text": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+      "created_at": "2026-05-15T15:20:16.463000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "It will come. We put Johnson in the bin 🇬🇧\n\nIf Kamala Harris had become our real president, Trump's monkey ass would've gotten incarcerated\n\nThe world will & should never let any American escape the stain & stench of the Trump Years.... but, 80% won't even try. They will re-elect, (especially by not-voting), the same people who took money from AIPAC & Oligarchs; NOBODY will go to jail; and the corruption will continue, until collapse.\n\nI want to be there when it all goes down\n\nCan’t wait."
+    },
+    "explanation": [
+      {
+        "text": "The author expresses a desire never to have to talk about Donald Trump again except in the context of him and his “criminal regime” being arrested, convicted, and imprisoned for what the author calls their “many crimes against the United States”; this is a strongly critical, punitive opinion rather than a neutral description of established legal outcomes.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the author’s rhetoric and wishes; it does not assert that all the described arrests, convictions, or crimes have been legally established.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Multiple independent sources report that Donald Trump was convicted in New York in May 2024 on 34 felony counts of falsifying business records related to a hush money scheme before the 2016 election, making him the first former or sitting U.S. president to be convicted of a crime.",
+        "source_ids": [
+          "src_6a1614c48d25",
+          "src_b81b8c51a8f8",
+          "src_6b6c58754fcd",
+          "src_5a908d201a23"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This concerns a specific New York hush money case and does not, by itself, substantiate the broader “many crimes against the United States” language in the post.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Background and news sources describe that Trump has faced multiple criminal cases and investigations—including federal election-related charges, a classified documents case, and a Georgia election interference case—but following his reelection several of these criminal cases have been dropped, resolved, or put aside, and the Georgia case was dismissed after a new prosecutor chose not to pursue it.",
+        "source_ids": [
+          "src_94e211bad188",
+          "src_d44f91449f57"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These details outline the procedural status of several cases and do not constitute a legal finding that a “criminal regime” existed, which remains the author’s characterization.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the New York hush money case, Judge Juan Merchan ultimately imposed an “unconditional discharge” on Trump—meaning no jail time, fines, or probation—while leaving the 34 felony convictions on his record, so his criminal exposure in that case has resulted in conviction without incarceration to date.",
+        "source_ids": [
+          "src_5a908d201a23",
+          "src_6b6c58754fcd",
+          "src_d44f91449f57"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This sentencing outcome contrasts with the post’s wish that Trump and his associates be sent to prison, and shows that imprisonment has not occurred in this case as of the reported dates.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @therickydavila.bsky.social",
+        "url": "https://bsky.app/profile/therickydavila.bsky.social/post/3mlvn22dr6s2h",
+        "snippet": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "content": "Looking forward to the day that we never have to talk about the orange felon or his criminal regime ever again only unless it has to do with them being arrested, convicted and sent to prison for their many crimes against the United States.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "therickydavila.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_94e211bad188",
+        "title": "Trump's 88 criminal charges and where they stand - CREW | Citizens for Responsibility and Ethics in Washington",
+        "url": "https://www.citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand/#",
+        "snippet": "In Trump Criminal Case, Manhattan D.A. Asks for Gag Order Before Trial · Read the new gag order muzzling Trump in his hush-money case ... <strong>The jury convicted Trump</strong>.",
+        "content": "As of March 2024, Donald Trump has been personally charged with 88 criminal offenses in four criminal cases. This total reflects charges related to Trump’s attempts to overturn the results of the 2020 election, election interference in Georgia, falsifying business records in New York, and mishandling classified records after leaving the presidency. Donald Trump is the first former president in U.S. history to be criminally indicted. Click here to jump straight to the table On March 30, 2023, a Manhattan grand jury approved a thirty-four count felony indictment against Trump for falsifying business records in the first degree in connection with his hush money payments to Stormy Daniels, made through Trump’s attorney Michael Cohen and reported as legal expenses. The trial date is set for April 15, 2024. On June 9, 2023, Special Counsel Jack Smith charged Trump with thirty-seven felonies related to his handling and refusal to return hundreds of documents containing classified information. He also charged Trump’s personal aide Walt Nauta with several felonies for his alleged role in handling the documents. On July 27, 2023, a grand jury issued a superseding indictment alleging additional charges against Trump, Nauta, and Carlos De Oliveira, the head of maintenance at Mar-a-Lago, alleging they conspired to delete security footage. The trial is set for May 20, 2024. On August 1, 2023, Smith charged Trump with four federal criminal counts after a grand jury investigation into Trump’s attempt to overturn the 2020 election, culminating in the January 6th insurrection. In October 2023, Trump claimed in the case that he had absolute immunity from prosecution for actions he took as president but Judge Tanya S. Chutkan, the trial judge in the case, rejected Trump’s claim of absolute immunity, finding that “neither the Constitution nor American history supported the contention that a former president enjoyed total immunity from prosecution.” Trump appealed the ruling. Following the Supreme Court’s refusal of Smith’s request to immediately intervene, the D.C. Circuit heard oral argument on Trump’s immunity claim on January 9, 2024 and ultimately ruled that Trump does not have broad immunity from federal prosecution. Trump appealed the ruling to the Supreme Court. On August 14, 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others in a 41-count indictment after a two-year grand jury investigation into election fraud and related offenses in the state of Georgia during the 2020 election and after. The charges against Trump include solicitation of a violation of an oath by a public officer in response to Trump’s call with Georgia Secretary of State Brad Raffensperger, in which Trump pushed him to “find” votes and reverse his loss in the state. While Trump has pleaded not guilty, no trial date has been set and he is making similar immunity arguments here as well. These charges against Trump are the sign of a healthy democracy and a victory for the rule of law. Holding public office is a deep and sacred responsibility that demands the highest standard of ethical conduct. In order to maintain the public’s trust, elected officials must follow the law; when elected officials break those laws, they must face consequences – just like anyone else. And when an elected official attempts to silence the voice of the people by overturning the results of an election, the bedrock of democratic government, the need for accountability is at its apex. Although these legal actions may raise political tensions in an already-polarized landscape, the alternative – allowing elected officials to act with impunity and escape consequences for their conduct – is far more devastating. Indeed, choosing not to pursue accountability for fear of political criticism or consequences would itself be a deeply political act. The table below reflects the current status of each of these indictments against Trump and his co-defendants, including the respective ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump criminal charges conviction",
+            "criminal investigations and indictments involving Donald Trump and his administration",
+            "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+        "canonical_url": "https://citizensforethics.org/reports-investigations/crew-reports/trumps-91-criminal-charges-and-where-they-stand",
+        "published_at": "2024-06-04T00:00:00",
+        "publisher": "citizensforethics.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_6a1614c48d25",
+        "title": "Indictments against Donald Trump - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump#",
+        "snippet": "The six-week-long New York trial lasted <strong>April 15–May 30, 2024</strong> and resulted in the conviction of Trump on all 34 charges.",
+        "content": "In 2023, four criminal indictments were filed against Donald Trump, then a former president of the United States. Two were on state charges (one in New York and one in Georgia) and the other two, one of which was replaced by a superseding indictment, were on federal charges (one in Florida and one in the District of Columbia).[1] Trump pleaded not guilty to all charges against him.[2][3][4][5] He was convicted in New York, but charges were dropped in the Georgia case and the two federal cases. On the state cases: - The six-week-long New York trial lasted April 15–May 30, 2024 and resulted in the conviction of Trump on all 34 charges.[6] However, on January 10, 2025, the judge issued an unconditional discharge.[7] - On June 5, 2024, the Georgia case was paused while the Georgia Court of Appeals decided whether to disqualify Fani Willis from prosecuting it,[8][9] which it did in December.[10] On November 26, 2025, the new prosecutor, Pete Skandalakis, dropped all charges.[11] On July 1, 2024, the Supreme Court ruled 6–3, that Trump had immunity for acts he committed as president that were considered official acts, while also ruling that he did not have immunity for unofficial acts.[12] On November 6, Trump won the 2024 election; Justice Department policy would have precluded prosecuting him after his inauguration; Smith (whom Trump had threatened to fire) resigned before Trump's inauguration.[13][14] Therefore, the federal cases were both dismissed: - Judge Aileen Cannon dismissed the Florida case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals,[16] but after Trump's 2024 election to the presidency, it asked the court to dismiss the case.[17] - The District of Columbia trial was put on hold in February 2024 while waiting for the Supreme Court to determine whether Trump is immune from prosecution. The case was returned to the District Court on August 2 to conduct hearings consistent with the Supreme Court's ruling. Following Trump's 2024 election to the presidency, however, the special counsel asked to dismiss the case.[18] Neither the indictments nor any resulting convictions would have disqualified his 2024 presidential candidacy.[19][20] The Supreme Court separately addressed Trump's eligibility to be on the ballot and reversed all disqualifications by individual states. In March 2026, a year into the second Trump presidency, Deputy Attorney General Todd Blanche told the Conservative Political Action Conference that every Justice Department employee who had worked on the investigations — over 200 people, according to him — had departed.[21] Trump was indicted on state charges in a March 2023 indictment in New York. He faced 34 criminal charges of falsifying business records in the first degree related to payments made to Stormy Daniels before the 2016 presidential election.[22][26] The trial began on April 15, 2024; Trump was found guilty on all 34 counts on May 30, 2024.[27] Sentencing was scheduled for September 18,[28] but was delayed until November 26, 2024.[6] On January 10, 2025, Trump received an unconditional discharge of his sentence.[23] Trump was indicted in June 2023 in the United States District Court for the Southern District of Florida in a federal indictment related to classified government documents. Trump faced 40 criminal charges alleging mishandling of sensitive documents and conspiracy to obstruct the government in retrieving these documents.[26][29] The trial was scheduled for May 20, 2024,[30] before being postponed indefinitely on May 7, 2024.[31] On July 15, 2024, Judge Aileen Cannon dismissed the case, ruling Jack Smith's appointment as special counsel was unconstitutional.[15] The Office of the Special Counsel appealed the dismissal to the Eleventh Circuit Court of Appeals, but it later chose to wind down the case following Trump's election in November 2024, in part due to i",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump criminal charges conviction",
+            "criminal investigations and indictments involving Donald Trump and his administration",
+            "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction | criminal investigations and indictments involving Donald Trump and his administration",
+        "canonical_url": "https://en.wikipedia.org/wiki/Indictments_against_Donald_Trump",
+        "published_at": "2023-03-31T00:00:00",
+        "publisher": "en.wikipedia.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_b81b8c51a8f8",
+        "title": "Trump was convicted of 34 felonies a year ago. He's still battling the case - ABC News",
+        "url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361#",
+        "snippet": "Trump was found guilty on <strong>34 felony counts</strong> after prosecutors alleged that he engaged in a &quot;scheme&quot; to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then ...",
+        "content": "Trump was convicted of 34 felonies a year ago. He's still battling the case The 2nd Circuit Court of Appeals has set oral arguments for June 11. One year ago today, a jury of 12 New Yorkers convicted Donald Trump for falsifying business records as part of an alleged hush money scheme to influence the 2016 election. The conviction left an indelible mark on Trump -- making him the first president or former president to be found guilty of a crime -- and his fight to erase that legacy continues to this day. On June 11, a federal appeals court in Manhattan is set to hear oral arguments in the president's renewed legal fight to move his criminal case from state to federal court. Manhattan District Attorney Alvin Bragg opposes the move -- arguing that a case can't be removed to federal court after conviction -- but Trump's lawyers have argued the \"unprecedented criminal prosecution of a former and current president of the United States belongs in federal court.\" Trump was found guilty on 34 felony counts after prosecutors alleged that he engaged in a \"scheme\" to boost his chances during the 2016 presidential election through a series of hush money payments to adult film actress Stormy Daniels, and then falsified New York business records to cover up that alleged criminal conduct. \"I did my job, and we did our job,\" Bragg said following Trump's conviction. \"There are many voices out there, but the only voice that matters is the voice of the jury, and the jury has spoken.\" Ten days before Trump was sworn in as president last November, New York Judge Juan Merchan sentenced him to an unconditional discharge -- without prison, fines or probation -- saying it was the \"only lawful sentence\" to prevent \"encroaching upon the highest office in the land.\" \"I won the election in a massive landslide, and the people of this country understand what's gone on. This has been a weaponization of government,\" Trump told the court during his sentencing. Trump continues to vehemently deny any wrongdoing, and his lawyers have argued that his conviction relied on evidence and testimony that related to his official acts as president, including social media posts from his official Twitter account as president and testimony from his former communications director Hope Hicks. The trial took place one month before the Supreme Court delivered a landmark ruling expanding the scope of presidential immunity, and Trump's lawyers have argued that the evidence would have not been permitted based on the high court's ruling. Trump's lawyers attempted to use that argument to throw out the case before Trump's January sentencing, but the argument was rejected by Judge Juan Merchan, two New York appeals courts, and the Supreme Court. \"The alleged evidentiary violations at President-Elect Trump's state-court trial can be addressed in the ordinary course on appeal,\" the Supreme Court said in a brief unsigned opinion, though four justices said they would have granted Trump's application. For Trump's criminal defense, he relied on then-defense attorneys Todd Blanche and Emil Bove, who now serve as the deputy attorney general and principal associate deputy attorney general. Earlier this week, Trump announced that he plans to nominate Bove -- who led a purge of career law enforcement officials before the Senate confirmed his nomination to help run the DOJ -- to the United States Court of Appeals for the 3rd Circuit. With his former defense attorneys now working for the government, Trump earlier this year tapped the elite Manhattan law firm of Sullivan & Cromwell to handle his criminal appeal. Lawyers with the Department of Justice also filed an amicus brief in the case this week to argue that the case should be heard -- and thrown out -- by a federal court because the jury's conviction relied on evidence that was covered by presidential immunity. \"That President Trump's defense in fact takes the form of a new constitutional immunity announced by the Supreme Court after his trial e",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://abcnews.com/US/anniversary-hush-money-conviction-trump-continues-fight-criminal/story?id=122325361",
+        "published_at": "2025-05-30T00:00:00",
+        "publisher": "abcnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_5a908d201a23",
+        "title": "Trump is sentenced in hush money case -- but gets no penalty or fine",
+        "url": "https://www.npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york#",
+        "snippet": "President-elect Donald Trump received an <strong>unconditional discharge</strong> for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties.",
+        "content": "Trump is sentenced in hush money case — but gets no penalty or fine President-elect Donald Trump received an unconditional discharge for his criminal conviction in New York on Friday, meaning he will not face fines, prison or any other penalties. The former and future president appeared virtually in a Manhattan courtroom on Friday for his sentencing on 34 felony counts of falsifying business records to conceal a payment to an adult film star. During the brief hearing, New York state Judge Juan Merchan said the only lawful sentence that does not encroach on the office of the president is that of an unconditional discharge on all counts. The 2024 election results loomed over the hearing, with Trump just 10 days away from being sworn into the Oval Office for a second term. Trump had argued the sentencing would interfere with his ability to govern, and said he plans to appeal. This was the first time that a former, future or sitting U.S. president has been tried on criminal charges. And this was the only one of Trump's criminal cases to see trial. \"Trial was a paradox,\" Merchan said, noting the high level of security and media attention. But \"once doors closed, it was no more unique than the other 32 trials taking place in this courthouse at the same exact time.\" But while the trial could be seen as an ordinary procedure, Merchan said, the same cannot be said about the circumstances surrounding the sentencing because Trump is about to occupy the office of the president. \"Sir, I wish you Godspeed as you assume your second term in office,\" Merchan said before leaving the bench. Prosecutors asked for minimal sentence Trump on Thursday exhausted his last legal maneuver to stop the sentencing, after a narrow majority of Supreme Court justices declined to intervene. Prosecutors in the office of Manhattan District Attorney Alvin Bragg recommended that Trump get the minimal sentence of unconditional discharge, as a way to ensure the trial's finality and respect the jury's verdict, while not interfering with Trump's ability to govern. An \"unconditional discharge\" means the president-elect must do nothing, but the conviction will remain on his record. Right before being formally sentenced, Merchan offered Trump the opportunity to speak. During his remarks, Trump doubled down on his defense: that the business records were legal expenses, not hush-money payments, and recorded by accountants, not by him. \"I would just like to explain that I was treated very, very unfairly,\" Trump said, after reiterating the false claim that the trial is politically motivated, and arguing that he is innocent despite the jury conviction. Prosecutors pushed back against Trump's attempts to characterize the trial as politically motivated. \"The defendant's conduct constitutes a direct attack on the rule of law itself,\" said Josh Steinglass, one of the prosecutors. \"This defendant has caused enduring damage to the public perception of the criminal justice system and has placed officers and court in harm's way.\" Since Trump's conviction in May, Merchan has postponed the sentencing several times, including to avoid any perception of political bias ahead of Election Day, and then to allow Trump to argue he had immunity in the case, based on a Supreme Court ruling on presidential immunity. Merchan ultimately denied the immunity claims, and the dismissal, paving the way for the hearing on Friday. Anna Cominsky, director of the criminal defense clinic at New York Law School, said the sentence does give the public a measure of closure about the case — even as the planned appeals could stretch on for years. \"It certainly makes sense that there be some finality to this case because as a nation, we should want to move on, in particular as he assumes the role of president, and be able to look forward to the next four years without this sentence pending,\" Cominsky said. \"There has to be an end.\" Fundraising haul In May, Trump became the first former or sitting U.S. president to",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://npr.org/2025/01/10/nx-s1-5253927/trump-sentencing-new-york",
+        "published_at": "2025-01-10T00:00:00",
+        "publisher": "npr.org",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_6b6c58754fcd",
+        "title": "Here's Where Legal Cases Against Trump Stand",
+        "url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution/#",
+        "snippet": "Trump was convicted of <strong>34 felonies</strong> in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election.",
+        "content": "President Donald Trump claimed a major court victory on Thursday, after a New York appeals court threw out a multimillion-dollar penalty he was facing. The judgment stemmed from a civil fraud case—one in a long list of legal troubles Trump grappled with in the years and months before he was reelected to a second term. But so far, the President has avoided paying or serving any major penalties. “We’re having a lot of victories,” Trump said on Thursday evening as he visited police and troops outside a Park Police Facility in Washington, D.C. “I had a victory today. You know, they stole $550 million from me with a fake case, and it was overturned. They said this was a fake case.” “It’s a terrible thing, but it’s a nice victory, you know? I mean, it’s not bad, we all have, we all have our limits. But this was a terrible thing, that it was a witch hunt. And I’ve had more witch hunts than any human being,” he added. Here are some of the major cases against Trump and where they currently stand. New York fraud case In 2022, New York Attorney General Letitia James brought a civil lawsuit against Trump and top executives at his company, the Trump Organization, alleging that they exaggerated his wealth to lenders and insurers in order to get better loan terms. In February 2024, New York Judge Arthur Engoron found that Trump had committed fraud. At the time, Engoron ruled that Trump had to pay $355 million in penalties. Before the appeals court ruling on Thursday, that amount exceeded $520 million with interest, including additional penalties that other Trump Organization executives named in the lawsuit, such as Trump’s sons Eric and Donald Jr., were facing. Trump and other defendants in the case denied the allegations in the lawsuit. The ruling from the panel of five judges on Thursday came nearly a year after they had heard arguments in the appeal. The judges were still divided on much of what was at stake in the appeal, but a majority of them called the penalties that Engoron had ordered Trump to pay “excessive.” Still, the judges upheld Engoron’s ruling that found Trump liable for fraud and backed Engoron’s other punishments levied against Trump, such as barring Trump from serving in corporate leadership at any New York company for three years, and his sons Eric and Donald Jr. from doing the same for two years. James said in a statement that she would appeal the ruling, which would take the case to New York’s top court, the Court of Appeals. New York defamation and sexual abuse case In 2019, writer E. Jean Carroll alleged in her memoir that Trump raped her in the dressing room of a New York City department store in the 1990s. Trump denied the allegation, and went on to publicly lambaste Carroll. Carroll filed two civil lawsuits against Trump related to the incident. In May 2023, a jury found Trump liable for sexually abusing and defaming Carroll, ordering him to pay her $5 million, though the jury didn’t find Trump liable for rape. In January 2024, a jury in the other case directed Trump to pay Carroll an additional $83.3 million for defamatory comments he made about her. Trump filed appeals for both cases. In December, a panel of three judges of the appeals court upheld the $5 million judgment against Trump. Trump filed a request for the full appellate court to reconsider, which the 2nd U.S. Circuit Court of Appeals rejected in June. Trump’s appeal regarding the $83.3 million judgment is ongoing. New York “hush money” case Trump was convicted of 34 felonies in May 2024 when a New York jury found him guilty of falsifying business records to conceal hush money payments to adult film actress Stormy Daniels weeks before the 2016 presidential election. The ruling made him the first U.S. President to be convicted of a felony. Trump’s conviction could have meant up to four years in prison and thousands of dollars in fines per count, but Trump was spared jail time, probation, and fines as Manhattan Judge Juan M. Merchan in January sentenced ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump criminal charges conviction"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump criminal charges conviction",
+        "canonical_url": "https://time.com/7311545/donald-trump-legal-cases-status-civil-lawsuit-fraud-criminal-prosecution",
+        "published_at": "2025-08-22T00:00:00",
+        "publisher": "time.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_d44f91449f57",
+        "title": "Here's where all the legal cases against Trump stand since his return to the White House",
+        "url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd#",
+        "snippet": "Since Trump’s reelection last ... interference and illegally hoarding classified documents — have either been <strong>dropped, resolved or put aside</strong>....",
+        "content": "Here’s where all the legal cases against Trump stand since his return to the White House A judge on Wednesday dismissed the Georgia election interference case against President Donald Trump and others, bringing an end to the last of four criminal cases filed against him that threatened to upend his finances and take away his freedom as he sought a return to the White House. The Georgia dismissal came after a new prosecutor in the case declined to pursue the charges. Since Trump’s reelection last year, four separate criminal cases — including his hush money conviction and federal allegations of election interference and illegally hoarding classified documents — have either been dropped, resolved or put aside. On the civil side, several high-profile lawsuits against Trump have been quietly working their way through the appeals process. Here’s a look at some of Trump’s criminal and civil cases and where they stand now: New York hush money case Trump became the first former U.S. president convicted of felonies when a New York jury found him guilty in May 2024 of falsifying business records to cover up a hush money payment to a porn actor who said the two had sex. Though Trump could have faced jail time, Manhattan Judge Juan M. Merchan in January sentenced him instead to what’s known as an unconditional discharge, leaving his conviction on the books but sparing him any punishment. Trump was set to take office just days later, and Merchan said he had to respect Trump’s upcoming legal protections as president, even wishing him “Godspeed as you assume your second term in office.” Trump is trying to get the conviction erased, a push that was given new life in November when a federal appeals court ordered a lower court to reconsider its decision to keep the case in state court instead of moving it to federal court. Georgia election interference case In August 2023, Fulton County District Attorney Fani Willis charged Trump and 18 others with participating in a scheme to illegally try to overturn his narrow loss to Democrat Joe Biden in the 2020 presidential election in Georgia. Willis cited Trump’s January 2021 phone call to Georgia’s secretary of state, an effort to replace Georgia’s Democratic presidential electors with ones who would vote for Trump, harassment of a Fulton County election worker and the unauthorized copying of data and software from elections equipment. But the case stalled over revelations Willis had been in a relationship with the man she appointed to prosecute it. A state appeals court in December removed Willis from the case and the state Supreme Court later declined to hear her appeal. Pete Skandalakis, the executive director of the Prosecuting Attorneys’ Council of Georgia, took over the case in November after he said several prosecutors declined to take it. Fulton County Superior Court Judge Scott McAfee issued a brief order dismissing the case in its entirety Wednesday after Skandalakis said he has decided not to pursue it further. Federal election case Special counsel Jack Smith charged Trump in August 2023 with conspiring to overturn the results of his election loss to President Joe Biden in the run-up to the Jan. 6, 2021, riot at the U.S. Capitol. Prosecutors allege Trump and his allies knowingly promoted election fraud lies in a bid to push state officials to overturn Biden’s win and pressure Vice President Mike Pence to disrupt the ceremonial counting of electoral votes. But Smith moved to drop the case after Trump won reelection in November. Longstanding Justice Department policy says sitting presidents cannot face criminal prosecution. Classified documents case In a separate prosecution, Smith charged Trump in June 2023 with illegally retaining classified documents he took from the White House to Mar-a-Lago after he left office in January 2021, and then obstructing government demands to give them back. Prosecutors filed additional charges the following month, accusing Trump of showing a Pentagon “plan of",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Trump legal cases status"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Trump legal cases status",
+        "canonical_url": "https://apnews.com/article/donald-trump-investigations-lawsuits-status-update-7b8b7f3ccb4318bca0aecf9c407032cd",
+        "published_at": "2025-11-26T00:00:00",
+        "publisher": "apnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 32360
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:32:14.765846+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:31:58.958143+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:58.958232+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:58.958661+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:31:58.958762+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:31:58.959105+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:00.099676+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1140
+    },
+    {
+      "timestamp": "2026-05-16T02:32:00.100200+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:00.100272+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:00.100614+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:01.824983+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1724
+    },
+    {
+      "timestamp": "2026-05-16T02:32:01.825576+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:05.794440+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 3968
+    },
+    {
+      "timestamp": "2026-05-16T02:32:05.794933+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:08.953517+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 3158
+    },
+    {
+      "timestamp": "2026-05-16T02:32:08.954131+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:09.562197+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 608
+    },
+    {
+      "timestamp": "2026-05-16T02:32:09.562719+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.758785+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5196
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.759345+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.759480+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.759825+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.759882+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.760141+00:00",
+      "event": "node_started",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:32:14.760234+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc33574a43e54ec39e7c22d9ff110458",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"The Chief Justice and his wife took 20 million dollars\" Substack Armitage",
+    "John Roberts payments from law firms with cases before the Supreme Court fact check",
+    "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+    "\"Supremely Corrupt Court\" Substack Corin Armitage chief justice 20 million"
+  ],
+  "metrics": {
+    "search_results_received": 10,
+    "search_results_by_provider": {
+      "brave": 10
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics/"
+      },
+      {
+        "id": "https://medium.com/@carmitage/the-chief-justice-and-his-wife-took-20-million-from-firms-he-rules-on-29c385da4417",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://medium.com/@carmitage/the-chief-justice-and-his-wife-took-20-million-from-firms-he-rules-on-29c385da4417"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://factually.co/fact-checks/business/john-roberts-reports-on-donations-and-payments-4dc0f8",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://medium.com/@Democracy_Labs/justice-for-sale-filing-for-the-chief-justice-john-roberts-disbarment-after-20-million-payout-9764cba449e8",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://medium.com/@carmitage/the-chief-justice-and-his-wife-took-20-million-from-firms-he-rules-on-29c385da4417",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://mitchthelawyer.substack.com/p/the-twenty-million-dollar-secret",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 4
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 4
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8158616711300478
+    },
+    {
+      "id": "src_eb1564f2eb0d",
+      "title": "Chief Justice’s $20 million worth of payoffs look like bribes - NJTODAY.NET",
+      "url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes/#",
+      "snippet": "O n more than 16 years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income</strong>. Not two thousand. Not twenty thousand.",
+      "content": "The man who sits at the head of the Supreme Court of the United States, the man who solemnly swore to uphold the Constitution and to obey the same laws that bind a small‑claims judge in rural Montana, has for the better part of two decades been playing a different game. The rest of us are only now beginning to see the cards, although we are paying for extraordinary corruption at the highest level of government. O n more than 16 years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income. Not two thousand. Not twenty thousand. Twenty million. That money came from law firms. Law firms that argued cases before his Court. And the Chief Justice did not see fit to step aside from those cases. Here is how the arrangement worked, plain as a ledger book. The Chief Justice’s wife, Jane Sullivan Roberts, worked as a legal recruiter. Her job was to place lawyers at law firms. For each placement, those firms paid her a commission. Hundreds of thousands of dollars, year after year, flowing into the Roberts household from the very same firms that would later stand before the Chief Justice asking for a favorable ruling. Now, a reasonable person might ask: shouldn’t a judge recuse himself when a law firm paying his family hundreds of thousands of dollars shows up in his courtroom? The law says yes. Federal statute 28 U.S.C. § 455 is not ambiguous. Subsection (a) requires recusal if a judge’s impartiality might reasonably be questioned. Subsection (b)(4) requires recusal if the judge or his spouse has a financial interest in a party to the proceeding. Subsection (b)(5)(iii) requires recusal if the spouse has an interest that could be substantially affected by the outcome. The Chief Justice triggered all three. A law firm that pays a judge’s spouse a six‑figure commission has an ongoing commercial relationship with that household. A reasonable person knowing that fact would question the judge’s impartiality. It doesn’t matter if the payoffs are intended as bribes, but they sure look like bribes. That is the whole point of the appearance standard. It does not require proof of actual bias. It requires only that the situation looks wrong to an honest citizen. This looks wrong by a mile. What did the Chief Justice do instead? For three consecutive years, he concealed his wife’s equity stake in her employer. He mischaracterized the millions in commissions on his disclosure forms. And he failed to recuse himself from more than five hundred cases argued before the Supreme Court by law firms that had paid his household those millions. Five hundred cases. That is not an oversight. That is a pattern. The man who architected the Supreme Court’s first ethics code designed it to be unenforceable. He wrote the rules and then made sure nobody could enforce them against him. That is not a misunderstanding. That is a plan. Bennett Gershman, a legal ethics professor at Pace Law School, reviewed the Roberts household arrangement at the request of a whistleblower. His analysis concluded that even under the narrowest reading of the recusal statute, a reasonable person would question the Chief Justice’s impartiality. Another whistleblower, a former managing director at the recruiting firm where Jane Roberts worked, filed a federal complaint with the House and Senate Judiciary Committees and the Department of Justice. He attached internal spreadsheets, sworn affidavits, and Jane Roberts’s own arbitration testimony. The evidence is sitting in a file somewhere in Washington. Nobody has done a thing about it. So here we are. The Chief Justice of the United States presided over five hundred cases where his household had a financial stake in the outcome. He hid twenty million dollars in plain sight on his disclosure forms. He wrote an unenforceable ethics code and called it reform. When someone finally blew the whistle, the machinery of accountability ground to a halt. You can call that many ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes",
+      "published_at": "2026-05-07T00:00:00",
+      "publisher": "njtoday.news",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7853359312608147
+    },
+    {
+      "id": "src_67f6abda8f01",
+      "title": "The US Chief Justice and his wife took $20 million from firms he rules on. I'm filing for his disbarment today. - ~society - Tildes",
+      "url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his#",
+      "snippet": "Over sixteen years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court.</strong>",
+      "content": "This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. ... ... This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. He architected the Court’s first ethics code and designed it to be unenforceable. This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. ... The scope of Roberts’s corruption is not measured in individual cases. It is measured across the entire docket of the Supreme Court over two decades. WilmerHale alone, one of Jane Roberts’s documented client firms, had 18 cases at the Supreme Court in the single term of 2016, and Seth Waxman of WilmerHale has argued more than 85 Supreme Court cases across his career. Hogan Lovells, another documented client firm, argued 8 Supreme Court cases in 2024 alone and has represented nearly 10 percent of the Court’s entire docket in recent terms. Across Roberts’s two decades on the Court, the law firms paying his household in commissions have argued more than five hundred cases before him. He recused from none of them on spousal income grounds. ... Five mechanisms exist to hold a federal judge accountable for the conduct documented here. Each of them is available. Each of them is being refused. The law exists. 5 U.S.C. § 13106 makes willful false disclosure a civil violation with penalties up to $50,000. 18 U.S.C. § 1001 makes knowing false statements to the federal government a felony punishable by five years. 28 U.S.C. § 455 mandates recusal. These are laws Congress wrote. They apply to the Chief Justice. Impeachment exists. Article II, Section 4 provides for removal of judges for high crimes and misdemeanors. Porteous in 2010. Claiborne in 1986. Hastings in 1989. Congress has the power and has used it on federal judges. The Judicial Conference has a statutory referral obligation under § 13106. It exists. It just hasn’t been used against a justice. The DC Bar has disciplinary jurisdiction over its members. It exists. It just carves out judicial capacity by policy. The Supreme Court Bar has a complaint mechanism. It exists. It just answers to the Court. The mechanisms exist. The political will of the people who control them does not. The Judicial Conference won’t refer. The DC Bar declines on intake. The Senate won’t impeach. DOJ won’t prosecute. Each institution points at another institution and says not my jurisdiction, not my moment, not my responsibility. In the United Kingdom, a party who believes a judge should step aside can file a challenge, and a different judge decides. In Canada, the Judicial Council accepts complaints from any member of the public and can recommend a judge’s removal. In Germany, the other members of a Federal Constitutional Court panel vote on whether a colleague must recuse, and the judge in question does not vote on their own case. In Australia, a statutory code requires federal judges to disclose spousal income in full rather than by category label. At the European Court of Human Rights, the plenary court has authority to remove a judge who fails to recuse where the law requires it. What every one of these systems shares, and what the American system lacks, is an external body with the authority to receive a complaint, investigate it, and impose consequences. The self-policing rule is the American anomaly. When you know fu",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his",
+      "published_at": "2026-04-23T00:00:00",
+      "publisher": "tildes.net",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7666045824982174
+    },
+    {
+      "id": "src_c0f833f1bd1e",
+      "title": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout",
+      "url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics/#",
+      "snippet": "Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized <strong>more than twenty million dollars</strong> in household income from law firms appearing before the Supreme Court.",
+      "content": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout The Chief Justice and His Wife Took $20 Million From Firms He Rules On. Spreadsheets show Jane Roberts earned $10,323,842.70 in commissions over seven years. - Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. - He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. - He architected the Court’s first ethics code and designed it to be unenforceable. - This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. - The governing standard is 28 U.S.C. § 455, which applies to every federal judge including Supreme Court justices. Roberts triggers all three recusal obligations. - Subsection (a) says a judge “shall disqualify himself in any proceeding in which his impartiality might reasonably be questioned.” This is the appearance standard, and it does not require actual bias. It requires only that a reasonable person knowing the facts would question the judge’s impartiality. - Christopher Armitage What you can do now! This follows 12 other decisions by MAGA SIX PACK justices to rig the system for the billionaires who packed the Supreme Court. - Ban abortions - Gut Voting Right Act - Approve Republican gerrymandering - Let dark money flood politics - Endorsed tax breaks for the rich - Cripple EPA from fighting climate change - Blocked gun safety measures - Evict poor tenants during the pandemic - Block immigration reform - Ban Muslims from entering America - Politicize justice system \"The inflamed public reaction stems also from the fact that the law changed because the court’s membership changed. The ruling in Dobbs v. Jackson Women’s Health Organization was the culmination of a political and politicized process to bolster the conservative majority by any means necessary. And this stacked court has — time after time, but most flagrantly in overruling Roe v. Wade — abandoned normal rules of restraint, twisted or ignored doctrine, and substituted raw power to achieve its desired result. And this is how the institution undermines its own legitimacy. If the court behaves like just another political body, it loses the only power it has, of achieving public acceptance of its rulings.\" - Washington Post Republicans have packed the courts \"If it were even remotely true that Supreme Court members behave apolitically, we wouldn't be seeing the blatantly obvious pattern we see in the votes, with frequent 5-4 decisions whose alignment doesn't need to be known, because we already know it... we know which of the 'liberal' and 'conservative' justices voted which way. We know which justices adhere to concepts like 'originalism' and 'textualism', and which consider the Constitution to be a 'live' document. We know which ones think they can divine the mindset of long dead Founding Fathers, and which ones think that idea is absurd.\" - Forum Legitimacy is earned “The way the court retains its legitimacy and fosters public confidence is by acting like a court,” said Justice Elena Kagan. “By doing the kind of things that do not seem to people political or partisan. By not behaving as though we are just people with individual political or policy or social preferences that we are making everybody live with, but instead we are acting like a court, doing something that is recognizably law-like. That is where we gain our legitimacy.” Specifically, Kagan said, acting like a court means respecting precedent, applying judicial methodologies consistently and irrespective of outcome, and not lunging to make decisions more far",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "John Roberts payments from law firms with cases before the Supreme Court fact check",
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+          "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics",
+      "published_at": "2026-04-23T00:00:00",
+      "publisher": "thedemlabs.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7608866292323904
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7559630507655284
+    },
+    {
+      "id": "src_0d1b79a3a330",
+      "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+      "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+      "snippet": "On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his ... had taken <strong>$20 million</strong> from ...",
+      "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "John Roberts payments from law firms with cases before the Supreme Court fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "John Roberts payments from law firms with cases before the Supreme Court fact check",
+      "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+      "published_at": "2026-05-01T00:00:00",
+      "publisher": "snopes.com",
+      "source_category": "fact_checking",
+      "source_role": "independent_context",
+      "relevance_score": 0.6892392756559719
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8158616711300478
+    },
+    {
+      "id": "src_eb1564f2eb0d",
+      "title": "Chief Justice’s $20 million worth of payoffs look like bribes - NJTODAY.NET",
+      "url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes/#",
+      "snippet": "O n more than 16 years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income</strong>. Not two thousand. Not twenty thousand.",
+      "content": "The man who sits at the head of the Supreme Court of the United States, the man who solemnly swore to uphold the Constitution and to obey the same laws that bind a small‑claims judge in rural Montana, has for the better part of two decades been playing a different game. The rest of us are only now beginning to see the cards, although we are paying for extraordinary corruption at the highest level of government. O n more than 16 years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income. Not two thousand. Not twenty thousand. Twenty million. That money came from law firms. Law firms that argued cases before his Court. And the Chief Justice did not see fit to step aside from those cases. Here is how the arrangement worked, plain as a ledger book. The Chief Justice’s wife, Jane Sullivan Roberts, worked as a legal recruiter. Her job was to place lawyers at law firms. For each placement, those firms paid her a commission. Hundreds of thousands of dollars, year after year, flowing into the Roberts household from the very same firms that would later stand before the Chief Justice asking for a favorable ruling. Now, a reasonable person might ask: shouldn’t a judge recuse himself when a law firm paying his family hundreds of thousands of dollars shows up in his courtroom? The law says yes. Federal statute 28 U.S.C. § 455 is not ambiguous. Subsection (a) requires recusal if a judge’s impartiality might reasonably be questioned. Subsection (b)(4) requires recusal if the judge or his spouse has a financial interest in a party to the proceeding. Subsection (b)(5)(iii) requires recusal if the spouse has an interest that could be substantially affected by the outcome. The Chief Justice triggered all three. A law firm that pays a judge’s spouse a six‑figure commission has an ongoing commercial relationship with that household. A reasonable person knowing that fact would question the judge’s impartiality. It doesn’t matter if the payoffs are intended as bribes, but they sure look like bribes. That is the whole point of the appearance standard. It does not require proof of actual bias. It requires only that the situation looks wrong to an honest citizen. This looks wrong by a mile. What did the Chief Justice do instead? For three consecutive years, he concealed his wife’s equity stake in her employer. He mischaracterized the millions in commissions on his disclosure forms. And he failed to recuse himself from more than five hundred cases argued before the Supreme Court by law firms that had paid his household those millions. Five hundred cases. That is not an oversight. That is a pattern. The man who architected the Supreme Court’s first ethics code designed it to be unenforceable. He wrote the rules and then made sure nobody could enforce them against him. That is not a misunderstanding. That is a plan. Bennett Gershman, a legal ethics professor at Pace Law School, reviewed the Roberts household arrangement at the request of a whistleblower. His analysis concluded that even under the narrowest reading of the recusal statute, a reasonable person would question the Chief Justice’s impartiality. Another whistleblower, a former managing director at the recruiting firm where Jane Roberts worked, filed a federal complaint with the House and Senate Judiciary Committees and the Department of Justice. He attached internal spreadsheets, sworn affidavits, and Jane Roberts’s own arbitration testimony. The evidence is sitting in a file somewhere in Washington. Nobody has done a thing about it. So here we are. The Chief Justice of the United States presided over five hundred cases where his household had a financial stake in the outcome. He hid twenty million dollars in plain sight on his disclosure forms. He wrote an unenforceable ethics code and called it reform. When someone finally blew the whistle, the machinery of accountability ground to a halt. You can call that many ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes",
+      "published_at": "2026-05-07T00:00:00",
+      "publisher": "njtoday.news",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7853359312608147
+    },
+    {
+      "id": "src_67f6abda8f01",
+      "title": "The US Chief Justice and his wife took $20 million from firms he rules on. I'm filing for his disbarment today. - ~society - Tildes",
+      "url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his#",
+      "snippet": "Over sixteen years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court.</strong>",
+      "content": "This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. ... ... This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. He architected the Court’s first ethics code and designed it to be unenforceable. This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. ... The scope of Roberts’s corruption is not measured in individual cases. It is measured across the entire docket of the Supreme Court over two decades. WilmerHale alone, one of Jane Roberts’s documented client firms, had 18 cases at the Supreme Court in the single term of 2016, and Seth Waxman of WilmerHale has argued more than 85 Supreme Court cases across his career. Hogan Lovells, another documented client firm, argued 8 Supreme Court cases in 2024 alone and has represented nearly 10 percent of the Court’s entire docket in recent terms. Across Roberts’s two decades on the Court, the law firms paying his household in commissions have argued more than five hundred cases before him. He recused from none of them on spousal income grounds. ... Five mechanisms exist to hold a federal judge accountable for the conduct documented here. Each of them is available. Each of them is being refused. The law exists. 5 U.S.C. § 13106 makes willful false disclosure a civil violation with penalties up to $50,000. 18 U.S.C. § 1001 makes knowing false statements to the federal government a felony punishable by five years. 28 U.S.C. § 455 mandates recusal. These are laws Congress wrote. They apply to the Chief Justice. Impeachment exists. Article II, Section 4 provides for removal of judges for high crimes and misdemeanors. Porteous in 2010. Claiborne in 1986. Hastings in 1989. Congress has the power and has used it on federal judges. The Judicial Conference has a statutory referral obligation under § 13106. It exists. It just hasn’t been used against a justice. The DC Bar has disciplinary jurisdiction over its members. It exists. It just carves out judicial capacity by policy. The Supreme Court Bar has a complaint mechanism. It exists. It just answers to the Court. The mechanisms exist. The political will of the people who control them does not. The Judicial Conference won’t refer. The DC Bar declines on intake. The Senate won’t impeach. DOJ won’t prosecute. Each institution points at another institution and says not my jurisdiction, not my moment, not my responsibility. In the United Kingdom, a party who believes a judge should step aside can file a challenge, and a different judge decides. In Canada, the Judicial Council accepts complaints from any member of the public and can recommend a judge’s removal. In Germany, the other members of a Federal Constitutional Court panel vote on whether a colleague must recuse, and the judge in question does not vote on their own case. In Australia, a statutory code requires federal judges to disclose spousal income in full rather than by category label. At the European Court of Human Rights, the plenary court has authority to remove a judge who fails to recuse where the law requires it. What every one of these systems shares, and what the American system lacks, is an external body with the authority to receive a complaint, investigate it, and impose consequences. The self-policing rule is the American anomaly. When you know fu",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his",
+      "published_at": "2026-04-23T00:00:00",
+      "publisher": "tildes.net",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7666045824982174
+    },
+    {
+      "id": "src_c0f833f1bd1e",
+      "title": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout",
+      "url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics/#",
+      "snippet": "Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized <strong>more than twenty million dollars</strong> in household income from law firms appearing before the Supreme Court.",
+      "content": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout The Chief Justice and His Wife Took $20 Million From Firms He Rules On. Spreadsheets show Jane Roberts earned $10,323,842.70 in commissions over seven years. - Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. - He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. - He architected the Court’s first ethics code and designed it to be unenforceable. - This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. - The governing standard is 28 U.S.C. § 455, which applies to every federal judge including Supreme Court justices. Roberts triggers all three recusal obligations. - Subsection (a) says a judge “shall disqualify himself in any proceeding in which his impartiality might reasonably be questioned.” This is the appearance standard, and it does not require actual bias. It requires only that a reasonable person knowing the facts would question the judge’s impartiality. - Christopher Armitage What you can do now! This follows 12 other decisions by MAGA SIX PACK justices to rig the system for the billionaires who packed the Supreme Court. - Ban abortions - Gut Voting Right Act - Approve Republican gerrymandering - Let dark money flood politics - Endorsed tax breaks for the rich - Cripple EPA from fighting climate change - Blocked gun safety measures - Evict poor tenants during the pandemic - Block immigration reform - Ban Muslims from entering America - Politicize justice system \"The inflamed public reaction stems also from the fact that the law changed because the court’s membership changed. The ruling in Dobbs v. Jackson Women’s Health Organization was the culmination of a political and politicized process to bolster the conservative majority by any means necessary. And this stacked court has — time after time, but most flagrantly in overruling Roe v. Wade — abandoned normal rules of restraint, twisted or ignored doctrine, and substituted raw power to achieve its desired result. And this is how the institution undermines its own legitimacy. If the court behaves like just another political body, it loses the only power it has, of achieving public acceptance of its rulings.\" - Washington Post Republicans have packed the courts \"If it were even remotely true that Supreme Court members behave apolitically, we wouldn't be seeing the blatantly obvious pattern we see in the votes, with frequent 5-4 decisions whose alignment doesn't need to be known, because we already know it... we know which of the 'liberal' and 'conservative' justices voted which way. We know which justices adhere to concepts like 'originalism' and 'textualism', and which consider the Constitution to be a 'live' document. We know which ones think they can divine the mindset of long dead Founding Fathers, and which ones think that idea is absurd.\" - Forum Legitimacy is earned “The way the court retains its legitimacy and fosters public confidence is by acting like a court,” said Justice Elena Kagan. “By doing the kind of things that do not seem to people political or partisan. By not behaving as though we are just people with individual political or policy or social preferences that we are making everybody live with, but instead we are acting like a court, doing something that is recognizably law-like. That is where we gain our legitimacy.” Specifically, Kagan said, acting like a court means respecting precedent, applying judicial methodologies consistently and irrespective of outcome, and not lunging to make decisions more far",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "John Roberts payments from law firms with cases before the Supreme Court fact check",
+          "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+          "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+      "canonical_url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics",
+      "published_at": "2026-04-23T00:00:00",
+      "publisher": "thedemlabs.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7608866292323904
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @econanalytica.bsky.social",
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "econanalytica.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7559630507655284
+    },
+    {
+      "id": "src_0d1b79a3a330",
+      "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+      "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+      "snippet": "On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his ... had taken <strong>$20 million</strong> from ...",
+      "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "John Roberts payments from law firms with cases before the Supreme Court fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "John Roberts payments from law firms with cases before the Supreme Court fact check",
+      "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+      "published_at": "2026-05-01T00:00:00",
+      "publisher": "snopes.com",
+      "source_category": "fact_checking",
+      "source_role": "independent_context",
+      "relevance_score": 0.6892392756559719
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "GENERAL_WARNING",
+      "message": "There are no primary court documents or official disciplinary findings in the sources; much of the detail comes from whistleblower accounts, advocacy outlets, and an unadjudicated investigative article.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+      "platform": "bluesky",
+      "author": {
+        "handle": "econanalytica.bsky.social",
+        "display_name": "Econ Analytica",
+        "did": "did:plc:6nkz2fo4vmtumpljkoqy6l54"
+      },
+      "text": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+      "created_at": "2026-05-15T14:23:00.011000Z",
+      "images": [],
+      "links": [
+        "https://cmarmitage.substack.com/p/the-chief-justice-and-his-wife-took?triedRedirect=true"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?"
+    },
+    "explanation": [
+      {
+        "text": "The post repeats a viral allegation that U.S. Chief Justice John Roberts and his wife “took $20 million” from law firms with cases before the Supreme Court, an accusation popularized in an April 22, 2026 Substack article by Christopher Armitage claiming the couple accepted more than $20 million from such firms.",
+        "source_ids": [
+          "thread_original",
+          "src_0d1b79a3a330",
+          "src_67f6abda8f01",
+          "src_c0f833f1bd1e"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This summarizes what the allegation says, not whether it is true.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Fact‑checking outlet Snopes reports that there is not enough verifiable financial information to confirm that the Roberts household received more than $20 million from law firms that had business before the Supreme Court, and therefore it cannot currently rate the truth of the $20 million claim.",
+        "source_ids": [
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The precise total amount and how much came from firms with Supreme Court cases remain unverified.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "According to Snopes’ review of the underlying reporting, the money at issue was earned by Jane Roberts in her role as a legal recruiter receiving commissions from placing lawyers at firms, and describing both John and Jane Roberts as personally “taking” that money from law firms is characterized as misleading, because John Roberts did not receive commissions directly.",
+        "source_ids": [
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Snopes bases this on available whistleblower materials and prior media reports; full financial records are not public.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Background reports based on whistleblower materials and advocacy pieces allege that over roughly 16 years of financial disclosure forms, Chief Justice Roberts mischaracterized more than $20 million in household income tied to his wife’s recruitment commissions from elite law firms, some of which appeared before the Court, and that he did not recuse from hundreds of such cases despite this financial relationship.",
+        "source_ids": [
+          "src_eb1564f2eb0d",
+          "src_67f6abda8f01",
+          "src_c0f833f1bd1e",
+          "src_0d1b79a3a330"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These descriptions rely on whistleblower complaints and advocacy or opinion pieces rather than court findings or official disciplinary actions.",
+            "bullet_index": null
+          },
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "No court or official body has yet adjudicated these allegations as bribery or formal misconduct.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread’s language about a “Supremely Corrupt Court,” calling the justices “criminals” and saying “Roberts looked at Clarence Thomas and said, ‘Why not me too?’” reflects the author’s personal outrage and belief that these alleged financial conflicts show systemic corruption at the Supreme Court, rather than a judicial or investigative conclusion.",
+        "source_ids": [
+          "thread_original",
+          "thread_context",
+          "src_c0f833f1bd1e"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is subjective commentary; no criminal charges or formal corruption findings against Roberts are documented in the cited sources.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @econanalytica.bsky.social",
+        "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+        "snippet": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+        "content": "The Supremely Corrupt Court\n\nAnd there is no one who will hold him accountable 😡\n\nRoberts looked at Clarence Thomas and said, “Why not me too?” #SCOTUSisCorrupt.\n\nCRIMINALS   ...... all of them!!!\n\nhe just had to one-up Clarence Thomas, didn't he?",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "econanalytica.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_eb1564f2eb0d",
+        "title": "Chief Justice’s $20 million worth of payoffs look like bribes - NJTODAY.NET",
+        "url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes/#",
+        "snippet": "O n more than 16 years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income</strong>. Not two thousand. Not twenty thousand.",
+        "content": "The man who sits at the head of the Supreme Court of the United States, the man who solemnly swore to uphold the Constitution and to obey the same laws that bind a small‑claims judge in rural Montana, has for the better part of two decades been playing a different game. The rest of us are only now beginning to see the cards, although we are paying for extraordinary corruption at the highest level of government. O n more than 16 years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income. Not two thousand. Not twenty thousand. Twenty million. That money came from law firms. Law firms that argued cases before his Court. And the Chief Justice did not see fit to step aside from those cases. Here is how the arrangement worked, plain as a ledger book. The Chief Justice’s wife, Jane Sullivan Roberts, worked as a legal recruiter. Her job was to place lawyers at law firms. For each placement, those firms paid her a commission. Hundreds of thousands of dollars, year after year, flowing into the Roberts household from the very same firms that would later stand before the Chief Justice asking for a favorable ruling. Now, a reasonable person might ask: shouldn’t a judge recuse himself when a law firm paying his family hundreds of thousands of dollars shows up in his courtroom? The law says yes. Federal statute 28 U.S.C. § 455 is not ambiguous. Subsection (a) requires recusal if a judge’s impartiality might reasonably be questioned. Subsection (b)(4) requires recusal if the judge or his spouse has a financial interest in a party to the proceeding. Subsection (b)(5)(iii) requires recusal if the spouse has an interest that could be substantially affected by the outcome. The Chief Justice triggered all three. A law firm that pays a judge’s spouse a six‑figure commission has an ongoing commercial relationship with that household. A reasonable person knowing that fact would question the judge’s impartiality. It doesn’t matter if the payoffs are intended as bribes, but they sure look like bribes. That is the whole point of the appearance standard. It does not require proof of actual bias. It requires only that the situation looks wrong to an honest citizen. This looks wrong by a mile. What did the Chief Justice do instead? For three consecutive years, he concealed his wife’s equity stake in her employer. He mischaracterized the millions in commissions on his disclosure forms. And he failed to recuse himself from more than five hundred cases argued before the Supreme Court by law firms that had paid his household those millions. Five hundred cases. That is not an oversight. That is a pattern. The man who architected the Supreme Court’s first ethics code designed it to be unenforceable. He wrote the rules and then made sure nobody could enforce them against him. That is not a misunderstanding. That is a plan. Bennett Gershman, a legal ethics professor at Pace Law School, reviewed the Roberts household arrangement at the request of a whistleblower. His analysis concluded that even under the narrowest reading of the recusal statute, a reasonable person would question the Chief Justice’s impartiality. Another whistleblower, a former managing director at the recruiting firm where Jane Roberts worked, filed a federal complaint with the House and Senate Judiciary Committees and the Department of Justice. He attached internal spreadsheets, sworn affidavits, and Jane Roberts’s own arbitration testimony. The evidence is sitting in a file somewhere in Washington. Nobody has done a thing about it. So here we are. The Chief Justice of the United States presided over five hundred cases where his household had a financial stake in the outcome. He hid twenty million dollars in plain sight on his disclosure forms. He wrote an unenforceable ethics code and called it reform. When someone finally blew the whistle, the machinery of accountability ground to a halt. You can call that many ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+        "canonical_url": "https://njtoday.news/2026/05/07/chief-justices-20-million-worth-of-payoffs-look-like-bribes",
+        "published_at": "2026-05-07T00:00:00",
+        "publisher": "njtoday.news",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_67f6abda8f01",
+        "title": "The US Chief Justice and his wife took $20 million from firms he rules on. I'm filing for his disbarment today. - ~society - Tildes",
+        "url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his#",
+        "snippet": "Over sixteen years of federal financial disclosure forms, <strong>Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court.</strong>",
+        "content": "This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. ... ... This is a substack post from Christopher Armitage about stunning corruption in the supreme court. Includes a strategy to do something about it. Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. He architected the Court’s first ethics code and designed it to be unenforceable. This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. ... The scope of Roberts’s corruption is not measured in individual cases. It is measured across the entire docket of the Supreme Court over two decades. WilmerHale alone, one of Jane Roberts’s documented client firms, had 18 cases at the Supreme Court in the single term of 2016, and Seth Waxman of WilmerHale has argued more than 85 Supreme Court cases across his career. Hogan Lovells, another documented client firm, argued 8 Supreme Court cases in 2024 alone and has represented nearly 10 percent of the Court’s entire docket in recent terms. Across Roberts’s two decades on the Court, the law firms paying his household in commissions have argued more than five hundred cases before him. He recused from none of them on spousal income grounds. ... Five mechanisms exist to hold a federal judge accountable for the conduct documented here. Each of them is available. Each of them is being refused. The law exists. 5 U.S.C. § 13106 makes willful false disclosure a civil violation with penalties up to $50,000. 18 U.S.C. § 1001 makes knowing false statements to the federal government a felony punishable by five years. 28 U.S.C. § 455 mandates recusal. These are laws Congress wrote. They apply to the Chief Justice. Impeachment exists. Article II, Section 4 provides for removal of judges for high crimes and misdemeanors. Porteous in 2010. Claiborne in 1986. Hastings in 1989. Congress has the power and has used it on federal judges. The Judicial Conference has a statutory referral obligation under § 13106. It exists. It just hasn’t been used against a justice. The DC Bar has disciplinary jurisdiction over its members. It exists. It just carves out judicial capacity by policy. The Supreme Court Bar has a complaint mechanism. It exists. It just answers to the Court. The mechanisms exist. The political will of the people who control them does not. The Judicial Conference won’t refer. The DC Bar declines on intake. The Senate won’t impeach. DOJ won’t prosecute. Each institution points at another institution and says not my jurisdiction, not my moment, not my responsibility. In the United Kingdom, a party who believes a judge should step aside can file a challenge, and a different judge decides. In Canada, the Judicial Council accepts complaints from any member of the public and can recommend a judge’s removal. In Germany, the other members of a Federal Constitutional Court panel vote on whether a colleague must recuse, and the judge in question does not vote on their own case. In Australia, a statutory code requires federal judges to disclose spousal income in full rather than by category label. At the European Court of Human Rights, the plenary court has authority to remove a judge who fails to recuse where the law requires it. What every one of these systems shares, and what the American system lacks, is an external body with the authority to receive a complaint, investigate it, and impose consequences. The self-policing rule is the American anomaly. When you know fu",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+        "canonical_url": "https://tildes.net/~society/1tuu/the_us_chief_justice_and_his_wife_took_20_million_from_firms_he_rules_on_im_filing_for_his",
+        "published_at": "2026-04-23T00:00:00",
+        "publisher": "tildes.net",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_c0f833f1bd1e",
+        "title": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout",
+        "url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics/#",
+        "snippet": "Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized <strong>more than twenty million dollars</strong> in household income from law firms appearing before the Supreme Court.",
+        "content": "Justice for Sale? Filing for the Chief Justice John Robert’s Disbarment After $20 Million Payout The Chief Justice and His Wife Took $20 Million From Firms He Rules On. Spreadsheets show Jane Roberts earned $10,323,842.70 in commissions over seven years. - Over sixteen years of federal financial disclosure forms, Chief Justice John Roberts mischaracterized more than twenty million dollars in household income from law firms appearing before the Supreme Court. - He concealed his wife’s equity stake in her employer for three consecutive years. He failed to recuse from more than five hundred cases argued at the Supreme Court by law firms that had paid his household millions in commissions. - He architected the Court’s first ethics code and designed it to be unenforceable. - This is a course of conduct stretching across two decades, connected by a single through-line: the belief that the rules that apply to every other federal judge do not apply to him. - The governing standard is 28 U.S.C. § 455, which applies to every federal judge including Supreme Court justices. Roberts triggers all three recusal obligations. - Subsection (a) says a judge “shall disqualify himself in any proceeding in which his impartiality might reasonably be questioned.” This is the appearance standard, and it does not require actual bias. It requires only that a reasonable person knowing the facts would question the judge’s impartiality. - Christopher Armitage What you can do now! This follows 12 other decisions by MAGA SIX PACK justices to rig the system for the billionaires who packed the Supreme Court. - Ban abortions - Gut Voting Right Act - Approve Republican gerrymandering - Let dark money flood politics - Endorsed tax breaks for the rich - Cripple EPA from fighting climate change - Blocked gun safety measures - Evict poor tenants during the pandemic - Block immigration reform - Ban Muslims from entering America - Politicize justice system \"The inflamed public reaction stems also from the fact that the law changed because the court’s membership changed. The ruling in Dobbs v. Jackson Women’s Health Organization was the culmination of a political and politicized process to bolster the conservative majority by any means necessary. And this stacked court has — time after time, but most flagrantly in overruling Roe v. Wade — abandoned normal rules of restraint, twisted or ignored doctrine, and substituted raw power to achieve its desired result. And this is how the institution undermines its own legitimacy. If the court behaves like just another political body, it loses the only power it has, of achieving public acceptance of its rulings.\" - Washington Post Republicans have packed the courts \"If it were even remotely true that Supreme Court members behave apolitically, we wouldn't be seeing the blatantly obvious pattern we see in the votes, with frequent 5-4 decisions whose alignment doesn't need to be known, because we already know it... we know which of the 'liberal' and 'conservative' justices voted which way. We know which justices adhere to concepts like 'originalism' and 'textualism', and which consider the Constitution to be a 'live' document. We know which ones think they can divine the mindset of long dead Founding Fathers, and which ones think that idea is absurd.\" - Forum Legitimacy is earned “The way the court retains its legitimacy and fosters public confidence is by acting like a court,” said Justice Elena Kagan. “By doing the kind of things that do not seem to people political or partisan. By not behaving as though we are just people with individual political or policy or social preferences that we are making everybody live with, but instead we are acting like a court, doing something that is recognizably law-like. That is where we gain our legitimacy.” Specifically, Kagan said, acting like a court means respecting precedent, applying judicial methodologies consistently and irrespective of outcome, and not lunging to make decisions more far",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "John Roberts payments from law firms with cases before the Supreme Court fact check",
+            "20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+            "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "John Roberts payments from law firms with cases before the Supreme Court fact check | 20 million dollars to Chief Justice from firms with cases in front of the court ethics investigation",
+        "canonical_url": "https://thedemlabs.org/2026/04/23/disbarment-filing-chief-justice-20m-judicial-ethics",
+        "published_at": "2026-04-23T00:00:00",
+        "publisher": "thedemlabs.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @econanalytica.bsky.social",
+        "url": "https://bsky.app/profile/econanalytica.bsky.social/post/3mlvjtn3k2k24",
+        "snippet": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+        "content": "The Chief Justice and his wife took 20 million dollars from firms with cases in front of the court. A level of corruption no one expected from the nation's highest court",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "econanalytica.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_0d1b79a3a330",
+        "title": "Investigating claim Chief Justice Roberts, wife took $20M from law firms he ruled on | Snopes.com",
+        "url": "https://www.snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms/#",
+        "snippet": "On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his ... had taken <strong>$20 million</strong> from ...",
+        "content": "- The headline of an April 22, 2026, Substack post by independent journalist Christopher Armitage alleged that John Roberts, the chief justice of the U.S. Supreme Court, and his wife, Jane Roberts, accepted more than $20 million from law firms that John Roberts ruled on. - The allegation is partially based on a 2022 whistleblower report claiming that, while working as a recruiter at the firm Major, Lindsey & Africa, Jane Roberts made $10.3 million in commissions from elite law firms between 2007 and 2014. - The Ethics in Government Act requires Supreme Court justices to disclose their yearly finances, including spousal income above $1,000. However, the law only requires disclosure of the source of spousal income, not the amount received. - Armitage suggested that John Roberts and his wife earned a final total of more than $22 million from firms by estimating that Jane Roberts made $11.8 million in commission between 2015 and 2022, then adding it to the $10.3 million figure previously reported. - Though Armitage's headline — and many posts spreading the claim on social media —alleged that John and Jane Roberts took money from law firms, the body of his article said that John Roberts misrepresented Jane Roberts' income as salary instead of as commission. - The statement that both John and Jane Roberts were taking money from law firms is misleading. While some married couples do combine their finances, only Jane Roberts earned money, as part of her recruiting role. - Given that there is no confirmable information about how much money Jane Roberts has earned from law firms with business before the Supreme Court, Snopes cannot rate this claim unless further details emerge. On April 22, 2026, independent journalist Christopher Armitage published an article on his Substack, The Existentialist Republic, with a headline claiming that U.S. Supreme Court Chief Justice John Roberts and his The allegation spread on social media, where many expressed outrage at John Roberts' supposed behavior. Snopes readers searched the site hoping to find more information about the claim. Under the 1978 Ethics in Government Act, Supreme Court justices (and many other public officials) are required to disclose their personal finances on a yearly bases, including income earned by their spouses totaling more than $1,000. However, the law only requires officials to disclose the source of their spouse's income, not the amount. As such, there is limited available information about how much Jane Roberts made in commission, meaning Snopes cannot rate the claim that the couple took more than $20 million from these firms. In order to do so, we would need to view and authenticate financial documents or detailed disclosures of the Roberts' finances, then determine how much of that money came specifically from law firms that had business with the Supreme Court. Armitage's headline claimed that both John and Jane Roberts took money from law firms he ruled on. This was the version of the claim that spread on social media and that Snopes readers wrote in to request we investigate. However, Armitage did not use that exact language in the body of his article, which instead claimed that Roberts mischaracterized his wife's income as salary instead of as commission. It is misleading to say that John and Jane Roberts both took money from law firms. Many married couples do combine their finances, but it is worth noting that John Roberts was not taking commissions from law firms himself. Jane Roberts was the only one earning this money, as part of her role as a legal recruiter. According to 2023 reporting from Business Insider, The New York Times and Politico, Jane Roberts switched careers from practicing law to legal recruiting once her husband took his seat on the Supreme Court bench. She took a position with the firm Major, Lindsey & Africa in 2007 and worked there as a recruiter until 2019, when she left for the firm Macrae's Washington, D.C., office, where she is currently ",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "John Roberts payments from law firms with cases before the Supreme Court fact check"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "John Roberts payments from law firms with cases before the Supreme Court fact check",
+        "canonical_url": "https://snopes.com/news/2026/05/01/chief-justice-roberts-wife-law-firms",
+        "published_at": "2026-05-01T00:00:00",
+        "publisher": "snopes.com",
+        "source_category": "fact_checking",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "GENERAL_WARNING",
+        "message": "There are no primary court documents or official disciplinary findings in the sources; much of the detail comes from whistleblower accounts, advocacy outlets, and an unadjudicated investigative article.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 15802
+  }
+}

@@ -1,0 +1,808 @@
+{
+  "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:22:57.640270+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:22:26.388278+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:26.388379+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:22:26.388739+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:26.388898+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:22:26.389323+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:27.435949+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1046
+    },
+    {
+      "timestamp": "2026-05-16T02:22:27.436447+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:27.436515+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:22:27.436858+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:30.104355+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2079
+    },
+    {
+      "timestamp": "2026-05-16T02:22:30.104945+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:35.666011+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5561
+    },
+    {
+      "timestamp": "2026-05-16T02:22:35.666520+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:44.766098+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 9099
+    },
+    {
+      "timestamp": "2026-05-16T02:22:44.766653+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:45.903544+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1136
+    },
+    {
+      "timestamp": "2026-05-16T02:22:45.904056+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.633037+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 11728
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.633609+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.633719+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.634062+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.634127+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.634608+00:00",
+      "event": "node_started",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:22:57.634706+00:00",
+      "event": "node_completed",
+      "run_id": "run_7230d09b8f9e478fab7cb1fc860a5462",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+    "Flávio Bolsonaro relação com PM RJ e milícias investigações",
+    "policiais militares milicianos Brasil contexto político uso termo",
+    "denúncias de golpe envolvendo famílias Bolsonaro e polícias militares após 8 de janeiro 2023"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.instagram.com/p/DYXuv7qOIA8/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYXP-AqNu7C/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://revistaoeste.com/brasil/em-questao-de-concurso-pms-sao-chamados-de-milicianos/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_0f2ea12ab784",
+        "title": "Flávio Bolsonaro tinha relação com milicianos suspeitos no caso ...",
+        "url": "https://pt.org.br/flavio-bolsonaro-tinha-relacao-com-milicianos-suspeitos-no-caso-marielle/#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_0e50083b0d3c",
+        "title": "Gabinete de Flávio tinha parentes de 'miliciano'",
+        "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/554666/noticia.html?sequence=1&isAllowed=y#",
+        "reason": "ranked_below_selected_sources"
+      },
+      {
+        "id": "src_b2a3de0d4229",
+        "title": "PMs se revoltam após serem chamados de 'milicianos' em prova de ...",
+        "url": "https://g1.globo.com/go/goias/noticia/2023/01/16/pms-se-revoltam-apos-serem-chamados-de-milicianos-em-prova-de-concurso-da-policia-civil.ghtml#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 3
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9025022577679794
+    },
+    {
+      "id": "src_897b0a0185a4",
+      "title": "VÍDEO - \"Pega ladrão\": Flávio Bolsonaro é chamado de \"bandido\" em evento da PM",
+      "url": "https://www.diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm/#",
+      "snippet": "# VÍDEO – “Pega ladrão”: Flávio Bolsonaro é chamado de “bandido” em evento da PM. O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro:. A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\". A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c.",
+      "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. Um grupo de manifestantes levou cartazes com frases como “Devolve o dinheiro da presidência”, “Familia Bolsonaro com Banco Master” e “Familia Bolsonaro Bandida”. Durante a chegada do senador ao local, também foram ouvidas vaias direcionadas ao pré-candidato à Presidência da República. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro: \"Ladrão! Família Bolsonaro bandida\" pic.twitter.com/O2vGML5npQ — Notícias Paralelas (@NP__Oficial) May 15, 2026 A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. Segundo reportagem do Intercept Brasil, o banqueiro teria prometido US$ 24 milhões para financiar a produção, com parte dos recursos já transferida entre fevereiro e maio de 2025. Em vídeo divulgado nas redes sociais, o senador admitiu que pediu dinheiro ao empresário para viabilizar o filme, mas negou irregularidades. O parlamentar afirmou que Vorcaro “simplesmente parou de honrar com as parcelas do contrato” e disse que a interrupção dos pagamentos colocava em risco a conclusão do longa. Vorcaro está preso preventivamente em Brasília, acusado pela Polícia Federal de comandar um esquema de fraudes financeiras estimado em até R$ 12 bilhões. O caso também passou a envolver investigações sobre a origem dos recursos usados no financiamento do filme “Dark Horse”. Nesta sexta-feira (15), o ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou a abertura de uma investigação preliminar para apurar o uso de emendas parlamentares na produção do filme. A representação foi apresentada por parlamentares da base do governo, entre eles a deputada Tabata Amaral (PSB-SP). O ministro já intimou os deputados Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) a prestarem esclarecimentos sobre possíveis repasses ligados à obra. Segundo Dino, apenas Bia Kicis e Marcos Pollon já apresentaram manifestação formal ao STF. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "diariodocentrodomundo.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8003540023955328
+    },
+    {
+      "id": "src_112ba40bafdd",
+      "title": "Flávio Bolsonaro é recebido com protestos no Rio; veja vídeo",
+      "url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973#",
+      "snippet": "O senador Flávio Bolsonaro (PL) foi hostilizado com gritos de \"bandido\" e \"pega ladrão\" durante agenda oficial no QG da Polícia Militar no",
+      "content": "O pré-candidato à Presidência da República e senador Flávio Bolsonaro (PL-RJ) foi alvo de xingamentos, nesta sexta-feira, 15, enquanto cumpria agenda no Quartel-General da Polícia Militar (PM), no Rio de Janeiro. Enquanto era recepcionado no local, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam \"pega ladrão\" e \"bandido\". Assista: ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026 A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c Além disso, um grupo também exibiu cartazes contra o filho do ex-presidente Jair Bolsonaro (PL). Flávio está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. O protesto ocorreu dias após o vazamento de áudios em que o liberal aparece pedindo dinheiro ao banqueiro Daniel Vorcaro, dono do Banco Master, para pagar despesas do filme \"Dark Horse\", em que narra a trajetória de Jair Bolsonaro até chegar ao Planalto, em 2018. Leia Também: Lula ironiza relação de Flávio com Vorcaro: \"Isso é caso de polícia\" O presidente Lula (PT) comentou sobre a relação entre o senador e pré-candidato à Presidência da República, Flávio Bolsonaro (PL-RJ), e o fundador do Banco Master, Daniel Vorcaro, revelada em reportagem do site The Intercept Brasil. Em meio ao discurso na visita à Fábrica de Fertilizantes Nitrogenados (Fafen) de Camaçari, nesta quinta-feira, 14, o presidente foi provocado por uma pessoa da plateia a falar sobre o caso, e ele respondeu. \"Eu não vou comentar, isso é caso de polícia, não é meu. Eu não sou policial, eu não sou procurador-geral. O meu caso é tratar do povo brasileiro, é tratar da Petrobras\", afirmou o presidente.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "atarde.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7869773491701074
+    },
+    {
+      "id": "src_919be0617e2b",
+      "title": "Flávio Bolsonaro é vaiado e chamado de ladrão em ...",
+      "url": "https://www.orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html#",
+      "snippet": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de",
+      "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de Janeiro. Manifestantes também exibiram cartazes contra o parlamentar enquanto a banda da corporação executava uma marcha durante o evento.Vídeos registrados no local mostram pessoas gritando expressões como “pega ladrão” e “bandido” direcionadas ao filho do ex-presidente Jair Bolsonaro. O episódio ocorre em meio à repercussão de denúncias relacionadas ao financiamento do filme Dark Horse, produção ligada à trajetória política de Jair Bolsonaro, atual aliado da extrema direita brasileira.A polêmica ganhou força após a divulgação, pelo site The Intercept, de áudios envolvendo Flávio Bolsonaro e o banqueiro Daniel Vorcaro, do Banco Master. Nas gravações, o senador teria cobrado parte dos US$ 24 milhões prometidos por Vorcaro para financiar o longa-metragem. O caso passou a ser analisado pelo ministro Flávio Dino, do Supremo Tribunal Federal (STF), que acolheu uma representação apresentada por parlamentares da base governista, entre eles a deputada Tabata Amaral (PSB-SP). A investigação preliminar tramita sob sigilo e apura possível utilização de emendas parlamentares no financiamento da obra. Além de Flávio Bolsonaro, a investigação também envolve os deputados federais Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS). Eles são suspeitos de supostamente mascarar repasses de verbas públicas destinadas ao projeto audiovisual. Esta notícia foi lida 73 vezes!",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "orc.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7831682899393687
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+      "content": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6819597813337448
+    },
+    {
+      "id": "src_02979f4b1b20",
+      "title": "Zero três: as relações perigosas de Flávio Bolsonaro com milicianos - CUT - Central Única dos Trabalhadores",
+      "url": "https://www.cut.org.br/noticias/zero-tres-as-relacoes-perigosas-de-flavio-bolsonaro-com-milicianos-bb8c#",
+      "snippet": "Revista IstoÉ fez matéria sobre assessora do filho mais velho do presidente, irmã de milicianos presos, que assinava cheques e foi tesoureira de Flávio e diz que seu gabinete era polo de candidaturas laranjas. Funcionária que tinha uma procuração e até assinava cheques em nome do senador Flávio Bolsonaro (PSL) quando ele era deputado estadual pelo Rio de janeiro, é irmã dos Policiais Militares (PM), Alan e Alex Rodrigues de Oliveira –milicianos presos em agosto do ano passado na Operação Quarto Elemento. Além do envolvimento com a milícia, a revista também revela, conforme reportagem de Viviane Nascimento, para o Seu Jornal, **da TVT,** que o gabinete de Flávio Bolsonaro funcionou como um polo de organização do esquema de candidatos laranjas do PSL, partido do presidente da República, para desviar verbas do fundo partidário.",
+      "content": "Zero três: as relações perigosas de Flávio Bolsonaro com milicianos Revista IstoÉ fez matéria sobre assessora do filho mais velho do presidente, irmã de milicianos presos, que assinava cheques e foi tesoureira de Flávio e diz que seu gabinete era polo de candidaturas laranjas Publicado: 25 Fevereiro, 2019 - 11h09 | Última modificação: 25 Fevereiro, 2019 - 11h41 Escrito por: Redação CUT Funcionária que tinha uma procuração e até assinava cheques em nome do senador Flávio Bolsonaro (PSL) quando ele era deputado estadual pelo Rio de janeiro, é irmã dos Policiais Militares (PM), Alan e Alex Rodrigues de Oliveira –milicianos presos em agosto do ano passado na Operação Quarto Elemento. Comandada pela Subsecretaria de Inteligência da Secretária de Segurança do Rio e pelo Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco) do Ministério Público do Rio de Janeiro (MPRJ), a Quarto Elemento é uma operação contra a corrupção dentro da Polícia Civil do Rio que investiga quase 50 denunciados entre policiais civis , militares, bombeiros, agentes penitenciários e 15 informantes ou ajudantes dos policiais. Valdenice de Oliveira Meliga, irmã dos PMs milicianos presos, Alan e Alex, foi tesoureira do filho numero três de Bolsonaro durante sua campanha ao Senado no ano passado, segundo reportagem da revista Isto É, que traz cheques do agora senador assinado pela assessora. Flávio Bolsonaro também empregou no seu gabinete na Assembleia Legislativa do Rio de Janeiro até novembro do ano passado a mãe e a mulher do capitão da Polícia Militar Adriano Magalhães da Nóbrega, apontado pelo Ministério Público do Rio (MP-RJ) como líder do Escritório do Crime, milícia suspeita de envolvimento no assassinato da vereadora Marielle Franco. Laranjal do PSL Além do envolvimento com a milícia, a revista também revela, conforme reportagem de Viviane Nascimento, para o Seu Jornal, da TVT, que o gabinete de Flávio Bolsonaro funcionou como um polo de organização do esquema de candidatos laranjas do PSL, partido do presidente da República, para desviar verbas do fundo partidário. Alessandra Ferreira de Oliveira, outra funcionária do seu gabinete, exerceu a função de primeira-tesoureira do PSL, cabendo a destinar recursos para as candidaturas do partido no estado do Rio. Sua empresa, a Alê Soluções e Eventos Ltda, foi responsável pela contabilidade de 42 campanhas do PSL, recebendo em pagamento parte das verbas destinada aos candidatos. Candidatas ouvidas pela reportagem relatam ter devolvido praticamente todo o dinheiro recebido. Queiroz Outro ex-assessor de Flávio Bolsonaro no Legislativo fluminense assumiu, em depoimento ao MP-RJ nesta semana, que repassava mensalmente cerca de dois terços de seus salários para o também ex-assessor Fabrício Queiroz que, segundo o Conselho de Controle de Atividades Financeiras (Coaf) movimentou R$ 7 milhões em três anos. Queiroz, ex-PM, que era motorista e segurança de Flávio e amigo de Bolsonaro pai há pelo menos três décadas, é apontado como suspeito de ser o responsável pelo recolhimento de parte dos salários desses assessores, que depois eram encaminhados à família do atual deputado e senador eleito. Dentre a movimentação suspeita, consta um cheque de Queiroz no valor de R$ 24 mil destinado à primeira-dama Michelle Bolsonaro. 'Nova Política' O comentarista político José Lopez Feijóo diz que as novas denúncias envolvendo mais laranjas e milicianos, somadas às articulações políticas do presidente Jair Bolsonaro (PSL), que deve distribuir cargos para tentar aprovar a sua proposta de \"reforma\" da Previdência, sepultam de uma vez por todo o discurso moralista de suposto combate à corrupção. Ele também relembra o caso da candidata ao Senado pelo PSL, Carmen Flores, que teria repassado verba pública do fundo partidário para a filha e a neta. E cobra o ministro da Justiça e Segurança Pública, Sérgio Moro. \"Como se vê, no quesito corrupção, a família e o governo Bolsonaro estão em grandes dificuldades para explicar estas enorme",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro relação com PM RJ e milícias investigações"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro relação com PM RJ e milícias investigações",
+      "canonical_url": "https://cut.org.br/noticias/zero-tres-as-relacoes-perigosas-de-flavio-bolsonaro-com-milicianos-bb8c",
+      "published_at": "2011-01-01T00:00:00",
+      "publisher": "cut.org.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5895213273611152
+    },
+    {
+      "id": "src_e25907e65569",
+      "title": "Investigação mostra ligação de Flávio Bolsonaro com milícias no Rio 📰",
+      "url": "https://www.youtube.com/watch?v=Cqca74cQ6Tc#",
+      "snippet": "Investigação mostra ligação de Flávio Bolsonaro com milícias no Rio 📰\nRede TVT\n1200000 subscribers\n807 likes\n14658 views\n28 Apr 2020\nO site The Intercept Brasil publicou no fim de semana reportagem com novas informações sobre o esquema de rachadinha que supostamente funcionava no gabinete do então deputado estadual Flávio Bolsonaro. O site teve acesso a documentos do Ministério Público do Rio de Janeiro que mostram que o filho de Jair Bolsonaro teria financiado e lucrado com a construção de prédios ilegais pela milícia.\n\n#FlávioBolsonaro\n#MiliciaRJ\n\n\n\n🔔 Inscreva-se, ative o “sininho” e receba os conteúdos da TVT\n📱 Adicione a TVT no Whatsapp (11) 99798-4042 e mande mensagem com seu nome e cidade/estado para receber novidades!\n47 comments",
+      "content": "Investigação mostra ligação de Flávio Bolsonaro com milícias no Rio 📰 - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro relação com PM RJ e milícias investigações"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro relação com PM RJ e milícias investigações",
+      "canonical_url": "https://youtube.com/watch?v=Cqca74cQ6Tc",
+      "published_at": "2020-04-27T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5696359762732384
+    },
+    {
+      "id": "src_25239293ad72",
+      "title": "Receita Federal mira miliciano que tinha elo com Flávio Bolsonaro - ISTOÉ DINHEIRO",
+      "url": "https://istoedinheiro.com.br/receita-federal-mira-miliciano-que-tinha-elo-com-flavio-bolsonaro#",
+      "snippet": "# Receita Federal mira miliciano que tinha elo com Flávio Bolsonaro. A Receita Federal vai ampliar a cooperação com o Ministério Público do Rio de Janeiro e investigar os envolvidos na Operação Os Intocáveis, que mira a atuação de milícias no Estado. Entre os alvos está o ex-capitão da PM Adriano Magalhães da Nóbrega, apontado como líder de grupo criminoso conhecido como Escritório do Crime. A mãe e a mulher de Nóbrega trabalharam no gabinete que o hoje senador Flávio Bolsonaro (PSL-RJ) ocupava até 31 de janeiro deste ano na Assembleia Legislativa do Rio. Como revelou o jornal **O Estado de S. Como revelou o jornal **O Estado de S. Paulo** no mês passado, a Receita já atuava na análise das movimentações financeiras dos citados no relatório do Conselho de Controle de Atividade Financeira (Coaf) que apontou transações atípicas na conta de Fabrício Queiroz, também ex-assessor de Flávio, filho mais velho do presidente Jair Bolsonaro.",
+      "content": "23/02/2019 - 8:45 A Receita Federal vai ampliar a cooperação com o Ministério Público do Rio de Janeiro e investigar os envolvidos na Operação Os Intocáveis, que mira a atuação de milícias no Estado. Entre os alvos está o ex-capitão da PM Adriano Magalhães da Nóbrega, apontado como líder de grupo criminoso conhecido como Escritório do Crime. A mãe e a mulher de Nóbrega trabalharam no gabinete que o hoje senador Flávio Bolsonaro (PSL-RJ) ocupava até 31 de janeiro deste ano na Assembleia Legislativa do Rio. Como revelou o jornal O Estado de S. Paulo no mês passado, a Receita já atuava na análise das movimentações financeiras dos citados no relatório do Conselho de Controle de Atividade Financeira (Coaf) que apontou transações atípicas na conta de Fabrício Queiroz, também ex-assessor de Flávio, filho mais velho do presidente Jair Bolsonaro. A Operação Os Intocáveis prendeu cinco suspeitos de integrar milícia que atua em Rio das Pedras, na Barra da Tijuca. Nóbrega, porém, segue foragido. De acordo com a Promotoria do Rio, o grupo atuava na grilagem de terras, na compra, venda e aluguel irregular de imóveis, na cobrança de taxas da população local e na receptação de mercadoria roubada, entre outros crimes. A mulher do ex-capitão, Danielle Mendonça da Costa Nóbrega, trabalhou no gabinete de Flávio de 6 de setembro de 2007 até 14 de novembro do ano passado. Já a mãe de Nóbrega, Raimunda Veras Magalhães, esteve lotada no mesmo gabinete de 11 de maio de 2016 também até 14 de novembro de 2018. Ambas recebiam salário de R$ 6.490,35.Raimunda é citada no relatório do Coaf que investiga corrupção no Legislativo fluminense. Ela repassou R$ 4.600 para a conta de Queiroz. A entrada da Receita no caso segue o padrão adotado desde a Operação Lava Jato, em que o foco dos investigadores é o caminho do dinheiro de grupos criminosos. Como o Fisco tem o maior banco de dados fiscais, bancários e patrimoniais do País, seus relatórios são considerados os mais completos para auxiliar nas investigações. No caso da milícia, a atuação do órgão poderá rastrear todos aqueles que fizeram algum tipo de transação, não só com os suspeitos de integrar o grupo, mas também com parentes, pessoas próximas ou empresas ligadas a eles. Em busca de possíveis crimes tributários, os auditores devem produzir relatórios para subsidiar o trabalho dos promotores com o mapeamento do caminho do dinheiro movimentado. Ao jornal, uma fonte com acesso à investigação afirmou que já foram realizadas algumas reuniões entre investigadores e a Receita para tratar da cooperação no caso. Homenagens Enquanto era deputado estadual, o filho de Bolsonaro, em discursos na Assembleia do Rio em 2006 e 2007, disse que “a milícia nada mais é do que um conjunto de policiais buscando expurgar do seio da comunidade o que há de pior: os criminosos”. Ainda segundo declarações do hoje senador, não seria “justa essa perseguição (aos milicianos)”. Como parlamentar na Assembleia do Rio, Flávio apresentou moções honrosas a outros quatro policiais que se envolveram em irregularidades. Em 2017 e 2018, o então deputado estadual pediu à Mesa Diretora da Casa que fossem concedidas moções parabenizando os PMs Leonardo Ferreira de Andrade e Bruno Duarte Pinho – os dois foram alvo, em agosto do ano passado, da Operação Quarto Elemento, do Ministério Público. Coaf No outro caso em que a Receita já coopera com o MP sobre a movimentação financeira de assessores da Assembleia, entre eles ex-funcionários de Flávio, os auditores iniciaram nos últimos dias a análise de dados. Há dois focos de investigação. Na esfera criminal, a apuração é conduzida pelo promotor Luis Otávio Figueira Lopes e apura possível prática de peculato, quando um servidor se apropria de dinheiro público. Segundo o procurador-geral de Justiça do Rio, Eduardo Gussem, Flávio ainda não é diretamente investigado neste caso. No área cível, o senador é alvo por suposto ato de improbidade. Uma fonte disse que, ao mapear o caminho do dinheiro que abasteceu as ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro relação com PM RJ e milícias investigações"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro relação com PM RJ e milícias investigações",
+      "canonical_url": "https://istoedinheiro.com.br/receita-federal-mira-miliciano-que-tinha-elo-com-flavio-bolsonaro",
+      "published_at": "2019-02-23T00:00:00",
+      "publisher": "istoedinheiro.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5664690016017252
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.9025022577679794
+    },
+    {
+      "id": "src_897b0a0185a4",
+      "title": "VÍDEO - \"Pega ladrão\": Flávio Bolsonaro é chamado de \"bandido\" em evento da PM",
+      "url": "https://www.diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm/#",
+      "snippet": "# VÍDEO – “Pega ladrão”: Flávio Bolsonaro é chamado de “bandido” em evento da PM. O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro:. A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\". A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c.",
+      "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. Um grupo de manifestantes levou cartazes com frases como “Devolve o dinheiro da presidência”, “Familia Bolsonaro com Banco Master” e “Familia Bolsonaro Bandida”. Durante a chegada do senador ao local, também foram ouvidas vaias direcionadas ao pré-candidato à Presidência da República. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro: \"Ladrão! Família Bolsonaro bandida\" pic.twitter.com/O2vGML5npQ — Notícias Paralelas (@NP__Oficial) May 15, 2026 A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. Segundo reportagem do Intercept Brasil, o banqueiro teria prometido US$ 24 milhões para financiar a produção, com parte dos recursos já transferida entre fevereiro e maio de 2025. Em vídeo divulgado nas redes sociais, o senador admitiu que pediu dinheiro ao empresário para viabilizar o filme, mas negou irregularidades. O parlamentar afirmou que Vorcaro “simplesmente parou de honrar com as parcelas do contrato” e disse que a interrupção dos pagamentos colocava em risco a conclusão do longa. Vorcaro está preso preventivamente em Brasília, acusado pela Polícia Federal de comandar um esquema de fraudes financeiras estimado em até R$ 12 bilhões. O caso também passou a envolver investigações sobre a origem dos recursos usados no financiamento do filme “Dark Horse”. Nesta sexta-feira (15), o ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou a abertura de uma investigação preliminar para apurar o uso de emendas parlamentares na produção do filme. A representação foi apresentada por parlamentares da base do governo, entre eles a deputada Tabata Amaral (PSB-SP). O ministro já intimou os deputados Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) a prestarem esclarecimentos sobre possíveis repasses ligados à obra. Segundo Dino, apenas Bia Kicis e Marcos Pollon já apresentaram manifestação formal ao STF. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "diariodocentrodomundo.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.8003540023955328
+    },
+    {
+      "id": "src_112ba40bafdd",
+      "title": "Flávio Bolsonaro é recebido com protestos no Rio; veja vídeo",
+      "url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973#",
+      "snippet": "O senador Flávio Bolsonaro (PL) foi hostilizado com gritos de \"bandido\" e \"pega ladrão\" durante agenda oficial no QG da Polícia Militar no",
+      "content": "O pré-candidato à Presidência da República e senador Flávio Bolsonaro (PL-RJ) foi alvo de xingamentos, nesta sexta-feira, 15, enquanto cumpria agenda no Quartel-General da Polícia Militar (PM), no Rio de Janeiro. Enquanto era recepcionado no local, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam \"pega ladrão\" e \"bandido\". Assista: ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026 A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c Além disso, um grupo também exibiu cartazes contra o filho do ex-presidente Jair Bolsonaro (PL). Flávio está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. O protesto ocorreu dias após o vazamento de áudios em que o liberal aparece pedindo dinheiro ao banqueiro Daniel Vorcaro, dono do Banco Master, para pagar despesas do filme \"Dark Horse\", em que narra a trajetória de Jair Bolsonaro até chegar ao Planalto, em 2018. Leia Também: Lula ironiza relação de Flávio com Vorcaro: \"Isso é caso de polícia\" O presidente Lula (PT) comentou sobre a relação entre o senador e pré-candidato à Presidência da República, Flávio Bolsonaro (PL-RJ), e o fundador do Banco Master, Daniel Vorcaro, revelada em reportagem do site The Intercept Brasil. Em meio ao discurso na visita à Fábrica de Fertilizantes Nitrogenados (Fafen) de Camaçari, nesta quinta-feira, 14, o presidente foi provocado por uma pessoa da plateia a falar sobre o caso, e ele respondeu. \"Eu não vou comentar, isso é caso de polícia, não é meu. Eu não sou policial, eu não sou procurador-geral. O meu caso é tratar do povo brasileiro, é tratar da Petrobras\", afirmou o presidente.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "atarde.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7869773491701074
+    },
+    {
+      "id": "src_919be0617e2b",
+      "title": "Flávio Bolsonaro é vaiado e chamado de ladrão em ...",
+      "url": "https://www.orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html#",
+      "snippet": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de",
+      "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de Janeiro. Manifestantes também exibiram cartazes contra o parlamentar enquanto a banda da corporação executava uma marcha durante o evento.Vídeos registrados no local mostram pessoas gritando expressões como “pega ladrão” e “bandido” direcionadas ao filho do ex-presidente Jair Bolsonaro. O episódio ocorre em meio à repercussão de denúncias relacionadas ao financiamento do filme Dark Horse, produção ligada à trajetória política de Jair Bolsonaro, atual aliado da extrema direita brasileira.A polêmica ganhou força após a divulgação, pelo site The Intercept, de áudios envolvendo Flávio Bolsonaro e o banqueiro Daniel Vorcaro, do Banco Master. Nas gravações, o senador teria cobrado parte dos US$ 24 milhões prometidos por Vorcaro para financiar o longa-metragem. O caso passou a ser analisado pelo ministro Flávio Dino, do Supremo Tribunal Federal (STF), que acolheu uma representação apresentada por parlamentares da base governista, entre eles a deputada Tabata Amaral (PSB-SP). A investigação preliminar tramita sob sigilo e apura possível utilização de emendas parlamentares no financiamento da obra. Além de Flávio Bolsonaro, a investigação também envolve os deputados federais Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS). Eles são suspeitos de supostamente mascarar repasses de verbas públicas destinadas ao projeto audiovisual. Esta notícia foi lida 73 vezes!",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+      "canonical_url": "https://orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "orc.com.br",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7831682899393687
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @romulobdias.bsky.social",
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "snippet": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+      "content": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "romulobdias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.6819597813337448
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: sensitive factual claims lacked official, court, fact-checking, or recognized news support.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+      "platform": "bluesky",
+      "author": {
+        "handle": "romulobdias.bsky.social",
+        "display_name": "Romulo Dias",
+        "did": "did:plc:xn5cja2cotnc5niqdamxayki"
+      },
+      "text": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+      "created_at": "2026-05-15T16:12:11.250000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭"
+    },
+    "explanation": [
+      {
+        "text": "O post afirma que Flávio Bolsonaro foi recebido com gritos de “pega ladrão” ao participar de um evento no Quartel-General da Polícia Militar do Rio de Janeiro, funcionando como um comentário irônico do autor sobre a hostilidade ao senador naquele local.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "A formulação é do próprio autor do post; a confirmação independente do episódio depende das matérias jornalísticas citadas em outros bullets.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Matérias jornalísticas relatam que, em 15 de maio de 2026, o senador Flávio Bolsonaro foi vaiado e alvo de gritos de “pega ladrão”, “ladrão” e “bandido” por manifestantes do lado de fora do Quartel-General da Polícia Militar do Rio de Janeiro, enquanto cumpria agenda oficial no local.",
+        "source_ids": [
+          "src_897b0a0185a4",
+          "src_112ba40bafdd",
+          "src_919be0617e2b"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Os relatos se baseiam em cobertura de imprensa com vídeos e testemunhos; não há, nas fontes fornecidas, documento oficial da PM sobre o episódio.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "As reportagens contextualizam que os protestos contra Flávio Bolsonaro no QG da PM ocorrem em meio à repercussão de áudios divulgados pelo The Intercept Brasil, nos quais o senador cobra do banqueiro Daniel Vorcaro pagamentos prometidos para financiar o filme “Dark Horse”, sobre Jair Bolsonaro.",
+        "source_ids": [
+          "src_897b0a0185a4",
+          "src_112ba40bafdd",
+          "src_919be0617e2b"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "As matérias resumem o conteúdo dos áudios e das investigações; o acesso direto às gravações e autos não é apresentado nas fontes fornecidas.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "No trecho adicional do fio, o autor chama Flávio Bolsonaro de “golpista filho” e sugere que ele tentaria “um golpe com as polícias militares milicianas”, o que expressa opinião política e acusação interpretativa do próprio autor, sem respaldo de decisão judicial nas fontes apresentadas.",
+        "source_ids": [
+          "thread_context",
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "As fontes não trazem documento oficial ou decisão judicial que qualifique Flávio Bolsonaro como golpista ou comprove plano de golpe com polícias militares; trata-se de juízo de valor do autor do post.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @romulobdias.bsky.social",
+        "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+        "snippet": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+        "content": "🚨 PEGA LADRÃO | Flávio Bolsonaro é recebido com gritos de “Pega ladrão!” ao participar de evento no QG da PM do Rio de Janeiro",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "romulobdias.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_897b0a0185a4",
+        "title": "VÍDEO - \"Pega ladrão\": Flávio Bolsonaro é chamado de \"bandido\" em evento da PM",
+        "url": "https://www.diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm/#",
+        "snippet": "# VÍDEO – “Pega ladrão”: Flávio Bolsonaro é chamado de “bandido” em evento da PM. O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro:. A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\". A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c.",
+        "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias, gritos de “ladrão” e protestos durante evento realizado nesta sexta-feira (15), no Quartel-General da Polícia Militar do Rio de Janeiro. A manifestação ocorreu em meio à repercussão das mensagens e áudios divulgados pelo Intercept Brasil envolvendo o parlamentar e o banqueiro Daniel Vorcaro, dono do Banco Master. Um grupo de manifestantes levou cartazes com frases como “Devolve o dinheiro da presidência”, “Familia Bolsonaro com Banco Master” e “Familia Bolsonaro Bandida”. Durante a chegada do senador ao local, também foram ouvidas vaias direcionadas ao pré-candidato à Presidência da República. 🚨 VEJA l Flávio Bolsonaro é hostilizado dentro e fora do QG da PM durante evento no Rio de Janeiro: \"Ladrão! Família Bolsonaro bandida\" pic.twitter.com/O2vGML5npQ — Notícias Paralelas (@NP__Oficial) May 15, 2026 A reação pública ocorre após a divulgação de áudios em que Flávio cobra Vorcaro por pagamentos ligados ao filme “Dark Horse”, cinebiografia sobre Jair Bolsonaro. Segundo reportagem do Intercept Brasil, o banqueiro teria prometido US$ 24 milhões para financiar a produção, com parte dos recursos já transferida entre fevereiro e maio de 2025. Em vídeo divulgado nas redes sociais, o senador admitiu que pediu dinheiro ao empresário para viabilizar o filme, mas negou irregularidades. O parlamentar afirmou que Vorcaro “simplesmente parou de honrar com as parcelas do contrato” e disse que a interrupção dos pagamentos colocava em risco a conclusão do longa. Vorcaro está preso preventivamente em Brasília, acusado pela Polícia Federal de comandar um esquema de fraudes financeiras estimado em até R$ 12 bilhões. O caso também passou a envolver investigações sobre a origem dos recursos usados no financiamento do filme “Dark Horse”. Nesta sexta-feira (15), o ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou a abertura de uma investigação preliminar para apurar o uso de emendas parlamentares na produção do filme. A representação foi apresentada por parlamentares da base do governo, entre eles a deputada Tabata Amaral (PSB-SP). O ministro já intimou os deputados Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS) a prestarem esclarecimentos sobre possíveis repasses ligados à obra. Segundo Dino, apenas Bia Kicis e Marcos Pollon já apresentaram manifestação formal ao STF. ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+        "canonical_url": "https://diariodocentrodomundo.com.br/video-pega-ladrao-flavio-bolsonaro-e-chamado-de-bandido-em-evento-da-pm",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "diariodocentrodomundo.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_112ba40bafdd",
+        "title": "Flávio Bolsonaro é recebido com protestos no Rio; veja vídeo",
+        "url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973#",
+        "snippet": "O senador Flávio Bolsonaro (PL) foi hostilizado com gritos de \"bandido\" e \"pega ladrão\" durante agenda oficial no QG da Polícia Militar no",
+        "content": "O pré-candidato à Presidência da República e senador Flávio Bolsonaro (PL-RJ) foi alvo de xingamentos, nesta sexta-feira, 15, enquanto cumpria agenda no Quartel-General da Polícia Militar (PM), no Rio de Janeiro. Enquanto era recepcionado no local, ao som de uma marcha tocada por policiais, pessoas que estavam do lado de fora do local gritavam \"pega ladrão\" e \"bandido\". Assista: ▶️Flávio Bolsonaro chega ao QG da PM do Rio e é recebido com gritos de \"pega ladrão\" e \"bandido\" — Pesquisas Eleições (@EleicaoBr2026) May 15, 2026 A chegada de Flávio Bolsonaro ao Quartel-General da Polícia Militar do Rio foi marcada por protestos do lado de fora, com manifestantes gritando \"pega ladrão\" e \"bandido\" e exibindo… pic.twitter.com/tvgNzykO4c Além disso, um grupo também exibiu cartazes contra o filho do ex-presidente Jair Bolsonaro (PL). Flávio está no Rio de Janeiro para acompanhar a entrega de materiais à Polícia Militar. O protesto ocorreu dias após o vazamento de áudios em que o liberal aparece pedindo dinheiro ao banqueiro Daniel Vorcaro, dono do Banco Master, para pagar despesas do filme \"Dark Horse\", em que narra a trajetória de Jair Bolsonaro até chegar ao Planalto, em 2018. Leia Também: Lula ironiza relação de Flávio com Vorcaro: \"Isso é caso de polícia\" O presidente Lula (PT) comentou sobre a relação entre o senador e pré-candidato à Presidência da República, Flávio Bolsonaro (PL-RJ), e o fundador do Banco Master, Daniel Vorcaro, revelada em reportagem do site The Intercept Brasil. Em meio ao discurso na visita à Fábrica de Fertilizantes Nitrogenados (Fafen) de Camaçari, nesta quinta-feira, 14, o presidente foi provocado por uma pessoa da plateia a falar sobre o caso, e ele respondeu. \"Eu não vou comentar, isso é caso de polícia, não é meu. Eu não sou policial, eu não sou procurador-geral. O meu caso é tratar do povo brasileiro, é tratar da Petrobras\", afirmou o presidente.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+        "canonical_url": "https://atarde.com.br/politica/pega-ladrao-flavio-bolsonaro-e-recebido-com-protestos-no-rio-1388973",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "atarde.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_919be0617e2b",
+        "title": "Flávio Bolsonaro é vaiado e chamado de ladrão em ...",
+        "url": "https://www.orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html#",
+        "snippet": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de",
+        "content": "O senador Flávio Bolsonaro (PL-RJ) foi recebido com vaias e gritos de “ladrão” ao chegar ao Quartel-General da Polícia Militar do Rio de Janeiro. Manifestantes também exibiram cartazes contra o parlamentar enquanto a banda da corporação executava uma marcha durante o evento.Vídeos registrados no local mostram pessoas gritando expressões como “pega ladrão” e “bandido” direcionadas ao filho do ex-presidente Jair Bolsonaro. O episódio ocorre em meio à repercussão de denúncias relacionadas ao financiamento do filme Dark Horse, produção ligada à trajetória política de Jair Bolsonaro, atual aliado da extrema direita brasileira.A polêmica ganhou força após a divulgação, pelo site The Intercept, de áudios envolvendo Flávio Bolsonaro e o banqueiro Daniel Vorcaro, do Banco Master. Nas gravações, o senador teria cobrado parte dos US$ 24 milhões prometidos por Vorcaro para financiar o longa-metragem. O caso passou a ser analisado pelo ministro Flávio Dino, do Supremo Tribunal Federal (STF), que acolheu uma representação apresentada por parlamentares da base governista, entre eles a deputada Tabata Amaral (PSB-SP). A investigação preliminar tramita sob sigilo e apura possível utilização de emendas parlamentares no financiamento da obra. Além de Flávio Bolsonaro, a investigação também envolve os deputados federais Mário Frias (PL-SP), Bia Kicis (PL-DF) e Marcos Pollon (PL-MS). Eles são suspeitos de supostamente mascarar repasses de verbas públicas destinadas ao projeto audiovisual. Esta notícia foi lida 73 vezes!",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Flávio Bolsonaro recebido com gritos de 'pega ladrão' QG da PM Rio de Janeiro maio 2026",
+        "canonical_url": "https://orc.com.br/novo/brasil/flavio-bolsonaro-e-vaiado-e-chamado-de-ladrao-em-quartel-da-pm-no-rio.html",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "orc.com.br",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @romulobdias.bsky.social",
+        "url": "https://bsky.app/profile/romulobdias.bsky.social/post/3mlvpwutjek2u",
+        "snippet": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+        "content": "O golpista filho vai tentar um golpe com as polícias militares milicianas.\n\nFala Mala…\n\n.\n\n🤭",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "romulobdias.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: sensitive factual claims lacked official, court, fact-checking, or recognized news support.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 30659
+  }
+}

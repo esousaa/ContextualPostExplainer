@@ -91,6 +91,38 @@ retornadas por mais de um provider preservam `providers`, `provider_queries` e
 `provider_result_count`; o ranking aplica um pequeno boost para essa
 convergência, sem tratar isso como prova factual.
 
+## Comparative analysis
+
+Cada artifact live registra um snapshot da configuração usada:
+
+- `search_provider`
+- `openai_generation_model`
+- `openai_judge_model`
+- `openai_embedding_model`
+- `openai_vision_model`
+- `prompt_config_path`
+- `prompt_config_hash`
+- `comparison_group_id`
+- `comparison_config_id`
+
+A API `GET /api/analysis?limit=500` agrega os artifacts locais e expõe:
+
+- comparação por Search Provider;
+- comparação por stack LLM;
+- mudança de comportamento por URL;
+- link indireto para o run_id que pode ser aberto em Observability.
+
+Para planejar ou executar a matriz comparativa:
+
+```bash
+cd backend
+uv run python -m app.analysis.runner --matrix search --dry-run
+uv run python -m app.analysis.runner --matrix llm --dry-run
+```
+
+Remova `--dry-run` apenas quando quiser executar chamadas reais para Bluesky,
+Search Providers e OpenAI. O runner grava um resumo em `runs/comparisons/`.
+
 ## Eval
 
 ```bash

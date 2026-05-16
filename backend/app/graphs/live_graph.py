@@ -1,6 +1,8 @@
 import time
 from collections.abc import Awaitable, Callable
 from datetime import UTC, datetime
+from hashlib import sha256
+from pathlib import Path
 from typing import Any
 from uuid import uuid4
 
@@ -20,6 +22,7 @@ from app.application.source_classification import classify_evidence
 from app.application.source_quality import evaluate_source_quality
 from app.config import Settings
 from app.domain.deduplication import deduplicate_evidence, deduplicate_search_results
+from app.domain.errors import DomainError
 from app.domain.models import (
     Evidence,
     Explanation,
@@ -41,6 +44,7 @@ logger = structlog.get_logger(__name__)
 
 NodeFn = Callable[[ExplanationState], Awaitable[dict[str, object]]]
 ProgressCallback = Callable[[dict[str, Any]], Awaitable[None]]
+PROMPT_CONFIG_PATH = Path(__file__).resolve().parents[1] / "prompts" / "prompts.toml"
 
 LIVE_NODE_STEPS = {
     "validate_live_config": "Fetching post",
@@ -114,7 +118,12 @@ class LiveExplanationFlow:
                 "message": "Live analysis started.",
             }
         )
-        result = await self._graph.ainvoke(state)
+        try:
+            result = await self._graph.ainvoke(state)
+        except Exception as exc:
+            await self._record_failed_run(state, exc)
+            raise
+        await self._record_completed_run(result)
         return result["response"]
 
     def _build_graph(self):
@@ -341,7 +350,14 @@ class LiveExplanationFlow:
             warnings=[*state.get("warnings", []), *explanation.warnings],
             execution_time_ms=execution_time_ms,
         )
+        return {"response": response}
+
+    async def _record_completed_run(self, state: ExplanationState) -> None:
         if self._run_recorder:
+            response = state["response"]
+            ranked_sources = list(state.get("ranked_evidence", []))
+            cited_sources = _cited_sources(state["explanation"], ranked_sources)
+            config = _config_snapshot(self._settings)
             metrics = {
                 **state.get("metrics", {}),
                 "cited_sources_by_provider": provider_counts_for_sources(cited_sources),
@@ -352,6 +368,9 @@ class LiveExplanationFlow:
                 state["run_id"],
                 {
                     "input_url": state["input_url"],
+                    "status": "completed" if response.explanation else "no_explanation",
+                    **config,
+                    "config": config,
                     "queries": state.get("queries", []),
                     "metrics": metrics,
                     "sources": [source.model_dump(mode="json") for source in ranked_sources],
@@ -364,7 +383,26 @@ class LiveExplanationFlow:
                     "response": response.model_dump(mode="json"),
                 },
             )
-        return {"response": response}
+
+    async def _record_failed_run(self, state: ExplanationState, exc: Exception) -> None:
+        if not self._run_recorder:
+            return
+
+        config = _config_snapshot(self._settings)
+        await self._run_recorder.write_run(
+            "live",
+            state["run_id"],
+            {
+                "input_url": state["input_url"],
+                "status": "failed",
+                **config,
+                "config": config,
+                "queries": state.get("queries", []),
+                "metrics": state.get("metrics", {}),
+                "warnings": _warning_payloads(state.get("warnings", [])),
+                "error": _error_payload(exc),
+            },
+        )
 
 
 def _thread_evidence_sources(post) -> list[Evidence]:
@@ -445,3 +483,82 @@ def _progress_message(step: str, event_type: str, status: str) -> str:
     if status == "completed":
         return f"{step} completed."
     return f"{step} is still running."
+
+
+def _error_payload(exc: Exception) -> dict[str, object]:
+    if isinstance(exc, DomainError):
+        return {
+            "error": exc.error_code,
+            "message": exc.message,
+            "status": int(exc.status_code),
+        }
+    return {
+        "error": "unexpected_error",
+        "message": str(exc),
+        "status": 500,
+    }
+
+
+def _warning_payloads(warnings: list[object]) -> list[object]:
+    payloads: list[object] = []
+    for warning in warnings:
+        if hasattr(warning, "model_dump"):
+            payloads.append(warning.model_dump(mode="json"))
+        else:
+            payloads.append(warning)
+    return payloads
+
+
+def _config_snapshot(settings: Settings) -> dict[str, object]:
+    search_provider = settings.search_provider
+    generation_model = settings.openai_generation_model
+    judge_model = settings.openai_judge_model
+    embedding_model = settings.openai_embedding_model
+    vision_model = settings.openai_vision_model
+    comparison_config_id = settings.comparison_config_id or _comparison_config_id(
+        search_provider=search_provider,
+        generation_model=generation_model,
+        judge_model=judge_model,
+        embedding_model=embedding_model,
+        vision_model=vision_model,
+    )
+
+    return {
+        "search_provider": search_provider,
+        "openai_generation_model": generation_model,
+        "openai_judge_model": judge_model,
+        "openai_embedding_model": embedding_model,
+        "openai_vision_model": vision_model,
+        "prompt_config_path": "app/prompts/prompts.toml",
+        "prompt_config_hash": _prompt_config_hash(),
+        "comparison_group_id": settings.comparison_group_id or "manual_live",
+        "comparison_config_id": comparison_config_id,
+    }
+
+
+def _comparison_config_id(
+    search_provider: str | None,
+    generation_model: str,
+    judge_model: str,
+    embedding_model: str,
+    vision_model: str | None,
+) -> str:
+    parts = [
+        search_provider or "no_search",
+        f"gen_{generation_model}",
+        f"judge_{judge_model}",
+        f"embed_{embedding_model}",
+        f"vision_{vision_model or 'none'}",
+    ]
+    return "__".join(_slug(part) for part in parts)
+
+
+def _slug(value: str) -> str:
+    return "".join(character if character.isalnum() else "_" for character in value).strip("_")
+
+
+def _prompt_config_hash() -> str | None:
+    try:
+        return sha256(PROMPT_CONFIG_PATH.read_bytes()).hexdigest()
+    except OSError:
+        return None

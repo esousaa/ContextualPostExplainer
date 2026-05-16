@@ -1,0 +1,658 @@
+{
+  "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:16:49.699258+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:15:57.186823+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:57.186928+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:57.187285+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:57.187379+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:57.187702+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:58.550675+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1362
+    },
+    {
+      "timestamp": "2026-05-16T02:15:58.551209+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:02.207429+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3656
+    },
+    {
+      "timestamp": "2026-05-16T02:16:02.207981+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:15.266825+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 13058
+    },
+    {
+      "timestamp": "2026-05-16T02:16:15.267353+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:22.897998+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 7630
+    },
+    {
+      "timestamp": "2026-05-16T02:16:22.898526+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:37.503711+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 14087
+    },
+    {
+      "timestamp": "2026-05-16T02:16:37.504259+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:38.706088+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1201
+    },
+    {
+      "timestamp": "2026-05-16T02:16:38.706637+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.691362+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 10984
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.691865+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.691962+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.692313+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.692372+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.692649+00:00",
+      "event": "node_started",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:16:49.692736+00:00",
+      "event": "node_completed",
+      "run_id": "run_e0f798efa9ae47ed9c1ca4480c982614",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "France law requiring solar panels on parking lots more than 80 spaces details 10 nuclear reactors equivalent",
+    "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+    "number of parking spaces in the US 800 million estimate heat island uncovered asphalt",
+    "EU vs China solar panel manufacturing market share 2024 repackaged assembled in EU concerns"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.planetizen.com/news/2022/11/119608-france-mandates-solar-panels-over-parking-lots-nationwide",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYRDQwBvDQq/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.estg.eu/en-gb/information-resources/blog/france-turns-green-on-the-car-park-are-you-ready-for-the-loi-aper-boom",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.instagram.com/p/DXKx-14CUZ-/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_5261a7571f08",
+        "title": "Solar Panels Must Cover Large Parking Lots, Rules French Senate",
+        "url": "https://www.forbes.com/sites/carltonreid/2022/11/09/solar-panels-must-cover-large-parking-lots-rules-french-senate/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0e172fa0a346",
+        "title": "France requires Solar Panels for all Large Parking Lots — Sustaira",
+        "url": "https://www.sustaira.com/blog/france-requires-solar-panels-for-all-large-parking-lots#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_8cdb74b3915a",
+        "title": "France Wants To Cover All Large Car Parks With Solar Panels",
+        "url": "https://www.weforum.org/videos/france-wants-to-cover-all-large-car-parks-with-solar-panels/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_6a9ef3eebb63",
+        "title": "New French law seeks to cover large parking lots with solar panels",
+        "url": "https://www.aa.com.tr/en/energy/renewable/new-french-law-seeks-to-cover-large-parking-lots-with-solar-panels/36922#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0b9a062cb73e",
+        "title": "800 million spaces and nowhere to park? — Per Square Mile",
+        "url": "https://persquaremile.com/2011/01/20/800-million-spaces-and-nowhere-to-park/#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "tavily": 3
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "tavily": 1,
+      "bluesky": 2
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+      "snippet": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we d",
+      "content": "Image type: meme\nVisible text: France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?\nVisual description: The image is a composite of text at the top and a photograph at the bottom. The text discusses a law about installing solar panels over large parking lots and contrasts this with uncovered parking spaces elsewhere, ending with a rhetorical question. The photograph shows a large parking lot covered by an overhead structure made of metal framing with many solar panels mounted on top. Cars are parked beneath the structure, and the ground markings for parking spaces are visible. The sky is clear and blue in the background.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8607288699183425
+    },
+    {
+      "id": "src_4e833c347043",
+      "title": "France's Solar Car Park Law: A Model for UK Businesses - LinkedIn",
+      "url": "https://www.linkedin.com/posts/davidjswift_trump-solarenergy-renewables-activity-7446455340390510592-pdsN#",
+      "snippet": "In 2023 France passed a landmark law requiring all large outdoor car parks (80+ spaces) to install solar canopies covering at least 50% of",
+      "content": "Don’t cover our fields. Cover our car parks. France proved it can be done and done well. In 2023 France passed a landmark law requiring all large outdoor car parks (80+ spaces) to install solar canopies covering at least 50% of the surface. Larger sites (>10,000 m²) have until July 2026; smaller ones until 2028. The projected outcome? Up to 11 GW of new solar capacity without touching a single hectare of productive farmland. Solar is now the cheapest form of new electricity globally. Yet with energy prices climbing again, driven in part by geopolitical shocks, including disruptions from the recent conflict in the Middle East tied to #Trump administration actions the vulnerability of our fossil-heavy grids is painfully clear. Why expose businesses and households to volatile oil and gas prices when we have millions of square metres of sun-drenched, already-developed parking sitting idle? The triple win of solar carports: ✅ Clean, stable power generated right where it’s needed (shopping centres, offices, hospitals, logistics parks) shielding against sudden spikes in wholesale energy costs ✅ Natural shade for vehicles cooler cars in summer, less air-con, lower charging costs for EVs, and protection from rain, hail and snow ✅ Zero new land take preserving fields for food, nature, and future generations Here in the UK we’re moving in the right direction with new Permitted Development Rights for solar canopies and live consultations on mandating them on new car parks. But in a world of rising energy bills and supply uncertainty, we need to accelerate. Every new warehouse, retail park, or office development should come with solar overhead as standard. Businesses that act now will lock in cheaper, more predictable electricity, boost their ESG credentials, and future-proof against the next price shock. The question is simple: Why sacrifice fertile soil - or accept volatile energy costs - when we can turn dead asphalt into reliable power stations? Let’s be like France. Let’s put solar where it actually belongs. What’s your take? Have you seen (or installed) solar canopies on a car park near you? Or are you involved in a project making this happen? How are rising energy costs affecting your operations? Drop your thoughts or examples below. #SolarEnergy #Renewables #NetZero #EnergyCosts #SustainableInfrastructure #EVCharging #EnergySecurity France's Solar Car Park Law: A Model for UK Businesses",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+      "canonical_url": "https://linkedin.com/posts/davidjswift_trump-solarenergy-renewables-activity-7446455340390510592-pdsN",
+      "published_at": "2026-04-05T00:00:00",
+      "publisher": "linkedin.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7692328121072424
+    },
+    {
+      "id": "src_18827976cf32",
+      "title": "France rules on mandatory solar for car parks - pv Europe",
+      "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+      "snippet": "Solar canopies have been required on parking lots since 2023. New regulations now set out the specific requirements and penalties for",
+      "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+      "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+      "published_at": "2025-10-28T00:00:00",
+      "publisher": "pveurope.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7581342839956138
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6774871529696801
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.4972474988329996
+    },
+    {
+      "id": "src_cf5a88c9b443",
+      "title": "[PDF] France publishes new provisions making solar mandatory on ...",
+      "url": "https://www.mass.gov/doc/france-solar-canopy-mandate-pv-magazine/download#",
+      "snippet": "Car parks exceeding 10,000 sqm must install solar carports by July 1, 2026, while those between 1,500 sqm and 10,000 sqm have until July 1",
+      "content": "%PDF-1.4 %���� 1 0 obj < /Creator (Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/139.0.0.0 Safari/537.36) /Producer (Skia/PDF m139) /CreationDate (D:20250815205821+00'00') /ModDate (D:20250815205821+00'00')>> endobj 3 0 obj < > endobj 8 0 obj < > stream x�}��J�\u0000\u0014��Ԃ(��\u000e 28�h��iRpi\"\u0016�V��S��A�OHS�\u0001tspu+.���c(\b\u000e��#����AR�x�������@�\u0000���?��F�\u0010[V[�G@`*� \u0005dK��$���O.K o�\u0002 @\u0014��6\b `�O�,f'�˘O� \u0002a\u0012sx�0A�\u00036�\u0019vf� �8�\u0006��{c7��%op�\u0004Z�:u� ���Q�� ��\u0014�0Q٣F \u0019\u0015\u0019�*\u001a��Ԑ(�S����DGACAa\u0017�j�g�rx\u0003�\u0017�]��s \u000f\u0017PxM�� ����c� \u0007vhO�<��v��\u0016�-X}�ţ�b3~\u0015��*��\u0000�mDJH�T~\u0000��K� endstream endobj 6 0 obj < > stream x���j�8\u0010��g� � zͱy�B�}���\u0002��֛o=doa��B*XŲ��\u0015�&b\u0017�\u0001��l�N쑜�0��\u0012�_F�\u0019i$���!�����\u0018� !�1���\u0010�( ��?���*�B\b��)c�\u0010\u0002��\u0018; \u000e�\u0010��\u0018V\b!��$I�,#�\u0000��dڈR �\u0011B�,K��R:Rh��� !�s.���O�H)9�\u0010x\"c��۷\u0015�y��RJ�ؠ�*��C�<��&�$`?��sަ����i�ݯֻ�׏�׏���R�|��E��7MsY\\�Z�\u0014��x<����b c,�2�5O�S3�h����^�_?������t\u0002 ϲ,�^ #\u001ax���m|��j��/7� ru�ܬֻ����\u0016EQ6ϯ�O�\u0014�w�_:k m�\u000fO��\"r���=���ZW6CJ �?MS|J��8��,K�TW�P���z74\"WW�R?n{��i�fY\u0016�1��QJ����0���^(Y�*mL\b\u0001N�R�\u0000 �?��r����ޝ�u:_n�����\u0015�\u0014! � !\u0018cn��e��\u0012yGd��K�\u000e�ZkƘ\u0010b��\u0002�`�y�9y�Ҡ�\u0006V�\u000e\u001a���7\u0006K8����z�!pՁ�e\u0011�wj�������\u0003��\u0015�\bT���+ \bW�\u0003]P�_�j��\u0005c�ՠʱ��@��*c�+@�1�\u0015 �\u0001�J\\Z�2��� r\u0001+�\u001bP���R��u\u0002\u0005���k�k���(��$�}������\u0007 FF+�*'Oڰ�>k��Q\u0004����Kd9��=\u0011�\u0003k>*�\u0014�v�� !D��\u001af\\-7��x�%n�~�h9.�\u0015o\u0000\u0005\u0011�5\u0015�9{�����\u0015�MoZ��X\u0014Es0\u000f �z_�\u0004 \u000e+�'²T�Q �Gs\u0015\u0006s�[�w�) �j�ܘ�ϧ� ��\\Vn��6\u0015����ɢ\u0006b��d����OJiF�J����-�\u001a\u0016��Y�\u0016o�i)�`-�d��ȘFu\u0005��XY�\u0005AT \u0002u3�:k�fT�\u0013� Y�\u0016o�C�R�a ��\u0002VI�X^ a���ʥOS`�z�X�T�-pΓ$�\u000e�e��\u0001c.�@�\u0016o\u0017��K*jZ��\u0012j����l\u001b��EV��\\\u000f_�pZ�/�s/a��/7f\u001b�N5�ssN\u000f?S\u000e���M !��� A�_�ee��J)(�6\u001b��H���ԋ���/\u0015��f3`�\u0006�G�\b�� 7�r�8Ϊ\u0017P8��鲠8���ca�\u0013\u0004~�� �x��8�\u0011�2ݻ�\u0017\u0006' �� ���T3\"���q��^X�t��azb՞\u0015���b��PO�&V�Ǫ\u0013:��\u0001\u0013��U�j�b��e�6dV�����qF���q�s�\u0011��rg�9�\u0011���d���F�ʚ�ßC \u0011+�%Prl~�?\u0014\u0006�� \u0004\u0003_����Z�\u0002V!��zd宥\u0006�F�U�\u001a}� �XU�~\u0004^S�UeM��Z�\u0000Y�ժy�� �UC ����\u0000Y5�����\u000e�UsͶ߽\u0000����\u0017�� ��X��c�q�R8���]�'. V�����k\u0019\b++������ ޘ�\u0006E\u001b���.\u0017��{í�\u0019�/h\u000e��� /O��� �\b�x���y��Y\u0016�\u0019)]�!���i/әN�d:+��Lg�u��� ��u_�\u0010�� �Ȉpff3���\u0001 ����K�nB�?�6�$\b���\u0012��Ύv�@8;\u001ad:���4�u��F\u0000S�n\u0007@>� d�C���)y���s7\u0007����9J\u0001\u0003 ��\u0017_���t�PW���*�������Qe�t�YW����*�]�W�y\u0007(���\u000e�\u0001\u0010��� endstream endobj 7 0 obj < > stream x�ݚA��0 �� \u0017�=z n�%�C�� *e3\u0012�\bUBH�`\u0014�@���mh4\u001a/�k+�ر�8�\"H����0I[�$��B�����J��Gp���o��vb��w��k\"'d����*��|.�B�;�h�����r��K5s�\u0002JR�֏��l��x؏5�b��C�<. �J��/ �c�W�\u0003\u0018)^�\u001b�p'�\u0005H ��V9֕�8��\u00177�K����\u0004 ��:�!�;�A֟��ll�%8�|�� ��p�K�\u0003\u0010��X�p��\u0010���\u0011���<�\u0011!'��?A�G ����u�\u000fA�*��8�ۃ\u0010��v#�)��G�Bht�o�T�� �\u0018\u001a2�:A���0�ޅ\"�_Y�:H\u0013�\u0017��Z�`��R���)R��\u0019�\u0001�Fu끧���Ad(�\u0000 V�\u0013�OpL1&ơ���s� �}���*�:�#�\u0005�z\u0000�8�U��B��C\u0018�� \u001b�\u0015�ᣕ^M��홦\u001a�Ɠ�\u0011;8.�18)%�W�W\u0004\u0013�V[YSq\u0006>CHm<&��r�ZHmj�&0\u001b�3ٷ=6�/EQ\u0018�;�.,���/�n�����7\u0005$��q�?;h�\u0017���\u000f+�:�����Ъ�\u0006\"��?�'�jZ ��<~\u0003�o ~�\u0010�ak�������2���mV�!�\u000f&C�Kp\u0006�\u0012QN�\u001bPN\u0014�v�A�]4G� ��Ds-ϸ �f�2H�l�\u0003?o�>�5 �\u0018�p��(ʰkQɚ\u001ae�5�do�2��\u0000��\u0019� \u0007ޫ�\u0019�^ �s�\u0019�\u0013�;s\u0019��\u0019�\u00010\u0019n \u0000�e�\u0018�Z\u0006\\��0V5\u0019���`�kKx� fPl�52����\u0004� e��)X\u000e� *\u001b5� �׃k�\u0014m�l\u0001j�Aj�!�&���\u00049+:\u0004�C\u00049��� �\u0011�^\u0000\"�Y�3a��\u0002΄��m�g��-��� \u0000��\u0007�k�t�wg\u0002������a����P�����DA�\u0014EA�F\u0019̯�xY�sW�/\u0018��0 endstream endobj 9 0 obj < > stream x��]=n�:\u0010�3�\u0010>���c�\u0016����\u001a�q��@�\u0000.R�\b�\u0010� J�hR�d�=8�a(J�� 9N\u0006S�z����3 � ���A\b��v�1����0Ƅ\u0010J�\u0010BJ�o'I)�\u0010�RB\b�\u0018����1���\u0016!\u0014e\u0012a !�$I��y�#�\u0000����!)%@�\u0010�� y�`���ɂ�ﳗb��D��:�X!�,�3�\b!c�b\u0012�8�sx���ή(W��>\u00167\u000f_`��7\u000fG\u0000W�c������y~!R�\u0010z\u0007-ѱ�vE9{1��;O\u0016l�Rt�&�\u0000����>��'�����Z_�P�+ĽCd\u0005m������A)�]x�\u0005F)�\u0013Bj�\u001b��� .h������괺�a����D)I��n\u0007�Z��쥈 Q�g/�u�QJ\u0019c��.I�\b@��'Ib5)W�G^K kl�x� ���C�#�N\u0018���r��Cd�ti�.A ��`Y����,˚ k��8�t�o, LM'\u001aP���} Y;���G�\u0006 \u0001W\u001bP���\u0010�ԇo XS ���\u0006�z{)j�,��[S }��t`\u0013��'>��p��5\u0018(��^\u0013Pmp)[h\u0000P\b!�q�$�yp\u0005@Y��:I\u0012��c# 6 ��j���%�\u0004W�Y@\u0011B�<7�0�k���͝�R��y�\u00178c !�C\u000eu}e@)� �K9O�K������9�o Cq��D�\u000e ��#�;\u001b� Ji��5x\\ 55�\\\"����+�\u0001\u0014X��+�\u0002�\u0007!x�����\u0010��<\u0004�~���lH\"�5�\u0016\u0015�\\��\\����ƞXU\u0015��X5\u000f���W�����sa,�� ����.�j�77>��\u0013�o���K\u0011H�� �ZƆ�<#_΢�.y󨫴�|cw �< ��\u0000<��\u0005F�\u0002 u=��P׃�6Y \u0017�/����&b�� lu���m\u000e\u0012H 5�\u0010@\u0017��T/Þ�'w�\u0003�<�_�8��`\u0013���*��p��؟VU|n\u0014�8n &���� \u0010�@\u0016����ܶm�������\u0005\u0005 X�& S\u0011rzՏ�\u0007@c�\u001a�JD�]C�\u0015c\u0001e|2���Q }z�\u000eb�����舕�� �\u0007\by��/�Ct�&�3j��s�ʣoD��ؽ����� � wv����@�`�wH�Wu��<. G��+�t{B���Q�6�y`���8\u0014�4j�¸�\u0016�\u001b�F��sA\b�RK2�<��t}�w\u0013�e\u001a9�Ǵgc+�� +�s�\u0017�\u0005T7V��u�h\u0010�\\\u000e�gM��� })��=��6���O\u0016f�@L��o\u001b����5G}Q�xJ�X �p���",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+      "canonical_url": "https://mass.gov/doc/france-solar-canopy-mandate-pv-magazine/download",
+      "published_at": null,
+      "publisher": "mass.gov",
+      "source_category": "primary_official",
+      "source_role": "official_position",
+      "relevance_score": 0.3430073109126588
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "src_18827976cf32",
+      "title": "France rules on mandatory solar for car parks - pv Europe",
+      "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+      "snippet": "Solar canopies have been required on parking lots since 2023. New regulations now set out the specific requirements and penalties for",
+      "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+      "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+      "published_at": "2025-10-28T00:00:00",
+      "publisher": "pveurope.eu",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7581342839956138
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6774871529696801
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "intruder1500stevie.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.4972474988329996
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+      "platform": "bluesky",
+      "author": {
+        "handle": "intruder1500stevie.bsky.social",
+        "display_name": "Stevie P",
+        "did": "did:plc:sy42rj4nkl372n6mqlmvm2j2"
+      },
+      "text": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+      "created_at": "2026-05-15T08:03:57.317000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:sy42rj4nkl372n6mqlmvm2j2/bafkreihhhbptiud77mh3sycscmmlde3muazlnvownq2hyyabdfrqq2dkmi",
+          "alt_text": null,
+          "ocr_text": "France passed a law requiring solar panels on\nevery parking lot with more than 80 spaces.\n\nEquals 10 nuclear reactors\nReduces heat island, shades cars\n\nThe US -- 800 million parking spaces. Most of\nthem are uncovered asphalt sitting in direct\nsunlight.\n\nWhy aren't we doing this?",
+          "description": "The image is a composite of text at the top and a photograph at the bottom. The text discusses a law about installing solar panels over large parking lots and contrasts this with uncovered parking spaces elsewhere, ending with a rhetorical question. The photograph shows a large parking lot covered by an overhead structure made of metal framing with many solar panels mounted on top. Cars are parked beneath the structure, and the ground markings for parking spaces are visible. The sky is clear and blue in the background.",
+          "image_type": "meme"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍"
+    },
+    "explanation": [
+      {
+        "text": "The author reports that in their local area, car parks serving supermarkets, hypermarkets, and some smaller parking areas, as well as new agricultural buildings, are equipped with solar panels, presenting this as a personal observation of solar deployment on parking lots and rooftops.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is a first-hand description in a social post and is not corroborated by independent sources in the set.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Reporting on France’s solar parking regulations explains that since July 1, 2023, parking lots of at least 1,500 m² must have at least 50% of their area covered with solar panels, with lots ≥10,000 m² required to comply by July 1, 2026 and those between 1,500 and 10,000 m² by July 1, 2028, and that non‑compliant operators can be fined annually until they meet the obligation.",
+        "source_ids": [
+          "src_18827976cf32"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The description is based on a journalistic summary of the French decree rather than the decree text itself, which is only partially available in the provided PDF.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "In the extended thread text, the author characterizes these solar car parks as having “2 functions” — creating shade and creating energy — and adds sarcastic remarks about the U.S. embracing coal and concerns over solar hardware being imported from China instead of produced in the EU, expressing a critical view of U.S. energy choices and global solar supply chains.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These passages reflect the author’s opinions and rhetorical framing, not independently verified claims about U.S. policy or specific manufacturing patterns.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "src_18827976cf32",
+        "title": "France rules on mandatory solar for car parks - pv Europe",
+        "url": "https://www.pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks#",
+        "snippet": "Solar canopies have been required on parking lots since 2023. New regulations now set out the specific requirements and penalties for",
+        "content": "The French government has issued a decree detailing the solar obligation for parking lots that has been in force since 2023, including the associated penalties. Under the regulations, all parking lots of 1,500 square metres or more must be at least 50 percent covered with solar panels. Calculating the area When calculating the area, not only the parking spaces themselves are counted, but also traffic routes and other sections of the lot. Green spaces, storage areas, and zones for logistics, loading and unloading are excluded. Areas used for parking vehicles carrying dangerous goods are also not considered parking spaces. If there are several parking spaces next to each other, the respective operators can agree that the joint parking area is counted as a whole. This means that at least half of this joint parking area must be covered by a solar roof and not each area individually. Exceptions regulated The solar obligation does not apply if the technical or geological requirements are not met or if there are conservation reasons to the contrary. The solar obligation may also be waived if there is too much shade from trees or if the solar radiation is too low to operate a photovoltaic system economically. The parking lot operator must prove that the installation of a solar system is impossible or uneconomical. Parking lots exclusively used for vehicles with a total weight of more than 3.5 tons are also currently exempt. Implementation by 2028 at the latest This regulation has been in force since 1 July 2023, with transitional periods for smaller parking lots. For example, lots of at least 10,000 square metres must be fitted with a solar system by 1 July 2026. For lots between 1,500 and 10,000 square metres, the deadline is 1 July 2028. However, departments can still set separate transitional periods. Penalties loom Parking lot operators who fail to meet the solar obligation face steep penalties. Operators of parking lots up to 10,000 square metres may be fined up to 20,000 euros per year, while larger lots can incur fines of up to 40,000 euros annually until compliance is fulfilled. The new decree also covers cases where a parking lot operator assigns the solar installation to a third party – for example through a tender – but the project is not carried out or is delayed. All specific provisions are outlined in Decree 2024-1023, available online in the Official Journal of the French Republic. (su)",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "French legislation solar canopies over car parks 2023 implementation timeline supermarkets hypermarkets",
+        "canonical_url": "https://pveurope.eu/e-mobility/france-rules-mandatory-solar-car-parks",
+        "published_at": "2025-10-28T00:00:00",
+        "publisher": "pveurope.eu",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @intruder1500stevie.bsky.social",
+        "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+        "snippet": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "content": "All the car parks to the supermarkets and hyper markets in this area are done. Plus quite a few much smaller parking areas. All new agricultural buildings have solar panel roofs as well.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @intruder1500stevie.bsky.social",
+        "url": "https://bsky.app/profile/intruder1500stevie.bsky.social/post/3mluuntxous2a",
+        "snippet": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+        "content": "Has 2 functions  \n\nCreate shade\nCreate energy\n\nBecause the future of the US is COAL.\n\nI just hope that they are buying the hardware manufactured in EU, not repacked as assembled in EU, but everything was imported from china...\n\nBecause we're stupid.\n\n💪👍",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "intruder1500stevie.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 51989
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:20:02.506158+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:19:36.200704+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:36.200807+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:19:36.201230+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:36.201339+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:19:36.201714+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:37.403299+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1201
+    },
+    {
+      "timestamp": "2026-05-16T02:19:37.406503+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:37.407063+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:19:37.407683+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:38.960175+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1552
+    },
+    {
+      "timestamp": "2026-05-16T02:19:38.960711+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:45.534194+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5977
+    },
+    {
+      "timestamp": "2026-05-16T02:19:45.534710+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:52.211368+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6676
+    },
+    {
+      "timestamp": "2026-05-16T02:19:52.211966+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:19:53.378711+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1166
+    },
+    {
+      "timestamp": "2026-05-16T02:19:53.379291+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.496665+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 9117
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.497443+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.497617+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.498436+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.498583+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.498901+00:00",
+      "event": "node_started",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:20:02.499012+00:00",
+      "event": "node_completed",
+      "run_id": "run_8527719fbf8f44eb86e6a65844bf2511",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+    "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction",
+    "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+    "background on Tina Peters election denial Mesa County clerk criminal case and sentencing"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/"
+      },
+      {
+        "id": "https://www.coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.reddit.com/r/law/comments/1teehlb/colorados_democratic_governor_will_let_trump_ally/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYX53iBiRu_/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://courthousenews.com/colorado-governor-commutes-sentence-for-controversial-elections-clerk-tina-peters/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/cnn/posts/gop-election-denier-tina-peters-will-be-granted-clemency-after-admitting-she-mad/1359079272751387/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_145a761a8c01",
+        "title": "News - Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 1,
+      "tavily": 7
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 1,
+      "tavily": 6
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @marcelias.bsky.social",
+      "url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+      "snippet": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew t",
+      "content": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew that.\n\nDafuq??\nThis bitch should have served her full sentence!!\n\nThis is the whitest shit ever! Fuck crimes and punishment when you are a white person in this country. That bitch broke the fucking law and a white gay govenor thought she'd had enough? You fucing mutants are exactly who we think you are! She should have done her time at least half of it!\n\nPolis is a coup accomplice.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "marcelias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9347704723617257
+    },
+    {
+      "id": "src_0e810112877c",
+      "title": "Colorado governor grants election denier Tina Peters clemency ...",
+      "url": "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/#",
+      "snippet": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems.",
+      "content": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. “We condemn Governor Polis’ clemency grant. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. “This is a dark day for democracy.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. According to local reports, Polis is reducing Peters’ nine-year prison sentence, saying her guilt was not in dispute but that the punishment itself was excessive. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in March. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems. “It’s unfortunate to see the Governor of Colorado succumbing to the bullying tactics of election conspiracy theorists. He has thrown state and county election officials, Republicans and Democrats, under the bus after they resisted the corruption Ms. Peters engaged in and withstood attacks for many years as a result,” David Becker, executive director of Center for Election Innovation & Research, said. “Ms. Peters continues to express no remorse about her crimes and will likely now be a featured performer on the election grift circuit. It is a sad day for the rule of law and accountability.” Peters was convicted in 2024 after prosecutors showed she facilitated unauthorized access to Mesa County voting equipment and helped expose sensitive system data, actions driven by false claims that the 2020 election was stolen from Trump. A jury found her guilty on multiple counts, and she was sentenced to nine years in prison. “Tina Peters’ actions have made life harder, not only for election officials here in Colorado, but make no mistake, for election officials all across the country. Her conduct became a rallying point for election conspiracy movements that fueled hostility and distrust towards the very people responsible for administering free and fair elections,” Matt Crane, a former Republican clerk and executive director of the Colorado County Clerks Association, said. “Rather than standing with public service servants and defending one of our nation’s most cherished rights, the right to vote, Governor Polis is bending the knee to the same political forces and conspiracy movements that are actively undermining confidence in our democratic institutions. That choice carries consequences far beyond this single case.” Polis’ clemency order follows an April ruling from a Colorado appeals court that upheld Peters’ conviction but ordered her to be resentenced. Polis said he agreed that her political beliefs — including her promotion of election conspiracy theories — should not factor into the length of her punishment. “Clerks have been intimidated. We’ve had clerks have their lives threatened. We had a clerk who was pregnant in 2022 have her unborn child threatened. We had an office in Colorado fire bomb",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7891520060085523
+    },
+    {
+      "id": "src_105e685b6270",
+      "title": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes ...",
+      "url": "https://www.coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison/#",
+      "snippet": "“The Governor's actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American",
+      "content": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes her eligible for release from prison Colorado Gov. Jared Polis on Friday granted clemency to Tina Peters and made the former Republican county clerk eligible for release from state prison as soon as early June, capping months of speculation that the Democratic governor would shorten a nearly nine-year sentence related to Peters’ role in a scheme to breach secure voting equipment. Polis announced on Friday afternoon that he is shortening Peters’ sentence from eight years and nine months to four years and 4.5 months, making her eligible for parole on June 1. Peters is currently incarcerated at La Vista Correctional Facility in Pueblo. “The crimes you were convicted of are very serious and you deserve to spend time in prison for these offenses,” Polis said in a clemency letter addressed to Peters. “However, this is an extremely unusual and lengthy sentence for a first time offender who committed nonviolent crimes.” Polis has faced pressure to release the 70-year-old Peters for more than a year from President Donald Trump, who described her as an “innocent Political Prisoner” and “hostage” last May and in December granted Peters a federal pardon, which has no legal effect on her convictions on state charges. At the same time, the state’s leading Democrats have urged Polis not to pardon Peters or commute her sentence, including Colorado Secretary of State Jena Griswold and Attorney General Phil Weiser, who were involved in Peters’ prosecution. Peters thanked Polis after the announcement and apologized for making “mistakes” in a lengthy post on social media. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said on X, referring to the actions related to one of her convictions. Peters added that upon her release, she plans “to do my best through legal means to support election integrity” and advance prison reforms. “I am grateful for a second chance and an earlier release, and I look forward to doing good in the world,” she said. Officials and organizations that had earlier asked Polis to leave her sentence untouched criticized the governor. “This clemency grant to Tina Peters is an affront to our democracy, the people of Colorado, and election officials across the country,” said Griswold in a statement. “The Governor’s actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American democracy for years to come.” Weiser, who assisted the local district attorney, a Republican, in prosecuting Peters and is running for governor, called Polis’ decision “mind-boggling and wrong as a matter of basic justice,” in a statement issued Friday afternoon. “Caving in to this president will only lead to more abuse from the bullying Trump administration,” Weiser added. “Today is a sad day for Colorado and the rule of law.” Peters was convicted in 2024 by a Mesa County jury on seven state charges, including four felonies, for facilitating a plan to tamper with the county’s election equipment in 2021 — when she served as its chief election official — in an attempt to find evidence that Colorado’s voting system is rigged. Last month, the Colorado Court of Appeals ruled that Peters’ convictions would stand but ordered that she be resentenced by the District Court, saying that her public comments questioning the integrity of elections influenced the severity of her sentence. Earlier this month, the trial court judge declined to recuse himself from the resentencing hearing. In his clemency letter, Polis said he agrees with the appellate ruling, which found that the judge shouldn’t have considered Peters’ stated beliefs about election fraud when determining her sentence. “Importantly, your application demonstrates taking responsibility for your crimes, and a commitment to follow the law going forward. For these rea",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction",
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+          "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "coloradopolitics.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6875357605652155
+    },
+    {
+      "id": "src_96c4ad5341a5",
+      "title": "Colorado Gov. Polis reduces sentence of Trump ally Tina Peters - NPR",
+      "url": "https://www.npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump#",
+      "snippet": "DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, allowing her to be eligible for parole on June 1. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis, who is in his last year as governor due to term limits, maintains that his decision is not an effort to curry favor with Trump, who has referred to Peters as a hostage \"being held in a Colorado prison by the Democrats, for political reasons,\" and at one point said state leaders should \"rot in hell.\" Trump issued a pardon to Peters in December that was considered symbolic, because a president doesn't have jurisdiction over state-level crimes.",
+      "content": "Colorado's Democratic governor will let Trump ally Tina Peters out of prison early DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, and said she would be released on parole June 1, 2026. The controversial decision follows a months-long pressure campaign from President Trump and his administration to free Peters from state custody. In April, a state appeals court upheld Peters' 2024 conviction but ruled that she should be re-sentenced, saying that the trial court judge who issued her nearly nine-year sentence improperly factored in her protected speech. Peters was convicted for her role in facilitating a security breach of Mesa County's voting machines when she was clerk and recorder. The incident occurred six months after the 2020 election, as part of her effort to prove Trump's baseless claims of a rigged election. Peters' conviction and sentence have stood out because legal efforts to hold Trump and many other allies accountable for attempts to overturn that election have faltered. Peters claimed that the trial judge in Grand Junction, Matthew Barrett, violated her First Amendment rights when he rebuked Peters during sentencing, with a blistering critique of her actions and attitude, saying that she was an attention-seeking former official who only thinks about herself. He said she was continuing to push false claims about rigged voting machines and a stolen election. \"You are no hero,\" Barrett told Peters in 2024. \"You're a charlatan who used, and is still using, your prior position in office to peddle a snake oil that's been proven to be junk time and time again.\" Polis' decision stands to be deeply unpopular among Democrats and election officials in the state, who urged him not to issue a commutation. However, he said that he focused on the facts, not whether he agreed with Peters. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis said he was effectively cutting her sentence in half to four and a half years. She was sentenced on Oct. 3, 2024, so that means on June 1, she will have spent more than 600 days incarcerated. \"It's about doing what's right. Even though of course I disagree with her speech just as the judge incorrectly stated that he did. But that's not a factor in, it should not be a factor in the sentencing,\" he added. Minutes after the news broke, President Donald Trump responded on social media, posting \"FREE TINA.\" But the move drew immediate condemnation across Colorado politics, from the Secretary of State to the two Democrats vying to replace Polis. Matt Crane, executive director of the Colorado County Clerks Association, a Republican, said freeing Peters could make work more dangerous for Colorado election officials. \"This is now Governor Polis' legacy. He will not be able to run from it, nor redefine it later. When given the opportunity to stand firmly for the rule of law, for the integrity of Colorado elections and for the public servants who defend them, he chose a different path,\" Crane said in a press conference minutes after the commutation was official. Colorado Attorney General Phil Weiser, whose office helped prosecute Peters, said it was \"a sad day for Colorado.\" Weiser is running to replace Polis, as is U.S. Sen. Michael Bennet, who said he \"vehemently disagreed\" with Polis' decision. Other comments from Colorado officials flooded in, calling Polis' decision everything from disgraceful to undemocratic, to reckless, indefensible and outrageous. Meanwhile in a statement released a little more than an hour after the news, Peters said she was sorry and will follow the law going forward. \"Thank you Gov Polis,\" she wrote. \"I made mistakes, and for those I am sorry. Five years ago I misled the Secret",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6754162425944681
+    },
+    {
+      "id": "src_ba1665c1785f",
+      "title": "Tina Peters set for release after sentence commuted by Colorado governor",
+      "url": "https://www.nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391#",
+      "snippet": "BREAKING: Election denier Tina Peters set for release after Colorado governor commutes sentence. # Election denier Tina Peters set for release after Colorado governor commutes sentence. Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. An attorney for Peters, Peter Ticktin, told NBC News at the time that “We are hoping that Governor Polis commutes Tina Peters’ sentence this week.”. “She is no longer in a position to engage in the conduct that led to her conviction,” the judges wrote.",
+      "content": "Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Polis, a Democrat, wrote in an executive order that Peters “is granted parole effective June 1.” Peters thanked the governor in a statement released by her lawyer Peter Ticktin, and also expressed remorse for her actions for the first time. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said. “I have learned and grown during my time in prison and going forward I will make sure that my actions always follow the law, and I will avoid the mistakes of the past.” The commutation comes after a state appeals court found last month that Peters’ lengthy sentence was improper and directed she be resentenced. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. Colorado Secretary of State Jena Griswold, a Democrat and the state’s top election official, told NBC News in a brief phone interview Friday, “I believe the clemency grant is an affront to our democracy, the people of Colorado and election officials across the county.” “No official should bow down to retaliation from Donald Trump,” she said, adding she’s concerned the move will “embolden” election denialists. The commutation was also criticized by Sen. Michael Bennet, D-Colo., who wrote in a post on X that “I vehemently disagree” with the commutation. Peters, he wrote, “broke the law, undermined our elections, and was convicted by a jury of her peers.” “With Trump continuing to attack Colorado, we must stand strong for our institutions and the rule of law,” added Bennet, who is running for governor. The term-limited Polis said in a statement on Facebook that he was standing for the rule of law. “I believe based on the facts of the case that her sentence is simply disproportionate for a first time, non-violent offender. It’s one of my bedrock beliefs that our laws should be applied fairly, and I simply do not believe that was what happened in this case,” he wrote. “To be clear, I am not pardoning Tina Peters, and I have never considered a pardon. Tina Peters violated state law and broke the public trust by lying to the Secretary of State and illegally accessing a computer room in 2021 prior to a software update. Her actions were clearly illegal, wrong, and financially costly to Mesa County, and Colorado,” he added. “Tina Peters will remain a convicted felon for her crimes. I am simply correcting what I see as the error the trial court made by sentencing her to nearly nine years in prison,” Polis said. Polis told CBS News in January he thought Peters’ sentence was “harsh” but that he wouldn’t let his clemency decisions be driven by presidential directives. Peters was convicted of four felony and three misdemeanor charges in August 2024 for using another person’s security badge to allow someone associated with MyPillow founder Mike Lindell, a prominent election denier, access to county election equipment involving Dominion Voting Systems. The county’s machines had to be replaced afterward when data, including passwords for the machines, was posted online. Polis indicated in a March post on X that he was considering cutting Peters’ sentence short in light of a much shorter sentence that had been handed down on a similar charge against a Democratic politician. “Justice in Colorado and America needs to be applied evenly,” he wrote in the post. At her sentencing in 2024, District Attorney Daniel Rubinstein asked the judge to impose the maximum sentence, while noting that despite Peters’ claims of widespread frau",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6734487158248655
+    },
+    {
+      "id": "src_be64e4b96971",
+      "title": "After pressure from Trump, Colorado gov. signals possible clemency for election denier Tina Peters - Democracy Docket",
+      "url": "https://www.democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters/#",
+      "snippet": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?”. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement.",
+      "content": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. “FREE TINA PETERS”, Trump posted on Truth Social Thursday evening. Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in an interview Thursday. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” Just weeks earlier, after Trump issued a symbolic, unenforceable pardon claiming to wipe away Peters’ state convictions. Polis rejected the move outright. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement. “No President has jurisdiction over state law nor the power to pardon a person for state convictions. This is a matter for the courts to decide, and we will abide by court orders.” Polis’ position aligned with long-standing constitutional doctrine and with the expectations of voters who view Peters’ prosecution as a rare and necessary instance of accountability for election interference in the 2020 election. After Colorado officials refused to release Peters, the Trump administration moved to block or withdraw federal funding, dismantled research programs and relocated key federal assets — including U.S. Space Command — away from the state. Colorado’s attorney general has described the actions as an unprecedented campaign of retaliation designed to force compliance. Pressure to release Peters is not coming from Trump alone. Peters’ case has become a rallying point for far-right extremists who are increasingly using violent rhetoric to demand her release, framing her imprisonment as illegitimate and threatening direct actions against Polis and other Colorado officials. Last fall, Polis explicitly warned against trading justice for political relief. “In a past version of America, people have gone to jail for that,” Polis said, referring to the idea of exchanging Peters’ release for federal concessions. “Isn’t that something people should go to jail for? If that happens, I mean, that’s the America we need to get back to.” Importantly, clemency would not overturn Peters’ conviction or validate her debunked claims about election fraud. It would instead shorten or end her sentence — a discretionary power governors can use even when the underlying verdict stands. Still, for many pro-democracy advocates, the distinction may offer little comfort. Peters was convicted by a jury after prosecutors showed she enabled unauthorized access to election equipment and helped leak sensitive voting system data — actions election officials say endangered trust in democratic infrastructure nationwide. Her case has been repeatedly invoked by election deniers as proof that accountability itself is partisan persecution. Polis has not announced a final decision, and no clemency order has yet been issued.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+      "canonical_url": "https://democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters",
+      "published_at": "2026-01-09T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6590443726379775
+    },
+    {
+      "id": "src_3eff4c0b5c53",
+      "title": "Court tosses out sentence of election denier Tina Peters, orders ...",
+      "url": "https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#",
+      "snippet": "[Skip to content](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#main). [Menu Close](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#primary-nav). *   [Share on Facebook](https://www.facebook.com/sharer.php?u=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). *   [Share on Twitter](https://twitter.com/intent/tweet?url=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/&text=Court%20tosses%20out%20sentence%20of%20election%20denier%20Tina%20Peters,%20orders%20resentencing). *   [Share on Bluesky](https://bsky.app/intent/compose?text=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). A Colorado appeals court [ruled](https://www.democracydocket.com/wp-content/uploads/2026/04/Tina_Opinion-1.pdf) Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have [called](https://www.democracydocket.com/news-alerts/far-right-escalates-calls-for-violence-to-free-tina-peters-after-trumps-pardon/) for violence to free her. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was [retaliation](https://www.democracydocket.com/news-alerts/trump-is-punishing-colorado-over-tina-peters/) over Polis’ refusal to pardon Peters. In recent weeks, Polis — who is term-limited from running for reelection — has [signaled](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/) that he may free Peters, despite objections from a wide range of Colorado Democrats. *   [Colorado governor grants election denier Tina Peters clemency, reduces sentence](https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/). *   [Colorado governor signals he may free election denier Tina Peters](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/).",
+      "content": "A Colorado appeals court ruled Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. The decision represents a setback for crucial efforts to hold accountable those working to undermine fair elections. “Peters will continue to face accountability for coordinating a breach of her own election equipment,” Colorado Secretary of State Jena Griswold (D) said in a statement. “Her actions have been repeatedly used to spread conspiracy theories, amplify falsehoods, and fuel dangerous election lies. Peters should not receive any special treatment as the District Court considers re-sentencing.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. In 2021, Peters — who was then serving as Mesa County clerk — allowed unauthorized people to access sensitive voting-machine software, helped copy and circulate confidential election data and then misled investigators as the scheme unraveled. The data later appeared in fringe, far-right conspiracy circles promoting President Donald Trump’s “Big Lie” that the 2020 election was stolen. Griswold first launched an investigation and found that Peters, an avowed election denier, was behind the data leak. Peters was later found guilty of three felony counts of attempting to influence a public servant, one felony count of conspiracy to commit criminal impersonation, and a slew of misdemeanors. Peters was sentenced to nine years in a state prison by Colorado District Judge Matthew Barrett, who did not mince words during the sentencing hearing. “You are no hero, you abused your position, and you’re a charlatan who used, and is still using, your prior position in office to peddle a snake oil that’s been proven to be junk time and time again,” Barrett said. In a 3-0 ruling, a panel of judges said that Barrett violated Peters’ free-speech rights during her sentencing. “The trial court’s comments about Peters’s belief in the existence of 2020 election fraud went beyond relevant considerations for her sentencing,” the judges wrote. “Her offense was not her belief, however misguided the trial court deemed it to be, in the existence of such election fraud; it was her deceitful actions in her attempt to gather evidence of such fraud. Indeed, under these circumstances, just as her purported beliefs underlying her motive for her actions were not relevant to her defense, the trial court should not have considered those beliefs relevant when imposing sentence.” Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have called for violence to free her. Trump has repeatedly called for her release and, in December, issued her a legally meaningless “pardon.” Since Peters was convicted on state, not federal charges, the president has no constitutional authority to pardon her. Colorado Gov. Jared Polis (D) has, so far, resisted pressure from the White House and the far-right to pardon Peters — unleashing a wave of retribution from the president. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was retaliation over Polis’ refusal to pardon Peters. Even a federal judge found that an attempt by the Trump administration to cut Colorado’s SNAP benefits appeared to be retribution over Peters. In recent weeks, Polis — who is term-limited from running for reelection — has signaled that he may free Peters, despite objections from a wide range of Colorado Democrats. In a letter sent to Polis last month, every Democrat in the state legislature asked the governor to avoid pardoning Peters, and allow the appeals process over her sentence to play out. “We urge you to allow that process to advance and for the judicial ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+      "canonical_url": "https://democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing",
+      "published_at": "2026-04-02T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6497223348236872
+    },
+    {
+      "id": "src_f5d20dad6b77",
+      "title": "Polis grants Tina Peters clemency Gov. Polis tells Denver7 the ...",
+      "url": "https://www.facebook.com/Denver7News/videos/breaking-polis-grants-tina-peters-clemencygov-polis-tells-denver7-the-disgraced-/1963115987744572/#",
+      "snippet": "To date she is one of the only election deniers to have received well deserved justice. She was convicted on the evidence by a jury of her",
+      "content": "BREAKING: Polis grants Tina Peters clemency Gov. Polis tells Denver7 the disgraced former Mesa County clerk will have her sentence cut in half and could be parole-eligible starting in June. ⬇️ | Denver7",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction",
+      "canonical_url": "https://facebook.com/Denver7News/videos/breaking-polis-grants-tina-peters-clemencygov-polis-tells-denver7-the-disgraced-/1963115987744572",
+      "published_at": "2000-01-01T00:00:00",
+      "publisher": "facebook.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.5970417951167921
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @marcelias.bsky.social",
+      "url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+      "snippet": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew t",
+      "content": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew that.\n\nDafuq??\nThis bitch should have served her full sentence!!\n\nThis is the whitest shit ever! Fuck crimes and punishment when you are a white person in this country. That bitch broke the fucking law and a white gay govenor thought she'd had enough? You fucing mutants are exactly who we think you are! She should have done her time at least half of it!\n\nPolis is a coup accomplice.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "marcelias.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9347704723617257
+    },
+    {
+      "id": "src_0e810112877c",
+      "title": "Colorado governor grants election denier Tina Peters clemency ...",
+      "url": "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/#",
+      "snippet": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems.",
+      "content": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. “We condemn Governor Polis’ clemency grant. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. “This is a dark day for democracy.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. According to local reports, Polis is reducing Peters’ nine-year prison sentence, saying her guilt was not in dispute but that the punishment itself was excessive. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in March. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems. “It’s unfortunate to see the Governor of Colorado succumbing to the bullying tactics of election conspiracy theorists. He has thrown state and county election officials, Republicans and Democrats, under the bus after they resisted the corruption Ms. Peters engaged in and withstood attacks for many years as a result,” David Becker, executive director of Center for Election Innovation & Research, said. “Ms. Peters continues to express no remorse about her crimes and will likely now be a featured performer on the election grift circuit. It is a sad day for the rule of law and accountability.” Peters was convicted in 2024 after prosecutors showed she facilitated unauthorized access to Mesa County voting equipment and helped expose sensitive system data, actions driven by false claims that the 2020 election was stolen from Trump. A jury found her guilty on multiple counts, and she was sentenced to nine years in prison. “Tina Peters’ actions have made life harder, not only for election officials here in Colorado, but make no mistake, for election officials all across the country. Her conduct became a rallying point for election conspiracy movements that fueled hostility and distrust towards the very people responsible for administering free and fair elections,” Matt Crane, a former Republican clerk and executive director of the Colorado County Clerks Association, said. “Rather than standing with public service servants and defending one of our nation’s most cherished rights, the right to vote, Governor Polis is bending the knee to the same political forces and conspiracy movements that are actively undermining confidence in our democratic institutions. That choice carries consequences far beyond this single case.” Polis’ clemency order follows an April ruling from a Colorado appeals court that upheld Peters’ conviction but ordered her to be resentenced. Polis said he agreed that her political beliefs — including her promotion of election conspiracy theories — should not factor into the length of her punishment. “Clerks have been intimidated. We’ve had clerks have their lives threatened. We had a clerk who was pregnant in 2022 have her unborn child threatened. We had an office in Colorado fire bomb",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7891520060085523
+    },
+    {
+      "id": "src_105e685b6270",
+      "title": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes ...",
+      "url": "https://www.coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison/#",
+      "snippet": "“The Governor's actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American",
+      "content": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes her eligible for release from prison Colorado Gov. Jared Polis on Friday granted clemency to Tina Peters and made the former Republican county clerk eligible for release from state prison as soon as early June, capping months of speculation that the Democratic governor would shorten a nearly nine-year sentence related to Peters’ role in a scheme to breach secure voting equipment. Polis announced on Friday afternoon that he is shortening Peters’ sentence from eight years and nine months to four years and 4.5 months, making her eligible for parole on June 1. Peters is currently incarcerated at La Vista Correctional Facility in Pueblo. “The crimes you were convicted of are very serious and you deserve to spend time in prison for these offenses,” Polis said in a clemency letter addressed to Peters. “However, this is an extremely unusual and lengthy sentence for a first time offender who committed nonviolent crimes.” Polis has faced pressure to release the 70-year-old Peters for more than a year from President Donald Trump, who described her as an “innocent Political Prisoner” and “hostage” last May and in December granted Peters a federal pardon, which has no legal effect on her convictions on state charges. At the same time, the state’s leading Democrats have urged Polis not to pardon Peters or commute her sentence, including Colorado Secretary of State Jena Griswold and Attorney General Phil Weiser, who were involved in Peters’ prosecution. Peters thanked Polis after the announcement and apologized for making “mistakes” in a lengthy post on social media. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said on X, referring to the actions related to one of her convictions. Peters added that upon her release, she plans “to do my best through legal means to support election integrity” and advance prison reforms. “I am grateful for a second chance and an earlier release, and I look forward to doing good in the world,” she said. Officials and organizations that had earlier asked Polis to leave her sentence untouched criticized the governor. “This clemency grant to Tina Peters is an affront to our democracy, the people of Colorado, and election officials across the country,” said Griswold in a statement. “The Governor’s actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American democracy for years to come.” Weiser, who assisted the local district attorney, a Republican, in prosecuting Peters and is running for governor, called Polis’ decision “mind-boggling and wrong as a matter of basic justice,” in a statement issued Friday afternoon. “Caving in to this president will only lead to more abuse from the bullying Trump administration,” Weiser added. “Today is a sad day for Colorado and the rule of law.” Peters was convicted in 2024 by a Mesa County jury on seven state charges, including four felonies, for facilitating a plan to tamper with the county’s election equipment in 2021 — when she served as its chief election official — in an attempt to find evidence that Colorado’s voting system is rigged. Last month, the Colorado Court of Appeals ruled that Peters’ convictions would stand but ordered that she be resentenced by the District Court, saying that her public comments questioning the integrity of elections influenced the severity of her sentence. Earlier this month, the trial court judge declined to recuse himself from the resentencing hearing. In his clemency letter, Polis said he agrees with the appellate ruling, which found that the judge shouldn’t have considered Peters’ stated beliefs about election fraud when determining her sentence. “Importantly, your application demonstrates taking responsibility for your crimes, and a commitment to follow the law going forward. For these rea",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction",
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+          "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "coloradopolitics.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6875357605652155
+    },
+    {
+      "id": "src_96c4ad5341a5",
+      "title": "Colorado Gov. Polis reduces sentence of Trump ally Tina Peters - NPR",
+      "url": "https://www.npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump#",
+      "snippet": "DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, allowing her to be eligible for parole on June 1. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis, who is in his last year as governor due to term limits, maintains that his decision is not an effort to curry favor with Trump, who has referred to Peters as a hostage \"being held in a Colorado prison by the Democrats, for political reasons,\" and at one point said state leaders should \"rot in hell.\" Trump issued a pardon to Peters in December that was considered symbolic, because a president doesn't have jurisdiction over state-level crimes.",
+      "content": "Colorado's Democratic governor will let Trump ally Tina Peters out of prison early DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, and said she would be released on parole June 1, 2026. The controversial decision follows a months-long pressure campaign from President Trump and his administration to free Peters from state custody. In April, a state appeals court upheld Peters' 2024 conviction but ruled that she should be re-sentenced, saying that the trial court judge who issued her nearly nine-year sentence improperly factored in her protected speech. Peters was convicted for her role in facilitating a security breach of Mesa County's voting machines when she was clerk and recorder. The incident occurred six months after the 2020 election, as part of her effort to prove Trump's baseless claims of a rigged election. Peters' conviction and sentence have stood out because legal efforts to hold Trump and many other allies accountable for attempts to overturn that election have faltered. Peters claimed that the trial judge in Grand Junction, Matthew Barrett, violated her First Amendment rights when he rebuked Peters during sentencing, with a blistering critique of her actions and attitude, saying that she was an attention-seeking former official who only thinks about herself. He said she was continuing to push false claims about rigged voting machines and a stolen election. \"You are no hero,\" Barrett told Peters in 2024. \"You're a charlatan who used, and is still using, your prior position in office to peddle a snake oil that's been proven to be junk time and time again.\" Polis' decision stands to be deeply unpopular among Democrats and election officials in the state, who urged him not to issue a commutation. However, he said that he focused on the facts, not whether he agreed with Peters. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis said he was effectively cutting her sentence in half to four and a half years. She was sentenced on Oct. 3, 2024, so that means on June 1, she will have spent more than 600 days incarcerated. \"It's about doing what's right. Even though of course I disagree with her speech just as the judge incorrectly stated that he did. But that's not a factor in, it should not be a factor in the sentencing,\" he added. Minutes after the news broke, President Donald Trump responded on social media, posting \"FREE TINA.\" But the move drew immediate condemnation across Colorado politics, from the Secretary of State to the two Democrats vying to replace Polis. Matt Crane, executive director of the Colorado County Clerks Association, a Republican, said freeing Peters could make work more dangerous for Colorado election officials. \"This is now Governor Polis' legacy. He will not be able to run from it, nor redefine it later. When given the opportunity to stand firmly for the rule of law, for the integrity of Colorado elections and for the public servants who defend them, he chose a different path,\" Crane said in a press conference minutes after the commutation was official. Colorado Attorney General Phil Weiser, whose office helped prosecute Peters, said it was \"a sad day for Colorado.\" Weiser is running to replace Polis, as is U.S. Sen. Michael Bennet, who said he \"vehemently disagreed\" with Polis' decision. Other comments from Colorado officials flooded in, calling Polis' decision everything from disgraceful to undemocratic, to reckless, indefensible and outrageous. Meanwhile in a statement released a little more than an hour after the news, Peters said she was sorry and will follow the law going forward. \"Thank you Gov Polis,\" she wrote. \"I made mistakes, and for those I am sorry. Five years ago I misled the Secret",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "npr.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6754162425944681
+    },
+    {
+      "id": "src_ba1665c1785f",
+      "title": "Tina Peters set for release after sentence commuted by Colorado governor",
+      "url": "https://www.nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391#",
+      "snippet": "BREAKING: Election denier Tina Peters set for release after Colorado governor commutes sentence. # Election denier Tina Peters set for release after Colorado governor commutes sentence. Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. An attorney for Peters, Peter Ticktin, told NBC News at the time that “We are hoping that Governor Polis commutes Tina Peters’ sentence this week.”. “She is no longer in a position to engage in the conduct that led to her conviction,” the judges wrote.",
+      "content": "Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Polis, a Democrat, wrote in an executive order that Peters “is granted parole effective June 1.” Peters thanked the governor in a statement released by her lawyer Peter Ticktin, and also expressed remorse for her actions for the first time. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said. “I have learned and grown during my time in prison and going forward I will make sure that my actions always follow the law, and I will avoid the mistakes of the past.” The commutation comes after a state appeals court found last month that Peters’ lengthy sentence was improper and directed she be resentenced. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. Colorado Secretary of State Jena Griswold, a Democrat and the state’s top election official, told NBC News in a brief phone interview Friday, “I believe the clemency grant is an affront to our democracy, the people of Colorado and election officials across the county.” “No official should bow down to retaliation from Donald Trump,” she said, adding she’s concerned the move will “embolden” election denialists. The commutation was also criticized by Sen. Michael Bennet, D-Colo., who wrote in a post on X that “I vehemently disagree” with the commutation. Peters, he wrote, “broke the law, undermined our elections, and was convicted by a jury of her peers.” “With Trump continuing to attack Colorado, we must stand strong for our institutions and the rule of law,” added Bennet, who is running for governor. The term-limited Polis said in a statement on Facebook that he was standing for the rule of law. “I believe based on the facts of the case that her sentence is simply disproportionate for a first time, non-violent offender. It’s one of my bedrock beliefs that our laws should be applied fairly, and I simply do not believe that was what happened in this case,” he wrote. “To be clear, I am not pardoning Tina Peters, and I have never considered a pardon. Tina Peters violated state law and broke the public trust by lying to the Secretary of State and illegally accessing a computer room in 2021 prior to a software update. Her actions were clearly illegal, wrong, and financially costly to Mesa County, and Colorado,” he added. “Tina Peters will remain a convicted felon for her crimes. I am simply correcting what I see as the error the trial court made by sentencing her to nearly nine years in prison,” Polis said. Polis told CBS News in January he thought Peters’ sentence was “harsh” but that he wouldn’t let his clemency decisions be driven by presidential directives. Peters was convicted of four felony and three misdemeanor charges in August 2024 for using another person’s security badge to allow someone associated with MyPillow founder Mike Lindell, a prominent election denier, access to county election equipment involving Dominion Voting Systems. The county’s machines had to be replaced afterward when data, including passwords for the machines, was posted online. Polis indicated in a March post on X that he was considering cutting Peters’ sentence short in light of a much shorter sentence that had been handed down on a similar charge against a Democratic politician. “Justice in Colorado and America needs to be applied evenly,” he wrote in the post. At her sentencing in 2024, District Attorney Daniel Rubinstein asked the judge to impose the maximum sentence, while noting that despite Peters’ claims of widespread frau",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+      "canonical_url": "https://nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "nbcnews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6734487158248655
+    },
+    {
+      "id": "src_be64e4b96971",
+      "title": "After pressure from Trump, Colorado gov. signals possible clemency for election denier Tina Peters - Democracy Docket",
+      "url": "https://www.democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters/#",
+      "snippet": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?”. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement.",
+      "content": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. “FREE TINA PETERS”, Trump posted on Truth Social Thursday evening. Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in an interview Thursday. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” Just weeks earlier, after Trump issued a symbolic, unenforceable pardon claiming to wipe away Peters’ state convictions. Polis rejected the move outright. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement. “No President has jurisdiction over state law nor the power to pardon a person for state convictions. This is a matter for the courts to decide, and we will abide by court orders.” Polis’ position aligned with long-standing constitutional doctrine and with the expectations of voters who view Peters’ prosecution as a rare and necessary instance of accountability for election interference in the 2020 election. After Colorado officials refused to release Peters, the Trump administration moved to block or withdraw federal funding, dismantled research programs and relocated key federal assets — including U.S. Space Command — away from the state. Colorado’s attorney general has described the actions as an unprecedented campaign of retaliation designed to force compliance. Pressure to release Peters is not coming from Trump alone. Peters’ case has become a rallying point for far-right extremists who are increasingly using violent rhetoric to demand her release, framing her imprisonment as illegitimate and threatening direct actions against Polis and other Colorado officials. Last fall, Polis explicitly warned against trading justice for political relief. “In a past version of America, people have gone to jail for that,” Polis said, referring to the idea of exchanging Peters’ release for federal concessions. “Isn’t that something people should go to jail for? If that happens, I mean, that’s the America we need to get back to.” Importantly, clemency would not overturn Peters’ conviction or validate her debunked claims about election fraud. It would instead shorten or end her sentence — a discretionary power governors can use even when the underlying verdict stands. Still, for many pro-democracy advocates, the distinction may offer little comfort. Peters was convicted by a jury after prosecutors showed she enabled unauthorized access to election equipment and helped leak sensitive voting system data — actions election officials say endangered trust in democratic infrastructure nationwide. Her case has been repeatedly invoked by election deniers as proof that accountability itself is partisan persecution. Polis has not announced a final decision, and no clemency order has yet been issued.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+      "canonical_url": "https://democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters",
+      "published_at": "2026-01-09T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6590443726379775
+    },
+    {
+      "id": "src_3eff4c0b5c53",
+      "title": "Court tosses out sentence of election denier Tina Peters, orders ...",
+      "url": "https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#",
+      "snippet": "[Skip to content](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#main). [Menu Close](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#primary-nav). *   [Share on Facebook](https://www.facebook.com/sharer.php?u=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). *   [Share on Twitter](https://twitter.com/intent/tweet?url=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/&text=Court%20tosses%20out%20sentence%20of%20election%20denier%20Tina%20Peters,%20orders%20resentencing). *   [Share on Bluesky](https://bsky.app/intent/compose?text=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). A Colorado appeals court [ruled](https://www.democracydocket.com/wp-content/uploads/2026/04/Tina_Opinion-1.pdf) Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have [called](https://www.democracydocket.com/news-alerts/far-right-escalates-calls-for-violence-to-free-tina-peters-after-trumps-pardon/) for violence to free her. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was [retaliation](https://www.democracydocket.com/news-alerts/trump-is-punishing-colorado-over-tina-peters/) over Polis’ refusal to pardon Peters. In recent weeks, Polis — who is term-limited from running for reelection — has [signaled](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/) that he may free Peters, despite objections from a wide range of Colorado Democrats. *   [Colorado governor grants election denier Tina Peters clemency, reduces sentence](https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/). *   [Colorado governor signals he may free election denier Tina Peters](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/).",
+      "content": "A Colorado appeals court ruled Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. The decision represents a setback for crucial efforts to hold accountable those working to undermine fair elections. “Peters will continue to face accountability for coordinating a breach of her own election equipment,” Colorado Secretary of State Jena Griswold (D) said in a statement. “Her actions have been repeatedly used to spread conspiracy theories, amplify falsehoods, and fuel dangerous election lies. Peters should not receive any special treatment as the District Court considers re-sentencing.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. In 2021, Peters — who was then serving as Mesa County clerk — allowed unauthorized people to access sensitive voting-machine software, helped copy and circulate confidential election data and then misled investigators as the scheme unraveled. The data later appeared in fringe, far-right conspiracy circles promoting President Donald Trump’s “Big Lie” that the 2020 election was stolen. Griswold first launched an investigation and found that Peters, an avowed election denier, was behind the data leak. Peters was later found guilty of three felony counts of attempting to influence a public servant, one felony count of conspiracy to commit criminal impersonation, and a slew of misdemeanors. Peters was sentenced to nine years in a state prison by Colorado District Judge Matthew Barrett, who did not mince words during the sentencing hearing. “You are no hero, you abused your position, and you’re a charlatan who used, and is still using, your prior position in office to peddle a snake oil that’s been proven to be junk time and time again,” Barrett said. In a 3-0 ruling, a panel of judges said that Barrett violated Peters’ free-speech rights during her sentencing. “The trial court’s comments about Peters’s belief in the existence of 2020 election fraud went beyond relevant considerations for her sentencing,” the judges wrote. “Her offense was not her belief, however misguided the trial court deemed it to be, in the existence of such election fraud; it was her deceitful actions in her attempt to gather evidence of such fraud. Indeed, under these circumstances, just as her purported beliefs underlying her motive for her actions were not relevant to her defense, the trial court should not have considered those beliefs relevant when imposing sentence.” Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have called for violence to free her. Trump has repeatedly called for her release and, in December, issued her a legally meaningless “pardon.” Since Peters was convicted on state, not federal charges, the president has no constitutional authority to pardon her. Colorado Gov. Jared Polis (D) has, so far, resisted pressure from the White House and the far-right to pardon Peters — unleashing a wave of retribution from the president. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was retaliation over Polis’ refusal to pardon Peters. Even a federal judge found that an attempt by the Trump administration to cut Colorado’s SNAP benefits appeared to be retribution over Peters. In recent weeks, Polis — who is term-limited from running for reelection — has signaled that he may free Peters, despite objections from a wide range of Colorado Democrats. In a letter sent to Polis last month, every Democrat in the state legislature asked the governor to avoid pardoning Peters, and allow the appeals process over her sentence to play out. “We urge you to allow that process to advance and for the judicial ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+      "canonical_url": "https://democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing",
+      "published_at": "2026-04-02T00:00:00",
+      "publisher": "democracydocket.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6497223348236872
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "info",
+      "code": "OFFICIAL_POSITION_VIA_NEWS",
+      "message": "Official position is supported by a news outlet report rather than a primary source.",
+      "bullet_index": 2
+    },
+    {
+      "severity": "info",
+      "code": "OFFICIAL_POSITION_VIA_NEWS",
+      "message": "Official position is supported by a news outlet report rather than a primary source.",
+      "bullet_index": 3
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+      "platform": "bluesky",
+      "author": {
+        "handle": "marcelias.bsky.social",
+        "display_name": "Marc Elias",
+        "did": "did:plc:pjiafkey2cokiupsxpswqlk7"
+      },
+      "text": "Disgraceful. Absolutely disgraceful.  www.democracydocket.com/news-alerts/...",
+      "created_at": "2026-05-15T23:07:39.860000Z",
+      "images": [],
+      "links": [
+        "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew that.\n\nDafuq??\nThis bitch should have served her full sentence!!\n\nThis is the whitest shit ever! Fuck crimes and punishment when you are a white person in this country. That bitch broke the fucking law and a white gay govenor thought she'd had enough? You fucing mutants are exactly who we think you are! She should have done her time at least half of it!\n\nPolis is a coup accomplice."
+    },
+    "explanation": [
+      {
+        "text": "Colorado Gov. Jared Polis, a Democrat, granted clemency to former Mesa County clerk Tina Peters, reducing her nearly nine‑year prison sentence for her role in a 2021 voting system breach and making her eligible for parole as early as June 1, while leaving her felony conviction in place.",
+        "source_ids": [
+          "src_0e810112877c",
+          "src_105e685b6270",
+          "src_96c4ad5341a5",
+          "src_ba1665c1785f"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Tina Peters was convicted in 2024 on multiple state charges, including several felonies, after evidence showed she facilitated unauthorized access to Mesa County’s voting equipment and helped expose confidential election system data in an effort to substantiate false claims that the 2020 election was stolen from Donald Trump, and she originally received a sentence of about nine years in prison.",
+        "source_ids": [
+          "src_0e810112877c",
+          "src_105e685b6270",
+          "src_96c4ad5341a5",
+          "src_3eff4c0b5c53",
+          "src_ba1665c1785f"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Polis has said Peters’ original prison term was unusually harsh for a first‑time, elderly, non‑violent offender, and he framed his clemency decision as correcting a disproportionate sentence while emphasizing that her conviction and status as a felon remain intact.",
+        "source_ids": [
+          "src_0e810112877c",
+          "src_be64e4b96971",
+          "src_96c4ad5341a5",
+          "src_ba1665c1785f"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "legal_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Leading Colorado election officials and Democrats, including Secretary of State Jena Griswold and Attorney General Phil Weiser, publicly condemned Polis’s clemency decision as an affront to democracy and a dark day for the rule of law, warning that it could embolden the election denial movement and undermine accountability for tampering with election systems.",
+        "source_ids": [
+          "src_0e810112877c",
+          "src_105e685b6270",
+          "src_96c4ad5341a5",
+          "src_ba1665c1785f"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "political_context",
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The Bluesky post’s description of the clemency as “Disgraceful. Absolutely disgraceful.”, along with thread comments calling Polis a “coup accomplice” and decrying white privilege and a failure of the rule of law, reflect intense outrage from critics who view the sentence reduction as unjust and dangerous rather than simply a technical adjustment of punishment.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the emotional and political reactions in the thread; it does not assert that these characterizations are legally or factually established.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @marcelias.bsky.social",
+        "url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+        "snippet": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew t",
+        "content": "I just called Governor Polis  Peters will continue to disrupt the election process alongside her election denying cohorts.\n🤬🤬🤬\n\nWow, a Democratic Governor. I thought this was one safe corner of justice. So the rule of law is no match for threats and intimidation. This country is dead. But you knew that.\n\nDafuq??\nThis bitch should have served her full sentence!!\n\nThis is the whitest shit ever! Fuck crimes and punishment when you are a white person in this country. That bitch broke the fucking law and a white gay govenor thought she'd had enough? You fucing mutants are exactly who we think you are! She should have done her time at least half of it!\n\nPolis is a coup accomplice.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "marcelias.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_0e810112877c",
+        "title": "Colorado governor grants election denier Tina Peters clemency ...",
+        "url": "https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/#",
+        "snippet": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems.",
+        "content": "Colorado Gov. Jared Polis (D) announced Friday he is granting clemency to Tina Peters — the former election official convicted for her role in a voting system breach — cutting her sentence and making her eligible for parole as soon as next month. The move marks a dramatic and controversial intervention in one of the most closely watched election interference cases to emerge after the 2020 election — and comes after months of sustained pressure from President Donald Trump and his far-right allies to secure Peters’ release. “We condemn Governor Polis’ clemency grant. It is a gross injustice to our elections, election workers and democracy with far-reaching consequences,” Colorado Secretary of State Jena Griswold (D) said in a statement. “This is a dark day for democracy.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. According to local reports, Polis is reducing Peters’ nine-year prison sentence, saying her guilt was not in dispute but that the punishment itself was excessive. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in March. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” The decision leaves intact Peters’ felony conviction — but significantly shortens the consequences for a case that election officials and democracy advocates have pointed to as a clear example of accountability for tampering with election systems. “It’s unfortunate to see the Governor of Colorado succumbing to the bullying tactics of election conspiracy theorists. He has thrown state and county election officials, Republicans and Democrats, under the bus after they resisted the corruption Ms. Peters engaged in and withstood attacks for many years as a result,” David Becker, executive director of Center for Election Innovation & Research, said. “Ms. Peters continues to express no remorse about her crimes and will likely now be a featured performer on the election grift circuit. It is a sad day for the rule of law and accountability.” Peters was convicted in 2024 after prosecutors showed she facilitated unauthorized access to Mesa County voting equipment and helped expose sensitive system data, actions driven by false claims that the 2020 election was stolen from Trump. A jury found her guilty on multiple counts, and she was sentenced to nine years in prison. “Tina Peters’ actions have made life harder, not only for election officials here in Colorado, but make no mistake, for election officials all across the country. Her conduct became a rallying point for election conspiracy movements that fueled hostility and distrust towards the very people responsible for administering free and fair elections,” Matt Crane, a former Republican clerk and executive director of the Colorado County Clerks Association, said. “Rather than standing with public service servants and defending one of our nation’s most cherished rights, the right to vote, Governor Polis is bending the knee to the same political forces and conspiracy movements that are actively undermining confidence in our democratic institutions. That choice carries consequences far beyond this single case.” Polis’ clemency order follows an April ruling from a Colorado appeals court that upheld Peters’ conviction but ordered her to be resentenced. Polis said he agreed that her political beliefs — including her promotion of election conspiracy theories — should not factor into the length of her punishment. “Clerks have been intimidated. We’ve had clerks have their lives threatened. We had a clerk who was pregnant in 2022 have her unborn child threatened. We had an office in Colorado fire bomb",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+            "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+            "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+        "canonical_url": "https://democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "democracydocket.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_105e685b6270",
+        "title": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes ...",
+        "url": "https://www.coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison/#",
+        "snippet": "“The Governor's actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American",
+        "content": "Colorado Gov. Jared Polis grants clemency to Tina Peters, makes her eligible for release from prison Colorado Gov. Jared Polis on Friday granted clemency to Tina Peters and made the former Republican county clerk eligible for release from state prison as soon as early June, capping months of speculation that the Democratic governor would shorten a nearly nine-year sentence related to Peters’ role in a scheme to breach secure voting equipment. Polis announced on Friday afternoon that he is shortening Peters’ sentence from eight years and nine months to four years and 4.5 months, making her eligible for parole on June 1. Peters is currently incarcerated at La Vista Correctional Facility in Pueblo. “The crimes you were convicted of are very serious and you deserve to spend time in prison for these offenses,” Polis said in a clemency letter addressed to Peters. “However, this is an extremely unusual and lengthy sentence for a first time offender who committed nonviolent crimes.” Polis has faced pressure to release the 70-year-old Peters for more than a year from President Donald Trump, who described her as an “innocent Political Prisoner” and “hostage” last May and in December granted Peters a federal pardon, which has no legal effect on her convictions on state charges. At the same time, the state’s leading Democrats have urged Polis not to pardon Peters or commute her sentence, including Colorado Secretary of State Jena Griswold and Attorney General Phil Weiser, who were involved in Peters’ prosecution. Peters thanked Polis after the announcement and apologized for making “mistakes” in a lengthy post on social media. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said on X, referring to the actions related to one of her convictions. Peters added that upon her release, she plans “to do my best through legal means to support election integrity” and advance prison reforms. “I am grateful for a second chance and an earlier release, and I look forward to doing good in the world,” she said. Officials and organizations that had earlier asked Polis to leave her sentence untouched criticized the governor. “This clemency grant to Tina Peters is an affront to our democracy, the people of Colorado, and election officials across the country,” said Griswold in a statement. “The Governor’s actions today will validate and embolden the election denial movement, and leave a dark, dangerous imprint on American democracy for years to come.” Weiser, who assisted the local district attorney, a Republican, in prosecuting Peters and is running for governor, called Polis’ decision “mind-boggling and wrong as a matter of basic justice,” in a statement issued Friday afternoon. “Caving in to this president will only lead to more abuse from the bullying Trump administration,” Weiser added. “Today is a sad day for Colorado and the rule of law.” Peters was convicted in 2024 by a Mesa County jury on seven state charges, including four felonies, for facilitating a plan to tamper with the county’s election equipment in 2021 — when she served as its chief election official — in an attempt to find evidence that Colorado’s voting system is rigged. Last month, the Colorado Court of Appeals ruled that Peters’ convictions would stand but ordered that she be resentenced by the District Court, saying that her public comments questioning the integrity of elections influenced the severity of her sentence. Earlier this month, the trial court judge declined to recuse himself from the resentencing hearing. In his clemency letter, Polis said he agrees with the appellate ruling, which found that the judge shouldn’t have considered Peters’ stated beliefs about election fraud when determining her sentence. “Importantly, your application demonstrates taking responsibility for your crimes, and a commitment to follow the law going forward. For these rea",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction",
+            "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+            "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Colorado Governor Grants Election Denier Tina Peters Clemency\" details and reaction | Jared Polis decision on Tina Peters conviction tampering with election equipment",
+        "canonical_url": "https://coloradopolitics.com/2026/05/15/colorado-gov-jared-polis-grants-clemency-to-tina-peters-makes-her-eligible-for-release-from-prison",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "coloradopolitics.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_96c4ad5341a5",
+        "title": "Colorado Gov. Polis reduces sentence of Trump ally Tina Peters - NPR",
+        "url": "https://www.npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump#",
+        "snippet": "DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, allowing her to be eligible for parole on June 1. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis, who is in his last year as governor due to term limits, maintains that his decision is not an effort to curry favor with Trump, who has referred to Peters as a hostage \"being held in a Colorado prison by the Democrats, for political reasons,\" and at one point said state leaders should \"rot in hell.\" Trump issued a pardon to Peters in December that was considered symbolic, because a president doesn't have jurisdiction over state-level crimes.",
+        "content": "Colorado's Democratic governor will let Trump ally Tina Peters out of prison early DENVER — Colorado Democratic Gov. Jared Polis has reduced the state prison sentence of Tina Peters, a former county clerk convicted of tampering with election equipment, and said she would be released on parole June 1, 2026. The controversial decision follows a months-long pressure campaign from President Trump and his administration to free Peters from state custody. In April, a state appeals court upheld Peters' 2024 conviction but ruled that she should be re-sentenced, saying that the trial court judge who issued her nearly nine-year sentence improperly factored in her protected speech. Peters was convicted for her role in facilitating a security breach of Mesa County's voting machines when she was clerk and recorder. The incident occurred six months after the 2020 election, as part of her effort to prove Trump's baseless claims of a rigged election. Peters' conviction and sentence have stood out because legal efforts to hold Trump and many other allies accountable for attempts to overturn that election have faltered. Peters claimed that the trial judge in Grand Junction, Matthew Barrett, violated her First Amendment rights when he rebuked Peters during sentencing, with a blistering critique of her actions and attitude, saying that she was an attention-seeking former official who only thinks about herself. He said she was continuing to push false claims about rigged voting machines and a stolen election. \"You are no hero,\" Barrett told Peters in 2024. \"You're a charlatan who used, and is still using, your prior position in office to peddle a snake oil that's been proven to be junk time and time again.\" Polis' decision stands to be deeply unpopular among Democrats and election officials in the state, who urged him not to issue a commutation. However, he said that he focused on the facts, not whether he agreed with Peters. \"And in this case there is absolutely both the appearance and frankly, I believe the likelihood that her speech was considered in her sentencing,\" Polis said in an interview with Colorado Public Radio from the governor's office. Polis said he was effectively cutting her sentence in half to four and a half years. She was sentenced on Oct. 3, 2024, so that means on June 1, she will have spent more than 600 days incarcerated. \"It's about doing what's right. Even though of course I disagree with her speech just as the judge incorrectly stated that he did. But that's not a factor in, it should not be a factor in the sentencing,\" he added. Minutes after the news broke, President Donald Trump responded on social media, posting \"FREE TINA.\" But the move drew immediate condemnation across Colorado politics, from the Secretary of State to the two Democrats vying to replace Polis. Matt Crane, executive director of the Colorado County Clerks Association, a Republican, said freeing Peters could make work more dangerous for Colorado election officials. \"This is now Governor Polis' legacy. He will not be able to run from it, nor redefine it later. When given the opportunity to stand firmly for the rule of law, for the integrity of Colorado elections and for the public servants who defend them, he chose a different path,\" Crane said in a press conference minutes after the commutation was official. Colorado Attorney General Phil Weiser, whose office helped prosecute Peters, said it was \"a sad day for Colorado.\" Weiser is running to replace Polis, as is U.S. Sen. Michael Bennet, who said he \"vehemently disagreed\" with Polis' decision. Other comments from Colorado officials flooded in, calling Polis' decision everything from disgraceful to undemocratic, to reckless, indefensible and outrageous. Meanwhile in a statement released a little more than an hour after the news, Peters said she was sorry and will follow the law going forward. \"Thank you Gov Polis,\" she wrote. \"I made mistakes, and for those I am sorry. Five years ago I misled the Secret",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+        "canonical_url": "https://npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "npr.org",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_ba1665c1785f",
+        "title": "Tina Peters set for release after sentence commuted by Colorado governor",
+        "url": "https://www.nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391#",
+        "snippet": "BREAKING: Election denier Tina Peters set for release after Colorado governor commutes sentence. # Election denier Tina Peters set for release after Colorado governor commutes sentence. Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. An attorney for Peters, Peter Ticktin, told NBC News at the time that “We are hoping that Governor Polis commutes Tina Peters’ sentence this week.”. “She is no longer in a position to engage in the conduct that led to her conviction,” the judges wrote.",
+        "content": "Colorado Gov. Jared Polis announced Friday that he’s commuting the prison sentence of Tina Peters, a former county clerk and 2020 election denier who was sentenced to nine years behind bars for tampering with election equipment. Polis, a Democrat, wrote in an executive order that Peters “is granted parole effective June 1.” Peters thanked the governor in a statement released by her lawyer Peter Ticktin, and also expressed remorse for her actions for the first time. “I made mistakes, and for those I am sorry. Five years ago I misled the Secretary of State when allowing a person to gain access to county voting equipment. That was wrong,” she said. “I have learned and grown during my time in prison and going forward I will make sure that my actions always follow the law, and I will avoid the mistakes of the past.” The commutation comes after a state appeals court found last month that Peters’ lengthy sentence was improper and directed she be resentenced. Peters’ cause had been repeatedly championed by President Donald Trump, who has posted “Free Tina Peters” numerous times on his social media site and blasted Polis as a “sleazebag” who should “rot in hell” for not using his power as governor to free the former Mesa County clerk. Colorado Secretary of State Jena Griswold, a Democrat and the state’s top election official, told NBC News in a brief phone interview Friday, “I believe the clemency grant is an affront to our democracy, the people of Colorado and election officials across the county.” “No official should bow down to retaliation from Donald Trump,” she said, adding she’s concerned the move will “embolden” election denialists. The commutation was also criticized by Sen. Michael Bennet, D-Colo., who wrote in a post on X that “I vehemently disagree” with the commutation. Peters, he wrote, “broke the law, undermined our elections, and was convicted by a jury of her peers.” “With Trump continuing to attack Colorado, we must stand strong for our institutions and the rule of law,” added Bennet, who is running for governor. The term-limited Polis said in a statement on Facebook that he was standing for the rule of law. “I believe based on the facts of the case that her sentence is simply disproportionate for a first time, non-violent offender. It’s one of my bedrock beliefs that our laws should be applied fairly, and I simply do not believe that was what happened in this case,” he wrote. “To be clear, I am not pardoning Tina Peters, and I have never considered a pardon. Tina Peters violated state law and broke the public trust by lying to the Secretary of State and illegally accessing a computer room in 2021 prior to a software update. Her actions were clearly illegal, wrong, and financially costly to Mesa County, and Colorado,” he added. “Tina Peters will remain a convicted felon for her crimes. I am simply correcting what I see as the error the trial court made by sentencing her to nearly nine years in prison,” Polis said. Polis told CBS News in January he thought Peters’ sentence was “harsh” but that he wouldn’t let his clemency decisions be driven by presidential directives. Peters was convicted of four felony and three misdemeanor charges in August 2024 for using another person’s security badge to allow someone associated with MyPillow founder Mike Lindell, a prominent election denier, access to county election equipment involving Dominion Voting Systems. The county’s machines had to be replaced afterward when data, including passwords for the machines, was posted online. Polis indicated in a March post on X that he was considering cutting Peters’ sentence short in light of a much shorter sentence that had been handed down on a similar charge against a Democratic politician. “Justice in Colorado and America needs to be applied evenly,” he wrote in the post. At her sentencing in 2024, District Attorney Daniel Rubinstein asked the judge to impose the maximum sentence, while noting that despite Peters’ claims of widespread frau",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Jared Polis decision on Tina Peters conviction tampering with election equipment"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Jared Polis decision on Tina Peters conviction tampering with election equipment",
+        "canonical_url": "https://nbcnews.com/politics/elections/tina-peters-release-colorado-governor-jared-polis-commutes-sentence-rcna345391",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "nbcnews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_be64e4b96971",
+        "title": "After pressure from Trump, Colorado gov. signals possible clemency for election denier Tina Peters - Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters/#",
+        "snippet": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?”. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement.",
+        "content": "Colorado Gov. Jared Polis (D) said he’s considering clemency for Tina Peters, the former election official serving a nine-year state prison sentence for her role in a 2021 voting system breach. Polis’ openness to clemency for Peters comes after months of escalating retaliation from President Donald Trump against the state of Colorado, driven by the Peters issue. “FREE TINA PETERS”, Trump posted on Truth Social Thursday evening. Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. “She got a sentence that was harsh. It was a 9 year sentence,” Polis said in an interview Thursday. “So we always look at people’s sentences. And when you have people that are elderly, and we’re looking at this across a number of many people — people in their 70s or 80s in our system — how much of a threat to society are they and how do we balance that in a way that makes sure they can spend their last year few years at home?” Just weeks earlier, after Trump issued a symbolic, unenforceable pardon claiming to wipe away Peters’ state convictions. Polis rejected the move outright. “Tina Peters was convicted by a jury of her peers, prosecuted by a Republican District Attorney and in a Republican county of Colorado and found guilty of violating Colorado state laws including criminal impersonation,” Polis said in a statement. “No President has jurisdiction over state law nor the power to pardon a person for state convictions. This is a matter for the courts to decide, and we will abide by court orders.” Polis’ position aligned with long-standing constitutional doctrine and with the expectations of voters who view Peters’ prosecution as a rare and necessary instance of accountability for election interference in the 2020 election. After Colorado officials refused to release Peters, the Trump administration moved to block or withdraw federal funding, dismantled research programs and relocated key federal assets — including U.S. Space Command — away from the state. Colorado’s attorney general has described the actions as an unprecedented campaign of retaliation designed to force compliance. Pressure to release Peters is not coming from Trump alone. Peters’ case has become a rallying point for far-right extremists who are increasingly using violent rhetoric to demand her release, framing her imprisonment as illegitimate and threatening direct actions against Polis and other Colorado officials. Last fall, Polis explicitly warned against trading justice for political relief. “In a past version of America, people have gone to jail for that,” Polis said, referring to the idea of exchanging Peters’ release for federal concessions. “Isn’t that something people should go to jail for? If that happens, I mean, that’s the America we need to get back to.” Importantly, clemency would not overturn Peters’ conviction or validate her debunked claims about election fraud. It would instead shorten or end her sentence — a discretionary power governors can use even when the underlying verdict stands. Still, for many pro-democracy advocates, the distinction may offer little comfort. Peters was convicted by a jury after prosecutors showed she enabled unauthorized access to election equipment and helped leak sensitive voting system data — actions election officials say endangered trust in democratic infrastructure nationwide. Her case has been repeatedly invoked by election deniers as proof that accountability itself is partisan persecution. Polis has not announced a final decision, and no clemency order has yet been issued.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+        "canonical_url": "https://democracydocket.com/news-alerts/after-pressure-from-trump-gov-polis-signals-possible-clemency-for-election-denier-tina-peters",
+        "published_at": "2026-01-09T00:00:00",
+        "publisher": "democracydocket.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_3eff4c0b5c53",
+        "title": "Court tosses out sentence of election denier Tina Peters, orders ...",
+        "url": "https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#",
+        "snippet": "[Skip to content](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#main). [Menu Close](https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/#primary-nav). *   [Share on Facebook](https://www.facebook.com/sharer.php?u=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). *   [Share on Twitter](https://twitter.com/intent/tweet?url=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/&text=Court%20tosses%20out%20sentence%20of%20election%20denier%20Tina%20Peters,%20orders%20resentencing). *   [Share on Bluesky](https://bsky.app/intent/compose?text=https://www.democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing/). A Colorado appeals court [ruled](https://www.democracydocket.com/wp-content/uploads/2026/04/Tina_Opinion-1.pdf) Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have [called](https://www.democracydocket.com/news-alerts/far-right-escalates-calls-for-violence-to-free-tina-peters-after-trumps-pardon/) for violence to free her. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was [retaliation](https://www.democracydocket.com/news-alerts/trump-is-punishing-colorado-over-tina-peters/) over Polis’ refusal to pardon Peters. In recent weeks, Polis — who is term-limited from running for reelection — has [signaled](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/) that he may free Peters, despite objections from a wide range of Colorado Democrats. *   [Colorado governor grants election denier Tina Peters clemency, reduces sentence](https://www.democracydocket.com/news-alerts/colorado-governor-grants-election-denier-tina-peters-clemency-reduces-sentence/). *   [Colorado governor signals he may free election denier Tina Peters](https://www.democracydocket.com/news-alerts/colorado-governor-signals-he-may-free-election-denier-tina-peters/).",
+        "content": "A Colorado appeals court ruled Thursday that convicted election denier Tina Peters — who was sentenced to nine years in prison for her role in a 2021 voting system breach — should be resentenced. The decision represents a setback for crucial efforts to hold accountable those working to undermine fair elections. “Peters will continue to face accountability for coordinating a breach of her own election equipment,” Colorado Secretary of State Jena Griswold (D) said in a statement. “Her actions have been repeatedly used to spread conspiracy theories, amplify falsehoods, and fuel dangerous election lies. Peters should not receive any special treatment as the District Court considers re-sentencing.” Get updates straight to your inbox — for free Join 350,000 readers who rely on our daily and weekly newsletters for the latest in voting, elections and democracy. In 2021, Peters — who was then serving as Mesa County clerk — allowed unauthorized people to access sensitive voting-machine software, helped copy and circulate confidential election data and then misled investigators as the scheme unraveled. The data later appeared in fringe, far-right conspiracy circles promoting President Donald Trump’s “Big Lie” that the 2020 election was stolen. Griswold first launched an investigation and found that Peters, an avowed election denier, was behind the data leak. Peters was later found guilty of three felony counts of attempting to influence a public servant, one felony count of conspiracy to commit criminal impersonation, and a slew of misdemeanors. Peters was sentenced to nine years in a state prison by Colorado District Judge Matthew Barrett, who did not mince words during the sentencing hearing. “You are no hero, you abused your position, and you’re a charlatan who used, and is still using, your prior position in office to peddle a snake oil that’s been proven to be junk time and time again,” Barrett said. In a 3-0 ruling, a panel of judges said that Barrett violated Peters’ free-speech rights during her sentencing. “The trial court’s comments about Peters’s belief in the existence of 2020 election fraud went beyond relevant considerations for her sentencing,” the judges wrote. “Her offense was not her belief, however misguided the trial court deemed it to be, in the existence of such election fraud; it was her deceitful actions in her attempt to gather evidence of such fraud. Indeed, under these circumstances, just as her purported beliefs underlying her motive for her actions were not relevant to her defense, the trial court should not have considered those beliefs relevant when imposing sentence.” Since Peters’ conviction in 2024, she’s become a cause célèbre among conspiracy-driven far-right activists and election deniers — some of whom have called for violence to free her. Trump has repeatedly called for her release and, in December, issued her a legally meaningless “pardon.” Since Peters was convicted on state, not federal charges, the president has no constitutional authority to pardon her. Colorado Gov. Jared Polis (D) has, so far, resisted pressure from the White House and the far-right to pardon Peters — unleashing a wave of retribution from the president. Trump cut funding, vetoed state-specific bills, and launched federal investigations into Colorado as part of what some Colorado lawmakers and elected officials said was retaliation over Polis’ refusal to pardon Peters. Even a federal judge found that an attempt by the Trump administration to cut Colorado’s SNAP benefits appeared to be retribution over Peters. In recent weeks, Polis — who is term-limited from running for reelection — has signaled that he may free Peters, despite objections from a wide range of Colorado Democrats. In a letter sent to Polis last month, every Democrat in the state legislature asked the governor to avoid pardoning Peters, and allow the appeals process over her sentence to play out. “We urge you to allow that process to advance and for the judicial ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Colorado governor clemency Tina Peters sentence reduction May 2026 Democracy Docket",
+        "canonical_url": "https://democracydocket.com/news-alerts/court-tosses-out-sentence-of-election-denier-tina-peters-orders-resentencing",
+        "published_at": "2026-04-02T00:00:00",
+        "publisher": "democracydocket.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [
+      {
+        "severity": "info",
+        "code": "OFFICIAL_POSITION_VIA_NEWS",
+        "message": "Official position is supported by a news outlet report rather than a primary source.",
+        "bullet_index": 2
+      },
+      {
+        "severity": "info",
+        "code": "OFFICIAL_POSITION_VIA_NEWS",
+        "message": "Official position is supported by a news outlet report rather than a primary source.",
+        "bullet_index": 3
+      }
+    ],
+    "execution_time_ms": 25702
+  }
+}

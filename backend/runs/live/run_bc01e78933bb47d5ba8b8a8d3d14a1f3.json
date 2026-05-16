@@ -1,0 +1,861 @@
+{
+  "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:51:17.068547+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:50:45.354822+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:45.354926+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:50:45.355333+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:45.355429+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:50:45.355748+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:46.342555+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 986
+    },
+    {
+      "timestamp": "2026-05-16T01:50:46.343471+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:46.343576+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:50:46.344205+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:48.816536+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2003
+    },
+    {
+      "timestamp": "2026-05-16T01:50:48.817316+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:50:55.254645+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6437
+    },
+    {
+      "timestamp": "2026-05-16T01:50:55.255353+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:07.625729+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 12370
+    },
+    {
+      "timestamp": "2026-05-16T01:51:07.626739+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:08.531642+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 904
+    },
+    {
+      "timestamp": "2026-05-16T01:51:08.532380+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.060798+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 8528
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.061370+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.061488+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.061868+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.061927+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.062220+00:00",
+      "event": "node_started",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:51:17.062349+00:00",
+      "event": "node_completed",
+      "run_id": "run_bc01e78933bb47d5ba8b8a8d3d14a1f3",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+    "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278",
+    "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+    "Trump administration dismantled public health agencies CDC oversight hantavirus 2026"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://www.threads.com/@nbc10boston/post/DYXaoawlPFg/no-known-cases-of-hantavirus-in-u-s-as-officials-monitor-with-possible-exposure"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.nst.com.my/world/world/2026/05/1439841/potential-positive-us-hantavirus-case-ultimately-negative",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/p/DYMf11RDoCk/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.threads.com/@nbc10boston/post/DYXaoawlPFg/no-known-cases-of-hantavirus-in-u-s-as-officials-monitor-with-possible-exposure",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/TheHill/posts/federal-health-officials-said-they-are-monitoring-41-people-in-the-us-for-hantav/1339684481353303/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_da4afb5e5a8e",
+        "title": "Hantavirus outbreak: CDC says no cases confirmed in US",
+        "url": "https://www.actionnewsjax.com/unavailable-location/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_5e61ae357f2d",
+        "title": "US Now Has No Hantavirus Cases; 41 People Still Being Monitored",
+        "url": "https://news.bloomberglaw.com/health-law-and-business/hantavirus-shows-no-sign-of-mutation-as-us-cruise-case-cleared#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+      "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8783713691561609
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7499352406181458
+    },
+    {
+      "id": "src_7a6fffcb4594",
+      "title": "CDC monitoring 41 people for hantavirus, no reported cases - Yahoo",
+      "url": "https://www.yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html#",
+      "snippet": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions",
+      "content": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions on them. David Fitter, incident manager for the Centers for Disease Control and Prevention’s (CDC) hantavirus response, told reporters Thursday there no hantavirus cases in the U.S. Most of the affected people have been advised to remain at home and avoid contact with others during a 42-day monitoring period, Fitter said. Fitter said the people being monitored fall into three main categories: passengers who were repatriated from the MV Hondius and are now in Nebraska and Atlanta; passengers who had already left the ship and returned home before the outbreak was identified; and people who may have been exposed on flights where a symptomatic case was present. Most people under monitoring are considered high risk exposures, and the CDC recommends that those being monitored should stay at home, not travel and avoid being around other people during their 42-day monitoring period, Fitter said. Fitter said the CDC is not using its federal quarantining authority on anyone. The people in the Nebraska facility are being encouraged to stay, but the federal government will not force them. “Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,” Fitter said. “We understand that these passengers have already been through a difficult experience, and this coordinated approach reflects our respect for them as partners in keeping themselves and their communities safe.” Copyright 2026 Nexstar Media, Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278",
+      "canonical_url": "https://yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6189395420296103
+    },
+    {
+      "id": "src_9963996f1568",
+      "title": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News",
+      "url": "https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation#",
+      "snippet": "Cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife. THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers.",
+      "content": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News PBS News By — Mike Corder, Associated Press Mike Corder, Associated Press Leave your feedback Share Copy URL https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation Email Facebook Twitter LinkedIn Pinterest Tumblr Share on Facebook Share on Twitter American cruise ship passenger tests positive for hantavirus after evacuation Health May 11, 2026 9:46 AM EDT THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. Passengers from the ship began flying home aboard military and government planes Sunday after the MV Hondius anchored in the Canary Islands. Personnel in full-body protective gear and breathing masks escorted the travelers from ship to shore in Tenerife, an effort that continued Monday. READ MORE: Passengers evacuate MV Hondius cruise ship following hantavirus outbreak It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. So far three cruise ship passengers have died, but health authorities continue to stress that the risk to the broader public is low. The ship's captain, Jan Dobrogowski, issued a video message Monday praising passengers and crew for their perseverance and calling for respect for their privacy. \"I've witnessed your caring, your unity and quiet strength amongst everybody on board — guests and crew alike — and I must commend my crew for the courage and the selfless resolve that they showed time and again in the most difficult moments,\" he said. \"I could not imagine sailing through these circumstances with a better group of people, guests and crew alike.\" New cases in France, United States The French woman tested positive for hantavirus and her health worsened in the hospital overnight, French Health Minister Stephanie Rist said Monday. The woman was among five French passengers repatriated on Sunday. She developed symptoms on the flight to Paris, Rist told public broadcaster France-Inter. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The flight landed in the early hours of Monday morning and passengers were transferred to awaiting buses and driven away from the airport. The Americans would first be taken to the University of Nebraska Medical Center, which has a federally funded quarantine facility, to assess whether they have been in close contact with any symptomatic people and their risk levels for spreading the virus. \"One passenger will be transported to the Nebraska Biocontainment Unit upon arrival, while other passengers will go to the National Quarantine Unit for assessment and monitoring. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers. WATCH: Can hantavirus spread between humans? What to know as WHO investigates ship outbreak The university medical center also has a special unit for treating people with highly infectious diseases that was used early in the pandemic for COVID-19 patients and previously for Ebola patients. The WHO recommended close monitoring of the former passengers, and many countries quarantined them. The planes arriving in Tenerife were to fly out passengers from more than 20 countries in an evacuation effort that was due to wrap up on Monday. A Dutch plane expected to reach Tenerife Monday afternoon will carry passengers that were previously going to be evacuated on a plane sent by Australia, Spain's Health ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "pbs.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6177542858396206
+    },
+    {
+      "id": "src_2a3ef3db60a4",
+      "title": "23 hantavirus cruise passengers already returned home, including to the US",
+      "url": "https://nypost.com/2026/05/06/world-news/23-hantavirus-cruise-passengers-already-returned-home-including-to-the-us/#",
+      "snippet": "# 23 hantavirus cruise passengers returned home to ‘all corners,’ including to the US — and one is already sick. At least 23 passengers from the hantavirus-infected cruise ship MV Hondius have already left the boat and returned home, including to the US, according to a shocking new report — and one of them has already gotten sick. The travelers did not realize they had been exposed to the deadly virus — which has a mortality rate of up to 40% — when they left the expedition vessel during its stop at Saint Helena, a tiny island in the South Atlantic, on April 23, according to a passenger who is still aboard the ship. One of those passengers, a Swiss man who had returned home with his wife, tested positive for hantavirus on Wednesday, authorities said. Passengers who disembarked from the ship were informed of the hantavirus case by the ships’ operators and asked to report any signs and symptoms,” a WHO representative told The Post in a statement, adding that this is how they learned of the case confirmed in Switzerland.",
+      "content": "At least 23 passengers from the hantavirus-infected cruise ship MV Hondius have already left the boat and returned home, including to the US, according to a shocking new report — and one of them has already gotten sick. The travelers did not realize they had been exposed to the deadly virus — which has a mortality rate of up to 40% — when they left the expedition vessel during its stop at Saint Helena, a tiny island in the South Atlantic, on April 23, according to a passenger who is still aboard the ship. “There are 23 people wandering around there, and until three days ago, no one had contacted them,” the passenger told Spanish newspaper El Pais. “The Australian went back to Australia, the one from Taiwan to Taiwan, the Americans to all corners of North America. The Englishman to England, the Dutch to their homes … I don’t remember the rest.” One of those passengers, a Swiss man who had returned home with his wife, tested positive for hantavirus on Wednesday, authorities said. That patient was initially taken to a Zurich hospital and tested negative for the virus — which can lie dormant for up to eight weeks. He was apparently just one of many expedition passengers who decided to hit the road during the Dutch vessel’s two-day stop in the British territory last month. Argentine investigators now believe that a Dutch couple was responsible for bringing the virus onboard, after picking it up from rodents while visiting a landfill during a birdwatching tour in the city of Ushuaia days before the ship departed from the Argentine port on March 20. Both husband and wife are now dead. There is one hole in this theory: Authorities previously said that the area and the surrounding province of Tierra del Fuego had never recorded a case of the hantavirus. Though usually spread through rat droppings, the World Health Organization said a rare strain of hantavirus that can spread between people — the Andes virus — is the culprit behind the Hondius outbreak. The WHO said national governments have begun contact tracing the patients, but experts say there is unlikely to be widespread infection from the outbreak — because hantavirus isn’t nearly as contagious as, say, COVID-19. “It requires large saliva droplets from talking to people. Close, person-to-person spread,” said Ali Khan, dean of the College of Public Health at the University of Nebraska Medical Center, one of the top infectious disease research hospitals in the world. He added: “We’re probably looking at more than a ‘Hello, how are you?’ “[The first victim’s] wife was infected. The doctor who spent time with him. Maybe prolonged conversations over lunch or dinner. It shouldn’t be casual conversations that started this.” However, there are fears that the contact tracing has started too late. Passengers who left the boat were only informed of the terrifying virus outbreak days ago, according to the traveler who spoke to El Pais. The passenger claimed that the WHO didn’t begin contacting the escapees until three days ago, despite the first passenger getting sick on April 6. That patient, a 70-year-old Dutchman, died on April 11 — almost two weeks before the Saint Helena stop. Start your day with all you need to know Morning Report delivers the latest news, videos, photos and more. Thanks for signing up! In Saint Helena, his ill wife disembarked with his body — and nearly two dozen other passengers. The WHO said Wednesday that the ship’s operating company, Oceanwide Expeditions, had recently emailed departed passengers about the outbreak that had overtaken the ship, but didn’t specify when that communication began. “International contact tracing is ongoing. Passengers who disembarked from the ship were informed of the hantavirus case by the ships’ operators and asked to report any signs and symptoms,” a WHO representative told The Post in a statement, adding that this is how they learned of the case confirmed in Switzerland. “Working with national authorities and the ship’s operators, o",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://nypost.com/2026/05/06/world-news/23-hantavirus-cruise-passengers-already-returned-home-including-to-the-us",
+      "published_at": "2026-05-06T00:00:00",
+      "publisher": "nypost.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5882971809278594
+    },
+    {
+      "id": "src_9cf93471dc57",
+      "title": "41 people being monitored for hantavirus exposure. See map of states. - AOL",
+      "url": "https://www.aol.com/news/41-people-being-monitored-hantavirus-182306632.html#",
+      "snippet": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+      "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. One passenger in Nebraska who initially had an inconclusive test result has now tested negative, Spain's Ministry of Health said in a May 13 X post. Additionally, one of the two passengers sent to Atlanta was initially symptomatic but tested negative for the Andes variant of the virus as of May 12, per HHS. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. Advertisement As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+      "canonical_url": "https://aol.com/news/41-people-being-monitored-hantavirus-182306632.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "aol.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.571898462996773
+    },
+    {
+      "id": "src_84fff56d8127",
+      "title": "41 people being monitored for hantavirus exposure. See map of states. - Yahoo News Canada",
+      "url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html#",
+      "snippet": "# 41 people being monitored for hantavirus exposure. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. People who may have been exposed during travel on flights where a symptomatic case was present (16 people). ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+      "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+      "canonical_url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "ca.news.yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5666988618544889
+    },
+    {
+      "id": "src_535da43dff26",
+      "title": "American passenger with hantavirus moved out of isolation after negative test",
+      "url": "https://www.youtube.com/watch?v=tsqkLtC2Nk4#",
+      "snippet": "American passenger with hantavirus moved out of isolation after negative test\nABC News\n19600000 subscribers\n19 likes\n2688 views\n14 May 2026\nDr. Stephen Kornfeld was a passenger aboard the MV Hondius and stepped in as the ship’s doctor after the original physician contracted the virus.\n\n–––\n\nSubscribe to ABC News on YouTube: https://abcnews.visitlink.me/59aJ1G\n\nABC News is your daily source of breaking national and world news, exclusive interviews and 24/7 live streaming coverage. https://abcnews.com\n\nDownload the ABC News app for the latest headlines and alerts: https://abcnews.com/devices\n\nConnect with ABC News on social media: \nFacebook: https://www.facebook.com/ABCNews \nInstagram: https://www.instagram.com/abcnews \nTikTok: https://www.tiktok.com/@abcnews \nX: https://twitter.com/ABC  \nThreads: https://www.threads.net/@abcnews \nWhatsApp: https://whatsapp.com/channel/0029VajTNakKWEKkXoAPIR11\nLinkedIn: https://www.linkedin.com/company/abcnews\n15 comments",
+      "content": "American passenger with hantavirus moved out of isolation after negative test - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://youtube.com/watch?v=tsqkLtC2Nk4",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.5638490706353801
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+      "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8783713691561609
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @nbcnews.com",
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "nbcnews.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7499352406181458
+    },
+    {
+      "id": "src_7a6fffcb4594",
+      "title": "CDC monitoring 41 people for hantavirus, no reported cases - Yahoo",
+      "url": "https://www.yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html#",
+      "snippet": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions",
+      "content": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions on them. David Fitter, incident manager for the Centers for Disease Control and Prevention’s (CDC) hantavirus response, told reporters Thursday there no hantavirus cases in the U.S. Most of the affected people have been advised to remain at home and avoid contact with others during a 42-day monitoring period, Fitter said. Fitter said the people being monitored fall into three main categories: passengers who were repatriated from the MV Hondius and are now in Nebraska and Atlanta; passengers who had already left the ship and returned home before the outbreak was identified; and people who may have been exposed on flights where a symptomatic case was present. Most people under monitoring are considered high risk exposures, and the CDC recommends that those being monitored should stay at home, not travel and avoid being around other people during their 42-day monitoring period, Fitter said. Fitter said the CDC is not using its federal quarantining authority on anyone. The people in the Nebraska facility are being encouraged to stay, but the federal government will not force them. “Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,” Fitter said. “We understand that these passengers have already been through a difficult experience, and this coordinated approach reflects our respect for them as partners in keeping themselves and their communities safe.” Copyright 2026 Nexstar Media, Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278",
+      "canonical_url": "https://yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6189395420296103
+    },
+    {
+      "id": "src_9963996f1568",
+      "title": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News",
+      "url": "https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation#",
+      "snippet": "Cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife. THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers.",
+      "content": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News PBS News By — Mike Corder, Associated Press Mike Corder, Associated Press Leave your feedback Share Copy URL https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation Email Facebook Twitter LinkedIn Pinterest Tumblr Share on Facebook Share on Twitter American cruise ship passenger tests positive for hantavirus after evacuation Health May 11, 2026 9:46 AM EDT THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. Passengers from the ship began flying home aboard military and government planes Sunday after the MV Hondius anchored in the Canary Islands. Personnel in full-body protective gear and breathing masks escorted the travelers from ship to shore in Tenerife, an effort that continued Monday. READ MORE: Passengers evacuate MV Hondius cruise ship following hantavirus outbreak It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. So far three cruise ship passengers have died, but health authorities continue to stress that the risk to the broader public is low. The ship's captain, Jan Dobrogowski, issued a video message Monday praising passengers and crew for their perseverance and calling for respect for their privacy. \"I've witnessed your caring, your unity and quiet strength amongst everybody on board — guests and crew alike — and I must commend my crew for the courage and the selfless resolve that they showed time and again in the most difficult moments,\" he said. \"I could not imagine sailing through these circumstances with a better group of people, guests and crew alike.\" New cases in France, United States The French woman tested positive for hantavirus and her health worsened in the hospital overnight, French Health Minister Stephanie Rist said Monday. The woman was among five French passengers repatriated on Sunday. She developed symptoms on the flight to Paris, Rist told public broadcaster France-Inter. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The flight landed in the early hours of Monday morning and passengers were transferred to awaiting buses and driven away from the airport. The Americans would first be taken to the University of Nebraska Medical Center, which has a federally funded quarantine facility, to assess whether they have been in close contact with any symptomatic people and their risk levels for spreading the virus. \"One passenger will be transported to the Nebraska Biocontainment Unit upon arrival, while other passengers will go to the National Quarantine Unit for assessment and monitoring. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers. WATCH: Can hantavirus spread between humans? What to know as WHO investigates ship outbreak The university medical center also has a special unit for treating people with highly infectious diseases that was used early in the pandemic for COVID-19 patients and previously for Ebola patients. The WHO recommended close monitoring of the former passengers, and many countries quarantined them. The planes arriving in Tenerife were to fly out passengers from more than 20 countries in an evacuation effort that was due to wrap up on Monday. A Dutch plane expected to reach Tenerife Monday afternoon will carry passengers that were previously going to be evacuated on a plane sent by Australia, Spain's Health ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+      "canonical_url": "https://pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation",
+      "published_at": "2026-05-11T00:00:00",
+      "publisher": "pbs.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6177542858396206
+    },
+    {
+      "id": "src_9cf93471dc57",
+      "title": "41 people being monitored for hantavirus exposure. See map of states. - AOL",
+      "url": "https://www.aol.com/news/41-people-being-monitored-hantavirus-182306632.html#",
+      "snippet": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+      "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. One passenger in Nebraska who initially had an inconclusive test result has now tested negative, Spain's Ministry of Health said in a May 13 X post. Additionally, one of the two passengers sent to Atlanta was initially symptomatic but tested negative for the Andes variant of the virus as of May 12, per HHS. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. Advertisement As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+      "canonical_url": "https://aol.com/news/41-people-being-monitored-hantavirus-182306632.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "aol.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.571898462996773
+    },
+    {
+      "id": "src_84fff56d8127",
+      "title": "41 people being monitored for hantavirus exposure. See map of states. - Yahoo News Canada",
+      "url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html#",
+      "snippet": "# 41 people being monitored for hantavirus exposure. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. People who may have been exposed during travel on flights where a symptomatic case was present (16 people). ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+      "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+      "canonical_url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "ca.news.yahoo.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.5666988618544889
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+      "platform": "bluesky",
+      "author": {
+        "handle": "nbcnews.com",
+        "display_name": "NBC News",
+        "did": "did:plc:wmho6q2uiyktkam3jsvrms3s"
+      },
+      "text": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+      "created_at": "2026-05-15T12:56:21.453000Z",
+      "images": [],
+      "links": [
+        "https://www.nbcnews.com/health/health-news/no-known-cases-hantavirus-us-officials-monitor-41-possible-exposure-rcna345278"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin"
+    },
+    "explanation": [
+      {
+        "text": "NBC News’ social post states that the only American who initially tested positive for hantavirus aboard the MV Hondius has since tested negative three times, and that this would bring the total number of reported cases linked to the ship down to 10; this reflects NBC’s own reporting rather than an independently corroborated case count in the provided sources.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "official_position",
+        "context_modifiers": [
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This is a statement from a news outlet’s social account; non-social sources in the set discuss U.S. monitoring and test reclassification but do not themselves confirm the specific figure of 10 total cases.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "CDC officials said in a May 14 briefing that there were no positive hantavirus cases in the United States tied to the MV Hondius outbreak as of that date and that 41 people across the country were being monitored for possible exposure in connection with the cruise ship outbreak.",
+        "source_ids": [
+          "src_9cf93471dc57",
+          "src_84fff56d8127",
+          "src_7a6fffcb4594"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Coverage of the U.S. response explains that one passenger in Nebraska who initially had an inconclusive hantavirus test later tested negative, and that an Atlanta passenger who had symptoms also tested negative for the Andes variant, contributing to the situation in which no U.S. hantavirus cases were confirmed as of May 14.",
+        "source_ids": [
+          "src_9cf93471dc57",
+          "src_84fff56d8127"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "timeline_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The reports do not state that these specific individuals are the same American passenger referenced in NBC News’ social post about repeat negative tests.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Earlier reporting on the MV Hondius outbreak noted that an American passenger evacuated from the ship to the University of Nebraska Medical Center initially tested positive for hantavirus, was asymptomatic, and was transferred to a specialized biocontainment unit for assessment and isolation.",
+        "source_ids": [
+          "src_9963996f1568"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This describes the initial positive result and isolation and predates later coverage indicating that U.S.-based passengers were testing negative.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A Bluesky commenter responding to the NBC News post voices distrust of official information about the Hondius outbreak, likening it to perceived under-testing during the coronavirus pandemic and alleging that U.S. public health agencies under the Trump administration, including the CDC, cannot be trusted.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are opinions and political critiques from a social media user, not verified factual claims about testing practices or agency misconduct.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @nbcnews.com",
+        "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+        "snippet": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of",
+        "content": "Convenient... Last I heard, there was at least one confirmed case on each coast. We now have no way of knowing if you are telling us the truth, or if you're acting as State Regime Propaganda.\n\nKinda like with the coronavirus... test less for less confirmed and then retest until negative.\n\n6 weeks of quarantaine, I hope?\n\nSo, now investigate how the process of monitoring this situation is different because certain agencies have been dismantled.\nI'm sure people are curious.\n\nThank God.\n\nDo not drop your guard, Trump is too quick to claim victory. Info from Uni of Nebraska Medical is specific to Hondious. There are 41 additional cases throughout the States. Fingers crossed hoping nothing comes of this, but Trump’s CDC can’t be trusted if Dr Oz is the most knowledgable in the admin",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "nbcnews.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @nbcnews.com",
+        "url": "https://bsky.app/profile/nbcnews.com/post/3mlveype5b22m",
+        "snippet": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "content": "The sole American who returned a positive test aboard the MV Hondius has since tested negative three times, bringing the total number of reported cases down to 10.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "nbcnews.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_7a6fffcb4594",
+        "title": "CDC monitoring 41 people for hantavirus, no reported cases - Yahoo",
+        "url": "https://www.yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html#",
+        "snippet": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions",
+        "content": "Federal health officials said they are monitoring 41 people in the U.S. for hantavirus but are not going to impose any movement restrictions on them. David Fitter, incident manager for the Centers for Disease Control and Prevention’s (CDC) hantavirus response, told reporters Thursday there no hantavirus cases in the U.S. Most of the affected people have been advised to remain at home and avoid contact with others during a 42-day monitoring period, Fitter said. Fitter said the people being monitored fall into three main categories: passengers who were repatriated from the MV Hondius and are now in Nebraska and Atlanta; passengers who had already left the ship and returned home before the outbreak was identified; and people who may have been exposed on flights where a symptomatic case was present. Most people under monitoring are considered high risk exposures, and the CDC recommends that those being monitored should stay at home, not travel and avoid being around other people during their 42-day monitoring period, Fitter said. Fitter said the CDC is not using its federal quarantining authority on anyone. The people in the Nebraska facility are being encouraged to stay, but the federal government will not force them. “Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,” Fitter said. “We understand that these passengers have already been through a difficult experience, and this coordinated approach reflects our respect for them as partners in keeping themselves and their communities safe.” Copyright 2026 Nexstar Media, Inc. All rights reserved. This material may not be published, broadcast, rewritten, or redistributed.",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "NBC News \"no known cases of hantavirus in U.S.\" officials monitor 41 possible exposure rcna345278",
+        "canonical_url": "https://yahoo.com/news/articles/cdc-monitoring-41-people-hantavirus-201443476.html",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_9963996f1568",
+        "title": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News",
+        "url": "https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation#",
+        "snippet": "Cruise ship MV Hondius arrives at the port of Granadilla de Abona after being affected by a hantavirus outbreak, in Tenerife. THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers.",
+        "content": "American cruise ship passenger tests positive for hantavirus after evacuation | PBS News PBS News By — Mike Corder, Associated Press Mike Corder, Associated Press Leave your feedback Share Copy URL https://www.pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation Email Facebook Twitter LinkedIn Pinterest Tumblr Share on Facebook Share on Twitter American cruise ship passenger tests positive for hantavirus after evacuation Health May 11, 2026 9:46 AM EDT THE HAGUE, Netherlands (AP) — A French woman and an American tested positive for the hantavirus, as nations around the world scrambled Monday to repatriate passengers from a cruise ship hit by a deadly outbreak and quarantine or isolate them. Passengers from the ship began flying home aboard military and government planes Sunday after the MV Hondius anchored in the Canary Islands. Personnel in full-body protective gear and breathing masks escorted the travelers from ship to shore in Tenerife, an effort that continued Monday. READ MORE: Passengers evacuate MV Hondius cruise ship following hantavirus outbreak It is the first-ever outbreak of the rare hantavirus on a cruise ship, according to Maria Van Kerkhove, WHO's director of epidemic and pandemic preparedness. So far three cruise ship passengers have died, but health authorities continue to stress that the risk to the broader public is low. The ship's captain, Jan Dobrogowski, issued a video message Monday praising passengers and crew for their perseverance and calling for respect for their privacy. \"I've witnessed your caring, your unity and quiet strength amongst everybody on board — guests and crew alike — and I must commend my crew for the courage and the selfless resolve that they showed time and again in the most difficult moments,\" he said. \"I could not imagine sailing through these circumstances with a better group of people, guests and crew alike.\" New cases in France, United States The French woman tested positive for hantavirus and her health worsened in the hospital overnight, French Health Minister Stephanie Rist said Monday. The woman was among five French passengers repatriated on Sunday. She developed symptoms on the flight to Paris, Rist told public broadcaster France-Inter. One of 17 American passengers evacuated from the ship and flown to Nebraska also tested positive for the hantavirus but is not showing any symptoms, and another had mild symptoms, U.S. health officials said late Sunday. The flight landed in the early hours of Monday morning and passengers were transferred to awaiting buses and driven away from the airport. The Americans would first be taken to the University of Nebraska Medical Center, which has a federally funded quarantine facility, to assess whether they have been in close contact with any symptomatic people and their risk levels for spreading the virus. \"One passenger will be transported to the Nebraska Biocontainment Unit upon arrival, while other passengers will go to the National Quarantine Unit for assessment and monitoring. The passenger who is going to the Biocontainment Unit tested positive for the virus but does not have symptoms,\" said Kayla Thomas, a spokesperson for the Nebraska Medicine network that will help care for the passengers. WATCH: Can hantavirus spread between humans? What to know as WHO investigates ship outbreak The university medical center also has a special unit for treating people with highly infectious diseases that was used early in the pandemic for COVID-19 patients and previously for Ebola patients. The WHO recommended close monitoring of the former passengers, and many countries quarantined them. The planes arriving in Tenerife were to fly out passengers from more than 20 countries in an evacuation effort that was due to wrap up on Monday. A Dutch plane expected to reach Tenerife Monday afternoon will carry passengers that were previously going to be evacuated on a plane sent by Australia, Spain's Health ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"MV Hondius\" hantavirus cases American passenger tested positive then negative"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"MV Hondius\" hantavirus cases American passenger tested positive then negative",
+        "canonical_url": "https://pbs.org/newshour/health/american-cruise-ship-passenger-tests-positive-for-hantavirus-after-evacuation",
+        "published_at": "2026-05-11T00:00:00",
+        "publisher": "pbs.org",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_9cf93471dc57",
+        "title": "41 people being monitored for hantavirus exposure. See map of states. - AOL",
+        "url": "https://www.aol.com/news/41-people-being-monitored-hantavirus-182306632.html#",
+        "snippet": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+        "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. One passenger in Nebraska who initially had an inconclusive test result has now tested negative, Spain's Ministry of Health said in a May 13 X post. Additionally, one of the two passengers sent to Atlanta was initially symptomatic but tested negative for the Andes variant of the virus as of May 12, per HHS. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. Advertisement As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+        "canonical_url": "https://aol.com/news/41-people-being-monitored-hantavirus-182306632.html",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "aol.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_84fff56d8127",
+        "title": "41 people being monitored for hantavirus exposure. See map of states. - Yahoo News Canada",
+        "url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html#",
+        "snippet": "# 41 people being monitored for hantavirus exposure. A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. People who may have been exposed during travel on flights where a symptomatic case was present (16 people). ## See map of states with residents who may have been exposed to hantavirus. Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced.",
+        "content": "A total of 41 people across the United States are under monitoring for hantavirus in connection to the deadly outbreak that killed three passengers on the MV Hondius cruise ship, officials from the Centers for Disease Control and Prevention said during a May 14 briefing. The 41 people come from three main groups, Dr. David Fitter, incident manager for CDC’s hantavirus response, said in the briefing: 18 passengers who were recently repatriated to health facilities in Nebraska and Georgia 7 passengers who had left the ship returned home before the outbreak was identified People who may have been exposed during travel on flights where a symptomatic case was present (16 people). Fitter confirmed the symptomatic individual noted in the third group was on a flight from Saint Helena to Johannesburg. The World Health Organization previously confirmed this case. Though the CDC recommends people do not travel during the 42-day monitoring period, Fitter addressed why the department is \"not using our federal quarantining authority on people\" to mandate quarantines. \"Our approach is based on risk and evidence. We are working closely with passengers and public health partners to ensure monitoring and rapid access to care if symptoms develop,\" he said. There are no positive hantavirus cases in the United States tied to the outbreak as of May 14. Here's a look at which states have stated they are are monitoring exposures. See map of states with residents who may have been exposed to hantavirus Residents in some states are being monitored for symptoms after being exposed to hantavirus. During a May 14 news briefing, CDC officials said there are a total of 41 Americans being monitored for possible exposure, though they did not specify which states these individuals are from. As for the passengers who returned to the United States on May 11 for closer monitoring in Georgia and Nebraska, only some of their places of residence have been announced. The map below shows where potentially impacted individuals are currently residing. Click on the state for more information about the exposures. Which states are American passengers in quarantine from? The 18 passengers currently quarantining in Nebraska and Georgia include 17 U.S. residents and one British dual national. It's unclear which states they all reside in, but some state officials have identified their residents among the passengers. The map below shows which states those passengers are from. Click on the state for more information. Melina Khan is a national trending reporter for USA TODAY. Keep up with her on X @melinakh and Instagram @bymelinakhan. This article originally appeared on USA TODAY: Map shows which US states have reported hantavirus exposures",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "hantavirus monitoring in the United States 41 possible exposures cruise ship Hondius",
+        "canonical_url": "https://ca.news.yahoo.com/41-people-being-monitored-hantavirus-182306523.html",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "ca.news.yahoo.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 31239
+  }
+}

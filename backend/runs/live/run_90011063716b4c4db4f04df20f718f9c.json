@@ -1,0 +1,164 @@
+{
+  "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+  "mode": "live",
+  "generated_at": "2026-05-16T03:28:43.488909+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T03:28:01.300449+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:01.300552+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:28:01.300907+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:01.300989+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:28:01.301344+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:02.324414+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1023
+    },
+    {
+      "timestamp": "2026-05-16T03:28:02.324910+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:02.324982+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T03:28:02.325369+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:09.246345+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 6920
+    },
+    {
+      "timestamp": "2026-05-16T03:28:09.246845+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:15.362387+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5358
+    },
+    {
+      "timestamp": "2026-05-16T03:28:15.362999+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:21.908380+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6545
+    },
+    {
+      "timestamp": "2026-05-16T03:28:21.908929+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T03:28:23.104386+00:00",
+      "event": "node_completed",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 1195
+    },
+    {
+      "timestamp": "2026-05-16T03:28:23.104909+00:00",
+      "event": "node_started",
+      "run_id": "run_90011063716b4c4db4f04df20f718f9c",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    }
+  ],
+  "input_url": "https://bsky.app/profile/marcelias.bsky.social/post/3mlwh5smd322i",
+  "status": "failed",
+  "search_provider": "composite",
+  "openai_generation_model": "gpt-5-mini",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "composite_5_mini_large_embedding_eval",
+  "comparison_config_id": "newer_mini_large_embedding",
+  "config": {
+    "search_provider": "composite",
+    "openai_generation_model": "gpt-5-mini",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "composite_5_mini_large_embedding_eval",
+    "comparison_config_id": "newer_mini_large_embedding"
+  },
+  "queries": [],
+  "metrics": {},
+  "warnings": [],
+  "error": {
+    "error": "external_provider_error",
+    "message": "OpenAI returned an empty response.",
+    "status": 502
+  }
+}

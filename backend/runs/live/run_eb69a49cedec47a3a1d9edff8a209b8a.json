@@ -1,0 +1,701 @@
+{
+  "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:15:33.688746+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:15:04.378195+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:04.378282+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:04.378613+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:04.378697+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:04.379032+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:05.335566+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 956
+    },
+    {
+      "timestamp": "2026-05-16T02:15:05.336076+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:05.336164+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:05.336541+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:07.213789+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1877
+    },
+    {
+      "timestamp": "2026-05-16T02:15:07.214317+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:13.383105+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 6168
+    },
+    {
+      "timestamp": "2026-05-16T02:15:13.383671+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:27.569943+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 13642
+    },
+    {
+      "timestamp": "2026-05-16T02:15:27.570611+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:28.390995+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 820
+    },
+    {
+      "timestamp": "2026-05-16T02:15:28.391552+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.682117+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 5290
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.682633+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.682755+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.683126+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.683192+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.683462+00:00",
+      "event": "node_started",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:15:33.683559+00:00",
+      "event": "node_completed",
+      "run_id": "run_eb69a49cedec47a3a1d9edff8a209b8a",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-large",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_large_embedding_eval",
+  "comparison_config_id": "newer_full_large_embedding",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-large",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_large_embedding_eval",
+    "comparison_config_id": "newer_full_large_embedding"
+  },
+  "queries": [
+    "New York lawmakers planning tax on $1 million homes purchased with cash state budget negotiations 2026",
+    "New York state budget proposal tax on cash real estate purchases over 1 million foreign buyers money laundering",
+    "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026",
+    "New York City foreign investment empty luxury apartments cash buyers tax policy debate"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.msn.com/en-us/money/other/new-york-plans-tax-on-homes-over-1-million-purchased-with-cash/ar-AA23dLCS",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://news.bloombergtax.com/financial-accounting/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash"
+      },
+      {
+        "id": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/"
+      },
+      {
+        "id": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash"
+      },
+      {
+        "id": "https://www.bloomberg.com/news/videos/2026-05-15/new-york-plans-tax-on-homes-over-1mpurchased-with-cash-video",
+        "reason": "duplicate_title",
+        "duplicate_of": "https://news.bloombergtax.com/financial-accounting/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash"
+      },
+      {
+        "id": "https://news.bloombergtax.com/financial-accounting/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://news.bloombergtax.com/financial-accounting/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash"
+      },
+      {
+        "id": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.planetizen.com/news/2026/05/137577-nyc-will-create-new-tax-1m-cash-home-purchases-report-says?amp",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://itep.org/business-insider-new-york-wants-to-tax-empty-second-homes-heres-what-happened-in-cities-that-tried-it/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_dd72cbe90f5c",
+        "title": "New York Reportedly Planning Tax On Million-Dollar Homes Bought With Cash",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_052856e0e4db",
+        "title": "NY Plans New Tax on NYC Homes Over $1 Million Bought With Cash - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_8273dbf9a3e5",
+        "title": "New York Plans Tax on Homes Over $1 Million Purchased With Cash",
+        "url": "https://news.bloombergtax.com/financial-accounting/ny-plans-new-tax-on-city-homes-over-1-million-bought-with-cash#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_405bbd43603c",
+        "title": "New York Considering New Tax on Homes over $1M Purchased ...",
+        "url": "https://www.nysscpa.org/news/publications/the-trusted-professional/article/new-york-considering-new-tax-on-homes-over-1m-purchased-with-cash-051526#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_636b5cf14a71",
+        "title": "Antonio Pequeño IV - Forbes",
+        "url": "https://www.forbes.com/sites/antoniopequenoiv/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_2f13fe3e1d5c",
+        "title": "Governor Hochul Announces Pied-à-terre Tax Proposal for ...",
+        "url": "https://www.governor.ny.gov/news/governor-hochul-announces-pied-terre-tax-proposal-luxury-second-homes-valued-5-million-or-more#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 4
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+      "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9570402634785784
+    },
+    {
+      "id": "src_ba4928d55c94",
+      "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+      "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+      "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+      "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New York City foreign investment empty luxury apartments cash buyers tax policy debate"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York City foreign investment empty luxury apartments cash buyers tax policy debate",
+      "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+      "published_at": "2026-04-24T00:00:00",
+      "publisher": "outboundinvestment.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6478093943666949
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5526423688211367
+    },
+    {
+      "id": "src_063a23cdb74c",
+      "title": "Norman Asbjornson - Forbes",
+      "url": "https://www.forbes.com/profile/norman-asbjornson/#",
+      "snippet": "... Tax On $1 Million Homes Purchased With Cash, Report Says. The tax is being discussed as part of New York's state budget negotiations. By",
+      "content": "The 2026 Preakness Stakes will be run at Laurel Park for the first time ever on May 16. Television coverage will be provided by NBC with post time set for 7:01pm eastern. The president made between $220 million and $750 million worth of securities trades in the first quarter of this year, according to a Reuters analysis. As China's control and censorship of anime continues to tighten, Japanese companies must support the medium through fans and mass media in the U.S. market. Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game. Creators like Amelia Dimoldenberg and Alix Earle are expanding mentorship, professional development and vocational access for young people pursuing creative careers. On \"Forbes Newsroom,\" Emerson College Polling senior director Matt Taglia discussed a new Emerson poll of the California Governor and Los Angeles mayoral races. A new financial disclosure shows Trump has traded millions of dollars worth of stocks in companies that include Nvidia, Palantir, Meta, Disney and more. On \"Forbes Newsroom,\" U.S.-China relations expert Gordon Chang shared his response to President Trump's visit to China to meet with Chinese President Xi Jinping. Jones, a prominent conspiracy theorist, claimed earlier this week that the recent Hantavirus outbreak was being “rolled out” and “hyped up” by the World Health Organization.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026",
+      "canonical_url": "https://forbes.com/profile/norman-asbjornson",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "forbes.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.53805045327508
+    },
+    {
+      "id": "src_4282a849f901",
+      "title": "Matthew 25: Ministries | Company Overview & News - Forbes",
+      "url": "https://www.forbes.com/companies/matthew-25-ministries/#",
+      "snippet": "ByAntonio Pequeño IV ... Tax On $1 Million Homes Purchased With Cash, Report Says. The tax is being discussed as part of New York's state budget",
+      "content": "3 hours ago How To Watch The 2026 Preakness Stakes On TV And Streaming The 2026 Preakness Stakes will be run at Laurel Park for the first time ever on May 16. Television coverage will be provided by NBC with post time set for 7:01pm eastern. Forbes does not accept payment for placement on lists. Founded in 1991 and named after a Biblical passage about compassion, Matthew 25: Ministries provides humanitarian aid and disaster relief in the U.S. and abroad.",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026",
+      "canonical_url": "https://forbes.com/companies/matthew-25-ministries",
+      "published_at": "2025-12-12T00:00:00",
+      "publisher": "forbes.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.3932919570657022
+    },
+    {
+      "id": "src_05fd5388dae4",
+      "title": "Archie Hwang - Forbes",
+      "url": "https://www.forbes.com/profile/archie-hwang/#",
+      "snippet": "... Tax On $1 Million Homes Purchased With Cash, Report Says. The tax is being discussed as part of New York's state budget negotiations. By",
+      "content": "Archie Hwang founded HMI, formerly known as Hermes Microvision, in 1977, which specializes in optoelectronic devices, used in semiconductor manufacturing. He sold the company to ASML of the Netherlands for $3.1 billion in 2016. Hermes-Epitek, the parent company of HMI, has offices in mainland China, Malaysia, Singapore and Taiwan. Hwang, who also goes by the name Hwang Min Qi, is the chairman of the group. Heron Neutron Medical, a group subsidiary that has independently developed the boron neutron capture therapy cancer treatment system, went public on Taiwan's Emerging Stock Board in 2024. Bachelor of Arts/Science, National Chiao Tung University Did you know In 2024, he gifted cancer care equipment worth $37 million, developed by Heron Neutron, to his alma mater, the National Yang Ming Chiao Tung University. The 2026 Preakness Stakes will be run at Laurel Park for the first time ever on May 16. Television coverage will be provided by NBC with post time set for 7:01pm eastern. The president made between $220 million and $750 million worth of securities trades in the first quarter of this year, according to a Reuters analysis. As China's control and censorship of anime continues to tighten, Japanese companies must support the medium through fans and mass media in the U.S. market. Looking for help with today's New York Times Wordle? Here are some expert hints, clues and commentary to help you solve today's Wordle and sharpen your guessing game. Creators like Amelia Dimoldenberg and Alix Earle are expanding mentorship, professional development and vocational access for young people pursuing creative careers. On \"Forbes Newsroom,\" Emerson College Polling senior director Matt Taglia discussed a new Emerson poll of the California Governor and Los Angeles mayoral races. A new financial disclosure shows Trump has traded millions of dollars worth of stocks in companies that include Nvidia, Palantir, Meta, Disney and more. On \"Forbes Newsroom,\" U.S.-China relations expert Gordon Chang shared his response to President Trump's visit to China to meet with Chinese President Xi Jinping. SINGAPORE (July 7, 2016) – The Tsai family who runs financial services giant Fubon Financial, topped the 2016 Forbes Taiwan Rich List again with a combined net worth of US$8 billion. The complete Forbes Taiwan Rich List is available here as well as in the latest issue of Forbes Asia. The [...]",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Forbes Antonio Pequeño IV New York tax on $1 million homes purchased with cash article May 14 2026",
+      "canonical_url": "https://forbes.com/profile/archie-hwang",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "forbes.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.3783685880189789
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+      "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.9570402634785784
+    },
+    {
+      "id": "src_ba4928d55c94",
+      "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+      "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+      "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+      "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "New York City foreign investment empty luxury apartments cash buyers tax policy debate"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "New York City foreign investment empty luxury apartments cash buyers tax policy debate",
+      "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+      "published_at": "2026-04-24T00:00:00",
+      "publisher": "outboundinvestment.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6478093943666949
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.5526423688211367
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+      "platform": "bluesky",
+      "author": {
+        "handle": "forbes.com",
+        "display_name": "Forbes",
+        "did": "did:plc:2w45zyhuklwihpdc7oj3mi63"
+      },
+      "text": "The tax is being discussed as part of New York’s state budget negotiations.",
+      "created_at": "2026-05-14T19:20:06Z",
+      "images": [],
+      "links": [
+        "http://www.forbes.com/sites/antoniopequenoiv/2026/05/14/new-york-lawmakers-planning-tax-on-1-million-homes-purchased-with-cash-report-says/?utm_campaign=forbes&utm_medium=social&utm_source=bluesky"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes."
+    },
+    "explanation": [
+      {
+        "text": "The Forbes post is summarizing a report that New York lawmakers are considering a new tax tied to home purchases—as of the post date, this tax is still being discussed as part of the state’s budget negotiations rather than being enacted law.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "timeline_context",
+          "legal_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The linked Forbes news article text is not available in the provided sources, so the description of the proposal’s details cannot be confirmed beyond the brief social post summary.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The surrounding Bluesky thread shows commenters reacting mostly in favor of taxing high‑value, all‑cash home purchases, arguing that buyers who can pay over $1 million in cash can also afford the tax, while others question why the tax is based on purchase method and describe it as potentially “silly and performative.”",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "One commenter in the thread links the idea of a tax on high‑end properties to broader concerns about foreign “investment” in New York City real estate, alleging that some buyers leave units empty, use property as a vehicle for money laundering, and understate values to reduce taxes.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are allegations and opinions from a social media user, not findings from an official investigation or court document.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Separately from the cash‑purchase tax idea, New York officials have floated a proposed “pied‑à‑terre” tax targeting high‑value second homes—an annual surcharge on residential properties valued at $5 million or more that are not used as a primary residence—framed as a way to raise revenue and shift the tax burden toward ultra‑wealthy non‑resident owners; this proposal also still requires state‑level approval and is part of broader budget discussions.",
+        "source_ids": [
+          "src_ba4928d55c94"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This pied‑à‑terre proposal is related in theme (taxes on high‑value, non‑primary residences) but is distinct from the specific cash‑purchase tax mentioned in the Forbes social post.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Debate around New York’s proposed pied‑à‑terre tax highlights similar fault lines seen in the Bluesky thread: supporters say such taxes create new revenue and address inequality and underused luxury housing, while critics warn they might discourage investment in New York real estate and push wealthy buyers to other markets.",
+        "source_ids": [
+          "src_ba4928d55c94",
+          "thread_context"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context",
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The policy debate summarized here comes from an explainer article; the social thread reflects layperson reactions rather than positions of named officials or formal advocacy groups.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+        "snippet": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem h",
+        "content": "Damn straight. People with that kind of money can afford it. \nBTW. Are there any homes, condos, 800sf flats, ANYTHING under a million in NYC?  \nAsking for a country girl in UT.\n\nIf you can afford to purchase a home costing over $1 Million in cash, you have the cash to pay the tax! I see no problem here!\n\nI would guess that America's 250 is about equal to Trump's weight.\nBut Donald would simply reply \"No, it's not! It about equal to my IQ.\"\nwww.newser.com/story/389162...\n\nWhy base a tax on how someone purchases a home? This seems silly and performative.\n\nA big problem in NYC is the foreign “investment” buying units and basically leaving them empty. It’s money laundering because it allows them to convert large amounts of cash into a high-value asset. Also cash purchases allow property owners to undervalue their properties for avoid higher taxes.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_ba4928d55c94",
+        "title": "New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors - Outbound Investment Group",
+        "url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors/#",
+        "snippet": "# New York Moves to Tax Empty Luxury Homes: What the Pied-à-Terre Proposal Means for Global Investors. New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a **proposal** for a pied-à-terre tax targeting high-value second homes. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. ## What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. The pied-à-terre tax is still a **proposal**, not an enacted policy. ## This Is Not Just New York. New York is not the first to move in this direction.",
+        "content": "New York is moving to tax something wealthy investors have relied on for decades: owning property without living in it. On April 15, 2026, New York City Mayor Zohran Mamdani and Governor Kathy Hochul announced a proposal for a pied-à-terre tax targeting high-value second homes. The measure would apply to properties valued above $5 million that are not used as a primary residence. This is not a minor policy tweak. It signals a shift in how one of the world’s most important real estate markets is thinking about passive ownership. What Is the Proposed Pied-à-Terre Tax? A pied-à-terre tax is an annual surcharge on residential properties that are not used as a primary residence. Under the proposal: - Applies to homes valued at $5 million or more - Targets owners whose primary residence is outside New York City - Expected to generate at least $500 million annually Officials have framed the measure as a way to close New York City’s budget gap while shifting the burden toward ultra-wealthy non-resident owners. The message is straightforward: if you benefit from New York’s real estate market, you may be expected to contribute more consistently to the system that supports it. Who Is Being Targeted The policy is not aimed at typical homeowners. It is designed for: - Ultra-high-net-worth individuals - Non-residents holding second or third homes - Investors using property as a store of wealth The example often referenced in coverage is Ken Griffin’s $238 million Central Park penthouse, a property that is not used as a primary residence and has become symbolic in the debate around underused luxury housing. This is less about real estate transactions and more about how ownership is defined. Not Law Yet, But Direction Matters The pied-à-terre tax is still a proposal, not an enacted policy. It requires state-level approval and remains part of broader budget negotiations. But that distinction does not reduce its importance. Policy direction often matters more than timing. And the direction here is clear. Market Reaction and Ongoing Debate The proposal has triggered a clear divide among policymakers, economists, and industry stakeholders. Supporters argue: - It creates a new revenue stream without burdening residents - It addresses inequality in the tax system - It discourages underutilized housing in a constrained market Critics argue: - It may discourage investment in New York real estate - It could push wealthy buyers to other markets - It risks reducing property values and development activity Some industry voices have already raised concerns about capital shifting away from New York if the policy is implemented. This Is Not Just New York New York is not the first to move in this direction. Canada already introduced a federal Underused Housing Tax in 2022, applying an annual tax on vacant or underutilized residential properties. The objective was similar: - Discourage passive ownership - Increase housing availability - Push properties toward active use At a local level, cities like Vancouver have gone further, imposing additional taxes on homes left vacant for extended periods. The United Kingdom takes a slightly different approach, but the intent overlaps. Local councils impose higher charges on second homes and long-term empty properties, increasing the cost of holding underused real estate. These are not identical policies. But they point in the same direction. This is no longer an isolated policy. It is a pattern. What This Means for Global Investors For years, prime real estate in cities like New York, London, and Vancouver has functioned as a passive store of wealth. That assumption is being challenged. This proposal introduces a different idea: ownership alone may not be enough. For investors holding property across multiple jurisdictions, the shift is practical: - Holding empty property may become more expensive - Passive ownership may face increasing scrutiny - Asset strategy may need to account for usage, not just location This is ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "New York City foreign investment empty luxury apartments cash buyers tax policy debate"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "New York City foreign investment empty luxury apartments cash buyers tax policy debate",
+        "canonical_url": "https://outboundinvestment.com/new-york-moves-to-tax-empty-luxury-homes-what-the-pied-a-terre-proposal-means-for-global-investors",
+        "published_at": "2026-04-24T00:00:00",
+        "publisher": "outboundinvestment.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mltjxyxp3x2r",
+        "snippet": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "content": "The tax is being discussed as part of New York’s state budget negotiations.",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 28762
+  }
+}

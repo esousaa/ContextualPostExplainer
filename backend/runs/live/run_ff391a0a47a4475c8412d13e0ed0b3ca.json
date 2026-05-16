@@ -1,0 +1,619 @@
+{
+  "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:53:16.848539+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:52:51.105022+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:51.105126+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:52:51.105509+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:51.105603+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:52:51.105924+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:52.331611+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1225
+    },
+    {
+      "timestamp": "2026-05-16T01:52:52.332145+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:52.332230+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:52:52.332590+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:52:54.398640+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 2065
+    },
+    {
+      "timestamp": "2026-05-16T01:52:54.399178+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:00.706799+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5804
+    },
+    {
+      "timestamp": "2026-05-16T01:53:00.707379+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:12.584953+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 11877
+    },
+    {
+      "timestamp": "2026-05-16T01:53:12.585620+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:13.077285+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 491
+    },
+    {
+      "timestamp": "2026-05-16T01:53:13.077829+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.840564+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3762
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.841122+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.841229+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.841595+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.841654+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.841923+00:00",
+      "event": "node_started",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:53:16.842001+00:00",
+      "event": "node_completed",
+      "run_id": "run_ff391a0a47a4475c8412d13e0ed0b3ca",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Melanie Stansbury opposition to VA privatization veterans 2025 2026",
+    "proposals to privatize the Department of Veterans Affairs history Trump administration Choice Act",
+    "research on effects of privatization of veterans healthcare outcomes United States",
+    "Republican Party stance on VA privatization and veterans health policy"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://thewarhorse.org/republicans-propose-bills-to-privatize-more-veterans-healthcare/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://thewarhorse.org/republicans-propose-bills-to-privatize-more-veterans-healthcare/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/groups/219254541263818/posts/1230157630173499/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYXFeGfiEe9/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://aflcio.org/resolutions/resolution-40-rejecting-privatization-veterans-health-care",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.researchgate.net/publication/395666339_The_Future_of_the_VA-The_Privatization_Debate",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_019913469487",
+        "title": "420K views · 30K reactions | A $1 billion for a Ballroom, $10 billion for vanity projects in DC, $15 million for an arch in front of Arlington Cemetery veterans oppose. \n\nMeanwhile—they are proposing to cut over $1 billion in tribal programs, eviscerating tribal housing, education, water and other basic programs, while opening sacred sites like Chaco Canyon. How can they defend this? \n\nThey can’t. Because, it’s indefensible. | Rep. Melanie Stansbury",
+        "url": "https://www.facebook.com/RepStansbury/videos/a-1-billion-for-a-ballroom-10-billion-for-vanity-projects-in-dc-15-million-for-a/1625283545364668/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_adc18539fde6",
+        "title": "Veterans Affairs, Voting Rights, and Good Government | Congresswoman Melanie Stansbury | Representing New Mexico's First Congressional District",
+        "url": "https://stansbury.house.gov/issues/veterans-affairs-voting-rights-and-good-government#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_4b232b1e9630",
+        "title": "How VA Reform Turned into a Fight Over Privatization - The Atlantic",
+        "url": "https://www.theatlantic.com/politics/archive/2017/07/how-va-reform-turned-into-a-fight-over-privatization/533490/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0f8f74c51d4a",
+        "title": "Republicans propose bills that steer more veterans into private ...",
+        "url": "https://thewarhorse.org/republicans-propose-bills-to-privatize-more-veterans-healthcare/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_0851c05a4ac4",
+        "title": "Trump Administration Plots Costly Private-Care Expansion for ...",
+        "url": "https://www.propublica.org/article/trump-administration-plots-costly-private-care-expansion-for-veterans#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_2f3265867ace",
+        "title": "MESSAGE FROM VA Secretary Robert Wilkie - \"Fact check ...",
+        "url": "https://news.va.gov/61012/message-va-secretary-robert-wilkie-fact-check-inaccuracies-recent-news-article/#",
+        "reason": "stale_for_event"
+      },
+      {
+        "id": "src_501ed865f4da",
+        "title": "New Study Settles the Privatization Debate: VA Produces Better Outcomes at Lower Cost — Veterans Healthcare Policy Institute",
+        "url": "https://www.veteranspolicy.org/journalism-and-commentary/post/new-stanford-study-settles-the-privatization-debate-va-produces-better-outcomes-at-lower-cost#",
+        "reason": "stale_for_event"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.814804313782376
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+      "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7946181254736258
+    },
+    {
+      "id": "src_0c15dd6ef383",
+      "title": "Rep. Stansbury: Hell no to privatizing the VA!",
+      "url": "https://www.youtube.com/watch?v=YQrxJeBrjfE#",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the",
+      "content": "Rep. Stansbury: Hell no to privatizing the VA! - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Melanie Stansbury opposition to VA privatization veterans 2025 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury opposition to VA privatization veterans 2025 2026",
+      "canonical_url": "https://youtube.com/watch?v=YQrxJeBrjfE",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6579335863909008
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.814804313782376
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @repstansbury.bsky.social",
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+      "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "repstansbury.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7946181254736258
+    },
+    {
+      "id": "src_0c15dd6ef383",
+      "title": "Rep. Stansbury: Hell no to privatizing the VA!",
+      "url": "https://www.youtube.com/watch?v=YQrxJeBrjfE#",
+      "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the",
+      "content": "Rep. Stansbury: Hell no to privatizing the VA! - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Melanie Stansbury opposition to VA privatization veterans 2025 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Melanie Stansbury opposition to VA privatization veterans 2025 2026",
+      "canonical_url": "https://youtube.com/watch?v=YQrxJeBrjfE",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "youtube.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6579335863909008
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+      "platform": "bluesky",
+      "author": {
+        "handle": "repstansbury.bsky.social",
+        "display_name": "Rep. Melanie Stansbury (NM-01)",
+        "did": "did:plc:fuqcbv5brxa2b5vylz5bkm3j"
+      },
+      "text": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+      "created_at": "2026-05-15T13:20:42.195000Z",
+      "images": [],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!"
+    },
+    "explanation": [
+      {
+        "text": "The post by Rep. Melanie Stansbury states that she is speaking out in support of U.S. veterans and explicitly opposing efforts to privatize the Department of Veterans Affairs (VA).",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the author’s stated position and does not by itself establish the status or extent of any VA privatization efforts.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The phrase “hell no to the privatization of the VA” frames privatization as a negative outcome, emphasizing the author’s strong resistance to shifting veterans’ healthcare or services from the public VA system to private providers.",
+        "source_ids": [
+          "thread_original"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The post does not provide details on specific privatization proposals or legislation.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "A commenter in the thread argues that profit motives are harmful in public services such as healthcare, the military, public safety, education, incarceration, utilities, research, and regulations, and claims that privatization primarily benefits top executives while risking bankruptcy and “golden parachutes” for leaders.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These are opinions and broad claims from a social media user and are not corroborated by independent evidence in the provided sources.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The thread reply also asserts that “republicans are 100% wrong on privatization,” linking Rep. Stansbury’s opposition to VA privatization to a broader partisan debate over whether public services should be run by government or private entities.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects the commenter’s partisan view and should not be treated as an objective assessment of all privatization policies.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The linked YouTube video title mirrors the post’s message (“Hell no to privatizing the VA!”), indicating that Rep. Stansbury’s opposition to VA privatization is part of a broader public communication effort, possibly including a floor speech or press statement.",
+        "source_ids": [
+          "src_0c15dd6ef383"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The video content is not fully transcribed in the source; only the title and partial snippet are available, so details of her remarks cannot be confirmed from this source alone.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @repstansbury.bsky.social",
+        "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+        "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+        "content": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the privatization of the VA! ✊🇺🇸",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "repstansbury.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @repstansbury.bsky.social",
+        "url": "https://bsky.app/profile/repstansbury.bsky.social/post/3mlvgeagk2c2p",
+        "snippet": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regul",
+        "content": "👏👏👏\n\nWhen do you plan to rise to support and defend our Constitution?\n\n💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼\n\nThe profit motive is HORRENDOUS at public services required for a stable productive society:\nhealthcare\nthe military\npublic safety (police, fire, EMS, etc.)\neducation\nhuman incarceration\nutilities\nresearch\nall regulations\n\nrepublicans are 100% wrong on privatization.\n\nwhenever an organization is privatized, it's only the CEO, CFO, and FCO who profit. and it's just a matter of time before the companies that go private go bankrupt and nobody ever seems to know where the money went while those in charge get a golden parachute!!!!",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "repstansbury.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_0c15dd6ef383",
+        "title": "Rep. Stansbury: Hell no to privatizing the VA!",
+        "url": "https://www.youtube.com/watch?v=YQrxJeBrjfE#",
+        "snippet": "Today, I rise to support our veterans and the brave men and women who have served this country. And I rise to say hell no to the",
+        "content": "Rep. Stansbury: Hell no to privatizing the VA! - YouTube Sobre Imprensa Direitos autorais Entre em contato Criadores de conteúdo Publicidade Desenvolvedores Termos Privacidade Política e segurança Como funciona o YouTube Testar os novos recursos © 2026 Google LLC",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Melanie Stansbury opposition to VA privatization veterans 2025 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Melanie Stansbury opposition to VA privatization veterans 2025 2026",
+        "canonical_url": "https://youtube.com/watch?v=YQrxJeBrjfE",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "youtube.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 25234
+  }
+}

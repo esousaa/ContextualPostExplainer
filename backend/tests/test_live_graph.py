@@ -95,6 +95,20 @@ class FakeImageAnalyzer:
         return post.model_copy(update={"images": images})
 
 
+class CapturingRunRecorder:
+    def __init__(self) -> None:
+        self.events = []
+        self.runs = []
+        self.write_event_counts = []
+
+    async def record_event(self, event):
+        self.events.append(event)
+
+    async def write_run(self, mode: str, run_id: str, payload: dict) -> None:
+        self.write_event_counts.append(len(self.events))
+        self.runs.append((mode, run_id, payload))
+
+
 def _settings() -> Settings:
     return Settings(
         openai_api_key=SecretStr("test-openai-key"),
@@ -105,6 +119,7 @@ def _settings() -> Settings:
         eval_fixture_dir="eval/fixtures",
         search_provider="brave",
         brave_api_key=SecretStr("test-brave-key"),
+        comparison_group_id="test_group",
     )
 
 
@@ -244,6 +259,47 @@ async def test_live_explanation_flow_emits_progress_events() -> None:
 
 
 @pytest.mark.asyncio
+async def test_live_explanation_flow_records_completed_run_after_final_node_completion() -> None:
+    recorder = CapturingRunRecorder()
+
+    async def rank_evidence(state: ExplanationState) -> list[RankedEvidence]:
+        return [
+            RankedEvidence(**source.model_dump(mode="json"), relevance_score=0.9)
+            for source in state.get("evidence", [])
+            if source.id == "s1"
+        ]
+
+    async def generate_explanation(state: ExplanationState) -> Explanation:
+        return await FakeLLMClient().generate_explanation(
+            state["post"],
+            state.get("ranked_evidence", []),
+        )
+
+    flow = LiveExplanationFlow(
+        settings=_settings(),
+        post_fetcher=FakePostFetcher(),
+        search_provider=FakeSearchProvider([_search_result()]),
+        source_fetcher=FakeSourceFetcher(),
+        llm_client=FakeLLMClient(),
+        rank_evidence=rank_evidence,
+        generate_explanation=generate_explanation,
+        run_recorder=recorder,
+    )
+
+    await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
+
+    assert recorder.runs[0][2]["status"] == "completed"
+    assert recorder.runs[0][2]["search_provider"] == "brave"
+    assert recorder.runs[0][2]["openai_generation_model"] == "gpt-4o"
+    assert recorder.runs[0][2]["comparison_group_id"] == "test_group"
+    assert recorder.runs[0][2]["comparison_config_id"]
+    assert recorder.runs[0][2]["prompt_config_hash"]
+    assert recorder.write_event_counts[0] == len(recorder.events)
+    assert recorder.events[-1]["event"] == "node_completed"
+    assert recorder.events[-1]["node_name"] == "finalize_response"
+
+
+@pytest.mark.asyncio
 async def test_live_explanation_flow_adds_image_analysis_before_query_planning() -> None:
     class ImagePostFetcher(FakePostFetcher):
         async def fetch(self, url: str) -> PostData:
@@ -327,3 +383,35 @@ async def test_live_explanation_flow_returns_empty_when_search_has_no_sources() 
     assert response.explanation == []
     assert response.sources == []
     assert response.confidence == "low"
+
+
+@pytest.mark.asyncio
+async def test_live_explanation_flow_records_failed_runs() -> None:
+    class FailingPostFetcher(FakePostFetcher):
+        async def fetch(self, _url: str) -> PostData:
+            raise RuntimeError("post fetch failed")
+
+    async def rank_evidence(_state: ExplanationState) -> list[RankedEvidence]:
+        return []
+
+    async def generate_explanation(_state: ExplanationState) -> Explanation:
+        raise AssertionError("generate should not be called")
+
+    recorder = CapturingRunRecorder()
+    flow = LiveExplanationFlow(
+        settings=_settings(),
+        post_fetcher=FailingPostFetcher(),
+        search_provider=FakeSearchProvider([_search_result()]),
+        source_fetcher=FakeSourceFetcher(),
+        llm_client=FakeLLMClient(),
+        rank_evidence=rank_evidence,
+        generate_explanation=generate_explanation,
+        run_recorder=recorder,
+    )
+
+    with pytest.raises(RuntimeError):
+        await flow.run("https://bsky.app/profile/example.bsky.social/post/abc")
+
+    assert recorder.runs[0][0] == "live"
+    assert recorder.runs[0][2]["status"] == "failed"
+    assert recorder.runs[0][2]["error"]["message"] == "post fetch failed"

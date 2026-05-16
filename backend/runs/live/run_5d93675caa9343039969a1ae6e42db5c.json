@@ -1,0 +1,914 @@
+{
+  "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:54:38.927246+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:54:11.674884+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.674991+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.675369+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.675472+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:11.675825+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:12.640261+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 964
+    },
+    {
+      "timestamp": "2026-05-16T01:54:12.640829+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:15.454499+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 2813
+    },
+    {
+      "timestamp": "2026-05-16T01:54:15.455047+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:16.866268+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1411
+    },
+    {
+      "timestamp": "2026-05-16T01:54:16.866868+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:22.260874+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5394
+    },
+    {
+      "timestamp": "2026-05-16T01:54:22.261494+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:28.322551+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6061
+    },
+    {
+      "timestamp": "2026-05-16T01:54:28.323131+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:28.994893+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 671
+    },
+    {
+      "timestamp": "2026-05-16T01:54:28.995438+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.920626+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 9387
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.921198+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.921342+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.921714+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.921785+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.922073+00:00",
+      "event": "node_started",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:54:38.922159+00:00",
+      "event": "node_completed",
+      "run_id": "run_5d93675caa9343039969a1ae6e42db5c",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Hawaii first state to end Citizens United state resolution 2026 Common Dreams",
+    "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+    "state-level efforts to overturn Citizens United corporate political spending ban",
+    "no political donations from artificial persons corporations Hawaii legislation 2026"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/denise.williams.559933/posts/as-of-may-2026-hawaii-has-passed-a-groundbreaking-law-slated-to-take-effect-on-j/26939722032335452/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://x.com/commondreams/status/2055357403915297116",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.facebook.com/americanprogress/posts/hawaii-is-officially-the-first-in-the-nation-to-effectively-undo-citizens-united/1423508603149271/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.reddit.com/r/Hawaii/comments/1tdl2gh/bill_signed_hawaii_just_became_the_first_state_to/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://iowacapitaldispatch.com/2026/01/21/senators-introduce-state-constitutional-amendment-overturning-citizens-united/",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_18db8c44059c",
+        "title": "Common Dreams: Hawai'i ACLU Demands End to US Complicity in ...",
+        "url": "https://www.acluhi.org/news/common-dreams-hawaii-aclu-demands-end-us-complicity-israeli-governments-genocide-gaza/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_f9f63c6eeb4f",
+        "title": "Hawaiʻi bill challenging Citizens United advances, first of its kind in ...",
+        "url": "https://www.youtube.com/watch?v=KYCETdsHV7E#",
+        "reason": "ranked_below_selected_sources"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 3,
+      "tavily": 5
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 5
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @sicilianrick.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:xi4zc3eagsiyjzayxuz7svrk/bafkreibwi6r24r2nhbx2qkm5tpmp7v2swuishwvku4voa65yssvlhe3ibu",
+      "snippet": "Image type: poster\nVisible text: Hawaii just became the first state in our nation to END Citizens United; a bold move that will put elections back into the hands of regular voters and not the billionaire class, and if we want to save our democracy WE NEED TO DO THIS IN EVERY STATE!\nVisual descriptio",
+      "content": "Image type: poster\nVisible text: Hawaii just became the first state in our nation to END Citizens United; a bold move that will put elections back into the hands of regular voters and not the billionaire class, and if we want to save our democracy WE NEED TO DO THIS IN EVERY STATE!\nVisual description: The image is a political graphic. The upper portion shows a daytime cityscape with numerous tall buildings, trees, and water in the background. The lower portion is a solid dark background overlaid with large white and yellow text advocating for ending Citizens United and calling for similar action in every state.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "sicilianrick.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.7749333755373621
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @sicilianrick.bsky.social",
+      "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+      "snippet": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+      "content": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "sicilianrick.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7638308984420854
+    },
+    {
+      "id": "src_463f39a7d3c7",
+      "title": "Hawaii Legislature passes first-in-nation bill targeting Citizens ...",
+      "url": "https://www.courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling/#",
+      "snippet": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to *Citizens United* dates back to the day the ruling came down.",
+      "content": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. The bill takes aim at the U.S. Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling, which allowed corporations to spend unlimited amounts of money in elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. The Democrat-dominated Hawaii Legislature voted 24-0 in the Senate and 50-1 in the House to send Senate Bill 2471 to Governor Josh Green’s desk. If signed into law, it would take effect July 1, 2027. The House floor debate In the House, Republican state Representative Kanani Souza opened debate with a call to action. “Plainly, who does this democracy belong to?” Souza said. “Is it the people of Hawaii whose voices, votes and lived realities give meaning to this institution? Or is it corporations, entities created by the state, empowered by law, enriched by privilege, but never intended to stand as political equals to the very people who granted them existence?” Souza argued that Citizens United had fundamentally distorted American democracy by elevating corporate spending into a force no individual voter could realistically match. “Hawaii is not waiting for permission, not following the lead of others,” she said. “We are leading.” Not every House member was persuaded. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. “The people of Hawaii, who are already struggling to afford life here, will have to foot another bill,” Muraoka said. He cast the only “no” vote in the House. State Representative Scott Matayoshi, a Democrat, acknowledged the legal risk but said that was precisely the point. He noted Citizens United itself was a lawsuit that overturned the existing law of the land, Austin v. Michigan Chamber of Commerce, and argued states need to show similarly challenge problematic laws. “If the states are not brave enough to challenge Citizens United and other court rulings at the highest court in the land, those rulings will stand forever,” Matayoshi said. “We need states to step forward in order to challenge these rulings.” Matayoshi also pointed to a key failsafe built into the conference draft: If a court were to strike down the bill’s application to out-of-state entities while leaving the Hawaii restrictions intact, the measure would automatically unbind Hawaii corporations, preventing a scenario in which mainland corporate money flooded in while local voices were silenced. In the Senate Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to Citizens United dates back to the day the ruling came down. In April 2010, just months after the decision, the Legislature passed a concurrent resolution calling on Congress to propose a constitutional amendment to overturn it. Sixteen years later, Rhoads said, nothing had changed except the scale of the problem. “In 2006, dark money was less than $5 million nationwide,” Rhoads said. “In 2024, there was over $1 billion, with a B, anonymously spent in the presidential election alone.” Rhoads warned the anonymity of dark money also invited foreign interference. “It’s very difficult to know whether Russia or Iran or China are funneling money into American elections,” he said. Democratic Senator Jarrett Keohokalole drew a sharp distinction between the rights of citizens and the powers of co",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "courthousenews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7092526284667302
+    },
+    {
+      "id": "src_70fa7d59234a",
+      "title": "Hawaii vs. Citizens United - The Atlantic",
+      "url": "https://www.theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159/#",
+      "snippet": "State lawmakers want to change the terms of personhood for corporations. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in *Citizens United v. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. (If he happens to not sign it, those same lawmakers said that the legislature is unlikely to override a veto.) Erika Engle, Green’s press secretary, told me in a statement that the governor would announce his decision “at the appropriate time” and that he “recognizes the precedent-setting nature of this legislation and thanks the Legislature for its hard work on this matter.”.",
+      "content": "Sign up for Inside the Trump Presidency, a newsletter featuring coverage of the second Trump term. Fifteen years after Mitt Romney stood on an Iowa hay bale and proclaimed that “corporations are people, my friend,” his declaration is no longer mockable. The amount of money corporations spend anonymously to sway federal elections has increased from $359 million in 2012 to $1.4 billion in the most recent presidential cycle. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in Citizens United v. FEC that U.S. corporations function as citizen associations under the Constitution. But not all of these “people” are created exactly equal. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Hawaii is the first state to try. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. “Corporations are not people. They are granted powers and privileges by the state,” State Senator Jarrett Keohokalole told me this week, explaining the rationale of the bill he sponsored. “How can a creation of the state have inalienable rights? It doesn’t make any sense.” The legislation—which Hawaii Governor Josh Green, a Democrat, has not yet signed—is expected to apply to for-profit companies, so-called dark-money nonprofits, unions, and chambers of commerce, potentially cutting off a major revenue stream for the super PACs that dominate politics. The legislation makes exceptions for journalistic work—as in, newspaper editorials explicitly advocating for certain candidates—and company-organized political-action committees that pool individual donations. Under the proposal, Hawaiian corporations would still enjoy personhood of a kind, but they would lack a single ability guaranteed to their living and breathing peers. Supporters point to Chief Justice John Marshall’s 1819 opinion in Trustees of Dartmouth College v. Woodward, a landmark case that set the course of corporate law that followed. “A corporation is an artificial being, invisible, intangible, and existing only in contemplation of law,” Marshall wrote. “Being the mere creature of law, it possesses only those properties which the charter of its creation confers upon it.” Tom Moore, a senior fellow at the Center for American Progress who previously worked for a chair of the Federal Election Commission, came up with this legal strategy as a bank-shot attempt to reverse the impact of the 2010 Citizens United decision without directly engaging its First Amendment logic. Moore argues that states can change their corporate laws while sidestepping free-speech questions because the corporate charter—that “mere creature of law”—precedes any constitutional right. “This is not a campaign-finance regulation,” he told me. “You have to look at it differently.” This year, his evangelizing led to the introduction of legislation in 15 states, Moore said, but only Hawaii was able to get a bill to a governor’s desk. In Montana, activists are gathering signatures in hope of making the issue a ballot initiative in November. “We need to have an answer to all the money in politics these past 15 years,” Jeff Mangan, the organizer of that effort, told me. As a political matter, the gambit is likely popular. A 2023 Pew Research Center poll found that, among both Republicans and Democrats, more than seven in 10 support limits on the amount of money organizations can spend on political campaigns. YouGov polling last year for Issue One, a group advocating for more restrictions on ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "theatlantic.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6848201200240428
+    },
+    {
+      "id": "src_bf174ec28693",
+      "title": "Can Hawaiʻi Deliver All Of America From Citizens United? - Civil Beat",
+      "url": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/#",
+      "snippet": "Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. Tom Moore of the Center for American Progress testifying in support of Senate Bill 2471, which he said would make Hawaiʻi the leader in addressing the Citizens United case of 2010. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections.",
+      "content": "Can Hawaiʻi Deliver All Of America From Citizens United? A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. By Chad Blair April 5, 2026 · 9 min read About the Author A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. Federal Election Commission. The 5-4 decision allowed corporations and other outside groups including labor unions to spend unlimited money on elections. The ruling is the law of land unless the high court reverses itself or the states and Congress agree to amend the constitution — both very high bars in the current political climate. But what if the states took the the initiative to limit the impact of Citizens United by passing their own laws to change the way corporations are defined? That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. That could directly challenge the ability of super PACs to raise unlimited money and keep their sources of funding secret. “It makes Citizens United irrelevant in Hawaiʻi,” said Tom Moore, a senior fellow for democracy policy at the Center for American Progress who previously served for seven years at the Federal Election Commission. “Hawaiʻi has the opportunity to lead.” Moore has testified a lot on SB 2471 this session, in writing and over Zoom, and so far he has been able to persuade lawmakers of his argument. The bill has cleared the Senate unanimously and one House committee. David Tarnas, chair of the House Judiciary and Hawaiian Affairs Committee, said he will decide soon whether to hear it as well — the last committee necessary for the bill to advance to likely conference committee negotiations in late April. The session ends May 8. Sen. Karl Rhoads, the bill’s author, said the bill could lead to greater transparency when it comes to political donations in the state. “I believe it will reduce the amount of money coming into campaigns, but more importantly, it will make the money that does come in more easier to figure out who it actually came from,” he said. Colin Moore, a political analyst at the University of Hawai‘i Mānoa, describes SB 2471 as a clever end run around the U.S. Supreme Court’s ruling. “I think this is a creative and ambitious bill,” he said. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections. That’s a genuinely innovative idea.” Whether it passes legal muster remains to be seen. The Attorney General’s Office opposes SB 2471. Deputy Attorney General Christopher Han told lawmakers that, while the department “greatly sympathizes with the frustration with federal case law on this subject,” the bill raises “serious constitutional concerns and substantial adverse litigation risk” should it become law. “While many Americans strongly disagree with the U.S. Supreme Court’s holding in Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” he said in written testimony last month. Han reaffirmed that argument when he spoke to the House Consumer Protection and Commerce Committee on March 18. He said SB 2471 relied on “an untested legal theory, the viability of which we",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united",
+      "published_at": "2026-04-05T00:00:00",
+      "publisher": "civilbeat.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6636473337815373
+    },
+    {
+      "id": "src_d6f146da7498",
+      "title": "citizens united | Common Dreams",
+      "url": "https://www.commondreams.org/tag/citizens-united#",
+      "snippet": "\"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The Democrat delivered a similar message about building \"a movement to get money out of politics\" and \"a government that represents working people\" in a Wednesday statement welcoming support from a group that's long worked to overturn the 2010 decision *Citizens United v.* *Federal Election Commission*. \"We don't take a dime of corporate PAC money, and we're going to keep it that way, because our politics has been bought and paid for by billionaires for far too long,\" Platner said.",
+      "content": "\"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections. But we are not powerless. We can fight back,\" said US Rep. Greg Casar. The state of Hawaii has passed a law that poses a direct challenge to the infamous 2010 Citizens UnitedSupreme Court ruling, which opened the door to unlimited corporate spending in US elections. Democratic Hawaii Gov. Josh Green on Thursday signed into law a bill that takes aim at the court's ruling that corporations are effectively people with full free speech rights who can face no limits on what they can contribute to political organizations. As explained by More Perfect Union, the law, which is set to take effect next July, classifies corporations as \"artificial persons\" who do not have a constitutional right to make political donations. \"The bill could limit the influence of super PACs,\" noted More Perfect Union, \"and be a model to challenge the influence of money in politics.\" Democratic Hawaii state Sen. Jarrett Keohokalole, a supporter of the law, said on Thursday he was proud that Hawaii has become \"the first state in the nation\" to take direct action challenging Citizens United. \"As elected leaders, we do not serve artificial entities,\" Keohokalole said. \"We serve the people.\" US Rep. Greg Casar (D-Texas), chair of the Congressional Progressive Caucus, hailed the law as \"big news\" that should inspire opponents of limitless corporate political spending across the US. \"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections,\" said Casar. \"But we are not powerless. We can fight back.\" The new law passed despite opposition from Hawaii Attorney General Anne Lopez, who argued that defending it in court could be difficult and expensive. The law's passage earned praise from campaign finance watchdogs who have long called for overturning Citizens United and reestablishing guardrails for corporate cash in US democracy. Michael Beckel, who directs the Money in Politics project for the advocacy group Issue One, said the Hawaii law is a \"model for the country\" that other states should rush to emulate. \"This measure... is among the most innovative and impactful ideas to curb corporate and dark money spending in campaigns since the Supreme Court’s disastrous Citizens United ruling in 2010,\" Beckel said. \"Those looking to bring more transparency and accountability to elections should embrace this powerful proposal and follow Hawaii’s lead.\" End Citizens United, the nonprofit campaign finance reform organization dedicated to overturning the 2010 Supreme Court ruling, also pushed other states to look at Hawaii's law as a roadmap for their own legislation. \"Hawaii has provided a blueprint for how to prevent super PACs from spending dark money by passing state law,\" the group said in a social media post. \"Let this win be a testament to the ability states have to put power back in the hands of everyday people by neutralizing the effects of the Citizens United ruling.\" Tom Moore, senior fellow at the Center for American Progress, praised the Hawaii law in an interview with The Associated Press, calling it \"a brave and bold step to get corporate and dark money out of America’s politics\" that \"will send a powerful message that will be heard loud and clear across the Pacific and across the mainland.\" \"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The oyster farmer and military combat veteran launched his campaign last August with an advertisement declaring that \"billionaires\" and \"t",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Hawaii first state to end Citizens United state resolution 2026 Common Dreams"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Hawaii first state to end Citizens United state resolution 2026 Common Dreams",
+      "canonical_url": "https://commondreams.org/tag/citizens-united",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "commondreams.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6600286137653352
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @sicilianrick.bsky.social",
+      "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+      "snippet": "End Citizens United!",
+      "content": "End Citizens United!",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "sicilianrick.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6512520315020164
+    },
+    {
+      "id": "src_451f9fc7cb45",
+      "title": "States' efforts to limit corporate donations in politics explained",
+      "url": "https://www.denverpost.com/2026/05/12/corporate-campaign-money-explained/#",
+      "snippet": "## Advocates see the effort as a way to get around the Supreme Court's Citizens United decision that opened the door to more outside election spending. Hawaii lawmakers and activists pose for a photo after discussing a bill that seeks to limit corporate money in politics in Honolulu on Thursday, April 23, 2026. HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. “The one thing I am absolutely sure of is if it got the signatures and is passed by the Montana public and is approved by the Montana courts, that the Supreme Court will want a crack at it,” he said.",
+      "content": "By JENNIFER SINCO KELLEHER and GEOFF MULVIHILL HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. A volunteer group in Montana is gathering signatures in hopes of putting a similar issue to voters in November. Supporters say voters dislike corporate and dark money in elections and this effort meets a need. Detractors say states can’t pass laws to skirt Supreme Court decisions they don’t like. Similar legislation has been introduced in at least 14 states besides Hawaii, but none of those bills have gotten very far. Political spending has changed since Citizens United Citizens United, a conservative group, wanted to run TV commercials promoting its anti-Hillary Clinton movie when she was running for president in 2008. The high court’s ruling in its case two years later effectively struck down a ban on corporate and union election spending as long as they don’t donate directly to any campaigns. The ruling has benefitted Democrats and Republicans. The campaign finance watchdog group OpenSecrets tracked more than $4 billion in outside political spending in the 2024 federal elections — almost 12 times as much as in 2008. Some of that came from dark money groups that aren’t required to disclose donors, and the Brennan Center for Justice tallied a record $1.9 billion in that type of spending in 2024. Dark money has also played a part in some state-level races. Justin Levitt, a professor at Loyola Law School who studies campaign finance law, said keeping companies from spending on elections might not make a big difference in how political spending works, noting that far more is spent by wealthy people such as Elon Musk. One advocate’s idea: Redefining corporate powers Americans want to undo the Citizens United ruling, according to Tom Moore, a former Federal Elections Commission lawyer who is now a senior fellow at the Center for American Progress. The think-tank in Washington, D.C. is pushing to redefine corporations to ban spending on campaigns but allow them to lobby lawmakers. The prohibition would also include the nonprofit organizations involved in dark money spending. “This is a genuinely new approach to getting Citizens United out of America’s politics that is based on absolutely foundational corporation law,” he said. If just one state adopts it, Moore said, it would be tested in court. It’s up to the governor in Hawaii and could go to voters in Montana Hawaii Gov. Josh Green, a Democrat, hasn’t said whether he’ll sign the bill. He has to say by June 30 if he intends to veto it. “This is an instance where a small state has a chance to make big waves on the national scene,” said state Sen. Karl Rhoads, a Democrat, who introduced the legislation. “I think we should take advantage of it.” The office of Hawaii Attorney General Anne Lopez, a Democrat, opposed the bill, arguing in part that will be difficult and costly to defend in court. Separately, volunteers are gathering signatures hoping to put the corporate redefinition idea — branded as The Montana Plan — before voters in that state in November. Montana’s Supreme Court ruled in April that the effort could proceed even after Republican state Attorney General Austin Knudsen said it violates the requirement that ballot initiatives stick to one subject. “It really resonates with citizens,” said Jeff Mangan, a former Montana state commissioner of political practices who’s leading the ballot effort. “They probably see it because they live it.” But would it work? Bradley Smith, a Republican former member of the Federal Election Commission, says Moore’s idea is not likely to pass muster in court. “The mistake I think supporters of this ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "state-level efforts to overturn Citizens United corporate political spending ban"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "state-level efforts to overturn Citizens United corporate political spending ban",
+      "canonical_url": "https://denverpost.com/2026/05/12/corporate-campaign-money-explained",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "denverpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6421508444462714
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @sicilianrick.bsky.social",
+      "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+      "snippet": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+      "content": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "sicilianrick.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7638308984420854
+    },
+    {
+      "id": "src_463f39a7d3c7",
+      "title": "Hawaii Legislature passes first-in-nation bill targeting Citizens ...",
+      "url": "https://www.courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling/#",
+      "snippet": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to *Citizens United* dates back to the day the ruling came down.",
+      "content": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. The bill takes aim at the U.S. Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling, which allowed corporations to spend unlimited amounts of money in elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. The Democrat-dominated Hawaii Legislature voted 24-0 in the Senate and 50-1 in the House to send Senate Bill 2471 to Governor Josh Green’s desk. If signed into law, it would take effect July 1, 2027. The House floor debate In the House, Republican state Representative Kanani Souza opened debate with a call to action. “Plainly, who does this democracy belong to?” Souza said. “Is it the people of Hawaii whose voices, votes and lived realities give meaning to this institution? Or is it corporations, entities created by the state, empowered by law, enriched by privilege, but never intended to stand as political equals to the very people who granted them existence?” Souza argued that Citizens United had fundamentally distorted American democracy by elevating corporate spending into a force no individual voter could realistically match. “Hawaii is not waiting for permission, not following the lead of others,” she said. “We are leading.” Not every House member was persuaded. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. “The people of Hawaii, who are already struggling to afford life here, will have to foot another bill,” Muraoka said. He cast the only “no” vote in the House. State Representative Scott Matayoshi, a Democrat, acknowledged the legal risk but said that was precisely the point. He noted Citizens United itself was a lawsuit that overturned the existing law of the land, Austin v. Michigan Chamber of Commerce, and argued states need to show similarly challenge problematic laws. “If the states are not brave enough to challenge Citizens United and other court rulings at the highest court in the land, those rulings will stand forever,” Matayoshi said. “We need states to step forward in order to challenge these rulings.” Matayoshi also pointed to a key failsafe built into the conference draft: If a court were to strike down the bill’s application to out-of-state entities while leaving the Hawaii restrictions intact, the measure would automatically unbind Hawaii corporations, preventing a scenario in which mainland corporate money flooded in while local voices were silenced. In the Senate Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to Citizens United dates back to the day the ruling came down. In April 2010, just months after the decision, the Legislature passed a concurrent resolution calling on Congress to propose a constitutional amendment to overturn it. Sixteen years later, Rhoads said, nothing had changed except the scale of the problem. “In 2006, dark money was less than $5 million nationwide,” Rhoads said. “In 2024, there was over $1 billion, with a B, anonymously spent in the presidential election alone.” Rhoads warned the anonymity of dark money also invited foreign interference. “It’s very difficult to know whether Russia or Iran or China are funneling money into American elections,” he said. Democratic Senator Jarrett Keohokalole drew a sharp distinction between the rights of citizens and the powers of co",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling",
+      "published_at": "2026-05-08T00:00:00",
+      "publisher": "courthousenews.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7092526284667302
+    },
+    {
+      "id": "src_70fa7d59234a",
+      "title": "Hawaii vs. Citizens United - The Atlantic",
+      "url": "https://www.theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159/#",
+      "snippet": "State lawmakers want to change the terms of personhood for corporations. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in *Citizens United v. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. (If he happens to not sign it, those same lawmakers said that the legislature is unlikely to override a veto.) Erika Engle, Green’s press secretary, told me in a statement that the governor would announce his decision “at the appropriate time” and that he “recognizes the precedent-setting nature of this legislation and thanks the Legislature for its hard work on this matter.”.",
+      "content": "Sign up for Inside the Trump Presidency, a newsletter featuring coverage of the second Trump term. Fifteen years after Mitt Romney stood on an Iowa hay bale and proclaimed that “corporations are people, my friend,” his declaration is no longer mockable. The amount of money corporations spend anonymously to sway federal elections has increased from $359 million in 2012 to $1.4 billion in the most recent presidential cycle. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in Citizens United v. FEC that U.S. corporations function as citizen associations under the Constitution. But not all of these “people” are created exactly equal. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Hawaii is the first state to try. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. “Corporations are not people. They are granted powers and privileges by the state,” State Senator Jarrett Keohokalole told me this week, explaining the rationale of the bill he sponsored. “How can a creation of the state have inalienable rights? It doesn’t make any sense.” The legislation—which Hawaii Governor Josh Green, a Democrat, has not yet signed—is expected to apply to for-profit companies, so-called dark-money nonprofits, unions, and chambers of commerce, potentially cutting off a major revenue stream for the super PACs that dominate politics. The legislation makes exceptions for journalistic work—as in, newspaper editorials explicitly advocating for certain candidates—and company-organized political-action committees that pool individual donations. Under the proposal, Hawaiian corporations would still enjoy personhood of a kind, but they would lack a single ability guaranteed to their living and breathing peers. Supporters point to Chief Justice John Marshall’s 1819 opinion in Trustees of Dartmouth College v. Woodward, a landmark case that set the course of corporate law that followed. “A corporation is an artificial being, invisible, intangible, and existing only in contemplation of law,” Marshall wrote. “Being the mere creature of law, it possesses only those properties which the charter of its creation confers upon it.” Tom Moore, a senior fellow at the Center for American Progress who previously worked for a chair of the Federal Election Commission, came up with this legal strategy as a bank-shot attempt to reverse the impact of the 2010 Citizens United decision without directly engaging its First Amendment logic. Moore argues that states can change their corporate laws while sidestepping free-speech questions because the corporate charter—that “mere creature of law”—precedes any constitutional right. “This is not a campaign-finance regulation,” he told me. “You have to look at it differently.” This year, his evangelizing led to the introduction of legislation in 15 states, Moore said, but only Hawaii was able to get a bill to a governor’s desk. In Montana, activists are gathering signatures in hope of making the issue a ballot initiative in November. “We need to have an answer to all the money in politics these past 15 years,” Jeff Mangan, the organizer of that effort, told me. As a political matter, the gambit is likely popular. A 2023 Pew Research Center poll found that, among both Republicans and Democrats, more than seven in 10 support limits on the amount of money organizations can spend on political campaigns. YouGov polling last year for Issue One, a group advocating for more restrictions on ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "theatlantic.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6848201200240428
+    },
+    {
+      "id": "src_bf174ec28693",
+      "title": "Can Hawaiʻi Deliver All Of America From Citizens United? - Civil Beat",
+      "url": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/#",
+      "snippet": "Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. Tom Moore of the Center for American Progress testifying in support of Senate Bill 2471, which he said would make Hawaiʻi the leader in addressing the Citizens United case of 2010. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections.",
+      "content": "Can Hawaiʻi Deliver All Of America From Citizens United? A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. By Chad Blair April 5, 2026 · 9 min read About the Author A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. Federal Election Commission. The 5-4 decision allowed corporations and other outside groups including labor unions to spend unlimited money on elections. The ruling is the law of land unless the high court reverses itself or the states and Congress agree to amend the constitution — both very high bars in the current political climate. But what if the states took the the initiative to limit the impact of Citizens United by passing their own laws to change the way corporations are defined? That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. That could directly challenge the ability of super PACs to raise unlimited money and keep their sources of funding secret. “It makes Citizens United irrelevant in Hawaiʻi,” said Tom Moore, a senior fellow for democracy policy at the Center for American Progress who previously served for seven years at the Federal Election Commission. “Hawaiʻi has the opportunity to lead.” Moore has testified a lot on SB 2471 this session, in writing and over Zoom, and so far he has been able to persuade lawmakers of his argument. The bill has cleared the Senate unanimously and one House committee. David Tarnas, chair of the House Judiciary and Hawaiian Affairs Committee, said he will decide soon whether to hear it as well — the last committee necessary for the bill to advance to likely conference committee negotiations in late April. The session ends May 8. Sen. Karl Rhoads, the bill’s author, said the bill could lead to greater transparency when it comes to political donations in the state. “I believe it will reduce the amount of money coming into campaigns, but more importantly, it will make the money that does come in more easier to figure out who it actually came from,” he said. Colin Moore, a political analyst at the University of Hawai‘i Mānoa, describes SB 2471 as a clever end run around the U.S. Supreme Court’s ruling. “I think this is a creative and ambitious bill,” he said. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections. That’s a genuinely innovative idea.” Whether it passes legal muster remains to be seen. The Attorney General’s Office opposes SB 2471. Deputy Attorney General Christopher Han told lawmakers that, while the department “greatly sympathizes with the frustration with federal case law on this subject,” the bill raises “serious constitutional concerns and substantial adverse litigation risk” should it become law. “While many Americans strongly disagree with the U.S. Supreme Court’s holding in Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” he said in written testimony last month. Han reaffirmed that argument when he spoke to the House Consumer Protection and Commerce Committee on March 18. He said SB 2471 relied on “an untested legal theory, the viability of which we",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+      "canonical_url": "https://civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united",
+      "published_at": "2026-04-05T00:00:00",
+      "publisher": "civilbeat.org",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.6636473337815373
+    },
+    {
+      "id": "src_d6f146da7498",
+      "title": "citizens united | Common Dreams",
+      "url": "https://www.commondreams.org/tag/citizens-united#",
+      "snippet": "\"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The Democrat delivered a similar message about building \"a movement to get money out of politics\" and \"a government that represents working people\" in a Wednesday statement welcoming support from a group that's long worked to overturn the 2010 decision *Citizens United v.* *Federal Election Commission*. \"We don't take a dime of corporate PAC money, and we're going to keep it that way, because our politics has been bought and paid for by billionaires for far too long,\" Platner said.",
+      "content": "\"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections. But we are not powerless. We can fight back,\" said US Rep. Greg Casar. The state of Hawaii has passed a law that poses a direct challenge to the infamous 2010 Citizens UnitedSupreme Court ruling, which opened the door to unlimited corporate spending in US elections. Democratic Hawaii Gov. Josh Green on Thursday signed into law a bill that takes aim at the court's ruling that corporations are effectively people with full free speech rights who can face no limits on what they can contribute to political organizations. As explained by More Perfect Union, the law, which is set to take effect next July, classifies corporations as \"artificial persons\" who do not have a constitutional right to make political donations. \"The bill could limit the influence of super PACs,\" noted More Perfect Union, \"and be a model to challenge the influence of money in politics.\" Democratic Hawaii state Sen. Jarrett Keohokalole, a supporter of the law, said on Thursday he was proud that Hawaii has become \"the first state in the nation\" to take direct action challenging Citizens United. \"As elected leaders, we do not serve artificial entities,\" Keohokalole said. \"We serve the people.\" US Rep. Greg Casar (D-Texas), chair of the Congressional Progressive Caucus, hailed the law as \"big news\" that should inspire opponents of limitless corporate political spending across the US. \"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections,\" said Casar. \"But we are not powerless. We can fight back.\" The new law passed despite opposition from Hawaii Attorney General Anne Lopez, who argued that defending it in court could be difficult and expensive. The law's passage earned praise from campaign finance watchdogs who have long called for overturning Citizens United and reestablishing guardrails for corporate cash in US democracy. Michael Beckel, who directs the Money in Politics project for the advocacy group Issue One, said the Hawaii law is a \"model for the country\" that other states should rush to emulate. \"This measure... is among the most innovative and impactful ideas to curb corporate and dark money spending in campaigns since the Supreme Court’s disastrous Citizens United ruling in 2010,\" Beckel said. \"Those looking to bring more transparency and accountability to elections should embrace this powerful proposal and follow Hawaii’s lead.\" End Citizens United, the nonprofit campaign finance reform organization dedicated to overturning the 2010 Supreme Court ruling, also pushed other states to look at Hawaii's law as a roadmap for their own legislation. \"Hawaii has provided a blueprint for how to prevent super PACs from spending dark money by passing state law,\" the group said in a social media post. \"Let this win be a testament to the ability states have to put power back in the hands of everyday people by neutralizing the effects of the Citizens United ruling.\" Tom Moore, senior fellow at the Center for American Progress, praised the Hawaii law in an interview with The Associated Press, calling it \"a brave and bold step to get corporate and dark money out of America’s politics\" that \"will send a powerful message that will be heard loud and clear across the Pacific and across the mainland.\" \"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The oyster farmer and military combat veteran launched his campaign last August with an advertisement declaring that \"billionaires\" and \"t",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Hawaii first state to end Citizens United state resolution 2026 Common Dreams"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Hawaii first state to end Citizens United state resolution 2026 Common Dreams",
+      "canonical_url": "https://commondreams.org/tag/citizens-united",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "commondreams.org",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6600286137653352
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @sicilianrick.bsky.social",
+      "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+      "snippet": "End Citizens United!",
+      "content": "End Citizens United!",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "sicilianrick.bsky.social",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.6512520315020164
+    },
+    {
+      "id": "src_451f9fc7cb45",
+      "title": "States' efforts to limit corporate donations in politics explained",
+      "url": "https://www.denverpost.com/2026/05/12/corporate-campaign-money-explained/#",
+      "snippet": "## Advocates see the effort as a way to get around the Supreme Court's Citizens United decision that opened the door to more outside election spending. Hawaii lawmakers and activists pose for a photo after discussing a bill that seeks to limit corporate money in politics in Honolulu on Thursday, April 23, 2026. HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. “The one thing I am absolutely sure of is if it got the signatures and is passed by the Montana public and is approved by the Montana courts, that the Supreme Court will want a crack at it,” he said.",
+      "content": "By JENNIFER SINCO KELLEHER and GEOFF MULVIHILL HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. A volunteer group in Montana is gathering signatures in hopes of putting a similar issue to voters in November. Supporters say voters dislike corporate and dark money in elections and this effort meets a need. Detractors say states can’t pass laws to skirt Supreme Court decisions they don’t like. Similar legislation has been introduced in at least 14 states besides Hawaii, but none of those bills have gotten very far. Political spending has changed since Citizens United Citizens United, a conservative group, wanted to run TV commercials promoting its anti-Hillary Clinton movie when she was running for president in 2008. The high court’s ruling in its case two years later effectively struck down a ban on corporate and union election spending as long as they don’t donate directly to any campaigns. The ruling has benefitted Democrats and Republicans. The campaign finance watchdog group OpenSecrets tracked more than $4 billion in outside political spending in the 2024 federal elections — almost 12 times as much as in 2008. Some of that came from dark money groups that aren’t required to disclose donors, and the Brennan Center for Justice tallied a record $1.9 billion in that type of spending in 2024. Dark money has also played a part in some state-level races. Justin Levitt, a professor at Loyola Law School who studies campaign finance law, said keeping companies from spending on elections might not make a big difference in how political spending works, noting that far more is spent by wealthy people such as Elon Musk. One advocate’s idea: Redefining corporate powers Americans want to undo the Citizens United ruling, according to Tom Moore, a former Federal Elections Commission lawyer who is now a senior fellow at the Center for American Progress. The think-tank in Washington, D.C. is pushing to redefine corporations to ban spending on campaigns but allow them to lobby lawmakers. The prohibition would also include the nonprofit organizations involved in dark money spending. “This is a genuinely new approach to getting Citizens United out of America’s politics that is based on absolutely foundational corporation law,” he said. If just one state adopts it, Moore said, it would be tested in court. It’s up to the governor in Hawaii and could go to voters in Montana Hawaii Gov. Josh Green, a Democrat, hasn’t said whether he’ll sign the bill. He has to say by June 30 if he intends to veto it. “This is an instance where a small state has a chance to make big waves on the national scene,” said state Sen. Karl Rhoads, a Democrat, who introduced the legislation. “I think we should take advantage of it.” The office of Hawaii Attorney General Anne Lopez, a Democrat, opposed the bill, arguing in part that will be difficult and costly to defend in court. Separately, volunteers are gathering signatures hoping to put the corporate redefinition idea — branded as The Montana Plan — before voters in that state in November. Montana’s Supreme Court ruled in April that the effort could proceed even after Republican state Attorney General Austin Knudsen said it violates the requirement that ballot initiatives stick to one subject. “It really resonates with citizens,” said Jeff Mangan, a former Montana state commissioner of political practices who’s leading the ballot effort. “They probably see it because they live it.” But would it work? Bradley Smith, a Republican former member of the Federal Election Commission, says Moore’s idea is not likely to pass muster in court. “The mistake I think supporters of this ",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "state-level efforts to overturn Citizens United corporate political spending ban"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "state-level efforts to overturn Citizens United corporate political spending ban",
+      "canonical_url": "https://denverpost.com/2026/05/12/corporate-campaign-money-explained",
+      "published_at": "2026-05-12T00:00:00",
+      "publisher": "denverpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6421508444462714
+    }
+  ],
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "CRITICAL_BULLETS_REMOVED",
+      "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+      "bullet_index": null
+    }
+  ],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+      "platform": "bluesky",
+      "author": {
+        "handle": "sicilianrick.bsky.social",
+        "display_name": "Rick Paisano",
+        "did": "did:plc:xi4zc3eagsiyjzayxuz7svrk"
+      },
+      "text": "End Citizens United!",
+      "created_at": "2026-05-15T18:18:55.599000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:xi4zc3eagsiyjzayxuz7svrk/bafkreibwi6r24r2nhbx2qkm5tpmp7v2swuishwvku4voa65yssvlhe3ibu",
+          "alt_text": null,
+          "ocr_text": "Hawaii just became the first state in our nation to END Citizens United; a bold move that will put elections back into the hands of regular voters and not the billionaire class, and if we want to save our democracy WE NEED TO DO THIS IN EVERY STATE!",
+          "description": "The image is a political graphic. The upper portion shows a daytime cityscape with numerous tall buildings, trees, and water in the background. The lower portion is a solid dark background overlaid with large white and yellow text advocating for ending Citizens United and calling for similar action in every state.",
+          "image_type": "poster"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen..."
+    },
+    "explanation": [
+      {
+        "text": "The post’s slogan “End Citizens United!” and the longer thread text show the author supporting efforts to stop political donations from “artificial persons (Corps.)” and expressing approval of recent state-level action he believes can curb such corporate election spending.",
+        "source_ids": [
+          "thread_original",
+          "thread_context"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "Hawaii’s legislature passed Senate Bill 2471, described as a first-in-the-nation measure aimed at stripping corporations of the power to spend money in Hawaii state elections by redefining corporate powers under state law and targeting the effects of the 2010 Citizens United v. FEC ruling.",
+        "source_ids": [
+          "src_463f39a7d3c7",
+          "src_70fa7d59234a",
+          "src_bf174ec28693",
+          "src_451f9fc7cb45"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "These sources describe passage by the legislature; when and how the measure ultimately takes effect will depend on the governor’s action and potential court challenges.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Supporters of Hawaii’s approach, including legislators and advocacy-aligned legal experts, argue that corporations are “artificial persons” created by state law and that Hawaii can therefore deny them the power to spend money on elections, which they say would reduce corporate and dark-money influence and could make Citizens United effectively irrelevant within the state.",
+        "source_ids": [
+          "src_463f39a7d3c7",
+          "src_70fa7d59234a",
+          "src_bf174ec28693",
+          "src_d6f146da7498",
+          "src_451f9fc7cb45"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This summarizes the rationale and advocacy position reported in the sources; courts have not yet resolved whether this legal theory is valid.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Opponents and legal critics, including Hawaii’s attorney general’s office, maintain that Citizens United remains binding federal law and warn that Hawaii’s new corporate-spending limits rely on an untested legal theory that could be struck down and expose the state to substantial litigation costs.",
+        "source_ids": [
+          "src_463f39a7d3c7",
+          "src_bf174ec28693",
+          "src_451f9fc7cb45"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "legal_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects concerns reported from specific officials and experts about constitutional risk; it does not predict the outcome of any future lawsuits.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @sicilianrick.bsky.social",
+        "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+        "snippet": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+        "content": "I was surprised and delighted that this happened. I didn't realize that states could stop it.\n\nBut why, after so many years and a few elections, has this taken so long??\n\nNo political donations from artificial persons (Corps.)\n\nTHIS IS THE WAY!\n\nAloha! 👍🤙\n\nwww.commondreams.org/news/citizen...",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "sicilianrick.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_463f39a7d3c7",
+        "title": "Hawaii Legislature passes first-in-nation bill targeting Citizens ...",
+        "url": "https://www.courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling/#",
+        "snippet": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to *Citizens United* dates back to the day the ruling came down.",
+        "content": "HONOLULU (CN) — Invoking America’s Founding Fathers, the overthrow of the Hawaiian Kingdom and the outsized influence of the sugar industry over island politics, Hawaii lawmakers on Friday passed a first-in-the-nation bill to strip corporations of the power to spend money in state elections. The bill takes aim at the U.S. Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling, which allowed corporations to spend unlimited amounts of money in elections. Lawmakers, drawing from a legal theory developed by the Center for American Progress, argued that because states create corporations and grant them their powers, Hawaii could simply decline to grant corporations the power to spend in elections. The Democrat-dominated Hawaii Legislature voted 24-0 in the Senate and 50-1 in the House to send Senate Bill 2471 to Governor Josh Green’s desk. If signed into law, it would take effect July 1, 2027. The House floor debate In the House, Republican state Representative Kanani Souza opened debate with a call to action. “Plainly, who does this democracy belong to?” Souza said. “Is it the people of Hawaii whose voices, votes and lived realities give meaning to this institution? Or is it corporations, entities created by the state, empowered by law, enriched by privilege, but never intended to stand as political equals to the very people who granted them existence?” Souza argued that Citizens United had fundamentally distorted American democracy by elevating corporate spending into a force no individual voter could realistically match. “Hawaii is not waiting for permission, not following the lead of others,” she said. “We are leading.” Not every House member was persuaded. State Representative Chris Muraoka, also a Republican, said he supported the bill’s intent but warned that Hawaii Attorney General Anne Lopez had already concluded the measure would likely be struck down in court and that taxpayers would bear the cost of defending it. “The people of Hawaii, who are already struggling to afford life here, will have to foot another bill,” Muraoka said. He cast the only “no” vote in the House. State Representative Scott Matayoshi, a Democrat, acknowledged the legal risk but said that was precisely the point. He noted Citizens United itself was a lawsuit that overturned the existing law of the land, Austin v. Michigan Chamber of Commerce, and argued states need to show similarly challenge problematic laws. “If the states are not brave enough to challenge Citizens United and other court rulings at the highest court in the land, those rulings will stand forever,” Matayoshi said. “We need states to step forward in order to challenge these rulings.” Matayoshi also pointed to a key failsafe built into the conference draft: If a court were to strike down the bill’s application to out-of-state entities while leaving the Hawaii restrictions intact, the measure would automatically unbind Hawaii corporations, preventing a scenario in which mainland corporate money flooded in while local voices were silenced. In the Senate Democratic state Senator Karl Rhoads, chair of the Senate Judiciary Committee and the bill’s lead author, said Hawaii’s opposition to Citizens United dates back to the day the ruling came down. In April 2010, just months after the decision, the Legislature passed a concurrent resolution calling on Congress to propose a constitutional amendment to overturn it. Sixteen years later, Rhoads said, nothing had changed except the scale of the problem. “In 2006, dark money was less than $5 million nationwide,” Rhoads said. “In 2024, there was over $1 billion, with a B, anonymously spent in the presidential election alone.” Rhoads warned the anonymity of dark money also invited foreign interference. “It’s very difficult to know whether Russia or Iran or China are funneling money into American elections,” he said. Democratic Senator Jarrett Keohokalole drew a sharp distinction between the rights of citizens and the powers of co",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+        "canonical_url": "https://courthousenews.com/hawaii-legislature-passes-first-in-nation-bill-targeting-citizens-united-ruling",
+        "published_at": "2026-05-08T00:00:00",
+        "publisher": "courthousenews.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_70fa7d59234a",
+        "title": "Hawaii vs. Citizens United - The Atlantic",
+        "url": "https://www.theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159/#",
+        "snippet": "State lawmakers want to change the terms of personhood for corporations. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in *Citizens United v. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. (If he happens to not sign it, those same lawmakers said that the legislature is unlikely to override a veto.) Erika Engle, Green’s press secretary, told me in a statement that the governor would announce his decision “at the appropriate time” and that he “recognizes the precedent-setting nature of this legislation and thanks the Legislature for its hard work on this matter.”.",
+        "content": "Sign up for Inside the Trump Presidency, a newsletter featuring coverage of the second Trump term. Fifteen years after Mitt Romney stood on an Iowa hay bale and proclaimed that “corporations are people, my friend,” his declaration is no longer mockable. The amount of money corporations spend anonymously to sway federal elections has increased from $359 million in 2012 to $1.4 billion in the most recent presidential cycle. All of that spending by “dark money” nonprofits is protected by the same right to free speech enjoyed by “natural persons,” because the Supreme Court decided in Citizens United v. FEC that U.S. corporations function as citizen associations under the Constitution. But not all of these “people” are created exactly equal. Whereas humans are automatically granted certain rights at birth, corporate personhood comes into existence under state laws that define its powers—a fact that opponents of corporate money in politics hope to use to transform how U.S. elections are funded. Hawaii is the first state to try. Earlier this month, a nearly unanimous and bipartisan majority—well, as bipartisan as it gets in a state with so few Republicans—of Hawaii’s state legislature voted to change the powers of corporations doing business in the state and no longer grant them the ability to spend on most political causes. “Corporations are not people. They are granted powers and privileges by the state,” State Senator Jarrett Keohokalole told me this week, explaining the rationale of the bill he sponsored. “How can a creation of the state have inalienable rights? It doesn’t make any sense.” The legislation—which Hawaii Governor Josh Green, a Democrat, has not yet signed—is expected to apply to for-profit companies, so-called dark-money nonprofits, unions, and chambers of commerce, potentially cutting off a major revenue stream for the super PACs that dominate politics. The legislation makes exceptions for journalistic work—as in, newspaper editorials explicitly advocating for certain candidates—and company-organized political-action committees that pool individual donations. Under the proposal, Hawaiian corporations would still enjoy personhood of a kind, but they would lack a single ability guaranteed to their living and breathing peers. Supporters point to Chief Justice John Marshall’s 1819 opinion in Trustees of Dartmouth College v. Woodward, a landmark case that set the course of corporate law that followed. “A corporation is an artificial being, invisible, intangible, and existing only in contemplation of law,” Marshall wrote. “Being the mere creature of law, it possesses only those properties which the charter of its creation confers upon it.” Tom Moore, a senior fellow at the Center for American Progress who previously worked for a chair of the Federal Election Commission, came up with this legal strategy as a bank-shot attempt to reverse the impact of the 2010 Citizens United decision without directly engaging its First Amendment logic. Moore argues that states can change their corporate laws while sidestepping free-speech questions because the corporate charter—that “mere creature of law”—precedes any constitutional right. “This is not a campaign-finance regulation,” he told me. “You have to look at it differently.” This year, his evangelizing led to the introduction of legislation in 15 states, Moore said, but only Hawaii was able to get a bill to a governor’s desk. In Montana, activists are gathering signatures in hope of making the issue a ballot initiative in November. “We need to have an answer to all the money in politics these past 15 years,” Jeff Mangan, the organizer of that effort, told me. As a political matter, the gambit is likely popular. A 2023 Pew Research Center poll found that, among both Republicans and Democrats, more than seven in 10 support limits on the amount of money organizations can spend on political campaigns. YouGov polling last year for Issue One, a group advocating for more restrictions on ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+        "canonical_url": "https://theatlantic.com/politics/2026/05/hawaii-corporations-political-money/687159",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "theatlantic.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_bf174ec28693",
+        "title": "Can Hawaiʻi Deliver All Of America From Citizens United? - Civil Beat",
+        "url": "https://www.civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united/#",
+        "snippet": "Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. Tom Moore of the Center for American Progress testifying in support of Senate Bill 2471, which he said would make Hawaiʻi the leader in addressing the Citizens United case of 2010. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections.",
+        "content": "Can Hawaiʻi Deliver All Of America From Citizens United? A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. By Chad Blair April 5, 2026 · 9 min read About the Author A state Senate bill proposes a novel approach that one legal expert says would make the controversial national campaign finance law irrelevant in the islands. Few decisions by the U.S. Supreme Court have had a greater impact on the nation’s political landscape than the 2010 ruling in Citizens United v. Federal Election Commission. The 5-4 decision allowed corporations and other outside groups including labor unions to spend unlimited money on elections. The ruling is the law of land unless the high court reverses itself or the states and Congress agree to amend the constitution — both very high bars in the current political climate. But what if the states took the the initiative to limit the impact of Citizens United by passing their own laws to change the way corporations are defined? That is the purpose of Senate Bill 2471, which would emphasize that corporations are “artificial persons” created by state law and granted powers and privileges by it — something SB 2471 points out is already part of Hawaiʻi’s constitution. The bill would make clear that the powers of corporations do not include spending money or contributing “anything of value” to influence elections or ballot measures, as the bill’s language explains. That could directly challenge the ability of super PACs to raise unlimited money and keep their sources of funding secret. “It makes Citizens United irrelevant in Hawaiʻi,” said Tom Moore, a senior fellow for democracy policy at the Center for American Progress who previously served for seven years at the Federal Election Commission. “Hawaiʻi has the opportunity to lead.” Moore has testified a lot on SB 2471 this session, in writing and over Zoom, and so far he has been able to persuade lawmakers of his argument. The bill has cleared the Senate unanimously and one House committee. David Tarnas, chair of the House Judiciary and Hawaiian Affairs Committee, said he will decide soon whether to hear it as well — the last committee necessary for the bill to advance to likely conference committee negotiations in late April. The session ends May 8. Sen. Karl Rhoads, the bill’s author, said the bill could lead to greater transparency when it comes to political donations in the state. “I believe it will reduce the amount of money coming into campaigns, but more importantly, it will make the money that does come in more easier to figure out who it actually came from,” he said. Colin Moore, a political analyst at the University of Hawai‘i Mānoa, describes SB 2471 as a clever end run around the U.S. Supreme Court’s ruling. “I think this is a creative and ambitious bill,” he said. “It tries to get around Citizens United by arguing that corporations only have the powers the state chooses to grant them, and that Hawaiʻi can decline to grant the power to spend money on elections. That’s a genuinely innovative idea.” Whether it passes legal muster remains to be seen. The Attorney General’s Office opposes SB 2471. Deputy Attorney General Christopher Han told lawmakers that, while the department “greatly sympathizes with the frustration with federal case law on this subject,” the bill raises “serious constitutional concerns and substantial adverse litigation risk” should it become law. “While many Americans strongly disagree with the U.S. Supreme Court’s holding in Citizens United, under our federal system of government, it is our duty to state that this opinion remains the law of the land, irrespective of its merits (or lack thereof),” he said in written testimony last month. Han reaffirmed that argument when he spoke to the House Consumer Protection and Commerce Committee on March 18. He said SB 2471 relied on “an untested legal theory, the viability of which we",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "\"Hawaii just became the first state in our nation to END Citizens United\" fact check"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "\"Hawaii just became the first state in our nation to END Citizens United\" fact check",
+        "canonical_url": "https://civilbeat.org/2026/04/can-hawaii-deliver-all-of-america-from-citizens-united",
+        "published_at": "2026-04-05T00:00:00",
+        "publisher": "civilbeat.org",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "src_d6f146da7498",
+        "title": "citizens united | Common Dreams",
+        "url": "https://www.commondreams.org/tag/citizens-united#",
+        "snippet": "\"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The Democrat delivered a similar message about building \"a movement to get money out of politics\" and \"a government that represents working people\" in a Wednesday statement welcoming support from a group that's long worked to overturn the 2010 decision *Citizens United v.* *Federal Election Commission*. \"We don't take a dime of corporate PAC money, and we're going to keep it that way, because our politics has been bought and paid for by billionaires for far too long,\" Platner said.",
+        "content": "\"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections. But we are not powerless. We can fight back,\" said US Rep. Greg Casar. The state of Hawaii has passed a law that poses a direct challenge to the infamous 2010 Citizens UnitedSupreme Court ruling, which opened the door to unlimited corporate spending in US elections. Democratic Hawaii Gov. Josh Green on Thursday signed into law a bill that takes aim at the court's ruling that corporations are effectively people with full free speech rights who can face no limits on what they can contribute to political organizations. As explained by More Perfect Union, the law, which is set to take effect next July, classifies corporations as \"artificial persons\" who do not have a constitutional right to make political donations. \"The bill could limit the influence of super PACs,\" noted More Perfect Union, \"and be a model to challenge the influence of money in politics.\" Democratic Hawaii state Sen. Jarrett Keohokalole, a supporter of the law, said on Thursday he was proud that Hawaii has become \"the first state in the nation\" to take direct action challenging Citizens United. \"As elected leaders, we do not serve artificial entities,\" Keohokalole said. \"We serve the people.\" US Rep. Greg Casar (D-Texas), chair of the Congressional Progressive Caucus, hailed the law as \"big news\" that should inspire opponents of limitless corporate political spending across the US. \"The far-right Supreme Court hijacked the Constitution to let corporations spend in our elections,\" said Casar. \"But we are not powerless. We can fight back.\" The new law passed despite opposition from Hawaii Attorney General Anne Lopez, who argued that defending it in court could be difficult and expensive. The law's passage earned praise from campaign finance watchdogs who have long called for overturning Citizens United and reestablishing guardrails for corporate cash in US democracy. Michael Beckel, who directs the Money in Politics project for the advocacy group Issue One, said the Hawaii law is a \"model for the country\" that other states should rush to emulate. \"This measure... is among the most innovative and impactful ideas to curb corporate and dark money spending in campaigns since the Supreme Court’s disastrous Citizens United ruling in 2010,\" Beckel said. \"Those looking to bring more transparency and accountability to elections should embrace this powerful proposal and follow Hawaii’s lead.\" End Citizens United, the nonprofit campaign finance reform organization dedicated to overturning the 2010 Supreme Court ruling, also pushed other states to look at Hawaii's law as a roadmap for their own legislation. \"Hawaii has provided a blueprint for how to prevent super PACs from spending dark money by passing state law,\" the group said in a social media post. \"Let this win be a testament to the ability states have to put power back in the hands of everyday people by neutralizing the effects of the Citizens United ruling.\" Tom Moore, senior fellow at the Center for American Progress, praised the Hawaii law in an interview with The Associated Press, calling it \"a brave and bold step to get corporate and dark money out of America’s politics\" that \"will send a powerful message that will be heard loud and clear across the Pacific and across the mainland.\" \"Unlike Graham, who rejects corporate PAC money and refuses to sell out, Sen. Collins has never met a corporate PAC check she didn't like,\" said the head of End Citizens United. Graham Platner, the presumptive Democratic candidate to challenge Republican Sen. Susan Collins in Maine, continues to rake in endorsements, and on Wednesday won support from End Citizens United, which advocates for reversing the US Supreme Court decision that opened the floodgates to unlimited corporate spending in elections. The oyster farmer and military combat veteran launched his campaign last August with an advertisement declaring that \"billionaires\" and \"t",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Hawaii first state to end Citizens United state resolution 2026 Common Dreams"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Hawaii first state to end Citizens United state resolution 2026 Common Dreams",
+        "canonical_url": "https://commondreams.org/tag/citizens-united",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "commondreams.org",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @sicilianrick.bsky.social",
+        "url": "https://bsky.app/profile/sicilianrick.bsky.social/post/3mlvwziwors2g",
+        "snippet": "End Citizens United!",
+        "content": "End Citizens United!",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "sicilianrick.bsky.social",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      },
+      {
+        "id": "src_451f9fc7cb45",
+        "title": "States' efforts to limit corporate donations in politics explained",
+        "url": "https://www.denverpost.com/2026/05/12/corporate-campaign-money-explained/#",
+        "snippet": "## Advocates see the effort as a way to get around the Supreme Court's Citizens United decision that opened the door to more outside election spending. Hawaii lawmakers and activists pose for a photo after discussing a bill that seeks to limit corporate money in politics in Honolulu on Thursday, April 23, 2026. HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. “The one thing I am absolutely sure of is if it got the signatures and is passed by the Montana public and is approved by the Montana courts, that the Supreme Court will want a crack at it,” he said.",
+        "content": "By JENNIFER SINCO KELLEHER and GEOFF MULVIHILL HONOLULU (AP) — Two states could try a new way to reduce the influence of corporations and hard-to-track “dark money” groups that have been able to spend unlimited amounts on politics since the Supreme Court’s 2010 Citizens United v. Federal Election Commission ruling. Hawaii lawmakers on Friday sent a bill to the governor that would redefine corporations in a way that precludes spending on elections. A volunteer group in Montana is gathering signatures in hopes of putting a similar issue to voters in November. Supporters say voters dislike corporate and dark money in elections and this effort meets a need. Detractors say states can’t pass laws to skirt Supreme Court decisions they don’t like. Similar legislation has been introduced in at least 14 states besides Hawaii, but none of those bills have gotten very far. Political spending has changed since Citizens United Citizens United, a conservative group, wanted to run TV commercials promoting its anti-Hillary Clinton movie when she was running for president in 2008. The high court’s ruling in its case two years later effectively struck down a ban on corporate and union election spending as long as they don’t donate directly to any campaigns. The ruling has benefitted Democrats and Republicans. The campaign finance watchdog group OpenSecrets tracked more than $4 billion in outside political spending in the 2024 federal elections — almost 12 times as much as in 2008. Some of that came from dark money groups that aren’t required to disclose donors, and the Brennan Center for Justice tallied a record $1.9 billion in that type of spending in 2024. Dark money has also played a part in some state-level races. Justin Levitt, a professor at Loyola Law School who studies campaign finance law, said keeping companies from spending on elections might not make a big difference in how political spending works, noting that far more is spent by wealthy people such as Elon Musk. One advocate’s idea: Redefining corporate powers Americans want to undo the Citizens United ruling, according to Tom Moore, a former Federal Elections Commission lawyer who is now a senior fellow at the Center for American Progress. The think-tank in Washington, D.C. is pushing to redefine corporations to ban spending on campaigns but allow them to lobby lawmakers. The prohibition would also include the nonprofit organizations involved in dark money spending. “This is a genuinely new approach to getting Citizens United out of America’s politics that is based on absolutely foundational corporation law,” he said. If just one state adopts it, Moore said, it would be tested in court. It’s up to the governor in Hawaii and could go to voters in Montana Hawaii Gov. Josh Green, a Democrat, hasn’t said whether he’ll sign the bill. He has to say by June 30 if he intends to veto it. “This is an instance where a small state has a chance to make big waves on the national scene,” said state Sen. Karl Rhoads, a Democrat, who introduced the legislation. “I think we should take advantage of it.” The office of Hawaii Attorney General Anne Lopez, a Democrat, opposed the bill, arguing in part that will be difficult and costly to defend in court. Separately, volunteers are gathering signatures hoping to put the corporate redefinition idea — branded as The Montana Plan — before voters in that state in November. Montana’s Supreme Court ruled in April that the effort could proceed even after Republican state Attorney General Austin Knudsen said it violates the requirement that ballot initiatives stick to one subject. “It really resonates with citizens,” said Jeff Mangan, a former Montana state commissioner of political practices who’s leading the ballot effort. “They probably see it because they live it.” But would it work? Bradley Smith, a Republican former member of the Federal Election Commission, says Moore’s idea is not likely to pass muster in court. “The mistake I think supporters of this ",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "state-level efforts to overturn Citizens United corporate political spending ban"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "state-level efforts to overturn Citizens United corporate political spending ban",
+        "canonical_url": "https://denverpost.com/2026/05/12/corporate-campaign-money-explained",
+        "published_at": "2026-05-12T00:00:00",
+        "publisher": "denverpost.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "medium",
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "CRITICAL_BULLETS_REMOVED",
+        "message": "Unsupported bullets were removed because their citations did not match the claim type: author interpretation was not cited to the original post.",
+        "bullet_index": null
+      }
+    ],
+    "execution_time_ms": 26709
+  }
+}

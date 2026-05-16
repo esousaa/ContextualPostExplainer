@@ -7,6 +7,8 @@ from app.application.source_quality import evaluate_source_quality, matches_post
 from app.domain.models import Evidence, PostData, RankedEvidence
 from app.ports.embedding_client import EmbeddingClient
 
+MAX_EMBEDDING_TEXT_CHARS = 3_000
+
 
 class EvidenceRanker:
     def __init__(self, embedding_client: EmbeddingClient) -> None:
@@ -54,11 +56,18 @@ def _post_text(post: PostData) -> str:
         post.thread_text,
         image_context_text(post),
     ]
-    return "\n\n".join(part for part in parts if part)
+    return _truncate_embedding_text("\n\n".join(part for part in parts if part))
 
 
 def _evidence_text(evidence: Evidence) -> str:
-    return "\n\n".join([evidence.title, evidence.snippet, evidence.content])
+    return _truncate_embedding_text(
+        "\n\n".join([evidence.title, evidence.snippet, evidence.content])
+    )
+
+
+def _truncate_embedding_text(text: str) -> str:
+    normalized = " ".join(text.split())
+    return normalized[:MAX_EMBEDDING_TEXT_CHARS]
 
 
 def _cosine_similarity(left: np.ndarray, right: np.ndarray) -> float:

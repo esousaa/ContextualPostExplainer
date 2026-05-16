@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from fastapi.testclient import TestClient
@@ -177,3 +178,254 @@ def test_explain_stream_returns_domain_errors_as_sse(client: TestClient, monkeyp
     assert response.status_code == 200
     assert "event: error" in body
     assert '"error": "search_provider_required"' in body
+
+
+def test_runs_api_lists_local_run_artifacts(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    _write_run_fixture(tmp_path, "run_abcdef")
+
+    response = client.get("/api/runs")
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["runs"][0]["run_id"] == "run_abcdef"
+    assert payload["runs"][0]["status"] == "completed"
+    assert payload["runs"][0]["bullet_count"] == 1
+    assert payload["runs"][0]["cited_source_count"] == 1
+
+
+def test_runs_api_returns_detail_with_timeline(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    _write_run_fixture(tmp_path, "run_abcdef")
+
+    response = client.get("/api/runs/run_abcdef")
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["summary"]["run_id"] == "run_abcdef"
+    assert payload["timeline"][0]["node_name"] == "fetch_source_pages"
+    assert payload["timeline"][0]["step"] == "Reading sources"
+    assert payload["timeline"][0]["status"] == "completed"
+    assert payload["raw"]["run_id"] == "run_abcdef"
+
+
+def test_runs_api_marks_zero_bullet_runs_as_no_explanation(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    _write_run_fixture(tmp_path, "run_empty", explanation=[])
+
+    response = client.get("/api/runs/run_empty")
+
+    assert response.status_code == 200
+    assert response.json()["summary"]["status"] == "no_explanation"
+
+
+def test_runs_api_marks_legacy_open_finalize_as_completed(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    _write_run_fixture(
+        tmp_path,
+        "run_legacy",
+        events=[
+            {
+                "timestamp": "2026-05-15T12:00:00+00:00",
+                "event": "node_started",
+                "run_id": "run_legacy",
+                "mode": "live",
+                "node_name": "finalize_response",
+            }
+        ],
+    )
+
+    response = client.get("/api/runs/run_legacy")
+
+    assert response.status_code == 200
+    finalize = response.json()["timeline"][0]
+    assert finalize["status"] == "completed"
+    assert finalize["completed_at"] == "2026-05-15T12:00:00+00:00"
+
+
+def test_analysis_api_aggregates_provider_and_url_behavior(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    _write_run_fixture(
+        tmp_path,
+        "run_tavily",
+        config={"search_provider": "tavily", "openai_embedding_model": "small"},
+        metrics={"search_results_received": 10, "search_results_by_provider": {"tavily": 10}},
+    )
+    _write_run_fixture(
+        tmp_path,
+        "run_composite",
+        explanation=[],
+        config={"search_provider": "composite", "openai_embedding_model": "small"},
+        metrics={
+            "search_results_received": 20,
+            "search_results_by_provider": {"brave": 10, "tavily": 10},
+            "search_provider_overlap_count": 2,
+        },
+    )
+
+    response = client.get("/api/analysis")
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["total_runs"] == 2
+    assert payload["total_urls"] == 1
+    assert {item["key"] for item in payload["provider_aggregates"]} == {
+        "tavily",
+        "composite",
+    }
+    comparison = payload["url_comparisons"][0]
+    assert comparison["behavior_changed"] is True
+    assert comparison["bullet_counts"] == [0, 1]
+
+
+def test_analysis_api_uses_env_models_for_legacy_runs(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    for key, value in REQUIRED_ENV.items():
+        monkeypatch.setenv(key, value)
+    monkeypatch.setenv("OPENAI_VISION_MODEL", "gpt-4o")
+    _write_run_fixture(
+        tmp_path,
+        "run_legacy_models",
+        config=None,
+        metrics={"search_results_received": 10, "search_results_by_provider": {"tavily": 10}},
+    )
+
+    response = client.get("/api/analysis")
+
+    assert response.status_code == 200
+    assert response.json()["llm_aggregates"][0]["key"] == (
+        "gen=gpt-4o | judge=gpt-4o-mini | "
+        "embed=text-embedding-3-small | vision=gpt-4o"
+    )
+
+
+def test_analysis_api_uses_latest_retry_for_comparison_metrics(
+    client: TestClient,
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    monkeypatch.chdir(tmp_path)
+    config = {
+        "search_provider": "tavily",
+        "comparison_group_id": "llm_eval",
+        "comparison_config_id": "newer_full",
+    }
+    _write_run_fixture(
+        tmp_path,
+        "run_failed_first",
+        explanation=[],
+        config=config,
+        generated_at="2026-05-15T12:00:00+00:00",
+    )
+    _write_run_fixture(
+        tmp_path,
+        "run_retry_success",
+        config=config,
+        generated_at="2026-05-15T12:05:00+00:00",
+    )
+
+    response = client.get("/api/analysis")
+
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["total_runs"] == 1
+    provider = payload["provider_aggregates"][0]
+    assert provider["run_count"] == 1
+    assert provider["completed_count"] == 1
+    assert provider["no_explanation_count"] == 0
+
+
+def _write_run_fixture(
+    tmp_path: Path,
+    run_id: str,
+    explanation: list[dict] | None = None,
+    events: list[dict] | None = None,
+    config: dict | None = None,
+    metrics: dict | None = None,
+    generated_at: str = "2026-05-15T12:00:00+00:00",
+) -> None:
+    directory = tmp_path / "runs" / "live"
+    directory.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "run_id": run_id,
+        "mode": "live",
+        "generated_at": generated_at,
+        "events": events
+        if events is not None
+        else [
+            {
+                "timestamp": "2026-05-15T12:00:00+00:00",
+                "event": "node_started",
+                "run_id": run_id,
+                "mode": "live",
+                "node_name": "fetch_source_pages",
+            },
+            {
+                "timestamp": "2026-05-15T12:00:01+00:00",
+                "event": "node_completed",
+                "run_id": run_id,
+                "mode": "live",
+                "node_name": "fetch_source_pages",
+                "duration_ms": 1000,
+            },
+        ],
+        "input_url": "https://bsky.app/profile/example.bsky.social/post/abc",
+        "queries": ["example query"],
+        "metrics": metrics or {"search_results_received": 2},
+        **(config or {}),
+        "config": config or {},
+        "sources": [{"id": "s1"}],
+        "cited_sources": [{"id": "s1"}],
+        "warnings": [],
+        "response": {
+            "post": {
+                "url": "https://bsky.app/profile/example.bsky.social/post/abc",
+                "platform": "bluesky",
+                "author": {"handle": "example.bsky.social"},
+                "text": "Example post",
+                "created_at": None,
+                "images": [],
+                "links": [],
+                "parent_text": None,
+                "quote_text": None,
+                "thread_text": None,
+            },
+            "explanation": (
+                [{"text": "One.", "source_ids": ["s1"]}]
+                if explanation is None
+                else explanation
+            ),
+            "sources": [{"id": "s1"}],
+            "confidence": "high",
+            "warnings": [],
+            "execution_time_ms": 1000,
+        },
+    }
+    (directory / f"{run_id}.json").write_text(
+        json.dumps(payload),
+        encoding="utf-8",
+    )

@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { Clock3, FileText, ShieldCheck } from "lucide-react";
+import { Activity, BarChart3, Clock3, FileText, ShieldCheck } from "lucide-react";
 
 import { StatusPill } from "../../shared/components/StatusPill";
-import { normalizeApiError } from "../../shared/api/errors";
+import { isAbortError, normalizeApiError } from "../../shared/api/errors";
 import { formatSeconds } from "../../shared/utils/date";
 import { confidenceTone } from "./labels";
 import { getConfigStatus } from "./api";
@@ -20,7 +20,11 @@ import type { ConfigStatus } from "./types";
 
 const EXAMPLE_URL = "https://bsky.app/profile/rbreich.bsky.social/post/3mltultyalm2v";
 
-export function ExplainerPage() {
+type ExplainerPageProps = {
+  onNavigate?: (path: string) => void;
+};
+
+export function ExplainerPage({ onNavigate }: ExplainerPageProps) {
   const [url, setUrl] = useState(EXAMPLE_URL);
   const [highlightedSourceIds, setHighlightedSourceIds] = useState<string[]>([]);
   const [selectedSourceIds, setSelectedSourceIds] = useState<string[]>([]);
@@ -32,6 +36,9 @@ export function ExplainerPage() {
     getConfigStatus(controller.signal)
       .then(setConfigStatus)
       .catch((error) => {
+        if (isAbortError(error)) {
+          return;
+        }
         setConfigStatus({
           status: "invalid",
           error: normalizeApiError(error).message
@@ -41,6 +48,7 @@ export function ExplainerPage() {
   }, []);
 
   const response = explainer.status === "success" ? explainer.data : null;
+  const runId = explainer.progress.events.find((event) => event.run_id)?.run_id;
   const sourceById = useMemo(
     () => new Map(response?.sources.map((source) => [source.id, source]) ?? []),
     [response]
@@ -64,6 +72,14 @@ export function ExplainerPage() {
     });
   }
 
+  function navigate(path: string) {
+    if (onNavigate) {
+      onNavigate(path);
+      return;
+    }
+    window.location.assign(path);
+  }
+
   return (
     <main className="app-shell">
       <header className="topbar">
@@ -71,16 +87,36 @@ export function ExplainerPage() {
           <p className="eyebrow">RapidCanvas case</p>
           <h1>Contextual Post Explainer</h1>
         </div>
-        <div className="status-strip" aria-label="Run summary">
-          <StatusPill icon={<ShieldCheck size={15} />} tone={response ? confidenceTone(response.confidence) : "neutral"}>
-            {response?.confidence ?? "not run"}
-          </StatusPill>
-          <StatusPill icon={<FileText size={15} />} tone="blue">
-            {response?.sources.length ?? 0} sources
-          </StatusPill>
-          <StatusPill icon={<Clock3 size={15} />} tone="neutral">
-            {response ? formatSeconds(response.execution_time_ms) : "0.0s"}
-          </StatusPill>
+        <div className="topbar-actions">
+          <nav className="app-nav" aria-label="Primary navigation">
+            <button className="nav-button active" onClick={() => navigate("/")} type="button">
+              Explain
+            </button>
+            <button className="nav-button" onClick={() => navigate("/analysis")} type="button">
+              <BarChart3 size={15} />
+              Analysis
+            </button>
+            <button className="nav-button" onClick={() => navigate("/observability")} type="button">
+              <Activity size={15} />
+              Observability
+            </button>
+          </nav>
+          <div className="status-strip" aria-label="Run summary">
+            <StatusPill icon={<ShieldCheck size={15} />} tone={response ? confidenceTone(response.confidence) : "neutral"}>
+              {response?.confidence ?? "not run"}
+            </StatusPill>
+            <StatusPill icon={<FileText size={15} />} tone="blue">
+              {response?.sources.length ?? 0} sources
+            </StatusPill>
+            <StatusPill icon={<Clock3 size={15} />} tone="neutral">
+              {response ? formatSeconds(response.execution_time_ms) : "0.0s"}
+            </StatusPill>
+            {response && runId ? (
+              <button className="nav-button trace-button" onClick={() => navigate(`/observability/${runId}`)} type="button">
+                View run trace
+              </button>
+            ) : null}
+          </div>
         </div>
       </header>
 

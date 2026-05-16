@@ -1,0 +1,599 @@
+{
+  "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+  "mode": "live",
+  "generated_at": "2026-05-16T01:47:15.328389+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T01:46:48.596716+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.596804+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.597168+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.597264+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:48.597587+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:49.732332+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1134
+    },
+    {
+      "timestamp": "2026-05-16T01:46:49.732881+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:49.732965+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:46:49.733318+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:51.385969+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1652
+    },
+    {
+      "timestamp": "2026-05-16T01:46:51.386566+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T01:46:57.376071+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 5989
+    },
+    {
+      "timestamp": "2026-05-16T01:46:57.376608+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:11.803722+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 13912
+    },
+    {
+      "timestamp": "2026-05-16T01:47:11.804316+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:12.215978+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 411
+    },
+    {
+      "timestamp": "2026-05-16T01:47:12.216486+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.321300+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 3104
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.321844+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.321964+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.322315+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.322397+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.322678+00:00",
+      "event": "node_started",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T01:47:15.322767+00:00",
+      "event": "node_completed",
+      "run_id": "run_f83c4b25ab02434fa92a53c7b642270c",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+  "status": "completed",
+  "search_provider": "tavily",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "llm_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "tavily",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "llm_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026",
+    "2026 US gasoline and diesel price trends independent truck drivers impact on delivery costs",
+    "diesel more expensive than regular gas 2025 2026 reasons and economic effects",
+    "impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026"
+  ],
+  "metrics": {
+    "search_results_received": 20,
+    "search_results_by_provider": {
+      "tavily": 20
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [
+      {
+        "id": "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/",
+        "reason": "duplicate_canonical_url",
+        "duplicate_of": "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/"
+      }
+    ],
+    "source_fetch_discards": [
+      {
+        "url": "https://www.facebook.com/RobinsonBryanE/posts/7215ee9c/1683771856512700/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://muckrack.com/bryanrobinsonphd/articles",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      },
+      {
+        "url": "https://www.facebook.com/awesomeitv/posts/as-diesel-prices-surge-to-record-highs-in-march-2026-the-ripple-effects-are-slam/1396342962533328/",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.nytimes.com/2026/04/23/business/energy-environment/iran-war-diesel-prices-gasoline.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_d2efb90e85e7",
+        "title": "Bryan Robinson, Ph.D. - Bryan Robinson",
+        "url": "https://www.forbes.com/sites/bryanrobinson/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_28d87c000298",
+        "title": "Careers",
+        "url": "https://www.forbes.com/careers/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_5ff5b60a3db6",
+        "title": "Diesel Fuel Prices and Freight Rates: How Rising Costs Are Impacting Trucking Margins in 2026",
+        "url": "https://www.bestyetexpresstrucking.com/diesel-fuel-prices-and-freight-rates-2026/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_fa7b399ceff6",
+        "title": "Impacts of the 2026 Energy Crisis on the United States Freight Market",
+        "url": "https://www.ez-crete.com/impacts-of-the-2026-energy-crisis-on-the-united-states-freight-market/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_12bd77d0b95d",
+        "title": "Diesel Trucking Costs: A Sobering 12-Point Update on Freight, Fuel, and Supply | Tank Transport",
+        "url": "https://tanktransport.com/2026/04/diesel-trucking-costs/#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_811f124fc161",
+        "title": "America's long-haul truckers were already struggling. Then came $5 ...",
+        "url": "https://edition.cnn.com/2026/03/28/business/diesel-trucking-iran-war#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_01342967ea87",
+        "title": "Diesel tops $5 a gallon for the first time since 2022. Here's what it means for the economy. - CBS News",
+        "url": "https://www.cbsnews.com/news/diesel-prices-5-dollars-gallon-economic-impact/#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "tavily": 1
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+      "snippet": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gal",
+      "content": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gallon. The prices of everything delivered by truck, basically EVERYTHING,  is going to go up past record highs.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8777342427403554
+    },
+    {
+      "id": "src_4e4761d3806c",
+      "title": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "url": "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/#",
+      "snippet": "# Soaring Gas Prices Making It Hard For Commuters To Get To Work. Skyrocketing fuel prices are inflicting pain at the pump as American commuters search for ways to afford gas—like pawning and selling personal belongings—just so they can get to work. Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Workers who accepted return-to-office mandates after years of remote work are discovering that the cost of commuting can wipe out the financial benefit of raises. According to economists at the Stanford Institute for Economic Policy Research, rising gas prices hit workers particularly hard because fuel costs consume a larger percentage of lower-and middle-income household budgets.",
+      "content": "Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. Ordinary commutes are turning into budget-breaking expenses, especially for workers who have little choice but to drive. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Commuters Are Slashing Their Budgets Experts often tell consumers to drive less, cut expenses or pick up a side hustle. But workers in parts of Los Angeles and San Francisco—already facing $8-a-gallon gas prices—see those solutions are cold comfort. Still, in many households, workers are scaling back grocery spending, travel, entertainment and discretionary purchases just to cover transportation costs. Others are dipping into savings, taking on side gigs or cutting essentials to offset expenses. Families with multiple commuters are particularly vulnerable, as is Gen Z who have little financial cushion. Even before the fuel crisis, data from Invoice Home shows that 48% of Gen Z was already planning to stop dining out this year to keep up with rising costs, 26% say they’re cutting back on groceries and other essential household goods, 31% plan to get a second job in this year and 32% say they will opt for generic brands over name brands to stretch their budgets. Financial experts recommend revisiting monthly budgets immediately rather than waiting for prices to stabilize. Small adjustments made early can prevent larger financial problems later, including consolidating errands into fewer trips, carpooling when possible or reducing unnecessary driving. Reactionary Tactics Commuters Are Using To Cope But budgeting alone has limits. For workers already living paycheck to paycheck, there may not be enough flexibility left to absorb higher fuel bills without larger life changes. Frustrated commuters are finding creative ways to reduce the financial hit. Some are negotiating compressed workweeks to reduce commuting days. Others are asking employers for transit stipends, hybrid schedules or flexible hours that avoid traffic congestion and reduce fuel consumption. Renita Parker, who oversees more than 75 EZCorp’s stores across Houston, told me she’s seeing firsthand a notable surge in customers pawning or selling their personal belongings into quick cash to fill their tanks and make it to work each week. “We recently had a customer come in to pawn items for extra gas money just to get through the week—even though he had just gotten paid that day,” Parker says. “We’ve also seen customers on fixed incomes who need extra money for groceries because of rising costs. This time of year especially, parents and students are pawning and selling items for extra cash for prom dresses, tuxedos and graduation gifts.” Parker said gold and silver jewelry remain among the most commonly pawned or sold items, along with premium sneakers and handbags ranging from vintage pieces to luxury brands. Electronics such as smartphones, laptops, smartwatches and gaming systems are also in high demand. Even everyday household items—including coffee makers, crockpots and blenders—are showing up at pawn counters. Other recently pawned items include sunglasses, golf clubs, tools and musical instruments. “Paychecks are being stretched especially thin by rising gas and grocery prices,” Parker adds. “People are exploring financing options that may be new to them, like visiting their local pawn store. We welcome them and want them to know our stores can provide help without judgment or the typical financial hurdles.” With prices unlikely to ease anytime soon, selling and pawning have become a practical, low-effort way for people to supplement between paychecks. Workers are",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026",
+          "impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+          "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+      "canonical_url": "https://forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "forbes.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7776819822293168
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+      "snippet": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "content": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7727439429379687
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+      "snippet": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gal",
+      "content": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gallon. The prices of everything delivered by truck, basically EVERYTHING,  is going to go up past record highs.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.8777342427403554
+    },
+    {
+      "id": "src_4e4761d3806c",
+      "title": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "url": "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/#",
+      "snippet": "# Soaring Gas Prices Making It Hard For Commuters To Get To Work. Skyrocketing fuel prices are inflicting pain at the pump as American commuters search for ways to afford gas—like pawning and selling personal belongings—just so they can get to work. Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Workers who accepted return-to-office mandates after years of remote work are discovering that the cost of commuting can wipe out the financial benefit of raises. According to economists at the Stanford Institute for Economic Policy Research, rising gas prices hit workers particularly hard because fuel costs consume a larger percentage of lower-and middle-income household budgets.",
+      "content": "Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. Ordinary commutes are turning into budget-breaking expenses, especially for workers who have little choice but to drive. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Commuters Are Slashing Their Budgets Experts often tell consumers to drive less, cut expenses or pick up a side hustle. But workers in parts of Los Angeles and San Francisco—already facing $8-a-gallon gas prices—see those solutions are cold comfort. Still, in many households, workers are scaling back grocery spending, travel, entertainment and discretionary purchases just to cover transportation costs. Others are dipping into savings, taking on side gigs or cutting essentials to offset expenses. Families with multiple commuters are particularly vulnerable, as is Gen Z who have little financial cushion. Even before the fuel crisis, data from Invoice Home shows that 48% of Gen Z was already planning to stop dining out this year to keep up with rising costs, 26% say they’re cutting back on groceries and other essential household goods, 31% plan to get a second job in this year and 32% say they will opt for generic brands over name brands to stretch their budgets. Financial experts recommend revisiting monthly budgets immediately rather than waiting for prices to stabilize. Small adjustments made early can prevent larger financial problems later, including consolidating errands into fewer trips, carpooling when possible or reducing unnecessary driving. Reactionary Tactics Commuters Are Using To Cope But budgeting alone has limits. For workers already living paycheck to paycheck, there may not be enough flexibility left to absorb higher fuel bills without larger life changes. Frustrated commuters are finding creative ways to reduce the financial hit. Some are negotiating compressed workweeks to reduce commuting days. Others are asking employers for transit stipends, hybrid schedules or flexible hours that avoid traffic congestion and reduce fuel consumption. Renita Parker, who oversees more than 75 EZCorp’s stores across Houston, told me she’s seeing firsthand a notable surge in customers pawning or selling their personal belongings into quick cash to fill their tanks and make it to work each week. “We recently had a customer come in to pawn items for extra gas money just to get through the week—even though he had just gotten paid that day,” Parker says. “We’ve also seen customers on fixed incomes who need extra money for groceries because of rising costs. This time of year especially, parents and students are pawning and selling items for extra cash for prom dresses, tuxedos and graduation gifts.” Parker said gold and silver jewelry remain among the most commonly pawned or sold items, along with premium sneakers and handbags ranging from vintage pieces to luxury brands. Electronics such as smartphones, laptops, smartwatches and gaming systems are also in high demand. Even everyday household items—including coffee makers, crockpots and blenders—are showing up at pawn counters. Other recently pawned items include sunglasses, golf clubs, tools and musical instruments. “Paychecks are being stretched especially thin by rising gas and grocery prices,” Parker adds. “People are exploring financing options that may be new to them, like visiting their local pawn store. We welcome them and want them to know our stores can provide help without judgment or the typical financial hurdles.” With prices unlikely to ease anytime soon, selling and pawning have become a practical, low-effort way for people to supplement between paychecks. Workers are",
+      "source_type": "web",
+      "provider": "tavily",
+      "providers": [
+        "tavily"
+      ],
+      "provider_queries": {
+        "tavily": [
+          "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026",
+          "impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+          "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+      "canonical_url": "https://forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "forbes.com",
+      "source_category": "news_outlet",
+      "source_role": "independent_context",
+      "relevance_score": 0.7776819822293168
+    },
+    {
+      "id": "thread_original",
+      "title": "Bluesky post by @forbes.com",
+      "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+      "snippet": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "content": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "source_type": "thread",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "forbes.com",
+      "source_category": "social_post",
+      "source_role": "original_post",
+      "relevance_score": 0.7727439429379687
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+      "platform": "bluesky",
+      "author": {
+        "handle": "forbes.com",
+        "display_name": "Forbes",
+        "did": "did:plc:2w45zyhuklwihpdc7oj3mi63"
+      },
+      "text": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+      "created_at": "2026-05-15T12:11:52.131000Z",
+      "images": [],
+      "links": [
+        "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/?utm_source=bluesky&utm_medium=social&utm_campaign=forbes"
+      ],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gallon. The prices of everything delivered by truck, basically EVERYTHING,  is going to go up past record highs."
+    },
+    "explanation": [
+      {
+        "text": "The Forbes post is promoting a Forbes article reporting that sharply higher gas prices are making it difficult for many American commuters to afford driving to work, turning ordinary commutes into “budget-breaking expenses.”",
+        "source_ids": [
+          "thread_original",
+          "src_4e4761d3806c"
+        ],
+        "claim_label": "author_interpretation",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "According to the linked Forbes article, some workers are taking extreme steps such as pawning or selling personal belongings to get enough cash for fuel so they can keep commuting to their jobs.",
+        "source_ids": [
+          "src_4e4761d3806c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The article notes that rising fuel costs are forcing many households to cut back on groceries, dining out, travel, and other discretionary spending, with Gen Z and families with multiple commuters described as especially vulnerable to these higher transportation costs.",
+        "source_ids": [
+          "src_4e4761d3806c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "The Forbes piece describes coping strategies commuters are trying—such as revising budgets, consolidating trips, carpooling, or negotiating compressed workweeks, hybrid schedules, or transit stipends with employers—to blunt the impact of elevated gas prices.",
+        "source_ids": [
+          "src_4e4761d3806c"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": []
+      },
+      {
+        "text": "A commenter in the Bluesky thread reacts by highlighting how high fuel prices also hurt independent truck drivers and warning that because trucking underpins most goods delivery, increased diesel costs can push up prices on “basically everything” that is shipped.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "background_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet reflects an individual commenter’s reaction and warning, not a verified economic forecast.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+        "snippet": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gal",
+        "content": "Ouch...\n\nGotta feel bad for them.....except those who drive grossly large, gas-guzzling SUVs and trucks. They earned that pain.\n\nE-Scooters and E-Bikes to the rescue!\n\nTry being an independent truck driver. Used to be that diesel was cheaper than regular,  but now it's at least a dollar more per gallon. The prices of everything delivered by truck, basically EVERYTHING,  is going to go up past record highs.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_4e4761d3806c",
+        "title": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+        "url": "https://www.forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work/#",
+        "snippet": "# Soaring Gas Prices Making It Hard For Commuters To Get To Work. Skyrocketing fuel prices are inflicting pain at the pump as American commuters search for ways to afford gas—like pawning and selling personal belongings—just so they can get to work. Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Workers who accepted return-to-office mandates after years of remote work are discovering that the cost of commuting can wipe out the financial benefit of raises. According to economists at the Stanford Institute for Economic Policy Research, rising gas prices hit workers particularly hard because fuel costs consume a larger percentage of lower-and middle-income household budgets.",
+        "content": "Millions of Americans are starting their workday with a financial gut punch as spiking fuel prices inflict pain at the gas pump. Ordinary commutes are turning into budget-breaking expenses, especially for workers who have little choice but to drive. The growing financial strain is quietly reshaping how Americans think about work, where they live and whether their jobs are still worth the commute. Crushing already-stretched household budgets, commuters are resorting to desperate steps to fill their tanks, like pawning personal belongings for quick cash to fill their tanks, get to work and keep their jobs. Commuters Are Slashing Their Budgets Experts often tell consumers to drive less, cut expenses or pick up a side hustle. But workers in parts of Los Angeles and San Francisco—already facing $8-a-gallon gas prices—see those solutions are cold comfort. Still, in many households, workers are scaling back grocery spending, travel, entertainment and discretionary purchases just to cover transportation costs. Others are dipping into savings, taking on side gigs or cutting essentials to offset expenses. Families with multiple commuters are particularly vulnerable, as is Gen Z who have little financial cushion. Even before the fuel crisis, data from Invoice Home shows that 48% of Gen Z was already planning to stop dining out this year to keep up with rising costs, 26% say they’re cutting back on groceries and other essential household goods, 31% plan to get a second job in this year and 32% say they will opt for generic brands over name brands to stretch their budgets. Financial experts recommend revisiting monthly budgets immediately rather than waiting for prices to stabilize. Small adjustments made early can prevent larger financial problems later, including consolidating errands into fewer trips, carpooling when possible or reducing unnecessary driving. Reactionary Tactics Commuters Are Using To Cope But budgeting alone has limits. For workers already living paycheck to paycheck, there may not be enough flexibility left to absorb higher fuel bills without larger life changes. Frustrated commuters are finding creative ways to reduce the financial hit. Some are negotiating compressed workweeks to reduce commuting days. Others are asking employers for transit stipends, hybrid schedules or flexible hours that avoid traffic congestion and reduce fuel consumption. Renita Parker, who oversees more than 75 EZCorp’s stores across Houston, told me she’s seeing firsthand a notable surge in customers pawning or selling their personal belongings into quick cash to fill their tanks and make it to work each week. “We recently had a customer come in to pawn items for extra gas money just to get through the week—even though he had just gotten paid that day,” Parker says. “We’ve also seen customers on fixed incomes who need extra money for groceries because of rising costs. This time of year especially, parents and students are pawning and selling items for extra cash for prom dresses, tuxedos and graduation gifts.” Parker said gold and silver jewelry remain among the most commonly pawned or sold items, along with premium sneakers and handbags ranging from vintage pieces to luxury brands. Electronics such as smartphones, laptops, smartwatches and gaming systems are also in high demand. Even everyday household items—including coffee makers, crockpots and blenders—are showing up at pawn counters. Other recently pawned items include sunglasses, golf clubs, tools and musical instruments. “Paychecks are being stretched especially thin by rising gas and grocery prices,” Parker adds. “People are exploring financing options that may be new to them, like visiting their local pawn store. We welcome them and want them to know our stores can provide help without judgment or the typical financial hurdles.” With prices unlikely to ease anytime soon, selling and pawning have become a practical, low-effort way for people to supplement between paychecks. Workers are",
+        "source_type": "web",
+        "provider": "tavily",
+        "providers": [
+          "tavily"
+        ],
+        "provider_queries": {
+          "tavily": [
+            "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026",
+            "impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+            "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Forbes \"Soaring Gas Prices Making It Hard For Commuters To Get To Work\" Bryan Robinson May 15 2026 | impact of rising fuel prices on commuting costs and consumer goods inflation 2025 2026",
+        "canonical_url": "https://forbes.com/sites/bryanrobinson/2026/05/15/soaring-gas-prices-making-it-hard-for-commuters-to-get-to-work",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "forbes.com",
+        "source_category": "news_outlet",
+        "source_role": "independent_context"
+      },
+      {
+        "id": "thread_original",
+        "title": "Bluesky post by @forbes.com",
+        "url": "https://bsky.app/profile/forbes.com/post/3mlvcj5owhs25",
+        "snippet": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+        "content": "Soaring Gas Prices Making It Hard For Commuters To Get To Work",
+        "source_type": "thread",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "forbes.com",
+        "source_category": "social_post",
+        "source_role": "original_post"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 26212
+  }
+}

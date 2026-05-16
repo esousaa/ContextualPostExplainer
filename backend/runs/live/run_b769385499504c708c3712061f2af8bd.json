@@ -1,0 +1,985 @@
+{
+  "run_id": "run_b769385499504c708c3712061f2af8bd",
+  "mode": "live",
+  "generated_at": "2026-05-16T02:35:11.227196+00:00",
+  "events": [
+    {
+      "timestamp": "2026-05-16T02:34:41.515472+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "validate_live_config"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:41.515582+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "validate_live_config",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:34:41.515983+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "parse_post_url"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:41.516121+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "parse_post_url",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:34:41.516499+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:42.855230+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "fetch_bluesky_post_thread",
+      "duration_ms": 1338
+    },
+    {
+      "timestamp": "2026-05-16T02:34:42.855707+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "analyze_images_optional"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:46.661030+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "analyze_images_optional",
+      "duration_ms": 3805
+    },
+    {
+      "timestamp": "2026-05-16T02:34:46.661551+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "decompose_queries"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:48.599830+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "decompose_queries",
+      "duration_ms": 1938
+    },
+    {
+      "timestamp": "2026-05-16T02:34:48.600409+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "search_web_context"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:52.917559+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "search_web_context",
+      "duration_ms": 4317
+    },
+    {
+      "timestamp": "2026-05-16T02:34:52.918070+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "fetch_source_pages"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:59.217528+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "fetch_source_pages",
+      "duration_ms": 6299
+    },
+    {
+      "timestamp": "2026-05-16T02:34:59.218046+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "rank_evidence"
+    },
+    {
+      "timestamp": "2026-05-16T02:34:59.739225+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "rank_evidence",
+      "duration_ms": 521
+    },
+    {
+      "timestamp": "2026-05-16T02:34:59.739746+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "generate_explanation"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.219323+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "generate_explanation",
+      "duration_ms": 10896
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.219841+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "validate_citations"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.219947+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "validate_citations",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.220286+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "repair_once_if_needed"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.220345+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "repair_once_if_needed",
+      "duration_ms": 0
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.220606+00:00",
+      "event": "node_started",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "finalize_response"
+    },
+    {
+      "timestamp": "2026-05-16T02:35:11.220696+00:00",
+      "event": "node_completed",
+      "run_id": "run_b769385499504c708c3712061f2af8bd",
+      "mode": "live",
+      "node_name": "finalize_response",
+      "duration_ms": 0
+    }
+  ],
+  "input_url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+  "status": "completed",
+  "search_provider": "brave",
+  "openai_generation_model": "gpt-5.1",
+  "openai_judge_model": "gpt-5-mini",
+  "openai_embedding_model": "text-embedding-3-small",
+  "openai_vision_model": "gpt-5.1",
+  "prompt_config_path": "app/prompts/prompts.toml",
+  "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+  "comparison_group_id": "search_brave_5_1_eval",
+  "comparison_config_id": "newer_full",
+  "config": {
+    "search_provider": "brave",
+    "openai_generation_model": "gpt-5.1",
+    "openai_judge_model": "gpt-5-mini",
+    "openai_embedding_model": "text-embedding-3-small",
+    "openai_vision_model": "gpt-5.1",
+    "prompt_config_path": "app/prompts/prompts.toml",
+    "prompt_config_hash": "428d1eaf7f718c1553419ee9db9a059f459be9d6db05a520b92685eb35279ab0",
+    "comparison_group_id": "search_brave_5_1_eval",
+    "comparison_config_id": "newer_full"
+  },
+  "queries": [
+    "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+    "Trump Xi \"woodshed\" reaction commentary \"central casting\" meeting with President Xi Hannity interview",
+    "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+    "analysis of Trump foreign leader interactions Xi Jinping King Charles criticism of Trump diplomacy style"
+  ],
+  "metrics": {
+    "image_count": 1,
+    "image_analysis_enabled": true,
+    "image_evidence_count": 1,
+    "search_results_received": 14,
+    "search_results_by_provider": {
+      "brave": 14
+    },
+    "search_provider_overlap": [],
+    "search_provider_overlap_count": 0,
+    "search_results_discarded": [],
+    "source_fetch_discards": [
+      {
+        "url": "https://x.com/Acyn/status/2055093952672682240",
+        "reason": "external_provider_error",
+        "message": "Source page did not contain enough extractable text."
+      },
+      {
+        "url": "https://www.nytimes.com/2026/05/14/world/asia/trump-xi-body-language.html",
+        "reason": "external_provider_error",
+        "message": "Source page returned an HTTP error."
+      }
+    ],
+    "evidence_discarded": [],
+    "ranking_discards": [
+      {
+        "id": "src_c332f7035672",
+        "title": "Representative Quotations from President Trump on President Xi and China | The Belfer Center for Science and International Affairs",
+        "url": "https://www.belfercenter.org/programs/thucydidess-trap/representative-quotations-president-trump-president-xi-and-china#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_e34d244b44a9",
+        "title": "Trump hints at own true height after confusing claim over size of President Xi | Irish Star",
+        "url": "https://www.irishstar.com/news/politics/donald-trump-xi-jinping-height-37158475#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_5dbee2757466",
+        "title": "Did Trump just try his signature \"yank-shake\" with Xi?",
+        "url": "https://www.newsweek.com/body-language-expert-trump-xi-handshake-11949616#",
+        "reason": "missing_event_anchor"
+      },
+      {
+        "id": "src_aa0476116c2f",
+        "title": "Don Tzu vs 'philosopher king' Xi: Decoding the worldviews of Donald Trump and Xi Jinping | World News - The Times of India",
+        "url": "https://timesofindia.indiatimes.com/world/us/don-tzu-vs-philosopher-king-xi-decoding-the-worldviews-of-donald-trump-and-xi-jinping/articleshow/131068164.cms#",
+        "reason": "missing_event_anchor"
+      }
+    ],
+    "ranked_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 6
+    },
+    "ranked_multi_provider_source_count": 0,
+    "cited_sources_by_provider": {
+      "bluesky": 2,
+      "brave": 6
+    },
+    "cited_multi_provider_source_count": 0
+  },
+  "sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @lc1summit.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:oz43rmwp53fxgvizn4jv3t4f/bafkreicml25nlcrmwzwzhaemjrm6xd3qnw5gcjck7mdkr4sbzt7yyri5gu",
+      "snippet": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN W",
+      "content": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN WITH HANNITY FOR\nFIRST INTERVIEW SINCE INITIAL MEETING WITH PRESIDENT XI\nBREAKING NEWS\nFOX\nchannel\n0:58\nVisual description: The image is a screenshot of a social media post that includes a clip from a television interview. The top portion shows a dark interface typical of a social media platform, with a profile picture, the display name \"Acyn,\" the handle \"@Acyn,\" and text quoting remarks about \"President Trump on President Xi.\" Below this text is a video frame from a Fox News Channel broadcast. In the video frame, a man in a blue suit, white shirt, and red tie is seated indoors, facing slightly to the right. An American flag and blurred background decor are visible behind him. A news chyron at the bottom of the video frame mentions that President Trump sits down with Hannity for a first interview since an initial meeting with President Xi, with a \"Breaking News\" banner and the Fox News logo on the left. A small timestamp \"0:58\" appears in the lower-left corner of the frame, indicating video duration or time remaining.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "lc1summit.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8966712452530532
+    },
+    {
+      "id": "src_535d12d911cd",
+      "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost Latest News",
+      "url": "https://www.huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244#",
+      "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+      "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticized, they always criticize me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-U.S. relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+      "canonical_url": "https://huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "huffpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7788331920613935
+    },
+    {
+      "id": "src_c027dd34fcdb",
+      "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost UK Politics",
+      "url": "https://www.huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc#",
+      "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+      "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticised, they always criticise me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-US relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran. Subscribe to Commons People, the podcast that makes politics easy. Every week, Kevin Schofield and Kate Nicholson unpack the week’s biggest stories to keep you informed. Join us for straightforward analysis of what’s going on at Westminster.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+      "canonical_url": "https://huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "huffingtonpost.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7777847270318411
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @lc1summit.bsky.social",
+      "url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+      "snippet": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has d",
+      "content": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has desecrated the Kennedy Center;... because Americans should NEVER be allowed to hide this stain on American history and on every American.\n\n\"But he has my skin tone\"\nThey probably edited that part out.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "lc1summit.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7658543060476005
+    },
+    {
+      "id": "src_851ec66d1f8b",
+      "title": "Trump Calls Xi Jinping ‘Very Tall’ – Though Chinese People ‘Tend To Be a Little Bit Shorter’",
+      "url": "https://www.mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter/#",
+      "snippet": "TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+      "content": "Trump Calls Xi Jinping ‘Very Tall’ – Especially Because Chinese People ‘Tend To Be a Little Bit Shorter’ President Donald Trump praised Chinese President Xi Jinping’s “central casting” looks on Thursday, pointing out that he was “very tall” even though Chinese people “tend to be a little bit shorter.” Trump sat down with Fox News host Sean Hannity to discuss his ongoing summit with China and his discussions with Xi. Hannity asked the president about the Chinese leader’s style of negotiating, noting that Trump had told him previously that Xi was “all business.” “You have in the past described President Xi to me as very tough, all business,” he said. “You are not describing the type of business that he normally used to do. Do you think your relationship has evolved to the point where he can go along with your spontaneity?” Trump claimed that there were “no games” with Xi, describing his tone in meetings before taking an odd turn to the topic of the Chinese president’s looks. TRUMP: I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. “Aw, let’s look at the stars, let’s look at the sun,” you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie– HANNITY: Central casting. TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good. Watch above via Fox News. New: The Mediaite One-Sheet \"Newsletter of Newsletters\" Your daily summary and analysis of what the many, many media newsletters are saying and reporting. Subscribe now!",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "mediaite.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7232199921945678
+    },
+    {
+      "id": "src_6efb66c613f2",
+      "title": "Trump Praises Physical Appearance of Xi Jinping, Claims Chinese Leader is Perfect for a Hollywood Movie Role | IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994#",
+      "snippet": "<strong>And especially for this country, because they tend to be a little bit shorter.</strong>&#x27; Trump goes on extended monologue praising Xi Jinping’s body: &quot;If you went to Hollywood and you looked for a leader of China to play a role in a movie, he&#x27;s central ...",
+      "content": "Donald Trump told Fox News that Xi Jinping is 'central casting' for the role of a Chinese leader in a Hollywood film, calling him 'very tall' and adding that the Chinese 'tend to be a little bit shorter.' The remarks came during a wide-ranging interview with Fox News host Sean Hannity, broadcast on Thursday night as Trump wrapped up the first day of a two-day state visit to Beijing. The president had just concluded a bilateral meeting with Xi at the Great Hall of the People, covering topics including Taiwan, the Iran war, and trade. Hannity asked Trump whether his personal relationship with the Chinese president had evolved, and Trump's answer took a notable detour into observations about Xi's physical stature. Trump's 'Central Casting' Remarks on Xi Jinping Dominate Post-Summit Coverage Responding to Hannity's question about Xi's negotiating style, Trump described the Chinese leader as serious and direct before pivoting abruptly. 'I think he's a warm person, actually, but he's all business. There's no games. There's no talking about how nice the weather is,' Trump told Hannity. He then compared Xi to a figure a casting director could never manufacture. 'If you went to Hollywood and looked for a leader of China to play a role in a movie, he's central casting. You couldn't find a guy like him,' Trump said. Hannity interjected with the phrase himself before Trump confirmed it. The exchange was candid and unscripted, with Trump adding: 'Even his physical features, you know. He's tall, very tall. And especially for this country, because they tend to be a little bit shorter.' The phrase 'central casting' originates from Central Casting Corporation, a Hollywood agency established in 1925 that historically supplied background extras to film studios. In contemporary usage, it describes someone who so perfectly embodies a role that they appear tailor-made for it. Trump anticipated he would face criticism for the praise. 'I'll get criticised, they always criticise me when I say good things about certain leaders,' he said. Xi Jinping is reported to stand approximately 178cm (5ft 10in), a detail that attracted commentary given that Trump has long claimed a height of 6ft 3in. Photographs taken during the summit showed the two leaders appearing roughly level in stature. Xi Jinping as a Hollywood Archetype: Trump's Long-Running Rhetorical Pattern Thursday night's remarks were not the first time Trump reached for Hollywood metaphors to describe Xi. The pattern stretches back years and has recurred across markedly different political contexts. In November 2023, at a Mar-a-Lago gala, Trump described Xi in strikingly similar terms. 'He's like a piece of steel, strong, smart. There's nobody in Hollywood who could play the role,' Trump said, according to footage obtained by Heartland Signal. The comments came one day before then-President Joe Biden was due to meet Xi in California. During a Fox News town hall with Hannity, also in 2023, Trump deployed almost identical language. 'Think of President Xi. Central casting, brilliant guy,' Trump said. 'Smart, brilliant, everything perfect. There's nobody in Hollywood like this guy.' Critics have noted that Trump reserves this brand of admiration for authoritarian leaders, including Russian President Vladimir Putin and North Korean Supreme Leader Kim Jong Un. The consistency of Trump's phrasing across multiple years and settings suggests it is a settled rhetorical posture rather than an off-the-cuff remark. It sits alongside a broader diplomatic vocabulary Trump uses to signal personal warmth towards foreign counterparts, even adversarial ones, as a precondition for deal-making. Beijing Summit Ends Without Major Breakthroughs Despite Cordial Optics The remarks about Xi's appearance emerged against the backdrop of a summit characterised by warm optics but limited concrete outcomes. Trump's visit to Beijing, 14-15 May 2026, was the first by a sitting US president since 2017. He arrived to waving children a",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "ibtimes.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7230677303750906
+    },
+    {
+      "id": "src_af32dbcff7b3",
+      "title": "Trump says Xi is ‘very tall’ and out of ‘central casting’ because people in China ‘tend to be a little bit shorter’ | The Independent",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html#",
+      "snippet": "“If you went to Hollywood and ... aired Thursday night. “<strong>Even his physical features, you know, he&#x27;s tall, very tall, and especially for this country, because they tend to be a little bit shorter</strong>…...",
+      "content": "Donald Trump has lavished praise on president Xi Jinping, saying that he is “straight out of central casting” for a leader of China and is “very tall – especially for this country.” “If you went to Hollywood and you look for a leader of China, to play a role in a movie, he’s central casting… you couldn't find a guy like him,” President Trump told Fox News’ Sean Hannity in an interview which aired Thursday night. “Even his physical features, you know, he's tall, very tall, and especially for this country, because they tend to be a little bit shorter… but no, if you went to Hollywood, you wouldn't find that, you're not going to find a guy to play the role who's good.” The phrase “straight out of Central Casting” comes from an old Hollywood agency, established in 1925, that supplied background extras for television shows and movies. It is typically used to mean someone who looks the part. Trump has used the phrase previously for other men, including Supreme Court Justice Brett Kavanaugh and Kevin Warsh – his nominee to lead the Federal Reserve. “On top of everything else, he is ‘central casting,’ and he will never let you down,” Trump wrote in a Truth Social post, announcing Warsh as his nominee. Warsh referenced the remark later in his confirmation hearing, during which he was asked by Democratic Senator Elizabeth Warren if he disagreed with the president on any matters. “Well I do have a disagreement actually, Senator, with the president. This morning he said I was out of central casting. I think central casting – I’d be older, grayer and maybe show up here with a cigar of sorts,” Warsh responded, drawing laughter from some, but a stony-faced look from Warren. In his interview with Hannity, the first sit-down for the president since his bilateral with Xi, Trump continued to praise the Chinese president but suggested that it might get him in trouble. “I think he’s a warm person, actually, but he’s all business. There’s no games,” he said. “There’s no talking about how nice the weather is. ‘Aw, let’s look at the stars, let’s look at the sun,’ you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him.” He added: “They always criticize me when I say good things about certain leaders, and this one, but he's a leader for China,” the president said. “He's led almost 1.5 billion people for a long time, and he's respected. It’s sort of interesting when the fake news… they'll say President Trump said that President Xi was a brilliant leader. That's a terrible thing. What am I going to do?”",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "independent.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7192591330109562
+    },
+    {
+      "id": "src_ea846e88d8ee",
+      "title": "Donald Trump Calls Xi Jinping 'Very Tall' Even Though Chinese People 'Tend to Be a Little Shorter'",
+      "url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter/#",
+      "snippet": "“He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+      "content": "President Donald Trump told Fox News host Sean Hannity that Chinese President Xi Jinping is \"very tall, especially for this country, because they tend to be a little bit shorter,” as critics quickly labeled the statement as racially insensitive. The comment was made on Thursday, May 14, during an interview amid a high-stakes bilateral summit in Beijing. Trump used a Hollywood metaphor to praise Xi's presence and stature during his state visit, telling Hannity that Xi looks like he is from \"central casting,\" meaning he perfectly fits the cinematic look of a leader. He added, \"Even his physical features — he’s tall, very tall. Especially for this country, because they tend to be a little bit shorter.\" Trump framed the description as a compliment, noting that Hollywood could not find a better actor to play the role of the Chinese leader. “I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. 'Aw, let’s look at the stars, let’s look at the sun,' you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him, and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie–“ he said. “Central casting,” Hannity interrupted. “He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good,” the POTUS concluded. While critics blasted Trump’s racially insensitive slight, others noted the irony regarding the leaders' heights. Xi stands at approximately 5 feet 11 inches, whereas Trump claims a height of 6 feet 3 inches, meaning Xi is actually shorter than Trump despite the \"very tall\" characterization. - Donald Trump Mocks Tom Cruise's Height In Rambling Speech After His Real Stature Was Exposed - Donald Trump Accused of 'Chickening Out' From Asking Chinese President Xi Jinping About Taiwan Conflict - Hillary Clinton Makes Fun of 'Complicated, Messianic, Narcissistic Authoritarian' Vladimir Putin's Height: 'Short Guy' Want OK! each day? Sign up here! This is not Trump's first time focusing on height while traveling. In February, Trump went viral for joking that a previous lineup of Chinese honor guard soldiers was so perfectly matched in height that \"if they put their helmets down, you could have played pool on the top of their heads.\" This latest summit concluded without yielding a diplomatic breakthrough regarding the 77-day-old U.S.-led war in Iran. The high-stakes, 40-hour meeting ended on Friday, May 15, without producing a formal agreement on crucial global security issues, most notably the reopening of the blockaded Strait of Hormuz. Critics and opposition lawmakers have heavily scrutinized the outcome, labeling Trump’s diplomatic strategy a failure due to unreciprocated concessions and a lack of assertiveness on the world stage.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "okmagazine.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6918560211269076
+    }
+  ],
+  "cited_sources": [
+    {
+      "id": "image_1",
+      "title": "Image 1 from Bluesky post by @lc1summit.bsky.social",
+      "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:oz43rmwp53fxgvizn4jv3t4f/bafkreicml25nlcrmwzwzhaemjrm6xd3qnw5gcjck7mdkr4sbzt7yyri5gu",
+      "snippet": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN W",
+      "content": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN WITH HANNITY FOR\nFIRST INTERVIEW SINCE INITIAL MEETING WITH PRESIDENT XI\nBREAKING NEWS\nFOX\nchannel\n0:58\nVisual description: The image is a screenshot of a social media post that includes a clip from a television interview. The top portion shows a dark interface typical of a social media platform, with a profile picture, the display name \"Acyn,\" the handle \"@Acyn,\" and text quoting remarks about \"President Trump on President Xi.\" Below this text is a video frame from a Fox News Channel broadcast. In the video frame, a man in a blue suit, white shirt, and red tie is seated indoors, facing slightly to the right. An American flag and blurred background decor are visible behind him. A news chyron at the bottom of the video frame mentions that President Trump sits down with Hannity for a first interview since an initial meeting with President Xi, with a \"Breaking News\" banner and the Fox News logo on the left. A small timestamp \"0:58\" appears in the lower-left corner of the frame, indicating video duration or time remaining.",
+      "source_type": "image",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "lc1summit.bsky.social",
+      "source_category": "unknown",
+      "source_role": "image_observation",
+      "relevance_score": 0.8966712452530532
+    },
+    {
+      "id": "src_535d12d911cd",
+      "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost Latest News",
+      "url": "https://www.huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244#",
+      "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+      "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticized, they always criticize me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-U.S. relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+      "canonical_url": "https://huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "huffpost.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7788331920613935
+    },
+    {
+      "id": "src_c027dd34fcdb",
+      "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost UK Politics",
+      "url": "https://www.huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc#",
+      "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+      "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticised, they always criticise me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-US relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran. Subscribe to Commons People, the podcast that makes politics easy. Every week, Kevin Schofield and Kate Nicholson unpack the week’s biggest stories to keep you informed. Join us for straightforward analysis of what’s going on at Westminster.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+      "canonical_url": "https://huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "huffingtonpost.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7777847270318411
+    },
+    {
+      "id": "thread_context",
+      "title": "Bluesky thread context for @lc1summit.bsky.social",
+      "url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+      "snippet": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has d",
+      "content": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has desecrated the Kennedy Center;... because Americans should NEVER be allowed to hide this stain on American history and on every American.\n\n\"But he has my skin tone\"\nThey probably edited that part out.",
+      "source_type": "social",
+      "provider": "bluesky",
+      "providers": [],
+      "provider_queries": {},
+      "provider_result_count": 1,
+      "query": null,
+      "canonical_url": null,
+      "published_at": null,
+      "publisher": "lc1summit.bsky.social",
+      "source_category": "social_post",
+      "source_role": "public_reaction",
+      "relevance_score": 0.7658543060476005
+    },
+    {
+      "id": "src_851ec66d1f8b",
+      "title": "Trump Calls Xi Jinping ‘Very Tall’ – Though Chinese People ‘Tend To Be a Little Bit Shorter’",
+      "url": "https://www.mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter/#",
+      "snippet": "TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+      "content": "Trump Calls Xi Jinping ‘Very Tall’ – Especially Because Chinese People ‘Tend To Be a Little Bit Shorter’ President Donald Trump praised Chinese President Xi Jinping’s “central casting” looks on Thursday, pointing out that he was “very tall” even though Chinese people “tend to be a little bit shorter.” Trump sat down with Fox News host Sean Hannity to discuss his ongoing summit with China and his discussions with Xi. Hannity asked the president about the Chinese leader’s style of negotiating, noting that Trump had told him previously that Xi was “all business.” “You have in the past described President Xi to me as very tough, all business,” he said. “You are not describing the type of business that he normally used to do. Do you think your relationship has evolved to the point where he can go along with your spontaneity?” Trump claimed that there were “no games” with Xi, describing his tone in meetings before taking an odd turn to the topic of the Chinese president’s looks. TRUMP: I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. “Aw, let’s look at the stars, let’s look at the sun,” you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie– HANNITY: Central casting. TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good. Watch above via Fox News. New: The Mediaite One-Sheet \"Newsletter of Newsletters\" Your daily summary and analysis of what the many, many media newsletters are saying and reporting. Subscribe now!",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter",
+      "published_at": "2026-05-14T00:00:00",
+      "publisher": "mediaite.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7232199921945678
+    },
+    {
+      "id": "src_6efb66c613f2",
+      "title": "Trump Praises Physical Appearance of Xi Jinping, Claims Chinese Leader is Perfect for a Hollywood Movie Role | IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994#",
+      "snippet": "<strong>And especially for this country, because they tend to be a little bit shorter.</strong>&#x27; Trump goes on extended monologue praising Xi Jinping’s body: &quot;If you went to Hollywood and you looked for a leader of China to play a role in a movie, he&#x27;s central ...",
+      "content": "Donald Trump told Fox News that Xi Jinping is 'central casting' for the role of a Chinese leader in a Hollywood film, calling him 'very tall' and adding that the Chinese 'tend to be a little bit shorter.' The remarks came during a wide-ranging interview with Fox News host Sean Hannity, broadcast on Thursday night as Trump wrapped up the first day of a two-day state visit to Beijing. The president had just concluded a bilateral meeting with Xi at the Great Hall of the People, covering topics including Taiwan, the Iran war, and trade. Hannity asked Trump whether his personal relationship with the Chinese president had evolved, and Trump's answer took a notable detour into observations about Xi's physical stature. Trump's 'Central Casting' Remarks on Xi Jinping Dominate Post-Summit Coverage Responding to Hannity's question about Xi's negotiating style, Trump described the Chinese leader as serious and direct before pivoting abruptly. 'I think he's a warm person, actually, but he's all business. There's no games. There's no talking about how nice the weather is,' Trump told Hannity. He then compared Xi to a figure a casting director could never manufacture. 'If you went to Hollywood and looked for a leader of China to play a role in a movie, he's central casting. You couldn't find a guy like him,' Trump said. Hannity interjected with the phrase himself before Trump confirmed it. The exchange was candid and unscripted, with Trump adding: 'Even his physical features, you know. He's tall, very tall. And especially for this country, because they tend to be a little bit shorter.' The phrase 'central casting' originates from Central Casting Corporation, a Hollywood agency established in 1925 that historically supplied background extras to film studios. In contemporary usage, it describes someone who so perfectly embodies a role that they appear tailor-made for it. Trump anticipated he would face criticism for the praise. 'I'll get criticised, they always criticise me when I say good things about certain leaders,' he said. Xi Jinping is reported to stand approximately 178cm (5ft 10in), a detail that attracted commentary given that Trump has long claimed a height of 6ft 3in. Photographs taken during the summit showed the two leaders appearing roughly level in stature. Xi Jinping as a Hollywood Archetype: Trump's Long-Running Rhetorical Pattern Thursday night's remarks were not the first time Trump reached for Hollywood metaphors to describe Xi. The pattern stretches back years and has recurred across markedly different political contexts. In November 2023, at a Mar-a-Lago gala, Trump described Xi in strikingly similar terms. 'He's like a piece of steel, strong, smart. There's nobody in Hollywood who could play the role,' Trump said, according to footage obtained by Heartland Signal. The comments came one day before then-President Joe Biden was due to meet Xi in California. During a Fox News town hall with Hannity, also in 2023, Trump deployed almost identical language. 'Think of President Xi. Central casting, brilliant guy,' Trump said. 'Smart, brilliant, everything perfect. There's nobody in Hollywood like this guy.' Critics have noted that Trump reserves this brand of admiration for authoritarian leaders, including Russian President Vladimir Putin and North Korean Supreme Leader Kim Jong Un. The consistency of Trump's phrasing across multiple years and settings suggests it is a settled rhetorical posture rather than an off-the-cuff remark. It sits alongside a broader diplomatic vocabulary Trump uses to signal personal warmth towards foreign counterparts, even adversarial ones, as a precondition for deal-making. Beijing Summit Ends Without Major Breakthroughs Despite Cordial Optics The remarks about Xi's appearance emerged against the backdrop of a summit characterised by warm optics but limited concrete outcomes. Trump's visit to Beijing, 14-15 May 2026, was the first by a sitting US president since 2017. He arrived to waving children a",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "ibtimes.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7230677303750906
+    },
+    {
+      "id": "src_af32dbcff7b3",
+      "title": "Trump says Xi is ‘very tall’ and out of ‘central casting’ because people in China ‘tend to be a little bit shorter’ | The Independent",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html#",
+      "snippet": "“If you went to Hollywood and ... aired Thursday night. “<strong>Even his physical features, you know, he&#x27;s tall, very tall, and especially for this country, because they tend to be a little bit shorter</strong>…...",
+      "content": "Donald Trump has lavished praise on president Xi Jinping, saying that he is “straight out of central casting” for a leader of China and is “very tall – especially for this country.” “If you went to Hollywood and you look for a leader of China, to play a role in a movie, he’s central casting… you couldn't find a guy like him,” President Trump told Fox News’ Sean Hannity in an interview which aired Thursday night. “Even his physical features, you know, he's tall, very tall, and especially for this country, because they tend to be a little bit shorter… but no, if you went to Hollywood, you wouldn't find that, you're not going to find a guy to play the role who's good.” The phrase “straight out of Central Casting” comes from an old Hollywood agency, established in 1925, that supplied background extras for television shows and movies. It is typically used to mean someone who looks the part. Trump has used the phrase previously for other men, including Supreme Court Justice Brett Kavanaugh and Kevin Warsh – his nominee to lead the Federal Reserve. “On top of everything else, he is ‘central casting,’ and he will never let you down,” Trump wrote in a Truth Social post, announcing Warsh as his nominee. Warsh referenced the remark later in his confirmation hearing, during which he was asked by Democratic Senator Elizabeth Warren if he disagreed with the president on any matters. “Well I do have a disagreement actually, Senator, with the president. This morning he said I was out of central casting. I think central casting – I’d be older, grayer and maybe show up here with a cigar of sorts,” Warsh responded, drawing laughter from some, but a stony-faced look from Warren. In his interview with Hannity, the first sit-down for the president since his bilateral with Xi, Trump continued to praise the Chinese president but suggested that it might get him in trouble. “I think he’s a warm person, actually, but he’s all business. There’s no games,” he said. “There’s no talking about how nice the weather is. ‘Aw, let’s look at the stars, let’s look at the sun,’ you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him.” He added: “They always criticize me when I say good things about certain leaders, and this one, but he's a leader for China,” the president said. “He's led almost 1.5 billion people for a long time, and he's respected. It’s sort of interesting when the fake news… they'll say President Trump said that President Xi was a brilliant leader. That's a terrible thing. What am I going to do?”",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "independent.co.uk",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.7192591330109562
+    },
+    {
+      "id": "src_ea846e88d8ee",
+      "title": "Donald Trump Calls Xi Jinping 'Very Tall' Even Though Chinese People 'Tend to Be a Little Shorter'",
+      "url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter/#",
+      "snippet": "“He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+      "content": "President Donald Trump told Fox News host Sean Hannity that Chinese President Xi Jinping is \"very tall, especially for this country, because they tend to be a little bit shorter,” as critics quickly labeled the statement as racially insensitive. The comment was made on Thursday, May 14, during an interview amid a high-stakes bilateral summit in Beijing. Trump used a Hollywood metaphor to praise Xi's presence and stature during his state visit, telling Hannity that Xi looks like he is from \"central casting,\" meaning he perfectly fits the cinematic look of a leader. He added, \"Even his physical features — he’s tall, very tall. Especially for this country, because they tend to be a little bit shorter.\" Trump framed the description as a compliment, noting that Hollywood could not find a better actor to play the role of the Chinese leader. “I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. 'Aw, let’s look at the stars, let’s look at the sun,' you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him, and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie–“ he said. “Central casting,” Hannity interrupted. “He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good,” the POTUS concluded. While critics blasted Trump’s racially insensitive slight, others noted the irony regarding the leaders' heights. Xi stands at approximately 5 feet 11 inches, whereas Trump claims a height of 6 feet 3 inches, meaning Xi is actually shorter than Trump despite the \"very tall\" characterization. - Donald Trump Mocks Tom Cruise's Height In Rambling Speech After His Real Stature Was Exposed - Donald Trump Accused of 'Chickening Out' From Asking Chinese President Xi Jinping About Taiwan Conflict - Hillary Clinton Makes Fun of 'Complicated, Messianic, Narcissistic Authoritarian' Vladimir Putin's Height: 'Short Guy' Want OK! each day? Sign up here! This is not Trump's first time focusing on height while traveling. In February, Trump went viral for joking that a previous lineup of Chinese honor guard soldiers was so perfectly matched in height that \"if they put their helmets down, you could have played pool on the top of their heads.\" This latest summit concluded without yielding a diplomatic breakthrough regarding the 77-day-old U.S.-led war in Iran. The high-stakes, 40-hour meeting ended on Friday, May 15, without producing a formal agreement on crucial global security issues, most notably the reopening of the blockaded Strait of Hormuz. Critics and opposition lawmakers have heavily scrutinized the outcome, labeling Trump’s diplomatic strategy a failure due to unreciprocated concessions and a lack of assertiveness on the world stage.",
+      "source_type": "web",
+      "provider": "brave",
+      "providers": [
+        "brave"
+      ],
+      "provider_queries": {
+        "brave": [
+          "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+        ]
+      },
+      "provider_result_count": 1,
+      "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+      "canonical_url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter",
+      "published_at": "2026-05-15T00:00:00",
+      "publisher": "okmagazine.com",
+      "source_category": "unknown",
+      "source_role": "background_support",
+      "relevance_score": 0.6918560211269076
+    }
+  ],
+  "warnings": [],
+  "response": {
+    "post": {
+      "url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+      "platform": "bluesky",
+      "author": {
+        "handle": "lc1summit.bsky.social",
+        "display_name": "LC",
+        "did": "did:plc:oz43rmwp53fxgvizn4jv3t4f"
+      },
+      "text": "The utter horror and humiliation of this man as the president of the United States.",
+      "created_at": "2026-05-15T15:50:52.238000Z",
+      "images": [
+        {
+          "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:oz43rmwp53fxgvizn4jv3t4f/bafkreicml25nlcrmwzwzhaemjrm6xd3qnw5gcjck7mdkr4sbzt7yyri5gu",
+          "alt_text": null,
+          "ocr_text": "Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN WITH HANNITY FOR\nFIRST INTERVIEW SINCE INITIAL MEETING WITH PRESIDENT XI\nBREAKING NEWS\nFOX\nchannel\n0:58",
+          "description": "The image is a screenshot of a social media post that includes a clip from a television interview. The top portion shows a dark interface typical of a social media platform, with a profile picture, the display name \"Acyn,\" the handle \"@Acyn,\" and text quoting remarks about \"President Trump on President Xi.\" Below this text is a video frame from a Fox News Channel broadcast. In the video frame, a man in a blue suit, white shirt, and red tie is seated indoors, facing slightly to the right. An American flag and blurred background decor are visible behind him. A news chyron at the bottom of the video frame mentions that President Trump sits down with Hannity for a first interview since an initial meeting with President Xi, with a \"Breaking News\" banner and the Fox News logo on the left. A small timestamp \"0:58\" appears in the lower-left corner of the frame, indicating video duration or time remaining.",
+          "image_type": "screenshot"
+        }
+      ],
+      "links": [],
+      "parent_text": null,
+      "quote_text": null,
+      "thread_text": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has desecrated the Kennedy Center;... because Americans should NEVER be allowed to hide this stain on American history and on every American.\n\n\"But he has my skin tone\"\nThey probably edited that part out."
+    },
+    "explanation": [
+      {
+        "text": "The thread by @lc1summit portrays Donald Trump’s presidency in extremely negative, hyperbolic terms, describing it as a “stain on American history and on every American” and using imagined acts like tearing down the East Wing or turning the White House into a brothel to convey the author’s view that his time in office disgraced U.S. institutions.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet summarizes the thread author’s rhetoric and opinions; it is not a factual account of Trump’s actions in office.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "Within the same thread, the author characterizes Trump as having been outmatched or humiliated by foreign leaders, saying both China’s President Xi Jinping and King Charles “took Trump to the woodshed,” implying he was dominated in those encounters.",
+        "source_ids": [
+          "thread_context"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This reflects one social media user’s interpretation of Trump’s interactions with Xi and King Charles, not an objective evaluation of diplomatic outcomes.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The attached image shows a clip shared by user Acyn of a Fox News interview segment where Donald Trump, discussing President Xi Jinping, says that if you went to Hollywood to find someone to play a Chinese leader, Xi is “central casting,” and emphasizes that Xi is “very tall—especially for this country” where people “tend to be a little bit shorter.”",
+        "source_ids": [
+          "image_1",
+          "src_535d12d911cd",
+          "src_c027dd34fcdb",
+          "src_851ec66d1f8b",
+          "src_6efb66c613f2",
+          "src_af32dbcff7b3",
+          "src_ea846e88d8ee"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "Multiple outlets independently quote the same remarks, supporting that Trump made these comments; they do not determine whether the remarks are embarrassing—that judgment belongs to commentators and social media users.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "News coverage reports that Trump’s “central casting” comments about Xi and his description of Chinese people as tending to be “a little bit shorter” occurred in a Fox News interview tied to a summit in Beijing, and that critics have described these remarks as racially insensitive or odd given the high‑stakes diplomatic setting.",
+        "source_ids": [
+          "src_535d12d911cd",
+          "src_c027dd34fcdb",
+          "src_851ec66d1f8b",
+          "src_6efb66c613f2",
+          "src_af32dbcff7b3",
+          "src_ea846e88d8ee"
+        ],
+        "claim_label": "confirmed_fact",
+        "context_modifiers": [
+          "background_context",
+          "political_context",
+          "timeline_context"
+        ],
+        "confidence": "high",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "The sources document both the timing (around a Beijing summit) and that some critics labeled the comments racially insensitive; they do not represent a universal consensus on the remarks.",
+            "bullet_index": null
+          }
+        ]
+      },
+      {
+        "text": "The horror and humiliation language in the post aligns with broader critical reactions that view Trump’s focus on Xi’s physical appearance—his height and “central casting” looks—as inappropriate or embarrassing for a U.S. president when speaking about a major foreign counterpart on national television.",
+        "source_ids": [
+          "thread_context",
+          "src_535d12d911cd",
+          "src_c027dd34fcdb",
+          "src_851ec66d1f8b",
+          "src_6efb66c613f2",
+          "src_af32dbcff7b3",
+          "src_ea846e88d8ee"
+        ],
+        "claim_label": "public_reaction",
+        "context_modifiers": [
+          "political_context"
+        ],
+        "confidence": "medium",
+        "warnings": [
+          {
+            "severity": "warning",
+            "code": "GENERAL_WARNING",
+            "message": "This bullet connects the author’s reaction with criticisms reported in news coverage; it summarizes sentiment rather than establishing an objective measure of diplomatic embarrassment.",
+            "bullet_index": null
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "image_1",
+        "title": "Image 1 from Bluesky post by @lc1summit.bsky.social",
+        "url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:oz43rmwp53fxgvizn4jv3t4f/bafkreicml25nlcrmwzwzhaemjrm6xd3qnw5gcjck7mdkr4sbzt7yyri5gu",
+        "snippet": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN W",
+        "content": "Image type: screenshot\nVisible text: Acyn\n@Acyn\n\nPresident Trump on President Xi:\n\nIf you went to Hollywood and looked for a leader of\nChina to play a role in a movie. He's Central\nCasting. He's very tall—especially for this country.\nThey tend to be a little bit shorter.\n\nPRESIDENT TRUMP SITS DOWN WITH HANNITY FOR\nFIRST INTERVIEW SINCE INITIAL MEETING WITH PRESIDENT XI\nBREAKING NEWS\nFOX\nchannel\n0:58\nVisual description: The image is a screenshot of a social media post that includes a clip from a television interview. The top portion shows a dark interface typical of a social media platform, with a profile picture, the display name \"Acyn,\" the handle \"@Acyn,\" and text quoting remarks about \"President Trump on President Xi.\" Below this text is a video frame from a Fox News Channel broadcast. In the video frame, a man in a blue suit, white shirt, and red tie is seated indoors, facing slightly to the right. An American flag and blurred background decor are visible behind him. A news chyron at the bottom of the video frame mentions that President Trump sits down with Hannity for a first interview since an initial meeting with President Xi, with a \"Breaking News\" banner and the Fox News logo on the left. A small timestamp \"0:58\" appears in the lower-left corner of the frame, indicating video duration or time remaining.",
+        "source_type": "image",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "lc1summit.bsky.social",
+        "source_category": "unknown",
+        "source_role": "image_observation"
+      },
+      {
+        "id": "src_535d12d911cd",
+        "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost Latest News",
+        "url": "https://www.huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244#",
+        "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+        "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticized, they always criticize me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-U.S. relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+        "canonical_url": "https://huffpost.com/entry/donald-trump-xi-jinping-sean-hannity-interview-central-casting_n_6a0684e1e4b0a33000e10244",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "huffpost.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_c027dd34fcdb",
+        "title": "'He's Central Casting' Trump Goes On Bizarre Rant About Xi Jinping's Appearance | HuffPost UK Politics",
+        "url": "https://www.huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc#",
+        "snippet": "President Trump on President Xi: If you went to Hollywood and looked for a leader of China to play a role in a movie. He’s Central Casting. He’s very tall—especially for this country. They tend to be a little bit shorter. pic.twitter.com/Sbg6qodtEW— Acyn (@Acyn) May 15, 2026",
+        "content": "During a wide-ranging Thursday night interview with Fox News’ Sean Hannity, President Donald Trump went on quite a tangent about Chinese President Xi Jinping’s appearance, especially his stature. “But I say about him (Xi), that if you went to Hollywood and you looked for a leader of China to play a role in a movie ... ” Trump said. “Central casting,” Hannity interjected. “He’s central casting, you couldn’t find a guy like him,” Trump said. “Even his physical features, he’s tall, very tall. Especially for this country, cause they tend to be a little bit shorter. You look at the military, I mean, the military today was incredible, that military marching was incredible. But no, if you went to Hollywood, you wouldn’t find that. You’re not gonna find a guy to play the role.” “I mean, I’ll get criticised, they always criticise me when I say good things about certain leaders,” Trump continued. Trump and Xi met behind closed doors on Thursday morning, where the Chinese president reportedly told his counterpart “the Taiwan question is the most important issue in China-US relations,” according to a post on X by Chinese Foreign Ministry spokesperson Mao Ning. “If it is handled properly, the bilateral relationship will enjoy overall stability. Otherwise, the two countries will have clashes and even conflicts, putting the entire relationship in great jeopardy,” she wrote. Trump also told Hannity during the interview that Xi said during their conversations that he “would like to be of help” in negotiations to reopen the Strait of Hormuz and an end to the war in Iran. Subscribe to Commons People, the podcast that makes politics easy. Every week, Kevin Schofield and Kate Nicholson unpack the week’s biggest stories to keep you informed. Join us for straightforward analysis of what’s going on at Westminster.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "Acyn clip \"President Trump on President Xi\" central casting very tall especially for this country quote source",
+        "canonical_url": "https://huffingtonpost.co.uk/entry/hes-central-casting-trump-goes-on-bizarre-rant-about-xi-jinpings-appearance_uk_6a06ab79e4b0ee716971e777?origin=top-ad-recirc",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "huffingtonpost.co.uk",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "thread_context",
+        "title": "Bluesky thread context for @lc1summit.bsky.social",
+        "url": "https://bsky.app/profile/lc1summit.bsky.social/post/3mlvoqr367k25",
+        "snippet": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has d",
+        "content": "Xi took Trump to the woodshed and Trump didn’t even know it was \nSo did King Charles.\n\nIgnorance is never bliss.\n\nGayest presidency ever.\n\nI'm glad Trump tore down the East Wing;  turned the rest of the Whitehouse into a brothel; is painting the Eisenhower Building; is building the Trump Arch; has desecrated the Kennedy Center;... because Americans should NEVER be allowed to hide this stain on American history and on every American.\n\n\"But he has my skin tone\"\nThey probably edited that part out.",
+        "source_type": "social",
+        "provider": "bluesky",
+        "providers": [],
+        "provider_queries": {},
+        "provider_result_count": 1,
+        "query": null,
+        "canonical_url": null,
+        "published_at": null,
+        "publisher": "lc1summit.bsky.social",
+        "source_category": "social_post",
+        "source_role": "public_reaction"
+      },
+      {
+        "id": "src_851ec66d1f8b",
+        "title": "Trump Calls Xi Jinping ‘Very Tall’ – Though Chinese People ‘Tend To Be a Little Bit Shorter’",
+        "url": "https://www.mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter/#",
+        "snippet": "TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+        "content": "Trump Calls Xi Jinping ‘Very Tall’ – Especially Because Chinese People ‘Tend To Be a Little Bit Shorter’ President Donald Trump praised Chinese President Xi Jinping’s “central casting” looks on Thursday, pointing out that he was “very tall” even though Chinese people “tend to be a little bit shorter.” Trump sat down with Fox News host Sean Hannity to discuss his ongoing summit with China and his discussions with Xi. Hannity asked the president about the Chinese leader’s style of negotiating, noting that Trump had told him previously that Xi was “all business.” “You have in the past described President Xi to me as very tough, all business,” he said. “You are not describing the type of business that he normally used to do. Do you think your relationship has evolved to the point where he can go along with your spontaneity?” Trump claimed that there were “no games” with Xi, describing his tone in meetings before taking an odd turn to the topic of the Chinese president’s looks. TRUMP: I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. “Aw, let’s look at the stars, let’s look at the sun,” you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie– HANNITY: Central casting. TRUMP: He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good. Watch above via Fox News. New: The Mediaite One-Sheet \"Newsletter of Newsletters\" Your daily summary and analysis of what the many, many media newsletters are saying and reporting. Subscribe now!",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+        "canonical_url": "https://mediaite.com/media/news/trump-calls-xi-jinping-very-tall-especially-because-chinese-people-tend-to-be-a-little-bit-shorter",
+        "published_at": "2026-05-14T00:00:00",
+        "publisher": "mediaite.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_6efb66c613f2",
+        "title": "Trump Praises Physical Appearance of Xi Jinping, Claims Chinese Leader is Perfect for a Hollywood Movie Role | IBTimes UK",
+        "url": "https://www.ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994#",
+        "snippet": "<strong>And especially for this country, because they tend to be a little bit shorter.</strong>&#x27; Trump goes on extended monologue praising Xi Jinping’s body: &quot;If you went to Hollywood and you looked for a leader of China to play a role in a movie, he&#x27;s central ...",
+        "content": "Donald Trump told Fox News that Xi Jinping is 'central casting' for the role of a Chinese leader in a Hollywood film, calling him 'very tall' and adding that the Chinese 'tend to be a little bit shorter.' The remarks came during a wide-ranging interview with Fox News host Sean Hannity, broadcast on Thursday night as Trump wrapped up the first day of a two-day state visit to Beijing. The president had just concluded a bilateral meeting with Xi at the Great Hall of the People, covering topics including Taiwan, the Iran war, and trade. Hannity asked Trump whether his personal relationship with the Chinese president had evolved, and Trump's answer took a notable detour into observations about Xi's physical stature. Trump's 'Central Casting' Remarks on Xi Jinping Dominate Post-Summit Coverage Responding to Hannity's question about Xi's negotiating style, Trump described the Chinese leader as serious and direct before pivoting abruptly. 'I think he's a warm person, actually, but he's all business. There's no games. There's no talking about how nice the weather is,' Trump told Hannity. He then compared Xi to a figure a casting director could never manufacture. 'If you went to Hollywood and looked for a leader of China to play a role in a movie, he's central casting. You couldn't find a guy like him,' Trump said. Hannity interjected with the phrase himself before Trump confirmed it. The exchange was candid and unscripted, with Trump adding: 'Even his physical features, you know. He's tall, very tall. And especially for this country, because they tend to be a little bit shorter.' The phrase 'central casting' originates from Central Casting Corporation, a Hollywood agency established in 1925 that historically supplied background extras to film studios. In contemporary usage, it describes someone who so perfectly embodies a role that they appear tailor-made for it. Trump anticipated he would face criticism for the praise. 'I'll get criticised, they always criticise me when I say good things about certain leaders,' he said. Xi Jinping is reported to stand approximately 178cm (5ft 10in), a detail that attracted commentary given that Trump has long claimed a height of 6ft 3in. Photographs taken during the summit showed the two leaders appearing roughly level in stature. Xi Jinping as a Hollywood Archetype: Trump's Long-Running Rhetorical Pattern Thursday night's remarks were not the first time Trump reached for Hollywood metaphors to describe Xi. The pattern stretches back years and has recurred across markedly different political contexts. In November 2023, at a Mar-a-Lago gala, Trump described Xi in strikingly similar terms. 'He's like a piece of steel, strong, smart. There's nobody in Hollywood who could play the role,' Trump said, according to footage obtained by Heartland Signal. The comments came one day before then-President Joe Biden was due to meet Xi in California. During a Fox News town hall with Hannity, also in 2023, Trump deployed almost identical language. 'Think of President Xi. Central casting, brilliant guy,' Trump said. 'Smart, brilliant, everything perfect. There's nobody in Hollywood like this guy.' Critics have noted that Trump reserves this brand of admiration for authoritarian leaders, including Russian President Vladimir Putin and North Korean Supreme Leader Kim Jong Un. The consistency of Trump's phrasing across multiple years and settings suggests it is a settled rhetorical posture rather than an off-the-cuff remark. It sits alongside a broader diplomatic vocabulary Trump uses to signal personal warmth towards foreign counterparts, even adversarial ones, as a precondition for deal-making. Beijing Summit Ends Without Major Breakthroughs Despite Cordial Optics The remarks about Xi's appearance emerged against the backdrop of a summit characterised by warm optics but limited concrete outcomes. Trump's visit to Beijing, 14-15 May 2026, was the first by a sitting US president since 2017. He arrived to waving children a",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+        "canonical_url": "https://ibtimes.co.uk/trump-xi-jinping-hollywood-metaphor-1796994",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "ibtimes.co.uk",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_af32dbcff7b3",
+        "title": "Trump says Xi is ‘very tall’ and out of ‘central casting’ because people in China ‘tend to be a little bit shorter’ | The Independent",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html#",
+        "snippet": "“If you went to Hollywood and ... aired Thursday night. “<strong>Even his physical features, you know, he&#x27;s tall, very tall, and especially for this country, because they tend to be a little bit shorter</strong>…...",
+        "content": "Donald Trump has lavished praise on president Xi Jinping, saying that he is “straight out of central casting” for a leader of China and is “very tall – especially for this country.” “If you went to Hollywood and you look for a leader of China, to play a role in a movie, he’s central casting… you couldn't find a guy like him,” President Trump told Fox News’ Sean Hannity in an interview which aired Thursday night. “Even his physical features, you know, he's tall, very tall, and especially for this country, because they tend to be a little bit shorter… but no, if you went to Hollywood, you wouldn't find that, you're not going to find a guy to play the role who's good.” The phrase “straight out of Central Casting” comes from an old Hollywood agency, established in 1925, that supplied background extras for television shows and movies. It is typically used to mean someone who looks the part. Trump has used the phrase previously for other men, including Supreme Court Justice Brett Kavanaugh and Kevin Warsh – his nominee to lead the Federal Reserve. “On top of everything else, he is ‘central casting,’ and he will never let you down,” Trump wrote in a Truth Social post, announcing Warsh as his nominee. Warsh referenced the remark later in his confirmation hearing, during which he was asked by Democratic Senator Elizabeth Warren if he disagreed with the president on any matters. “Well I do have a disagreement actually, Senator, with the president. This morning he said I was out of central casting. I think central casting – I’d be older, grayer and maybe show up here with a cigar of sorts,” Warsh responded, drawing laughter from some, but a stony-faced look from Warren. In his interview with Hannity, the first sit-down for the president since his bilateral with Xi, Trump continued to praise the Chinese president but suggested that it might get him in trouble. “I think he’s a warm person, actually, but he’s all business. There’s no games,” he said. “There’s no talking about how nice the weather is. ‘Aw, let’s look at the stars, let’s look at the sun,’ you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him and I could say it about some, not as complimentary, frankly, for the most part, but I say about him.” He added: “They always criticize me when I say good things about certain leaders, and this one, but he's a leader for China,” the president said. “He's led almost 1.5 billion people for a long time, and he's respected. It’s sort of interesting when the fake news… they'll say President Trump said that President Xi was a brilliant leader. That's a terrible thing. What am I going to do?”",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+        "canonical_url": "https://independent.co.uk/news/world/americas/us-politics/trump-xi-jinping-central-casting-china-b2977029.html",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "independent.co.uk",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      },
+      {
+        "id": "src_ea846e88d8ee",
+        "title": "Donald Trump Calls Xi Jinping 'Very Tall' Even Though Chinese People 'Tend to Be a Little Shorter'",
+        "url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter/#",
+        "snippet": "“He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because <strong>they tend to be a little bit shorter.</strong>",
+        "content": "President Donald Trump told Fox News host Sean Hannity that Chinese President Xi Jinping is \"very tall, especially for this country, because they tend to be a little bit shorter,” as critics quickly labeled the statement as racially insensitive. The comment was made on Thursday, May 14, during an interview amid a high-stakes bilateral summit in Beijing. Trump used a Hollywood metaphor to praise Xi's presence and stature during his state visit, telling Hannity that Xi looks like he is from \"central casting,\" meaning he perfectly fits the cinematic look of a leader. He added, \"Even his physical features — he’s tall, very tall. Especially for this country, because they tend to be a little bit shorter.\" Trump framed the description as a compliment, noting that Hollywood could not find a better actor to play the role of the Chinese leader. “I think he’s a warm person, actually, but he’s all business. There’s no games. There’s no talking about how nice the weather is. 'Aw, let’s look at the stars, let’s look at the sun,' you know. No, he’s all business, and I like that. That’s a good thing. No games. I say it about him, and I could say it about some, not as complimentary, frankly, for the most part, but I say about him that if he went to Hollywood and looked for a leader of China to play a role in a movie–“ he said. “Central casting,” Hannity interrupted. “He’s central casting. You couldn’t find a guy like him. Even his physical features, you know. He’s tall, very tall. And especially for this country, because they tend to be a little bit shorter. You look at the military. I mean, the military today was incredible. That military marching was incredible. But no, if you went to Hollywood, you would not find that. You aren’t going to find a guy to play the role who’s good,” the POTUS concluded. While critics blasted Trump’s racially insensitive slight, others noted the irony regarding the leaders' heights. Xi stands at approximately 5 feet 11 inches, whereas Trump claims a height of 6 feet 3 inches, meaning Xi is actually shorter than Trump despite the \"very tall\" characterization. - Donald Trump Mocks Tom Cruise's Height In Rambling Speech After His Real Stature Was Exposed - Donald Trump Accused of 'Chickening Out' From Asking Chinese President Xi Jinping About Taiwan Conflict - Hillary Clinton Makes Fun of 'Complicated, Messianic, Narcissistic Authoritarian' Vladimir Putin's Height: 'Short Guy' Want OK! each day? Sign up here! This is not Trump's first time focusing on height while traveling. In February, Trump went viral for joking that a previous lineup of Chinese honor guard soldiers was so perfectly matched in height that \"if they put their helmets down, you could have played pool on the top of their heads.\" This latest summit concluded without yielding a diplomatic breakthrough regarding the 77-day-old U.S.-led war in Iran. The high-stakes, 40-hour meeting ended on Friday, May 15, without producing a formal agreement on crucial global security issues, most notably the reopening of the blockaded Strait of Hormuz. Critics and opposition lawmakers have heavily scrutinized the outcome, labeling Trump’s diplomatic strategy a failure due to unreciprocated concessions and a lack of assertiveness on the world stage.",
+        "source_type": "web",
+        "provider": "brave",
+        "providers": [
+          "brave"
+        ],
+        "provider_queries": {
+          "brave": [
+            "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China"
+          ]
+        },
+        "provider_result_count": 1,
+        "query": "fact check Trump Xi comments \"they tend to be a little bit shorter\" remarks about height and China",
+        "canonical_url": "https://okmagazine.com/p/donald-trump-calls-xi-jinping-very-tall-slur-chinese-people-shorter",
+        "published_at": "2026-05-15T00:00:00",
+        "publisher": "okmagazine.com",
+        "source_category": "unknown",
+        "source_role": "background_support"
+      }
+    ],
+    "confidence": "high",
+    "warnings": [],
+    "execution_time_ms": 29123
+  }
+}
